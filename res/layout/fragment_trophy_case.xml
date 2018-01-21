@@ -5,5 +5,5 @@
         <include layout="@layout/kik_back_button" />
     </FrameLayout>
     <include android:layout_width="fill_parent" android:layout_height="@dimen/navbar_underline_height" layout="@layout/navbar_underline" />
-    <kik.android.widget.TrophyRecyclerView android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <kik.arcane.widget.TrophyRecyclerView android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
 </LinearLayout>

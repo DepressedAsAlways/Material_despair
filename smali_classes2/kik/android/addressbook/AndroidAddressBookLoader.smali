@@ -79,7 +79,7 @@
     if-nez v1, :cond_0
 
     .line 46
-    const-string v1, "kik.android.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
+    const-string v1, "kik.arcane.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
 
     invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -132,7 +132,7 @@
 
     .line 57
     :cond_0
-    const-string v0, "kik.android.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
+    const-string v0, "kik.arcane.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
 
     invoke-virtual {p2, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 

@@ -13,7 +13,7 @@
 
     .prologue
     .line 37
-    const-string v0, "content://kik.android.KikFileProvider"
+    const-string v0, "content://kik.arcane.KikFileProvider"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

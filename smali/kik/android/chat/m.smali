@@ -169,7 +169,7 @@
 
     sget-object v5, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v6, "kik.android.chat.SuggestedChatsManager.chat_jid_%d"
+    const-string v6, "kik.arcane.chat.SuggestedChatsManager.chat_jid_%d"
 
     new-array v7, v9, [Ljava/lang/Object;
 
@@ -205,7 +205,7 @@
 
     sget-object v3, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v4, "kik.android.chat.SuggestedChatsManager.chat_jid_%d"
+    const-string v4, "kik.arcane.chat.SuggestedChatsManager.chat_jid_%d"
 
     new-array v5, v9, [Ljava/lang/Object;
 
@@ -554,7 +554,7 @@
 
     sget-object v4, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v5, "kik.android.chat.SuggestedChatsManager.chat_jid_%d"
+    const-string v5, "kik.arcane.chat.SuggestedChatsManager.chat_jid_%d"
 
     const/4 v6, 0x1
 
@@ -608,7 +608,7 @@
     .line 219
     iget-object v0, p0, Lkik/android/chat/m;->a:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.SuggestedChatsManager.ignored_chat_jids"
+    const-string v1, "kik.arcane.chat.SuggestedChatsManager.ignored_chat_jids"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->t(Ljava/lang/String;)Ljava/util/Set;
 
@@ -681,7 +681,7 @@
     .line 1235
     iget-object v1, p0, Lkik/android/chat/m;->a:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.chat.SuggestedChatsManager.ignored_chat_jids"
+    const-string v2, "kik.arcane.chat.SuggestedChatsManager.ignored_chat_jids"
 
     invoke-interface {v1, v2, v0}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/util/Set;)Z
 

@@ -44,7 +44,7 @@
 
     .prologue
     .line 901
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.UserBeingUpgraded"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.UserBeingUpgraded"
 
     invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -57,7 +57,7 @@
 
     .prologue
     .line 928
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.IsCreatingPublicGroup"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.IsCreatingPublicGroup"
 
     invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->b(Ljava/lang/String;Z)V
 
@@ -70,7 +70,7 @@
 
     .prologue
     .line 934
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.PrefilledHashtag"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.PrefilledHashtag"
 
     invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -93,7 +93,7 @@
 
     .prologue
     .line 890
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.PreselectedUsers"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.PreselectedUsers"
 
     invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->a(Ljava/lang/String;Ljava/util/ArrayList;)V
 
@@ -115,7 +115,7 @@
 
     .prologue
     .line 896
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.PreselectedUsers"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.PreselectedUsers"
 
     invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->k(Ljava/lang/String;)Ljava/util/ArrayList;
 
@@ -129,7 +129,7 @@
 
     .prologue
     .line 879
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.IsFromTalkTo"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.IsFromTalkTo"
 
     const/4 v1, 0x1
 
@@ -144,7 +144,7 @@
 
     .prologue
     .line 907
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.UserBeingUpgraded"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.UserBeingUpgraded"
 
     invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
@@ -158,7 +158,7 @@
 
     .prologue
     .line 923
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.IsCreatingPublicGroup"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.IsCreatingPublicGroup"
 
     invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->g(Ljava/lang/String;)Ljava/lang/Boolean;
 
@@ -176,7 +176,7 @@
 
     .prologue
     .line 940
-    const-string v0, "kik.android.chat.fragment.StartGroupFragment.PrefilledHashtag"
+    const-string v0, "kik.arcane.chat.fragment.StartGroupFragment.PrefilledHashtag"
 
     invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 

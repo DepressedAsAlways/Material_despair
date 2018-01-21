@@ -2135,7 +2135,7 @@
     iget-object v0, p0, Lkik/android/chat/fragment/KikStartGroupFragment;->ad:Lkik/android/chat/fragment/KikStartGroupFragment$a;
 
     .line 5896
-    const-string v1, "kik.android.chat.fragment.StartGroupFragment.PreselectedUsers"
+    const-string v1, "kik.arcane.chat.fragment.StartGroupFragment.PreselectedUsers"
 
     invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikStartGroupFragment$a;->k(Ljava/lang/String;)Ljava/util/ArrayList;
 

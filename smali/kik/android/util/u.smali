@@ -480,7 +480,7 @@
 
     const-string v2, "drawable"
 
-    const-string v3, "kik.android"
+    const-string v3, "kik.arcane"
 
     invoke-virtual {v1, v0, v2, v3}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 

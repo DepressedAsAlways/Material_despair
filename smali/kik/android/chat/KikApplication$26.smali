@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const-string v1, "kik.android.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
+    const-string v1, "kik.arcane.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
 
     invoke-static {}, Lkik/core/util/v;->b()J
 

@@ -447,7 +447,7 @@
     .line 1685
     iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment;->_storage:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
+    const-string v1, "kik.arcane.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
 
     const/4 v2, 0x0
 
@@ -5947,7 +5947,7 @@
     .line 843
     iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment;->_storage:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
+    const-string v1, "kik.arcane.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
 
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Z)Ljava/lang/Boolean;
 
@@ -5962,7 +5962,7 @@
     .line 844
     iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment;->_storage:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
+    const-string v1, "kik.arcane.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 

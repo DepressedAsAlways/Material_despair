@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const-string v1, "kik.android.videochat.VideoChatNotification"
+    const-string v1, "kik.arcane.videochat.VideoChatNotification"
 
     .line 41
     invoke-virtual {v0, v1}, Landroid/support/v4/app/NotificationCompat$Builder;->setGroup(Ljava/lang/String;)Landroid/support/v4/app/NotificationCompat$Builder;

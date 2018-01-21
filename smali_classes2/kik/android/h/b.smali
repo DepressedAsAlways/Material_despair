@@ -281,7 +281,7 @@
     .line 132
     iget-object v1, p0, Lkik/android/h/b;->e:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.notifications.NotificationTracker.dismissed.ids"
+    const-string v2, "kik.arcane.notifications.NotificationTracker.dismissed.ids"
 
     invoke-interface {v1, v2, v0}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
     :try_end_0
@@ -306,7 +306,7 @@
     .line 141
     iget-object v0, p0, Lkik/android/h/b;->e:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.notifications.NotificationTracker.dismissed.ids"
+    const-string v2, "kik.arcane.notifications.NotificationTracker.dismissed.ids"
 
     invoke-interface {v0, v2}, Lkik/core/interfaces/ad;->s(Ljava/lang/String;)Ljava/lang/String;
 

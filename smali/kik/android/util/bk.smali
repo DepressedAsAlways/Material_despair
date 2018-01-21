@@ -73,7 +73,7 @@
 
     new-array v1, v5, [Ljava/lang/String;
 
-    const-string v2, "kik.android"
+    const-string v2, "kik.arcane"
 
     aput-object v2, v1, v3
 

@@ -2627,7 +2627,7 @@
     .line 1911
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v2, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v2, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -2930,7 +2930,7 @@
     .line 2003
     iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
 
-    const-string v1, "kik.android.internal.platform.settings.upload"
+    const-string v1, "kik.arcane.internal.platform.settings.upload"
 
     invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
@@ -5079,7 +5079,7 @@
     :cond_0
     iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
 
-    const-string v1, "kik.android.internal.platform.settings.upload"
+    const-string v1, "kik.arcane.internal.platform.settings.upload"
 
     invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
@@ -5292,7 +5292,7 @@
     .line 2009
     iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
 
-    const-string v1, "kik.android.internal.platform.settings.launch"
+    const-string v1, "kik.arcane.internal.platform.settings.launch"
 
     invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
@@ -5453,7 +5453,7 @@
     .line 2085
     iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
 
-    const-string v1, "kik.android.internal.platform.settings.upload"
+    const-string v1, "kik.arcane.internal.platform.settings.upload"
 
     invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
@@ -5472,7 +5472,7 @@
     .line 2086
     iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
 
-    const-string v1, "kik.android.internal.platform.settings.launch"
+    const-string v1, "kik.arcane.internal.platform.settings.launch"
 
     invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 

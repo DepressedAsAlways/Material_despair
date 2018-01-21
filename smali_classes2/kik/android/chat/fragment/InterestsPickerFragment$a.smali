@@ -41,7 +41,7 @@
 
     .prologue
     .line 108
-    const-string v0, "kik.android.chat.fragment.InterestsPickerFragment.SelectedInterests"
+    const-string v0, "kik.arcane.chat.fragment.InterestsPickerFragment.SelectedInterests"
 
     invoke-virtual {p0, v0}, Lkik/android/chat/fragment/InterestsPickerFragment$a;->k(Ljava/lang/String;)Ljava/util/ArrayList;
 

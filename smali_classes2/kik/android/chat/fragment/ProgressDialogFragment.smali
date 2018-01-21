@@ -112,14 +112,14 @@
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 45
-    const-string v1, "kik.android.ProgressDialogFragment.KEY_TEXT"
+    const-string v1, "kik.arcane.ProgressDialogFragment.KEY_TEXT"
 
     iget-object v2, p0, Lkik/android/chat/fragment/ProgressDialogFragment;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
-    const-string v1, "kik.android.ProgressDialogFragment.KEY_CANCELLABLE"
+    const-string v1, "kik.arcane.ProgressDialogFragment.KEY_CANCELLABLE"
 
     invoke-virtual {v0, v1, p2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
@@ -234,7 +234,7 @@
     if-eqz v1, :cond_1
 
     .line 1096
-    const-string v0, "kik.android.ProgressDialogFragment.KEY_TEXT"
+    const-string v0, "kik.arcane.ProgressDialogFragment.KEY_TEXT"
 
     invoke-virtual {v1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -251,7 +251,7 @@
     iput-object v0, p0, Lkik/android/chat/fragment/ProgressDialogFragment;->b:Ljava/lang/String;
 
     .line 1101
-    const-string v0, "kik.android.ProgressDialogFragment.KEY_CANCELLABLE"
+    const-string v0, "kik.arcane.ProgressDialogFragment.KEY_CANCELLABLE"
 
     const/4 v2, 0x1
 

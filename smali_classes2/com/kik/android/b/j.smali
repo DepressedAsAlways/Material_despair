@@ -256,7 +256,7 @@
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "com.kik.android.smileys.category.accessed."
+    const-string v1, "com.kik.arcane.smileys.category.accessed."
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -1101,7 +1101,7 @@
     .line 275
     iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.tray.opened"
+    const-string v1, "com.kik.arcane.smileys.tray.opened"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->v(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -1130,7 +1130,7 @@
     .line 282
     iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.tray.opened"
+    const-string v1, "com.kik.arcane.smileys.tray.opened"
 
     invoke-static {}, Lkik/core/util/v;->b()J
 
@@ -1155,7 +1155,7 @@
     .line 288
     iget-object v1, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v2, "com.kik.android.smileys.preload.complete"
+    const-string v2, "com.kik.arcane.smileys.preload.complete"
 
     invoke-interface {v1, v2}, Lkik/core/interfaces/ad;->w(Ljava/lang/String;)Ljava/lang/Boolean;
 
@@ -1183,7 +1183,7 @@
     .line 294
     iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.preload.complete"
+    const-string v1, "com.kik.arcane.smileys.preload.complete"
 
     const/4 v2, 0x1
 
@@ -1206,7 +1206,7 @@
     .line 300
     iget-object v1, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v2, "com.kik.android.smileys.longpress.complete"
+    const-string v2, "com.kik.arcane.smileys.longpress.complete"
 
     invoke-interface {v1, v2}, Lkik/core/interfaces/ad;->w(Ljava/lang/String;)Ljava/lang/Boolean;
 
@@ -1234,7 +1234,7 @@
     .line 306
     iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.longpress.complete"
+    const-string v1, "com.kik.arcane.smileys.longpress.complete"
 
     const/4 v2, 0x1
 

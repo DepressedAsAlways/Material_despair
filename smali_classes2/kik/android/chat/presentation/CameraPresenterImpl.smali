@@ -527,7 +527,7 @@
     .line 462
     iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    const-string v3, "kik.android.chat.fragment.CameraFragment.SelectCameraPreference"
+    const-string v3, "kik.arcane.chat.fragment.CameraFragment.SelectCameraPreference"
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1231,7 +1231,7 @@
     .line 105
     iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.fragment.CameraFragment.SelectCameraPreference"
+    const-string v1, "kik.arcane.chat.fragment.CameraFragment.SelectCameraPreference"
 
     const/4 v2, -0x1
 
@@ -1253,7 +1253,7 @@
     .line 108
     iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.chat.fragment.CameraFragment.SelectCameraPreference"
+    const-string v2, "kik.arcane.chat.fragment.CameraFragment.SelectCameraPreference"
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1718,7 +1718,7 @@
     .line 248
     iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.fragment.CameraFragment.FlashPreference"
+    const-string v1, "kik.arcane.chat.fragment.CameraFragment.FlashPreference"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->s(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1764,7 +1764,7 @@
     .line 259
     iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.chat.fragment.CameraFragment.FlashPreference"
+    const-string v2, "kik.arcane.chat.fragment.CameraFragment.FlashPreference"
 
     invoke-interface {v1, v2, v0}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 
@@ -2050,7 +2050,7 @@
     .line 433
     iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.chat.fragment.CameraFragment.FlashPreference"
+    const-string v2, "kik.arcane.chat.fragment.CameraFragment.FlashPreference"
 
     invoke-interface {v1, v2, v0}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 

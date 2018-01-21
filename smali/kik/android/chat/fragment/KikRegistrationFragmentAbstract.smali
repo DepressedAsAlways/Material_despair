@@ -1184,7 +1184,7 @@
 
     .prologue
     .line 509
-    const-string v0, "com.kik.android.registerSharedPrefs"
+    const-string v0, "com.kik.arcane.registerSharedPrefs"
 
     invoke-interface {p0, v0}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
@@ -4059,7 +4059,7 @@
     .line 1024
     iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->o:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.util.session.login"
+    const-string v1, "kik.arcane.util.session.login"
 
     invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -5216,7 +5216,7 @@
     .line 721
     iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->q:Lkik/android/util/ai;
 
-    const-string v5, "com.kik.android.registerSharedPrefs"
+    const-string v5, "com.kik.arcane.registerSharedPrefs"
 
     invoke-interface {v0, v5}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
@@ -5471,7 +5471,7 @@
     .line 6904
     iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->q:Lkik/android/util/ai;
 
-    const-string v1, "com.kik.android.registerSharedPrefs"
+    const-string v1, "com.kik.arcane.registerSharedPrefs"
 
     invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 

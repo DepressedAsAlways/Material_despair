@@ -211,7 +211,7 @@
     .line 224
     iget-object v0, p0, Lcom/kik/android/b/l;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.xSmileyManagerStorage.restored"
+    const-string v1, "com.kik.arcane.smileys.xSmileyManagerStorage.restored"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->w(Ljava/lang/String;)Ljava/lang/Boolean;
 

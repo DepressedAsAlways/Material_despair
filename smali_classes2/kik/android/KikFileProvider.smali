@@ -65,7 +65,7 @@
 
     if-eqz v0, :cond_2
 
-    const-string v0, "content://kik.android.debug.KikFileProvider"
+    const-string v0, "content://kik.arcane.debug.KikFileProvider"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -140,7 +140,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v4, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v4, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -203,7 +203,7 @@
     .line 140
     new-instance v0, Ljava/io/File;
 
-    const-string v1, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v1, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-static {v1}, Ljava/net/URI;->create(Ljava/lang/String;)Ljava/net/URI;
 
@@ -318,7 +318,7 @@
     .line 40
     if-eqz p0, :cond_0
 
-    const-string v0, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v0, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-static {v0}, Ljava/net/URI;->create(Ljava/lang/String;)Ljava/net/URI;
 
@@ -399,7 +399,7 @@
     .line 1129
     new-instance v0, Ljava/io/File;
 
-    const-string v1, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v1, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-static {v1}, Ljava/net/URI;->create(Ljava/lang/String;)Ljava/net/URI;
 
@@ -431,7 +431,7 @@
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v3, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v3, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

@@ -92,7 +92,7 @@
     .line 1094
     iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.preferences.UserPreferenceManager.restored"
+    const-string v1, "kik.arcane.chat.preferences.UserPreferenceManager.restored"
 
     const/4 v2, 0x1
 
@@ -290,7 +290,7 @@
     .line 58
     iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.video.automatic_fullscreen"
+    const-string v1, "kik.arcane.chat.video.automatic_fullscreen"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -324,7 +324,7 @@
     .line 83
     iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.video.automatic_fullscreen"
+    const-string v1, "kik.arcane.chat.video.automatic_fullscreen"
 
     const/4 v2, 0x0
 
@@ -347,7 +347,7 @@
     .line 1089
     iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.preferences.UserPreferenceManager.restored"
+    const-string v1, "kik.arcane.chat.preferences.UserPreferenceManager.restored"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->w(Ljava/lang/String;)Ljava/lang/Boolean;
 

@@ -324,7 +324,7 @@
 
     .prologue
     .line 342
-    const-string v0, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v0, "kik.arcane.util.FragmentBundle.FragmentClass"
 
     invoke-virtual {p0, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 

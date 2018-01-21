@@ -93,7 +93,7 @@
     .line 593
     iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
 
-    const-string v1, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v1, "kik.arcane.util.FragmentBundle.FragmentClass"
 
     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 

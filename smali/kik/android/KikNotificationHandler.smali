@@ -252,7 +252,7 @@
 
     new-instance v1, Landroid/content/IntentFilter;
 
-    const-string v2, "kik.android.notificationHandler.ACTION_MESSAGE_READ"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_MESSAGE_READ"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -263,7 +263,7 @@
 
     new-instance v1, Landroid/content/IntentFilter;
 
-    const-string v2, "kik.android.notificationHandler.ACTION_MESSAGE_REPLY"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_MESSAGE_REPLY"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -274,7 +274,7 @@
 
     new-instance v1, Landroid/content/IntentFilter;
 
-    const-string v2, "kik.android.notificationHandler.ACTION_MESSAGE_DISMISS"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_MESSAGE_DISMISS"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -285,7 +285,7 @@
 
     new-instance v1, Landroid/content/IntentFilter;
 
-    const-string v2, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -296,7 +296,7 @@
 
     new-instance v1, Landroid/content/IntentFilter;
 
-    const-string v2, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -307,7 +307,7 @@
 
     new-instance v1, Landroid/content/IntentFilter;
 
-    const-string v2, "kik.android.notificationHandler.ACTION_DISMISS_VIDEO"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_DISMISS_VIDEO"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -318,7 +318,7 @@
 
     new-instance v1, Landroid/content/IntentFilter;
 
-    const-string v2, "kik.android.notificationHandler.ACTION_OPEN_TROPHY_CASE"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_OPEN_TROPHY_CASE"
 
     invoke-direct {v1, v2}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
@@ -377,7 +377,7 @@
 
     move-result-object v0
 
-    const-string v1, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN"
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -387,7 +387,7 @@
     if-eqz p1, :cond_1
 
     .line 1071
-    const-string v0, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
+    const-string v0, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
 
     invoke-virtual {v4, v0}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -484,7 +484,7 @@
 
     move-result-object v1
 
-    const-string v2, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN"
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -504,7 +504,7 @@
     if-eqz p3, :cond_1
 
     .line 1121
-    const-string v2, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -1906,7 +1906,7 @@
 
     move-result-object v10
 
-    const-string v12, "kik.android.notificationHandler.ACTION_MESSAGE_READ"
+    const-string v12, "kik.arcane.notificationHandler.ACTION_MESSAGE_READ"
 
     invoke-virtual {v10, v12}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -1975,7 +1975,7 @@
 
     move-result-object v12
 
-    const-string v13, "kik.android.notificationHandler.ACTION_MESSAGE_REPLY"
+    const-string v13, "kik.arcane.notificationHandler.ACTION_MESSAGE_REPLY"
 
     invoke-virtual {v12, v13}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -4192,7 +4192,7 @@
 
     move-result-object v0
 
-    const-string v1, "kik.android.notificationHandler.ACTION_MESSAGE_DISMISS"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_MESSAGE_DISMISS"
 
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -4953,7 +4953,7 @@
 
     move-result-object v0
 
-    const-string v1, "kik.android.notificationHandler.ACTION_DISMISS_VIDEO"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_DISMISS_VIDEO"
 
     .line 17662
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
@@ -5422,7 +5422,7 @@
 
     move-result-object v1
 
-    const-string v2, "kik.android.notificationHandler.ACTION_OPEN_TROPHY_CASE"
+    const-string v2, "kik.arcane.notificationHandler.ACTION_OPEN_TROPHY_CASE"
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
@@ -5669,7 +5669,7 @@
 
     .line 1314
     :cond_1
-    const-string v1, "kik.android.notificationHandler.ACTION_MESSAGE_READ"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_MESSAGE_READ"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -5710,7 +5710,7 @@
 
     .line 1317
     :cond_2
-    const-string v1, "kik.android.notificationHandler.ACTION_MESSAGE_REPLY"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_MESSAGE_REPLY"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -5797,7 +5797,7 @@
 
     .line 1320
     :cond_4
-    const-string v1, "kik.android.notificationHandler.ACTION_MESSAGE_DISMISS"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_MESSAGE_DISMISS"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -5821,7 +5821,7 @@
 
     .line 1323
     :cond_5
-    const-string v1, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -5840,7 +5840,7 @@
 
     .line 1326
     :cond_6
-    const-string v1, "kik.android.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_MESSAGE_OPEN_VIDEO"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -5859,7 +5859,7 @@
 
     .line 1329
     :cond_7
-    const-string v1, "kik.android.notificationHandler.ACTION_DISMISS_VIDEO"
+    const-string v1, "kik.arcane.notificationHandler.ACTION_DISMISS_VIDEO"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -5936,7 +5936,7 @@
 
     .line 1332
     :cond_8
-    const-string v0, "kik.android.notificationHandler.ACTION_OPEN_TROPHY_CASE"
+    const-string v0, "kik.arcane.notificationHandler.ACTION_OPEN_TROPHY_CASE"
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 

@@ -2229,7 +2229,7 @@
 
     .line 28102
     :cond_0
-    const-string v0, "kik.android.chat.fragment.InterestsPickerFragment.SelectedInterests"
+    const-string v0, "kik.arcane.chat.fragment.InterestsPickerFragment.SelectedInterests"
 
     invoke-virtual {v1, v0, v2}, Lkik/android/chat/fragment/InterestsPickerFragment$a;->a(Ljava/lang/String;Ljava/util/ArrayList;)V
 

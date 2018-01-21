@@ -205,7 +205,7 @@
 
     .line 133
     :cond_4
-    const-string v0, "kik.android.chat.video.automatic_fullscreen"
+    const-string v0, "kik.arcane.chat.video.automatic_fullscreen"
 
     invoke-virtual {p1, v0}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 

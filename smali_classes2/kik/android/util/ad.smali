@@ -50,7 +50,7 @@
 
     .line 38
     :cond_0
-    const-string v0, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v0, "kik.arcane.util.FragmentBundle.FragmentClass"
 
     invoke-direct {p0}, Lkik/android/util/ad;->b()Ljava/lang/String;
 
@@ -153,7 +153,7 @@
     iput-object p1, p0, Lkik/android/util/ad;->a:Landroid/os/Bundle;
 
     .line 144
-    const-string v0, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v0, "kik.arcane.util.FragmentBundle.FragmentClass"
 
     invoke-direct {p0}, Lkik/android/util/ad;->b()Ljava/lang/String;
 

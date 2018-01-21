@@ -775,7 +775,7 @@
 
     move-object/from16 v16, v0
 
-    const-string v17, "kik.android.widget.ProfileActionItemViewCreator"
+    const-string v17, "kik.arcane.widget.ProfileActionItemViewCreator"
 
     move-object/from16 v0, v16
 
@@ -797,7 +797,7 @@
 
     iget-object v2, v0, Lkik/android/e/h;->i:Lkik/android/widget/AutoResizeRecyclerGridView;
 
-    const-string v16, "kik.android.widget.MemberGridItemViewCreator"
+    const-string v16, "kik.arcane.widget.MemberGridItemViewCreator"
 
     move-object/from16 v0, v16
 
@@ -880,7 +880,7 @@
 
     iget-object v2, v0, Lkik/android/e/h;->t:Lkik/android/widget/SeparatorLineRecyclerView;
 
-    const-string v3, "kik.android.widget.ProfileActionItemViewCreator"
+    const-string v3, "kik.arcane.widget.ProfileActionItemViewCreator"
 
     invoke-static {v2, v10, v3}, Lcom/kik/util/j;->a(Landroid/support/v7/widget/RecyclerView;Lkik/android/chat/vm/IListViewModel;Ljava/lang/String;)V
 

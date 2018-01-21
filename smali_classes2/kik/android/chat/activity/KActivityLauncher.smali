@@ -233,7 +233,7 @@
     move-result-object v0
 
     .line 311
-    const-string v4, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v4, "kik.arcane.util.FragmentBundle.FragmentClass"
 
     invoke-virtual {p0, v4}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 

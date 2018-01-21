@@ -5473,7 +5473,7 @@
 
     iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v5, "kik.android.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
+    const-string v5, "kik.arcane.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
 
     const/4 v6, 0x1
 
@@ -7918,7 +7918,7 @@
     .line 20955
     iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
+    const-string v1, "kik.arcane.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->v(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -7961,7 +7961,7 @@
     .line 20960
     iget-object v2, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v3, "kik.android.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
+    const-string v3, "kik.arcane.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
 
     invoke-static {}, Lkik/core/util/v;->b()J
 
@@ -8023,7 +8023,7 @@
     .line 20977
     iget-object v1, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
+    const-string v2, "kik.arcane.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
 
     invoke-interface {v1, v2}, Lkik/core/interfaces/ad;->v(Ljava/lang/String;)Ljava/lang/Long;
 

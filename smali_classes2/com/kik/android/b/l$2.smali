@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    const-string v1, "com.kik.android.smileys.xSmileyManagerStorage.restored"
+    const-string v1, "com.kik.arcane.smileys.xSmileyManagerStorage.restored"
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 

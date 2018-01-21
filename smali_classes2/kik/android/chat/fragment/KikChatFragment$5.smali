@@ -48,7 +48,7 @@
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
     .line 1752
-    const-string v1, "market://details?id=kik.android"
+    const-string v1, "market://details?id=kik.arcane"
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

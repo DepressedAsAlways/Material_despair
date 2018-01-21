@@ -3674,7 +3674,7 @@
 
     .prologue
     .line 314
-    const-string v0, "com.kik.android.smileys.tray.opened"
+    const-string v0, "com.kik.arcane.smileys.tray.opened"
 
     invoke-virtual {p0, v0}, Lcom/kik/storage/ac;->v(Ljava/lang/String;)Ljava/lang/Long;
 

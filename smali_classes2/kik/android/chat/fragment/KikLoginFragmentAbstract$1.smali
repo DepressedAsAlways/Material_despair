@@ -450,7 +450,7 @@
 
     iget-object v0, v0, Lkik/android/chat/fragment/KikLoginFragmentAbstract;->o:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.util.session.login"
+    const-string v1, "kik.arcane.util.session.login"
 
     invoke-static {v5}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 

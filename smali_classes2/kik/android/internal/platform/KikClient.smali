@@ -185,7 +185,7 @@
     :cond_4
     if-eqz v3, :cond_5
 
-    const-string v0, "/data/data/kik.android"
+    const-string v0, "/data/data/kik.arcane"
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -222,7 +222,7 @@
 
     if-eqz v0, :cond_7
 
-    const-string v0, "content://kik.android.debug.KikFileProvider"
+    const-string v0, "content://kik.arcane.debug.KikFileProvider"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

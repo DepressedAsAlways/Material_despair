@@ -53,7 +53,7 @@
     .line 529
     const-string v1, "package"
 
-    const-string v2, "kik.android"
+    const-string v2, "kik.arcane"
 
     const/4 v3, 0x0
 

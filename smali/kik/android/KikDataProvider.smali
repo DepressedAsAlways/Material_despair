@@ -41,7 +41,7 @@
     const/16 v4, 0x8
 
     .line 49
-    const-string v0, "content://kik.android.KikDataProvider/contacts/roster"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/roster"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -50,7 +50,7 @@
     sput-object v0, Lkik/android/KikDataProvider;->a:Landroid/net/Uri;
 
     .line 50
-    const-string v0, "content://kik.android.KikDataProvider/contacts/canbegrouped"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/canbegrouped"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -59,7 +59,7 @@
     sput-object v0, Lkik/android/KikDataProvider;->b:Landroid/net/Uri;
 
     .line 51
-    const-string v0, "content://kik.android.KikDataProvider/contacts/contactid"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/contactid"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -68,7 +68,7 @@
     sput-object v0, Lkik/android/KikDataProvider;->c:Landroid/net/Uri;
 
     .line 52
-    const-string v0, "content://kik.android.KikDataProvider/contacts/blockedcontacts"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/blockedcontacts"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -77,7 +77,7 @@
     sput-object v0, Lkik/android/KikDataProvider;->d:Landroid/net/Uri;
 
     .line 53
-    const-string v0, "content://kik.android.KikDataProvider/contacts/notblockedcontacts"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/notblockedcontacts"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -86,7 +86,7 @@
     sput-object v0, Lkik/android/KikDataProvider;->e:Landroid/net/Uri;
 
     .line 54
-    const-string v0, "content://kik.android.KikDataProvider/contacts/notbotscontacts"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/notbotscontacts"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -104,7 +104,7 @@
     .line 76
     sput-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/search_suggest_query"
 
@@ -113,7 +113,7 @@
     .line 77
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/search_suggest_query/*"
 
@@ -122,7 +122,7 @@
     .line 78
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contactsIncludeUsername/search_suggest_query"
 
@@ -133,7 +133,7 @@
     .line 79
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contactsIncludeUsername/search_suggest_query/*"
 
@@ -144,7 +144,7 @@
     .line 81
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "notblockedcontacts/search_suggest_query"
 
@@ -153,7 +153,7 @@
     .line 82
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "notblockedcontacts/search_suggest_query/*"
 
@@ -162,7 +162,7 @@
     .line 84
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "conversations/search_suggest_query"
 
@@ -171,7 +171,7 @@
     .line 85
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "conversations/search_suggest_query/*"
 
@@ -180,7 +180,7 @@
     .line 86
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/roster"
 
@@ -189,7 +189,7 @@
     .line 87
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/roster/*"
 
@@ -198,7 +198,7 @@
     .line 88
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/roster/*/*"
 
@@ -209,7 +209,7 @@
     .line 89
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/contactid"
 
@@ -218,7 +218,7 @@
     .line 90
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/contactid/*"
 
@@ -227,7 +227,7 @@
     .line 91
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/canbegrouped"
 
@@ -238,7 +238,7 @@
     .line 92
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/canbegrouped/*"
 
@@ -249,7 +249,7 @@
     .line 93
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/canbegrouped/*/*"
 
@@ -260,7 +260,7 @@
     .line 94
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/blockedcontacts"
 
@@ -271,7 +271,7 @@
     .line 95
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/blockedcontacts/*"
 
@@ -282,7 +282,7 @@
     .line 96
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notblockedcontacts"
 
@@ -291,7 +291,7 @@
     .line 97
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notblockedcontacts/*"
 
@@ -300,7 +300,7 @@
     .line 98
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notbotscontacts"
 
@@ -311,7 +311,7 @@
     .line 99
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notbotscontacts/*"
 
@@ -322,7 +322,7 @@
     .line 100
     sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notbotscontacts/*/*"
 

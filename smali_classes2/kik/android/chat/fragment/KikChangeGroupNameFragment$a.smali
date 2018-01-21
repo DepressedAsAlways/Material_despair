@@ -32,7 +32,7 @@
 
     .prologue
     .line 213
-    const-string v0, "kik.android.chat.fragment.KikChangeGroupNameFragment.GroupJid"
+    const-string v0, "kik.arcane.chat.fragment.KikChangeGroupNameFragment.GroupJid"
 
     invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/KikChangeGroupNameFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 219
-    const-string v0, "kik.android.chat.fragment.KikChangeGroupNameFragment.GroupJid"
+    const-string v0, "kik.arcane.chat.fragment.KikChangeGroupNameFragment.GroupJid"
 
     invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikChangeGroupNameFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
