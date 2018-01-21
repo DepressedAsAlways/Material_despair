@@ -2023,6 +2023,7 @@
 
     .prologue
     .line 255
+	# Disable Vid Chat Location
     iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager;->i:Lkik/core/interfaces/b;
 
     const-string v1, "hide_video_chat_android"

@@ -276,6 +276,8 @@
     iget-object v0, p0, Lkik/core/abtesting/e;->i:Ljava/util/Set;
 
     new-instance v1, Lkik/core/abtesting/b;
+	#This file stores ab testing stuff is a good reference
+	#So check it out every kik update
 
     const-string v2, "a_a_test"
 
@@ -558,6 +560,7 @@
     iget-object v0, p0, Lkik/core/abtesting/e;->i:Ljava/util/Set;
 
     new-instance v1, Lkik/core/abtesting/b;
+	#The better a/b starts here
 
     const-string v2, "hide_video_chat_android"
 

@@ -4710,6 +4710,9 @@
     if-nez v0, :cond_1
 
     iget-object v0, p0, Lkik/arcane/KikNotificationHandler;->f:Lkik/core/interfaces/b;
+	# Disable vid chat notifications location
+	# Make key for this same as disable vid chat
+	# So that it's a single toggle
 
     const-string v5, "hide_video_chat_notifications_android"
 
