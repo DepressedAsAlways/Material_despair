@@ -796,7 +796,7 @@
 .end method
 
 .method protected writeInnerIq(Lkik/core/net/h;)V
-    .locals 7
+    .locals 10
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -998,7 +998,26 @@
     if-eqz v1, :cond_6
 
     const-string v1, "true"
+	
+	const-string v8, "kinky.receipt"
 
+    invoke-static {v8}, Lkinky/values;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v9
+
+    .line 69
+    .local v0, "value":Ljava/lang/String;
+    const-string v8, "Stealth"
+
+    invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky
+
+    const-string v1, "false"
+
+    :cond_kinky
     move-object v3, p1
 
     goto :goto_3

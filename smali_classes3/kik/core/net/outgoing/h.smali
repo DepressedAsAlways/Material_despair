@@ -236,7 +236,7 @@
 .end method
 
 .method public final writeOutgoingStanza(Lkik/core/net/h;)V
-    .locals 7
+    .locals 10
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -333,8 +333,41 @@
     const-string v1, "read"
 
     .line 6042
+	const-string v8, "kinky.receipt"
+
+    invoke-static {v8}, Lkinky/values;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v9
+
+    .line 69
+    .local v0, "value":Ljava/lang/String;
+    const-string v8, "Delivered"
+
+    invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v8
+
+    if-nez v8, :cond_kinky
+
+    const-string v8, "kinky.receipt"
+
+    invoke-static {v8}, Lkinky/values;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v9
+
+    .line 69
+    .local v0, "value":Ljava/lang/String;
+    const-string v8, "Stealth"
+
+    invoke-virtual {v8, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v8
+
+    if-nez v8, :cond_kinky
+	
     invoke-virtual {p1, v0, v1}, Lkik/core/net/h;->d(Ljava/lang/String;Ljava/lang/String;)Lkik/org/xmlpull/v1/b;
 
+	:cond_kinky
     move v1, v2
 
     .line 72
