@@ -6,4 +6,5 @@
     <item type="drawable" name="prof_pic_placeholder">@drawable/img_profile_large</item>
     <item type="drawable" name="top_bar_item_selected">#ffc3c3c3</item>
     <item type="drawable" name="white">@color/white</item>
+  <item type="drawable" name="fg">@color/fg</item>
 </resources>
