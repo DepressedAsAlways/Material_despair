@@ -35,16 +35,9 @@
 
     .prologue
     .line 21
-    if-nez p0, :cond_0
+    if-eqz p0, :cond_1
 
-    .line 22
-    const/4 v0, 0x0
-
-    .line 24
-    :goto_0
-    return v0
-
-    :cond_0
+	# trophy case
     const-string v0, "trophy-case"
 
     const-string v1, "show-trophy-case"
@@ -52,6 +45,25 @@
     invoke-interface {p0, v0, v1}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
+	
+	if-nez v0, :cond_0
+	
+	const-string v0, "kinky.trophy"
+	
+	invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v0
+	
+	if-eqz v0, :cond_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_1
+    const/4 v0, 0x0
 
     goto :goto_0
 .end method
@@ -61,16 +73,9 @@
 
     .prologue
     .line 29
-    if-nez p0, :cond_0
+    if-eqz p0, :cond_1
 
-    .line 30
-    const/4 v0, 0x0
-
-    .line 32
-    :goto_0
-    return v0
-
-    :cond_0
+	# multi photo
     const-string v0, "multiple_photos"
 
     const-string v1, "multiple_photos"
@@ -78,6 +83,25 @@
     invoke-interface {p0, v0, v1}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
+	
+	if-nez v0, :cond_0
+	
+	const-string v0, "kinky.multi"
+	
+	invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v0
+	
+	if-eqz v0, :cond_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_1
+    const/4 v0, 0x0
 
     goto :goto_0
 .end method
@@ -86,17 +110,11 @@
     .locals 3
 
     .prologue
-    const/4 v0, 0x0
 
     .line 37
-    if-nez p0, :cond_1
+    if-eqz p0, :cond_1
 
-    .line 41
-    :cond_0
-    :goto_0
-    return v0
-
-    :cond_1
+	# days on kik
     const-string v1, "profile_daysonkik_android"
 
     const-string v2, "show"
@@ -104,9 +122,18 @@
     invoke-interface {p0, v1, v2}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v1
+	
+	if-nez v1, :cond_0
+	
+	const-string v1, "kinky.days"
+	
+	invoke-static {v1}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
-    if-eqz v1, :cond_0
+    move-result v1
 
+    if-eqz v1, :cond_1
+
+	# bios
     const-string v1, "profile-bios"
 
     const-string v2, "show-profile-bios"
@@ -115,9 +142,24 @@
 
     move-result v1
 
-    if-nez v1, :cond_0
+    if-eqz v1, :cond_0
+	
+	const-string v1, "kinky.bios"
+	
+	invoke-static {v1}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v1
+	
+	if-nez v1, :cond_1
+
+    :cond_0
     const/4 v0, 0x1
+
+    :goto_0
+    return v0
+
+    :cond_1
+    const/4 v0, 0x0
 
     goto :goto_0
 .end method
