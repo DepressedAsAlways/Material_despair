@@ -6815,7 +6815,6 @@
     .line 2390
     iget-object v3, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->f:Lkik/core/interfaces/b;
 
-	# multi photo
     const-string v4, "multiple_photos"
 
     const-string v5, "multiple_photos"
