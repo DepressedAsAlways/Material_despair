@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Contributors" android:key="@string/title_chat_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+    <paradoxical.Empty android:title="Designer:" />
+	<paradoxical.DevPref android:title="Unf4giv9" android:summary="Creator of the aesthetic style of this kik" android:key="kik.help">
+		<intent android:action="android.intent.action.VIEW" android:data="kik://users/Unf4giv9/profile" />
+	</paradoxical.DevPref>
+	<paradoxical.Empty android:title="Developer:" />
+	<paradoxical.DevPref android:title="KinkyGod" android:summary="Developed most the features" android:key="kik.help">
+		<intent android:action="android.intent.action.VIEW" android:data="kik://users/.no_u/profile" />
+	</paradoxical.DevPref>
+</PreferenceScreen>

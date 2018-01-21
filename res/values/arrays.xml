@@ -47,4 +47,21 @@
     <string-array name="refreshDeviceListForNewSurface">
         <item>LG-H340</item>
     </string-array>
+	<string-array name="kinky_colors">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Mint</item>
+        <item>Yellow</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="kinky_receipts">
+        <item>Normal</item>
+        <item>Delivered</item>
+        <item>Stealth</item>
+    </string-array>
 </resources>

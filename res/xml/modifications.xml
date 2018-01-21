@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Modifications" android:key="@string/title_chat_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+    <paradoxical.Toggle android:title="Lonely Toggle" android:summary="I do nothing" />
+    <paradoxical.Empty android:title="Chat:" />
+    <paradoxical.List android:entries="@array/kinky_receipts" android:title="Read receipts" android:key="kinky.receipt" android:summary="How your messages are perceived" android:entryValues="@array/kinky_receipts" />
+	<paradoxical.Toggle android:title="Disable Typing" android:key="kinky.typing" android:summary="Other users can't see what you type" />
+</PreferenceScreen>

@@ -23,6 +23,10 @@
 
 .field private h:Landroid/view/View;
 
+.field private i:Landroid/view/View;
+
+.field private j:Landroid/view/View;
+
 
 # direct methods
 .method public constructor <init>(Lkik/android/chat/fragment/UserProfileFragment;Landroid/view/View;)V
@@ -197,8 +201,46 @@
     invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$7;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+	
+	.line 96
+    const v0, 0x7f100434
 
-    .line 96
+    const-string v1, "method \'onModificationsTapped\'"
+
+    invoke-static {p2, v0, v1}, Lbutterknife/internal/Utils;->findRequiredView(Landroid/view/View;ILjava/lang/String;)Landroid/view/View;
+
+    move-result-object v0
+
+    .line 97
+    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
+
+    .line 98
+    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$8;
+
+    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$8;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+	
+	.line 104
+    const v0, 0x7f100435
+
+    const-string v1, "method \'onContributorsTapped\'"
+
+    invoke-static {p2, v0, v1}, Lbutterknife/internal/Utils;->findRequiredView(Landroid/view/View;ILjava/lang/String;)Landroid/view/View;
+
+    move-result-object v0
+
+    .line 105
+    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
+
+    .line 106
+    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$9;
+
+    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$9;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 112
     return-void
 .end method
 
@@ -289,7 +331,23 @@
 
     .line 121
     iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->h:Landroid/view/View;
+	
+	.line 122
+    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
 
-    .line 122
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 123
+    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
+	
+	.line 124
+    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
+
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 125
+    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
+
+    .line 126
     return-void
 .end method

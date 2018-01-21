@@ -18,7 +18,7 @@
 
 .field private static final v:J
 
-.field private static w:Lkik/android/chat/KikApplication;
+.field public static w:Lkik/android/chat/KikApplication;
 
 .field private static x:Lkik/android/KikNotificationHandler;
 
@@ -157,7 +157,7 @@
 
 .field private aJ:Z
 
-.field private aK:Lkik/android/util/bq;
+.field public aK:Lkik/android/util/bq;
 
 .field private aL:Lkik/core/interfaces/s;
 
@@ -4938,13 +4938,13 @@
     move-result-object v6
 
     invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
-
-    .line 16375
+	
+	.line 16375
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v5, "kik.new.people.notify"
+    const-string v5, "kinky.typing"
 
     const/4 v6, 0x1
 
@@ -4959,6 +4959,21 @@
 
     iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
+    const-string v5, "kik.new.people.notify"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+
+    .line 16377
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
     const-string v5, "kik.chat.video.prefetch"
 
     const v6, 0x7f0904e1
@@ -4969,7 +4984,7 @@
 
     invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 
-    .line 16377
+    .line 16378
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;

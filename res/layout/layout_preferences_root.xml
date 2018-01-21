@@ -3,37 +3,47 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_account" style="@style/PreferencesRow.Container">
-        <ImageView android:src="@drawable/ic_settings_account" style="@style/PreferencesRow.Icon" />
+        <ImageView android:src="@xml/kinky_account_icon_selector" style="@style/PreferencesRow.Icon" />
         <kik.android.widget.RobotoTextView android:text="@string/title_your_account_info" style="@style/PreferencesRow.Title" />
     </LinearLayout>
-    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginLeft="68.0dip" />
+    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_kik_code" style="@style/PreferencesRow.Container">
-        <ImageView android:src="@drawable/ic_settings_kik_code" style="@style/PreferencesRow.Icon" />
+        <ImageView android:src="@xml/kinky_kik_code_icon_selector" style="@style/PreferencesRow.Icon" />
         <kik.android.widget.RobotoTextView android:text="@string/your_code" style="@style/PreferencesRow.Title" />
     </LinearLayout>
-    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginLeft="68.0dip" />
+    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_web_history" style="@style/PreferencesRow.Container">
-        <ImageView android:src="@drawable/ic_settings_web_history" style="@style/PreferencesRow.Icon" />
+        <ImageView android:src="@xml/kinky_web_history_icon_selector" style="@style/PreferencesRow.Icon" />
         <kik.android.widget.RobotoTextView android:text="@string/title_your_web_history" style="@style/PreferencesRow.Title" />
     </LinearLayout>
-    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginLeft="68.0dip" />
+    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_notifications" style="@style/PreferencesRow.Container">
-        <ImageView android:src="@drawable/ic_settings_notifications" style="@style/PreferencesRow.Icon" />
+        <ImageView android:src="@xml/kinky_notifications_icon_selector" style="@style/PreferencesRow.Icon" />
         <kik.android.widget.RobotoTextView android:text="@string/title_notifications" style="@style/PreferencesRow.Title" />
     </LinearLayout>
-    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginLeft="68.0dip" />
+	<View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
+    <LinearLayout android:id="@id/mod_tab" style="@style/PreferencesRow.Container">
+        <ImageView android:src="@xml/kinky_mod_tab_icon_selector" style="@style/PreferencesRow.Icon" />
+        <kik.android.widget.RobotoTextView android:text="Modifications" style="@style/PreferencesRow.Title" />
+    </LinearLayout>
+	<View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
+    <LinearLayout android:id="@id/dev_tab" style="@style/PreferencesRow.Container">
+        <ImageView android:src="@xml/kinky_dev_tab_icon_selector" style="@style/PreferencesRow.Icon" />
+        <kik.android.widget.RobotoTextView android:text="Contributors" style="@style/PreferencesRow.Title" />
+    </LinearLayout>
+    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_chat" style="@style/PreferencesRow.Container">
-        <ImageView android:src="@drawable/ic_settings_chat" style="@style/PreferencesRow.Icon" />
+        <ImageView android:src="@xml/kinky_chat_icon_selector" style="@style/PreferencesRow.Icon" />
         <kik.android.widget.RobotoTextView android:text="@string/title_chat_settings" style="@style/PreferencesRow.Title" />
     </LinearLayout>
-    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginLeft="68.0dip" />
+    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_privacy" style="@style/PreferencesRow.Container">
-        <ImageView android:src="@drawable/ic_settings_privacy" style="@style/PreferencesRow.Icon" />
+        <ImageView android:src="@xml/kinky_privacy_icon_selector" style="@style/PreferencesRow.Icon" />
         <kik.android.widget.RobotoTextView android:text="@string/title_privacy" style="@style/PreferencesRow.Title" />
     </LinearLayout>
-    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginLeft="68.0dip" />
+    <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_help" style="@style/PreferencesRow.Container">
-        <ImageView android:src="@drawable/ic_settings_help" style="@style/PreferencesRow.Icon" />
+        <ImageView android:src="@xml/kinky_help_icon_selector" style="@style/PreferencesRow.Icon" />
         <kik.android.widget.RobotoTextView android:text="@string/title_help_about_us" style="@style/PreferencesRow.Title" />
     </LinearLayout>
     <View android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />

@@ -2059,6 +2059,8 @@
     <public type="xml" name="z_kinky_top_incoming_bubble_mask" id="0x7f07002e" />
     <public type="xml" name="z_kinky_top_outgoing_bubble_mask" id="0x7f07002f" />
     <public type="xml" name="z_kinky_top_outgoing_image_bubble_mask" id="0x7f070030" />
+	<public type="xml" name="modifications" id="0x7f070031" />
+	<public type="xml" name="contributors" id="0x7f070032" />
     <public type="raw" name="ca_certificates" id="0x7f080000" />
     <public type="raw" name="kik_icon" id="0x7f080001" />
     <public type="raw" name="lut_deeply" id="0x7f080002" />
@@ -6063,4 +6065,6 @@
     <public type="id" name="visible" id="0x7f100431" />
     <public type="id" name="masked" id="0x7f100432" />
     <public type="id" name="floating_search_background_shadow" id="0x7f100433" />
+	<public type="id" name="mod_tab" id="0x7f100434" />
+	<public type="id" name="dev_tab" id="0x7f100435" />
 </resources>
