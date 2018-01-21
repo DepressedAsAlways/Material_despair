@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--Our Colors-->
+<color name="fg">#ffffffff</color>
+<color name="bg">#ffffffff</color>
+<color name="unf4giv9_downstate">#ffffffff</color>
+<color name="fg2">#ffffffff</color>
+<!--Our Colors End-->
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#ff7fa87f</color>
