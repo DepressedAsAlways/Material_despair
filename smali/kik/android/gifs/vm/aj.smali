@@ -1167,6 +1167,7 @@
 
     iget-object v0, p0, Lkik/arcane/gifs/vm/aj;->f:Lkik/core/interfaces/b;
 
+	# Gif boi
     const-string v1, "gif_favorites"
 
     const-string v2, "show"
@@ -2053,6 +2054,7 @@
     .line 360
     iget-object v0, p0, Lkik/arcane/gifs/vm/aj;->f:Lkik/core/interfaces/b;
 
+	# Gid boi part 2
     const-string v1, "gif_favorites"
 
     const-string v2, "show"

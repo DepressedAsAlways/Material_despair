@@ -366,6 +366,7 @@
     .line 97
     iget-object v0, p0, Lkik/arcane/gifs/vm/t;->c:Lkik/core/interfaces/b;
 
+	# Gif boi part 3
     const-string v1, "gif_favorites"
 
     const-string v2, "show"
