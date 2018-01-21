@@ -2061,6 +2061,7 @@
     <public type="xml" name="z_kinky_top_outgoing_image_bubble_mask" id="0x7f070030" />
 	<public type="xml" name="modifications" id="0x7f070031" />
 	<public type="xml" name="contributors" id="0x7f070032" />
+	<public type="xml" name="z_kinky_trans_bubble" id="0x7f070033" />
     <public type="raw" name="ca_certificates" id="0x7f080000" />
     <public type="raw" name="kik_icon" id="0x7f080001" />
     <public type="raw" name="lut_deeply" id="0x7f080002" />

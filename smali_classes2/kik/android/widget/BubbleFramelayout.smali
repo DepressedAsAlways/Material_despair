@@ -624,7 +624,18 @@
 
     .line 1247
     const v0, 0x7f070029
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinkyd
+	
+	const v0, 0x7f070033
+
+	:cond_kinkyd
     goto :goto_0
 
     .line 1249
@@ -635,13 +646,35 @@
 
     .line 1250
     const v0, 0x7f07002d
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinkyc
+	
+	const v0, 0x7f070033
+
+	:cond_kinkyc
     goto :goto_0
 
     .line 1253
     :cond_5
     const v0, 0x7f070030
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinkyb
+	
+	const v0, 0x7f070033
+
+	:cond_kinkyb
     goto :goto_0
 
     .line 1255
@@ -652,7 +685,18 @@
 
     .line 1256
     const v0, 0x7f07002a
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinkya
+	
+	const v0, 0x7f070033
+
+	:cond_kinkya
     goto :goto_0
 
     .line 1258
@@ -663,13 +707,35 @@
 
     .line 1259
     const v0, 0x7f070025
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky9
+	
+	const v0, 0x7f070033
+
+	:cond_kinky9
     goto :goto_0
 
     .line 1262
     :cond_8
     const v0, 0x7f070028
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky8
+	
+	const v0, 0x7f070033
+
+	:cond_kinky8
     goto :goto_0
 
     .line 1265
@@ -685,13 +751,35 @@
 
     .line 1267
     const v0, 0x7f07002c
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky7
+	
+	const v0, 0x7f070033
+
+	:cond_kinky7
     goto :goto_0
 
     .line 1270
     :cond_a
     const v0, 0x7f07002f
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky6
+	
+	const v0, 0x7f070033
+
+	:cond_kinky6
     goto :goto_0
 
     .line 1272
@@ -702,13 +790,35 @@
 
     .line 1273
     const v0, 0x7f070024
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky5
+	
+	const v0, 0x7f070033
+
+	:cond_kinky5
     goto :goto_0
 
     .line 1276
     :cond_c
     const v0, 0x7f070027
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky4
+	
+	const v0, 0x7f070033
+
+	:cond_kinky4
     goto :goto_0
 
     .line 1279
@@ -735,13 +845,35 @@
 
     .line 1285
     const v0, 0x7f07002b
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky3
+	
+	const v0, 0x7f070033
+
+	:cond_kinky3
     goto/16 :goto_0
 
     .line 1288
     :cond_f
     const v0, 0x7f07002e
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky2
+	
+	const v0, 0x7f070033
+
+	:cond_kinky2
     goto/16 :goto_0
 
     .line 1290
@@ -752,13 +884,35 @@
 
     .line 1291
     const v0, 0x7f070023
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky1
+	
+	const v0, 0x7f070033
+
+	:cond_kinky1
     goto/16 :goto_0
 
     .line 1294
     :cond_11
     const v0, 0x7f070026
+	
+	const-string v3, "kinky.squarebubble"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v3
+	
+	if-eqz v3, :cond_kinky
+	
+	const v0, 0x7f070033
+
+	:cond_kinky
     goto/16 :goto_0
 .end method
 

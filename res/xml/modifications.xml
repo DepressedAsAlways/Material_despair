@@ -3,11 +3,12 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
     <arcane.Toggle android:title="Lonely Toggle" android:summary="I do nothing" />
     <arcane.Empty android:title="Chat:" />
-	<arcane.List android:enabled="true" android:entries="@array/kinky_colors" android:title="Change incoming text color" android:key="kinky.incomingtext" android:summary="How your incoming messages text color appears" android:entryValues="@array/kinky_colors" />
+	<arcane.List android:entries="@array/kinky_colors" android:title="Change incoming text color" android:key="kinky.incomingtext" android:summary="How your incoming messages text color appears" android:entryValues="@array/kinky_colors" />
     <arcane.List android:entries="@array/kinky_receipts" android:title="Read receipts" android:key="kinky.receipt" android:summary="How your messages are perceived" android:entryValues="@array/kinky_receipts" />
 	<arcane.Toggle android:title="Disable Typing" android:key="kinky.typing" android:summary="Other users can't see what you type" />
 	<arcane.Toggle android:title="Enable admin badges" android:key="kinky.admin" android:summary="Group admins will have badges in chat" />
 	<arcane.Toggle android:title="Enable new chats reporting" android:key="kinky.newreport" android:summary="Allows you to report new pms" />
 	<arcane.Toggle android:title="Enable voice messages" android:key="kinky.voice" android:summary="Allows you to send voice recordings" />
+	<arcane.Toggle android:title="Square Messages" android:key="kinky.squarebubble" android:summary="Alls message bubble will become rectangle" />
 	<arcane.Empty android:title="Disclaimer: Voice messages can be sent in pms and private groups but not public groups" />
 </PreferenceScreen>
