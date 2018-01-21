@@ -1040,6 +1040,7 @@
 
     const-string v1, "profile-bios"
 
+	# bios
     const-string v2, "show-profile-bios"
 
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z

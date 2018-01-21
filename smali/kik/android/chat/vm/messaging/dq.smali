@@ -428,6 +428,7 @@
     iget-object v0, p0, Lkik/arcane/chat/vm/messaging/dq;->r:Lkik/core/interfaces/b;
 
     const-string v1, "profile-bios"
+	# bios
 
     const-string v2, "show-profile-bios"
 
@@ -496,6 +497,7 @@
 
     const-string v1, "profile-bios"
 
+	# bios
     const-string v2, "show-profile-bios"
 
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
@@ -776,6 +778,7 @@
 
     const-string v1, "profile-bios"
 
+	# bios
     const-string v2, "show-profile-bios"
 
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z

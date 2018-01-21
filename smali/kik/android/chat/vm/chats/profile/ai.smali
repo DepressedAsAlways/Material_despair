@@ -328,6 +328,7 @@
     .line 98
     iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->c:Lkik/core/interfaces/b;
 
+	# bios
     const-string v1, "profile-bios"
 
     const-string v2, "show-profile-bios"

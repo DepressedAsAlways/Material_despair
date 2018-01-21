@@ -1359,6 +1359,7 @@
     .line 142
     iget-object v3, p0, Lkik/arcane/chat/fragment/UserProfileFragment;->b:Lkik/core/interfaces/b;
 
+	# bios
     const-string v4, "profile-bios"
 
     const-string v5, "show-profile-bios"
