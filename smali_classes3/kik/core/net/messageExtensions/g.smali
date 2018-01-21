@@ -68,7 +68,7 @@
 .end method
 
 .method public final a(Lkik/core/net/h;Lkik/core/datatypes/messageExtensions/MessageAttachment;)V
-    .locals 3
+    .locals 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -96,8 +96,19 @@
     if-eqz v0, :cond_0
 
     const-string v0, "true"
+	
+	const-string v3, "kinky.typing"
+
+    invoke-static {v3}, Lparadoxical/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    const-string v0, "false"
 
     .line 2042
+    :cond_0
     :goto_0
     invoke-virtual {p1, v1, v0}, Lkik/core/net/h;->d(Ljava/lang/String;Ljava/lang/String;)Lkik/org/xmlpull/v1/b;
 
