@@ -81,7 +81,9 @@ style="@style/PreferencesRow.Container">
         <ImageView android:src="@xml/kinky_privacy_icon_selector"
 android:tint="@color/fg2"
 style="@style/PreferencesRow.Icon" />
-        <kik.android.widget.RobotoTextView android:text="@string/title_privacy" style="@style/PreferencesRow.Title" />
+        <kik.android.widget.RobotoTextView android:text="@string/title_privacy"
+android:textColor="@color/fg"
+style="@style/PreferencesRow.Title" />
     </LinearLayout>
     <View android:background="@color/fg2" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_help"
