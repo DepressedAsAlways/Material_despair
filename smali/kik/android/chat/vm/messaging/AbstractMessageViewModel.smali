@@ -613,6 +613,12 @@
     invoke-interface {v0, v3, v4}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
+	
+	const-string v0, "kinky.admin"
+	
+	invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v0
 
     if-nez v0, :cond_1
 
@@ -3234,7 +3240,7 @@
 .end method
 
 .method static synthetic b(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;Ljava/lang/Boolean;)Ljava/lang/Integer;
-    .locals 1
+    .locals 8
 
     .prologue
     .line 850
@@ -3242,13 +3248,13 @@
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v0
 
-    if-nez v0, :cond_0
+    if-nez v0, :cond_1
 
     iget-object v0, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel;->m:Lkik/android/chat/theming/ChatBubbleManager;
 
@@ -3260,15 +3266,131 @@
 
     move-result v0
 
+	:cond_0
     :goto_0
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
     return-object v0
+	
+	:cond_1
+    const-string v7, "kinky.incomingtext"
 
-    :cond_0
-    const/high16 v0, -0x1000000
+    invoke-static {v7}, Larcane/values;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 69
+    .local v0, "value":Ljava/lang/String;
+    const-string v7, "White"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_2
+
+    const v0, -0x1
+
+    :cond_2
+    const-string v7, "Red"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_3
+
+    const v0, -0x24eaeb
+
+    :cond_3
+    const-string v7, "Green"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_4
+
+    const v0, -0xea24e5
+
+    :cond_4
+    const-string v7, "Blue"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_5
+
+    const v0, -0xe1ea25
+
+    :cond_5
+    const-string v7, "Pink"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_6
+
+    const v0, -0x24ea36
+
+    :cond_6
+    const-string v7, "Purple"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_7
+
+    const v0, -0x7aea25
+
+    :cond_7
+    const-string v7, "Orange"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_8
+
+    const v0, -0x247aeb
+
+    :cond_8
+    const-string v7, "Mint"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_9
+
+    const v0, -0xea2443
+
+    :cond_9
+    const-string v7, "Yellow"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_a
+
+    const v0, -0x1f1fe8
+
+    :cond_a
+    const-string v7, "Black"
+
+    invoke-virtual {v7, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v7
+
+    if-eqz v7, :cond_0
+
+    const v0, -0x1000000
 
     goto :goto_0
 .end method
