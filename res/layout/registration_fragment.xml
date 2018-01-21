@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
     <include android:id="@id/action_bar" layout="@layout/kik_back_button_clear" />
     <com.github.ksoichiro.android.observablescrollview.ObservableScrollView android:id="@id/register_fields_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/action_bar">
@@ -13,7 +13,9 @@
             <kik.android.chat.view.ValidateableInputView android:id="@id/register_birthday" android:focusable="false" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/title_birthday" android:singleLine="true" android:layout_below="@id/register_password" android:inputType="none" />
             <kik.android.chat.view.ValidateableInputView android:id="@id/register_phone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/registration_phone_placeholder" android:singleLine="true" android:layout_below="@id/register_birthday" android:inputType="phone" />
             <Button android:id="@id/register_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:text="@string/title_sign_up" android:layout_below="@id/register_phone" style="@style/KikButton.Hero" />
-            <kik.android.widget.RobotoTextView android:gravity="center_horizontal" android:linksClickable="true" android:id="@id/tos_text" android:paddingBottom="12.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/first_run_by_clicking_next_tos_and_privacy" android:layout_below="@id/register_button" style="@style/KikTextView.Terms" />
+            <kik.android.widget.RobotoTextView android:gravity="center_horizontal" android:linksClickable="true" android:id="@id/tos_text" android:paddingBottom="12.0dip" android:visibility="visible"
+android:textColor="@color/fg"
+android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/first_run_by_clicking_next_tos_and_privacy" android:layout_below="@id/register_button" style="@style/KikTextView.Terms" />
         </RelativeLayout>
     </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
     <FrameLayout android:id="@id/shadow" android:background="@drawable/nav_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar" android:alpha="0.0" />
