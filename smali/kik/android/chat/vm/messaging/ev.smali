@@ -409,6 +409,15 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
+	
+	# Call key in same register as the move result ^ (v0)
+	const-string v0, "kinky.newreport"
+	
+	# invoke the boolean method in same register
+	invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+	# do what method was doing
+    move-result v0
 
     if-eqz v0, :cond_0
 

@@ -1552,6 +1552,15 @@
     invoke-interface {v0, v3, v4}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
+	
+	# After move-result i put my key at the v that the result was so v0
+	const-string v0, "kinky.voice"
+	
+	# then i invoke getBoolean from values file still using v0
+	invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+	# then i end it by doing what it was already doing
+    move-result v0
 
     .line 10224
     if-eqz v0, :cond_1
