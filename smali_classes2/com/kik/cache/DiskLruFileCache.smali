@@ -20,7 +20,7 @@
 
 .field private _diskCache:Lcom/jakewharton/disklrucache/DiskLruCache;
 
-.field private _fileDownloadHandler:Lkik/android/h;
+.field private _fileDownloadHandler:Lkik/arcane/h;
 
 
 # direct methods
@@ -97,22 +97,22 @@
 
     invoke-direct {v0, v1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lkik/android/util/aw;->c(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->c(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
 
-.method static synthetic access$000(Lcom/kik/cache/DiskLruFileCache;)Lkik/android/h;
+.method static synthetic access$000(Lcom/kik/cache/DiskLruFileCache;)Lkik/arcane/h;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     return-object v0
 .end method
 
-.method private getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+.method private getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -121,7 +121,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Lkik/core/interfaces/x;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             "I)",
             "Lcom/kik/events/Promise",
             "<",
@@ -132,16 +132,16 @@
 
     .prologue
     .line 261
-    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     if-nez v0, :cond_0
 
     .line 266
-    new-instance v0, Lkik/android/h;
+    new-instance v0, Lkik/arcane/h;
 
-    invoke-direct {v0, p5}, Lkik/android/h;-><init>(Lcom/kik/android/Mixpanel;)V
+    invoke-direct {v0, p5}, Lkik/arcane/h;-><init>(Lcom/kik/arcane/Mixpanel;)V
 
-    iput-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iput-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     .line 269
     :cond_0
@@ -164,11 +164,11 @@
 
     .line 273
     :cond_1
-    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     iget-object v1, p0, Lcom/kik/cache/DiskLruFileCache;->_associatedContentId:Ljava/lang/String;
 
-    invoke-virtual {v0, p3, v1, p1, p6}, Lkik/android/h;->a(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)Lcom/kik/events/Promise;
+    invoke-virtual {v0, p3, v1, p1, p6}, Lkik/arcane/h;->a(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -176,9 +176,9 @@
     if-eqz p4, :cond_2
 
     .line 275
-    iget-object v1, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v1, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
-    invoke-virtual {v1, p4, p3}, Lkik/android/h;->a(Lkik/core/interfaces/x;Ljava/lang/String;)V
+    invoke-virtual {v1, p4, p3}, Lkik/arcane/h;->a(Lkik/core/interfaces/x;Ljava/lang/String;)V
 
     .line 277
     :cond_2
@@ -231,7 +231,7 @@
     goto :goto_0
 .end method
 
-.method public fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+.method public fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -239,7 +239,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Lkik/core/interfaces/x;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             "I)",
             "Lcom/kik/events/Promise",
             "<",
@@ -289,7 +289,7 @@
     move v6, p5
 
     .line 167
-    invoke-direct/range {v0 .. v6}, Lcom/kik/cache/DiskLruFileCache;->getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+    invoke-direct/range {v0 .. v6}, Lcom/kik/cache/DiskLruFileCache;->getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -450,7 +450,7 @@
 
     :goto_2
     :try_start_5
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_3
 
@@ -676,7 +676,7 @@
     move-exception v0
 
     :goto_1
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v0, v1
 
@@ -768,7 +768,7 @@
     move-exception v1
 
     :try_start_1
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -848,7 +848,7 @@
 
     :goto_2
     :try_start_2
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1014,7 +1014,7 @@
     invoke-interface {v4, v6}, Lorg/slf4j/b;->error(Ljava/lang/String;)V
 
     .line 93
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 

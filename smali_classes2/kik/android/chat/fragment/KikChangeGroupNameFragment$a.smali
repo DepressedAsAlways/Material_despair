@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/KikChangeGroupNameFragment$a;
-.super Lkik/android/util/ad;
+.class public final Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$a;
+.super Lkik/arcane/util/ad;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    value = Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,21 +20,21 @@
 
     .prologue
     .line 207
-    invoke-direct {p0}, Lkik/android/util/ad;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/ad;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)Lkik/android/chat/fragment/KikChangeGroupNameFragment$a;
+.method public final a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$a;
     .locals 1
 
     .prologue
     .line 213
     const-string v0, "kik.arcane.chat.fragment.KikChangeGroupNameFragment.GroupJid"
 
-    invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/KikChangeGroupNameFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 214
     return-object p0
@@ -47,7 +47,7 @@
     .line 219
     const-string v0, "kik.arcane.chat.fragment.KikChangeGroupNameFragment.GroupJid"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikChangeGroupNameFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

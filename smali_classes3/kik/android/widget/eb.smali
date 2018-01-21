@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/eb;
+.class public final Lkik/arcane/widget/eb;
 .super Landroid/graphics/drawable/ColorDrawable;
 .source "SourceFile"
 

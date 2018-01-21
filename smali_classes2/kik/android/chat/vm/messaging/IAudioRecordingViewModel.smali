@@ -1,16 +1,16 @@
-.class public interface abstract Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/br;
+.implements Lkik/arcane/chat/vm/br;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;,
-        Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+        Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;,
+        Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
     }
 .end annotation
 
@@ -58,7 +58,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
+            "Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
             ">;"
         }
     .end annotation
@@ -139,5 +139,5 @@
     .end annotation
 .end method
 
-.method public abstract v()Lkik/android/chat/vm/messaging/ei;
+.method public abstract v()Lkik/arcane/chat/vm/messaging/ei;
 .end method

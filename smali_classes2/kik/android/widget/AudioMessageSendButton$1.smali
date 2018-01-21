@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioMessageSendButton$1;
+.class final Lkik/arcane/widget/AudioMessageSendButton$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AudioMessageSendButton;
+    value = Lkik/arcane/widget/AudioMessageSendButton;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioMessageSendButton;
+.field final synthetic a:Lkik/arcane/widget/AudioMessageSendButton;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioMessageSendButton;)V
+.method constructor <init>(Lkik/arcane/widget/AudioMessageSendButton;)V
     .locals 0
 
     .prologue
     .line 34
-    iput-object p1, p0, Lkik/android/widget/AudioMessageSendButton$1;->a:Lkik/android/widget/AudioMessageSendButton;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMessageSendButton$1;->a:Lkik/arcane/widget/AudioMessageSendButton;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,11 +38,11 @@
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/widget/AudioMessageSendButton$1;->a:Lkik/android/widget/AudioMessageSendButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMessageSendButton$1;->a:Lkik/arcane/widget/AudioMessageSendButton;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/AudioMessageSendButton;->setClickable(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/AudioMessageSendButton;->setClickable(Z)V
 
     .line 39
     return-void

@@ -1,14 +1,14 @@
-.class public final enum Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.class public final enum Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bv;
+.implements Lkik/arcane/chat/vm/bv;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+    value = Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,27 +20,27 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
+        "Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
         ">;",
-        "Lkik/android/chat/vm/bv;"
+        "Lkik/arcane/chat/vm/bv;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-.field public static final enum Canceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.field public static final enum Canceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-.field public static final enum Completed:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.field public static final enum Completed:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-.field public static final enum Deleting:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.field public static final enum Deleting:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-.field public static final enum PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.field public static final enum PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-.field public static final enum Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.field public static final enum Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-.field public static final enum Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.field public static final enum Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
 
 # instance fields
@@ -63,47 +63,47 @@
     const/4 v4, 0x0
 
     .line 15
-    new-instance v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     const-string v1, "Ready"
 
-    invoke-direct {v0, v1, v4, v4}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v4, v4}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-    new-instance v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     const-string v1, "Started"
 
-    invoke-direct {v0, v1, v5, v5}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v5, v5}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-    new-instance v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     const-string v1, "PreCanceling"
 
-    invoke-direct {v0, v1, v6, v6}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v6, v6}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-    new-instance v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     const-string v1, "Canceling"
 
-    invoke-direct {v0, v1, v7, v7}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v7, v7}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-    new-instance v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     const-string v1, "Completed"
 
-    invoke-direct {v0, v1, v8, v8}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v8, v8}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-    new-instance v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     const-string v1, "Deleting"
 
@@ -111,42 +111,42 @@
 
     const/4 v3, 0x5
 
-    invoke-direct {v0, v1, v2, v3}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v2, v3}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     .line 12
     const/4 v0, 0x6
 
-    new-array v0, v0, [Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-array v0, v0, [Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v1, v0, v5
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v1, v0, v6
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v1, v0, v7
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x5
 
-    sget-object v2, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v2, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v2, v0, v1
 
-    sput-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->$VALUES:[Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->$VALUES:[Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     return-void
 .end method
@@ -164,40 +164,40 @@
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 21
-    iput p3, p0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->_value:I
+    iput p3, p0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->_value:I
 
     .line 22
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
     .locals 1
 
     .prologue
     .line 12
-    const-class v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    const-class v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    check-cast v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+.method public static values()[Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
     .locals 1
 
     .prologue
     .line 12
-    sget-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->$VALUES:[Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->$VALUES:[Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
-    invoke-virtual {v0}, [Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    check-cast v0, [Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     return-object v0
 .end method
@@ -209,7 +209,7 @@
 
     .prologue
     .line 27
-    iget v0, p0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->_value:I
+    iget v0, p0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->_value:I
 
     return v0
 .end method

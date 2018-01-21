@@ -1,4 +1,4 @@
-.class public final Lkik/android/d;
+.class public final Lkik/arcane/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -41,11 +41,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 32
-    new-instance v0, Lkik/android/d$1;
+    new-instance v0, Lkik/arcane/d$1;
 
-    invoke-direct {v0, p0}, Lkik/android/d$1;-><init>(Lkik/android/d;)V
+    invoke-direct {v0, p0}, Lkik/arcane/d$1;-><init>(Lkik/arcane/d;)V
 
-    iput-object v0, p0, Lkik/android/d;->c:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/d;->c:Lcom/kik/events/e;
 
     return-void
 .end method
@@ -66,7 +66,7 @@
 
     .prologue
     .line 23
-    iget-object v0, p0, Lkik/android/d;->b:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/d;->b:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -84,23 +84,23 @@
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/d;->a:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/d;->a:Lcom/kik/events/d;
 
     .line 51
     new-instance v0, Lcom/kik/events/a;
 
     invoke-direct {v0, p0, p1}, Lcom/kik/events/a;-><init>(Ljava/lang/Object;Ljava/util/concurrent/ExecutorService;)V
 
-    iput-object v0, p0, Lkik/android/d;->b:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/d;->b:Lcom/kik/events/g;
 
     .line 52
-    iget-object v0, p0, Lkik/android/d;->a:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/d;->a:Lcom/kik/events/d;
 
     invoke-virtual {p2}, Lkik/core/a;->b()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/d;->c:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/d;->c:Lcom/kik/events/e;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
@@ -113,7 +113,7 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/d;->a:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/d;->a:Lcom/kik/events/d;
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 
@@ -126,7 +126,7 @@
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/d;->b:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/d;->b:Lcom/kik/events/g;
 
     const/4 v1, 0x0
 

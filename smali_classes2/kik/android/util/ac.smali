@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/util/ac;
+.class public abstract Lkik/arcane/util/ac;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -37,31 +37,31 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 34
-    iput-boolean v0, p0, Lkik/android/util/ac;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/util/ac;->f:Z
 
     .line 35
-    iput-boolean v0, p0, Lkik/android/util/ac;->g:Z
+    iput-boolean v0, p0, Lkik/arcane/util/ac;->g:Z
 
     .line 39
     const/high16 v0, 0x41800000    # 16.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/util/ac;->h:I
+    iput v0, p0, Lkik/arcane/util/ac;->h:I
 
     .line 40
     const/high16 v0, 0x42200000    # 40.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/util/ac;->i:I
+    iput v0, p0, Lkik/arcane/util/ac;->i:I
 
     .line 44
-    iput-object p1, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iput-object p1, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     .line 45
     new-instance v0, Landroid/support/v4/view/GestureDetectorCompat;
@@ -70,13 +70,13 @@
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/util/ac$1;
+    new-instance v2, Lkik/arcane/util/ac$1;
 
-    invoke-direct {v2, p0}, Lkik/android/util/ac$1;-><init>(Lkik/android/util/ac;)V
+    invoke-direct {v2, p0}, Lkik/arcane/util/ac$1;-><init>(Lkik/arcane/util/ac;)V
 
     invoke-direct {v0, v1, v2}, Landroid/support/v4/view/GestureDetectorCompat;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
-    iput-object v0, p0, Lkik/android/util/ac;->e:Landroid/support/v4/view/GestureDetectorCompat;
+    iput-object v0, p0, Lkik/arcane/util/ac;->e:Landroid/support/v4/view/GestureDetectorCompat;
 
     .line 72
     return-void
@@ -94,14 +94,14 @@
 
     move-result v0
 
-    iget v2, p0, Lkik/android/util/ac;->i:I
+    iget v2, p0, Lkik/arcane/util/ac;->i:I
 
     if-ge v0, v2, :cond_0
 
     .line 191
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/util/ac;->g:Z
+    iput-boolean v0, p0, Lkik/arcane/util/ac;->g:Z
 
     .line 233
     :goto_0
@@ -109,7 +109,7 @@
 
     .line 195
     :cond_0
-    invoke-virtual {p0}, Lkik/android/util/ac;->a()Landroid/graphics/Point;
+    invoke-virtual {p0}, Lkik/arcane/util/ac;->a()Landroid/graphics/Point;
 
     move-result-object v0
 
@@ -117,7 +117,7 @@
     if-nez v0, :cond_2
 
     .line 200
-    iget-object v0, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -136,12 +136,12 @@
     move-result v0
 
     .line 207
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(I)I
 
     move-result v2
 
     .line 209
-    invoke-static {p3}, Lkik/android/chat/KikApplication;->a(I)I
+    invoke-static {p3}, Lkik/arcane/chat/KikApplication;->a(I)I
 
     move-result v3
 
@@ -174,9 +174,9 @@
     move-result v2
 
     .line 213
-    new-instance v3, Lkik/android/util/ac$2;
+    new-instance v3, Lkik/arcane/util/ac$2;
 
-    invoke-direct {v3, p0, v2}, Lkik/android/util/ac$2;-><init>(Lkik/android/util/ac;I)V
+    invoke-direct {v3, p0, v2}, Lkik/arcane/util/ac$2;-><init>(Lkik/arcane/util/ac;I)V
 
     .line 227
     if-lez v1, :cond_1
@@ -186,7 +186,7 @@
 
     .line 232
     :cond_1
-    iget-object v1, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v1, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -218,7 +218,7 @@
 
     .line 203
     :cond_2
-    iget-object v2, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v2, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -235,12 +235,12 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/util/ac;III)V
+.method static synthetic a(Lkik/arcane/util/ac;III)V
     .locals 0
 
     .prologue
     .line 20
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/util/ac;->a(III)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/util/ac;->a(III)V
 
     return-void
 .end method
@@ -250,12 +250,12 @@
 
     .prologue
     .line 141
-    invoke-virtual {p0}, Lkik/android/util/ac;->d()V
+    invoke-virtual {p0}, Lkik/arcane/util/ac;->d()V
 
     .line 142
-    iget v0, p0, Lkik/android/util/ac;->d:I
+    iget v0, p0, Lkik/arcane/util/ac;->d:I
 
-    iget v1, p0, Lkik/android/util/ac;->c:I
+    iget v1, p0, Lkik/arcane/util/ac;->c:I
 
     sub-int/2addr v0, v1
 
@@ -263,7 +263,7 @@
     if-eqz v0, :cond_0
 
     .line 144
-    iget-object v0, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -284,9 +284,9 @@
     invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->start()V
 
     .line 145
-    iget v0, p0, Lkik/android/util/ac;->c:I
+    iget v0, p0, Lkik/arcane/util/ac;->c:I
 
-    iput v0, p0, Lkik/android/util/ac;->d:I
+    iput v0, p0, Lkik/arcane/util/ac;->d:I
 
     .line 147
     :cond_0
@@ -333,13 +333,13 @@
 
     .line 1165
     :goto_0
-    iget-boolean v0, p0, Lkik/android/util/ac;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/util/ac;->f:Z
 
     .line 78
     if-eqz v0, :cond_0
 
     .line 79
-    invoke-direct {p0}, Lkik/android/util/ac;->f()V
+    invoke-direct {p0}, Lkik/arcane/util/ac;->f()V
 
     move v0, v1
 
@@ -349,19 +349,19 @@
 
     .line 1159
     :sswitch_0
-    iput-boolean v2, p0, Lkik/android/util/ac;->f:Z
+    iput-boolean v2, p0, Lkik/arcane/util/ac;->f:Z
 
     goto :goto_0
 
     .line 1162
     :sswitch_1
-    iput-boolean v1, p0, Lkik/android/util/ac;->f:Z
+    iput-boolean v1, p0, Lkik/arcane/util/ac;->f:Z
 
     goto :goto_0
 
     .line 84
     :cond_0
-    iget-object v0, p0, Lkik/android/util/ac;->e:Landroid/support/v4/view/GestureDetectorCompat;
+    iget-object v0, p0, Lkik/arcane/util/ac;->e:Landroid/support/v4/view/GestureDetectorCompat;
 
     invoke-virtual {v0, p2}, Landroid/support/v4/view/GestureDetectorCompat;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -369,7 +369,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-boolean v0, p0, Lkik/android/util/ac;->g:Z
+    iget-boolean v0, p0, Lkik/arcane/util/ac;->g:Z
 
     if-nez v0, :cond_1
 
@@ -380,7 +380,7 @@
 
     .line 87
     :cond_1
-    iput-boolean v1, p0, Lkik/android/util/ac;->g:Z
+    iput-boolean v1, p0, Lkik/arcane/util/ac;->g:Z
 
     .line 89
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getRawY()F
@@ -405,7 +405,7 @@
 
     .line 92
     :pswitch_0
-    iget-object v0, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -418,13 +418,13 @@
 
     sub-int v0, v3, v0
 
-    iput v0, p0, Lkik/android/util/ac;->b:I
+    iput v0, p0, Lkik/arcane/util/ac;->b:I
 
     .line 94
-    iput v3, p0, Lkik/android/util/ac;->c:I
+    iput v3, p0, Lkik/arcane/util/ac;->c:I
 
     .line 95
-    iput v3, p0, Lkik/android/util/ac;->d:I
+    iput v3, p0, Lkik/arcane/util/ac;->d:I
 
     move v0, v1
 
@@ -433,7 +433,7 @@
 
     .line 98
     :pswitch_1
-    iget-object v0, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -442,12 +442,12 @@
     check-cast v0, Landroid/widget/FrameLayout$LayoutParams;
 
     .line 99
-    iput v3, p0, Lkik/android/util/ac;->d:I
+    iput v3, p0, Lkik/arcane/util/ac;->d:I
 
     .line 100
-    iget v4, p0, Lkik/android/util/ac;->c:I
+    iget v4, p0, Lkik/arcane/util/ac;->c:I
 
-    iget v5, p0, Lkik/android/util/ac;->d:I
+    iget v5, p0, Lkik/arcane/util/ac;->d:I
 
     sub-int/2addr v4, v5
 
@@ -455,25 +455,25 @@
 
     move-result v4
 
-    iget v5, p0, Lkik/android/util/ac;->h:I
+    iget v5, p0, Lkik/arcane/util/ac;->h:I
 
     if-le v4, v5, :cond_3
 
     .line 102
-    iget v4, p0, Lkik/android/util/ac;->d:I
+    iget v4, p0, Lkik/arcane/util/ac;->d:I
 
-    iget v5, p0, Lkik/android/util/ac;->c:I
+    iget v5, p0, Lkik/arcane/util/ac;->c:I
 
     if-le v4, v5, :cond_4
 
     .line 103
-    iget v4, p0, Lkik/android/util/ac;->d:I
+    iget v4, p0, Lkik/arcane/util/ac;->d:I
 
-    iget v5, p0, Lkik/android/util/ac;->b:I
+    iget v5, p0, Lkik/arcane/util/ac;->b:I
 
     sub-int/2addr v4, v5
 
-    iget v5, p0, Lkik/android/util/ac;->h:I
+    iget v5, p0, Lkik/arcane/util/ac;->h:I
 
     sub-int/2addr v4, v5
 
@@ -488,17 +488,17 @@
     iput v4, v0, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
     .line 109
-    iget-object v4, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v4, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v4, v0}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 110
-    iget-object v0, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->requestLayout()V
 
     .line 1178
-    iget v0, p0, Lkik/android/util/ac;->c:I
+    iget v0, p0, Lkik/arcane/util/ac;->c:I
 
     sub-int v0, v3, v0
 
@@ -507,7 +507,7 @@
     move-result v0
 
     .line 1179
-    iget v3, p0, Lkik/android/util/ac;->h:I
+    iget v3, p0, Lkik/arcane/util/ac;->h:I
 
     if-lt v0, v3, :cond_2
 
@@ -518,7 +518,7 @@
     if-eqz v1, :cond_3
 
     .line 113
-    invoke-virtual {p0}, Lkik/android/util/ac;->b()V
+    invoke-virtual {p0}, Lkik/arcane/util/ac;->b()V
 
     :cond_3
     move v0, v2
@@ -528,13 +528,13 @@
 
     .line 106
     :cond_4
-    iget v4, p0, Lkik/android/util/ac;->d:I
+    iget v4, p0, Lkik/arcane/util/ac;->d:I
 
-    iget v5, p0, Lkik/android/util/ac;->b:I
+    iget v5, p0, Lkik/arcane/util/ac;->b:I
 
     sub-int/2addr v4, v5
 
-    iget v5, p0, Lkik/android/util/ac;->h:I
+    iget v5, p0, Lkik/arcane/util/ac;->h:I
 
     add-int/2addr v4, v5
 
@@ -544,9 +544,9 @@
 
     .line 118
     :pswitch_2
-    iget v0, p0, Lkik/android/util/ac;->c:I
+    iget v0, p0, Lkik/arcane/util/ac;->c:I
 
-    iget v2, p0, Lkik/android/util/ac;->d:I
+    iget v2, p0, Lkik/arcane/util/ac;->d:I
 
     sub-int/2addr v0, v2
 
@@ -555,7 +555,7 @@
     move-result v0
 
     .line 120
-    iget-object v2, p0, Lkik/android/util/ac;->a:Landroid/widget/FrameLayout;
+    iget-object v2, p0, Lkik/arcane/util/ac;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -566,11 +566,11 @@
     if-le v0, v2, :cond_5
 
     .line 121
-    iget v0, p0, Lkik/android/util/ac;->c:I
+    iget v0, p0, Lkik/arcane/util/ac;->c:I
 
-    iget v2, p0, Lkik/android/util/ac;->d:I
+    iget v2, p0, Lkik/arcane/util/ac;->d:I
 
-    invoke-direct {p0, v0, v2, v1}, Lkik/android/util/ac;->a(III)V
+    invoke-direct {p0, v0, v2, v1}, Lkik/arcane/util/ac;->a(III)V
 
     :goto_3
     move v0, v1
@@ -580,13 +580,13 @@
 
     .line 124
     :cond_5
-    invoke-direct {p0}, Lkik/android/util/ac;->f()V
+    invoke-direct {p0}, Lkik/arcane/util/ac;->f()V
 
     goto :goto_3
 
     .line 128
     :pswitch_3
-    invoke-direct {p0}, Lkik/android/util/ac;->f()V
+    invoke-direct {p0}, Lkik/arcane/util/ac;->f()V
 
     move v0, v1
 

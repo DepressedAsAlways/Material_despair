@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/presentation/bu$1;
+.class final Lkik/arcane/chat/presentation/bu$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/presentation/bu;->b()V
+    value = Lkik/arcane/chat/presentation/bu;->b()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/presentation/bu;
+.field final synthetic a:Lkik/arcane/chat/presentation/bu;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/presentation/bu;)V
+.method constructor <init>(Lkik/arcane/chat/presentation/bu;)V
     .locals 0
 
     .prologue
     .line 222
-    iput-object p1, p0, Lkik/android/chat/presentation/bu$1;->a:Lkik/android/chat/presentation/bu;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/bu$1;->a:Lkik/arcane/chat/presentation/bu;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,30 +50,30 @@
     check-cast p1, Ljava/lang/String;
 
     .line 1226
-    iget-object v0, p0, Lkik/android/chat/presentation/bu$1;->a:Lkik/android/chat/presentation/bu;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bu$1;->a:Lkik/arcane/chat/presentation/bu;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bu;->a(Lkik/android/chat/presentation/bu;)Lkik/android/chat/presentation/r;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bu;->a(Lkik/arcane/chat/presentation/bu;)Lkik/arcane/chat/presentation/r;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/r;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/r;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 1227
-    iget-object v0, p0, Lkik/android/chat/presentation/bu$1;->a:Lkik/android/chat/presentation/bu;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bu$1;->a:Lkik/arcane/chat/presentation/bu;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bu;->c(Lkik/android/chat/presentation/bu;)Lkik/android/chat/presentation/bt$a;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bu;->c(Lkik/arcane/chat/presentation/bu;)Lkik/arcane/chat/presentation/bt$a;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/presentation/bu$1;->a:Lkik/android/chat/presentation/bu;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/bu$1;->a:Lkik/arcane/chat/presentation/bu;
 
-    invoke-static {v1}, Lkik/android/chat/presentation/bu;->b(Lkik/android/chat/presentation/bu;)Lkik/android/challenge/PhoneNumberModel;
+    invoke-static {v1}, Lkik/arcane/chat/presentation/bu;->b(Lkik/arcane/chat/presentation/bu;)Lkik/arcane/challenge/PhoneNumberModel;
 
     move-result-object v1
 
-    invoke-interface {v0, p1, v1}, Lkik/android/chat/presentation/bt$a;->a(Ljava/lang/String;Lkik/android/challenge/PhoneNumberModel;)V
+    invoke-interface {v0, p1, v1}, Lkik/arcane/chat/presentation/bt$a;->a(Ljava/lang/String;Lkik/arcane/challenge/PhoneNumberModel;)V
 
     .line 222
     return-void
@@ -84,41 +84,41 @@
 
     .prologue
     .line 235
-    instance-of v0, p1, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+    instance-of v0, p1, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
 
     if-eqz v0, :cond_0
 
     .line 236
-    check-cast p1, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+    check-cast p1, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
 
-    iget v0, p1, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;->reason:I
+    iget v0, p1, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;->reason:I
 
     .line 243
     :goto_0
-    iget-object v1, p0, Lkik/android/chat/presentation/bu$1;->a:Lkik/android/chat/presentation/bu;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/bu$1;->a:Lkik/arcane/chat/presentation/bu;
 
-    invoke-static {v1}, Lkik/android/chat/presentation/bu;->a(Lkik/android/chat/presentation/bu;)Lkik/android/chat/presentation/r;
+    invoke-static {v1}, Lkik/arcane/chat/presentation/bu;->a(Lkik/arcane/chat/presentation/bu;)Lkik/arcane/chat/presentation/r;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    invoke-interface {v1, v2}, Lkik/android/chat/presentation/r;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-interface {v1, v2}, Lkik/arcane/chat/presentation/r;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 244
-    iget-object v1, p0, Lkik/android/chat/presentation/bu$1;->a:Lkik/android/chat/presentation/bu;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/bu$1;->a:Lkik/arcane/chat/presentation/bu;
 
-    invoke-static {v1}, Lkik/android/chat/presentation/bu;->c(Lkik/android/chat/presentation/bu;)Lkik/android/chat/presentation/bt$a;
+    invoke-static {v1}, Lkik/arcane/chat/presentation/bu;->c(Lkik/arcane/chat/presentation/bu;)Lkik/arcane/chat/presentation/bt$a;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/presentation/bu$1;->a:Lkik/android/chat/presentation/bu;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/bu$1;->a:Lkik/arcane/chat/presentation/bu;
 
-    invoke-static {v2}, Lkik/android/chat/presentation/bu;->b(Lkik/android/chat/presentation/bu;)Lkik/android/challenge/PhoneNumberModel;
+    invoke-static {v2}, Lkik/arcane/chat/presentation/bu;->b(Lkik/arcane/chat/presentation/bu;)Lkik/arcane/challenge/PhoneNumberModel;
 
     move-result-object v2
 
-    invoke-interface {v1, v0, v2}, Lkik/android/chat/presentation/bt$a;->a(ILkik/android/challenge/PhoneNumberModel;)V
+    invoke-interface {v1, v0, v2}, Lkik/arcane/chat/presentation/bt$a;->a(ILkik/arcane/challenge/PhoneNumberModel;)V
 
     .line 245
     return-void
@@ -130,10 +130,10 @@
     .line 240
     const-string v1, "Unexpected exception when requesting Phone Verification verification code."
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 241
-    invoke-static {p1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method

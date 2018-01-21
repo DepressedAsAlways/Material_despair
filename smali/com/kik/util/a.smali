@@ -126,7 +126,7 @@
     move-object v1, v3
 
     :goto_1
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 

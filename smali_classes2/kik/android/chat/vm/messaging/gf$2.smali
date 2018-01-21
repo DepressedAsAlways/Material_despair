@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/messaging/gf$2;
+.class final Lkik/arcane/chat/vm/messaging/gf$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/av;
+.implements Lkik/arcane/chat/vm/av;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/messaging/gf;->ab()V
+    value = Lkik/arcane/chat/vm/messaging/gf;->ab()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-.field final synthetic b:Lkik/android/chat/vm/messaging/gf;
+.field final synthetic b:Lkik/arcane/chat/vm/messaging/gf;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/gf;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/gf;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 0
 
     .prologue
     .line 347
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/gf$2;->b:Lkik/android/chat/vm/messaging/gf;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/gf$2;->b:Lkik/arcane/chat/vm/messaging/gf;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/gf$2;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/gf$2;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,9 +45,9 @@
 
     .prologue
     .line 351
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/gf$2;->b:Lkik/android/chat/vm/messaging/gf;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/gf$2;->b:Lkik/arcane/chat/vm/messaging/gf;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/messaging/gf;->u()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/messaging/gf;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -59,7 +59,7 @@
 
     .prologue
     .line 357
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/gf$2;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/gf$2;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -73,9 +73,9 @@
 
     .prologue
     .line 363
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/gf$2;->b:Lkik/android/chat/vm/messaging/gf;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/gf$2;->b:Lkik/arcane/chat/vm/messaging/gf;
 
-    invoke-static {v0}, Lkik/android/chat/vm/messaging/gf;->a(Lkik/android/chat/vm/messaging/gf;)I
+    invoke-static {v0}, Lkik/arcane/chat/vm/messaging/gf;->a(Lkik/arcane/chat/vm/messaging/gf;)I
 
     move-result v0
 

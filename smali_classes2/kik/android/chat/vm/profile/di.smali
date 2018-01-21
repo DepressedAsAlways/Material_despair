@@ -1,20 +1,20 @@
-.class public interface abstract Lkik/android/chat/vm/profile/di;
+.class public interface abstract Lkik/arcane/chat/vm/profile/di;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/ax;
-.implements Lkik/android/chat/vm/br;
+.implements Lkik/arcane/chat/vm/ax;
+.implements Lkik/arcane/chat/vm/br;
 
 
 # virtual methods
-.method public abstract A()Lkik/android/chat/vm/profile/dj;
+.method public abstract A()Lkik/arcane/chat/vm/profile/dj;
 .end method
 
-.method public abstract B()Lkik/android/chat/vm/IBadgeViewModel;
+.method public abstract B()Lkik/arcane/chat/vm/IBadgeViewModel;
 .end method
 
-.method public abstract C()Lkik/android/chat/vm/profile/df;
+.method public abstract C()Lkik/arcane/chat/vm/profile/df;
 .end method
 
 .method public abstract I()Lrx/d;
@@ -53,25 +53,25 @@
     .end annotation
 .end method
 
-.method public abstract k()Lkik/android/chat/vm/IListViewModel;
+.method public abstract k()Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<",
-            "Lkik/android/chat/vm/profile/de;",
+            "Lkik/arcane/chat/vm/profile/de;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract l()Lkik/android/chat/vm/IListViewModel;
+.method public abstract l()Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<",
-            "Lkik/android/chat/vm/profile/de;",
+            "Lkik/arcane/chat/vm/profile/de;",
             ">;"
         }
     .end annotation
@@ -89,7 +89,7 @@
     .end annotation
 .end method
 
-.method public abstract n()Lkik/android/chat/vm/IListViewModel;
+.method public abstract n()Lkik/arcane/chat/vm/IListViewModel;
 .end method
 
 .method public abstract p()Lrx/d;
@@ -172,11 +172,11 @@
 .method public abstract w()Z
 .end method
 
-.method public abstract x()Lkik/android/chat/vm/chats/profile/bf;
+.method public abstract x()Lkik/arcane/chat/vm/chats/profile/bf;
 .end method
 
-.method public abstract y()Lkik/android/chat/vm/ah;
+.method public abstract y()Lkik/arcane/chat/vm/ah;
 .end method
 
-.method public abstract z()Lkik/android/chat/vm/chats/profile/bj;
+.method public abstract z()Lkik/arcane/chat/vm/chats/profile/bj;
 .end method

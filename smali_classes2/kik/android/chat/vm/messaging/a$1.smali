@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/messaging/a$1;
+.class final Lkik/arcane/chat/vm/messaging/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/messaging/a;->m()Lrx/d;
+    value = Lkik/arcane/chat/vm/messaging/a;->m()Lrx/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,16 +31,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/messaging/a;
+.field final synthetic a:Lkik/arcane/chat/vm/messaging/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/a;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/a;)V
     .locals 0
 
     .prologue
     .line 96
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/a$1;->a:Lkik/android/chat/vm/messaging/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/a$1;->a:Lkik/arcane/chat/vm/messaging/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,9 +61,9 @@
     check-cast p1, Lkik/core/datatypes/t;
 
     .line 1100
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/a$1;->a:Lkik/android/chat/vm/messaging/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/a$1;->a:Lkik/arcane/chat/vm/messaging/a;
 
-    iget-object v0, v0, Lkik/android/chat/vm/messaging/a;->b:Lkik/core/interfaces/b;
+    iget-object v0, v0, Lkik/arcane/chat/vm/messaging/a;->b:Lkik/core/interfaces/b;
 
     const-string v1, "bot_content_message_attribution"
 
@@ -104,7 +104,7 @@
     if-eqz v1, :cond_1
 
     .line 1108
-    invoke-static {}, Lkik/android/chat/vm/messaging/a;->am()Lkik/android/util/bj;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/a;->am()Lkik/arcane/util/bj;
 
     move-result-object v1
 
@@ -114,7 +114,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-interface {v1, v2, v3}, Lkik/android/util/bj;->a(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-interface {v1, v2, v3}, Lkik/arcane/util/bj;->a(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -127,7 +127,7 @@
     return-object v0
 
     :cond_1
-    invoke-static {}, Lkik/android/chat/vm/messaging/a;->am()Lkik/android/util/bj;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/a;->am()Lkik/arcane/util/bj;
 
     move-result-object v1
 
@@ -137,7 +137,7 @@
 
     aput-object v0, v3, v4
 
-    invoke-interface {v1, v2, v3}, Lkik/android/util/bj;->a(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-interface {v1, v2, v3}, Lkik/arcane/util/bj;->a(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -149,9 +149,9 @@
 
     .line 1116
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/a$1;->a:Lkik/android/chat/vm/messaging/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/a$1;->a:Lkik/arcane/chat/vm/messaging/a;
 
-    invoke-static {v0}, Lkik/android/chat/vm/messaging/a;->a(Lkik/android/chat/vm/messaging/a;)Lrx/d;
+    invoke-static {v0}, Lkik/arcane/chat/vm/messaging/a;->a(Lkik/arcane/chat/vm/messaging/a;)Lrx/d;
 
     move-result-object v0
 

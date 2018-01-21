@@ -1,9 +1,9 @@
-.class public interface abstract Lkik/android/chat/vm/bj;
+.class public interface abstract Lkik/arcane/chat/vm/bj;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/br;
+.implements Lkik/arcane/chat/vm/br;
 
 
 # virtual methods

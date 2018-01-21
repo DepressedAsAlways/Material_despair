@@ -1,4 +1,4 @@
-.class public final Lkik/android/voice/l;
+.class public final Lkik/arcane/voice/l;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -47,7 +47,7 @@
 
     aput-object v2, v0, v1
 
-    sput-object v0, Lkik/android/voice/l;->a:[Ljava/lang/String;
+    sput-object v0, Lkik/arcane/voice/l;->a:[Ljava/lang/String;
 
     return-void
 .end method
@@ -64,7 +64,7 @@
     if-ge p0, v0, :cond_0
 
     .line 69
-    sget-object v0, Lkik/android/voice/l;->a:[Ljava/lang/String;
+    sget-object v0, Lkik/arcane/voice/l;->a:[Ljava/lang/String;
 
     aget-object v0, v0, p0
 

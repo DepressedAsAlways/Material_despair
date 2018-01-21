@@ -1,17 +1,17 @@
-.class public final Lkik/android/chat/presentation/CameraPresenterImpl;
+.class public final Lkik/arcane/chat/presentation/CameraPresenterImpl;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/presentation/n;
-.implements Lkik/android/chat/view/m$a;
-.implements Lkik/android/chat/view/s$a;
+.implements Lkik/arcane/chat/presentation/n;
+.implements Lkik/arcane/chat/view/m$a;
+.implements Lkik/arcane/chat/view/s$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+        Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
     }
 .end annotation
 
@@ -49,25 +49,25 @@
 
 .field private o:Ljava/lang/String;
 
-.field private p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+.field private p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-.field private final q:Lcom/kik/android/Mixpanel;
+.field private final q:Lcom/kik/arcane/Mixpanel;
 
 .field private final r:Lcom/kik/storage/s;
 
 .field private final s:Lkik/core/interfaces/ad;
 
-.field private t:Lkik/android/chat/fragment/p;
+.field private t:Lkik/arcane/chat/fragment/p;
 
-.field private u:Lkik/android/c/c;
+.field private u:Lkik/arcane/c/c;
 
-.field private v:Lkik/android/chat/view/m;
+.field private v:Lkik/arcane/chat/view/m;
 
-.field private w:Lkik/android/chat/view/s;
+.field private w:Lkik/arcane/chat/view/s;
 
-.field private x:Lkik/android/chat/view/af;
+.field private x:Lkik/arcane/chat/view/af;
 
-.field private y:Lkik/android/chat/fragment/CameraFragment$a;
+.field private y:Lkik/arcane/chat/fragment/CameraFragment$a;
 
 .field private z:F
 
@@ -78,16 +78,16 @@
 
     .prologue
     .line 33
-    invoke-static {}, Lkik/android/util/j;->b()I
+    invoke-static {}, Lkik/arcane/util/j;->b()I
 
     move-result v0
 
-    sput v0, Lkik/android/chat/presentation/CameraPresenterImpl;->a:I
+    sput v0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->a:I
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/kik/android/Mixpanel;Lkik/core/interfaces/ad;Lcom/kik/storage/s;)V
+.method public constructor <init>(Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/ad;Lcom/kik/storage/s;)V
     .locals 2
 
     .prologue
@@ -99,41 +99,41 @@
     .line 35
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->b:I
+    iput v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b:I
 
     .line 41
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->h:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->h:Z
 
     .line 42
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->i:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->i:Z
 
     .line 45
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->l:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->l:Z
 
     .line 46
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->m:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->m:Z
 
     .line 49
-    iput v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->n:I
+    iput v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->n:I
 
     .line 52
-    sget-object v0, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEW_STOPPED:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v0, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEW_STOPPED:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    iput-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     .line 68
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->z:F
+    iput v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->z:F
 
     .line 79
-    iput-object p1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/android/Mixpanel;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/arcane/Mixpanel;
 
     .line 80
-    iput-object p2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iput-object p2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     .line 81
-    iput-object p3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
+    iput-object p3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
 
     .line 82
     return-void
@@ -144,16 +144,16 @@
 
     .prologue
     .line 654
-    sget v0, Lkik/android/chat/presentation/CameraPresenterImpl;->a:I
+    sget v0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->a:I
 
     const/4 v1, 0x1
 
     if-le v0, v1, :cond_0
 
     .line 655
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->c()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->c()V
 
     .line 661
     :goto_0
@@ -161,9 +161,9 @@
 
     .line 658
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->d()V
 
     goto :goto_0
 .end method
@@ -173,13 +173,13 @@
 
     .prologue
     .line 744
-    iget v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->b:I
+    iget v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b:I
 
     const/16 v1, 0x10e
 
     if-eq v0, v1, :cond_0
 
-    iget v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->b:I
+    iget v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b:I
 
     const/16 v1, 0x5a
 
@@ -197,7 +197,7 @@
     goto :goto_0
 .end method
 
-.method private static a(Lcom/kik/android/Mixpanel$d;)V
+.method private static a(Lcom/kik/arcane/Mixpanel$d;)V
     .locals 1
 
     .prologue
@@ -205,80 +205,80 @@
     if-eqz p0, :cond_0
 
     .line 172
-    invoke-virtual {p0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {p0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 174
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/presentation/CameraPresenterImpl;Landroid/graphics/Bitmap;)V
+.method static synthetic a(Lkik/arcane/chat/presentation/CameraPresenterImpl;Landroid/graphics/Bitmap;)V
     .locals 1
 
     .prologue
     .line 403
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->e()V
 
     .line 404
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->h()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->h()V
 
     .line 406
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/view/af;->a(Landroid/graphics/Bitmap;)V
+    invoke-interface {v0, p1}, Lkik/arcane/chat/view/af;->a(Landroid/graphics/Bitmap;)V
 
     .line 407
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->b()V
 
     .line 409
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->e:Z
 
     .line 410
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/presentation/CameraPresenterImpl;Ljava/lang/Throwable;)V
+.method static synthetic a(Lkik/arcane/chat/presentation/CameraPresenterImpl;Ljava/lang/Throwable;)V
     .locals 1
 
     .prologue
     .line 411
-    invoke-virtual {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->g()V
+    invoke-virtual {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->g()V
 
     .line 412
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->t:Lkik/android/chat/fragment/p;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->t:Lkik/arcane/chat/fragment/p;
 
-    invoke-interface {v0}, Lkik/android/chat/fragment/p;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/fragment/p;->d()V
 
     .line 413
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->b()V
 
     .line 414
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->d()V
 
     .line 415
-    invoke-static {p1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 416
     return-void
 .end method
 
-.method private b(Lcom/kik/android/Mixpanel$d;)Lcom/kik/android/Mixpanel$d;
+.method private b(Lcom/kik/arcane/Mixpanel$d;)Lcom/kik/arcane/Mixpanel$d;
     .locals 4
 
     .prologue
@@ -294,57 +294,57 @@
 
     .line 378
     :cond_0
-    invoke-direct {p0, p1}, Lkik/android/chat/presentation/CameraPresenterImpl;->c(Lcom/kik/android/Mixpanel$d;)Lcom/kik/android/Mixpanel$d;
+    invoke-direct {p0, p1}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->c(Lcom/kik/arcane/Mixpanel$d;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 379
-    iget v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->d:I
+    iget v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->d:I
 
     if-lez v1, :cond_1
 
     .line 380
     const-string v1, "Video Length"
 
-    iget v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->d:I
+    iget v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->d:I
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 382
     :cond_1
     const-string v1, "Tapped To Focus During Preview"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->i:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->i:Z
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 383
     const-string v1, "Tapped To Focus During Recording"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->h:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->h:Z
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 384
     const-string v1, "Zoomed During Preview"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->m:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->m:Z
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 385
     const-string v1, "Zoomed During Recording"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->l:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->l:Z
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     goto :goto_0
 .end method
 
-.method private c(Lcom/kik/android/Mixpanel$d;)Lcom/kik/android/Mixpanel$d;
+.method private c(Lcom/kik/arcane/Mixpanel$d;)Lcom/kik/arcane/Mixpanel$d;
     .locals 4
 
     .prologue
@@ -364,108 +364,108 @@
     :cond_0
     const-string v1, "Has Front Facing"
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v2}, Lkik/android/c/c;->e()Z
+    invoke-interface {v2}, Lkik/arcane/c/c;->e()Z
 
     move-result v2
 
-    invoke-virtual {p1, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {p1, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Is Front Facing"
 
-    iget-object v3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 679
-    invoke-interface {v3}, Lkik/android/c/c;->f()Z
+    invoke-interface {v3}, Lkik/arcane/c/c;->f()Z
 
     move-result v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Has Flash"
 
-    iget-object v3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 680
-    invoke-interface {v3}, Lkik/android/c/c;->d()I
+    invoke-interface {v3}, Lkik/arcane/c/c;->d()I
 
     move-result v3
 
     if-le v3, v0, :cond_1
 
     :goto_1
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Flash Mode"
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 681
-    invoke-interface {v2}, Lkik/android/c/c;->g()Ljava/lang/String;
+    invoke-interface {v2}, Lkik/arcane/c/c;->g()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Is Landscape"
 
     .line 682
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->B()Z
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->B()Z
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Attempts"
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 683
-    invoke-interface {v2}, Lkik/android/c/c;->c()I
+    invoke-interface {v2}, Lkik/arcane/c/c;->c()I
 
     move-result v2
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Tapped To Focus During Preview"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->i:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->i:Z
 
     .line 684
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Zoomed During Preview"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->m:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->m:Z
 
     .line 685
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Physical Shutter"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->f:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->f:Z
 
     .line 686
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     goto :goto_0
 
@@ -481,9 +481,9 @@
 
     .prologue
     .line 452
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    sget-object v1, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v1, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     if-eq v0, v1, :cond_0
 
@@ -493,22 +493,22 @@
 
     .line 456
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->w()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w()V
 
     .line 457
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->g()V
 
     .line 458
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->i()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->i()V
 
     .line 460
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->q()Z
+    invoke-interface {v0}, Lkik/arcane/c/c;->q()Z
 
     move-result v0
 
@@ -518,14 +518,14 @@
 
     .line 461
     :goto_1
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1}, Lkik/android/c/c;->j()I
+    invoke-interface {v1}, Lkik/arcane/c/c;->j()I
 
     move-result v1
 
     .line 462
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v3, "kik.arcane.chat.fragment.CameraFragment.SelectCameraPreference"
 
@@ -536,9 +536,9 @@
     invoke-interface {v2, v3, v1}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Integer;)Z
 
     .line 464
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1}, Lkik/android/c/c;->q()Z
+    invoke-interface {v1}, Lkik/arcane/c/c;->q()Z
 
     move-result v1
 
@@ -548,41 +548,41 @@
 
     .line 3470
     :goto_2
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/android/Mixpanel;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Camera Switched"
 
-    invoke-virtual {v2, v3}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v2
 
     const-string v3, "From Camera"
 
     .line 3471
-    invoke-virtual {v2, v3, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v2, "To Camera"
 
     .line 3472
-    invoke-virtual {v0, v2, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v2, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Was Double Tap"
 
     .line 3473
-    invoke-virtual {v0, v1, p1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, p1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 3474
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     goto :goto_0
 
@@ -606,12 +606,12 @@
     const/4 v1, 0x0
 
     .line 567
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0, v1}, Lkik/android/c/c;->c(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/c/c;->c(I)V
 
     .line 568
-    iput v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->n:I
+    iput v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->n:I
 
     .line 569
     return-void
@@ -624,7 +624,7 @@
     const/4 v0, 0x0
 
     .line 616
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v2, "kik.num-videos-sent"
 
@@ -654,12 +654,12 @@
 
     .line 637
     .line 4621
-    iget-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->k:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->k:Z
 
     if-eqz v1, :cond_0
 
     .line 4627
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v2, "kik.chat.video.videos-zoomed"
 
@@ -683,9 +683,9 @@
     if-eqz v0, :cond_1
 
     .line 638
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->f()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->f()V
 
     .line 640
     :cond_1
@@ -697,16 +697,16 @@
 
     .prologue
     .line 644
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->x()Z
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 645
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->e()V
 
     .line 650
     :goto_0
@@ -714,9 +714,9 @@
 
     .line 648
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->d()V
 
     goto :goto_0
 .end method
@@ -730,18 +730,18 @@
     const/4 v1, 0x0
 
     .line 114
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->u()V
+    invoke-interface {v0}, Lkik/arcane/c/c;->u()V
 
     .line 115
-    iput-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iput-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
     .line 117
-    iput-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->t:Lkik/android/chat/fragment/p;
+    iput-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->t:Lkik/arcane/chat/fragment/p;
 
     .line 118
-    iput-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iput-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
     .line 119
     return-void
@@ -752,7 +752,7 @@
 
     .prologue
     .line 554
-    iget-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->k:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->k:Z
 
     if-nez v0, :cond_0
 
@@ -769,45 +769,45 @@
     if-lez v0, :cond_2
 
     .line 4574
-    iget v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->n:I
+    iget v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->n:I
 
     .line 559
     :goto_1
-    iget v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->n:I
+    iget v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->n:I
 
     if-le v0, v1, :cond_1
 
     .line 560
     const/4 v1, 0x1
 
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->l:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->l:Z
 
     .line 562
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1, v0}, Lkik/android/c/c;->c(I)V
+    invoke-interface {v1, v0}, Lkik/arcane/c/c;->c(I)V
 
     goto :goto_0
 
     .line 4578
     :cond_2
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->B()Z
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->B()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
     .line 4582
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->t()I
+    invoke-interface {v0}, Lkik/arcane/c/c;->t()I
 
     move-result v0
 
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v1}, Lkik/android/chat/view/m;->m()I
+    invoke-interface {v1}, Lkik/arcane/chat/view/m;->m()I
 
     move-result v1
 
@@ -831,9 +831,9 @@
     move-result v0
 
     .line 4591
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1}, Lkik/android/c/c;->v()I
+    invoke-interface {v1}, Lkik/arcane/c/c;->v()I
 
     move-result v1
 
@@ -845,14 +845,14 @@
 
     move-result v0
 
-    iget v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->n:I
+    iget v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->n:I
 
     add-int/2addr v0, v1
 
     .line 4592
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1}, Lkik/android/c/c;->v()I
+    invoke-interface {v1}, Lkik/arcane/c/c;->v()I
 
     move-result v1
 
@@ -864,17 +864,17 @@
 
     .line 4586
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->s()I
+    invoke-interface {v0}, Lkik/arcane/c/c;->s()I
 
     move-result v0
 
     div-int/lit8 v0, v0, 0x2
 
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v1}, Lkik/android/chat/view/m;->getHeight()I
+    invoke-interface {v1}, Lkik/arcane/chat/view/m;->getHeight()I
 
     move-result v1
 
@@ -890,7 +890,7 @@
 
     .prologue
     .line 719
-    iget-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->k:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->k:Z
 
     if-eqz v0, :cond_1
 
@@ -935,9 +935,9 @@
     :goto_1
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v2}, Lkik/android/c/c;->v()I
+    invoke-interface {v2}, Lkik/arcane/c/c;->v()I
 
     move-result v2
 
@@ -950,9 +950,9 @@
     move-result v0
 
     .line 728
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1, v0}, Lkik/android/c/c;->c(I)V
+    invoke-interface {v1, v0}, Lkik/arcane/c/c;->c(I)V
 
     .line 729
     if-lez v0, :cond_2
@@ -960,11 +960,11 @@
     .line 730
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->m:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->m:Z
 
     .line 733
     :cond_2
-    iput p1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->z:F
+    iput p1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->z:F
 
     goto :goto_0
 
@@ -996,12 +996,12 @@
     const/4 v1, 0x1
 
     .line 185
-    iget v3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->b:I
+    iget v3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b:I
 
     .line 1204
-    iget v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->b:I
+    iget v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b:I
 
-    invoke-static {p1, v0}, Lkik/android/util/j;->b(II)I
+    invoke-static {p1, v0}, Lkik/arcane/util/j;->b(II)I
 
     move-result v0
 
@@ -1021,58 +1021,58 @@
     :goto_0
     if-eq v2, v4, :cond_0
 
-    iget v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->b:I
+    iget v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b:I
 
     if-ne v0, v2, :cond_2
 
     .line 188
     :cond_0
     :goto_1
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0, p1}, Lkik/android/c/c;->a(I)V
+    invoke-interface {v0, p1}, Lkik/arcane/c/c;->a(I)V
 
     .line 189
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/view/s;->a(I)V
+    invoke-interface {v0, p1}, Lkik/arcane/chat/view/s;->a(I)V
 
     .line 190
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/view/af;->a(I)V
+    invoke-interface {v0, p1}, Lkik/arcane/chat/view/af;->a(I)V
 
     .line 192
     if-gez v3, :cond_1
 
     .line 193
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "Camera Tray Opened"
 
-    invoke-virtual {v0, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v2, "Has Front Facing"
 
-    iget-object v3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 194
-    invoke-interface {v3}, Lkik/android/c/c;->e()Z
+    invoke-interface {v3}, Lkik/arcane/c/c;->e()Z
 
     move-result v3
 
-    invoke-virtual {v0, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v2
 
     const-string v3, "Has Flash"
 
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 195
-    invoke-interface {v0}, Lkik/android/c/c;->d()I
+    invoke-interface {v0}, Lkik/arcane/c/c;->d()I
 
     move-result v0
 
@@ -1081,34 +1081,34 @@
     move v0, v1
 
     :goto_2
-    invoke-virtual {v2, v3, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v2, "Is Landscape"
 
     .line 196
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->B()Z
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->B()Z
 
     move-result v3
 
-    invoke-virtual {v0, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v2, "Has Permission"
 
     .line 197
-    invoke-virtual {v0, v2, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v2, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 198
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 200
     :cond_1
@@ -1116,10 +1116,10 @@
 
     .line 1214
     :cond_2
-    iput v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->b:I
+    iput v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b:I
 
     .line 1216
-    iget v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->c:I
+    iget v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->c:I
 
     int-to-float v4, v0
 
@@ -1141,12 +1141,12 @@
     .line 1226
     :cond_3
     :goto_3
-    iget-object v5, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v5, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v5, v4, v0}, Lkik/android/chat/view/m;->a(FF)V
+    invoke-interface {v5, v4, v0}, Lkik/arcane/chat/view/m;->a(FF)V
 
     .line 1227
-    iput v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->c:I
+    iput v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->c:I
 
     goto :goto_1
 
@@ -1177,59 +1177,59 @@
     goto :goto_0
 .end method
 
-.method public final a(Lkik/android/c/c;)V
+.method public final a(Lkik/arcane/c/c;)V
     .locals 0
 
     .prologue
     .line 307
-    iput-object p1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 308
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/view/m;Lkik/android/chat/view/s;Lkik/android/chat/view/af;Lkik/android/chat/fragment/p;Lkik/android/chat/fragment/CameraFragment$a;)V
+.method public final a(Lkik/arcane/chat/view/m;Lkik/arcane/chat/view/s;Lkik/arcane/chat/view/af;Lkik/arcane/chat/fragment/p;Lkik/arcane/chat/fragment/CameraFragment$a;)V
     .locals 3
 
     .prologue
     .line 89
-    iput-object p1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
     .line 90
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0, p0}, Lkik/android/chat/view/m;->a(Lkik/android/chat/view/m$a;)V
+    invoke-interface {v0, p0}, Lkik/arcane/chat/view/m;->a(Lkik/arcane/chat/view/m$a;)V
 
     .line 92
-    iput-object p2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iput-object p2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
     .line 93
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0, p0}, Lkik/android/chat/view/s;->a(Lkik/android/chat/presentation/n;)V
+    invoke-interface {v0, p0}, Lkik/arcane/chat/view/s;->a(Lkik/arcane/chat/presentation/n;)V
 
     .line 94
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0, p0}, Lkik/android/chat/view/s;->a(Lkik/android/chat/view/s$a;)V
+    invoke-interface {v0, p0}, Lkik/arcane/chat/view/s;->a(Lkik/arcane/chat/view/s$a;)V
 
     .line 96
-    iput-object p3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iput-object p3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
     .line 98
-    iput-object p4, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->t:Lkik/android/chat/fragment/p;
+    iput-object p4, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->t:Lkik/arcane/chat/fragment/p;
 
     .line 100
-    iput-object p5, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->y:Lkik/android/chat/fragment/CameraFragment$a;
+    iput-object p5, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->y:Lkik/arcane/chat/fragment/CameraFragment$a;
 
     .line 102
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->A()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->A()V
 
     .line 103
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->z()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->z()V
 
     .line 105
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.arcane.chat.fragment.CameraFragment.SelectCameraPreference"
 
@@ -1244,14 +1244,14 @@
     move-result v0
 
     .line 106
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1, v0}, Lkik/android/c/c;->b(I)I
+    invoke-interface {v1, v0}, Lkik/arcane/c/c;->b(I)I
 
     move-result v0
 
     .line 108
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v2, "kik.arcane.chat.fragment.CameraFragment.SelectCameraPreference"
 
@@ -1273,54 +1273,54 @@
     if-eqz p1, :cond_0
 
     .line 293
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Camera Photo Sent"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->c(Lcom/kik/android/Mixpanel$d;)Lcom/kik/android/Mixpanel$d;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->c(Lcom/kik/arcane/Mixpanel$d;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/android/Mixpanel$d;)V
+    invoke-static {v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/arcane/Mixpanel$d;)V
 
     .line 299
     :goto_0
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->d:I
+    iput v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->d:I
 
     .line 300
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->m:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->m:Z
 
     .line 301
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->t:Lkik/android/chat/fragment/p;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->t:Lkik/arcane/chat/fragment/p;
 
-    invoke-interface {v0}, Lkik/android/chat/fragment/p;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/fragment/p;->g()V
 
     .line 302
     return-void
 
     .line 296
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Camera Video Sent"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->b(Lcom/kik/android/Mixpanel$d;)Lcom/kik/android/Mixpanel$d;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b(Lcom/kik/arcane/Mixpanel$d;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/android/Mixpanel$d;)V
+    invoke-static {v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/arcane/Mixpanel$d;)V
 
     goto :goto_0
 .end method
@@ -1332,32 +1332,32 @@
     .line 534
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->l:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->l:Z
 
     .line 536
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->k:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->k:Z
 
     .line 537
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->w()I
+    invoke-interface {v0}, Lkik/arcane/c/c;->w()I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->n:I
+    iput v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->n:I
 
     .line 539
-    iput-boolean p1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->f:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->f:Z
 
     .line 540
-    iput-boolean p2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->g:Z
+    iput-boolean p2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->g:Z
 
     .line 541
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->n()V
+    invoke-interface {v0}, Lkik/arcane/c/c;->n()V
 
     .line 542
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
@@ -1368,38 +1368,38 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
 
     .line 544
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
 
     invoke-interface {v1, v2}, Lcom/kik/storage/s;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/c/c;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/c/c;->a(Ljava/lang/String;)V
 
     .line 545
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->b()V
 
     .line 546
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->d()V
 
     .line 547
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->e()V
 
     .line 548
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->y()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->y()V
 
     .line 549
     return-void
@@ -1412,31 +1412,31 @@
     const/4 v1, 0x1
 
     .line 693
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->f()Z
+    invoke-interface {v0}, Lkik/arcane/c/c;->f()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 694
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0, p1, p2}, Lkik/android/c/c;->a(FF)V
+    invoke-interface {v0, p1, p2}, Lkik/arcane/c/c;->a(FF)V
 
     .line 695
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0, p1, p2}, Lkik/android/chat/view/s;->a(FF)V
+    invoke-interface {v0, p1, p2}, Lkik/arcane/chat/view/s;->a(FF)V
 
     .line 697
-    iget-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->k:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->k:Z
 
     if-eqz v0, :cond_1
 
     .line 698
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->h:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->h:Z
 
     .line 705
     :cond_0
@@ -1445,7 +1445,7 @@
 
     .line 701
     :cond_1
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->i:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->i:Z
 
     goto :goto_0
 .end method
@@ -1455,30 +1455,30 @@
 
     .prologue
     .line 125
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->y:Lkik/android/chat/fragment/CameraFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->y:Lkik/arcane/chat/fragment/CameraFragment$a;
 
     if-eqz v0, :cond_0
 
     .line 126
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->y:Lkik/android/chat/fragment/CameraFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->y:Lkik/arcane/chat/fragment/CameraFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/CameraFragment$a;->enable()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/CameraFragment$a;->enable()V
 
     .line 129
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->a()V
 
     .line 130
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->m()V
+    invoke-interface {v0}, Lkik/arcane/c/c;->m()V
 
     .line 131
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0}, Lkik/android/chat/view/af;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/af;->d()V
 
     .line 133
     return-void
@@ -1489,9 +1489,9 @@
 
     .prologue
     .line 338
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/view/m;->a(I)V
+    invoke-interface {v0, p1}, Lkik/arcane/chat/view/m;->a(I)V
 
     .line 339
     return-void
@@ -1502,42 +1502,42 @@
 
     .prologue
     .line 393
-    iput-boolean p1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->f:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->f:Z
 
     .line 394
-    iget-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->j:Z
 
     if-nez v0, :cond_0
 
     .line 397
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->g()V
 
     .line 399
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    sget-object v1, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v1, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     if-ne v0, v1, :cond_0
 
     .line 400
-    sget-object v0, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->ABOUT_TO_TAKE_PICTURE:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v0, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->ABOUT_TO_TAKE_PICTURE:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    iput-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     .line 401
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->a()Lrx/d;
+    invoke-interface {v0}, Lkik/arcane/c/c;->a()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/presentation/o;->a(Lkik/android/chat/presentation/CameraPresenterImpl;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/presentation/o;->a(Lkik/arcane/chat/presentation/CameraPresenterImpl;)Lrx/functions/b;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/presentation/p;->a(Lkik/android/chat/presentation/CameraPresenterImpl;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/presentation/p;->a(Lkik/arcane/chat/presentation/CameraPresenterImpl;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -1554,30 +1554,30 @@
 
     .prologue
     .line 138
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->k()V
+    invoke-interface {v0}, Lkik/arcane/c/c;->k()V
 
     .line 140
-    iget-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->j:Z
 
     if-eqz v0, :cond_0
 
     .line 141
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0}, Lkik/android/chat/view/af;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/af;->a()V
 
     .line 145
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->y:Lkik/android/chat/fragment/CameraFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->y:Lkik/arcane/chat/fragment/CameraFragment$a;
 
     if-eqz v0, :cond_1
 
     .line 146
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->y:Lkik/android/chat/fragment/CameraFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->y:Lkik/arcane/chat/fragment/CameraFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/CameraFragment$a;->disable()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/CameraFragment$a;->disable()V
 
     .line 148
     :cond_1
@@ -1589,9 +1589,9 @@
 
     .prologue
     .line 153
-    sget-object v0, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v0, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    iput-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     .line 154
     return-void
@@ -1602,15 +1602,15 @@
 
     .prologue
     .line 159
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    sget-object v1, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v1, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     if-eq v0, v1, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    sget-object v1, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->ABOUT_TO_TAKE_PICTURE:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v1, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->ABOUT_TO_TAKE_PICTURE:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     if-ne v0, v1, :cond_1
 
@@ -1631,24 +1631,24 @@
 
     .prologue
     .line 165
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Photo Taken"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->c(Lcom/kik/android/Mixpanel$d;)Lcom/kik/android/Mixpanel$d;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->c(Lcom/kik/arcane/Mixpanel$d;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/android/Mixpanel$d;)V
+    invoke-static {v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/arcane/Mixpanel$d;)V
 
     .line 166
-    sget-object v0, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->TAKING_PICTURE:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v0, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->TAKING_PICTURE:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    iput-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     .line 167
     return-void
@@ -1659,37 +1659,37 @@
 
     .prologue
     .line 233
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->t:Lkik/android/chat/fragment/p;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->t:Lkik/arcane/chat/fragment/p;
 
-    invoke-interface {v0}, Lkik/android/chat/fragment/p;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/fragment/p;->e()V
 
     .line 234
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->h()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->h()V
 
     .line 235
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->f()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->f()V
 
     .line 236
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->h()Z
+    invoke-interface {v0}, Lkik/arcane/c/c;->h()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 237
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->a()V
 
     .line 239
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->A()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->A()V
 
     .line 240
     return-void
@@ -1700,23 +1700,23 @@
 
     .prologue
     .line 245
-    sget-object v0, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v0, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEWING:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    iput-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     .line 246
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1}, Lkik/android/c/c;->q()Z
+    invoke-interface {v1}, Lkik/arcane/c/c;->q()Z
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/m;->a(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/m;->a(Z)V
 
     .line 248
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.arcane.chat.fragment.CameraFragment.FlashPreference"
 
@@ -1725,9 +1725,9 @@
     move-result-object v0
 
     .line 250
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v1, v0}, Lkik/android/c/c;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v0}, Lkik/arcane/c/c;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1735,34 +1735,34 @@
     if-eqz v0, :cond_0
 
     .line 253
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v1}, Lkik/android/chat/view/m;->h()V
+    invoke-interface {v1}, Lkik/arcane/chat/view/m;->h()V
 
     .line 1665
     :cond_0
     if-eqz v0, :cond_1
 
-    iget-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->e:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->e:Z
 
     if-nez v1, :cond_1
 
-    iget-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->j:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->j:Z
 
     if-eqz v1, :cond_3
 
     .line 1666
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v1}, Lkik/android/chat/view/m;->b()V
+    invoke-interface {v1}, Lkik/arcane/chat/view/m;->b()V
 
     .line 258
     :goto_0
     if-eqz v0, :cond_2
 
     .line 259
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v2, "kik.arcane.chat.fragment.CameraFragment.FlashPreference"
 
@@ -1774,9 +1774,9 @@
 
     .line 1670
     :cond_3
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v1, v0}, Lkik/android/chat/view/m;->a(Ljava/lang/String;)V
+    invoke-interface {v1, v0}, Lkik/arcane/chat/view/m;->a(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -1786,9 +1786,9 @@
 
     .prologue
     .line 267
-    sget-object v0, Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEW_STOPPED:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    sget-object v0, Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;->PREVIEW_STOPPED:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
-    iput-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->p:Lkik/android/chat/presentation/CameraPresenterImpl$CameraState;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->p:Lkik/arcane/chat/presentation/CameraPresenterImpl$CameraState;
 
     .line 268
     return-void
@@ -1799,14 +1799,14 @@
 
     .prologue
     .line 285
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->t:Lkik/android/chat/fragment/p;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->t:Lkik/arcane/chat/fragment/p;
 
-    invoke-interface {v0}, Lkik/android/chat/fragment/p;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/fragment/p;->d()V
 
     .line 286
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->l()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->l()V
 
     .line 287
     return-void
@@ -1817,9 +1817,9 @@
 
     .prologue
     .line 313
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->g()V
 
     .line 314
     return-void
@@ -1830,42 +1830,42 @@
 
     .prologue
     .line 319
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->t:Lkik/android/chat/fragment/p;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->t:Lkik/arcane/chat/fragment/p;
 
-    invoke-interface {v0}, Lkik/android/chat/fragment/p;->f()V
+    invoke-interface {v0}, Lkik/arcane/chat/fragment/p;->f()V
 
     .line 320
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0}, Lkik/android/chat/view/af;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/af;->b()V
 
     .line 321
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->h()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->h()V
 
     .line 322
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->f()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->f()V
 
     .line 323
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->h()Z
+    invoke-interface {v0}, Lkik/arcane/c/c;->h()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 324
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->a()V
 
     .line 326
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->A()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->A()V
 
     .line 327
     return-void
@@ -1876,9 +1876,9 @@
 
     .prologue
     .line 332
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->k()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->k()V
 
     .line 333
     return-void
@@ -1889,12 +1889,12 @@
 
     .prologue
     .line 344
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->j()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->j()V
 
     .line 345
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->y()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->y()V
 
     .line 346
     return-void
@@ -1907,82 +1907,82 @@
     .line 351
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->k:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->k:Z
 
     .line 352
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->j:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->j:Z
 
     .line 353
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->p()I
+    invoke-interface {v0}, Lkik/arcane/c/c;->p()I
 
     move-result v0
 
     div-int/lit16 v0, v0, 0x3e8
 
-    iput v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->d:I
+    iput v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->d:I
 
     .line 354
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->o()V
+    invoke-interface {v0}, Lkik/arcane/c/c;->o()V
 
     .line 355
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->b()V
 
     .line 356
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
 
     invoke-interface {v1, v2}, Lcom/kik/storage/s;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
     .line 357
-    invoke-interface {v2}, Lkik/android/c/c;->r()I
+    invoke-interface {v2}, Lkik/arcane/c/c;->r()I
 
     move-result v2
 
-    iget-object v3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v3}, Lkik/android/c/c;->s()I
+    invoke-interface {v3}, Lkik/arcane/c/c;->s()I
 
     move-result v3
 
-    iget-object v4, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v4, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v4}, Lkik/android/c/c;->t()I
+    invoke-interface {v4}, Lkik/arcane/c/c;->t()I
 
     move-result v4
 
     .line 356
-    invoke-interface {v0, v1, v2, v3, v4}, Lkik/android/chat/view/af;->a(Ljava/lang/String;III)V
+    invoke-interface {v0, v1, v2, v3, v4}, Lkik/arcane/chat/view/af;->a(Ljava/lang/String;III)V
 
     .line 358
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->e()V
 
     .line 360
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->q:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Video Recorded"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->b(Lcom/kik/android/Mixpanel$d;)Lcom/kik/android/Mixpanel$d;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->b(Lcom/kik/arcane/Mixpanel$d;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -1992,21 +1992,21 @@
     .line 363
     const-string v1, "Music Playing"
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->g:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->g:Z
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 365
     :cond_0
-    invoke-static {v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/android/Mixpanel$d;)V
+    invoke-static {v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->a(Lcom/kik/arcane/Mixpanel$d;)V
 
     .line 367
-    iget-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->l:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->l:Z
 
     if-eqz v0, :cond_1
 
     .line 2632
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.chat.video.videos-zoomed"
 
@@ -2014,7 +2014,7 @@
 
     .line 370
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->w()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w()V
 
     .line 371
     return-void
@@ -2025,9 +2025,9 @@
 
     .prologue
     .line 424
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->b()V
+    invoke-interface {v0}, Lkik/arcane/c/c;->b()V
 
     .line 425
     return-void
@@ -2038,9 +2038,9 @@
 
     .prologue
     .line 430
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->i()Ljava/lang/String;
+    invoke-interface {v0}, Lkik/arcane/c/c;->i()Ljava/lang/String;
 
     move-result-object v0
 
@@ -2048,7 +2048,7 @@
     if-eqz v0, :cond_0
 
     .line 433
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v2, "kik.arcane.chat.fragment.CameraFragment.FlashPreference"
 
@@ -2056,9 +2056,9 @@
 
     .line 436
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v1, v0}, Lkik/android/chat/view/m;->a(Ljava/lang/String;)V
+    invoke-interface {v1, v0}, Lkik/arcane/chat/view/m;->a(Ljava/lang/String;)V
 
     .line 437
     return-void
@@ -2071,7 +2071,7 @@
     .line 442
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/presentation/CameraPresenterImpl;->c(Z)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->c(Z)V
 
     .line 443
     return-void
@@ -2084,79 +2084,79 @@
     const/4 v1, 0x0
 
     .line 480
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->h:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->h:Z
 
     .line 481
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->i:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->i:Z
 
     .line 483
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->f()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->f()V
 
     .line 485
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->h()Z
+    invoke-interface {v0}, Lkik/arcane/c/c;->h()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 486
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->a()V
 
     .line 492
     :goto_0
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->A()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->A()V
 
     .line 494
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->e:Z
 
     .line 495
-    iput-boolean v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->j:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->j:Z
 
     .line 497
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->w()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w()V
 
     .line 4272
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->w:Lkik/android/chat/view/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->w:Lkik/arcane/chat/view/s;
 
-    invoke-interface {v0}, Lkik/android/chat/view/s;->c()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s;->c()V
 
     .line 4273
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    invoke-interface {v0}, Lkik/android/c/c;->l()V
+    invoke-interface {v0}, Lkik/arcane/c/c;->l()V
 
     .line 4275
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0}, Lkik/android/chat/view/af;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/af;->b()V
 
     .line 4276
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0}, Lkik/android/chat/view/af;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/af;->e()V
 
     .line 4277
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0}, Lkik/android/chat/view/af;->c()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/af;->c()V
 
     .line 4279
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->z()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->z()V
 
     .line 499
     return-void
 
     .line 489
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->v:Lkik/android/chat/view/m;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->v:Lkik/arcane/chat/view/m;
 
-    invoke-interface {v0}, Lkik/android/chat/view/m;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/m;->b()V
 
     goto :goto_0
 .end method
@@ -2168,19 +2168,19 @@
     const/4 v3, 0x0
 
     .line 504
-    iget-boolean v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->j:Z
 
     if-eqz v0, :cond_1
 
     .line 505
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->x()Z
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 506
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.num-videos-sent"
 
@@ -2193,7 +2193,7 @@
     move-result v0
 
     .line 507
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
     const-string v2, "kik.num-videos-sent"
 
@@ -2207,45 +2207,45 @@
 
     .line 509
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
 
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lcom/kik/storage/s;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 4524
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v1}, Lkik/android/chat/view/af;->b()V
+    invoke-interface {v1}, Lkik/arcane/chat/view/af;->b()V
 
     .line 4525
-    iput-boolean v3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->j:Z
+    iput-boolean v3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->j:Z
 
     .line 4527
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v1}, Lkik/android/chat/view/af;->e()V
+    invoke-interface {v1}, Lkik/arcane/chat/view/af;->e()V
 
     .line 4528
-    invoke-direct {p0}, Lkik/android/chat/presentation/CameraPresenterImpl;->z()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->z()V
 
     .line 512
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->r:Lcom/kik/storage/s;
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
 
     invoke-interface {v1, v2, v0}, Lcom/kik/storage/s;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 514
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->o:Ljava/lang/String;
 
-    iget-object v3, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v3, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    invoke-interface {v1, v0, v2, v3}, Lkik/android/c/c;->a(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/ad;)V
+    invoke-interface {v1, v0, v2, v3}, Lkik/arcane/c/c;->a(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/ad;)V
 
     .line 520
     :goto_0
@@ -2253,18 +2253,18 @@
 
     .line 517
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->x:Lkik/android/chat/view/af;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->x:Lkik/arcane/chat/view/af;
 
-    invoke-interface {v0}, Lkik/android/chat/view/af;->f()Landroid/graphics/Bitmap;
+    invoke-interface {v0}, Lkik/arcane/chat/view/af;->f()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     .line 518
-    iget-object v1, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->u:Lkik/android/c/c;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->u:Lkik/arcane/c/c;
 
-    iget-object v2, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->s:Lkik/core/interfaces/ad;
 
-    invoke-interface {v1, v2, v0}, Lkik/android/c/c;->a(Lkik/core/interfaces/ad;Landroid/graphics/Bitmap;)V
+    invoke-interface {v1, v2, v0}, Lkik/arcane/c/c;->a(Lkik/core/interfaces/ad;Landroid/graphics/Bitmap;)V
 
     goto :goto_0
 .end method
@@ -2276,12 +2276,12 @@
     const/4 v1, 0x1
 
     .line 711
-    sget v0, Lkik/android/chat/presentation/CameraPresenterImpl;->a:I
+    sget v0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->a:I
 
     if-le v0, v1, :cond_0
 
     .line 5447
-    invoke-direct {p0, v1}, Lkik/android/chat/presentation/CameraPresenterImpl;->c(Z)V
+    invoke-direct {p0, v1}, Lkik/arcane/chat/presentation/CameraPresenterImpl;->c(Z)V
 
     .line 714
     :cond_0
@@ -2295,7 +2295,7 @@
     .line 739
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/presentation/CameraPresenterImpl;->z:F
+    iput v0, p0, Lkik/arcane/chat/presentation/CameraPresenterImpl;->z:F
 
     .line 740
     return-void

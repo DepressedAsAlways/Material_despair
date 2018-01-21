@@ -1,9 +1,9 @@
-.class public Lkik/android/chat/view/text/a;
+.class public Lkik/arcane/chat/view/text/a;
 .super Landroid/text/style/ClickableSpan;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/view/text/b;
+.implements Lkik/arcane/chat/view/text/b;
 
 
 # instance fields
@@ -25,12 +25,12 @@
     .line 13
     const/16 v0, 0x96
 
-    iput v0, p0, Lkik/android/chat/view/text/a;->a:I
+    iput v0, p0, Lkik/arcane/chat/view/text/a;->a:I
 
     .line 29
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/text/a;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/text/a;->c:Z
 
     .line 30
     return-void
@@ -43,7 +43,7 @@
 
     .prologue
     .line 39
-    iput-boolean p1, p0, Lkik/android/chat/view/text/a;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/view/text/a;->b:Z
 
     .line 40
     return-void
@@ -65,17 +65,17 @@
     invoke-super {p0, p1}, Landroid/text/style/ClickableSpan;->updateDrawState(Landroid/text/TextPaint;)V
 
     .line 46
-    iget-boolean v0, p0, Lkik/android/chat/view/text/a;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/text/a;->b:Z
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Lkik/android/chat/view/text/a;->a:I
+    iget v0, p0, Lkik/arcane/chat/view/text/a;->a:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->setAlpha(I)V
 
     .line 47
-    iget-boolean v0, p0, Lkik/android/chat/view/text/a;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/text/a;->c:Z
 
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->setUnderlineText(Z)V
 

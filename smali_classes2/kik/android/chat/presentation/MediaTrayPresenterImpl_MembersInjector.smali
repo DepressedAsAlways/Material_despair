@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;
+.class public final Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/presentation/MediaTrayPresenterImpl;",
+        "Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;",
         ">;"
     }
 .end annotation
@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -50,7 +50,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;"
         }
     .end annotation
@@ -61,7 +61,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;"
         }
     .end annotation
@@ -72,7 +72,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/b/a;",
+            "Lkik/arcane/chat/b/a;",
             ">;"
         }
     .end annotation
@@ -138,7 +138,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/bw;",
+            "Lkik/arcane/chat/presentation/bw;",
             ">;"
         }
     .end annotation
@@ -215,7 +215,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;"
         }
     .end annotation
@@ -237,7 +237,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;"
         }
     .end annotation
@@ -259,7 +259,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/voice/e;",
+            "Lkik/arcane/voice/e;",
             ">;"
         }
     .end annotation
@@ -294,7 +294,7 @@
 
     .prologue
     .line 29
-    const-class v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;
+    const-class v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -305,7 +305,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     return-void
 
@@ -322,7 +322,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -330,15 +330,15 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/b/a;",
+            "Lkik/arcane/chat/b/a;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -362,7 +362,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/bw;",
+            "Lkik/arcane/chat/presentation/bw;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -390,7 +390,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -398,7 +398,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -406,7 +406,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/voice/e;",
+            "Lkik/arcane/voice/e;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -424,7 +424,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 108
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_0
 
@@ -438,10 +438,10 @@
 
     .line 109
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 110
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_1
 
@@ -455,10 +455,10 @@
 
     .line 111
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 112
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_2
 
@@ -472,10 +472,10 @@
 
     .line 113
     :cond_2
-    iput-object p3, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 114
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_3
 
@@ -489,10 +489,10 @@
 
     .line 115
     :cond_3
-    iput-object p4, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 116
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_4
 
@@ -506,10 +506,10 @@
 
     .line 117
     :cond_4
-    iput-object p5, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 118
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_5
 
@@ -523,10 +523,10 @@
 
     .line 119
     :cond_5
-    iput-object p6, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->g:Ljavax/inject/Provider;
+    iput-object p6, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->g:Ljavax/inject/Provider;
 
     .line 120
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_6
 
@@ -540,10 +540,10 @@
 
     .line 121
     :cond_6
-    iput-object p7, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->h:Ljavax/inject/Provider;
+    iput-object p7, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->h:Ljavax/inject/Provider;
 
     .line 122
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_7
 
@@ -557,10 +557,10 @@
 
     .line 123
     :cond_7
-    iput-object p8, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->i:Ljavax/inject/Provider;
+    iput-object p8, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->i:Ljavax/inject/Provider;
 
     .line 124
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_8
 
@@ -574,10 +574,10 @@
 
     .line 125
     :cond_8
-    iput-object p9, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->j:Ljavax/inject/Provider;
+    iput-object p9, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->j:Ljavax/inject/Provider;
 
     .line 126
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_9
 
@@ -591,10 +591,10 @@
 
     .line 127
     :cond_9
-    iput-object p10, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->k:Ljavax/inject/Provider;
+    iput-object p10, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->k:Ljavax/inject/Provider;
 
     .line 128
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_a
 
@@ -608,10 +608,10 @@
 
     .line 129
     :cond_a
-    iput-object p11, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->l:Ljavax/inject/Provider;
+    iput-object p11, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->l:Ljavax/inject/Provider;
 
     .line 130
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_b
 
@@ -625,10 +625,10 @@
 
     .line 131
     :cond_b
-    iput-object p12, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->m:Ljavax/inject/Provider;
+    iput-object p12, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->m:Ljavax/inject/Provider;
 
     .line 132
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_c
 
@@ -642,10 +642,10 @@
 
     .line 133
     :cond_c
-    iput-object p13, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->n:Ljavax/inject/Provider;
+    iput-object p13, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->n:Ljavax/inject/Provider;
 
     .line 134
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_d
 
@@ -661,10 +661,10 @@
     :cond_d
     move-object/from16 v0, p14
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->o:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->o:Ljavax/inject/Provider;
 
     .line 136
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_e
 
@@ -680,10 +680,10 @@
     :cond_e
     move-object/from16 v0, p15
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->p:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->p:Ljavax/inject/Provider;
 
     .line 138
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_f
 
@@ -699,10 +699,10 @@
     :cond_f
     move-object/from16 v0, p16
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->q:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->q:Ljavax/inject/Provider;
 
     .line 140
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_10
 
@@ -718,10 +718,10 @@
     :cond_10
     move-object/from16 v0, p17
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->r:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->r:Ljavax/inject/Provider;
 
     .line 142
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_11
 
@@ -737,10 +737,10 @@
     :cond_11
     move-object/from16 v0, p18
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->s:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->s:Ljavax/inject/Provider;
 
     .line 144
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_12
 
@@ -756,10 +756,10 @@
     :cond_12
     move-object/from16 v0, p19
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->t:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->t:Ljavax/inject/Provider;
 
     .line 146
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_13
 
@@ -775,10 +775,10 @@
     :cond_13
     move-object/from16 v0, p20
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->u:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->u:Ljavax/inject/Provider;
 
     .line 148
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_14
 
@@ -794,10 +794,10 @@
     :cond_14
     move-object/from16 v0, p21
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->v:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->v:Ljavax/inject/Provider;
 
     .line 150
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_15
 
@@ -813,10 +813,10 @@
     :cond_15
     move-object/from16 v0, p22
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->w:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->w:Ljavax/inject/Provider;
 
     .line 152
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_16
 
@@ -832,10 +832,10 @@
     :cond_16
     move-object/from16 v0, p23
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->x:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->x:Ljavax/inject/Provider;
 
     .line 154
-    sget-boolean v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
+    sget-boolean v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a:Z
 
     if-nez v1, :cond_17
 
@@ -851,7 +851,7 @@
     :cond_17
     move-object/from16 v0, p24
 
-    iput-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->y:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->y:Ljavax/inject/Provider;
 
     .line 156
     return-void
@@ -864,7 +864,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -872,15 +872,15 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/b/a;",
+            "Lkik/arcane/chat/b/a;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -904,7 +904,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/bw;",
+            "Lkik/arcane/chat/presentation/bw;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -932,7 +932,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -940,7 +940,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -948,7 +948,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/voice/e;",
+            "Lkik/arcane/voice/e;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -960,14 +960,14 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/presentation/MediaTrayPresenterImpl;",
+            "Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 183
-    new-instance v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;
 
     move-object/from16 v1, p0
 
@@ -1017,7 +1017,7 @@
 
     move-object/from16 v24, p23
 
-    invoke-direct/range {v0 .. v24}, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v24}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -1029,7 +1029,7 @@
 
     .prologue
     .line 29
-    check-cast p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    check-cast p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
     .line 1212
     if-nez p1, :cond_0
@@ -1045,18 +1045,18 @@
 
     .line 1215
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->a:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 1216
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1064,43 +1064,43 @@
 
     check-cast v0, Lkik/core/interfaces/ab;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->b:Lkik/core/interfaces/ab;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->b:Lkik/core/interfaces/ab;
 
     .line 1217
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/b/g;
+    check-cast v0, Lcom/kik/arcane/b/g;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->c:Lcom/kik/android/b/g;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->c:Lcom/kik/arcane/b/g;
 
     .line 1218
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/theming/ChatBubbleManager;
+    check-cast v0, Lkik/arcane/chat/theming/ChatBubbleManager;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->d:Lkik/android/chat/theming/ChatBubbleManager;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->d:Lkik/arcane/chat/theming/ChatBubbleManager;
 
     .line 1219
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/b/a;
+    check-cast v0, Lkik/arcane/chat/b/a;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->e:Lkik/android/chat/b/a;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->e:Lkik/arcane/chat/b/a;
 
     .line 1220
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1108,10 +1108,10 @@
 
     check-cast v0, Lkik/core/interfaces/b;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->f:Lkik/core/interfaces/b;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->f:Lkik/core/interfaces/b;
 
     .line 1221
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->h:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->h:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1119,10 +1119,10 @@
 
     check-cast v0, Lkik/core/manager/z;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->g:Lkik/core/manager/z;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->g:Lkik/core/manager/z;
 
     .line 1222
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->i:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->i:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1130,10 +1130,10 @@
 
     check-cast v0, Lcom/kik/storage/s;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->h:Lcom/kik/storage/s;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->h:Lcom/kik/storage/s;
 
     .line 1223
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->j:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->j:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1141,10 +1141,10 @@
 
     check-cast v0, Lkik/core/interfaces/v;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->i:Lkik/core/interfaces/v;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->i:Lkik/core/interfaces/v;
 
     .line 1224
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->k:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->k:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1152,21 +1152,21 @@
 
     check-cast v0, Lkik/core/interfaces/IConversation;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->j:Lkik/core/interfaces/IConversation;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->j:Lkik/core/interfaces/IConversation;
 
     .line 1225
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->l:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->l:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/bw;
+    check-cast v0, Lkik/arcane/chat/presentation/bw;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->k:Lkik/android/chat/presentation/bw;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->k:Lkik/arcane/chat/presentation/bw;
 
     .line 1226
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->m:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->m:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1174,10 +1174,10 @@
 
     check-cast v0, Lkik/core/manager/x;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->l:Lkik/core/manager/x;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->l:Lkik/core/manager/x;
 
     .line 1227
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->n:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->n:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1185,10 +1185,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->m:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->m:Lkik/core/interfaces/ad;
 
     .line 1228
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->o:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->o:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1196,10 +1196,10 @@
 
     check-cast v0, Lkik/core/net/e;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->n:Lkik/core/net/e;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->n:Lkik/core/net/e;
 
     .line 1229
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->p:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->p:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1207,10 +1207,10 @@
 
     check-cast v0, Lkik/core/interfaces/z;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->o:Lkik/core/interfaces/z;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->o:Lkik/core/interfaces/z;
 
     .line 1230
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->q:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->q:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1218,10 +1218,10 @@
 
     check-cast v0, Lkik/core/interfaces/n;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->p:Lkik/core/interfaces/n;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->p:Lkik/core/interfaces/n;
 
     .line 1231
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->r:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->r:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1229,21 +1229,21 @@
 
     check-cast v0, Lkik/core/e/c;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->q:Lkik/core/e/c;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->q:Lkik/core/e/c;
 
     .line 1232
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->s:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->s:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/JoinGifTrayHelper;
+    check-cast v0, Lkik/arcane/chat/JoinGifTrayHelper;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->r:Lkik/android/chat/JoinGifTrayHelper;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->r:Lkik/arcane/chat/JoinGifTrayHelper;
 
     .line 1233
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->t:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->t:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1251,21 +1251,21 @@
 
     check-cast v0, Lkik/core/content/IAttachmentManager;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->s:Lkik/core/content/IAttachmentManager;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->s:Lkik/core/content/IAttachmentManager;
 
     .line 1234
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->u:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->u:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/videochat/c;
+    check-cast v0, Lkik/arcane/videochat/c;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->t:Lkik/android/videochat/c;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->t:Lkik/arcane/videochat/c;
 
     .line 1235
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->v:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->v:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1273,21 +1273,21 @@
 
     check-cast v0, Lcom/rounds/kik/analytics/IReporter;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->u:Lcom/rounds/kik/analytics/IReporter;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->u:Lcom/rounds/kik/analytics/IReporter;
 
     .line 1236
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->w:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->w:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/voice/e;
+    check-cast v0, Lkik/arcane/voice/e;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->v:Lkik/android/voice/e;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->v:Lkik/arcane/voice/e;
 
     .line 1237
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->x:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->x:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1295,10 +1295,10 @@
 
     check-cast v0, Lcom/kik/cache/KikVolleyImageLoader;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->w:Lcom/kik/cache/KikVolleyImageLoader;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->w:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 1238
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->y:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->y:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -1306,7 +1306,7 @@
 
     check-cast v0, Lcom/kik/cache/KikVolleyImageLoader;
 
-    iput-object v0, p1, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->x:Lcom/kik/cache/KikVolleyImageLoader;
+    iput-object v0, p1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->x:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 29
     return-void

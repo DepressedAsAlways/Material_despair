@@ -1,4 +1,4 @@
-.class public final Lkik/android/scan/c;
+.class public final Lkik/arcane/scan/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -72,47 +72,47 @@
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/scan/c;->e:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/scan/c;->e:Lcom/kik/events/d;
 
     .line 67
     new-instance v0, Ljava/security/SecureRandom;
 
     invoke-direct {v0}, Ljava/security/SecureRandom;-><init>()V
 
-    iput-object v0, p0, Lkik/android/scan/c;->g:Ljava/security/SecureRandom;
+    iput-object v0, p0, Lkik/arcane/scan/c;->g:Ljava/security/SecureRandom;
 
     .line 69
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/scan/c;->h:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/scan/c;->h:Lcom/kik/events/g;
 
     .line 70
     const/4 v0, 0x1
 
-    invoke-static {v0}, Lkik/android/util/ab;->a(Z)Ljava/util/concurrent/ExecutorService;
+    invoke-static {v0}, Lkik/arcane/util/ab;->a(Z)Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/scan/c;->i:Ljava/util/concurrent/ExecutorService;
+    iput-object v0, p0, Lkik/arcane/scan/c;->i:Ljava/util/concurrent/ExecutorService;
 
     .line 74
-    iput-object p1, p0, Lkik/android/scan/c;->a:Lkik/core/e/f;
+    iput-object p1, p0, Lkik/arcane/scan/c;->a:Lkik/core/e/f;
 
     .line 75
-    iput-object p2, p0, Lkik/android/scan/c;->b:Lkik/core/net/e;
+    iput-object p2, p0, Lkik/arcane/scan/c;->b:Lkik/core/net/e;
 
     .line 76
-    iput-object p4, p0, Lkik/android/scan/c;->c:Lkik/core/interfaces/ICommunication;
+    iput-object p4, p0, Lkik/arcane/scan/c;->c:Lkik/core/interfaces/ICommunication;
 
     .line 77
-    iput-object p6, p0, Lkik/android/scan/c;->d:Lkik/core/interfaces/v;
+    iput-object p6, p0, Lkik/arcane/scan/c;->d:Lkik/core/interfaces/v;
 
     .line 78
-    new-instance v0, Lkik/android/scan/c$1;
+    new-instance v0, Lkik/arcane/scan/c$1;
 
-    invoke-direct {v0, p0}, Lkik/android/scan/c$1;-><init>(Lkik/android/scan/c;)V
+    invoke-direct {v0, p0}, Lkik/arcane/scan/c$1;-><init>(Lkik/arcane/scan/c;)V
 
     invoke-virtual {p3, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -120,11 +120,11 @@
     if-eqz p5, :cond_0
 
     .line 88
-    iget-object v0, p0, Lkik/android/scan/c;->e:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/scan/c;->e:Lcom/kik/events/d;
 
-    new-instance v1, Lkik/android/scan/c$2;
+    new-instance v1, Lkik/arcane/scan/c$2;
 
-    invoke-direct {v1, p0}, Lkik/android/scan/c$2;-><init>(Lkik/android/scan/c;)V
+    invoke-direct {v1, p0}, Lkik/arcane/scan/c$2;-><init>(Lkik/arcane/scan/c;)V
 
     invoke-virtual {v0, p5, v1}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
@@ -133,7 +133,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/scan/c;[B)I
+.method static synthetic a(Lkik/arcane/scan/c;[B)I
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -143,7 +143,7 @@
 
     .prologue
     .line 58
-    invoke-direct {p0, p1}, Lkik/android/scan/c;->a([B)I
+    invoke-direct {p0, p1}, Lkik/arcane/scan/c;->a([B)I
 
     move-result v0
 
@@ -180,7 +180,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 256
     :goto_0
@@ -201,7 +201,7 @@
     new-array v3, v3, [B
 
     .line 236
-    iget-object v4, p0, Lkik/android/scan/c;->g:Ljava/security/SecureRandom;
+    iget-object v4, p0, Lkik/arcane/scan/c;->g:Ljava/security/SecureRandom;
 
     invoke-virtual {v4, v1}, Ljava/security/SecureRandom;->nextBytes([B)V
 
@@ -262,12 +262,12 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/android/scan/a/b;
+.method static synthetic a(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/arcane/scan/a/b;
     .locals 1
 
     .prologue
     .line 58
-    invoke-static {p0, p1}, Lkik/android/scan/c;->b(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/android/scan/a/b;
+    invoke-static {p0, p1}, Lkik/arcane/scan/c;->b(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/arcane/scan/a/b;
 
     move-result-object v0
 
@@ -279,20 +279,20 @@
 
     .prologue
     .line 58
-    invoke-static {p0}, Lkik/android/scan/c;->b(Ljava/net/HttpURLConnection;)Lorg/apache/http/HttpEntity;
+    invoke-static {p0}, Lkik/arcane/scan/c;->b(Ljava/net/HttpURLConnection;)Lorg/apache/http/HttpEntity;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/scan/c;)V
+.method static synthetic a(Lkik/arcane/scan/c;)V
     .locals 3
 
     .prologue
     .line 58
     .line 2128
-    iget-object v0, p0, Lkik/android/scan/c;->a:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/scan/c;->a:Lkik/core/e/f;
 
     const-string v1, "scanning_nonce_secret"
 
@@ -302,9 +302,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/scan/c$3;
+    new-instance v1, Lkik/arcane/scan/c$3;
 
-    invoke-direct {v1, p0}, Lkik/android/scan/c$3;-><init>(Lkik/android/scan/c;)V
+    invoke-direct {v1, p0}, Lkik/arcane/scan/c$3;-><init>(Lkik/arcane/scan/c;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -312,7 +312,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/scan/c;Lkik/core/datatypes/Message;)V
+.method static synthetic a(Lkik/arcane/scan/c;Lkik/core/datatypes/Message;)V
     .locals 3
 
     .prologue
@@ -332,11 +332,11 @@
     if-eqz v0, :cond_0
 
     .line 3112
-    iget-object v1, p0, Lkik/android/scan/c;->f:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/scan/c;->f:Lcom/kik/events/Promise;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkik/android/scan/c;->f:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/scan/c;->f:Lcom/kik/events/Promise;
 
     invoke-virtual {v1}, Lcom/kik/events/Promise;->h()Z
 
@@ -345,7 +345,7 @@
     if-eqz v1, :cond_0
 
     .line 3113
-    iget-object v1, p0, Lkik/android/scan/c;->f:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/scan/c;->f:Lcom/kik/events/Promise;
 
     invoke-virtual {v1}, Lcom/kik/events/Promise;->g()Ljava/lang/Object;
 
@@ -377,7 +377,7 @@
     if-eqz v0, :cond_0
 
     .line 3119
-    iget-object v1, p0, Lkik/android/scan/c;->h:Lcom/kik/events/g;
+    iget-object v1, p0, Lkik/arcane/scan/c;->h:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lkik/core/datatypes/k;->b()Ljava/lang/String;
 
@@ -386,7 +386,7 @@
     invoke-virtual {v1, v2}, Lcom/kik/events/g;->a(Ljava/lang/Object;)V
 
     .line 3120
-    iget-object v1, p0, Lkik/android/scan/c;->d:Lkik/core/interfaces/v;
+    iget-object v1, p0, Lkik/arcane/scan/c;->d:Lkik/core/interfaces/v;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/v;->a(Lkik/core/datatypes/k;)Lcom/kik/events/Promise;
 
@@ -395,7 +395,7 @@
     return-void
 .end method
 
-.method private static b(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/android/scan/a/b;
+.method private static b(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/arcane/scan/a/b;
     .locals 6
 
     .prologue
@@ -451,9 +451,9 @@
     if-eqz v0, :cond_0
 
     .line 395
-    new-instance v0, Lkik/android/scan/a/a;
+    new-instance v0, Lkik/arcane/scan/a/a;
 
-    invoke-direct {v0, p0, v4, v2, v3}, Lkik/android/scan/a/a;-><init>(Lcom/kik/scan/RemoteKikCode;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, p0, v4, v2, v3}, Lkik/arcane/scan/a/a;-><init>(Lcom/kik/scan/RemoteKikCode;Ljava/lang/String;ILjava/lang/String;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -465,7 +465,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     :cond_0
     move-object v0, v1
@@ -536,14 +536,14 @@
 
     .prologue
     .line 58
-    invoke-static {p0, p1}, Lkik/android/scan/c;->c(Lkik/core/datatypes/ac;I)Lorg/json/JSONObject;
+    invoke-static {p0, p1}, Lkik/arcane/scan/c;->c(Lkik/core/datatypes/ac;I)Lorg/json/JSONObject;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/scan/c;)V
+.method static synthetic b(Lkik/arcane/scan/c;)V
     .locals 4
 
     .prologue
@@ -553,7 +553,7 @@
     new-array v0, v0, [B
 
     .line 3152
-    iget-object v1, p0, Lkik/android/scan/c;->g:Ljava/security/SecureRandom;
+    iget-object v1, p0, Lkik/arcane/scan/c;->g:Ljava/security/SecureRandom;
 
     invoke-virtual {v1, v0}, Ljava/security/SecureRandom;->nextBytes([B)V
 
@@ -570,7 +570,7 @@
     invoke-virtual {v1, v0}, Lcom/kik/xdata/model/scanning/XScanningNonceSecret;->a(Lcom/dyuproject/protostuff/c;)Lcom/kik/xdata/model/scanning/XScanningNonceSecret;
 
     .line 3156
-    iget-object v0, p0, Lkik/android/scan/c;->a:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/scan/c;->a:Lkik/core/e/f;
 
     const-string v2, "scanning_nonce_secret"
 
@@ -582,12 +582,12 @@
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/scan/c;)Ljava/security/SecureRandom;
+.method static synthetic c(Lkik/arcane/scan/c;)Ljava/security/SecureRandom;
     .locals 1
 
     .prologue
     .line 58
-    iget-object v0, p0, Lkik/android/scan/c;->g:Ljava/security/SecureRandom;
+    iget-object v0, p0, Lkik/arcane/scan/c;->g:Ljava/security/SecureRandom;
 
     return-object v0
 .end method
@@ -653,7 +653,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -669,7 +669,7 @@
             ")",
             "Lcom/kik/events/Promise",
             "<",
-            "Lkik/android/scan/a/b;",
+            "Lkik/arcane/scan/a/b;",
             ">;"
         }
     .end annotation
@@ -681,11 +681,11 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 336
-    iget-object v1, p0, Lkik/android/scan/c;->i:Ljava/util/concurrent/ExecutorService;
+    iget-object v1, p0, Lkik/arcane/scan/c;->i:Ljava/util/concurrent/ExecutorService;
 
-    new-instance v2, Lkik/android/scan/c$6;
+    new-instance v2, Lkik/arcane/scan/c$6;
 
-    invoke-direct {v2, p0, p1, v0}, Lkik/android/scan/c$6;-><init>(Lkik/android/scan/c;Lcom/kik/scan/RemoteKikCode;Lcom/kik/events/Promise;)V
+    invoke-direct {v2, p0, p1, v0}, Lkik/arcane/scan/c$6;-><init>(Lkik/arcane/scan/c;Lcom/kik/scan/RemoteKikCode;Lcom/kik/events/Promise;)V
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 
@@ -712,11 +712,11 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 262
-    iget-object v1, p0, Lkik/android/scan/c;->i:Ljava/util/concurrent/ExecutorService;
+    iget-object v1, p0, Lkik/arcane/scan/c;->i:Ljava/util/concurrent/ExecutorService;
 
-    new-instance v2, Lkik/android/scan/c$5;
+    new-instance v2, Lkik/arcane/scan/c$5;
 
-    invoke-direct {v2, p0, p1, p2, v0}, Lkik/android/scan/c$5;-><init>(Lkik/android/scan/c;Lkik/core/datatypes/ac;ILcom/kik/events/Promise;)V
+    invoke-direct {v2, p0, p1, p2, v0}, Lkik/arcane/scan/c$5;-><init>(Lkik/arcane/scan/c;Lkik/core/datatypes/ac;ILcom/kik/events/Promise;)V
 
     invoke-interface {v1, v2}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 
@@ -731,13 +731,13 @@
     .line 164
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/scan/c;->f:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/scan/c;->f:Lcom/kik/events/Promise;
 
     .line 165
     return-void
 .end method
 
-.method public final a(Lkik/android/scan/a/c;Lkik/core/datatypes/k;)V
+.method public final a(Lkik/arcane/scan/a/c;Lkik/core/datatypes/k;)V
     .locals 7
 
     .prologue
@@ -755,7 +755,7 @@
 
     .line 322
     :cond_1
-    iget-object v6, p0, Lkik/android/scan/c;->c:Lkik/core/interfaces/ICommunication;
+    iget-object v6, p0, Lkik/arcane/scan/c;->c:Lkik/core/interfaces/ICommunication;
 
     .line 1327
     if-eqz p2, :cond_2
@@ -775,15 +775,15 @@
     :cond_3
     new-instance v0, Lkik/core/net/outgoing/ScanRequest;
 
-    invoke-virtual {p1}, Lkik/android/scan/a/c;->a()[B
+    invoke-virtual {p1}, Lkik/arcane/scan/a/c;->a()[B
 
     move-result-object v2
 
-    invoke-virtual {p1}, Lkik/android/scan/a/c;->c()I
+    invoke-virtual {p1}, Lkik/arcane/scan/a/c;->c()I
 
     move-result v3
 
-    invoke-virtual {p1}, Lkik/android/scan/a/c;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/scan/a/c;->b()Ljava/lang/String;
 
     move-result-object v4
 
@@ -808,7 +808,7 @@
 
     .prologue
     .line 169
-    iget-object v0, p0, Lkik/android/scan/c;->a:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/scan/c;->a:Lkik/core/e/f;
 
     const-string v1, "scanning_nonce_secret"
 
@@ -818,16 +818,16 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/scan/c$4;
+    new-instance v1, Lkik/arcane/scan/c$4;
 
-    invoke-direct {v1, p0}, Lkik/android/scan/c$4;-><init>(Lkik/android/scan/c;)V
+    invoke-direct {v1, p0}, Lkik/arcane/scan/c$4;-><init>(Lkik/arcane/scan/c;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     .line 188
-    iput-object v0, p0, Lkik/android/scan/c;->f:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/scan/c;->f:Lcom/kik/events/Promise;
 
     .line 190
     return-object v0
@@ -847,7 +847,7 @@
 
     .prologue
     .line 195
-    iget-object v0, p0, Lkik/android/scan/c;->h:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/scan/c;->h:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 

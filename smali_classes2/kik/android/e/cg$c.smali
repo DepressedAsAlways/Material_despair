@@ -1,14 +1,14 @@
-.class public final Lkik/android/e/cg$c;
+.class public final Lkik/arcane/e/cg$c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/MessageTextView$b;
+.implements Lkik/arcane/widget/MessageTextView$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/cg;
+    value = Lkik/arcane/e/cg;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/messaging/ITextMessageViewModel;
+.field private a:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/messaging/ITextMessageViewModel;)Lkik/android/e/cg$c;
+.method public final a(Lkik/arcane/chat/vm/messaging/ITextMessageViewModel;)Lkik/arcane/e/cg$c;
     .locals 0
 
     .prologue
     .line 188
-    iput-object p1, p0, Lkik/android/e/cg$c;->a:Lkik/android/chat/vm/messaging/ITextMessageViewModel;
+    iput-object p1, p0, Lkik/arcane/e/cg$c;->a:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel;
 
     .line 189
     if-nez p1, :cond_0
@@ -55,9 +55,9 @@
 
     .prologue
     .line 193
-    iget-object v0, p0, Lkik/android/e/cg$c;->a:Lkik/android/chat/vm/messaging/ITextMessageViewModel;
+    iget-object v0, p0, Lkik/arcane/e/cg$c;->a:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/messaging/ITextMessageViewModel;->s()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/messaging/ITextMessageViewModel;->s()V
 
     .line 194
     return-void

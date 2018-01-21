@@ -1,12 +1,12 @@
-.class public Lkik/android/widget/VoiceThumbView;
-.super Lkik/android/widget/IndependentPressImageView;
+.class public Lkik/arcane/widget/VoiceThumbView;
+.super Lkik/arcane/widget/IndependentPressImageView;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/VoiceThumbView$a;
+        Lkik/arcane/widget/VoiceThumbView$a;
     }
 .end annotation
 
@@ -22,7 +22,7 @@
 
 .field private e:I
 
-.field private f:Lkik/android/widget/VoiceThumbView$a;
+.field private f:Lkik/arcane/widget/VoiceThumbView$a;
 
 
 # direct methods
@@ -31,7 +31,7 @@
 
     .prologue
     .line 38
-    invoke-direct {p0, p1}, Lkik/android/widget/IndependentPressImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/IndependentPressImageView;-><init>(Landroid/content/Context;)V
 
     .line 39
     return-void
@@ -46,13 +46,13 @@
 
     .prologue
     .line 43
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/IndependentPressImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/IndependentPressImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 44
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/VoiceThumbView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/VoiceThumbView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -63,7 +63,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/VoiceThumbView;",
+            "Lkik/arcane/widget/VoiceThumbView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Integer;",
@@ -77,7 +77,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/dz;->a(Lkik/android/widget/VoiceThumbView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/dz;->a(Lkik/arcane/widget/VoiceThumbView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -94,7 +94,7 @@
 
     .prologue
     .line 113
-    invoke-virtual {p0}, Lkik/android/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Lkik/arcane/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -103,7 +103,7 @@
     .line 114
     int-to-float v1, p1
 
-    iget v2, p0, Lkik/android/widget/VoiceThumbView;->a:F
+    iget v2, p0, Lkik/arcane/widget/VoiceThumbView;->a:F
 
     mul-float/2addr v1, v2
 
@@ -112,7 +112,7 @@
     iput v1, v0, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
     .line 115
-    invoke-virtual {p0, v0}, Lkik/android/widget/VoiceThumbView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/VoiceThumbView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 116
     return-void
@@ -123,7 +123,7 @@
 
     .prologue
     .line 99
-    iput p2, p0, Lkik/android/widget/VoiceThumbView;->e:I
+    iput p2, p0, Lkik/arcane/widget/VoiceThumbView;->e:I
 
     .line 100
     if-lez p1, :cond_0
@@ -135,7 +135,7 @@
 
     div-float/2addr v0, v1
 
-    iput v0, p0, Lkik/android/widget/VoiceThumbView;->a:F
+    iput v0, p0, Lkik/arcane/widget/VoiceThumbView;->a:F
 
     .line 102
     int-to-float v0, p1
@@ -144,19 +144,19 @@
 
     div-float/2addr v0, v1
 
-    iput v0, p0, Lkik/android/widget/VoiceThumbView;->b:F
+    iput v0, p0, Lkik/arcane/widget/VoiceThumbView;->b:F
 
     .line 104
     :cond_0
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/VoiceThumbView$a;)V
+.method public final a(Lkik/arcane/widget/VoiceThumbView$a;)V
     .locals 0
 
     .prologue
     .line 48
-    iput-object p1, p0, Lkik/android/widget/VoiceThumbView;->f:Lkik/android/widget/VoiceThumbView$a;
+    iput-object p1, p0, Lkik/arcane/widget/VoiceThumbView;->f:Lkik/arcane/widget/VoiceThumbView$a;
 
     .line 49
     return-void
@@ -171,7 +171,7 @@
     const/4 v1, 0x0
 
     .line 60
-    iget v0, p0, Lkik/android/widget/VoiceThumbView;->b:F
+    iget v0, p0, Lkik/arcane/widget/VoiceThumbView;->b:F
 
     cmpl-float v0, v0, v2
 
@@ -200,7 +200,7 @@
 
     .line 64
     :pswitch_0
-    invoke-virtual {p0}, Lkik/android/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Lkik/arcane/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -208,41 +208,41 @@
 
     iget v0, v0, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
-    iput v0, p0, Lkik/android/widget/VoiceThumbView;->d:I
+    iput v0, p0, Lkik/arcane/widget/VoiceThumbView;->d:I
 
     .line 65
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawX()F
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/VoiceThumbView;->c:F
+    iput v0, p0, Lkik/arcane/widget/VoiceThumbView;->c:F
 
     .line 66
-    iget-object v0, p0, Lkik/android/widget/VoiceThumbView;->f:Lkik/android/widget/VoiceThumbView$a;
+    iget-object v0, p0, Lkik/arcane/widget/VoiceThumbView;->f:Lkik/arcane/widget/VoiceThumbView$a;
 
     if-eqz v0, :cond_1
 
     .line 67
-    iget-object v0, p0, Lkik/android/widget/VoiceThumbView;->f:Lkik/android/widget/VoiceThumbView$a;
+    iget-object v0, p0, Lkik/arcane/widget/VoiceThumbView;->f:Lkik/arcane/widget/VoiceThumbView$a;
 
-    invoke-interface {v0}, Lkik/android/widget/VoiceThumbView$a;->a()V
+    invoke-interface {v0}, Lkik/arcane/widget/VoiceThumbView$a;->a()V
 
     goto :goto_1
 
     .line 72
     :pswitch_1
-    iput v2, p0, Lkik/android/widget/VoiceThumbView;->c:F
+    iput v2, p0, Lkik/arcane/widget/VoiceThumbView;->c:F
 
     .line 73
-    iput v1, p0, Lkik/android/widget/VoiceThumbView;->d:I
+    iput v1, p0, Lkik/arcane/widget/VoiceThumbView;->d:I
 
     .line 74
-    iget-object v0, p0, Lkik/android/widget/VoiceThumbView;->f:Lkik/android/widget/VoiceThumbView$a;
+    iget-object v0, p0, Lkik/arcane/widget/VoiceThumbView;->f:Lkik/arcane/widget/VoiceThumbView$a;
 
     if-eqz v0, :cond_1
 
     .line 75
-    invoke-virtual {p0}, Lkik/android/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Lkik/arcane/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -251,10 +251,10 @@
     iget v0, v0, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
     .line 76
-    iget-object v1, p0, Lkik/android/widget/VoiceThumbView;->f:Lkik/android/widget/VoiceThumbView$a;
+    iget-object v1, p0, Lkik/arcane/widget/VoiceThumbView;->f:Lkik/arcane/widget/VoiceThumbView$a;
 
     .line 1108
-    iget v2, p0, Lkik/android/widget/VoiceThumbView;->b:F
+    iget v2, p0, Lkik/arcane/widget/VoiceThumbView;->b:F
 
     int-to-float v0, v0
 
@@ -263,13 +263,13 @@
     float-to-int v0, v0
 
     .line 76
-    invoke-interface {v1, v0}, Lkik/android/widget/VoiceThumbView$a;->a(I)V
+    invoke-interface {v1, v0}, Lkik/arcane/widget/VoiceThumbView$a;->a(I)V
 
     goto :goto_1
 
     .line 81
     :pswitch_2
-    invoke-virtual {p0}, Lkik/android/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Lkik/arcane/widget/VoiceThumbView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -280,12 +280,12 @@
 
     move-result v2
 
-    iget v3, p0, Lkik/android/widget/VoiceThumbView;->c:F
+    iget v3, p0, Lkik/arcane/widget/VoiceThumbView;->c:F
 
     sub-float/2addr v2, v3
 
     .line 83
-    iget v3, p0, Lkik/android/widget/VoiceThumbView;->d:I
+    iget v3, p0, Lkik/arcane/widget/VoiceThumbView;->d:I
 
     float-to-int v2, v2
 
@@ -299,18 +299,18 @@
     iput v1, v0, Landroid/widget/RelativeLayout$LayoutParams;->leftMargin:I
 
     .line 91
-    invoke-virtual {p0, v0}, Lkik/android/widget/VoiceThumbView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/VoiceThumbView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     goto :goto_1
 
     .line 87
     :cond_2
-    iget v1, p0, Lkik/android/widget/VoiceThumbView;->e:I
+    iget v1, p0, Lkik/arcane/widget/VoiceThumbView;->e:I
 
     if-le v2, v1, :cond_3
 
     .line 88
-    iget v1, p0, Lkik/android/widget/VoiceThumbView;->e:I
+    iget v1, p0, Lkik/arcane/widget/VoiceThumbView;->e:I
 
     goto :goto_2
 

@@ -1,9 +1,9 @@
-.class public interface abstract Lkik/android/chat/vm/profile/df;
+.class public interface abstract Lkik/arcane/chat/vm/profile/df;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/br;
+.implements Lkik/arcane/chat/vm/br;
 
 
 # virtual methods
@@ -19,5 +19,5 @@
     .end annotation
 .end method
 
-.method public abstract b()Lkik/android/chat/vm/IBadgeViewModel;
+.method public abstract b()Lkik/arcane/chat/vm/IBadgeViewModel;
 .end method

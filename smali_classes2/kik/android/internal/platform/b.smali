@@ -1,4 +1,4 @@
-.class public final Lkik/android/internal/platform/b;
+.class public final Lkik/arcane/internal/platform/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -19,7 +19,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/internal/platform/b;->a:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/internal/platform/b;->a:Landroid/net/Uri;
 
     return-void
 .end method

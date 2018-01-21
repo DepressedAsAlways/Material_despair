@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/view/ValidateableInputView;
+.class public Lkik/arcane/chat/view/ValidateableInputView;
 .super Landroid/widget/LinearLayout;
 .source "SourceFile"
 
@@ -6,16 +6,16 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/view/ValidateableInputView$TextValidityState;,
-        Lkik/android/chat/view/ValidateableInputView$c;,
-        Lkik/android/chat/view/ValidateableInputView$a;,
-        Lkik/android/chat/view/ValidateableInputView$b;
+        Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;,
+        Lkik/arcane/chat/view/ValidateableInputView$c;,
+        Lkik/arcane/chat/view/ValidateableInputView$a;,
+        Lkik/arcane/chat/view/ValidateableInputView$b;
     }
 .end annotation
 
 
 # static fields
-.field private static final i:Lkik/android/chat/view/ValidateableInputView$a;
+.field private static final i:Lkik/arcane/chat/view/ValidateableInputView$a;
 
 
 # instance fields
@@ -67,7 +67,7 @@
 
 .field private f:Landroid/animation/AnimatorSet;
 
-.field private g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+.field private g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
 .field private h:I
 
@@ -100,9 +100,9 @@
     .end annotation
 .end field
 
-.field private t:Lkik/android/chat/view/ValidateableInputView$b;
+.field private t:Lkik/arcane/chat/view/ValidateableInputView$b;
 
-.field private u:Lkik/android/chat/view/ValidateableInputView$a;
+.field private u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
 .field private v:J
 
@@ -110,7 +110,7 @@
 
 .field private x:Landroid/view/View$OnFocusChangeListener;
 
-.field private y:Lkik/android/chat/view/ValidateableInputView$c;
+.field private y:Lkik/arcane/chat/view/ValidateableInputView$c;
 
 .field private z:Ljava/lang/CharSequence;
 
@@ -121,11 +121,11 @@
 
     .prologue
     .line 156
-    invoke-static {}, Lkik/android/chat/view/ba;->a()Lkik/android/chat/view/ValidateableInputView$a;
+    invoke-static {}, Lkik/arcane/chat/view/ba;->a()Lkik/arcane/chat/view/ValidateableInputView$a;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/view/ValidateableInputView;->i:Lkik/android/chat/view/ValidateableInputView$a;
+    sput-object v0, Lkik/arcane/chat/view/ValidateableInputView;->i:Lkik/arcane/chat/view/ValidateableInputView$a;
 
     return-void
 .end method
@@ -138,24 +138,24 @@
     invoke-direct {p0, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
     .line 138
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     .line 139
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/view/ValidateableInputView;->h:I
+    iput v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->h:I
 
     .line 190
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView;->i:Lkik/android/chat/view/ValidateableInputView$a;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView;->i:Lkik/arcane/chat/view/ValidateableInputView$a;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->u:Lkik/android/chat/view/ValidateableInputView$a;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
     .line 200
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 201
     return-void
@@ -169,22 +169,22 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 138
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     .line 139
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/view/ValidateableInputView;->h:I
+    iput v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->h:I
 
     .line 190
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView;->i:Lkik/android/chat/view/ValidateableInputView$a;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView;->i:Lkik/arcane/chat/view/ValidateableInputView$a;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->u:Lkik/android/chat/view/ValidateableInputView$a;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
     .line 206
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 207
     return-void
@@ -198,22 +198,22 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 138
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     .line 139
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/view/ValidateableInputView;->h:I
+    iput v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->h:I
 
     .line 190
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView;->i:Lkik/android/chat/view/ValidateableInputView$a;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView;->i:Lkik/arcane/chat/view/ValidateableInputView$a;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->u:Lkik/android/chat/view/ValidateableInputView$a;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
     .line 212
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 213
     return-void
@@ -230,28 +230,28 @@
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 138
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     .line 139
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/view/ValidateableInputView;->h:I
+    iput v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->h:I
 
     .line 190
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView;->i:Lkik/android/chat/view/ValidateableInputView$a;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView;->i:Lkik/arcane/chat/view/ValidateableInputView$a;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->u:Lkik/android/chat/view/ValidateableInputView$a;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
     .line 219
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 220
     return-void
 .end method
 
-.method static synthetic a(Ljava/lang/String;Lkik/android/chat/view/ValidateableInputView$TextValidityState;)Landroid/support/v4/util/Pair;
+.method static synthetic a(Ljava/lang/String;Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;)Landroid/support/v4/util/Pair;
     .locals 1
 
     .prologue
@@ -263,7 +263,7 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/ValidateableInputView$TextValidityState;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;)Ljava/lang/Boolean;
     .locals 1
 
     .prologue
@@ -309,7 +309,7 @@
     return-object p0
 .end method
 
-.method static synthetic a(Landroid/support/v4/util/Pair;Ljava/lang/String;)Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+.method static synthetic a(Landroid/support/v4/util/Pair;Ljava/lang/String;)Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
     .locals 1
 
     .prologue
@@ -326,7 +326,7 @@
 
     iget-object v0, p0, Landroid/support/v4/util/Pair;->second:Ljava/lang/Object;
 
-    check-cast v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    check-cast v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     :goto_0
     return-object v0
@@ -337,7 +337,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Ljava/lang/Boolean;)Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+.method static synthetic a(Ljava/lang/Boolean;)Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
     .locals 1
 
     .prologue
@@ -348,33 +348,33 @@
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Valid:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Valid:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     :goto_0
     return-object v0
 
     :cond_0
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Invalid:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Invalid:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/ValidateableInputView;Ljava/lang/String;)Lrx/d;
+.method static synthetic a(Lkik/arcane/chat/view/ValidateableInputView;Ljava/lang/String;)Lrx/d;
     .locals 2
 
     .prologue
     .line 727
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->s:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->s:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0, p1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 728
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Validating:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Validating:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     .line 729
-    invoke-static {p1}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -383,7 +383,7 @@
     .line 730
     new-instance v0, Landroid/support/v4/util/Pair;
 
-    sget-object v1, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v1, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     invoke-direct {v0, p1, v1}, Landroid/support/v4/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -397,14 +397,14 @@
 
     .line 732
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->t:Lkik/android/chat/view/ValidateableInputView$b;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->t:Lkik/arcane/chat/view/ValidateableInputView$b;
 
     if-nez v0, :cond_1
 
     .line 733
     new-instance v0, Landroid/support/v4/util/Pair;
 
-    sget-object v1, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Valid:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v1, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Valid:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     invoke-direct {v0, p1, v1}, Landroid/support/v4/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -416,16 +416,16 @@
 
     .line 736
     :cond_1
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->i()V
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->i()V
 
     .line 737
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->t:Lkik/android/chat/view/ValidateableInputView$b;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->t:Lkik/arcane/chat/view/ValidateableInputView$b;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/view/ValidateableInputView$b;->a(Ljava/lang/CharSequence;)Lrx/d;
+    invoke-interface {v0, p1}, Lkik/arcane/chat/view/ValidateableInputView$b;->a(Ljava/lang/CharSequence;)Lrx/d;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/view/ay;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/view/ay;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -434,7 +434,7 @@
 
     move-result-object v0
 
-    invoke-static {p1}, Lkik/android/chat/view/az;->a(Ljava/lang/String;)Lrx/functions/g;
+    invoke-static {p1}, Lkik/arcane/chat/view/az;->a(Ljava/lang/String;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -476,20 +476,20 @@
     const/4 v1, 0x0
 
     .line 224
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->setOrientation(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->setOrientation(I)V
 
     .line 225
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->a()I
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->a()I
 
     move-result v2
 
-    invoke-static {p1, v2, p0}, Lkik/android/chat/view/ValidateableInputView;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
+    invoke-static {p1, v2, p0}, Lkik/arcane/chat/view/ValidateableInputView;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 226
     invoke-static {p0}, Lbutterknife/ButterKnife;->bind(Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 228
-    sget-object v2, Lkik/android/R$styleable;->ValidateableInputView:[I
+    sget-object v2, Lkik/arcane/R$styleable;->ValidateableInputView:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -506,7 +506,7 @@
     if-eqz v3, :cond_0
 
     .line 231
-    iget-object v3, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v3, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     const/4 v4, 0x4
 
@@ -529,26 +529,26 @@
     move-result v3
 
     .line 234
-    iget-object v4, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v4, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v4}, Landroid/widget/EditText;->getTypeface()Landroid/graphics/Typeface;
 
     move-result-object v4
 
     .line 235
-    iget-object v5, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v5, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v5, v3}, Landroid/widget/EditText;->setInputType(I)V
 
     .line 236
-    invoke-static {v3}, Lkik/android/chat/view/ValidateableInputView;->a(I)Z
+    invoke-static {v3}, Lkik/arcane/chat/view/ValidateableInputView;->a(I)Z
 
     move-result v5
 
     if-eqz v5, :cond_8
 
     .line 241
-    iget-object v5, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v5, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v5, v4}, Landroid/widget/EditText;->setTypeface(Landroid/graphics/Typeface;)V
 
@@ -565,16 +565,16 @@
     :goto_1
     if-eqz v0, :cond_1
 
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->isInEditMode()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->isInEditMode()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
     .line 249
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
-    invoke-static {v0}, Lkik/android/util/ca;->a(Landroid/widget/EditText;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->a(Landroid/widget/EditText;)V
 
     .line 252
     :cond_1
@@ -584,24 +584,24 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
 
     .line 253
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 254
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 255
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     const v1, 0x7f0e00d8
 
@@ -612,14 +612,14 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     .line 256
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setHint(Ljava/lang/CharSequence;)V
 
     .line 257
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     const v1, 0x7f0e00d8
 
@@ -642,7 +642,7 @@
     if-ltz v1, :cond_2
 
     .line 261
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->getFilters()[Landroid/text/InputFilter;
 
@@ -684,7 +684,7 @@
 
     .line 272
     :goto_2
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v1, v0}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
@@ -701,7 +701,7 @@
     if-eqz v0, :cond_b
 
     .line 1936
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->getVisibility()I
 
@@ -710,7 +710,7 @@
     if-ne v0, v7, :cond_3
 
     .line 1937
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     const/4 v1, 0x0
 
@@ -719,7 +719,7 @@
     .line 1939
     const/4 v0, -0x8
 
-    invoke-static {p0, v0}, Lkik/android/util/ca;->c(Landroid/view/View;I)V
+    invoke-static {p0, v0}, Lkik/arcane/util/ca;->c(Landroid/view/View;I)V
 
     .line 282
     :cond_3
@@ -731,7 +731,7 @@
     move-result-object v0
 
     .line 3455
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
     .line 283
     const/16 v0, 0xd
@@ -745,7 +745,7 @@
     int-to-long v0, v0
 
     .line 3554
-    iput-wide v0, p0, Lkik/android/chat/view/ValidateableInputView;->v:J
+    iput-wide v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->v:J
 
     .line 285
     const/16 v0, 0x9
@@ -754,21 +754,21 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
 
     .line 286
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
 
     if-eqz v0, :cond_4
 
     .line 287
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
 
     .line 289
     :cond_4
@@ -778,21 +778,21 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
 
     .line 290
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
 
     if-eqz v0, :cond_5
 
     .line 291
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
 
     .line 293
     :cond_5
@@ -802,15 +802,15 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
 
     .line 294
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
 
     if-eqz v0, :cond_6
 
     .line 295
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
 
@@ -822,15 +822,15 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
 
     .line 298
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
 
     if-eqz v0, :cond_7
 
     .line 299
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
 
@@ -844,13 +844,13 @@
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/ValidateableInputView;->w:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->w:Z
 
     .line 302
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->n()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->n()V
 
     .line 3952
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     const-string v1, "alpha"
 
@@ -864,26 +864,26 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
 
     .line 3953
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
 
     const-wide/16 v4, 0x96
 
     invoke-virtual {v0, v4, v5}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 3954
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
 
-    new-instance v1, Lkik/android/chat/view/ValidateableInputView$1;
+    new-instance v1, Lkik/arcane/chat/view/ValidateableInputView$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/view/ValidateableInputView$1;-><init>(Lkik/android/chat/view/ValidateableInputView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/view/ValidateableInputView$1;-><init>(Lkik/arcane/chat/view/ValidateableInputView;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 3963
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     const-string v1, "alpha"
 
@@ -897,26 +897,26 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
 
     .line 3964
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
 
     const-wide/16 v4, 0x96
 
     invoke-virtual {v0, v4, v5}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 3965
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
 
-    new-instance v1, Lkik/android/chat/view/ValidateableInputView$2;
+    new-instance v1, Lkik/arcane/chat/view/ValidateableInputView$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/view/ValidateableInputView$2;-><init>(Lkik/android/chat/view/ValidateableInputView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/view/ValidateableInputView$2;-><init>(Lkik/arcane/chat/view/ValidateableInputView;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 3974
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
 
     const-string v1, "alpha"
 
@@ -930,26 +930,26 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
 
     .line 3975
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
 
     const-wide/16 v4, 0x96
 
     invoke-virtual {v0, v4, v5}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 3976
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
 
-    new-instance v1, Lkik/android/chat/view/ValidateableInputView$3;
+    new-instance v1, Lkik/arcane/chat/view/ValidateableInputView$3;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/view/ValidateableInputView$3;-><init>(Lkik/android/chat/view/ValidateableInputView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/view/ValidateableInputView$3;-><init>(Lkik/arcane/chat/view/ValidateableInputView;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 3990
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
 
     const-string v1, "alpha"
 
@@ -963,21 +963,21 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
 
     .line 3991
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
 
     const-wide/16 v4, 0x96
 
     invoke-virtual {v0, v4, v5}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 3992
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
 
-    new-instance v1, Lkik/android/chat/view/ValidateableInputView$4;
+    new-instance v1, Lkik/arcane/chat/view/ValidateableInputView$4;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/view/ValidateableInputView$4;-><init>(Lkik/android/chat/view/ValidateableInputView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/view/ValidateableInputView$4;-><init>(Lkik/arcane/chat/view/ValidateableInputView;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
     :try_end_0
@@ -992,7 +992,7 @@
     .line 245
     :cond_8
     :try_start_1
-    iget-object v4, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v4, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     const/4 v5, 0x1
 
@@ -1042,7 +1042,7 @@
 
     .line 2924
     :cond_b
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->getVisibility()I
 
@@ -1051,7 +1051,7 @@
     if-eq v0, v7, :cond_3
 
     .line 2925
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     const/16 v1, 0x8
 
@@ -1060,7 +1060,7 @@
     .line 2927
     const/16 v0, 0x8
 
-    invoke-static {p0, v0}, Lkik/android/util/ca;->c(Landroid/view/View;I)V
+    invoke-static {p0, v0}, Lkik/arcane/util/ca;->c(Landroid/view/View;I)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1095,17 +1095,17 @@
     .end array-data
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/ValidateableInputView;)V
+.method static synthetic a(Lkik/arcane/chat/view/ValidateableInputView;)V
     .locals 0
 
     .prologue
     .line 761
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/ValidateableInputView;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/chat/view/ValidateableInputView;Ljava/lang/Boolean;)V
     .locals 2
 
     .prologue
@@ -1116,7 +1116,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -1129,16 +1129,16 @@
     if-lez v0, :cond_1
 
     .line 691
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->b()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->b()V
 
     .line 696
     :goto_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
 
     if-eqz v0, :cond_0
 
     .line 697
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -1148,29 +1148,29 @@
 
     .line 699
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->o()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->o()V
 
     .line 700
     return-void
 
     .line 694
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->c()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->c()V
 
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/ValidateableInputView;Lkik/android/chat/view/ValidateableInputView$TextValidityState;)V
+.method static synthetic a(Lkik/arcane/chat/view/ValidateableInputView;Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;)V
     .locals 2
 
     .prologue
     .line 749
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     .line 750
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$6;->a:[I
 
-    invoke-virtual {p1}, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
+    invoke-virtual {p1}, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
 
     move-result v1
 
@@ -1184,19 +1184,19 @@
 
     .line 752
     :pswitch_0
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->h()V
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->h()V
 
     goto :goto_0
 
     .line 755
     :pswitch_1
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     goto :goto_0
 
     .line 758
     :pswitch_2
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->j()V
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->j()V
 
     goto :goto_0
 
@@ -1209,7 +1209,7 @@
     .end packed-switch
 .end method
 
-.method public static a(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+.method public static a(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1220,7 +1220,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/view/ValidateableInputView;",
+            "Lkik/arcane/chat/view/ValidateableInputView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -1232,7 +1232,7 @@
     .line 90
     const/4 v0, 0x0
 
-    invoke-static {p0}, Lkik/android/chat/view/al;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/al;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -1278,14 +1278,14 @@
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/chat/view/ValidateableInputView;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/chat/view/ValidateableInputView;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
     .prologue
     .line 715
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->u:Lkik/android/chat/view/ValidateableInputView$a;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/view/ValidateableInputView$a;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, p1}, Lkik/arcane/chat/view/ValidateableInputView$a;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1297,13 +1297,13 @@
     if-nez v1, :cond_0
 
     .line 717
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v1, v0}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
     .line 719
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->p()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->p()V
 
     .line 720
     return-object v0
@@ -1314,7 +1314,7 @@
 
     .prologue
     .line 853
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->hasFocus()Z
 
@@ -1322,15 +1322,15 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
 
-    invoke-static {v0}, Lkik/android/util/ca;->c(Landroid/view/View;)Z
+    invoke-static {v0}, Lkik/arcane/util/ca;->c(Landroid/view/View;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->isRunning()Z
 
@@ -1340,40 +1340,40 @@
 
     .line 854
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->cancel()V
 
     .line 855
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
 
-    invoke-static {v0}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
 
     .line 857
     :cond_1
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/view/ValidateableInputView;)V
+.method static synthetic b(Lkik/arcane/chat/view/ValidateableInputView;)V
     .locals 1
 
     .prologue
     .line 684
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->y:Lkik/android/chat/view/ValidateableInputView$c;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->y:Lkik/arcane/chat/view/ValidateableInputView$c;
 
     if-eqz v0, :cond_0
 
     .line 685
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->y:Lkik/android/chat/view/ValidateableInputView$c;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->y:Lkik/arcane/chat/view/ValidateableInputView$c;
 
-    invoke-interface {v0}, Lkik/android/chat/view/ValidateableInputView$c;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/ValidateableInputView$c;->a()V
 
     .line 687
     :cond_0
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/view/ValidateableInputView;Ljava/lang/Boolean;)V
+.method static synthetic b(Lkik/arcane/chat/view/ValidateableInputView;Ljava/lang/Boolean;)V
     .locals 1
 
     .prologue
@@ -1385,14 +1385,14 @@
     if-eqz v0, :cond_0
 
     .line 92
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     .line 94
     :cond_0
     return-void
 .end method
 
-.method public static b(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+.method public static b(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1403,7 +1403,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/view/ValidateableInputView;",
+            "Lkik/arcane/chat/view/ValidateableInputView;",
             "Lrx/d",
             "<",
             "Ljava/lang/String;",
@@ -1417,7 +1417,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/chat/view/aw;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/aw;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -1427,19 +1427,19 @@
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/chat/view/ValidateableInputView;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic c(Lkik/arcane/chat/view/ValidateableInputView;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 705
-    invoke-static {p1}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 706
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->c()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->c()V
 
     .line 711
     :cond_0
@@ -1448,7 +1448,7 @@
 
     .line 708
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->hasFocus()Z
 
@@ -1457,7 +1457,7 @@
     if-eqz v0, :cond_0
 
     .line 709
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->b()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->b()V
 
     goto :goto_0
 .end method
@@ -1467,15 +1467,15 @@
 
     .prologue
     .line 861
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
 
-    invoke-static {v0}, Lkik/android/util/ca;->b(Landroid/view/View;)Z
+    invoke-static {v0}, Lkik/arcane/util/ca;->b(Landroid/view/View;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->isRunning()Z
 
@@ -1485,31 +1485,31 @@
 
     .line 862
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->d:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->cancel()V
 
     .line 863
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->c:Landroid/animation/ObjectAnimator;
 
-    invoke-static {v0}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
 
     .line 865
     :cond_1
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/chat/view/ValidateableInputView;)V
+.method static synthetic c(Lkik/arcane/chat/view/ValidateableInputView;)V
     .locals 0
 
     .prologue
     .line 85
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->r()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->r()V
 
     return-void
 .end method
 
-.method public static c(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+.method public static c(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1520,7 +1520,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/view/ValidateableInputView;",
+            "Lkik/arcane/chat/view/ValidateableInputView;",
             "Lrx/d",
             "<",
             "Ljava/lang/String;",
@@ -1534,7 +1534,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/chat/view/bb;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/bb;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -1549,15 +1549,15 @@
 
     .prologue
     .line 905
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->c(Landroid/view/View;)Z
+    invoke-static {v0}, Lkik/arcane/util/ca;->c(Landroid/view/View;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->isRunning()Z
 
@@ -1567,14 +1567,14 @@
 
     .line 906
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->cancel()V
 
     .line 907
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
 
-    invoke-static {v0}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
 
     .line 909
     :cond_1
@@ -1586,7 +1586,7 @@
 
     .prologue
     .line 1016
-    iput p1, p0, Lkik/android/chat/view/ValidateableInputView;->h:I
+    iput p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->h:I
 
     .line 1018
     packed-switch p1, :pswitch_data_0
@@ -1598,46 +1598,46 @@
     :goto_0
     if-nez v0, :cond_0
 
-    iget-boolean v1, p0, Lkik/android/chat/view/ValidateableInputView;->w:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->w:Z
 
     if-eqz v1, :cond_0
 
     .line 1036
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
 
     .line 1038
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 1039
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->o()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->o()V
 
     .line 1040
     return-void
 
     .line 1020
     :pswitch_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
 
     goto :goto_0
 
     .line 1023
     :pswitch_1
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->l:Landroid/graphics/drawable/Drawable;
 
     goto :goto_0
 
     .line 1026
     :pswitch_2
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
 
     goto :goto_0
 
     .line 1029
     :pswitch_3
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
 
     goto :goto_0
 
@@ -1653,7 +1653,7 @@
     .end packed-switch
 .end method
 
-.method public static d(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+.method public static d(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1664,7 +1664,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/view/ValidateableInputView;",
+            "Lkik/arcane/chat/view/ValidateableInputView;",
             "Lrx/d",
             "<",
             "Ljava/lang/String;",
@@ -1678,7 +1678,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/chat/view/bc;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/bc;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -1688,7 +1688,7 @@
     return-void
 .end method
 
-.method public static e(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+.method public static e(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1699,7 +1699,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/view/ValidateableInputView;",
+            "Lkik/arcane/chat/view/ValidateableInputView;",
             "Lrx/d",
             "<",
             "Ljava/lang/String;",
@@ -1713,7 +1713,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/chat/view/bd;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/bd;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -1728,15 +1728,15 @@
 
     .prologue
     .line 913
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->b(Landroid/view/View;)Z
+    invoke-static {v0}, Lkik/arcane/util/ca;->b(Landroid/view/View;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->isRunning()Z
 
@@ -1746,14 +1746,14 @@
 
     .line 914
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->b:Landroid/animation/ObjectAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->cancel()V
 
     .line 915
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->a:Landroid/animation/ObjectAnimator;
 
-    invoke-static {v0}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
 
     .line 917
     :cond_1
@@ -1766,7 +1766,7 @@
     .prologue
     .line 1003
     .line 8417
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->m:Landroid/graphics/drawable/Drawable;
 
     .line 1004
     if-eqz v0, :cond_0
@@ -1806,9 +1806,9 @@
 
     .line 1011
     :cond_0
-    iget v0, p0, Lkik/android/chat/view/ValidateableInputView;->h:I
+    iget v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->h:I
 
-    invoke-direct {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->d(I)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->d(I)V
 
     .line 1012
     return-void
@@ -1826,14 +1826,14 @@
 
     .prologue
     .line 1044
-    iget v0, p0, Lkik/android/chat/view/ValidateableInputView;->h:I
+    iget v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->h:I
 
     const/4 v1, 0x2
 
     if-ne v0, v1, :cond_0
 
     .line 1045
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
 
     const v1, 0x7f0200e4
 
@@ -1841,7 +1841,7 @@
 
     .line 1053
     :goto_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
@@ -1850,7 +1850,7 @@
 
     .line 1047
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->hasFocus()Z
 
@@ -1859,7 +1859,7 @@
     if-eqz v0, :cond_1
 
     .line 1048
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
 
     const v1, 0x7f0200e5
 
@@ -1869,7 +1869,7 @@
 
     .line 1051
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
 
     const v1, 0x7f0200e6
 
@@ -1893,7 +1893,7 @@
     const/4 v8, 0x0
 
     .line 1057
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -1906,18 +1906,18 @@
     if-lez v0, :cond_2
 
     .line 9067
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
     if-eqz v0, :cond_0
 
     .line 9068
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->cancel()V
 
     .line 9071
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->getVisibility()I
 
@@ -1926,30 +1926,30 @@
     if-eqz v0, :cond_1
 
     .line 9073
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setPivotX(F)V
 
     .line 9074
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setPivotY(F)V
 
     .line 9076
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     sget-object v1, Landroid/view/View;->SCALE_X:Landroid/util/Property;
 
     new-array v2, v10, [F
 
-    iget-object v3, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v3, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     .line 9077
     invoke-virtual {v3}, Landroid/widget/EditText;->getTextSize()F
 
     move-result v3
 
-    iget-object v4, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v4, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v4}, Landroid/widget/TextView;->getTextSize()F
 
@@ -1967,20 +1967,20 @@
     move-result-object v0
 
     .line 9078
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     sget-object v2, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
 
     new-array v3, v10, [F
 
-    iget-object v4, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v4, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     .line 9079
     invoke-virtual {v4}, Landroid/widget/EditText;->getTextSize()F
 
     move-result v4
 
-    iget-object v5, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v5, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v5}, Landroid/widget/TextView;->getTextSize()F
 
@@ -1998,20 +1998,20 @@
     move-result-object v1
 
     .line 9080
-    iget-object v2, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v2, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     sget-object v3, Landroid/view/View;->TRANSLATION_Y:Landroid/util/Property;
 
     new-array v4, v10, [F
 
-    iget-object v5, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v5, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     .line 9081
     invoke-virtual {v5}, Landroid/widget/TextView;->getHeight()I
 
     move-result v5
 
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -2039,10 +2039,10 @@
 
     invoke-direct {v3}, Landroid/animation/AnimatorSet;-><init>()V
 
-    iput-object v3, p0, Lkik/android/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
+    iput-object v3, p0, Lkik/arcane/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
 
     .line 9084
-    iget-object v3, p0, Lkik/android/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
+    iget-object v3, p0, Lkik/arcane/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
 
     const/4 v4, 0x3
 
@@ -2057,14 +2057,14 @@
     invoke-virtual {v3, v4}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 
     .line 9085
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
 
     const-wide/16 v2, 0x96
 
     invoke-virtual {v0, v2, v3}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
     .line 9086
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
 
     new-instance v1, Landroid/view/animation/LinearInterpolator;
 
@@ -2073,13 +2073,13 @@
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 9087
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
 
-    invoke-static {v0}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
 
     .line 9089
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->q()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->q()V
 
     .line 9131
     :goto_0
@@ -2087,18 +2087,18 @@
 
     .line 9103
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
 
     if-eqz v0, :cond_3
 
     .line 9104
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->e:Landroid/animation/AnimatorSet;
 
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->cancel()V
 
     .line 9107
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->getVisibility()I
 
@@ -2107,17 +2107,17 @@
     if-nez v0, :cond_4
 
     .line 9109
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setPivotY(F)V
 
     .line 9110
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setPivotX(F)V
 
     .line 9112
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     sget-object v1, Landroid/view/View;->SCALE_X:Landroid/util/Property;
 
@@ -2125,14 +2125,14 @@
 
     aput v6, v2, v8
 
-    iget-object v3, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v3, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     .line 9113
     invoke-virtual {v3}, Landroid/widget/EditText;->getTextSize()F
 
     move-result v3
 
-    iget-object v4, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v4, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v4}, Landroid/widget/TextView;->getTextSize()F
 
@@ -2148,7 +2148,7 @@
     move-result-object v0
 
     .line 9114
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     sget-object v2, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
 
@@ -2156,14 +2156,14 @@
 
     aput v6, v3, v8
 
-    iget-object v4, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v4, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     .line 9115
     invoke-virtual {v4}, Landroid/widget/EditText;->getTextSize()F
 
     move-result v4
 
-    iget-object v5, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v5, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v5}, Landroid/widget/TextView;->getTextSize()F
 
@@ -2179,7 +2179,7 @@
     move-result-object v1
 
     .line 9116
-    iget-object v2, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v2, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     sget-object v3, Landroid/view/View;->TRANSLATION_Y:Landroid/util/Property;
 
@@ -2187,14 +2187,14 @@
 
     aput v11, v4, v8
 
-    iget-object v5, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v5, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     .line 9117
     invoke-virtual {v5}, Landroid/widget/TextView;->getHeight()I
 
     move-result v5
 
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -2220,10 +2220,10 @@
 
     invoke-direct {v3}, Landroid/animation/AnimatorSet;-><init>()V
 
-    iput-object v3, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iput-object v3, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
     .line 9120
-    iget-object v3, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iget-object v3, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
     const/4 v4, 0x3
 
@@ -2238,14 +2238,14 @@
     invoke-virtual {v3, v4}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 
     .line 9121
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
     const-wide/16 v2, 0x96
 
     invoke-virtual {v0, v2, v3}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
     .line 9122
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
     new-instance v1, Landroid/view/animation/LinearInterpolator;
 
@@ -2254,24 +2254,24 @@
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 9123
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
-    new-instance v1, Lkik/android/chat/view/ValidateableInputView$5;
+    new-instance v1, Lkik/arcane/chat/view/ValidateableInputView$5;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/view/ValidateableInputView$5;-><init>(Lkik/android/chat/view/ValidateableInputView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/view/ValidateableInputView$5;-><init>(Lkik/arcane/chat/view/ValidateableInputView;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 9130
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->f:Landroid/animation/AnimatorSet;
 
-    invoke-static {v0}, Lkik/android/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Landroid/animation/Animator;)V
 
     goto/16 :goto_0
 
     .line 9133
     :cond_4
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->r()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->r()V
 
     goto/16 :goto_0
 .end method
@@ -2283,31 +2283,31 @@
     const/high16 v2, 0x3f800000    # 1.0f
 
     .line 1094
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 1095
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setScaleX(F)V
 
     .line 1096
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setScaleY(F)V
 
     .line 1097
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTranslationY(F)V
 
     .line 1098
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     const/4 v1, 0x0
 
@@ -2322,22 +2322,22 @@
 
     .prologue
     .line 1139
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     const/4 v1, 0x4
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 1140
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getTextSize()F
 
     move-result v1
 
-    iget-object v2, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v2, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getTextSize()F
 
@@ -2348,15 +2348,15 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setScaleX(F)V
 
     .line 1141
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getTextSize()F
 
     move-result v1
 
-    iget-object v2, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v2, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getTextSize()F
 
@@ -2367,16 +2367,16 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setScaleY(F)V
 
     .line 1142
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getHeight()I
 
     move-result v1
 
     .line 1143
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -2394,9 +2394,9 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTranslationY(F)V
 
     .line 1144
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setHint(Ljava/lang/CharSequence;)V
 
@@ -2421,7 +2421,7 @@
 
     .prologue
     .line 591
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0, p1, p2}, Landroid/widget/EditText;->setSelection(II)V
 
@@ -2434,10 +2434,10 @@
 
     .prologue
     .line 376
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->j:Landroid/graphics/drawable/Drawable;
 
     .line 377
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->n()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->n()V
 
     .line 378
     return-void
@@ -2448,7 +2448,7 @@
 
     .prologue
     .line 619
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0, p1}, Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
 
@@ -2461,13 +2461,13 @@
 
     .prologue
     .line 455
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
     .line 456
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/view/ValidateableInputView$a;)V
+.method public final a(Lkik/arcane/chat/view/ValidateableInputView$a;)V
     .locals 1
 
     .prologue
@@ -2475,9 +2475,9 @@
     if-nez p1, :cond_0
 
     .line 540
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView;->i:Lkik/android/chat/view/ValidateableInputView$a;
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView;->i:Lkik/arcane/chat/view/ValidateableInputView$a;
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->u:Lkik/android/chat/view/ValidateableInputView$a;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
     .line 545
     :goto_0
@@ -2485,54 +2485,54 @@
 
     .line 543
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->u:Lkik/android/chat/view/ValidateableInputView$a;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->u:Lkik/arcane/chat/view/ValidateableInputView$a;
 
     goto :goto_0
 .end method
 
-.method public final a(Lkik/android/chat/view/ValidateableInputView$b;)V
+.method public final a(Lkik/arcane/chat/view/ValidateableInputView$b;)V
     .locals 0
 
     .prologue
     .line 534
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->t:Lkik/android/chat/view/ValidateableInputView$b;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->t:Lkik/arcane/chat/view/ValidateableInputView$b;
 
     .line 535
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/view/ValidateableInputView$c;)V
+.method public final a(Lkik/arcane/chat/view/ValidateableInputView$c;)V
     .locals 0
 
     .prologue
     .line 624
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->y:Lkik/android/chat/view/ValidateableInputView$c;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->y:Lkik/arcane/chat/view/ValidateableInputView$c;
 
     .line 625
     return-void
 .end method
 
-.method public final a(Lkik/android/util/KeyboardManipulator;)V
+.method public final a(Lkik/arcane/util/KeyboardManipulator;)V
     .locals 1
 
     .prologue
     .line 656
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, v0}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/util/KeyboardManipulator;Z)V
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/util/KeyboardManipulator;Z)V
 
     .line 657
     return-void
 .end method
 
-.method public final a(Lkik/android/util/KeyboardManipulator;Z)V
+.method public final a(Lkik/arcane/util/KeyboardManipulator;Z)V
     .locals 2
 
     .prologue
     .line 661
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -2545,9 +2545,9 @@
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setSelection(I)V
 
     .line 662
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
-    invoke-interface {p1, v0, p2}, Lkik/android/util/KeyboardManipulator;->showKeyBoard(Landroid/view/View;Z)V
+    invoke-interface {p1, v0, p2}, Lkik/arcane/util/KeyboardManipulator;->showKeyBoard(Landroid/view/View;Z)V
 
     .line 663
     return-void
@@ -2558,7 +2558,7 @@
 
     .prologue
     .line 583
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0, p1}, Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
 
@@ -2571,7 +2571,7 @@
 
     .prologue
     .line 450
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2580,7 +2580,7 @@
     move-result-object v0
 
     .line 5455
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
     .line 451
     return-void
@@ -2591,10 +2591,10 @@
 
     .prologue
     .line 393
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->k:Landroid/graphics/drawable/Drawable;
 
     .line 394
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->n()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->n()V
 
     .line 395
     return-void
@@ -2605,7 +2605,7 @@
 
     .prologue
     .line 471
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
 
     .line 472
     return-void
@@ -2616,7 +2616,7 @@
 
     .prologue
     .line 596
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0, p1}, Landroid/widget/EditText;->setSelection(I)V
 
@@ -2629,7 +2629,7 @@
 
     .prologue
     .line 487
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
 
     .line 488
     return-void
@@ -2640,7 +2640,7 @@
 
     .prologue
     .line 503
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
 
     .line 504
     return-void
@@ -2653,10 +2653,10 @@
     .line 438
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/view/ValidateableInputView;->w:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->w:Z
 
     .line 439
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->n()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->n()V
 
     .line 440
     return-void
@@ -2667,7 +2667,7 @@
 
     .prologue
     .line 564
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0, p1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
@@ -2687,7 +2687,7 @@
     if-eqz v0, :cond_1
 
     .line 567
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->q()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->q()V
 
     .line 572
     :goto_1
@@ -2701,7 +2701,7 @@
 
     .line 570
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->r()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->r()V
 
     goto :goto_1
 .end method
@@ -2711,7 +2711,7 @@
 
     .prologue
     .line 559
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -2725,26 +2725,26 @@
 
     .prologue
     .line 576
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->z:Ljava/lang/CharSequence;
 
     .line 577
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 578
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->p()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->p()V
 
     .line 579
     return-void
 .end method
 
-.method public final g()Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+.method public final g()Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
     .locals 1
 
     .prologue
     .line 651
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->g:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->g:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     return-object v0
 .end method
@@ -2754,7 +2754,7 @@
 
     .prologue
     .line 636
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
 
     return-object v0
 .end method
@@ -2775,11 +2775,11 @@
     if-eq v0, v1, :cond_0
 
     .line 771
-    invoke-static {p0}, Lkik/android/chat/view/at;->a(Lkik/android/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/view/at;->a(Lkik/arcane/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
 
     .line 781
     :goto_0
@@ -2787,11 +2787,11 @@
 
     .line 774
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -2801,24 +2801,24 @@
 
     .line 775
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->m()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->m()V
 
     .line 780
     :cond_2
     :goto_1
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->d(I)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->d(I)V
 
     goto :goto_0
 
     .line 5887
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -2827,19 +2827,19 @@
     if-lez v0, :cond_2
 
     .line 5888
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->d()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->d()V
 
     .line 5889
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->o:Ljava/lang/CharSequence;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
 
     .line 5890
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -2870,11 +2870,11 @@
     if-eq v0, v1, :cond_0
 
     .line 789
-    invoke-static {p0}, Lkik/android/chat/view/au;->a(Lkik/android/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/view/au;->a(Lkik/arcane/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
 
     .line 799
     :goto_0
@@ -2882,11 +2882,11 @@
 
     .line 792
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -2896,24 +2896,24 @@
 
     .line 793
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->m()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->m()V
 
     .line 798
     :cond_2
     :goto_1
     const/4 v0, 0x3
 
-    invoke-direct {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->d(I)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->d(I)V
 
     goto :goto_0
 
     .line 5896
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -2922,19 +2922,19 @@
     if-lez v0, :cond_2
 
     .line 5897
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->d()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->d()V
 
     .line 5898
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->q:Ljava/lang/CharSequence;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
 
     .line 5899
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -2965,11 +2965,11 @@
     if-eq v0, v1, :cond_0
 
     .line 807
-    invoke-static {p0}, Lkik/android/chat/view/av;->a(Lkik/android/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/view/av;->a(Lkik/arcane/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
 
     .line 817
     :goto_0
@@ -2977,11 +2977,11 @@
 
     .line 810
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -2991,24 +2991,24 @@
 
     .line 811
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->m()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->m()V
 
     .line 816
     :cond_2
     :goto_1
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->d(I)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->d(I)V
 
     goto :goto_0
 
     .line 6878
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -3017,19 +3017,19 @@
     if-lez v0, :cond_2
 
     .line 6879
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->d()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->d()V
 
     .line 6880
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->p:Ljava/lang/CharSequence;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
 
     .line 6881
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -3060,11 +3060,11 @@
     if-eq v0, v1, :cond_0
 
     .line 825
-    invoke-static {p0}, Lkik/android/chat/view/ax;->a(Lkik/android/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/view/ax;->a(Lkik/arcane/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
 
     .line 835
     :goto_0
@@ -3072,11 +3072,11 @@
 
     .line 828
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -3086,24 +3086,24 @@
 
     .line 829
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->m()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->m()V
 
     .line 834
     :cond_2
     :goto_1
     const/4 v0, 0x2
 
-    invoke-direct {p0, v0}, Lkik/android/chat/view/ValidateableInputView;->d(I)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/view/ValidateableInputView;->d(I)V
 
     goto :goto_0
 
     .line 7869
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -3112,19 +3112,19 @@
     if-lez v0, :cond_2
 
     .line 7870
-    invoke-direct {p0}, Lkik/android/chat/view/ValidateableInputView;->d()V
+    invoke-direct {p0}, Lkik/arcane/chat/view/ValidateableInputView;->d()V
 
     .line 7871
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->n:Ljava/lang/CharSequence;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
 
     .line 7872
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -3146,19 +3146,19 @@
     const/4 v2, 0x0
 
     .line 845
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setFocusable(Z)V
 
     .line 846
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setMovementMethod(Landroid/text/method/MovementMethod;)V
 
     .line 847
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->setKeyListener(Landroid/text/method/KeyListener;)V
 
@@ -3174,26 +3174,26 @@
     invoke-super {p0}, Landroid/widget/LinearLayout;->onAttachedToWindow()V
 
     .line 343
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-virtual {v0}, Landroid/widget/EditText;->getInputType()I
 
     move-result v0
 
-    invoke-static {v0}, Lkik/android/chat/view/ValidateableInputView;->a(I)Z
+    invoke-static {v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lkik/android/chat/KikApplication;->x()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->x()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 344
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     const/4 v1, 0x5
 
@@ -3205,10 +3205,10 @@
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->r:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->r:Lrx/f/b;
 
     .line 4678
-    invoke-virtual {p0}, Lkik/android/chat/view/ValidateableInputView;->isInEditMode()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/view/ValidateableInputView;->isInEditMode()Z
 
     move-result v0
 
@@ -3219,18 +3219,18 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->s:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->s:Lrx/subjects/PublishSubject;
 
     .line 4682
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->r:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->r:Lrx/f/b;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
 
     invoke-static {v1}, Lcom/jakewharton/a/b/a;->a(Landroid/view/View;)Lrx/d;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/view/be;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/be;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -3241,15 +3241,15 @@
     invoke-virtual {v0, v1}, Lrx/f/b;->a(Lrx/k;)V
 
     .line 4688
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->r:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->r:Lrx/f/b;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-static {v1}, Lcom/jakewharton/a/b/a;->b(Landroid/view/View;)Lrx/d;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/view/bf;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/bf;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -3260,15 +3260,15 @@
     invoke-virtual {v0, v1}, Lrx/f/b;->a(Lrx/k;)V
 
     .line 4701
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->r:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->r:Lrx/f/b;
 
-    iget-object v1, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     invoke-static {v1}, Lcom/jakewharton/a/c/a;->b(Landroid/widget/TextView;)Lrx/d;
 
     move-result-object v1
 
-    invoke-static {}, Lkik/android/chat/view/bg;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/view/bg;->a()Lrx/functions/g;
 
     move-result-object v2
 
@@ -3277,7 +3277,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/view/bh;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/view/bh;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -3286,7 +3286,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/view/am;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/view/am;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -3295,7 +3295,7 @@
 
     move-result-object v1
 
-    iget-wide v2, p0, Lkik/android/chat/view/ValidateableInputView;->v:J
+    iget-wide v2, p0, Lkik/arcane/chat/view/ValidateableInputView;->v:J
 
     sget-object v4, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -3309,7 +3309,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lkik/android/chat/view/an;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/view/an;->a()Lrx/functions/g;
 
     move-result-object v2
 
@@ -3318,7 +3318,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/view/ao;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/view/ao;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -3327,9 +3327,9 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/view/ValidateableInputView;->s:Lrx/subjects/PublishSubject;
+    iget-object v2, p0, Lkik/arcane/chat/view/ValidateableInputView;->s:Lrx/subjects/PublishSubject;
 
-    invoke-static {}, Lkik/android/chat/view/ap;->a()Lrx/functions/h;
+    invoke-static {}, Lkik/arcane/chat/view/ap;->a()Lrx/functions/h;
 
     move-result-object v3
 
@@ -3338,7 +3338,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lkik/android/chat/view/aq;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/view/aq;->a()Lrx/functions/g;
 
     move-result-object v2
 
@@ -3347,7 +3347,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Invalid:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v2, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Invalid:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     .line 4746
     invoke-static {v2}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
@@ -3358,11 +3358,11 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/view/ar;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/ar;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v2
 
-    invoke-static {p0}, Lkik/android/chat/view/as;->a(Lkik/android/chat/view/ValidateableInputView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/as;->a(Lkik/arcane/chat/view/ValidateableInputView;)Lrx/functions/b;
 
     move-result-object v3
 
@@ -3389,7 +3389,7 @@
 
     .prologue
     .line 360
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     const-string v1, ""
 
@@ -3407,7 +3407,7 @@
     invoke-super {p0}, Landroid/widget/LinearLayout;->onDetachedFromWindow()V
 
     .line 354
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView;->r:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->r:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->unsubscribe()V
 
@@ -3420,7 +3420,7 @@
 
     .prologue
     .line 630
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView;->x:Landroid/view/View$OnFocusChangeListener;
 
     .line 631
     return-void

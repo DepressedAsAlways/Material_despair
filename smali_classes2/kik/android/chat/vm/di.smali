@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/di;
+.class public final Lkik/arcane/chat/vm/di;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -20,13 +20,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 15
-    iput-boolean p1, p0, Lkik/android/chat/vm/di;->a:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/vm/di;->a:Z
 
     .line 16
-    iput p2, p0, Lkik/android/chat/vm/di;->b:I
+    iput p2, p0, Lkik/arcane/chat/vm/di;->b:I
 
     .line 17
-    iput-boolean p3, p0, Lkik/android/chat/vm/di;->c:Z
+    iput-boolean p3, p0, Lkik/arcane/chat/vm/di;->c:Z
 
     .line 18
     return-void
@@ -39,7 +39,7 @@
 
     .prologue
     .line 22
-    iget-boolean v0, p0, Lkik/android/chat/vm/di;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/di;->a:Z
 
     return v0
 .end method
@@ -49,7 +49,7 @@
 
     .prologue
     .line 27
-    iget v0, p0, Lkik/android/chat/vm/di;->b:I
+    iget v0, p0, Lkik/arcane/chat/vm/di;->b:I
 
     return v0
 .end method

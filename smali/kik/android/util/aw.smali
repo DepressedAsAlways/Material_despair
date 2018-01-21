@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/aw;
+.class public final Lkik/arcane/util/aw;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/aw$a;
+        Lkik/arcane/util/aw$a;
     }
 .end annotation
 
@@ -46,7 +46,7 @@
 
     .line 21
     :cond_0
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -84,7 +84,7 @@
 
     .line 47
     :cond_1
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -101,7 +101,7 @@
 
     .prologue
     .line 57
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -133,7 +133,7 @@
 
     .prologue
     .line 70
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -156,7 +156,7 @@
 
     .prologue
     .line 80
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 

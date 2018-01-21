@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/cz$a;
+.class public final Lkik/arcane/e/cz$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/cz;
+    value = Lkik/arcane/e/cz;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/profile/de;
+.field private a:Lkik/arcane/chat/vm/profile/de;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/profile/de;)Lkik/android/e/cz$a;
+.method public final a(Lkik/arcane/chat/vm/profile/de;)Lkik/arcane/e/cz$a;
     .locals 0
 
     .prologue
     .line 116
-    iput-object p1, p0, Lkik/android/e/cz$a;->a:Lkik/android/chat/vm/profile/de;
+    iput-object p1, p0, Lkik/arcane/e/cz$a;->a:Lkik/arcane/chat/vm/profile/de;
 
     .line 117
     if-nez p1, :cond_0
@@ -55,9 +55,9 @@
 
     .prologue
     .line 121
-    iget-object v0, p0, Lkik/android/e/cz$a;->a:Lkik/android/chat/vm/profile/de;
+    iget-object v0, p0, Lkik/arcane/e/cz$a;->a:Lkik/arcane/chat/vm/profile/de;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/profile/de;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/profile/de;->d()V
 
     .line 122
     return-void

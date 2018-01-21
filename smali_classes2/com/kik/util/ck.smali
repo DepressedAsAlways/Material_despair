@@ -112,7 +112,7 @@
     invoke-static {v0}, Lcom/crashlytics/android/a;->a(Ljava/lang/String;)V
 
     .line 68
-    invoke-static {p0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {p0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 69
     return-void

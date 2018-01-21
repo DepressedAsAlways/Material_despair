@@ -45,7 +45,7 @@
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-static {p1}, Lkik/android/util/aw;->b(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lkik/arcane/util/aw;->b(Ljava/lang/Throwable;)V
 
     return-void
 .end method

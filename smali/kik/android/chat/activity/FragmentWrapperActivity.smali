@@ -1,10 +1,10 @@
-.class public Lkik/android/chat/activity/FragmentWrapperActivity;
+.class public Lkik/arcane/chat/activity/FragmentWrapperActivity;
 .super Landroid/support/v7/app/AppCompatActivity;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/activity/a;
-.implements Lkik/android/f/l;
+.implements Lkik/arcane/chat/activity/a;
+.implements Lkik/arcane/f/l;
 
 
 # instance fields
@@ -123,67 +123,67 @@
     invoke-direct {p0}, Landroid/support/v7/app/AppCompatActivity;-><init>()V
 
     .line 57
-    iput-boolean v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->c:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->c:Z
 
     .line 60
     new-instance v0, Lcom/kik/events/d;
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
 
     .line 62
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->h:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->h:Z
 
     .line 63
-    iput-boolean v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->i:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->i:Z
 
     .line 64
-    iput-boolean v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->j:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->j:Z
 
     .line 70
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->l:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->l:Lcom/kik/events/g;
 
     .line 71
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->m:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->m:Lcom/kik/events/g;
 
     .line 72
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->n:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->n:Lcom/kik/events/g;
 
     .line 92
-    new-instance v0, Lkik/android/chat/activity/FragmentWrapperActivity$1;
+    new-instance v0, Lkik/arcane/chat/activity/FragmentWrapperActivity$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/activity/FragmentWrapperActivity$1;-><init>(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity$1;-><init>(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->o:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->o:Lcom/kik/events/e;
 
     .line 107
-    new-instance v0, Lkik/android/chat/activity/FragmentWrapperActivity$2;
+    new-instance v0, Lkik/arcane/chat/activity/FragmentWrapperActivity$2;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/activity/FragmentWrapperActivity$2;-><init>(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity$2;-><init>(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->p:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->p:Lcom/kik/events/e;
 
     .line 118
-    new-instance v0, Lkik/android/chat/activity/FragmentWrapperActivity$3;
+    new-instance v0, Lkik/arcane/chat/activity/FragmentWrapperActivity$3;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/activity/FragmentWrapperActivity$3;-><init>(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity$3;-><init>(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->q:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->q:Lcom/kik/events/e;
 
     return-void
 .end method
@@ -223,7 +223,7 @@
 
     .line 298
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     if-nez v0, :cond_3
 
@@ -232,11 +232,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/activity/KActivityLauncher;->c(Landroid/os/Bundle;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/activity/KActivityLauncher;->c(Landroid/os/Bundle;)Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     .line 301
     :cond_3
@@ -244,25 +244,25 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/activity/KActivityLauncher;->a(Landroid/os/Bundle;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Landroid/os/Bundle;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->d:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d:Lcom/kik/events/Promise;
 
     .line 302
     invoke-virtual {p1}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/activity/KActivityLauncher;->b(Landroid/os/Bundle;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/activity/KActivityLauncher;->b(Landroid/os/Bundle;)Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->e:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->e:Ljava/lang/String;
 
     .line 304
-    invoke-static {p1}, Lkik/android/chat/activity/FragmentWrapperActivity;->b(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
+    invoke-static {p1}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->b(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
 
     move-result-object v1
 
@@ -281,15 +281,15 @@
     move-result-object v0
 
     .line 308
-    new-instance v2, Lkik/android/chat/activity/FragmentWrapperActivity$4;
+    new-instance v2, Lkik/arcane/chat/activity/FragmentWrapperActivity$4;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/activity/FragmentWrapperActivity$4;-><init>(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity$4;-><init>(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
 
     invoke-virtual {v0, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 335
     :cond_4
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
     move-result-object v0
 
@@ -309,12 +309,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/d;
+.method static synthetic a(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/d;
     .locals 1
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
 
     return-object v0
 .end method
@@ -414,7 +414,7 @@
     invoke-virtual {v3, v2}, Lcom/crashlytics/android/core/h;->a(Ljava/lang/String;)V
 
     .line 349
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v0, v1
 
@@ -432,32 +432,32 @@
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
+.method static synthetic c(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->e:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->e:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic d(Lkik/android/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
+.method static synthetic d(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
     .locals 1
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->d:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d:Lcom/kik/events/Promise;
 
     return-object v0
 .end method
@@ -476,26 +476,26 @@
     if-eqz v0, :cond_0
 
     .line 515
-    iget-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->i:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->i:Z
 
     if-eqz v0, :cond_1
 
     .line 516
-    iget-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->c:Z
 
     if-eqz v0, :cond_0
 
-    iget-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->j:Z
 
     if-nez v0, :cond_0
 
     .line 517
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->i:Z
 
     .line 518
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -503,7 +503,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 527
     :cond_0
@@ -512,18 +512,18 @@
 
     .line 522
     :cond_1
-    iget-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->j:Z
 
     if-eqz v0, :cond_0
 
-    iget-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->c:Z
 
     if-nez v0, :cond_0
 
     .line 523
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->i:Z
 
     goto :goto_0
 .end method
@@ -544,7 +544,7 @@
 
     .prologue
     .line 77
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->l:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->l:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -570,7 +570,7 @@
     if-eqz v0, :cond_0
 
     .line 584
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
@@ -604,7 +604,7 @@
 
     .prologue
     .line 632
-    iput-object p1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     .line 633
     return-void
@@ -620,7 +620,7 @@
     const/4 v3, 0x0
 
     .line 142
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v1
 
@@ -673,7 +673,7 @@
     if-nez v0, :cond_1
 
     .line 157
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->finish()V
 
     move v0, v2
 
@@ -707,7 +707,7 @@
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->m:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->m:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -730,7 +730,7 @@
 
     .prologue
     .line 89
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->n:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->n:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -744,7 +744,7 @@
 
     .prologue
     .line 178
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
     move-result-object v0
 
@@ -763,7 +763,7 @@
 
     .prologue
     .line 568
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -802,7 +802,7 @@
 
     .prologue
     .line 413
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -812,7 +812,7 @@
 
     .prologue
     .line 418
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->e:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->e:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -826,7 +826,7 @@
     .line 484
     .line 3497
     :try_start_0
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
     move-result-object v1
 
@@ -871,7 +871,7 @@
     :catch_0
     move-exception v0
 
-    iget-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->h:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->h:Z
 
     goto :goto_0
 .end method
@@ -881,7 +881,7 @@
 
     .prologue
     .line 531
-    iget-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->j:Z
 
     return v0
 .end method
@@ -909,7 +909,7 @@
     if-ne p2, v2, :cond_4
 
     .line 643
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
 
     invoke-interface {v0}, Lkik/core/interfaces/ad;->r()Lkik/core/interfaces/i;
 
@@ -936,7 +936,7 @@
 
     .line 646
     :cond_0
-    invoke-virtual {p0, v3}, Lkik/android/chat/activity/FragmentWrapperActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v3}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -968,7 +968,7 @@
 
     .line 649
     :cond_3
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v0
 
@@ -978,11 +978,11 @@
 
     move-result-object v4
 
-    iget-object v6, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
+    iget-object v6, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
 
     move-object v1, p0
 
-    invoke-virtual/range {v0 .. v6}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/app/Activity;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;ZLkik/core/interfaces/ad;)V
+    invoke-virtual/range {v0 .. v6}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/app/Activity;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;ZLkik/core/interfaces/ad;)V
 
     goto :goto_1
 
@@ -995,12 +995,12 @@
     if-ne p2, v2, :cond_6
 
     .line 654
-    invoke-static {p3}, Lkik/android/util/f;->a(Landroid/content/Intent;)Landroid/net/Uri;
+    invoke-static {p3}, Lkik/arcane/util/f;->a(Landroid/content/Intent;)Landroid/net/Uri;
 
     move-result-object v0
 
     .line 655
-    iget-object v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
 
     invoke-interface {v1}, Lkik/core/interfaces/ad;->r()Lkik/core/interfaces/i;
 
@@ -1014,7 +1014,7 @@
     if-eqz v0, :cond_1
 
     .line 657
-    invoke-static {v0, p0}, Lkik/android/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
+    invoke-static {v0, p0}, Lkik/arcane/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
 
     move-result-object v2
 
@@ -1024,7 +1024,7 @@
     if-eqz v1, :cond_5
 
     .line 660
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v0
 
@@ -1036,17 +1036,17 @@
 
     const/4 v5, 0x0
 
-    iget-object v6, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
+    iget-object v6, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a:Lkik/core/interfaces/ad;
 
     move-object v1, p0
 
-    invoke-virtual/range {v0 .. v6}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/app/Activity;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;ZLkik/core/interfaces/ad;)V
+    invoke-virtual/range {v0 .. v6}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/app/Activity;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;ZLkik/core/interfaces/ad;)V
 
     goto :goto_1
 
     .line 663
     :cond_5
-    invoke-virtual {p0, v3}, Lkik/android/chat/activity/FragmentWrapperActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v3}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1065,7 +1065,7 @@
     if-ne p1, v0, :cond_1
 
     .line 668
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -1074,7 +1074,7 @@
     if-eqz v0, :cond_7
 
     .line 669
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -1084,7 +1084,7 @@
 
     .line 671
     :cond_7
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -1093,7 +1093,7 @@
     if-eqz v0, :cond_1
 
     .line 672
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -1110,7 +1110,7 @@
 
     .line 134
     .line 1167
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -1130,7 +1130,7 @@
     :goto_0
     if-nez v0, :cond_0
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/activity/FragmentWrapperActivity;->a(Z)Z
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(Z)Z
 
     move-result v0
 
@@ -1159,7 +1159,7 @@
     .line 437
     if-eqz p1, :cond_2
 
-    iget v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->k:I
+    iget v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->k:I
 
     iget v1, p1, Landroid/content/res/Configuration;->orientation:I
 
@@ -1169,7 +1169,7 @@
     const/4 v0, 0x0
 
     .line 439
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v1
 
@@ -1192,7 +1192,7 @@
     :cond_1
     iget v0, p1, Landroid/content/res/Configuration;->orientation:I
 
-    iput v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->k:I
+    iput v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->k:I
 
     .line 448
     :cond_2
@@ -1208,44 +1208,44 @@
     const/4 v1, 0x1
 
     .line 228
-    invoke-virtual {p0, v1}, Lkik/android/chat/activity/FragmentWrapperActivity;->requestWindowFeature(I)Z
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->requestWindowFeature(I)Z
 
     .line 230
     invoke-super {p0, p1}, Landroid/support/v7/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 232
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
 
     .line 235
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
-    new-instance v3, Lkik/android/widget/eb;
+    new-instance v3, Lkik/arcane/widget/eb;
 
-    invoke-direct {v3}, Lkik/android/widget/eb;-><init>()V
+    invoke-direct {v3}, Lkik/arcane/widget/eb;-><init>()V
 
     invoke-virtual {v0, v3}, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 240
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
     if-eqz v0, :cond_7
 
     .line 241
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -1259,7 +1259,7 @@
 
     .line 2189
     :goto_1
-    iput-object v2, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iput-object v2, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     .line 2190
     if-eqz p1, :cond_0
@@ -1271,22 +1271,22 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     .line 2197
     :cond_0
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->c()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->c()Ljava/lang/String;
 
     move-result-object v0
 
     .line 2200
-    iget-object v2, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     if-eqz v2, :cond_1
 
     if-eqz v0, :cond_1
 
-    iget-object v2, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1301,7 +1301,7 @@
     if-eqz v0, :cond_2
 
     .line 252
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->finish()V
 
     .line 277
     :goto_3
@@ -1315,64 +1315,64 @@
 
     .line 256
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
 
-    iget-object v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->b:Lkik/core/ab;
+    iget-object v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->b:Lkik/core/ab;
 
     invoke-interface {v1}, Lkik/core/ab;->a()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->o:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->o:Lcom/kik/events/e;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 257
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
 
-    iget-object v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->b:Lkik/core/ab;
+    iget-object v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->b:Lkik/core/ab;
 
     invoke-interface {v1}, Lkik/core/ab;->c()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->o:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->o:Lcom/kik/events/e;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 258
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
 
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->a()Lcom/kik/events/c;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->a()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->p:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->p:Lcom/kik/events/e;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 259
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
 
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->b()Lcom/kik/events/c;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->b()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->q:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->q:Lcom/kik/events/e;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 261
     const v0, 0x7f04002d
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->setContentView(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->setContentView(I)V
 
     .line 262
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->a(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
 
     move-result-object v1
 
@@ -1403,7 +1403,7 @@
     if-eqz v0, :cond_3
 
     .line 2598
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
@@ -1423,7 +1423,7 @@
     .line 276
     :cond_3
     :goto_4
-    invoke-static {p0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/chat/activity/FragmentWrapperActivity;Landroid/support/v4/app/Fragment;)V
+    invoke-static {p0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/chat/activity/FragmentWrapperActivity;Landroid/support/v4/app/Fragment;)V
 
     goto :goto_3
 
@@ -1433,7 +1433,7 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->a(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(I)V
 
     goto :goto_4
 
@@ -1441,12 +1441,12 @@
     :cond_5
     const v0, 0x7f0e00cd
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v0
 
     .line 274
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->a(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(I)V
 
     goto :goto_4
 
@@ -1466,42 +1466,42 @@
 
     .prologue
     .line 380
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
     .line 381
-    iget-object v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
+    iget-object v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f:Lcom/kik/events/d;
 
     invoke-virtual {v1}, Lcom/kik/events/d;->a()V
 
     .line 382
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->isFinishing()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->isFinishing()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 383
-    invoke-static {p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+    invoke-static {p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
 
     .line 386
     :cond_0
-    instance-of v1, v0, Lkik/android/chat/fragment/KikScopedDialogFragment;
+    instance-of v1, v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     if-eqz v1, :cond_1
 
     .line 387
-    check-cast v0, Lkik/android/chat/fragment/KikScopedDialogFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->handleActivityDestroy()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->handleActivityDestroy()V
 
     .line 390
     :cond_1
     invoke-super {p0}, Landroid/support/v7/app/AppCompatActivity;->onDestroy()V
 
     .line 392
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->l:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->l:Lcom/kik/events/g;
 
     const/4 v1, 0x0
 
@@ -1571,7 +1571,7 @@
 
     .line 212
     :cond_1
-    invoke-direct {p0, p1}, Lkik/android/chat/activity/FragmentWrapperActivity;->a(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
+    invoke-direct {p0, p1}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
 
     goto :goto_1
 .end method
@@ -1586,22 +1586,22 @@
     .line 538
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->j:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->j:Z
 
     .line 539
-    invoke-direct {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->i()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->i()V
 
     .line 540
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->c(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->c(Landroid/app/Activity;)V
 
     .line 541
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->n:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->n:Lcom/kik/events/g;
 
     const/4 v1, 0x0
 
@@ -1621,27 +1621,27 @@
     .line 454
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->h:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->h:Z
 
     .line 455
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->j:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->j:Z
 
     .line 456
-    invoke-direct {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->i()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->i()V
 
     .line 457
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->d(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->d(Landroid/app/Activity;)V
 
     .line 458
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->m:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->m:Lcom/kik/events/g;
 
     const/4 v1, 0x0
 
@@ -1661,12 +1661,12 @@
     .line 399
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->h:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->h:Z
 
     .line 400
     const-string v0, "com.kik.util.KActivityLauncher.synthTaskId"
 
-    iget-object v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->g:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1682,10 +1682,10 @@
     invoke-super {p0, p1}, Landroid/support/v7/app/AppCompatActivity;->onWindowFocusChanged(Z)V
 
     .line 365
-    iput-boolean p1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->c:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->c:Z
 
     .line 3405
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -1699,26 +1699,26 @@
     .line 3407
     check-cast v0, Lcom/kik/d/c;
 
-    iget-boolean v1, p0, Lkik/android/chat/activity/FragmentWrapperActivity;->c:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity;->c:Z
 
     invoke-interface {v0, v1}, Lcom/kik/d/c;->onWindowFocusChanged(Z)V
 
     .line 367
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->i()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->i()V
 
     .line 368
-    invoke-virtual {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
     .line 369
     if-eqz p1, :cond_1
 
     .line 370
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->a(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->a(Landroid/app/Activity;)V
 
     .line 375
     :goto_0
@@ -1726,7 +1726,7 @@
 
     .line 373
     :cond_1
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->b(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->b(Landroid/app/Activity;)V
 
     goto :goto_0
 .end method

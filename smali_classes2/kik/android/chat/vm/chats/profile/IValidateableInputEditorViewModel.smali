@@ -1,15 +1,15 @@
-.class public interface abstract Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/br;
+.implements Lkik/arcane/chat/vm/br;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+        Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
     }
 .end annotation
 
@@ -51,8 +51,8 @@
     .end annotation
 .end method
 
-.method public abstract l()Lkik/android/chat/view/ValidateableInputView$b;
+.method public abstract l()Lkik/arcane/chat/view/ValidateableInputView$b;
 .end method
 
-.method public abstract m()Lkik/android/chat/view/ValidateableInputView$a;
+.method public abstract m()Lkik/arcane/chat/view/ValidateableInputView$a;
 .end method

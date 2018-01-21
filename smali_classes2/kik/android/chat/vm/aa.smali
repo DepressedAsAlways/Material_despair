@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/aa;
+.class final synthetic Lkik/arcane/chat/vm/aa;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/aa;
+.field private static final a:Lkik/arcane/chat/vm/aa;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/aa;
+    new-instance v0, Lkik/arcane/chat/vm/aa;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/aa;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/aa;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/aa;->a:Lkik/android/chat/vm/aa;
+    sput-object v0, Lkik/arcane/chat/vm/aa;->a:Lkik/arcane/chat/vm/aa;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lcom/google/common/base/Predicate;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/aa;->a:Lkik/android/chat/vm/aa;
+    sget-object v0, Lkik/arcane/chat/vm/aa;->a:Lkik/arcane/chat/vm/aa;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Lkik/core/chat/profile/EmojiStatus$Name;
 
-    invoke-static {p1}, Lkik/android/chat/vm/t;->b(Lkik/core/chat/profile/EmojiStatus$Name;)Z
+    invoke-static {p1}, Lkik/arcane/chat/vm/t;->b(Lkik/core/chat/profile/EmojiStatus$Name;)Z
 
     move-result v0
 

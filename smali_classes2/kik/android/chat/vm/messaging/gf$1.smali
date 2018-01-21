@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/messaging/gf$1;
+.class final Lkik/arcane/chat/vm/messaging/gf$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/messaging/gf;
+    value = Lkik/arcane/chat/vm/messaging/gf;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,24 +24,24 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/net/http/a;
+.field final synthetic a:Lkik/arcane/net/http/a;
 
 .field final synthetic b:Lkik/core/datatypes/f;
 
-.field final synthetic c:Lkik/android/chat/vm/messaging/gf;
+.field final synthetic c:Lkik/arcane/chat/vm/messaging/gf;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/gf;Lkik/android/net/http/a;Lkik/core/datatypes/f;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/gf;Lkik/arcane/net/http/a;Lkik/core/datatypes/f;)V
     .locals 0
 
     .prologue
     .line 294
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/gf$1;->c:Lkik/android/chat/vm/messaging/gf;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/gf$1;->c:Lkik/arcane/chat/vm/messaging/gf;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/gf$1;->a:Lkik/android/net/http/a;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/gf$1;->a:Lkik/arcane/net/http/a;
 
-    iput-object p3, p0, Lkik/android/chat/vm/messaging/gf$1;->b:Lkik/core/datatypes/f;
+    iput-object p3, p0, Lkik/arcane/chat/vm/messaging/gf$1;->b:Lkik/core/datatypes/f;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -55,15 +55,15 @@
 
     .prologue
     .line 298
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/gf$1;->c:Lkik/android/chat/vm/messaging/gf;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/gf$1;->c:Lkik/arcane/chat/vm/messaging/gf;
 
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/gf$1;->a:Lkik/android/net/http/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/gf$1;->a:Lkik/arcane/net/http/a;
 
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/gf$1;->b:Lkik/core/datatypes/f;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/gf$1;->b:Lkik/core/datatypes/f;
 
-    iget-object v3, p0, Lkik/android/chat/vm/messaging/gf$1;->c:Lkik/android/chat/vm/messaging/gf;
+    iget-object v3, p0, Lkik/arcane/chat/vm/messaging/gf$1;->c:Lkik/arcane/chat/vm/messaging/gf;
 
-    invoke-virtual {v3}, Lkik/android/chat/vm/messaging/gf;->x()Lkik/core/datatypes/Message;
+    invoke-virtual {v3}, Lkik/arcane/chat/vm/messaging/gf;->x()Lkik/core/datatypes/Message;
 
     move-result-object v3
 
@@ -71,7 +71,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v1, v2, v3}, Lkik/android/chat/vm/messaging/gf;->a(Lkik/android/chat/vm/messaging/gf;Lkik/android/net/http/a;Lkik/core/datatypes/f;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lkik/arcane/chat/vm/messaging/gf;->a(Lkik/arcane/chat/vm/messaging/gf;Lkik/arcane/net/http/a;Lkik/core/datatypes/f;Ljava/lang/String;)V
 
     .line 299
     return-void

@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/AudioRecordingLedLayoutView;
+.class public Lkik/arcane/widget/AudioRecordingLedLayoutView;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
 
 # instance fields
-.field protected _cake:Lkik/android/widget/AudioLedCakeView;
+.field protected _cake:Lkik/arcane/widget/AudioLedCakeView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f100151
     .end annotation
@@ -30,10 +30,10 @@
     .line 33
     const-wide/16 v0, 0xfa
 
-    iput-wide v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->a:J
+    iput-wide v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->a:J
 
     .line 1044
-    invoke-virtual {p0}, Lkik/android/widget/AudioRecordingLedLayoutView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioRecordingLedLayoutView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -54,7 +54,7 @@
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/AudioRecordingLedLayoutView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/AudioRecordingLedLayoutView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -65,7 +65,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/AudioRecordingLedLayoutView;",
+            "Lkik/arcane/widget/AudioRecordingLedLayoutView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -79,7 +79,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/n;->a(Lkik/android/widget/AudioRecordingLedLayoutView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/n;->a(Lkik/arcane/widget/AudioRecordingLedLayoutView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -89,7 +89,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AudioRecordingLedLayoutView;Z)V
+.method static synthetic a(Lkik/arcane/widget/AudioRecordingLedLayoutView;Z)V
     .locals 1
 
     .prologue
@@ -97,18 +97,18 @@
     if-eqz p1, :cond_0
 
     .line 1059
-    iget-object v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->_cake:Lkik/android/widget/AudioLedCakeView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->_cake:Lkik/arcane/widget/AudioLedCakeView;
 
-    invoke-virtual {v0}, Lkik/android/widget/AudioLedCakeView;->a()V
+    invoke-virtual {v0}, Lkik/arcane/widget/AudioLedCakeView;->a()V
 
     :goto_0
     return-void
 
     .line 1062
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->_cake:Lkik/android/widget/AudioLedCakeView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->_cake:Lkik/arcane/widget/AudioLedCakeView;
 
-    invoke-virtual {v0}, Lkik/android/widget/AudioLedCakeView;->b()V
+    invoke-virtual {v0}, Lkik/arcane/widget/AudioLedCakeView;->b()V
 
     goto :goto_0
 .end method
@@ -126,14 +126,14 @@
     const/4 v1, 0x0
 
     .line 69
-    invoke-virtual {p0}, Lkik/android/widget/AudioRecordingLedLayoutView;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioRecordingLedLayoutView;->getVisibility()I
 
     move-result v0
 
     if-eq v0, p1, :cond_0
 
     .line 70
-    iget-object v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->_led:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->_led:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->clearAnimation()V
 
@@ -144,17 +144,17 @@
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
     .line 1050
-    iget-object v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->_led:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->_led:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setAlpha(F)V
 
     .line 1051
-    iget-object v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->_cake:Lkik/android/widget/AudioLedCakeView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->_cake:Lkik/arcane/widget/AudioLedCakeView;
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/AudioLedCakeView;->setAlpha(F)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/AudioLedCakeView;->setAlpha(F)V
 
     .line 1052
-    iget-object v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->_led:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->_led:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -175,9 +175,9 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
     .line 1053
-    iget-object v0, p0, Lkik/android/widget/AudioRecordingLedLayoutView;->_cake:Lkik/android/widget/AudioLedCakeView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordingLedLayoutView;->_cake:Lkik/arcane/widget/AudioLedCakeView;
 
-    invoke-virtual {v0}, Lkik/android/widget/AudioLedCakeView;->animate()Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {v0}, Lkik/arcane/widget/AudioLedCakeView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/view/az;
+.class final synthetic Lkik/arcane/chat/view/az;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/view/az;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/view/az;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Ljava/lang/String;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/view/az;
+    new-instance v0, Lkik/arcane/chat/view/az;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/view/az;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/view/az;-><init>(Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/view/az;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/view/az;->a:Ljava/lang/String;
 
-    check-cast p1, Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    check-cast p1, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    invoke-static {v0, p1}, Lkik/android/chat/view/ValidateableInputView;->a(Ljava/lang/String;Lkik/android/chat/view/ValidateableInputView$TextValidityState;)Landroid/support/v4/util/Pair;
+    invoke-static {v0, p1}, Lkik/arcane/chat/view/ValidateableInputView;->a(Ljava/lang/String;Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;)Landroid/support/v4/util/Pair;
 
     move-result-object v0
 

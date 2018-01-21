@@ -149,7 +149,7 @@
     move-exception v0
 
     .line 71
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 72
     new-instance v2, Ljava/lang/StringBuilder;

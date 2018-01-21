@@ -75,7 +75,7 @@
     move-result-object v1
 
     .line 1348
-    invoke-virtual {v0, v1}, Lcom/kik/cards/web/CardsWebViewFragment;->startFragmentForResult(Lkik/android/util/ad;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, v1}, Lcom/kik/cards/web/CardsWebViewFragment;->startFragmentForResult(Lkik/arcane/util/ad;)Lcom/kik/events/Promise;
 
     .line 342
     return-void

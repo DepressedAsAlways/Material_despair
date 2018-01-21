@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AudioLedCakeView;
+.class public Lkik/arcane/widget/AudioLedCakeView;
 .super Landroid/view/View;
 .source "SourceFile"
 
@@ -29,7 +29,7 @@
     .line 34
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 35
     return-void
@@ -43,7 +43,7 @@
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 40
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 41
     return-void
@@ -57,7 +57,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 46
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 47
     return-void
@@ -71,7 +71,7 @@
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 52
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/AudioLedCakeView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 53
     return-void
@@ -88,7 +88,7 @@
     const/4 v1, 0x0
 
     .line 92
-    invoke-virtual {p0}, Lkik/android/widget/AudioLedCakeView;->isInEditMode()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioLedCakeView;->isInEditMode()Z
 
     move-result v0
 
@@ -97,11 +97,11 @@
     .line 93
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v5, v0}, Lkik/android/widget/AudioLedCakeView;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {p0, v5, v0}, Lkik/arcane/widget/AudioLedCakeView;->setLayerType(ILandroid/graphics/Paint;)V
 
     .line 96
     :cond_0
-    sget-object v0, Lkik/android/R$styleable;->AudioLedCakeView:[I
+    sget-object v0, Lkik/arcane/R$styleable;->AudioLedCakeView:[I
 
     invoke-virtual {p1, p2, v0, v1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -126,7 +126,7 @@
 
     move-result v2
 
-    iput v2, p0, Lkik/android/widget/AudioLedCakeView;->d:I
+    iput v2, p0, Lkik/arcane/widget/AudioLedCakeView;->d:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -138,22 +138,22 @@
 
     invoke-direct {v1}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v1, p0, Lkik/android/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
+    iput-object v1, p0, Lkik/arcane/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
 
     .line 106
-    iget-object v1, p0, Lkik/android/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v4}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 107
-    iget-object v1, p0, Lkik/android/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 108
-    iget-object v1, p0, Lkik/android/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
@@ -166,12 +166,12 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
+    iput-object v0, p0, Lkik/arcane/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
 
     .line 111
-    iget-object v0, p0, Lkik/android/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
 
-    iget v1, p0, Lkik/android/widget/AudioLedCakeView;->d:I
+    iget v1, p0, Lkik/arcane/widget/AudioLedCakeView;->d:I
 
     mul-int/lit16 v1, v1, 0x3e8
 
@@ -180,7 +180,7 @@
     invoke-virtual {v0, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     .line 112
-    iget-object v0, p0, Lkik/android/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
 
     new-instance v1, Landroid/view/animation/LinearInterpolator;
 
@@ -189,7 +189,7 @@
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 113
-    iget-object v0, p0, Lkik/android/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0, p0}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
@@ -219,7 +219,7 @@
 
     .prologue
     .line 80
-    iget-object v0, p0, Lkik/android/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -228,7 +228,7 @@
     if-nez v0, :cond_0
 
     .line 81
-    iget-object v0, p0, Lkik/android/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
 
@@ -242,7 +242,7 @@
 
     .prologue
     .line 87
-    iget-object v0, p0, Lkik/android/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/AudioLedCakeView;->c:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
 
@@ -265,10 +265,10 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/AudioLedCakeView;->e:F
+    iput v0, p0, Lkik/arcane/widget/AudioLedCakeView;->e:F
 
     .line 75
-    invoke-virtual {p0}, Lkik/android/widget/AudioLedCakeView;->postInvalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioLedCakeView;->postInvalidate()V
 
     .line 76
     return-void
@@ -279,15 +279,15 @@
 
     .prologue
     .line 67
-    iget-object v1, p0, Lkik/android/widget/AudioLedCakeView;->a:Landroid/graphics/RectF;
+    iget-object v1, p0, Lkik/arcane/widget/AudioLedCakeView;->a:Landroid/graphics/RectF;
 
     const/high16 v2, -0x3d4c0000    # -90.0f
 
-    iget v3, p0, Lkik/android/widget/AudioLedCakeView;->e:F
+    iget v3, p0, Lkik/arcane/widget/AudioLedCakeView;->e:F
 
     const/4 v4, 0x1
 
-    iget-object v5, p0, Lkik/android/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
+    iget-object v5, p0, Lkik/arcane/widget/AudioLedCakeView;->b:Landroid/graphics/Paint;
 
     move-object v0, p1
 
@@ -317,7 +317,7 @@
 
     invoke-direct {v1, v3, v3, v2, v0}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    iput-object v1, p0, Lkik/android/widget/AudioLedCakeView;->a:Landroid/graphics/RectF;
+    iput-object v1, p0, Lkik/arcane/widget/AudioLedCakeView;->a:Landroid/graphics/RectF;
 
     .line 61
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V

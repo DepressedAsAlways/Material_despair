@@ -4,7 +4,7 @@
 
 
 # static fields
-.field private static a:Lkik/android/internal/platform/ImageContentCache;
+.field private static a:Lkik/arcane/internal/platform/ImageContentCache;
 
 .field private static b:Lcom/kik/cache/SimpleLruBitmapCache;
 
@@ -245,7 +245,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -528,7 +528,7 @@
     move-result-object v0
 
     .line 397
-    invoke-static {p0}, Lkik/android/util/h;->a(Ljava/lang/String;)I
+    invoke-static {p0}, Lkik/arcane/util/h;->a(Ljava/lang/String;)I
 
     move-result v1
 
@@ -536,7 +536,7 @@
     if-ltz v1, :cond_1
 
     .line 399
-    invoke-static {v0, v1}, Lkik/android/util/h;->b(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1}, Lkik/arcane/util/h;->b(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -993,15 +993,15 @@
     sput-object v1, Lcom/kik/util/cr;->b:Lcom/kik/cache/SimpleLruBitmapCache;
 
     .line 69
-    new-instance v0, Lkik/android/internal/platform/ImageContentCache;
+    new-instance v0, Lkik/arcane/internal/platform/ImageContentCache;
 
     const-string v1, "kik_content_preview_cache"
 
     sget-object v2, Lcom/kik/util/cr;->b:Lcom/kik/cache/SimpleLruBitmapCache;
 
-    invoke-direct {v0, p0, p1, v1, v2}, Lkik/android/internal/platform/ImageContentCache;-><init>(Landroid/content/Context;Lkik/core/interfaces/s;Ljava/lang/String;Lcom/kik/cache/SimpleLruBitmapCache;)V
+    invoke-direct {v0, p0, p1, v1, v2}, Lkik/arcane/internal/platform/ImageContentCache;-><init>(Landroid/content/Context;Lkik/core/interfaces/s;Ljava/lang/String;Lcom/kik/cache/SimpleLruBitmapCache;)V
 
-    sput-object v0, Lcom/kik/util/cr;->a:Lkik/android/internal/platform/ImageContentCache;
+    sput-object v0, Lcom/kik/util/cr;->a:Lkik/arcane/internal/platform/ImageContentCache;
 
     .line 70
     return-void
@@ -1012,9 +1012,9 @@
 
     .prologue
     .line 536
-    sget-object v0, Lcom/kik/util/cr;->a:Lkik/android/internal/platform/ImageContentCache;
+    sget-object v0, Lcom/kik/util/cr;->a:Lkik/arcane/internal/platform/ImageContentCache;
 
-    invoke-virtual {v0, p0}, Lkik/android/internal/platform/ImageContentCache;->preloadImage(Ljava/lang/String;)Z
+    invoke-virtual {v0, p0}, Lkik/arcane/internal/platform/ImageContentCache;->preloadImage(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1052,7 +1052,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -1436,7 +1436,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -1447,9 +1447,9 @@
     .prologue
     .line 542
     :try_start_0
-    sget-object v0, Lcom/kik/util/cr;->a:Lkik/android/internal/platform/ImageContentCache;
+    sget-object v0, Lcom/kik/util/cr;->a:Lkik/arcane/internal/platform/ImageContentCache;
 
-    invoke-virtual {v0, p0}, Lkik/android/internal/platform/ImageContentCache;->getImageData(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, p0}, Lkik/arcane/internal/platform/ImageContentCache;->getImageData(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 

@@ -85,7 +85,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -107,7 +107,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/f/e;",
+            "Lkik/arcane/f/e;",
             ">;"
         }
     .end annotation
@@ -169,7 +169,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -177,7 +177,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/f/e;",
+            "Lkik/arcane/f/e;",
             ">;)V"
         }
     .end annotation
@@ -371,7 +371,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -379,7 +379,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/f/e;",
+            "Lkik/arcane/f/e;",
             ">;)",
             "Ldagger/internal/b",
             "<",
@@ -475,7 +475,7 @@
 
     move-result-object v5
 
-    check-cast v5, Lcom/kik/android/Mixpanel;
+    check-cast v5, Lcom/kik/arcane/Mixpanel;
 
     iget-object v6, p0, Lcom/kik/f/du;->i:Ljavax/inject/Provider;
 
@@ -493,10 +493,10 @@
 
     move-result-object v7
 
-    check-cast v7, Lkik/android/f/e;
+    check-cast v7, Lkik/arcane/f/e;
 
     .line 1074
-    invoke-static/range {v0 .. v7}, Lcom/kik/f/ds;->a(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/ad;Lkik/android/f/e;)Lkik/core/manager/y;
+    invoke-static/range {v0 .. v7}, Lcom/kik/f/ds;->a(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/ad;Lkik/arcane/f/e;)Lkik/core/manager/y;
 
     move-result-object v0
 

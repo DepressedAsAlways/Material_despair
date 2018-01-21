@@ -1,11 +1,11 @@
-.class public final Lkik/android/widget/TrophyRecyclerView$a;
-.super Lkik/android/widget/dr$c;
+.class public final Lkik/arcane/widget/TrophyRecyclerView$a;
+.super Lkik/arcane/widget/dr$c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/TrophyRecyclerView;
+    value = Lkik/arcane/widget/TrophyRecyclerView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,9 +15,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/dr$c",
+        "Lkik/arcane/widget/dr$c",
         "<",
-        "Lkik/android/chat/vm/bp;",
+        "Lkik/arcane/chat/vm/bp;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/widget/dr$c;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/dr$c;-><init>(Landroid/view/View;)V
 
     .line 58
     return-void

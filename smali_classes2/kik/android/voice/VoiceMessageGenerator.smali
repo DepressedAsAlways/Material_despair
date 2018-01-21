@@ -1,15 +1,15 @@
-.class public Lkik/android/voice/VoiceMessageGenerator;
+.class public Lkik/arcane/voice/VoiceMessageGenerator;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/voice/e;
+.implements Lkik/arcane/voice/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+        Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
     }
 .end annotation
 
@@ -31,7 +31,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/voice/c;",
+            "Lkik/arcane/voice/c;",
             ">;>;"
         }
     .end annotation
@@ -71,7 +71,7 @@
 
     .prologue
     .line 36
-    const-class v0, Lkik/android/voice/VoiceMessageGenerator;
+    const-class v0, Lkik/arcane/voice/VoiceMessageGenerator;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/voice/VoiceMessageGenerator;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/voice/VoiceMessageGenerator;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -96,21 +96,21 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 42
-    iput-boolean v2, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iput-boolean v2, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
 
     .line 45
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
+    iput-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
 
     .line 47
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->e:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->e:Ljava/util/List;
 
     .line 48
     const/16 v0, 0x19
@@ -119,43 +119,43 @@
 
     fill-array-data v0, :array_0
 
-    iput-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->f:[I
+    iput-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->f:[I
 
     .line 75
     const/16 v0, 0x100
 
-    iput v0, p0, Lkik/android/voice/VoiceMessageGenerator;->g:I
+    iput v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->g:I
 
     .line 76
     const/16 v0, 0x90
 
-    iput v0, p0, Lkik/android/voice/VoiceMessageGenerator;->h:I
+    iput v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->h:I
 
     .line 77
-    iput v2, p0, Lkik/android/voice/VoiceMessageGenerator;->i:I
+    iput v2, p0, Lkik/arcane/voice/VoiceMessageGenerator;->i:I
 
     .line 78
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/voice/VoiceMessageGenerator;->j:J
+    iput-wide v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->j:J
 
     .line 79
-    iput v2, p0, Lkik/android/voice/VoiceMessageGenerator;->k:I
+    iput v2, p0, Lkik/arcane/voice/VoiceMessageGenerator;->k:I
 
     .line 80
-    iput v2, p0, Lkik/android/voice/VoiceMessageGenerator;->l:I
+    iput v2, p0, Lkik/arcane/voice/VoiceMessageGenerator;->l:I
 
     .line 81
-    iput-boolean v2, p0, Lkik/android/voice/VoiceMessageGenerator;->m:Z
+    iput-boolean v2, p0, Lkik/arcane/voice/VoiceMessageGenerator;->m:Z
 
     .line 104
-    iput-object p1, p0, Lkik/android/voice/VoiceMessageGenerator;->c:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/voice/VoiceMessageGenerator;->c:Landroid/content/Context;
 
     .line 105
-    iput-object p2, p0, Lkik/android/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
+    iput-object p2, p0, Lkik/arcane/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
 
     .line 106
-    invoke-direct {p0}, Lkik/android/voice/VoiceMessageGenerator;->a()V
+    invoke-direct {p0}, Lkik/arcane/voice/VoiceMessageGenerator;->a()V
 
     .line 107
     return-void
@@ -282,61 +282,61 @@
     const/4 v0, 0x0
 
     :try_start_2
-    iput v0, p0, Lkik/android/voice/VoiceMessageGenerator;->i:I
+    iput v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->i:I
 
     .line 162
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/voice/VoiceMessageGenerator;->j:J
+    iput-wide v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->j:J
 
     .line 163
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/voice/VoiceMessageGenerator;->k:I
+    iput v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->k:I
 
     .line 164
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/voice/VoiceMessageGenerator;->l:I
+    iput v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->l:I
 
     .line 165
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->m:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->m:Z
 
     .line 167
-    new-instance v1, Lkik/android/voice/a;
+    new-instance v1, Lkik/arcane/voice/a;
 
-    invoke-direct {v1}, Lkik/android/voice/a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/voice/a;-><init>()V
 
     .line 168
-    new-instance v5, Lkik/android/voice/k;
+    new-instance v5, Lkik/arcane/voice/k;
 
-    iget v0, p0, Lkik/android/voice/VoiceMessageGenerator;->g:I
+    iget v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->g:I
 
-    iget v8, p0, Lkik/android/voice/VoiceMessageGenerator;->h:I
+    iget v8, p0, Lkik/arcane/voice/VoiceMessageGenerator;->h:I
 
-    invoke-direct {v5, v0, v8}, Lkik/android/voice/k;-><init>(II)V
+    invoke-direct {v5, v0, v8}, Lkik/arcane/voice/k;-><init>(II)V
 
     .line 171
     :cond_1
-    invoke-direct {p0, v1, v5, v3}, Lkik/android/voice/VoiceMessageGenerator;->a(Lkik/android/voice/a;Lkik/android/voice/k;Ljava/io/FileInputStream;)Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    invoke-direct {p0, v1, v5, v3}, Lkik/arcane/voice/VoiceMessageGenerator;->a(Lkik/arcane/voice/a;Lkik/arcane/voice/k;Ljava/io/FileInputStream;)Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     move-result-object v8
 
     .line 172
-    sget-object v0, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v0, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     if-ne v8, v0, :cond_6
 
     .line 174
     const-string v0, "can\'t generate mp4 due to no available inputbuffer"
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 198
     :goto_1
-    iget-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
 
     if-eqz v0, :cond_2
 
@@ -345,10 +345,10 @@
 
     .line 202
     :cond_2
-    invoke-virtual {v1}, Lkik/android/voice/a;->c()V
+    invoke-virtual {v1}, Lkik/arcane/voice/a;->c()V
 
     .line 203
-    invoke-virtual {v5}, Lkik/android/voice/k;->c()V
+    invoke-virtual {v5}, Lkik/arcane/voice/k;->c()V
     :try_end_2
     .catch Ljava/lang/Throwable; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -364,7 +364,7 @@
     const/4 v0, 0x0
 
     :try_start_3
-    iput-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
     :try_end_3
     .catch Ljava/lang/Throwable; {:try_start_3 .. :try_end_3} :catch_7
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -483,17 +483,17 @@
     .line 1339
     :cond_6
     :try_start_6
-    iget-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
 
     if-nez v0, :cond_c
 
     .line 1340
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
 
     .line 1341
-    invoke-static {v1, v2}, Lkik/android/voice/VoiceMessageGenerator;->a(Lkik/android/voice/b;Landroid/media/MediaMuxer;)Z
+    invoke-static {v1, v2}, Lkik/arcane/voice/VoiceMessageGenerator;->a(Lkik/arcane/voice/b;Landroid/media/MediaMuxer;)Z
 
     move-result v0
 
@@ -502,7 +502,7 @@
     .line 1342
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
 
     .line 1343
     const/4 v0, 0x0
@@ -514,7 +514,7 @@
     .line 180
     const-string v0, "fail to start MediaMuxer"
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
     :try_end_6
     .catch Ljava/lang/Throwable; {:try_start_6 .. :try_end_6} :catch_0
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
@@ -537,7 +537,7 @@
     invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     .line 210
-    invoke-static {v0}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_4
 
@@ -626,7 +626,7 @@
     .line 1345
     :cond_a
     :try_start_9
-    invoke-static {v5, v2}, Lkik/android/voice/VoiceMessageGenerator;->a(Lkik/android/voice/b;Landroid/media/MediaMuxer;)Z
+    invoke-static {v5, v2}, Lkik/arcane/voice/VoiceMessageGenerator;->a(Lkik/arcane/voice/b;Landroid/media/MediaMuxer;)Z
 
     move-result v0
 
@@ -635,7 +635,7 @@
     .line 1346
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
 
     .line 1347
     const/4 v0, 0x0
@@ -648,7 +648,7 @@
 
     .line 1353
     :cond_c
-    iget-boolean v0, p0, Lkik/android/voice/VoiceMessageGenerator;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->b:Z
     :try_end_9
     .catch Ljava/lang/Throwable; {:try_start_9 .. :try_end_9} :catch_0
     .catchall {:try_start_9 .. :try_end_9} :catchall_0
@@ -658,15 +658,15 @@
     .line 185
     :cond_d
     :try_start_a
-    invoke-static {v1, v2}, Lkik/android/voice/VoiceMessageGenerator;->b(Lkik/android/voice/b;Landroid/media/MediaMuxer;)V
+    invoke-static {v1, v2}, Lkik/arcane/voice/VoiceMessageGenerator;->b(Lkik/arcane/voice/b;Landroid/media/MediaMuxer;)V
 
     .line 186
-    sget-object v0, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->AudioVideo:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v0, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->AudioVideo:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     if-ne v8, v0, :cond_e
 
     .line 187
-    invoke-static {v5, v2}, Lkik/android/voice/VoiceMessageGenerator;->b(Lkik/android/voice/b;Landroid/media/MediaMuxer;)V
+    invoke-static {v5, v2}, Lkik/arcane/voice/VoiceMessageGenerator;->b(Lkik/arcane/voice/b;Landroid/media/MediaMuxer;)V
     :try_end_a
     .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_1
     .catch Ljava/lang/Throwable; {:try_start_a .. :try_end_a} :catch_0
@@ -675,7 +675,7 @@
     .line 196
     :cond_e
     :try_start_b
-    invoke-virtual {v1}, Lkik/android/voice/a;->d()Landroid/media/MediaCodec$BufferInfo;
+    invoke-virtual {v1}, Lkik/arcane/voice/a;->d()Landroid/media/MediaCodec$BufferInfo;
 
     move-result-object v0
 
@@ -691,7 +691,7 @@
     :catch_1
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
     :try_end_b
     .catch Ljava/lang/Throwable; {:try_start_b .. :try_end_b} :catch_0
     .catchall {:try_start_b .. :try_end_b} :catchall_0
@@ -790,7 +790,7 @@
     move-exception v0
 
     :try_start_d
-    invoke-static {v0}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     .line 233
     :cond_12
@@ -808,14 +808,14 @@
     if-lez v0, :cond_17
 
     .line 238
-    iget-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
 
     invoke-interface {v0, p1, p3}, Lcom/kik/storage/s;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 239
     const/4 v0, 0x4
 
-    invoke-direct {p0, p1, v0}, Lkik/android/voice/VoiceMessageGenerator;->b(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/voice/VoiceMessageGenerator;->b(Ljava/lang/String;I)V
 
     .line 244
     :goto_9
@@ -834,7 +834,7 @@
     move-exception v0
 
     :try_start_e
-    invoke-static {v0}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     .line 232
     :cond_14
@@ -860,7 +860,7 @@
     move-exception v1
 
     :try_start_f
-    invoke-static {v1}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     .line 232
     :cond_15
@@ -876,7 +876,7 @@
     :cond_17
     const/4 v0, -0x1
 
-    invoke-direct {p0, p1, v0}, Lkik/android/voice/VoiceMessageGenerator;->b(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/voice/VoiceMessageGenerator;->b(Ljava/lang/String;I)V
     :try_end_f
     .catchall {:try_start_f .. :try_end_f} :catchall_1
 
@@ -939,7 +939,7 @@
     goto/16 :goto_4
 .end method
 
-.method static synthetic a(Lkik/android/voice/VoiceMessageGenerator;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Float;
+.method static synthetic a(Lkik/arcane/voice/VoiceMessageGenerator;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Float;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -949,14 +949,14 @@
 
     .prologue
     .line 139
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/voice/VoiceMessageGenerator;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Float;
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/voice/VoiceMessageGenerator;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/Float;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method private a(Lkik/android/voice/a;Lkik/android/voice/k;Ljava/io/FileInputStream;)Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+.method private a(Lkik/arcane/voice/a;Lkik/arcane/voice/k;Ljava/io/FileInputStream;)Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
     .locals 16
 
     .prologue
@@ -972,7 +972,7 @@
     new-array v12, v4, [B
 
     .line 254
-    sget-object v10, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->Audio:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v10, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->Audio:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     move v11, v2
 
@@ -986,7 +986,7 @@
     if-eqz v11, :cond_1
 
     .line 257
-    invoke-virtual/range {p1 .. p1}, Lkik/android/voice/a;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p1 .. p1}, Lkik/arcane/voice/a;->e()Landroid/media/MediaCodec;
 
     move-result-object v2
 
@@ -1000,7 +1000,7 @@
     if-ltz v3, :cond_0
 
     .line 260
-    invoke-virtual/range {p1 .. p1}, Lkik/android/voice/a;->f()[Ljava/nio/ByteBuffer;
+    invoke-virtual/range {p1 .. p1}, Lkik/arcane/voice/a;->f()[Ljava/nio/ByteBuffer;
 
     move-result-object v2
 
@@ -1034,7 +1034,7 @@
     const/4 v11, 0x0
 
     .line 273
-    invoke-virtual/range {p1 .. p1}, Lkik/android/voice/a;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p1 .. p1}, Lkik/arcane/voice/a;->e()Landroid/media/MediaCodec;
 
     move-result-object v2
 
@@ -1044,14 +1044,14 @@
 
     move-object/from16 v0, p0
 
-    iget-wide v6, v0, Lkik/android/voice/VoiceMessageGenerator;->j:J
+    iget-wide v6, v0, Lkik/arcane/voice/VoiceMessageGenerator;->j:J
 
     const/4 v8, 0x4
 
     invoke-virtual/range {v2 .. v8}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
     .line 275
-    invoke-virtual/range {p2 .. p2}, Lkik/android/voice/k;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p2 .. p2}, Lkik/arcane/voice/k;->e()Landroid/media/MediaCodec;
 
     move-result-object v2
 
@@ -1062,7 +1062,7 @@
     move-result v5
 
     .line 276
-    invoke-virtual/range {p2 .. p2}, Lkik/android/voice/k;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p2 .. p2}, Lkik/arcane/voice/k;->e()Landroid/media/MediaCodec;
 
     move-result-object v4
 
@@ -1072,14 +1072,14 @@
 
     move-object/from16 v0, p0
 
-    iget-wide v8, v0, Lkik/android/voice/VoiceMessageGenerator;->j:J
+    iget-wide v8, v0, Lkik/arcane/voice/VoiceMessageGenerator;->j:J
 
     const/4 v10, 0x4
 
     invoke-virtual/range {v4 .. v10}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
     .line 277
-    sget-object v10, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->AudioVideo:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v10, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->AudioVideo:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     goto :goto_0
 
@@ -1087,7 +1087,7 @@
     :catch_0
     move-exception v2
 
-    sget-object v10, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v10, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     .line 333
     :cond_1
@@ -1098,13 +1098,13 @@
     :cond_2
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/voice/VoiceMessageGenerator;->i:I
+    iget v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->i:I
 
     add-int/2addr v4, v5
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/voice/VoiceMessageGenerator;->i:I
+    iput v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->i:I
 
     .line 281
     const/4 v4, 0x0
@@ -1112,7 +1112,7 @@
     invoke-virtual {v2, v12, v4, v5}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
 
     .line 282
-    invoke-virtual/range {p1 .. p1}, Lkik/android/voice/a;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p1 .. p1}, Lkik/arcane/voice/a;->e()Landroid/media/MediaCodec;
 
     move-result-object v2
 
@@ -1120,7 +1120,7 @@
 
     move-object/from16 v0, p0
 
-    iget-wide v6, v0, Lkik/android/voice/VoiceMessageGenerator;->j:J
+    iget-wide v6, v0, Lkik/arcane/voice/VoiceMessageGenerator;->j:J
 
     const/4 v8, 0x0
 
@@ -1129,9 +1129,9 @@
     .line 285
     move-object/from16 v0, p0
 
-    iget v2, v0, Lkik/android/voice/VoiceMessageGenerator;->l:I
+    iget v2, v0, Lkik/arcane/voice/VoiceMessageGenerator;->l:I
 
-    invoke-static {v2}, Lkik/android/voice/VoiceMessageGenerator;->a(I)J
+    invoke-static {v2}, Lkik/arcane/voice/VoiceMessageGenerator;->a(I)J
 
     move-result-wide v8
 
@@ -1141,39 +1141,39 @@
     :goto_2
     move-object/from16 v0, p0
 
-    iget v2, v0, Lkik/android/voice/VoiceMessageGenerator;->l:I
+    iget v2, v0, Lkik/arcane/voice/VoiceMessageGenerator;->l:I
 
     add-int/lit8 v2, v2, 0x1
 
     move-object/from16 v0, p0
 
-    iput v2, v0, Lkik/android/voice/VoiceMessageGenerator;->l:I
+    iput v2, v0, Lkik/arcane/voice/VoiceMessageGenerator;->l:I
 
     .line 1429
     move-object/from16 v0, p0
 
-    iget v2, v0, Lkik/android/voice/VoiceMessageGenerator;->k:I
+    iget v2, v0, Lkik/arcane/voice/VoiceMessageGenerator;->k:I
 
     rem-int/lit8 v2, v2, 0x19
 
     move-object/from16 v0, p0
 
-    iput v2, v0, Lkik/android/voice/VoiceMessageGenerator;->k:I
+    iput v2, v0, Lkik/arcane/voice/VoiceMessageGenerator;->k:I
 
     .line 1430
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/voice/VoiceMessageGenerator;->e:Ljava/util/List;
+    iget-object v2, v0, Lkik/arcane/voice/VoiceMessageGenerator;->e:Ljava/util/List;
 
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/voice/VoiceMessageGenerator;->k:I
+    iget v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->k:I
 
     add-int/lit8 v5, v4, 0x1
 
     move-object/from16 v0, p0
 
-    iput v5, v0, Lkik/android/voice/VoiceMessageGenerator;->k:I
+    iput v5, v0, Lkik/arcane/voice/VoiceMessageGenerator;->k:I
 
     invoke-interface {v2, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -1185,7 +1185,7 @@
     if-eqz v2, :cond_6
 
     .line 290
-    invoke-virtual/range {p2 .. p2}, Lkik/android/voice/k;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p2 .. p2}, Lkik/arcane/voice/k;->e()Landroid/media/MediaCodec;
 
     move-result-object v4
 
@@ -1202,7 +1202,7 @@
     :goto_3
     move-object/from16 v0, p0
 
-    iget-boolean v7, v0, Lkik/android/voice/VoiceMessageGenerator;->m:Z
+    iget-boolean v7, v0, Lkik/arcane/voice/VoiceMessageGenerator;->m:Z
 
     if-nez v7, :cond_3
 
@@ -1224,7 +1224,7 @@
     invoke-static {v14, v15}, Ljava/lang/Thread;->sleep(J)V
 
     .line 296
-    invoke-virtual/range {p2 .. p2}, Lkik/android/voice/k;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p2 .. p2}, Lkik/arcane/voice/k;->e()Landroid/media/MediaCodec;
 
     move-result-object v5
 
@@ -1244,10 +1244,10 @@
     :catch_1
     move-exception v2
 
-    invoke-static {v2}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     .line 301
-    sget-object v10, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v10, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     goto :goto_1
 
@@ -1255,7 +1255,7 @@
     :cond_3
     move-object/from16 v0, p0
 
-    iget-boolean v4, v0, Lkik/android/voice/VoiceMessageGenerator;->m:Z
+    iget-boolean v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->m:Z
 
     if-nez v4, :cond_4
 
@@ -1264,7 +1264,7 @@
     if-ne v5, v4, :cond_4
 
     .line 305
-    sget-object v10, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v10, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     goto/16 :goto_1
 
@@ -1274,13 +1274,13 @@
 
     move-object/from16 v0, p0
 
-    iput-boolean v4, v0, Lkik/android/voice/VoiceMessageGenerator;->m:Z
+    iput-boolean v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->m:Z
 
     .line 308
     if-ltz v5, :cond_6
 
     .line 309
-    invoke-virtual/range {p2 .. p2}, Lkik/android/voice/k;->f()[Ljava/nio/ByteBuffer;
+    invoke-virtual/range {p2 .. p2}, Lkik/arcane/voice/k;->f()[Ljava/nio/ByteBuffer;
 
     move-result-object v4
 
@@ -1296,7 +1296,7 @@
     if-ge v6, v7, :cond_5
 
     .line 313
-    sget-object v10, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v10, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->Fail:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     goto/16 :goto_1
 
@@ -1308,7 +1308,7 @@
     invoke-virtual {v4, v2}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
     .line 317
-    invoke-virtual/range {p2 .. p2}, Lkik/android/voice/k;->e()Landroid/media/MediaCodec;
+    invoke-virtual/range {p2 .. p2}, Lkik/arcane/voice/k;->e()Landroid/media/MediaCodec;
 
     move-result-object v4
 
@@ -1322,22 +1322,22 @@
     invoke-virtual/range {v4 .. v10}, Landroid/media/MediaCodec;->queueInputBuffer(IIIJI)V
 
     .line 319
-    sget-object v2, Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;->AudioVideo:Lkik/android/voice/VoiceMessageGenerator$AudioConvertState;
+    sget-object v2, Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;->AudioVideo:Lkik/arcane/voice/VoiceMessageGenerator$AudioConvertState;
 
     .line 324
     :goto_4
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/voice/VoiceMessageGenerator;->l:I
+    iget v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->l:I
 
-    invoke-static {v4}, Lkik/android/voice/VoiceMessageGenerator;->a(I)J
+    invoke-static {v4}, Lkik/arcane/voice/VoiceMessageGenerator;->a(I)J
 
     move-result-wide v8
 
     .line 325
     move-object/from16 v0, p0
 
-    iget-wide v4, v0, Lkik/android/voice/VoiceMessageGenerator;->j:J
+    iget-wide v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->j:J
 
     cmp-long v4, v8, v4
 
@@ -1348,7 +1348,7 @@
 
     move-object/from16 v0, p0
 
-    iget v6, v0, Lkik/android/voice/VoiceMessageGenerator;->i:I
+    iget v6, v0, Lkik/arcane/voice/VoiceMessageGenerator;->i:I
 
     div-int/lit8 v6, v6, 0x2
 
@@ -1362,7 +1362,7 @@
 
     move-object/from16 v0, p0
 
-    iput-wide v4, v0, Lkik/android/voice/VoiceMessageGenerator;->j:J
+    iput-wide v4, v0, Lkik/arcane/voice/VoiceMessageGenerator;->j:J
 
     move-object v10, v2
 
@@ -1394,7 +1394,7 @@
     if-ge v0, v1, :cond_1
 
     .line 437
-    invoke-direct {p0, v0}, Lkik/android/voice/VoiceMessageGenerator;->b(I)[B
+    invoke-direct {p0, v0}, Lkik/arcane/voice/VoiceMessageGenerator;->b(I)[B
 
     move-result-object v1
 
@@ -1402,7 +1402,7 @@
     if-eqz v1, :cond_0
 
     .line 439
-    iget-object v2, p0, Lkik/android/voice/VoiceMessageGenerator;->e:Ljava/util/List;
+    iget-object v2, p0, Lkik/arcane/voice/VoiceMessageGenerator;->e:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -1418,19 +1418,19 @@
     return-void
 .end method
 
-.method private static a(Lkik/android/voice/b;Landroid/media/MediaMuxer;)Z
+.method private static a(Lkik/arcane/voice/b;Landroid/media/MediaMuxer;)Z
     .locals 6
 
     .prologue
     const/4 v0, 0x0
 
     .line 358
-    invoke-virtual {p0}, Lkik/android/voice/b;->e()Landroid/media/MediaCodec;
+    invoke-virtual {p0}, Lkik/arcane/voice/b;->e()Landroid/media/MediaCodec;
 
     move-result-object v3
 
     .line 360
-    invoke-virtual {p0}, Lkik/android/voice/b;->d()Landroid/media/MediaCodec$BufferInfo;
+    invoke-virtual {p0}, Lkik/arcane/voice/b;->d()Landroid/media/MediaCodec$BufferInfo;
 
     move-result-object v1
 
@@ -1464,7 +1464,7 @@
     invoke-static {v4, v5}, Ljava/lang/Thread;->sleep(J)V
 
     .line 366
-    invoke-virtual {p0}, Lkik/android/voice/b;->d()Landroid/media/MediaCodec$BufferInfo;
+    invoke-virtual {p0}, Lkik/arcane/voice/b;->d()Landroid/media/MediaCodec$BufferInfo;
 
     move-result-object v2
 
@@ -1484,7 +1484,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     .line 377
     :goto_1
@@ -1501,7 +1501,7 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/voice/b;->a(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/voice/b;->a(I)V
 
     .line 377
     const/4 v0, 0x1
@@ -1514,7 +1514,7 @@
 
     .prologue
     .line 116
-    iget-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1536,16 +1536,16 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/voice/c;
+    check-cast v0, Lkik/arcane/voice/c;
 
-    invoke-virtual {v0, p2}, Lkik/android/voice/c;->a(I)V
+    invoke-virtual {v0, p2}, Lkik/arcane/voice/c;->a(I)V
 
     .line 120
     :cond_0
     return-void
 .end method
 
-.method private static b(Lkik/android/voice/b;Landroid/media/MediaMuxer;)V
+.method private static b(Lkik/arcane/voice/b;Landroid/media/MediaMuxer;)V
     .locals 10
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1560,22 +1560,22 @@
 
     .line 382
     .line 384
-    invoke-virtual {p0}, Lkik/android/voice/b;->e()Landroid/media/MediaCodec;
+    invoke-virtual {p0}, Lkik/arcane/voice/b;->e()Landroid/media/MediaCodec;
 
     move-result-object v2
 
     .line 385
-    invoke-virtual {p0}, Lkik/android/voice/b;->d()Landroid/media/MediaCodec$BufferInfo;
+    invoke-virtual {p0}, Lkik/arcane/voice/b;->d()Landroid/media/MediaCodec$BufferInfo;
 
     move-result-object v3
 
     .line 386
-    invoke-virtual {p0}, Lkik/android/voice/b;->g()[Ljava/nio/ByteBuffer;
+    invoke-virtual {p0}, Lkik/arcane/voice/b;->g()[Ljava/nio/ByteBuffer;
 
     move-result-object v4
 
     .line 387
-    invoke-virtual {p0}, Lkik/android/voice/b;->h()I
+    invoke-virtual {p0}, Lkik/arcane/voice/b;->h()I
 
     move-result v5
 
@@ -1703,13 +1703,13 @@
     const/16 v2, 0x4000
 
     .line 448
-    iget-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->c:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->c:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/voice/VoiceMessageGenerator;->f:[I
+    iget-object v1, p0, Lkik/arcane/voice/VoiceMessageGenerator;->f:[I
 
     aget v1, v1, p1
 
@@ -1782,14 +1782,14 @@
             ")",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/voice/c;",
+            "Lkik/arcane/voice/c;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 125
-    iget-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1816,21 +1816,21 @@
 
     .prologue
     .line 137
-    iget-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
 
     invoke-interface {v0, p1}, Lcom/kik/storage/s;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 138
-    iget-object v1, p0, Lkik/android/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/voice/VoiceMessageGenerator;->n:Lcom/kik/storage/s;
 
     invoke-interface {v1, p1}, Lcom/kik/storage/s;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 139
-    invoke-static {p0, p1, v0, v1, p2}, Lkik/android/voice/m;->a(Lkik/android/voice/VoiceMessageGenerator;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/util/concurrent/Callable;
+    invoke-static {p0, p1, v0, v1, p2}, Lkik/arcane/voice/m;->a(Lkik/arcane/voice/VoiceMessageGenerator;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljava/util/concurrent/Callable;
 
     move-result-object v0
 
@@ -1859,14 +1859,14 @@
             "Ljava/lang/String;",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/voice/c;",
+            "Lkik/arcane/voice/c;",
             ">;)V"
         }
     .end annotation
 
     .prologue
     .line 131
-    iget-object v0, p0, Lkik/android/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/voice/VoiceMessageGenerator;->d:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1881,7 +1881,7 @@
     .line 111
     const/4 v0, -0x1
 
-    invoke-direct {p0, p1, v0}, Lkik/android/voice/VoiceMessageGenerator;->b(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/voice/VoiceMessageGenerator;->b(Ljava/lang/String;I)V
 
     .line 112
     return-void

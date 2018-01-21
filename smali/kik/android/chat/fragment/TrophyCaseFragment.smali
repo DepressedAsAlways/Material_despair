@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/TrophyCaseFragment;
-.super Lkik/android/chat/fragment/KikIqFragmentBase;
+.class public Lkik/arcane/chat/fragment/TrophyCaseFragment;
+.super Lkik/arcane/chat/fragment/KikIqFragmentBase;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/TrophyCaseFragment$a;
+        Lkik/arcane/chat/fragment/TrophyCaseFragment$a;
     }
 .end annotation
 
@@ -17,7 +17,7 @@
     .end annotation
 .end field
 
-.field private b:Lkik/android/chat/vm/eb;
+.field private b:Lkik/arcane/chat/vm/eb;
 
 
 # direct methods
@@ -26,7 +26,7 @@
 
     .prologue
     .line 22
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;-><init>()V
 
     return-void
 .end method
@@ -48,12 +48,12 @@
 
     .prologue
     .line 52
-    iget-object v0, p0, Lkik/android/chat/fragment/TrophyCaseFragment;->a:Lkik/core/manager/y;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/TrophyCaseFragment;->a:Lkik/core/manager/y;
 
     invoke-interface {v0}, Lkik/core/manager/y;->b()V
 
     .line 53
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->handleBackPress()Z
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->handleBackPress()Z
 
     move-result v0
 
@@ -65,10 +65,10 @@
 
     .prologue
     .line 31
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 32
-    invoke-static {}, Lkik/android/chat/KikApplication;->z()V
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->z()V
 
     .line 33
     return-void
@@ -79,11 +79,11 @@
 
     .prologue
     .line 39
-    invoke-virtual {p0}, Lkik/android/chat/fragment/TrophyCaseFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/TrophyCaseFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/TrophyCaseFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/TrophyCaseFragment;)V
 
     .line 40
     const v0, 0x7f040093
@@ -94,29 +94,29 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/e/af;
+    check-cast v0, Lkik/arcane/e/af;
 
     .line 41
-    invoke-virtual {v0}, Lkik/android/e/af;->getRoot()Landroid/view/View;
+    invoke-virtual {v0}, Lkik/arcane/e/af;->getRoot()Landroid/view/View;
 
     move-result-object v1
 
     .line 43
-    new-instance v2, Lkik/android/chat/vm/eb;
+    new-instance v2, Lkik/arcane/chat/vm/eb;
 
-    invoke-direct {v2}, Lkik/android/chat/vm/eb;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/chat/vm/eb;-><init>()V
 
-    iput-object v2, p0, Lkik/android/chat/fragment/TrophyCaseFragment;->b:Lkik/android/chat/vm/eb;
+    iput-object v2, p0, Lkik/arcane/chat/fragment/TrophyCaseFragment;->b:Lkik/arcane/chat/vm/eb;
 
     .line 44
-    iget-object v2, p0, Lkik/android/chat/fragment/TrophyCaseFragment;->b:Lkik/android/chat/vm/eb;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/TrophyCaseFragment;->b:Lkik/arcane/chat/vm/eb;
 
-    invoke-virtual {p0, v2}, Lkik/android/chat/fragment/TrophyCaseFragment;->attachVm(Lkik/android/chat/vm/br;)Lkik/android/chat/vm/br;
+    invoke-virtual {p0, v2}, Lkik/arcane/chat/fragment/TrophyCaseFragment;->attachVm(Lkik/arcane/chat/vm/br;)Lkik/arcane/chat/vm/br;
 
     .line 45
-    iget-object v2, p0, Lkik/android/chat/fragment/TrophyCaseFragment;->b:Lkik/android/chat/vm/eb;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/TrophyCaseFragment;->b:Lkik/arcane/chat/vm/eb;
 
-    invoke-virtual {v0, v2}, Lkik/android/e/af;->a(Lkik/android/chat/vm/bq;)V
+    invoke-virtual {v0, v2}, Lkik/arcane/e/af;->a(Lkik/arcane/chat/vm/bq;)V
 
     .line 46
     return-object v1

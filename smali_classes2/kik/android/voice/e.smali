@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/voice/e;
+.class public interface abstract Lkik/arcane/voice/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
             ")",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/voice/c;",
+            "Lkik/arcane/voice/c;",
             ">;"
         }
     .end annotation
@@ -39,7 +39,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/voice/c;",
+            "Lkik/arcane/voice/c;",
             ">;)V"
         }
     .end annotation

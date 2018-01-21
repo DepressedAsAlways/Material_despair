@@ -65,7 +65,7 @@
     move-exception v0
 
     .line 73
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 
@@ -80,7 +80,7 @@
 
     .line 77
     :cond_0
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 80
     const-string v0, ""

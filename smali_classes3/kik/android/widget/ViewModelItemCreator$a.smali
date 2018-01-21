@@ -1,11 +1,11 @@
-.class public final Lkik/android/widget/ViewModelItemCreator$a;
-.super Lkik/android/widget/dr$c;
+.class public final Lkik/arcane/widget/ViewModelItemCreator$a;
+.super Lkik/arcane/widget/dr$c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ViewModelItemCreator;
+    value = Lkik/arcane/widget/ViewModelItemCreator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,9 +15,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/dr$c",
+        "Lkik/arcane/widget/dr$c",
         "<",
-        "Lkik/android/chat/vm/at;",
+        "Lkik/arcane/chat/vm/at;",
         ">;"
     }
 .end annotation
@@ -29,7 +29,7 @@
 
     .prologue
     .line 48
-    invoke-direct {p0, p1}, Lkik/android/widget/dr$c;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/dr$c;-><init>(Landroid/view/View;)V
 
     .line 49
     return-void

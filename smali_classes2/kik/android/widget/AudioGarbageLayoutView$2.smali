@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioGarbageLayoutView$2;
+.class final Lkik/arcane/widget/AudioGarbageLayoutView$2;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AudioGarbageLayoutView;
+    value = Lkik/arcane/widget/AudioGarbageLayoutView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioGarbageLayoutView;
+.field final synthetic a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioGarbageLayoutView;)V
+.method constructor <init>(Lkik/arcane/widget/AudioGarbageLayoutView;)V
     .locals 0
 
     .prologue
     .line 58
-    iput-object p1, p0, Lkik/android/widget/AudioGarbageLayoutView$2;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioGarbageLayoutView$2;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,23 +38,23 @@
 
     .prologue
     .line 62
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView$2;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView$2;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioGarbageLayoutView;->f(Lkik/android/widget/AudioGarbageLayoutView;)V
+    invoke-static {v0}, Lkik/arcane/widget/AudioGarbageLayoutView;->f(Lkik/arcane/widget/AudioGarbageLayoutView;)V
 
     .line 63
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView$2;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView$2;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioGarbageLayoutView;->b(Lkik/android/widget/AudioGarbageLayoutView;)Z
+    invoke-static {v0}, Lkik/arcane/widget/AudioGarbageLayoutView;->b(Lkik/arcane/widget/AudioGarbageLayoutView;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 64
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView$2;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView$2;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioGarbageLayoutView;->g(Lkik/android/widget/AudioGarbageLayoutView;)V
+    invoke-static {v0}, Lkik/arcane/widget/AudioGarbageLayoutView;->g(Lkik/arcane/widget/AudioGarbageLayoutView;)V
 
     .line 66
     :cond_0

@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/au;
+.class public final Lkik/arcane/widget/au;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -22,34 +22,34 @@
     .line 25
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/widget/au;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/au;->c:Z
 
     .line 30
-    iput-object p1, p0, Lkik/android/widget/au;->a:Landroid/widget/EditText;
+    iput-object p1, p0, Lkik/arcane/widget/au;->a:Landroid/widget/EditText;
 
     .line 31
-    iput-object p2, p0, Lkik/android/widget/au;->b:Landroid/widget/TextView;
+    iput-object p2, p0, Lkik/arcane/widget/au;->b:Landroid/widget/TextView;
 
     .line 32
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/au;)Landroid/widget/TextView;
+.method static synthetic a(Lkik/arcane/widget/au;)Landroid/widget/TextView;
     .locals 1
 
     .prologue
     .line 21
-    iget-object v0, p0, Lkik/android/widget/au;->b:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/widget/au;->b:Landroid/widget/TextView;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/widget/au;Z)Z
+.method static synthetic a(Lkik/arcane/widget/au;Z)Z
     .locals 0
 
     .prologue
     .line 21
-    iput-boolean p1, p0, Lkik/android/widget/au;->c:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/au;->c:Z
 
     return p1
 .end method
@@ -62,11 +62,11 @@
     if-nez p1, :cond_0
 
     .line 87
-    iget-object v0, p0, Lkik/android/widget/au;->a:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/widget/au;->a:Landroid/widget/EditText;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(Landroid/widget/EditText;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(Landroid/widget/EditText;Landroid/graphics/drawable/Drawable;)V
 
     .line 95
     :goto_0
@@ -74,9 +74,9 @@
 
     .line 90
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/au;->a:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/widget/au;->a:Landroid/widget/EditText;
 
-    invoke-static {v0, p1}, Lkik/android/util/ca;->a(Landroid/widget/EditText;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v0, p1}, Lkik/arcane/util/ca;->a(Landroid/widget/EditText;Landroid/graphics/drawable/Drawable;)V
 
     .line 91
     const-string v0, "alpha"
@@ -120,7 +120,7 @@
     .line 36
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/au;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/au;->a(Landroid/graphics/drawable/Drawable;)V
 
     .line 37
     return-void
@@ -131,30 +131,30 @@
 
     .prologue
     .line 41
-    iget-boolean v0, p0, Lkik/android/widget/au;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/au;->c:Z
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/au;->b:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/widget/au;->b:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->b(Landroid/view/View;)Z
+    invoke-static {v0}, Lkik/arcane/util/ca;->b(Landroid/view/View;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 42
-    iget-object v0, p0, Lkik/android/widget/au;->b:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/widget/au;->b:Landroid/widget/TextView;
 
-    new-instance v1, Lkik/android/widget/au$1;
+    new-instance v1, Lkik/arcane/widget/au$1;
 
-    invoke-direct {v1, p0}, Lkik/android/widget/au$1;-><init>(Lkik/android/widget/au;)V
+    invoke-direct {v1, p0}, Lkik/arcane/widget/au$1;-><init>(Lkik/arcane/widget/au;)V
 
-    invoke-static {v0, v1}, Lkik/android/util/an;->a(Landroid/view/View;Landroid/view/animation/Animation$AnimationListener;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/an;->a(Landroid/view/View;Landroid/view/animation/Animation$AnimationListener;)V
 
     .line 57
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/au;->a:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/widget/au;->a:Landroid/widget/EditText;
 
     if-nez v0, :cond_1
 
@@ -164,14 +164,14 @@
 
     .line 61
     :cond_1
-    invoke-direct {p0, p1}, Lkik/android/widget/au;->b(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/au;->b(Landroid/graphics/drawable/Drawable;)V
 
     .line 62
-    iget-object v0, p0, Lkik/android/widget/au;->a:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/widget/au;->a:Landroid/widget/EditText;
 
     const v1, 0x7f0200ce
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(Landroid/widget/EditText;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(Landroid/widget/EditText;I)V
 
     goto :goto_0
 .end method
@@ -181,12 +181,12 @@
 
     .prologue
     .line 73
-    iget-object v0, p0, Lkik/android/widget/au;->b:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/widget/au;->b:Landroid/widget/TextView;
 
-    invoke-static {p2, v0}, Lkik/android/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
+    invoke-static {p2, v0}, Lkik/arcane/util/ca;->a(Ljava/lang/CharSequence;Landroid/widget/TextView;)V
 
     .line 75
-    iget-object v0, p0, Lkik/android/widget/au;->a:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/widget/au;->a:Landroid/widget/EditText;
 
     if-nez v0, :cond_0
 
@@ -196,21 +196,21 @@
 
     .line 79
     :cond_0
-    invoke-direct {p0, p1}, Lkik/android/widget/au;->b(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/au;->b(Landroid/graphics/drawable/Drawable;)V
 
     .line 80
-    iget-object v0, p0, Lkik/android/widget/au;->b:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/widget/au;->b:Landroid/widget/TextView;
 
     const/16 v1, 0x64
 
-    invoke-static {v0, v1}, Lkik/android/util/an;->a(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/an;->a(Landroid/view/View;I)V
 
     .line 81
-    iget-object v0, p0, Lkik/android/widget/au;->a:Landroid/widget/EditText;
+    iget-object v0, p0, Lkik/arcane/widget/au;->a:Landroid/widget/EditText;
 
     const v1, 0x7f0200cf
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(Landroid/widget/EditText;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(Landroid/widget/EditText;I)V
 
     goto :goto_0
 .end method

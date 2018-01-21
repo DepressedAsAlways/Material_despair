@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/profile/do;
+.class public final Lkik/arcane/chat/vm/profile/do;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,9 +10,9 @@
 
 .field private c:Lkik/core/datatypes/MemberPermissions;
 
-.field private d:Lkik/android/chat/a/a$b;
+.field private d:Lkik/arcane/chat/a/a$b;
 
-.field private e:Lkik/android/scan/a/c;
+.field private e:Lkik/arcane/scan/a/c;
 
 .field private f:Z
 
@@ -32,13 +32,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 37
-    iput-object p1, p0, Lkik/android/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
 
     .line 38
     return-void
 .end method
 
-.method public static a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/do;
+.method public static a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/do;
     .locals 1
     .param p0    # Lcom/kik/core/network/xmpp/jid/a;
         .annotation runtime Ljavax/annotation/Nonnull;
@@ -47,100 +47,100 @@
 
     .prologue
     .line 42
-    new-instance v0, Lkik/android/chat/vm/profile/do;
+    new-instance v0, Lkik/arcane/chat/vm/profile/do;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/profile/do;-><init>(Lcom/kik/core/network/xmpp/jid/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/profile/do;-><init>(Lcom/kik/core/network/xmpp/jid/a;)V
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a()Lkik/android/chat/vm/profile/do;
+.method public final a()Lkik/arcane/chat/vm/profile/do;
     .locals 1
 
     .prologue
     .line 71
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/vm/profile/do;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/vm/profile/do;->f:Z
 
     .line 72
     return-object p0
 .end method
 
-.method public final a(Lkik/android/chat/a/a$b;)Lkik/android/chat/vm/profile/do;
+.method public final a(Lkik/arcane/chat/a/a$b;)Lkik/arcane/chat/vm/profile/do;
     .locals 0
 
     .prologue
     .line 59
-    iput-object p1, p0, Lkik/android/chat/vm/profile/do;->d:Lkik/android/chat/a/a$b;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/do;->d:Lkik/arcane/chat/a/a$b;
 
     .line 60
     return-object p0
 .end method
 
-.method public final a(Lkik/android/scan/a/c;)Lkik/android/chat/vm/profile/do;
+.method public final a(Lkik/arcane/scan/a/c;)Lkik/arcane/chat/vm/profile/do;
     .locals 0
 
     .prologue
     .line 65
-    iput-object p1, p0, Lkik/android/chat/vm/profile/do;->e:Lkik/android/scan/a/c;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/do;->e:Lkik/arcane/scan/a/c;
 
     .line 66
     return-object p0
 .end method
 
-.method public final a(Lkik/core/datatypes/MemberPermissions;)Lkik/android/chat/vm/profile/do;
+.method public final a(Lkik/core/datatypes/MemberPermissions;)Lkik/arcane/chat/vm/profile/do;
     .locals 0
 
     .prologue
     .line 53
-    iput-object p1, p0, Lkik/android/chat/vm/profile/do;->c:Lkik/core/datatypes/MemberPermissions;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/do;->c:Lkik/core/datatypes/MemberPermissions;
 
     .line 54
     return-object p0
 .end method
 
-.method public final a(Z)Lkik/android/chat/vm/profile/do;
+.method public final a(Z)Lkik/arcane/chat/vm/profile/do;
     .locals 0
 
     .prologue
     .line 77
-    iput-boolean p1, p0, Lkik/android/chat/vm/profile/do;->g:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/vm/profile/do;->g:Z
 
     .line 78
     return-object p0
 .end method
 
-.method public final b()Lkik/android/chat/vm/profile/di;
+.method public final b()Lkik/arcane/chat/vm/profile/di;
     .locals 6
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/chat/vm/profile/do;->c:Lkik/core/datatypes/MemberPermissions;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/do;->c:Lkik/core/datatypes/MemberPermissions;
 
     if-nez v0, :cond_1
 
     .line 84
-    iget-boolean v0, p0, Lkik/android/chat/vm/profile/do;->g:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/profile/do;->g:Z
 
     if-eqz v0, :cond_0
 
     .line 85
-    new-instance v0, Lkik/android/chat/vm/profile/x;
+    new-instance v0, Lkik/arcane/chat/vm/profile/x;
 
-    iget-object v1, p0, Lkik/android/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
 
-    iget-object v2, p0, Lkik/android/chat/vm/profile/do;->b:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/do;->b:Lcom/kik/core/network/xmpp/jid/a;
 
-    iget-object v3, p0, Lkik/android/chat/vm/profile/do;->d:Lkik/android/chat/a/a$b;
+    iget-object v3, p0, Lkik/arcane/chat/vm/profile/do;->d:Lkik/arcane/chat/a/a$b;
 
-    iget-object v4, p0, Lkik/android/chat/vm/profile/do;->e:Lkik/android/scan/a/c;
+    iget-object v4, p0, Lkik/arcane/chat/vm/profile/do;->e:Lkik/arcane/scan/a/c;
 
-    iget-boolean v5, p0, Lkik/android/chat/vm/profile/do;->f:Z
+    iget-boolean v5, p0, Lkik/arcane/chat/vm/profile/do;->f:Z
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/chat/vm/profile/x;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lcom/kik/core/network/xmpp/jid/a;Lkik/android/chat/a/a$b;Lkik/android/scan/a/c;Z)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/chat/vm/profile/x;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lcom/kik/core/network/xmpp/jid/a;Lkik/arcane/chat/a/a$b;Lkik/arcane/scan/a/c;Z)V
 
     .line 92
     :goto_0
@@ -148,43 +148,43 @@
 
     .line 88
     :cond_0
-    new-instance v0, Lkik/android/chat/vm/profile/z;
+    new-instance v0, Lkik/arcane/chat/vm/profile/z;
 
-    iget-object v1, p0, Lkik/android/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
 
-    iget-object v2, p0, Lkik/android/chat/vm/profile/do;->b:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/do;->b:Lcom/kik/core/network/xmpp/jid/a;
 
-    iget-object v3, p0, Lkik/android/chat/vm/profile/do;->d:Lkik/android/chat/a/a$b;
+    iget-object v3, p0, Lkik/arcane/chat/vm/profile/do;->d:Lkik/arcane/chat/a/a$b;
 
-    iget-object v4, p0, Lkik/android/chat/vm/profile/do;->e:Lkik/android/scan/a/c;
+    iget-object v4, p0, Lkik/arcane/chat/vm/profile/do;->e:Lkik/arcane/scan/a/c;
 
-    iget-boolean v5, p0, Lkik/android/chat/vm/profile/do;->f:Z
+    iget-boolean v5, p0, Lkik/arcane/chat/vm/profile/do;->f:Z
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/chat/vm/profile/z;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lcom/kik/core/network/xmpp/jid/a;Lkik/android/chat/a/a$b;Lkik/android/scan/a/c;Z)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/chat/vm/profile/z;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lcom/kik/core/network/xmpp/jid/a;Lkik/arcane/chat/a/a$b;Lkik/arcane/scan/a/c;Z)V
 
     goto :goto_0
 
     .line 92
     :cond_1
-    new-instance v0, Lkik/android/chat/vm/profile/ca;
+    new-instance v0, Lkik/arcane/chat/vm/profile/ca;
 
-    iget-object v1, p0, Lkik/android/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/do;->a:Lcom/kik/core/network/xmpp/jid/a;
 
-    iget-object v2, p0, Lkik/android/chat/vm/profile/do;->c:Lkik/core/datatypes/MemberPermissions;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/do;->c:Lkik/core/datatypes/MemberPermissions;
 
-    iget-boolean v3, p0, Lkik/android/chat/vm/profile/do;->f:Z
+    iget-boolean v3, p0, Lkik/arcane/chat/vm/profile/do;->f:Z
 
-    invoke-direct {v0, v1, v2, v3}, Lkik/android/chat/vm/profile/ca;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lkik/core/datatypes/MemberPermissions;Z)V
+    invoke-direct {v0, v1, v2, v3}, Lkik/arcane/chat/vm/profile/ca;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lkik/core/datatypes/MemberPermissions;Z)V
 
     goto :goto_0
 .end method
 
-.method public final b(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/do;
+.method public final b(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/do;
     .locals 0
 
     .prologue
     .line 47
-    iput-object p1, p0, Lkik/android/chat/vm/profile/do;->b:Lcom/kik/core/network/xmpp/jid/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/do;->b:Lcom/kik/core/network/xmpp/jid/a;
 
     .line 48
     return-object p0

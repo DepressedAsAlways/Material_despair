@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioTimerLayoutView$1;
+.class final Lkik/arcane/widget/AudioTimerLayoutView$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AudioTimerLayoutView;
+    value = Lkik/arcane/widget/AudioTimerLayoutView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioTimerLayoutView;
+.field final synthetic a:Lkik/arcane/widget/AudioTimerLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioTimerLayoutView;)V
+.method constructor <init>(Lkik/arcane/widget/AudioTimerLayoutView;)V
     .locals 0
 
     .prologue
     .line 33
-    iput-object p1, p0, Lkik/android/widget/AudioTimerLayoutView$1;->a:Lkik/android/widget/AudioTimerLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioTimerLayoutView$1;->a:Lkik/arcane/widget/AudioTimerLayoutView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,15 +38,15 @@
 
     .prologue
     .line 37
-    iget-object v0, p0, Lkik/android/widget/AudioTimerLayoutView$1;->a:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioTimerLayoutView$1;->a:Lkik/arcane/widget/AudioTimerLayoutView;
 
-    invoke-virtual {v0}, Lkik/android/widget/AudioTimerLayoutView;->animate()Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {v0}, Lkik/arcane/widget/AudioTimerLayoutView;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/AudioTimerLayoutView$1;->a:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v1, p0, Lkik/arcane/widget/AudioTimerLayoutView$1;->a:Lkik/arcane/widget/AudioTimerLayoutView;
 
-    invoke-virtual {v1}, Lkik/android/widget/AudioTimerLayoutView;->getWidth()I
+    invoke-virtual {v1}, Lkik/arcane/widget/AudioTimerLayoutView;->getWidth()I
 
     move-result v1
 
@@ -60,9 +60,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/AudioTimerLayoutView$1;->a:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v1, p0, Lkik/arcane/widget/AudioTimerLayoutView$1;->a:Lkik/arcane/widget/AudioTimerLayoutView;
 
-    invoke-virtual {v1}, Lkik/android/widget/AudioTimerLayoutView;->getWidth()I
+    invoke-virtual {v1}, Lkik/arcane/widget/AudioTimerLayoutView;->getWidth()I
 
     move-result v1
 

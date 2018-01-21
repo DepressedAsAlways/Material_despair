@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/gallery/vm/q;
+.class public interface abstract Lkik/arcane/gallery/vm/q;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

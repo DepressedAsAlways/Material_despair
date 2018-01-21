@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/bq;
+.class final synthetic Lkik/arcane/chat/fragment/bq;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/fragment/bq;
+.field private static final a:Lkik/arcane/chat/fragment/bq;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/bq;
+    new-instance v0, Lkik/arcane/chat/fragment/bq;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/bq;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/bq;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/bq;->a:Lkik/android/chat/fragment/bq;
+    sput-object v0, Lkik/arcane/chat/fragment/bq;->a:Lkik/arcane/chat/fragment/bq;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Landroid/view/View$OnTouchListener;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/fragment/bq;->a:Lkik/android/chat/fragment/bq;
+    sget-object v0, Lkik/arcane/chat/fragment/bq;->a:Lkik/arcane/chat/fragment/bq;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 1
 
-    invoke-static {p2}, Lkik/android/chat/fragment/KikConversationsFragment;->a(Landroid/view/MotionEvent;)Z
+    invoke-static {p2}, Lkik/arcane/chat/fragment/KikConversationsFragment;->a(Landroid/view/MotionEvent;)Z
 
     move-result v0
 

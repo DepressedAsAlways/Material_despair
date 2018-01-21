@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/vm/a$1;
+.class final synthetic Lkik/arcane/widget/vm/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/vm/a;
+    value = Lkik/arcane/widget/vm/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 207
-    invoke-static {}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->values()[Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    invoke-static {}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->values()[Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/vm/a$1;->a:[I
+    sput-object v0, Lkik/arcane/widget/vm/a$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/vm/a$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/vm/a$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PLAYING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PLAYING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-    invoke-virtual {v1}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/vm/a$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/vm/a$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PAUSED:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PAUSED:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-    invoke-virtual {v1}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/widget/vm/a$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/vm/a$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->READY:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->READY:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-    invoke-virtual {v1}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
 
     move-result v1
 
@@ -83,11 +83,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/widget/vm/a$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/vm/a$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->LOADING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->LOADING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-    invoke-virtual {v1}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->ordinal()I
 
     move-result v1
 

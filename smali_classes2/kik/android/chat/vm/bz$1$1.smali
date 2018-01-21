@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/bz$1$1;
+.class final Lkik/arcane/chat/vm/bz$1$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bd;
+.implements Lkik/arcane/chat/vm/bd;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/bz$1;
+    value = Lkik/arcane/chat/vm/bz$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/bz$1;
+.field final synthetic a:Lkik/arcane/chat/vm/bz$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/bz$1;)V
+.method constructor <init>(Lkik/arcane/chat/vm/bz$1;)V
     .locals 0
 
     .prologue
     .line 175
-    iput-object p1, p0, Lkik/android/chat/vm/bz$1$1;->a:Lkik/android/chat/vm/bz$1;
+    iput-object p1, p0, Lkik/arcane/chat/vm/bz$1$1;->a:Lkik/arcane/chat/vm/bz$1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 179
-    iget-object v0, p0, Lkik/android/chat/vm/bz$1$1;->a:Lkik/android/chat/vm/bz$1;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$1$1;->a:Lkik/arcane/chat/vm/bz$1;
 
-    iget-object v0, v0, Lkik/android/chat/vm/bz$1;->a:Lkik/android/chat/vm/bd;
+    iget-object v0, v0, Lkik/arcane/chat/vm/bz$1;->a:Lkik/arcane/chat/vm/bd;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->a()Ljava/lang/String;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -57,11 +57,11 @@
 
     .prologue
     .line 185
-    iget-object v0, p0, Lkik/android/chat/vm/bz$1$1;->a:Lkik/android/chat/vm/bz$1;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$1$1;->a:Lkik/arcane/chat/vm/bz$1;
 
-    iget-object v0, v0, Lkik/android/chat/vm/bz$1;->a:Lkik/android/chat/vm/bd;
+    iget-object v0, v0, Lkik/arcane/chat/vm/bz$1;->a:Lkik/arcane/chat/vm/bd;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->b()Ljava/lang/String;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->b()Ljava/lang/String;
 
     move-result-object v0
 

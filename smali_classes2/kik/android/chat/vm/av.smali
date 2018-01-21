@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/av;
+.class public interface abstract Lkik/arcane/chat/vm/av;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

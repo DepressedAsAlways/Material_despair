@@ -1,4 +1,4 @@
-.class final Lcom/kik/android/b/g$1;
+.class final Lcom/kik/arcane/b/g$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kik/android/b/g;-><init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/android/util/ai;Lkik/core/interfaces/s;)V
+    value = Lcom/kik/arcane/b/g;-><init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/arcane/util/ai;Lkik/core/interfaces/s;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/kik/android/b/g;
+.field final synthetic a:Lcom/kik/arcane/b/g;
 
 
 # direct methods
-.method constructor <init>(Lcom/kik/android/b/g;)V
+.method constructor <init>(Lcom/kik/arcane/b/g;)V
     .locals 0
 
     .prologue
     .line 396
-    iput-object p1, p0, Lcom/kik/android/b/g$1;->a:Lcom/kik/android/b/g;
+    iput-object p1, p0, Lcom/kik/arcane/b/g$1;->a:Lcom/kik/arcane/b/g;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,7 +54,7 @@
     check-cast p2, Lcom/kik/cache/KikImageRequest;
 
     .line 1400
-    invoke-static {p2}, Lcom/kik/android/b/g;->a(Lcom/kik/cache/KikImageRequest;)V
+    invoke-static {p2}, Lcom/kik/arcane/b/g;->a(Lcom/kik/cache/KikImageRequest;)V
 
     .line 396
     return-void

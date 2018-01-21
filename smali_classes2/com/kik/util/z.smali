@@ -59,9 +59,9 @@
 
     .line 1074
     :cond_0
-    check-cast p1, Lkik/android/chat/vm/bv;
+    check-cast p1, Lkik/arcane/chat/vm/bv;
 
-    invoke-interface {p1}, Lkik/android/chat/vm/bv;->intValue()I
+    invoke-interface {p1}, Lkik/arcane/chat/vm/bv;->intValue()I
 
     move-result v1
 

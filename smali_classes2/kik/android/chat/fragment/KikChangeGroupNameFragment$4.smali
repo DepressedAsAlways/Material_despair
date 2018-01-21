@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;
+.class final Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    value = Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikChangeGroupNameFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;)V
     .locals 0
 
     .prologue
     .line 136
-    iput-object p1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,11 +50,11 @@
 
     .line 136
     .line 1140
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v1}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v1
 
@@ -67,9 +67,9 @@
     move-result-object v2
 
     .line 1141
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->c(Lkik/android/chat/fragment/KikChangeGroupNameFragment;)Lkik/core/datatypes/p;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->c(Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;)Lkik/core/datatypes/p;
 
     move-result-object v1
 
@@ -99,7 +99,7 @@
     aget-object v6, v4, v1
 
     .line 1145
-    invoke-static {v6}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v6}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v6
 
@@ -116,35 +116,35 @@
 
     .line 1149
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->a:Lcom/kik/android/Mixpanel;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v4, "Group Name Changed"
 
-    invoke-virtual {v1, v4}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v4}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v4, "Is Empty"
 
     .line 1150
-    invoke-static {v2}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v5
 
-    invoke-virtual {v1, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v4, "Was Empty"
 
     .line 1151
-    invoke-static {v3}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v3}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v3
 
-    invoke-virtual {v1, v4, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v4, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -157,7 +157,7 @@
 
     int-to-long v4, v2
 
-    invoke-virtual {v1, v3, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v3, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -166,17 +166,17 @@
     int-to-long v4, v0
 
     .line 1153
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1154
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 1155
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->finish()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->finish()V
 
     .line 136
     return-void
@@ -195,13 +195,13 @@
     check-cast p1, Lkik/core/net/ServerDialogStanzaException;
 
     .line 163
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
     invoke-virtual {p1}, Lkik/core/net/ServerDialogStanzaException;->a()Lkik/core/net/outgoing/CustomDialogDescriptor;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_errorDialogDescriptor:Lkik/core/net/outgoing/CustomDialogDescriptor;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_errorDialogDescriptor:Lkik/core/net/outgoing/CustomDialogDescriptor;
 
     .line 190
     :cond_0
@@ -226,33 +226,33 @@
 
     if-ne v0, v1, :cond_2
 
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/arcane/chat/view/ValidateableInputView;
 
     if-eqz v0, :cond_2
 
     .line 168
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
     const v2, 0x7f09019f
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
 
     .line 169
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Group Name Change Error"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -261,12 +261,12 @@
     const-string v2, "Invalid Name"
 
     .line 170
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 171
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     goto :goto_0
 
@@ -280,24 +280,24 @@
 
     if-ne v0, v1, :cond_3
 
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/arcane/chat/view/ValidateableInputView;
 
     if-eqz v0, :cond_3
 
     .line 174
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
     const v2, 0x7f090262
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
 
     goto :goto_0
 
@@ -311,37 +311,37 @@
 
     if-ne v0, v1, :cond_4
 
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/arcane/chat/view/ValidateableInputView;
 
     if-eqz v0, :cond_4
 
     .line 177
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
     const v2, 0x7f09040d
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_errorTitle:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_errorTitle:Ljava/lang/String;
 
     .line 178
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
     const v2, 0x7f09019e
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
 
     goto :goto_0
 
@@ -355,18 +355,18 @@
 
     if-ne v0, v1, :cond_5
 
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/arcane/chat/view/ValidateableInputView;
 
     if-eqz v0, :cond_5
 
     .line 181
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -376,39 +376,39 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
 
     goto/16 :goto_0
 
     .line 183
     :cond_5
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_groupNameField:Lkik/arcane/chat/view/ValidateableInputView;
 
     if-eqz v0, :cond_0
 
     .line 184
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
     const v2, 0x7f0904ff
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->_errorText:Ljava/lang/String;
 
     .line 185
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$4;->a:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Group Name Change Error"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -417,12 +417,12 @@
     const-string v2, "Network"
 
     .line 186
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 187
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     goto/16 :goto_0
 .end method

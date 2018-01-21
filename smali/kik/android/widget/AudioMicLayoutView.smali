@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AudioMicLayoutView;
+.class public Lkik/arcane/widget/AudioMicLayoutView;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/AudioMicLayoutView$RecordEndAction;
+        Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;
     }
 .end annotation
 
@@ -79,10 +79,10 @@
     .line 56
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     .line 108
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->a()V
 
     .line 109
     return-void
@@ -98,10 +98,10 @@
     .line 56
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     .line 114
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->a()V
 
     .line 115
     return-void
@@ -112,18 +112,18 @@
 
     .prologue
     .line 119
-    invoke-virtual {p0}, Lkik/android/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/r;->a(Landroid/content/Context;)Lcom/kik/components/CoreComponent;
+    invoke-static {v0}, Lkik/arcane/util/r;->a(Landroid/content/Context;)Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/AudioMicLayoutView;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/AudioMicLayoutView;)V
 
     .line 120
-    invoke-virtual {p0}, Lkik/android/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 122
-    invoke-virtual {p0}, Lkik/android/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -153,10 +153,10 @@
 
     check-cast v0, Landroid/os/Vibrator;
 
-    iput-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->n:Landroid/os/Vibrator;
+    iput-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->n:Landroid/os/Vibrator;
 
     .line 123
-    invoke-virtual {p0}, Lkik/android/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -193,7 +193,7 @@
 
     float-to-int v1, v1
 
-    iput v1, p0, Lkik/android/widget/AudioMicLayoutView;->m:I
+    iput v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->m:I
 
     .line 129
     int-to-float v0, v0
@@ -204,37 +204,37 @@
 
     float-to-int v0, v0
 
-    iput v0, p0, Lkik/android/widget/AudioMicLayoutView;->l:I
+    iput v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->l:I
 
     .line 130
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setLongClickable(Z)V
 
     .line 131
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
-    invoke-static {p0}, Lkik/android/widget/f;->a(Lkik/android/widget/AudioMicLayoutView;)Landroid/view/View$OnTouchListener;
+    invoke-static {p0}, Lkik/arcane/widget/f;->a(Lkik/arcane/widget/AudioMicLayoutView;)Landroid/view/View$OnTouchListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 172
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
-    invoke-static {p0}, Lkik/android/widget/g;->a(Lkik/android/widget/AudioMicLayoutView;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/widget/g;->a(Lkik/arcane/widget/AudioMicLayoutView;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 173
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
-    invoke-static {p0}, Lkik/android/widget/h;->a(Lkik/android/widget/AudioMicLayoutView;)Landroid/view/View$OnLongClickListener;
+    invoke-static {p0}, Lkik/arcane/widget/h;->a(Lkik/arcane/widget/AudioMicLayoutView;)Landroid/view/View$OnLongClickListener;
 
     move-result-object v1
 
@@ -251,7 +251,7 @@
     const/4 v3, 0x0
 
     .line 284
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -277,9 +277,9 @@
     move-result-object v1
 
     .line 286
-    new-instance v2, Lkik/android/widget/AudioMicLayoutView$3;
+    new-instance v2, Lkik/arcane/widget/AudioMicLayoutView$3;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/widget/AudioMicLayoutView$3;-><init>(Lkik/android/widget/AudioMicLayoutView;Landroid/widget/FrameLayout$LayoutParams;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/widget/AudioMicLayoutView$3;-><init>(Lkik/arcane/widget/AudioMicLayoutView;Landroid/widget/FrameLayout$LayoutParams;)V
 
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
@@ -294,14 +294,14 @@
     invoke-virtual {v1, p1, p2}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     .line 297
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setClickable(Z)V
 
     .line 298
-    new-instance v0, Lkik/android/widget/AudioMicLayoutView$4;
+    new-instance v0, Lkik/arcane/widget/AudioMicLayoutView$4;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AudioMicLayoutView$4;-><init>(Lkik/android/widget/AudioMicLayoutView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AudioMicLayoutView$4;-><init>(Lkik/arcane/widget/AudioMicLayoutView;)V
 
     invoke-virtual {v1, v0}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -312,14 +312,14 @@
     return-void
 .end method
 
-.method private a(JLkik/android/widget/AudioMicLayoutView$RecordEndAction;)V
+.method private a(JLkik/arcane/widget/AudioMicLayoutView$RecordEndAction;)V
     .locals 5
 
     .prologue
     const/4 v1, 0x0
 
     .line 234
-    sget-object v0, Lkik/android/widget/AudioMicLayoutView$RecordEndAction;->COMPLETE:Lkik/android/widget/AudioMicLayoutView$RecordEndAction;
+    sget-object v0, Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;->COMPLETE:Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;
 
     if-ne p3, v0, :cond_0
 
@@ -327,14 +327,14 @@
 
     .line 235
     :goto_0
-    iget-object v2, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setColorFilter(Landroid/graphics/ColorFilter;)V
 
     .line 236
-    iget-object v2, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v2}, Landroid/widget/ImageView;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -367,7 +367,7 @@
     invoke-virtual {v0, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     .line 237
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -399,9 +399,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/widget/AudioMicLayoutView$1;
+    new-instance v1, Lkik/arcane/widget/AudioMicLayoutView$1;
 
-    invoke-direct {v1, p0, p3}, Lkik/android/widget/AudioMicLayoutView$1;-><init>(Lkik/android/widget/AudioMicLayoutView;Lkik/android/widget/AudioMicLayoutView$RecordEndAction;)V
+    invoke-direct {v1, p0, p3}, Lkik/arcane/widget/AudioMicLayoutView$1;-><init>(Lkik/arcane/widget/AudioMicLayoutView;Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
@@ -415,31 +415,31 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/widget/AudioMicLayoutView;)V
+.method static synthetic a(Lkik/arcane/widget/AudioMicLayoutView;)V
     .locals 1
 
     .prologue
     .line 392
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     if-eqz v0, :cond_0
 
     .line 393
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     invoke-virtual {v0}, Lcom/nhaarman/supertooltips/a;->a()V
 
     .line 394
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     .line 396
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AudioMicLayoutView;I)V
+.method static synthetic a(Lkik/arcane/widget/AudioMicLayoutView;I)V
     .locals 0
 
     .prologue
@@ -451,30 +451,30 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AudioMicLayoutView;Lcom/nhaarman/supertooltips/ToolTip;)V
+.method static synthetic a(Lkik/arcane/widget/AudioMicLayoutView;Lcom/nhaarman/supertooltips/ToolTip;)V
     .locals 2
 
     .prologue
     .line 359
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     if-nez v0, :cond_0
 
     .line 360
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v0, p1, v1}, Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;->a(Lcom/nhaarman/supertooltips/ToolTip;Landroid/view/View;)Lcom/nhaarman/supertooltips/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     .line 361
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
-    invoke-static {p0}, Lkik/android/widget/m;->a(Lkik/android/widget/AudioMicLayoutView;)Lcom/nhaarman/supertooltips/a$c;
+    invoke-static {p0}, Lkik/arcane/widget/m;->a(Lkik/arcane/widget/AudioMicLayoutView;)Lcom/nhaarman/supertooltips/a$c;
 
     move-result-object v1
 
@@ -485,7 +485,7 @@
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+.method public static a(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -496,13 +496,13 @@
     .prologue
     .line 78
     .line 1311
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
 
     .line 79
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AudioMicLayoutView;Landroid/view/MotionEvent;)Z
+.method static synthetic a(Lkik/arcane/widget/AudioMicLayoutView;Landroid/view/MotionEvent;)Z
     .locals 12
 
     .prologue
@@ -534,25 +534,25 @@
 
     float-to-int v0, v0
 
-    iput v0, p0, Lkik/android/widget/AudioMicLayoutView;->j:I
+    iput v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->j:I
 
     .line 135
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/widget/AudioMicLayoutView;->k:J
+    iput-wide v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->k:J
 
     goto :goto_0
 
     .line 139
     :pswitch_1
-    iget-boolean v0, p0, Lkik/android/widget/AudioMicLayoutView;->h:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->h:Z
 
     if-eqz v0, :cond_0
 
     .line 140
-    iget v0, p0, Lkik/android/widget/AudioMicLayoutView;->j:I
+    iget v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->j:I
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawX()F
 
@@ -567,7 +567,7 @@
 
     int-to-float v0, v0
 
-    iget v2, p0, Lkik/android/widget/AudioMicLayoutView;->m:I
+    iget v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->m:I
 
     int-to-float v2, v2
 
@@ -579,12 +579,12 @@
 
     move-result-wide v2
 
-    iget-wide v4, p0, Lkik/android/widget/AudioMicLayoutView;->k:J
+    iget-wide v4, p0, Lkik/arcane/widget/AudioMicLayoutView;->k:J
 
     sub-long v4, v2, v4
 
     .line 5208
-    iput-boolean v8, p0, Lkik/android/widget/AudioMicLayoutView;->h:Z
+    iput-boolean v8, p0, Lkik/arcane/widget/AudioMicLayoutView;->h:Z
 
     .line 5209
     const-wide/16 v6, 0x0
@@ -593,10 +593,10 @@
 
     if-gez v2, :cond_3
 
-    sget-object v2, Lkik/android/widget/AudioMicLayoutView$RecordEndAction;->DELETE:Lkik/android/widget/AudioMicLayoutView$RecordEndAction;
+    sget-object v2, Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;->DELETE:Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;
 
     :goto_2
-    invoke-direct {p0, v6, v7, v2}, Lkik/android/widget/AudioMicLayoutView;->a(JLkik/android/widget/AudioMicLayoutView$RecordEndAction;)V
+    invoke-direct {p0, v6, v7, v2}, Lkik/arcane/widget/AudioMicLayoutView;->a(JLkik/arcane/widget/AudioMicLayoutView$RecordEndAction;)V
 
     .line 5210
     cmpl-float v1, v0, v1
@@ -614,7 +614,7 @@
 
     int-to-long v0, v0
 
-    invoke-direct {p0, v0, v1}, Lkik/android/widget/AudioMicLayoutView;->a(J)V
+    invoke-direct {p0, v0, v1}, Lkik/arcane/widget/AudioMicLayoutView;->a(J)V
 
     .line 5213
     :cond_1
@@ -622,12 +622,12 @@
 
     if-gez v0, :cond_4
 
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->g:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->g:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_4
 
     .line 5214
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->g:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->g:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -641,18 +641,18 @@
 
     .line 5209
     :cond_3
-    sget-object v2, Lkik/android/widget/AudioMicLayoutView$RecordEndAction;->COMPLETE:Lkik/android/widget/AudioMicLayoutView$RecordEndAction;
+    sget-object v2, Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;->COMPLETE:Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;
 
     goto :goto_2
 
     .line 5216
     :cond_4
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->d:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->d:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
     .line 5217
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->d:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->d:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -660,12 +660,12 @@
 
     .line 146
     :pswitch_2
-    iget-boolean v0, p0, Lkik/android/widget/AudioMicLayoutView;->h:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->h:Z
 
     if-eqz v0, :cond_0
 
     .line 147
-    iget v0, p0, Lkik/android/widget/AudioMicLayoutView;->j:I
+    iget v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->j:I
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawX()F
 
@@ -676,7 +676,7 @@
     sub-int v1, v0, v1
 
     .line 148
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -688,79 +688,79 @@
     if-ltz v1, :cond_0
 
     .line 150
-    iget v2, p0, Lkik/android/widget/AudioMicLayoutView;->l:I
+    iget v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->l:I
 
     if-lt v1, v2, :cond_7
 
     .line 6187
-    iget-boolean v2, p0, Lkik/android/widget/AudioMicLayoutView;->i:Z
+    iget-boolean v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->i:Z
 
     if-nez v2, :cond_5
 
     .line 6188
     const/4 v2, 0x1
 
-    iput-boolean v2, p0, Lkik/android/widget/AudioMicLayoutView;->i:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->i:Z
 
     .line 6189
-    iget-object v2, p0, Lkik/android/widget/AudioMicLayoutView;->e:Ljava/lang/Runnable;
+    iget-object v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->e:Ljava/lang/Runnable;
 
     if-eqz v2, :cond_5
 
     .line 6190
-    iget-object v2, p0, Lkik/android/widget/AudioMicLayoutView;->e:Ljava/lang/Runnable;
+    iget-object v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->e:Ljava/lang/Runnable;
 
     invoke-interface {v2}, Ljava/lang/Runnable;->run()V
 
     .line 156
     :cond_5
     :goto_3
-    iget v2, p0, Lkik/android/widget/AudioMicLayoutView;->m:I
+    iget v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->m:I
 
     if-lt v1, v2, :cond_8
 
     .line 157
-    iget v1, p0, Lkik/android/widget/AudioMicLayoutView;->m:I
+    iget v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->m:I
 
     iput v1, v0, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
     .line 6272
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v1, v8}, Landroid/widget/ImageView;->setClickable(Z)V
 
     .line 6273
-    iput-boolean v8, p0, Lkik/android/widget/AudioMicLayoutView;->i:Z
+    iput-boolean v8, p0, Lkik/arcane/widget/AudioMicLayoutView;->i:Z
 
     .line 6274
-    iput-boolean v8, p0, Lkik/android/widget/AudioMicLayoutView;->h:Z
+    iput-boolean v8, p0, Lkik/arcane/widget/AudioMicLayoutView;->h:Z
 
     .line 6275
     const-wide/16 v2, 0x15e
 
-    invoke-direct {p0, v2, v3}, Lkik/android/widget/AudioMicLayoutView;->a(J)V
+    invoke-direct {p0, v2, v3}, Lkik/arcane/widget/AudioMicLayoutView;->a(J)V
 
     .line 6276
     const-wide/16 v2, 0x64
 
-    sget-object v1, Lkik/android/widget/AudioMicLayoutView$RecordEndAction;->CANCEL:Lkik/android/widget/AudioMicLayoutView$RecordEndAction;
+    sget-object v1, Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;->CANCEL:Lkik/arcane/widget/AudioMicLayoutView$RecordEndAction;
 
-    invoke-direct {p0, v2, v3, v1}, Lkik/android/widget/AudioMicLayoutView;->a(JLkik/android/widget/AudioMicLayoutView$RecordEndAction;)V
+    invoke-direct {p0, v2, v3, v1}, Lkik/arcane/widget/AudioMicLayoutView;->a(JLkik/arcane/widget/AudioMicLayoutView$RecordEndAction;)V
 
     .line 6277
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView;->f:Ljava/lang/Runnable;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->f:Ljava/lang/Runnable;
 
     if-eqz v1, :cond_6
 
     .line 6278
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView;->f:Ljava/lang/Runnable;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->f:Ljava/lang/Runnable;
 
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
     .line 163
     :cond_6
     :goto_4
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -768,20 +768,20 @@
 
     .line 6197
     :cond_7
-    iget-boolean v2, p0, Lkik/android/widget/AudioMicLayoutView;->i:Z
+    iget-boolean v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->i:Z
 
     if-eqz v2, :cond_5
 
     .line 6198
-    iput-boolean v8, p0, Lkik/android/widget/AudioMicLayoutView;->i:Z
+    iput-boolean v8, p0, Lkik/arcane/widget/AudioMicLayoutView;->i:Z
 
     .line 6199
-    iget-object v2, p0, Lkik/android/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
+    iget-object v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
 
     if-eqz v2, :cond_5
 
     .line 6200
-    iget-object v2, p0, Lkik/android/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
+    iget-object v2, p0, Lkik/arcane/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
 
     invoke-interface {v2}, Ljava/lang/Runnable;->run()V
 
@@ -810,12 +810,12 @@
 
     .prologue
     .line 336
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     if-nez v0, :cond_1
 
     .line 1346
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->a:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->a:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v1, Lcom/rounds/kik/analytics/group/VoiceMessageBaseEvents;->VOICEMESSAGE_HINT_SHOW:Lcom/rounds/kik/analytics/group/VoiceMessageBaseEvents;
 
@@ -841,7 +841,7 @@
     const v1, 0x7f090588
 
     .line 1348
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -852,7 +852,7 @@
     const v1, 0x7f0e0069
 
     .line 1349
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v1
 
@@ -863,7 +863,7 @@
     const/high16 v1, 0x41500000    # 13.0f
 
     .line 1350
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -874,7 +874,7 @@
     const/high16 v1, 0x40c00000    # 6.0f
 
     .line 1351
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -885,7 +885,7 @@
     const/high16 v1, 0x41880000    # 17.0f
 
     .line 1352
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -908,11 +908,11 @@
     if-eqz v2, :cond_0
 
     .line 1377
-    invoke-virtual {p0}, Lkik/android/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMicLayoutView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/util/DeviceUtils;->g(Landroid/content/Context;)Landroid/view/Display;
+    invoke-static {v2}, Lkik/arcane/util/DeviceUtils;->g(Landroid/content/Context;)Landroid/view/Display;
 
     move-result-object v2
 
@@ -933,7 +933,7 @@
     :cond_0
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -950,7 +950,7 @@
 
     const v1, 0x7f0e0010
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v1
 
@@ -961,7 +961,7 @@
     const/high16 v1, 0x41b00000    # 22.0f
 
     .line 1355
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -975,18 +975,18 @@
     move-result-object v0
 
     .line 1358
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    invoke-static {p0, v0}, Lkik/android/widget/i;->a(Lkik/android/widget/AudioMicLayoutView;Lcom/nhaarman/supertooltips/ToolTip;)Ljava/lang/Runnable;
+    invoke-static {p0, v0}, Lkik/arcane/widget/i;->a(Lkik/arcane/widget/AudioMicLayoutView;Lcom/nhaarman/supertooltips/ToolTip;)Ljava/lang/Runnable;
 
     move-result-object v0
 
     invoke-virtual {v1, v0}, Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;->post(Ljava/lang/Runnable;)Z
 
     .line 1364
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    invoke-static {p0}, Lkik/android/widget/j;->a(Lkik/android/widget/AudioMicLayoutView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/j;->a(Lkik/arcane/widget/AudioMicLayoutView;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -1000,29 +1000,29 @@
 
     .line 340
     :cond_1
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->c()V
 
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/widget/AudioMicLayoutView;)V
+.method static synthetic b(Lkik/arcane/widget/AudioMicLayoutView;)V
     .locals 1
 
     .prologue
     .line 365
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     if-eqz v0, :cond_0
 
     .line 366
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->c()V
 
     .line 368
     :cond_0
     return-void
 .end method
 
-.method public static b(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+.method public static b(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1033,7 +1033,7 @@
     .prologue
     .line 84
     .line 1316
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView;->d:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView;->d:Ljava/lang/Runnable;
 
     .line 85
     return-void
@@ -1044,7 +1044,7 @@
 
     .prologue
     .line 388
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->b:Lcom/nhaarman/supertooltips/a;
 
     if-nez v0, :cond_0
 
@@ -1054,9 +1054,9 @@
 
     .line 391
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    invoke-static {p0}, Lkik/android/widget/k;->a(Lkik/android/widget/AudioMicLayoutView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/k;->a(Lkik/arcane/widget/AudioMicLayoutView;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -1065,17 +1065,17 @@
     goto :goto_0
 .end method
 
-.method static synthetic c(Lkik/android/widget/AudioMicLayoutView;)V
+.method static synthetic c(Lkik/arcane/widget/AudioMicLayoutView;)V
     .locals 0
 
     .prologue
     .line 361
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->c()V
 
     return-void
 .end method
 
-.method public static c(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+.method public static c(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1086,13 +1086,13 @@
     .prologue
     .line 90
     .line 1321
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView;->e:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView;->e:Ljava/lang/Runnable;
 
     .line 91
     return-void
 .end method
 
-.method public static d(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+.method public static d(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1103,13 +1103,13 @@
     .prologue
     .line 96
     .line 1326
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView;->f:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView;->f:Ljava/lang/Runnable;
 
     .line 97
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/widget/AudioMicLayoutView;)Z
+.method static synthetic d(Lkik/arcane/widget/AudioMicLayoutView;)Z
     .locals 8
 
     .prologue
@@ -1124,38 +1124,38 @@
     const v1, 0x3dcccccd    # 0.1f
 
     .line 174
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->c()V
 
     .line 175
-    iput-boolean v7, p0, Lkik/android/widget/AudioMicLayoutView;->h:Z
+    iput-boolean v7, p0, Lkik/arcane/widget/AudioMicLayoutView;->h:Z
 
     .line 176
-    iput-boolean v6, p0, Lkik/android/widget/AudioMicLayoutView;->i:Z
+    iput-boolean v6, p0, Lkik/arcane/widget/AudioMicLayoutView;->i:Z
 
     .line 4223
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->n:Landroid/os/Vibrator;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->n:Landroid/os/Vibrator;
 
     const-wide/16 v2, 0x64
 
     invoke-virtual {v0, v2, v3}, Landroid/os/Vibrator;->vibrate(J)V
 
     .line 4224
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setScaleX(F)V
 
     .line 4225
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setScaleY(F)V
 
     .line 4226
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
 
     invoke-virtual {v0, v6}, Landroid/view/View;->setVisibility(I)V
 
     .line 4227
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -1194,14 +1194,14 @@
     invoke-virtual {v0, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     .line 4228
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     const/4 v1, -0x1
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     .line 4229
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -1234,12 +1234,12 @@
     invoke-virtual {v0, v2, v3}, Landroid/view/ViewPropertyAnimator;->setStartDelay(J)Landroid/view/ViewPropertyAnimator;
 
     .line 178
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
     .line 179
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->c:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -1248,17 +1248,17 @@
     return v7
 .end method
 
-.method static synthetic e(Lkik/android/widget/AudioMicLayoutView;)V
+.method static synthetic e(Lkik/arcane/widget/AudioMicLayoutView;)V
     .locals 0
 
     .prologue
     .line 172
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->b()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->b()V
 
     return-void
 .end method
 
-.method public static e(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+.method public static e(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -1269,18 +1269,18 @@
     .prologue
     .line 102
     .line 1331
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView;->g:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView;->g:Ljava/lang/Runnable;
 
     .line 103
     return-void
 .end method
 
-.method static synthetic f(Lkik/android/widget/AudioMicLayoutView;)V
+.method static synthetic f(Lkik/arcane/widget/AudioMicLayoutView;)V
     .locals 0
 
     .prologue
     .line 43
-    invoke-direct {p0}, Lkik/android/widget/AudioMicLayoutView;->b()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioMicLayoutView;->b()V
 
     return-void
 .end method
@@ -1298,7 +1298,7 @@
     const/4 v1, 0x0
 
     .line 402
-    invoke-virtual {p0}, Lkik/android/widget/AudioMicLayoutView;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMicLayoutView;->getVisibility()I
 
     move-result v0
 
@@ -1311,29 +1311,29 @@
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
     .line 2256
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->clearAnimation()V
 
     .line 2257
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setScaleX(F)V
 
     .line 2258
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setScaleY(F)V
 
     .line 2259
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 2260
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -1361,9 +1361,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/widget/AudioMicLayoutView$2;
+    new-instance v1, Lkik/arcane/widget/AudioMicLayoutView$2;
 
-    invoke-direct {v1, p0}, Lkik/android/widget/AudioMicLayoutView$2;-><init>(Lkik/android/widget/AudioMicLayoutView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/widget/AudioMicLayoutView$2;-><init>(Lkik/arcane/widget/AudioMicLayoutView;)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
@@ -1374,16 +1374,16 @@
 
     .line 408
     :cond_1
-    iget-boolean v0, p0, Lkik/android/widget/AudioMicLayoutView;->i:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/AudioMicLayoutView;->i:Z
 
     if-eqz v0, :cond_2
 
     .line 410
-    invoke-static {p0, p1}, Lkik/android/widget/l;->a(Lkik/android/widget/AudioMicLayoutView;I)Ljava/lang/Runnable;
+    invoke-static {p0, p1}, Lkik/arcane/widget/l;->a(Lkik/arcane/widget/AudioMicLayoutView;I)Ljava/lang/Runnable;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, v4, v5}, Lkik/android/widget/AudioMicLayoutView;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {p0, v0, v4, v5}, Lkik/arcane/widget/AudioMicLayoutView;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 

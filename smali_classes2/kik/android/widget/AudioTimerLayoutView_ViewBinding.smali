@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AudioTimerLayoutView_ViewBinding;
+.class public Lkik/arcane/widget/AudioTimerLayoutView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/widget/AudioTimerLayoutView;
+.field private a:Lkik/arcane/widget/AudioTimerLayoutView;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/AudioTimerLayoutView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/widget/AudioTimerLayoutView;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 24
-    iput-object p1, p0, Lkik/android/widget/AudioTimerLayoutView_ViewBinding;->a:Lkik/android/widget/AudioTimerLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioTimerLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioTimerLayoutView;
 
     .line 26
     const v0, 0x7f10015a
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/widget/AudioTimerLayoutView;->_timerRecTextView:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/widget/AudioTimerLayoutView;->_timerRecTextView:Landroid/widget/TextView;
 
     .line 27
     return-void
@@ -49,7 +49,7 @@
     const/4 v1, 0x0
 
     .line 32
-    iget-object v0, p0, Lkik/android/widget/AudioTimerLayoutView_ViewBinding;->a:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioTimerLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioTimerLayoutView;
 
     .line 33
     if-nez v0, :cond_0
@@ -64,10 +64,10 @@
 
     .line 34
     :cond_0
-    iput-object v1, p0, Lkik/android/widget/AudioTimerLayoutView_ViewBinding;->a:Lkik/android/widget/AudioTimerLayoutView;
+    iput-object v1, p0, Lkik/arcane/widget/AudioTimerLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioTimerLayoutView;
 
     .line 36
-    iput-object v1, v0, Lkik/android/widget/AudioTimerLayoutView;->_timerRecTextView:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/widget/AudioTimerLayoutView;->_timerRecTextView:Landroid/widget/TextView;
 
     .line 37
     return-void

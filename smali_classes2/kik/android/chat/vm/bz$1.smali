@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/bz$1;
+.class final Lkik/arcane/chat/vm/bz$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/bz;->a(Lkik/android/chat/vm/bd;)V
+    value = Lkik/arcane/chat/vm/bz;->a(Lkik/arcane/chat/vm/bd;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,20 +24,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/bd;
+.field final synthetic a:Lkik/arcane/chat/vm/bd;
 
-.field final synthetic b:Lkik/android/chat/vm/bz;
+.field final synthetic b:Lkik/arcane/chat/vm/bz;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/bz;Lkik/android/chat/vm/bd;)V
+.method constructor <init>(Lkik/arcane/chat/vm/bz;Lkik/arcane/chat/vm/bd;)V
     .locals 0
 
     .prologue
     .line 168
-    iput-object p1, p0, Lkik/android/chat/vm/bz$1;->b:Lkik/android/chat/vm/bz;
+    iput-object p1, p0, Lkik/arcane/chat/vm/bz$1;->b:Lkik/arcane/chat/vm/bz;
 
-    iput-object p2, p0, Lkik/android/chat/vm/bz$1;->a:Lkik/android/chat/vm/bd;
+    iput-object p2, p0, Lkik/arcane/chat/vm/bz$1;->a:Lkik/arcane/chat/vm/bd;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -64,13 +64,13 @@
     if-eqz v0, :cond_0
 
     .line 1174
-    iget-object v0, p0, Lkik/android/chat/vm/bz$1;->b:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$1;->b:Lkik/arcane/chat/vm/bz;
 
-    new-instance v1, Lkik/android/chat/vm/bz$1$1;
+    new-instance v1, Lkik/arcane/chat/vm/bz$1$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/vm/bz$1$1;-><init>(Lkik/android/chat/vm/bz$1;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/vm/bz$1$1;-><init>(Lkik/arcane/chat/vm/bz$1;)V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/vm/bz;->a(Lkik/android/chat/vm/bd;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/vm/bz;->a(Lkik/arcane/chat/vm/bd;)V
 
     .line 168
     :cond_0

@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/dy$b;
+.class public final Lkik/arcane/e/dy$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/dy;
+    value = Lkik/arcane/e/dy;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/widget/vm/IVoicePlayerViewModel;
+.field private a:Lkik/arcane/widget/vm/IVoicePlayerViewModel;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/widget/vm/IVoicePlayerViewModel;)Lkik/android/e/dy$b;
+.method public final a(Lkik/arcane/widget/vm/IVoicePlayerViewModel;)Lkik/arcane/e/dy$b;
     .locals 0
 
     .prologue
     .line 172
-    iput-object p1, p0, Lkik/android/e/dy$b;->a:Lkik/android/widget/vm/IVoicePlayerViewModel;
+    iput-object p1, p0, Lkik/arcane/e/dy$b;->a:Lkik/arcane/widget/vm/IVoicePlayerViewModel;
 
     .line 173
     if-nez p1, :cond_0
@@ -55,9 +55,9 @@
 
     .prologue
     .line 177
-    iget-object v0, p0, Lkik/android/e/dy$b;->a:Lkik/android/widget/vm/IVoicePlayerViewModel;
+    iget-object v0, p0, Lkik/arcane/e/dy$b;->a:Lkik/arcane/widget/vm/IVoicePlayerViewModel;
 
-    invoke-interface {v0}, Lkik/android/widget/vm/IVoicePlayerViewModel;->e()V
+    invoke-interface {v0}, Lkik/arcane/widget/vm/IVoicePlayerViewModel;->e()V
 
     .line 178
     return-void

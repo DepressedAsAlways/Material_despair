@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/fh;
+.class final synthetic Lkik/arcane/chat/fragment/fh;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/util/q;
+.field private final a:Lkik/arcane/util/q;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/util/q;)V
+.method private constructor <init>(Lkik/arcane/util/q;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/fragment/fh;->a:Lkik/android/util/q;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/fh;->a:Lkik/arcane/util/q;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/util/q;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/util/q;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/fh;
+    new-instance v0, Lkik/arcane/chat/fragment/fh;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/fh;-><init>(Lkik/android/util/q;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/fh;-><init>(Lkik/arcane/util/q;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/fragment/fh;->a:Lkik/android/util/q;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fh;->a:Lkik/arcane/util/q;
 
-    invoke-interface {v0}, Lkik/android/util/q;->c()V
+    invoke-interface {v0}, Lkik/arcane/util/q;->c()V
 
     return-void
 .end method

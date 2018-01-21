@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/util/y;
+.class final synthetic Lkik/arcane/util/y;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/util/y;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
+    iput-object p1, p0, Lkik/arcane/util/y;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lcom/kik/cache/KikVolleyImageLoader$c;)Lrx/functions/e;
     .locals 1
 
-    new-instance v0, Lkik/android/util/y;
+    new-instance v0, Lkik/arcane/util/y;
 
-    invoke-direct {v0, p0}, Lkik/android/util/y;-><init>(Lcom/kik/cache/KikVolleyImageLoader$c;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/y;-><init>(Lcom/kik/cache/KikVolleyImageLoader$c;)V
 
     return-object v0
 .end method
@@ -35,7 +35,7 @@
 .method public final a()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/util/y;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
+    iget-object v0, p0, Lkik/arcane/util/y;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
 
     invoke-virtual {v0}, Lcom/kik/cache/KikVolleyImageLoader$c;->a()V
 

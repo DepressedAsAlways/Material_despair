@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/profileactionvm/m;
+.class final synthetic Lkik/arcane/chat/vm/profile/profileactionvm/m;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/profile/profileactionvm/k;
+.field private final a:Lkik/arcane/chat/vm/profile/profileactionvm/k;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/profile/profileactionvm/k;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/profile/profileactionvm/k;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/profile/profileactionvm/m;->a:Lkik/android/chat/vm/profile/profileactionvm/k;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/profileactionvm/m;->a:Lkik/arcane/chat/vm/profile/profileactionvm/k;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/profile/profileactionvm/k;)Lrx/functions/b;
+.method public static a(Lkik/arcane/chat/vm/profile/profileactionvm/k;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/profileactionvm/m;
+    new-instance v0, Lkik/arcane/chat/vm/profile/profileactionvm/m;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/profile/profileactionvm/m;-><init>(Lkik/android/chat/vm/profile/profileactionvm/k;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/profile/profileactionvm/m;-><init>(Lkik/arcane/chat/vm/profile/profileactionvm/k;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/vm/profile/profileactionvm/m;->a:Lkik/android/chat/vm/profile/profileactionvm/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/profileactionvm/m;->a:Lkik/arcane/chat/vm/profile/profileactionvm/k;
 
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-static {v0, p1}, Lkik/android/chat/vm/profile/profileactionvm/k;->a(Lkik/android/chat/vm/profile/profileactionvm/k;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1}, Lkik/arcane/chat/vm/profile/profileactionvm/k;->a(Lkik/arcane/chat/vm/profile/profileactionvm/k;Ljava/lang/Throwable;)V
 
     return-void
 .end method

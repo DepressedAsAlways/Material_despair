@@ -1,4 +1,4 @@
-.class public final Lkik/android/voice/j;
+.class public final Lkik/arcane/voice/j;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/voice/d;",
+        "Lkik/arcane/voice/d;",
         ">;"
     }
 .end annotation
@@ -23,7 +23,7 @@
 
 
 # instance fields
-.field private final b:Lkik/android/voice/i;
+.field private final b:Lkik/arcane/voice/i;
 
 
 # direct methods
@@ -32,7 +32,7 @@
 
     .prologue
     .line 7
-    const-class v0, Lkik/android/voice/j;
+    const-class v0, Lkik/arcane/voice/j;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -43,7 +43,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/voice/j;->a:Z
+    sput-boolean v0, Lkik/arcane/voice/j;->a:Z
 
     return-void
 
@@ -53,7 +53,7 @@
     goto :goto_0
 .end method
 
-.method private constructor <init>(Lkik/android/voice/i;)V
+.method private constructor <init>(Lkik/arcane/voice/i;)V
     .locals 1
 
     .prologue
@@ -61,7 +61,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 16
-    sget-boolean v0, Lkik/android/voice/j;->a:Z
+    sget-boolean v0, Lkik/arcane/voice/j;->a:Z
 
     if-nez v0, :cond_0
 
@@ -75,31 +75,31 @@
 
     .line 17
     :cond_0
-    iput-object p1, p0, Lkik/android/voice/j;->b:Lkik/android/voice/i;
+    iput-object p1, p0, Lkik/arcane/voice/j;->b:Lkik/arcane/voice/i;
 
     .line 18
     return-void
 .end method
 
-.method public static a(Lkik/android/voice/i;)Ldagger/internal/b;
+.method public static a(Lkik/arcane/voice/i;)Ldagger/internal/b;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/voice/i;",
+            "Lkik/arcane/voice/i;",
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/voice/d;",
+            "Lkik/arcane/voice/d;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 27
-    new-instance v0, Lkik/android/voice/j;
+    new-instance v0, Lkik/arcane/voice/j;
 
-    invoke-direct {v0, p0}, Lkik/android/voice/j;-><init>(Lkik/android/voice/i;)V
+    invoke-direct {v0, p0}, Lkik/arcane/voice/j;-><init>(Lkik/arcane/voice/i;)V
 
     return-object v0
 .end method
@@ -112,10 +112,10 @@
     .prologue
     .line 7
     .line 1022
-    iget-object v0, p0, Lkik/android/voice/j;->b:Lkik/android/voice/i;
+    iget-object v0, p0, Lkik/arcane/voice/j;->b:Lkik/arcane/voice/i;
 
     .line 1023
-    invoke-virtual {v0}, Lkik/android/voice/i;->a()Lkik/android/voice/d;
+    invoke-virtual {v0}, Lkik/arcane/voice/i;->a()Lkik/arcane/voice/d;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/voice/d;
+    check-cast v0, Lkik/arcane/voice/d;
 
     .line 7
     return-object v0

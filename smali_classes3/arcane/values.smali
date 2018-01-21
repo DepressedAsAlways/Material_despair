@@ -44,11 +44,11 @@
 
     .prologue
     .line 32
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    iget-object v1, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bq;
+    iget-object v1, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bq;
 
-    invoke-virtual {v1}, Lkik/android/util/bq;->b()Landroid/content/SharedPreferences;
+    invoke-virtual {v1}, Lkik/arcane/util/bq;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 

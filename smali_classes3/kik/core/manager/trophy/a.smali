@@ -19,11 +19,11 @@
 
 .field private final e:Lkik/core/interfaces/ag;
 
-.field private final f:Lcom/kik/android/Mixpanel;
+.field private final f:Lcom/kik/arcane/Mixpanel;
 
 .field private final g:Lkik/core/interfaces/b;
 
-.field private final h:Lkik/android/f/e;
+.field private final h:Lkik/arcane/f/e;
 
 .field private i:Lcom/kik/events/e;
     .annotation system Ldalvik/annotation/Signature;
@@ -124,7 +124,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/ad;Lkik/android/f/e;)V
+.method public constructor <init>(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/ad;Lkik/arcane/f/e;)V
     .locals 3
 
     .prologue
@@ -164,7 +164,7 @@
     iput-object p4, p0, Lkik/core/manager/trophy/a;->e:Lkik/core/interfaces/ag;
 
     .line 67
-    iput-object p6, p0, Lkik/core/manager/trophy/a;->f:Lcom/kik/android/Mixpanel;
+    iput-object p6, p0, Lkik/core/manager/trophy/a;->f:Lcom/kik/arcane/Mixpanel;
 
     .line 68
     new-instance v0, Lcom/kik/events/d;
@@ -177,7 +177,7 @@
     iput-object p5, p0, Lkik/core/manager/trophy/a;->g:Lkik/core/interfaces/b;
 
     .line 70
-    iput-object p8, p0, Lkik/core/manager/trophy/a;->h:Lkik/android/f/e;
+    iput-object p8, p0, Lkik/core/manager/trophy/a;->h:Lkik/arcane/f/e;
 
     .line 71
     const-wide/16 v0, 0x0
@@ -198,7 +198,7 @@
 
     iget-object v0, p0, Lkik/core/manager/trophy/a;->g:Lkik/core/interfaces/b;
 
-    invoke-static {v0}, Lkik/android/util/a;->b(Lkik/core/interfaces/b;)Z
+    invoke-static {v0}, Lkik/arcane/util/a;->b(Lkik/core/interfaces/b;)Z
 
     move-result v0
 
@@ -354,11 +354,11 @@
     .prologue
     .line 203
     .line 1288
-    iget-object v0, p0, Lkik/core/manager/trophy/a;->f:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/core/manager/trophy/a;->f:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "trophy_unlocked"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -369,16 +369,16 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1290
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 2245
     sget-object v0, Lkik/core/manager/trophy/a$1;->a:[I
@@ -398,12 +398,12 @@
     invoke-interface {v0, p1}, Lcom/kik/storage/t;->a(Lkik/core/manager/trophy/TrophyType;)Z
 
     .line 3197
-    iget-object v0, p0, Lkik/core/manager/trophy/a;->h:Lkik/android/f/e;
+    iget-object v0, p0, Lkik/core/manager/trophy/a;->h:Lkik/arcane/f/e;
 
-    invoke-interface {v0, p1}, Lkik/android/f/e;->a(Lkik/core/manager/trophy/TrophyType;)V
+    invoke-interface {v0, p1}, Lkik/arcane/f/e;->a(Lkik/core/manager/trophy/TrophyType;)V
 
     .line 3198
-    invoke-static {p1}, Lkik/android/chat/KikApplication;->a(Lkik/core/manager/trophy/TrophyType;)V
+    invoke-static {p1}, Lkik/arcane/chat/KikApplication;->a(Lkik/core/manager/trophy/TrophyType;)V
 
     .line 207
     invoke-direct {p0}, Lkik/core/manager/trophy/a;->f()V
@@ -627,7 +627,7 @@
     .line 79
     iget-object v0, p0, Lkik/core/manager/trophy/a;->g:Lkik/core/interfaces/b;
 
-    invoke-static {v0}, Lkik/android/util/a;->b(Lkik/core/interfaces/b;)Z
+    invoke-static {v0}, Lkik/arcane/util/a;->b(Lkik/core/interfaces/b;)Z
 
     move-result v0
 

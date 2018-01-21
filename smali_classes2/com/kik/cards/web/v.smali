@@ -120,17 +120,17 @@
     iput-object p6, p0, Lcom/kik/cards/web/v;->e:Lcom/kik/cards/web/u;
 
     .line 110
-    instance-of v0, p1, Lkik/android/chat/activity/a;
+    instance-of v0, p1, Lkik/arcane/chat/activity/a;
 
     if-eqz v0, :cond_2
 
     .line 111
-    check-cast p1, Lkik/android/chat/activity/a;
+    check-cast p1, Lkik/arcane/chat/activity/a;
 
     .line 1128
     iget-object v0, p0, Lcom/kik/cards/web/v;->i:Lcom/kik/events/d;
 
-    invoke-interface {p1}, Lkik/android/chat/activity/a;->a()Lcom/kik/events/c;
+    invoke-interface {p1}, Lkik/arcane/chat/activity/a;->a()Lcom/kik/events/c;
 
     move-result-object v1
 
@@ -143,7 +143,7 @@
     .line 1142
     iget-object v0, p0, Lcom/kik/cards/web/v;->i:Lcom/kik/events/d;
 
-    invoke-interface {p1}, Lkik/android/chat/activity/a;->c()Lcom/kik/events/c;
+    invoke-interface {p1}, Lkik/arcane/chat/activity/a;->c()Lcom/kik/events/c;
 
     move-result-object v1
 
@@ -156,7 +156,7 @@
     .line 1156
     iget-object v0, p0, Lcom/kik/cards/web/v;->i:Lcom/kik/events/d;
 
-    invoke-interface {p1}, Lkik/android/chat/activity/a;->b()Lcom/kik/events/c;
+    invoke-interface {p1}, Lkik/arcane/chat/activity/a;->b()Lcom/kik/events/c;
 
     move-result-object v1
 
@@ -309,7 +309,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -409,7 +409,7 @@
 
     .prologue
     .line 186
-    invoke-static {p1, p2}, Lkik/android/b/f;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;)Lcom/kik/cards/web/kik/KikMessageParcelable;
+    invoke-static {p1, p2}, Lkik/arcane/b/f;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;)Lcom/kik/cards/web/kik/KikMessageParcelable;
 
     move-result-object v0
 
@@ -596,7 +596,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     .line 2292
     invoke-super {p0, p1}, Lcom/kik/cards/web/d;->loadUrl(Ljava/lang/String;)V

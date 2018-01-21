@@ -1,11 +1,11 @@
-.class final Lkik/android/util/ac$1;
+.class final Lkik/arcane/util/ac$1;
 .super Landroid/view/GestureDetector$SimpleOnGestureListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/ac;-><init>(Landroid/widget/FrameLayout;)V
+    value = Lkik/arcane/util/ac;-><init>(Landroid/widget/FrameLayout;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/ac;
+.field final synthetic a:Lkik/arcane/util/ac;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/ac;)V
+.method constructor <init>(Lkik/arcane/util/ac;)V
     .locals 0
 
     .prologue
     .line 45
-    iput-object p1, p0, Lkik/android/util/ac$1;->a:Lkik/android/util/ac;
+    iput-object p1, p0, Lkik/arcane/util/ac$1;->a:Lkik/arcane/util/ac;
 
     invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
 
@@ -85,7 +85,7 @@
 
     .line 61
     :cond_0
-    iget-object v2, p0, Lkik/android/util/ac$1;->a:Lkik/android/util/ac;
+    iget-object v2, p0, Lkik/arcane/util/ac$1;->a:Lkik/arcane/util/ac;
 
     float-to-int v0, v0
 
@@ -115,7 +115,7 @@
 
     double-to-int v3, v4
 
-    invoke-static {v2, v0, v1, v3}, Lkik/android/util/ac;->a(Lkik/android/util/ac;III)V
+    invoke-static {v2, v0, v1, v3}, Lkik/arcane/util/ac;->a(Lkik/arcane/util/ac;III)V
 
     .line 62
     const/4 v0, 0x1
@@ -128,9 +128,9 @@
 
     .prologue
     .line 68
-    iget-object v0, p0, Lkik/android/util/ac$1;->a:Lkik/android/util/ac;
+    iget-object v0, p0, Lkik/arcane/util/ac$1;->a:Lkik/arcane/util/ac;
 
-    invoke-virtual {v0}, Lkik/android/util/ac;->e()V
+    invoke-virtual {v0}, Lkik/arcane/util/ac;->e()V
 
     .line 69
     const/4 v0, 0x1

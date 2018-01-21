@@ -1,9 +1,9 @@
-.class public Lkik/android/voice/s;
+.class public Lkik/arcane/voice/s;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/voice/g;
+.implements Lkik/arcane/voice/g;
 
 
 # static fields
@@ -26,7 +26,7 @@
 
     .prologue
     .line 22
-    const-class v0, Lkik/android/voice/s;
+    const-class v0, Lkik/arcane/voice/s;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/voice/s;->c:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/voice/s;->c:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -51,20 +51,20 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 23
-    iput-boolean v0, p0, Lkik/android/voice/s;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/s;->d:Z
 
     .line 24
-    iput-boolean v0, p0, Lkik/android/voice/s;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/s;->e:Z
 
     .line 25
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lkik/android/voice/s;->a:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/voice/s;->a:Ljava/lang/Object;
 
     .line 30
-    iput-object p1, p0, Lkik/android/voice/s;->b:Lcom/kik/storage/s;
+    iput-object p1, p0, Lkik/arcane/voice/s;->b:Lcom/kik/storage/s;
 
     .line 31
     return-void
@@ -72,7 +72,7 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;I)Lkik/android/voice/g$a;
+.method public final a(Ljava/lang/String;I)Lkik/arcane/voice/g$a;
     .locals 13
 
     .prologue
@@ -83,19 +83,19 @@
     const/4 v7, 0x0
 
     .line 37
-    iget-boolean v0, p0, Lkik/android/voice/s;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/voice/s;->d:Z
 
     if-eqz v0, :cond_0
 
     .line 40
-    iput-boolean v1, p0, Lkik/android/voice/s;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/voice/s;->e:Z
 
     .line 43
     :cond_0
     const-wide/16 v8, 0x0
 
     .line 44
-    iget-object v0, p0, Lkik/android/voice/s;->b:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/voice/s;->b:Lcom/kik/storage/s;
 
     invoke-interface {v0, p1}, Lcom/kik/storage/s;->c(Ljava/lang/String;)Ljava/lang/String;
 
@@ -125,7 +125,7 @@
     invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 48
-    iget-object v10, p0, Lkik/android/voice/s;->a:Ljava/lang/Object;
+    iget-object v10, p0, Lkik/arcane/voice/s;->a:Ljava/lang/Object;
 
     monitor-enter v10
 
@@ -133,12 +133,12 @@
     const/4 v1, 0x1
 
     :try_start_0
-    iput-boolean v1, p0, Lkik/android/voice/s;->d:Z
+    iput-boolean v1, p0, Lkik/arcane/voice/s;->d:Z
 
     .line 50
     const/4 v1, 0x0
 
-    iput-boolean v1, p0, Lkik/android/voice/s;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/voice/s;->e:Z
 
     .line 52
     new-instance v11, Ljava/io/File;
@@ -223,7 +223,7 @@
 
     if-eq v6, v7, :cond_2
 
-    iget-boolean v7, p0, Lkik/android/voice/s;->e:Z
+    iget-boolean v7, p0, Lkik/arcane/voice/s;->e:Z
 
     if-nez v7, :cond_2
 
@@ -289,7 +289,7 @@
     const/4 v0, 0x0
 
     :try_start_5
-    iput-boolean v0, p0, Lkik/android/voice/s;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/s;->d:Z
 
     .line 82
     monitor-exit v10
@@ -307,9 +307,9 @@
     div-float/2addr v1, v12
 
     .line 86
-    new-instance v2, Lkik/android/voice/s$1;
+    new-instance v2, Lkik/arcane/voice/s$1;
 
-    invoke-direct {v2, p0, v1, v0}, Lkik/android/voice/s$1;-><init>(Lkik/android/voice/s;FF)V
+    invoke-direct {v2, p0, v1, v0}, Lkik/arcane/voice/s$1;-><init>(Lkik/arcane/voice/s;FF)V
 
     .line 100
     return-object v2
@@ -324,7 +324,7 @@
 
     :goto_3
     :try_start_6
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_2
 
@@ -366,7 +366,7 @@
     .line 123
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/voice/s;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/s;->e:Z
 
     .line 124
     return-void

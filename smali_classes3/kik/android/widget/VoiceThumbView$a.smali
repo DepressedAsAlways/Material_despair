@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/widget/VoiceThumbView$a;
+.class public interface abstract Lkik/arcane/widget/VoiceThumbView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/VoiceThumbView;
+    value = Lkik/arcane/widget/VoiceThumbView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

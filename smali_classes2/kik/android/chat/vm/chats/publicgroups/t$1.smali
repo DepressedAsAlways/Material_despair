@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/chats/publicgroups/t$1;
+.class final Lkik/arcane/chat/vm/chats/publicgroups/t$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/publicgroups/t;
+    value = Lkik/arcane/chat/vm/chats/publicgroups/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/chats/publicgroups/t;
+.field final synthetic a:Lkik/arcane/chat/vm/chats/publicgroups/t;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/publicgroups/t;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/publicgroups/t;)V
     .locals 0
 
     .prologue
     .line 59
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/t$1;->a:Lkik/android/chat/vm/chats/publicgroups/t;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/t$1;->a:Lkik/arcane/chat/vm/chats/publicgroups/t;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
     check-cast p1, Lkik/core/a/j;
 
     .line 1063
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/t$1;->a:Lkik/android/chat/vm/chats/publicgroups/t;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/t$1;->a:Lkik/arcane/chat/vm/chats/publicgroups/t;
 
-    invoke-static {v0, p1}, Lkik/android/chat/vm/chats/publicgroups/t;->a(Lkik/android/chat/vm/chats/publicgroups/t;Lkik/core/a/j;)V
+    invoke-static {v0, p1}, Lkik/arcane/chat/vm/chats/publicgroups/t;->a(Lkik/arcane/chat/vm/chats/publicgroups/t;Lkik/core/a/j;)V
 
     .line 59
     return-void
@@ -63,9 +63,9 @@
 
     .prologue
     .line 69
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/t$1;->a:Lkik/android/chat/vm/chats/publicgroups/t;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/t$1;->a:Lkik/arcane/chat/vm/chats/publicgroups/t;
 
-    invoke-static {v0}, Lkik/android/chat/vm/chats/publicgroups/t;->a(Lkik/android/chat/vm/chats/publicgroups/t;)V
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/publicgroups/t;->a(Lkik/arcane/chat/vm/chats/publicgroups/t;)V
 
     .line 70
     return-void

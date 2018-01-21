@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/vm/profile/by;",
+        "Lkik/arcane/chat/vm/profile/by;",
         ">;"
     }
 .end annotation
@@ -131,7 +131,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/vm/profile/by;",
+            "Lkik/arcane/chat/vm/profile/by;",
             ">;"
         }
     .end annotation
@@ -163,9 +163,9 @@
     check-cast v0, Landroid/content/res/Resources;
 
     .line 2023
-    new-instance v1, Lkik/android/chat/vm/profile/by;
+    new-instance v1, Lkik/arcane/chat/vm/profile/by;
 
-    invoke-direct {v1, v0}, Lkik/android/chat/vm/profile/by;-><init>(Landroid/content/res/Resources;)V
+    invoke-direct {v1, v0}, Lkik/arcane/chat/vm/profile/by;-><init>(Landroid/content/res/Resources;)V
 
     .line 1031
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/profile/by;
+    check-cast v0, Lkik/arcane/chat/vm/profile/by;
 
     .line 10
     return-object v0

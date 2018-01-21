@@ -897,7 +897,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 193
     :cond_0
@@ -933,7 +933,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 
@@ -1066,7 +1066,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lkik/android/chat/KikApplication;->c()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1281,7 +1281,7 @@
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 494
-    invoke-static {p4}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {p4}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v1
 

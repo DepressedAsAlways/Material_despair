@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/dh;
+.class public final Lkik/arcane/widget/dh;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 22
-    iput p1, p0, Lkik/android/widget/dh;->a:I
+    iput p1, p0, Lkik/arcane/widget/dh;->a:I
 
     .line 23
     return-void
@@ -29,7 +29,7 @@
 
     .prologue
     .line 28
-    iget v0, p0, Lkik/android/widget/dh;->a:I
+    iget v0, p0, Lkik/arcane/widget/dh;->a:I
 
     div-int/lit8 v0, v0, 0x2
 

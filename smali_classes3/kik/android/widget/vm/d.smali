@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/vm/d;
+.class final synthetic Lkik/arcane/widget/vm/d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/vm/d;->a:Lrx/subjects/a;
+    iput-object p1, p0, Lkik/arcane/widget/vm/d;->a:Lrx/subjects/a;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lrx/subjects/a;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/vm/d;
+    new-instance v0, Lkik/arcane/widget/vm/d;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/vm/d;-><init>(Lrx/subjects/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/vm/d;-><init>(Lrx/subjects/a;)V
 
     return-object v0
 .end method
@@ -35,7 +35,7 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/vm/d;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/widget/vm/d;->a:Lrx/subjects/a;
 
     check-cast p1, Ljava/lang/Integer;
 

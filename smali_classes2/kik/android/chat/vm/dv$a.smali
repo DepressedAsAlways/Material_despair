@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/vm/dv$a;
+.class public final Lkik/arcane/chat/vm/dv$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/dv;
+    value = Lkik/arcane/chat/vm/dv;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -39,85 +39,85 @@
 
 
 # virtual methods
-.method public final a()Lkik/android/chat/vm/dv$a;
+.method public final a()Lkik/arcane/chat/vm/dv$a;
     .locals 1
 
     .prologue
     .line 67
     const/16 v0, 0xe
 
-    iput v0, p0, Lkik/android/chat/vm/dv$a;->d:I
+    iput v0, p0, Lkik/arcane/chat/vm/dv$a;->d:I
 
     .line 68
     return-object p0
 .end method
 
-.method public final a(I)Lkik/android/chat/vm/dv$a;
+.method public final a(I)Lkik/arcane/chat/vm/dv$a;
     .locals 0
 
     .prologue
     .line 55
-    iput p1, p0, Lkik/android/chat/vm/dv$a;->a:I
+    iput p1, p0, Lkik/arcane/chat/vm/dv$a;->a:I
 
     .line 56
     return-object p0
 .end method
 
-.method public final a(Ljava/lang/String;)Lkik/android/chat/vm/dv$a;
+.method public final a(Ljava/lang/String;)Lkik/arcane/chat/vm/dv$a;
     .locals 0
 
     .prologue
     .line 61
-    iput-object p1, p0, Lkik/android/chat/vm/dv$a;->c:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/vm/dv$a;->c:Ljava/lang/String;
 
     .line 62
     return-object p0
 .end method
 
-.method public final b()Lkik/android/chat/vm/dv$a;
+.method public final b()Lkik/arcane/chat/vm/dv$a;
     .locals 1
 
     .prologue
     .line 73
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/vm/dv$a;->b:I
+    iput v0, p0, Lkik/arcane/chat/vm/dv$a;->b:I
 
     .line 74
     return-object p0
 .end method
 
-.method public final c()Lkik/android/chat/vm/dv$a;
+.method public final c()Lkik/arcane/chat/vm/dv$a;
     .locals 1
 
     .prologue
     .line 79
     const/16 v0, 0x5a
 
-    iput v0, p0, Lkik/android/chat/vm/dv$a;->e:I
+    iput v0, p0, Lkik/arcane/chat/vm/dv$a;->e:I
 
     .line 80
     return-object p0
 .end method
 
-.method public final d()Lkik/android/chat/vm/dv;
+.method public final d()Lkik/arcane/chat/vm/dv;
     .locals 6
 
     .prologue
     .line 85
-    new-instance v0, Lkik/android/chat/vm/dv;
+    new-instance v0, Lkik/arcane/chat/vm/dv;
 
-    iget v1, p0, Lkik/android/chat/vm/dv$a;->a:I
+    iget v1, p0, Lkik/arcane/chat/vm/dv$a;->a:I
 
-    iget-object v2, p0, Lkik/android/chat/vm/dv$a;->c:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/dv$a;->c:Ljava/lang/String;
 
-    iget v3, p0, Lkik/android/chat/vm/dv$a;->d:I
+    iget v3, p0, Lkik/arcane/chat/vm/dv$a;->d:I
 
-    iget v4, p0, Lkik/android/chat/vm/dv$a;->b:I
+    iget v4, p0, Lkik/arcane/chat/vm/dv$a;->b:I
 
-    iget v5, p0, Lkik/android/chat/vm/dv$a;->e:I
+    iget v5, p0, Lkik/arcane/chat/vm/dv$a;->e:I
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/chat/vm/dv;-><init>(ILjava/lang/String;III)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/chat/vm/dv;-><init>(ILjava/lang/String;III)V
 
     return-object v0
 .end method

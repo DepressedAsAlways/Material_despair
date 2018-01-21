@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AudioEffectsLayoutView_ViewBinding;
+.class public Lkik/arcane/widget/AudioEffectsLayoutView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/widget/AudioEffectsLayoutView;
+.field private a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/AudioEffectsLayoutView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/widget/AudioEffectsLayoutView;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 24
-    iput-object p1, p0, Lkik/android/widget/AudioEffectsLayoutView_ViewBinding;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioEffectsLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
     .line 26
     const v0, 0x7f10014b
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/ToggleButton;
 
-    iput-object v0, p1, Lkik/android/widget/AudioEffectsLayoutView;->_effectNone:Landroid/widget/ToggleButton;
+    iput-object v0, p1, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectNone:Landroid/widget/ToggleButton;
 
     .line 27
     const v0, 0x7f100146
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/ToggleButton;
 
-    iput-object v0, p1, Lkik/android/widget/AudioEffectsLayoutView;->_effectBaby:Landroid/widget/ToggleButton;
+    iput-object v0, p1, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectBaby:Landroid/widget/ToggleButton;
 
     .line 28
     const v0, 0x7f100147
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/ToggleButton;
 
-    iput-object v0, p1, Lkik/android/widget/AudioEffectsLayoutView;->_effectRobot:Landroid/widget/ToggleButton;
+    iput-object v0, p1, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectRobot:Landroid/widget/ToggleButton;
 
     .line 29
     const v0, 0x7f100149
@@ -79,7 +79,7 @@
 
     check-cast v0, Landroid/widget/ToggleButton;
 
-    iput-object v0, p1, Lkik/android/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
+    iput-object v0, p1, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
 
     .line 30
     const v0, 0x7f100148
@@ -94,7 +94,7 @@
 
     check-cast v0, Landroid/widget/ToggleButton;
 
-    iput-object v0, p1, Lkik/android/widget/AudioEffectsLayoutView;->_effectAlien:Landroid/widget/ToggleButton;
+    iput-object v0, p1, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectAlien:Landroid/widget/ToggleButton;
 
     .line 31
     const v0, 0x7f10014a
@@ -109,7 +109,7 @@
 
     check-cast v0, Landroid/widget/ToggleButton;
 
-    iput-object v0, p1, Lkik/android/widget/AudioEffectsLayoutView;->_effectBunny:Landroid/widget/ToggleButton;
+    iput-object v0, p1, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectBunny:Landroid/widget/ToggleButton;
 
     .line 32
     const v0, 0x7f100160
@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
     .line 33
     return-void
@@ -135,7 +135,7 @@
     const/4 v1, 0x0
 
     .line 38
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView_ViewBinding;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
     .line 39
     if-nez v0, :cond_0
@@ -150,28 +150,28 @@
 
     .line 40
     :cond_0
-    iput-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView_ViewBinding;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iput-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
     .line 42
-    iput-object v1, v0, Lkik/android/widget/AudioEffectsLayoutView;->_effectNone:Landroid/widget/ToggleButton;
+    iput-object v1, v0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectNone:Landroid/widget/ToggleButton;
 
     .line 43
-    iput-object v1, v0, Lkik/android/widget/AudioEffectsLayoutView;->_effectBaby:Landroid/widget/ToggleButton;
+    iput-object v1, v0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectBaby:Landroid/widget/ToggleButton;
 
     .line 44
-    iput-object v1, v0, Lkik/android/widget/AudioEffectsLayoutView;->_effectRobot:Landroid/widget/ToggleButton;
+    iput-object v1, v0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectRobot:Landroid/widget/ToggleButton;
 
     .line 45
-    iput-object v1, v0, Lkik/android/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
+    iput-object v1, v0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
 
     .line 46
-    iput-object v1, v0, Lkik/android/widget/AudioEffectsLayoutView;->_effectAlien:Landroid/widget/ToggleButton;
+    iput-object v1, v0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectAlien:Landroid/widget/ToggleButton;
 
     .line 47
-    iput-object v1, v0, Lkik/android/widget/AudioEffectsLayoutView;->_effectBunny:Landroid/widget/ToggleButton;
+    iput-object v1, v0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectBunny:Landroid/widget/ToggleButton;
 
     .line 48
-    iput-object v1, v0, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
     .line 49
     return-void

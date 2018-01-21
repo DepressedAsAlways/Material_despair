@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kik/storage/ContentImageCache;->prepMigration(Ljava/io/File;Lkik/android/util/ai;)V
+    value = Lcom/kik/storage/ContentImageCache;->prepMigration(Ljava/io/File;Lkik/arcane/util/ai;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -143,7 +143,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 .end method

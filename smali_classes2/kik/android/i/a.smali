@@ -1,4 +1,4 @@
-.class public final Lkik/android/i/a;
+.class public final Lkik/arcane/i/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/i/a;->b:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/i/a;->b:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -62,54 +62,54 @@
 
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
-    iput-object v0, p0, Lkik/android/i/a;->a:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/i/a;->a:Lcom/kik/events/Promise;
 
     .line 54
-    iput-object p1, p0, Lkik/android/i/a;->f:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/i/a;->f:Landroid/content/Context;
 
     .line 55
-    iput-object p2, p0, Lkik/android/i/a;->d:Lkik/core/interfaces/s;
+    iput-object p2, p0, Lkik/arcane/i/a;->d:Lkik/core/interfaces/s;
 
     .line 56
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/i/a;Lkik/core/datatypes/a;)Lkik/core/datatypes/a;
+.method static synthetic a(Lkik/arcane/i/a;Lkik/core/datatypes/a;)Lkik/core/datatypes/a;
     .locals 0
 
     .prologue
     .line 37
-    iput-object p1, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iput-object p1, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/i/a;)Lkik/core/interfaces/ad;
+.method static synthetic a(Lkik/arcane/i/a;)Lkik/core/interfaces/ad;
     .locals 1
 
     .prologue
     .line 37
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/i/a;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/i/a;Ljava/lang/Boolean;)V
     .locals 0
 
     .prologue
     .line 37
-    invoke-direct {p0, p1}, Lkik/android/i/a;->b(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lkik/arcane/i/a;->b(Ljava/lang/Boolean;)V
 
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/i/a;)Lkik/core/datatypes/a;
+.method static synthetic b(Lkik/arcane/i/a;)Lkik/core/datatypes/a;
     .locals 1
 
     .prologue
     .line 37
-    iget-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     return-object v0
 .end method
@@ -122,7 +122,7 @@
     if-nez p1, :cond_0
 
     .line 258
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v1, "AddressIntegration.UPLOAD_MY_INFO_OPT_IN_KEY"
 
@@ -144,7 +144,7 @@
 
     .line 262
     :goto_1
-    iget-object v1, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v2, "AddressIntegration.UPLOAD_MY_INFO_OPT_IN_KEY"
 
@@ -164,7 +164,7 @@
 
     .prologue
     .line 37
-    sget-object v0, Lkik/android/i/a;->b:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/i/a;->b:Lorg/slf4j/b;
 
     return-object v0
 .end method
@@ -174,7 +174,7 @@
 
     .prologue
     .line 127
-    iget-object v0, p0, Lkik/android/i/a;->d:Lkik/core/interfaces/s;
+    iget-object v0, p0, Lkik/arcane/i/a;->d:Lkik/core/interfaces/s;
 
     const-string v1, "addressFilterFile"
 
@@ -190,7 +190,7 @@
 
     .prologue
     .line 404
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v1, "AddressIntegration.UPLOAD_MY_INFO_OPT_IN_KEY"
 
@@ -248,7 +248,7 @@
     .line 133
     .line 136
     :try_start_0
-    invoke-direct {p0}, Lkik/android/i/a;->l()Ljava/io/File;
+    invoke-direct {p0}, Lkik/arcane/i/a;->l()Ljava/io/File;
 
     move-result-object v0
 
@@ -331,27 +331,27 @@
 
     .prologue
     .line 269
-    invoke-direct {p0, p1}, Lkik/android/i/a;->b(Ljava/lang/Boolean;)V
+    invoke-direct {p0, p1}, Lkik/arcane/i/a;->b(Ljava/lang/Boolean;)V
 
     .line 270
-    iget-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     if-eqz v0, :cond_0
 
     .line 271
-    iget-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-virtual {v0, p1}, Lkik/core/datatypes/a;->b(Ljava/lang/Boolean;)V
 
     .line 277
     :goto_0
-    iget-object v0, p0, Lkik/android/i/a;->c:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/i/a;->c:Lkik/core/e/f;
 
     const-string v1, "ab_settings"
 
     const/4 v2, 0x0
 
-    iget-object v3, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v3, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-virtual {v3}, Lkik/core/datatypes/a;->d()Lcom/kik/xdata/model/addressbook/XAddressBookSettings;
 
@@ -361,9 +361,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/i/a$6;
+    new-instance v1, Lkik/arcane/i/a$6;
 
-    invoke-direct {v1, p0}, Lkik/android/i/a$6;-><init>(Lkik/android/i/a;)V
+    invoke-direct {v1, p0}, Lkik/arcane/i/a$6;-><init>(Lkik/arcane/i/a;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -374,7 +374,7 @@
     :cond_0
     new-instance v0, Lkik/core/datatypes/a;
 
-    invoke-virtual {p0}, Lkik/android/i/a;->g()Z
+    invoke-virtual {p0}, Lkik/arcane/i/a;->g()Z
 
     move-result v1
 
@@ -384,7 +384,7 @@
 
     invoke-direct {v0, v1, p1}, Lkik/core/datatypes/a;-><init>(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
 
-    iput-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iput-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     goto :goto_0
 .end method
@@ -418,7 +418,7 @@
 
     .line 94
     :cond_1
-    invoke-virtual {p0}, Lkik/android/i/a;->a()Lcom/google/common/hash/BloomFilter;
+    invoke-virtual {p0}, Lkik/arcane/i/a;->a()Lcom/google/common/hash/BloomFilter;
 
     move-result-object v0
 
@@ -474,7 +474,7 @@
 
     .line 107
     :try_start_0
-    invoke-direct {p0}, Lkik/android/i/a;->l()Ljava/io/File;
+    invoke-direct {p0}, Lkik/arcane/i/a;->l()Ljava/io/File;
 
     move-result-object v0
 
@@ -549,13 +549,13 @@
 
     .prologue
     .line 61
-    iput-object p1, p0, Lkik/android/i/a;->c:Lkik/core/e/f;
+    iput-object p1, p0, Lkik/arcane/i/a;->c:Lkik/core/e/f;
 
     .line 62
-    iput-object p2, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iput-object p2, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     .line 63
-    iget-object v0, p0, Lkik/android/i/a;->f:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/i/a;->f:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
@@ -569,23 +569,23 @@
     invoke-direct {v1, v0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 66
-    invoke-direct {p0}, Lkik/android/i/a;->l()Ljava/io/File;
+    invoke-direct {p0}, Lkik/arcane/i/a;->l()Ljava/io/File;
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lkik/android/util/e;->a(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v1, v0}, Lkik/arcane/util/e;->a(Ljava/io/File;Ljava/io/File;)V
 
     .line 68
-    new-instance v0, Lkik/android/i/a$1;
+    new-instance v0, Lkik/arcane/i/a$1;
 
-    invoke-direct {v0, p0}, Lkik/android/i/a$1;-><init>(Lkik/android/i/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/i/a$1;-><init>(Lkik/arcane/i/a;)V
 
     invoke-virtual {p4, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 77
-    new-instance v0, Lkik/android/i/a$2;
+    new-instance v0, Lkik/arcane/i/a$2;
 
-    invoke-direct {v0, p0}, Lkik/android/i/a$2;-><init>(Lkik/android/i/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/i/a$2;-><init>(Lkik/arcane/i/a;)V
 
     invoke-virtual {p3, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -612,7 +612,7 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 162
-    iget-object v1, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v2, "AddressIntegration.MATCHING_OPT_IN_KEY"
 
@@ -631,13 +631,13 @@
     .line 165
     new-instance v2, Lkik/core/datatypes/a;
 
-    invoke-virtual {p0}, Lkik/android/i/a;->h()Ljava/lang/Boolean;
+    invoke-virtual {p0}, Lkik/arcane/i/a;->h()Ljava/lang/Boolean;
 
     move-result-object v3
 
     invoke-direct {v2, v1, v3}, Lkik/core/datatypes/a;-><init>(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
 
-    iput-object v2, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iput-object v2, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     .line 166
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
@@ -648,7 +648,7 @@
 
     .line 170
     :cond_0
-    iget-object v1, p0, Lkik/android/i/a;->c:Lkik/core/e/f;
+    iget-object v1, p0, Lkik/arcane/i/a;->c:Lkik/core/e/f;
 
     const-string v2, "ab_settings"
 
@@ -659,9 +659,9 @@
     move-result-object v1
 
     .line 171
-    new-instance v2, Lkik/android/i/a$3;
+    new-instance v2, Lkik/arcane/i/a$3;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/i/a$3;-><init>(Lkik/android/i/a;Lcom/kik/events/Promise;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/i/a$3;-><init>(Lkik/arcane/i/a;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v1, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -675,7 +675,7 @@
     const/4 v3, 0x1
 
     .line 205
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v1, "AddressIntegration.MATCHING_OPT_IN_KEY"
 
@@ -684,12 +684,12 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 207
-    iget-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     if-eqz v0, :cond_0
 
     .line 208
-    iget-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -699,13 +699,13 @@
 
     .line 214
     :goto_0
-    iget-object v0, p0, Lkik/android/i/a;->c:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/i/a;->c:Lkik/core/e/f;
 
     const-string v1, "ab_settings"
 
     const/4 v2, 0x0
 
-    iget-object v3, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v3, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-virtual {v3}, Lkik/core/datatypes/a;->d()Lcom/kik/xdata/model/addressbook/XAddressBookSettings;
 
@@ -715,9 +715,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/i/a$4;
+    new-instance v1, Lkik/arcane/i/a$4;
 
-    invoke-direct {v1, p0}, Lkik/android/i/a$4;-><init>(Lkik/android/i/a;)V
+    invoke-direct {v1, p0}, Lkik/arcane/i/a$4;-><init>(Lkik/arcane/i/a;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -732,13 +732,13 @@
 
     move-result-object v1
 
-    invoke-direct {p0}, Lkik/android/i/a;->m()Ljava/lang/Boolean;
+    invoke-direct {p0}, Lkik/arcane/i/a;->m()Ljava/lang/Boolean;
 
     move-result-object v2
 
     invoke-direct {v0, v1, v2}, Lkik/core/datatypes/a;-><init>(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
 
-    iput-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iput-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     goto :goto_0
 .end method
@@ -750,7 +750,7 @@
     const/4 v3, 0x0
 
     .line 232
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v1, "AddressIntegration.MATCHING_OPT_IN_KEY"
 
@@ -759,12 +759,12 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 233
-    iget-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     if-eqz v0, :cond_0
 
     .line 234
-    iget-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -774,13 +774,13 @@
 
     .line 240
     :goto_0
-    iget-object v0, p0, Lkik/android/i/a;->c:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/i/a;->c:Lkik/core/e/f;
 
     const-string v1, "ab_settings"
 
     const/4 v2, 0x0
 
-    iget-object v3, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v3, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-virtual {v3}, Lkik/core/datatypes/a;->d()Lcom/kik/xdata/model/addressbook/XAddressBookSettings;
 
@@ -790,9 +790,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/i/a$5;
+    new-instance v1, Lkik/arcane/i/a$5;
 
-    invoke-direct {v1, p0}, Lkik/android/i/a$5;-><init>(Lkik/android/i/a;)V
+    invoke-direct {v1, p0}, Lkik/arcane/i/a$5;-><init>(Lkik/arcane/i/a;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -807,13 +807,13 @@
 
     move-result-object v1
 
-    invoke-direct {p0}, Lkik/android/i/a;->m()Ljava/lang/Boolean;
+    invoke-direct {p0}, Lkik/arcane/i/a;->m()Ljava/lang/Boolean;
 
     move-result-object v2
 
     invoke-direct {v0, v1, v2}, Lkik/core/datatypes/a;-><init>(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
 
-    iput-object v0, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iput-object v0, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     goto :goto_0
 .end method
@@ -837,12 +837,12 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 295
-    iget-object v1, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v1, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     if-eqz v1, :cond_0
 
     .line 296
-    iget-object v1, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v1, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -852,7 +852,7 @@
 
     .line 299
     :cond_0
-    iget-object v1, p0, Lkik/android/i/a;->c:Lkik/core/e/f;
+    iget-object v1, p0, Lkik/arcane/i/a;->c:Lkik/core/e/f;
 
     const-string v2, "ab_settings"
 
@@ -862,9 +862,9 @@
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/i/a$7;
+    new-instance v2, Lkik/arcane/i/a$7;
 
-    invoke-direct {v2, p0}, Lkik/android/i/a$7;-><init>(Lkik/android/i/a;)V
+    invoke-direct {v2, p0}, Lkik/arcane/i/a$7;-><init>(Lkik/arcane/i/a;)V
 
     invoke-static {v1, v2}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
@@ -880,7 +880,7 @@
 
     .prologue
     .line 329
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v1, "AddressIntegration.MATCHING_OPT_IN_KEY"
 
@@ -889,7 +889,7 @@
     move-result-object v0
 
     .line 330
-    iget-object v1, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v2, "AddressIntegration.UPLOAD_MY_INFO_OPT_IN_KEY"
 
@@ -916,12 +916,12 @@
 
     invoke-direct {v1, v2, v0}, Lkik/core/datatypes/a;-><init>(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
 
-    iput-object v1, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iput-object v1, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     .line 335
-    iget-object v0, p0, Lkik/android/i/a;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/i/a;->a:Lcom/kik/events/Promise;
 
-    iget-object v1, p0, Lkik/android/i/a;->g:Lkik/core/datatypes/a;
+    iget-object v1, p0, Lkik/arcane/i/a;->g:Lkik/core/datatypes/a;
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -940,7 +940,7 @@
 
     .line 337
     :cond_2
-    iget-object v0, p0, Lkik/android/i/a;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/i/a;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->h()Z
 
@@ -949,7 +949,7 @@
     if-nez v0, :cond_0
 
     .line 341
-    iget-object v0, p0, Lkik/android/i/a;->c:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/i/a;->c:Lkik/core/e/f;
 
     const-string v1, "ab_settings"
 
@@ -959,9 +959,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/i/a$8;
+    new-instance v1, Lkik/arcane/i/a$8;
 
-    invoke-direct {v1, p0}, Lkik/android/i/a$8;-><init>(Lkik/android/i/a;)V
+    invoke-direct {v1, p0}, Lkik/arcane/i/a$8;-><init>(Lkik/arcane/i/a;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -973,7 +973,7 @@
 
     .prologue
     .line 384
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v1, "AddressIntegration.MATCHING_OPT_IN_KEY"
 
@@ -996,7 +996,7 @@
 
     .prologue
     .line 391
-    iget-object v0, p0, Lkik/android/i/a;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/i/a;->e:Lkik/core/interfaces/ad;
 
     const-string v1, "AddressIntegration.UPLOAD_MY_INFO_OPT_IN_KEY"
 
@@ -1008,7 +1008,7 @@
     if-nez v0, :cond_0
 
     .line 393
-    invoke-virtual {p0}, Lkik/android/i/a;->g()Z
+    invoke-virtual {p0}, Lkik/arcane/i/a;->g()Z
 
     move-result v0
 
@@ -1039,7 +1039,7 @@
 
     .prologue
     .line 413
-    invoke-virtual {p0}, Lkik/android/i/a;->j()V
+    invoke-virtual {p0}, Lkik/arcane/i/a;->j()V
 
     .line 414
     return-void
@@ -1050,7 +1050,7 @@
 
     .prologue
     .line 419
-    iget-object v0, p0, Lkik/android/i/a;->d:Lkik/core/interfaces/s;
+    iget-object v0, p0, Lkik/arcane/i/a;->d:Lkik/core/interfaces/s;
 
     const-string v1, "addressFilterFile"
 

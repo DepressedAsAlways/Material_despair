@@ -1,5 +1,5 @@
-.class public final Lkik/android/voice/k;
-.super Lkik/android/voice/b;
+.class public final Lkik/arcane/voice/k;
+.super Lkik/arcane/voice/b;
 .source "SourceFile"
 
 
@@ -29,17 +29,17 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/voice/k;->g:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/voice/k;->g:Lorg/slf4j/b;
 
     .line 23
     const/4 v0, 0x0
 
-    sput v0, Lkik/android/voice/k;->j:I
+    sput v0, Lkik/arcane/voice/k;->j:I
 
     .line 24
     const/4 v0, 0x0
 
-    sput-object v0, Lkik/android/voice/k;->k:Landroid/media/MediaCodecInfo;
+    sput-object v0, Lkik/arcane/voice/k;->k:Landroid/media/MediaCodecInfo;
 
     return-void
 .end method
@@ -54,26 +54,26 @@
 
     .prologue
     .line 27
-    invoke-direct {p0}, Lkik/android/voice/b;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/voice/b;-><init>()V
 
     .line 28
-    iput p1, p0, Lkik/android/voice/k;->h:I
+    iput p1, p0, Lkik/arcane/voice/k;->h:I
 
     .line 29
-    iput p2, p0, Lkik/android/voice/k;->i:I
+    iput p2, p0, Lkik/arcane/voice/k;->i:I
 
     .line 30
-    invoke-virtual {p0}, Lkik/android/voice/k;->a()V
+    invoke-virtual {p0}, Lkik/arcane/voice/k;->a()V
 
     .line 32
     new-instance v0, Landroid/media/MediaCodec$BufferInfo;
 
     invoke-direct {v0}, Landroid/media/MediaCodec$BufferInfo;-><init>()V
 
-    iput-object v0, p0, Lkik/android/voice/k;->c:Landroid/media/MediaCodec$BufferInfo;
+    iput-object v0, p0, Lkik/arcane/voice/k;->c:Landroid/media/MediaCodec$BufferInfo;
 
     .line 34
-    invoke-virtual {p0}, Lkik/android/voice/k;->b()V
+    invoke-virtual {p0}, Lkik/arcane/voice/k;->b()V
 
     .line 35
     return-void
@@ -139,7 +139,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->c(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->c(Ljava/lang/Throwable;)V
 
     :cond_1
     move v0, v1
@@ -176,7 +176,7 @@
     const/4 v3, 0x0
 
     .line 41
-    sget-object v0, Lkik/android/voice/k;->k:Landroid/media/MediaCodecInfo;
+    sget-object v0, Lkik/arcane/voice/k;->k:Landroid/media/MediaCodecInfo;
 
     if-nez v0, :cond_0
 
@@ -232,50 +232,50 @@
 
     .line 42
     :goto_2
-    sput-object v0, Lkik/android/voice/k;->k:Landroid/media/MediaCodecInfo;
+    sput-object v0, Lkik/arcane/voice/k;->k:Landroid/media/MediaCodecInfo;
 
     .line 45
     :cond_0
-    sget v0, Lkik/android/voice/k;->j:I
+    sget v0, Lkik/arcane/voice/k;->j:I
 
     if-nez v0, :cond_1
 
     .line 46
-    sget-object v0, Lkik/android/voice/k;->k:Landroid/media/MediaCodecInfo;
+    sget-object v0, Lkik/arcane/voice/k;->k:Landroid/media/MediaCodecInfo;
 
     const-string v1, "video/avc"
 
-    invoke-static {v0, v1}, Lkik/android/voice/k;->a(Landroid/media/MediaCodecInfo;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lkik/arcane/voice/k;->a(Landroid/media/MediaCodecInfo;Ljava/lang/String;)I
 
     move-result v0
 
-    sput v0, Lkik/android/voice/k;->j:I
+    sput v0, Lkik/arcane/voice/k;->j:I
 
     .line 48
     :cond_1
     const-string v0, "video/avc"
 
-    iget v1, p0, Lkik/android/voice/k;->h:I
+    iget v1, p0, Lkik/arcane/voice/k;->h:I
 
-    iget v2, p0, Lkik/android/voice/k;->i:I
+    iget v2, p0, Lkik/arcane/voice/k;->i:I
 
     invoke-static {v0, v1, v2}, Landroid/media/MediaFormat;->createVideoFormat(Ljava/lang/String;II)Landroid/media/MediaFormat;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/voice/k;->a:Landroid/media/MediaFormat;
+    iput-object v0, p0, Lkik/arcane/voice/k;->a:Landroid/media/MediaFormat;
 
     .line 51
-    iget-object v0, p0, Lkik/android/voice/k;->a:Landroid/media/MediaFormat;
+    iget-object v0, p0, Lkik/arcane/voice/k;->a:Landroid/media/MediaFormat;
 
     const-string v1, "color-format"
 
-    sget v2, Lkik/android/voice/k;->j:I
+    sget v2, Lkik/arcane/voice/k;->j:I
 
     invoke-virtual {v0, v1, v2}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     .line 52
-    iget-object v0, p0, Lkik/android/voice/k;->a:Landroid/media/MediaFormat;
+    iget-object v0, p0, Lkik/arcane/voice/k;->a:Landroid/media/MediaFormat;
 
     const-string v1, "bitrate"
 
@@ -284,7 +284,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     .line 53
-    iget-object v0, p0, Lkik/android/voice/k;->a:Landroid/media/MediaFormat;
+    iget-object v0, p0, Lkik/arcane/voice/k;->a:Landroid/media/MediaFormat;
 
     const-string v1, "frame-rate"
 
@@ -293,14 +293,14 @@
     invoke-virtual {v0, v1, v2}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     .line 54
-    iget-object v0, p0, Lkik/android/voice/k;->a:Landroid/media/MediaFormat;
+    iget-object v0, p0, Lkik/arcane/voice/k;->a:Landroid/media/MediaFormat;
 
     const-string v1, "i-frame-interval"
 
     invoke-virtual {v0, v1, v9}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
     .line 56
-    sget-object v0, Lkik/android/voice/k;->k:Landroid/media/MediaCodecInfo;
+    sget-object v0, Lkik/arcane/voice/k;->k:Landroid/media/MediaCodecInfo;
 
     invoke-virtual {v0}, Landroid/media/MediaCodecInfo;->getName()Ljava/lang/String;
 
@@ -310,12 +310,12 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/voice/k;->b:Landroid/media/MediaCodec;
+    iput-object v0, p0, Lkik/arcane/voice/k;->b:Landroid/media/MediaCodec;
 
     .line 57
-    iget-object v0, p0, Lkik/android/voice/k;->b:Landroid/media/MediaCodec;
+    iget-object v0, p0, Lkik/arcane/voice/k;->b:Landroid/media/MediaCodec;
 
-    iget-object v1, p0, Lkik/android/voice/k;->a:Landroid/media/MediaFormat;
+    iget-object v1, p0, Lkik/arcane/voice/k;->a:Landroid/media/MediaFormat;
 
     invoke-virtual {v0, v1, v3, v3, v9}, Landroid/media/MediaCodec;->configure(Landroid/media/MediaFormat;Landroid/view/Surface;Landroid/media/MediaCrypto;I)V
 

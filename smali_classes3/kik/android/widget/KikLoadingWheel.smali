@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/KikLoadingWheel;
+.class public Lkik/arcane/widget/KikLoadingWheel;
 .super Landroid/widget/ImageView;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
     invoke-direct {p0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     .line 27
-    invoke-direct {p0}, Lkik/android/widget/KikLoadingWheel;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikLoadingWheel;->a()V
 
     .line 28
     return-void
@@ -30,7 +30,7 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 33
-    invoke-direct {p0}, Lkik/android/widget/KikLoadingWheel;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikLoadingWheel;->a()V
 
     .line 34
     return-void
@@ -57,17 +57,17 @@
 
     invoke-direct/range {v0 .. v6}, Landroid/view/animation/RotateAnimation;-><init>(FFIFIF)V
 
-    iput-object v0, p0, Lkik/android/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
+    iput-object v0, p0, Lkik/arcane/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
 
     .line 39
-    iget-object v0, p0, Lkik/android/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
+    iget-object v0, p0, Lkik/arcane/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
 
     const-wide/16 v2, 0x2ee
 
     invoke-virtual {v0, v2, v3}, Landroid/view/animation/RotateAnimation;->setDuration(J)V
 
     .line 40
-    iget-object v0, p0, Lkik/android/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
+    iget-object v0, p0, Lkik/arcane/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
 
     new-instance v1, Landroid/view/animation/LinearInterpolator;
 
@@ -76,7 +76,7 @@
     invoke-virtual {v0, v1}, Landroid/view/animation/RotateAnimation;->setInterpolator(Landroid/view/animation/Interpolator;)V
 
     .line 41
-    iget-object v0, p0, Lkik/android/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
+    iget-object v0, p0, Lkik/arcane/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
 
     const/4 v1, -0x1
 
@@ -86,7 +86,7 @@
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/KikLoadingWheel;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/KikLoadingWheel;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -97,7 +97,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/KikLoadingWheel;",
+            "Lkik/arcane/widget/KikLoadingWheel;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -111,7 +111,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/ci;->a(Lkik/android/widget/KikLoadingWheel;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/ci;->a(Lkik/arcane/widget/KikLoadingWheel;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -127,7 +127,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/KikLoadingWheel;Z)V
+.method static synthetic a(Lkik/arcane/widget/KikLoadingWheel;Z)V
     .locals 1
 
     .prologue
@@ -135,25 +135,25 @@
     if-eqz p1, :cond_1
 
     .line 1053
-    iget-object v0, p0, Lkik/android/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
+    iget-object v0, p0, Lkik/arcane/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
 
     if-nez v0, :cond_0
 
     .line 1054
-    invoke-direct {p0}, Lkik/android/widget/KikLoadingWheel;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikLoadingWheel;->a()V
 
     .line 1056
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
+    iget-object v0, p0, Lkik/arcane/widget/KikLoadingWheel;->a:Landroid/view/animation/RotateAnimation;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikLoadingWheel;->startAnimation(Landroid/view/animation/Animation;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikLoadingWheel;->startAnimation(Landroid/view/animation/Animation;)V
 
     :goto_0
     return-void
 
     .line 1059
     :cond_1
-    invoke-virtual {p0}, Lkik/android/widget/KikLoadingWheel;->clearAnimation()V
+    invoke-virtual {p0}, Lkik/arcane/widget/KikLoadingWheel;->clearAnimation()V
 
     goto :goto_0
 .end method

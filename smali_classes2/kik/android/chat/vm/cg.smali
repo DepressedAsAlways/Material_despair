@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/cg;
+.class final synthetic Lkik/arcane/chat/vm/cg;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/cg;
+.field private static final a:Lkik/arcane/chat/vm/cg;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/cg;
+    new-instance v0, Lkik/arcane/chat/vm/cg;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/cg;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/cg;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/cg;->a:Lkik/android/chat/vm/cg;
+    sput-object v0, Lkik/arcane/chat/vm/cg;->a:Lkik/arcane/chat/vm/cg;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lcom/google/common/base/Function;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/cg;->a:Lkik/android/chat/vm/cg;
+    sget-object v0, Lkik/arcane/chat/vm/cg;->a:Lkik/arcane/chat/vm/cg;
 
     return-object v0
 .end method
@@ -43,9 +43,9 @@
 .method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    check-cast p1, Lkik/android/chat/vm/DialogViewModel$a;
+    check-cast p1, Lkik/arcane/chat/vm/DialogViewModel$a;
 
-    invoke-virtual {p1}, Lkik/android/chat/vm/DialogViewModel$a;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/chat/vm/DialogViewModel$a;->a()Ljava/lang/String;
 
     move-result-object v0
 

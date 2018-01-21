@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/MvvmFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.class public Lkik/arcane/chat/fragment/MvvmFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/MvvmFragment$a;
+        Lkik/arcane/chat/fragment/MvvmFragment$a;
     }
 .end annotation
 
@@ -18,7 +18,7 @@
             "Ljava/util/Map",
             "<",
             "Ljava/lang/Integer;",
-            "Lkik/android/chat/vm/br;",
+            "Lkik/arcane/chat/vm/br;",
             ">;"
         }
     .end annotation
@@ -28,13 +28,13 @@
 
 
 # instance fields
-.field protected a:Lkik/android/chat/vm/br;
+.field protected a:Lkik/arcane/chat/vm/br;
 
 .field protected b:Landroid/view/View;
 
 .field protected c:Landroid/view/LayoutInflater;
 
-.field protected d:Lkik/android/chat/fragment/MvvmFragment$a;
+.field protected d:Lkik/arcane/chat/fragment/MvvmFragment$a;
 
 
 # direct methods
@@ -47,14 +47,14 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/MvvmFragment;->e:Ljava/util/Map;
+    sput-object v0, Lkik/arcane/chat/fragment/MvvmFragment;->e:Ljava/util/Map;
 
     .line 26
     new-instance v0, Ljava/util/Random;
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/MvvmFragment;->f:Ljava/util/Random;
+    sput-object v0, Lkik/arcane/chat/fragment/MvvmFragment;->f:Ljava/util/Random;
 
     return-void
 .end method
@@ -64,14 +64,14 @@
 
     .prologue
     .line 23
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     .line 31
-    new-instance v0, Lkik/android/chat/fragment/MvvmFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/MvvmFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/MvvmFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/MvvmFragment$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/MvvmFragment;->d:Lkik/android/chat/fragment/MvvmFragment$a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/MvvmFragment;->d:Lkik/arcane/chat/fragment/MvvmFragment$a;
 
     return-void
 .end method
@@ -81,7 +81,7 @@
 
     .prologue
     .line 23
-    sget-object v0, Lkik/android/chat/fragment/MvvmFragment;->e:Ljava/util/Map;
+    sget-object v0, Lkik/arcane/chat/fragment/MvvmFragment;->e:Ljava/util/Map;
 
     return-object v0
 .end method
@@ -91,7 +91,7 @@
 
     .prologue
     .line 23
-    sget-object v0, Lkik/android/chat/fragment/MvvmFragment;->f:Ljava/util/Random;
+    sget-object v0, Lkik/arcane/chat/fragment/MvvmFragment;->f:Ljava/util/Random;
 
     return-object v0
 .end method
@@ -113,24 +113,24 @@
 
     .prologue
     .line 112
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MvvmFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MvvmFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
     .line 113
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     .line 115
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 117
-    iget-object v0, p0, Lkik/android/chat/fragment/MvvmFragment;->d:Lkik/android/chat/fragment/MvvmFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MvvmFragment;->d:Lkik/arcane/chat/fragment/MvvmFragment$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MvvmFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MvvmFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/MvvmFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/MvvmFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 118
     return-void
@@ -142,9 +142,9 @@
     .prologue
     .line 86
     .line 1106
-    iget-object v0, p0, Lkik/android/chat/fragment/MvvmFragment;->d:Lkik/android/chat/fragment/MvvmFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MvvmFragment;->d:Lkik/arcane/chat/fragment/MvvmFragment$a;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/MvvmFragment$a;->a(Lkik/android/chat/fragment/MvvmFragment$a;)I
+    invoke-static {v0}, Lkik/arcane/chat/fragment/MvvmFragment$a;->a(Lkik/arcane/chat/fragment/MvvmFragment$a;)I
 
     move-result v0
 
@@ -160,37 +160,37 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/chat/fragment/MvvmFragment;->b:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/MvvmFragment;->b:Landroid/view/View;
 
     .line 89
-    iput-object p1, p0, Lkik/android/chat/fragment/MvvmFragment;->c:Landroid/view/LayoutInflater;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/MvvmFragment;->c:Landroid/view/LayoutInflater;
 
     .line 1123
-    iget-object v1, p0, Lkik/android/chat/fragment/MvvmFragment;->a:Lkik/android/chat/vm/br;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MvvmFragment;->a:Lkik/arcane/chat/vm/br;
 
     if-nez v1, :cond_0
 
     .line 1124
-    iget-object v1, p0, Lkik/android/chat/fragment/MvvmFragment;->d:Lkik/android/chat/fragment/MvvmFragment$a;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MvvmFragment;->d:Lkik/arcane/chat/fragment/MvvmFragment$a;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/MvvmFragment$a;->b(Lkik/android/chat/fragment/MvvmFragment$a;)Lkik/android/chat/vm/br;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/MvvmFragment$a;->b(Lkik/arcane/chat/fragment/MvvmFragment$a;)Lkik/arcane/chat/vm/br;
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/chat/fragment/MvvmFragment;->a:Lkik/android/chat/vm/br;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/MvvmFragment;->a:Lkik/arcane/chat/vm/br;
 
     .line 1127
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/MvvmFragment;->a:Lkik/android/chat/vm/br;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MvvmFragment;->a:Lkik/arcane/chat/vm/br;
 
     .line 92
     if-nez v1, :cond_1
 
     .line 94
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MvvmFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MvvmFragment;->finish()V
 
     .line 95
-    iget-object v0, p0, Lkik/android/chat/fragment/MvvmFragment;->b:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MvvmFragment;->b:Landroid/view/View;
 
     .line 101
     :goto_0
@@ -198,7 +198,7 @@
 
     .line 98
     :cond_1
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/MvvmFragment;->attachVm(Lkik/android/chat/vm/br;)Lkik/android/chat/vm/br;
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/MvvmFragment;->attachVm(Lkik/arcane/chat/vm/br;)Lkik/arcane/chat/vm/br;
 
     .line 99
     const/16 v2, 0xe
@@ -206,7 +206,7 @@
     invoke-virtual {v0, v2, v1}, Landroid/databinding/ViewDataBinding;->setVariable(ILjava/lang/Object;)Z
 
     .line 101
-    iget-object v0, p0, Lkik/android/chat/fragment/MvvmFragment;->b:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MvvmFragment;->b:Landroid/view/View;
 
     goto :goto_0
 .end method

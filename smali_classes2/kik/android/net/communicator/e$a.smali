@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/net/communicator/e$a;
+.class public interface abstract Lkik/arcane/net/communicator/e$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/communicator/e;
+    value = Lkik/arcane/net/communicator/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

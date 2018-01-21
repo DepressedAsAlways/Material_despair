@@ -1,21 +1,21 @@
-.class public final Lkik/android/chat/vm/do;
-.super Lkik/android/chat/vm/DialogViewModel;
+.class public final Lkik/arcane/chat/vm/do;
+.super Lkik/arcane/chat/vm/DialogViewModel;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bf;
+.implements Lkik/arcane/chat/vm/bf;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/do$a;
+        Lkik/arcane/chat/vm/do$a;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+.field private a:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
 
 # direct methods
@@ -24,29 +24,29 @@
 
     .prologue
     .line 7
-    invoke-direct {p0}, Lkik/android/chat/vm/DialogViewModel;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/DialogViewModel;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/do;Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;)Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+.method static synthetic a(Lkik/arcane/chat/vm/do;Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;)Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
     .locals 0
 
     .prologue
     .line 7
-    iput-object p1, p0, Lkik/android/chat/vm/do;->a:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    iput-object p1, p0, Lkik/arcane/chat/vm/do;->a:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
     return-object p1
 .end method
 
 
 # virtual methods
-.method public final a()Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+.method public final a()Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
     .locals 1
 
     .prologue
     .line 33
-    iget-object v0, p0, Lkik/android/chat/vm/do;->a:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    iget-object v0, p0, Lkik/arcane/chat/vm/do;->a:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
     return-object v0
 .end method

@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AudioMicLayoutView_ViewBinding;
+.class public Lkik/arcane/widget/AudioMicLayoutView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/widget/AudioMicLayoutView;
+.field private a:Lkik/arcane/widget/AudioMicLayoutView;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/AudioMicLayoutView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/widget/AudioMicLayoutView;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 25
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView_ViewBinding;->a:Lkik/android/widget/AudioMicLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioMicLayoutView;
 
     .line 27
     const v0, 0x7f100155
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     .line 28
     const v0, 0x7f100153
@@ -45,7 +45,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
 
     .line 29
     const v0, 0x7f100154
@@ -56,7 +56,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
 
     .line 30
     const v0, 0x7f100156
@@ -71,7 +71,7 @@
 
     check-cast v0, Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    iput-object v0, p1, Lkik/android/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iput-object v0, p1, Lkik/arcane/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
     .line 31
     return-void
@@ -86,7 +86,7 @@
     const/4 v1, 0x0
 
     .line 36
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView_ViewBinding;->a:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioMicLayoutView;
 
     .line 37
     if-nez v0, :cond_0
@@ -101,19 +101,19 @@
 
     .line 38
     :cond_0
-    iput-object v1, p0, Lkik/android/widget/AudioMicLayoutView_ViewBinding;->a:Lkik/android/widget/AudioMicLayoutView;
+    iput-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioMicLayoutView;
 
     .line 40
-    iput-object v1, v0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     .line 41
-    iput-object v1, v0, Lkik/android/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
 
     .line 42
-    iput-object v1, v0, Lkik/android/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/AudioMicLayoutView;->_recordingBg:Landroid/view/View;
 
     .line 43
-    iput-object v1, v0, Lkik/android/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iput-object v1, v0, Lkik/arcane/widget/AudioMicLayoutView;->_toolTipContainer:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
     .line 44
     return-void

@@ -1,24 +1,24 @@
-.class public interface abstract Lkik/android/chat/presentation/c;
+.class public interface abstract Lkik/arcane/chat/presentation/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/presentation/bv;
+.implements Lkik/arcane/chat/presentation/bv;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/presentation/c$a;
+        Lkik/arcane/chat/presentation/c$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkik/android/chat/presentation/bv",
+        "Lkik/arcane/chat/presentation/bv",
         "<",
-        "Lkik/android/chat/view/b;",
+        "Lkik/arcane/chat/view/b;",
         ">;"
     }
 .end annotation
@@ -31,10 +31,10 @@
 .method public abstract a(Ljava/lang/String;Z)V
 .end method
 
-.method public abstract a(Lkik/android/chat/presentation/c$a;)V
+.method public abstract a(Lkik/arcane/chat/presentation/c$a;)V
 .end method
 
-.method public abstract a(Lkik/android/util/KeyboardManipulator;)V
+.method public abstract a(Lkik/arcane/util/KeyboardManipulator;)V
 .end method
 
 .method public abstract a(Lkik/core/interfaces/ai;)V

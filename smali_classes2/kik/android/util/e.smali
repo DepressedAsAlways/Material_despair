@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/e;
+.class public final Lkik/arcane/util/e;
 .super Lkik/core/util/c;
 .source "SourceFile"
 
@@ -53,7 +53,7 @@
 
     .line 53
     :cond_4
-    invoke-static {p0, p1}, Lkik/android/util/e;->b(Ljava/io/File;Ljava/io/File;)Z
+    invoke-static {p0, p1}, Lkik/arcane/util/e;->b(Ljava/io/File;Ljava/io/File;)Z
 
     move-result v0
 
@@ -83,7 +83,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 .end method

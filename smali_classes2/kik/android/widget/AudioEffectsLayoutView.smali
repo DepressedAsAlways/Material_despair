@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AudioEffectsLayoutView;
+.class public Lkik/arcane/widget/AudioEffectsLayoutView;
 .super Landroid/widget/RelativeLayout;
 .source "SourceFile"
 
@@ -77,7 +77,7 @@
 
 .field private j:Landroid/view/ViewStub;
 
-.field private k:Lkik/android/chat/vm/messaging/ei;
+.field private k:Lkik/arcane/chat/vm/messaging/ei;
 
 .field private final l:Landroid/animation/Animator$AnimatorListener;
 
@@ -92,7 +92,7 @@
 
     .prologue
     .line 36
-    const-class v0, Lkik/android/widget/AudioEffectsLayoutView;
+    const-class v0, Lkik/arcane/widget/AudioEffectsLayoutView;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -102,16 +102,16 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/widget/AudioEffectsLayoutView;->b:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/widget/AudioEffectsLayoutView;->b:Lorg/slf4j/b;
 
     .line 38
-    const-class v0, Lkik/android/widget/AudioEffectsLayoutView;
+    const-class v0, Lkik/arcane/widget/AudioEffectsLayoutView;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/widget/AudioEffectsLayoutView;->c:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/widget/AudioEffectsLayoutView;->c:Ljava/lang/String;
 
     return-void
 .end method
@@ -126,34 +126,34 @@
     invoke-direct {p0, p1}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
 
     .line 51
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
 
     .line 58
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
 
     .line 67
-    new-instance v0, Lkik/android/widget/AudioEffectsLayoutView$1;
+    new-instance v0, Lkik/arcane/widget/AudioEffectsLayoutView$1;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AudioEffectsLayoutView$1;-><init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AudioEffectsLayoutView$1;-><init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->l:Landroid/animation/Animator$AnimatorListener;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->l:Landroid/animation/Animator$AnimatorListener;
 
     .line 79
-    new-instance v0, Lkik/android/widget/AudioEffectsLayoutView$2;
+    new-instance v0, Lkik/arcane/widget/AudioEffectsLayoutView$2;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AudioEffectsLayoutView$2;-><init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AudioEffectsLayoutView$2;-><init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->m:Landroid/animation/Animator$AnimatorListener;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->m:Landroid/animation/Animator$AnimatorListener;
 
     .line 137
-    new-instance v0, Lkik/android/widget/AudioEffectsLayoutView$3;
+    new-instance v0, Lkik/arcane/widget/AudioEffectsLayoutView$3;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AudioEffectsLayoutView$3;-><init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AudioEffectsLayoutView$3;-><init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     .line 174
-    invoke-direct {p0}, Lkik/android/widget/AudioEffectsLayoutView;->d()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioEffectsLayoutView;->d()V
 
     .line 175
     return-void
@@ -169,45 +169,45 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 51
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
 
     .line 58
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
 
     .line 67
-    new-instance v0, Lkik/android/widget/AudioEffectsLayoutView$1;
+    new-instance v0, Lkik/arcane/widget/AudioEffectsLayoutView$1;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AudioEffectsLayoutView$1;-><init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AudioEffectsLayoutView$1;-><init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->l:Landroid/animation/Animator$AnimatorListener;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->l:Landroid/animation/Animator$AnimatorListener;
 
     .line 79
-    new-instance v0, Lkik/android/widget/AudioEffectsLayoutView$2;
+    new-instance v0, Lkik/arcane/widget/AudioEffectsLayoutView$2;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AudioEffectsLayoutView$2;-><init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AudioEffectsLayoutView$2;-><init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->m:Landroid/animation/Animator$AnimatorListener;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->m:Landroid/animation/Animator$AnimatorListener;
 
     .line 137
-    new-instance v0, Lkik/android/widget/AudioEffectsLayoutView$3;
+    new-instance v0, Lkik/arcane/widget/AudioEffectsLayoutView$3;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AudioEffectsLayoutView$3;-><init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AudioEffectsLayoutView$3;-><init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     .line 180
-    invoke-direct {p0}, Lkik/android/widget/AudioEffectsLayoutView;->d()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioEffectsLayoutView;->d()V
 
     .line 181
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AudioEffectsLayoutView;Landroid/widget/ToggleButton;)Landroid/widget/ToggleButton;
+.method static synthetic a(Lkik/arcane/widget/AudioEffectsLayoutView;Landroid/widget/ToggleButton;)Landroid/widget/ToggleButton;
     .locals 0
 
     .prologue
     .line 34
-    iput-object p1, p0, Lkik/android/widget/AudioEffectsLayoutView;->g:Landroid/widget/ToggleButton;
+    iput-object p1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->g:Landroid/widget/ToggleButton;
 
     return-object p1
 .end method
@@ -217,7 +217,7 @@
 
     .prologue
     .line 34
-    sget-object v0, Lkik/android/widget/AudioEffectsLayoutView;->c:Ljava/lang/String;
+    sget-object v0, Lkik/arcane/widget/AudioEffectsLayoutView;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -227,7 +227,7 @@
 
     .prologue
     .line 119
-    invoke-static {p0}, Lkik/android/widget/c;->a(Lkik/android/widget/AudioEffectsLayoutView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/c;->a(Lkik/arcane/widget/AudioEffectsLayoutView;)Ljava/lang/Runnable;
 
     move-result-object v0
 
@@ -237,30 +237,30 @@
     move-result-wide v2
 
     .line 119
-    invoke-virtual {p0, v0, v2, v3}, Lkik/android/widget/AudioEffectsLayoutView;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {p0, v0, v2, v3}, Lkik/arcane/widget/AudioEffectsLayoutView;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 125
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AudioEffectsLayoutView;)V
+.method static synthetic a(Lkik/arcane/widget/AudioEffectsLayoutView;)V
     .locals 1
 
     .prologue
     .line 120
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
 
     if-eqz v0, :cond_0
 
     .line 121
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
 
     invoke-virtual {v0}, Lcom/nhaarman/supertooltips/a;->a()V
 
     .line 122
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
 
     .line 124
     :cond_0
@@ -272,27 +272,27 @@
 
     .prologue
     .line 34
-    sget-object v0, Lkik/android/widget/AudioEffectsLayoutView;->b:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/widget/AudioEffectsLayoutView;->b:Lorg/slf4j/b;
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/widget/AudioEffectsLayoutView;)V
+.method static synthetic b(Lkik/arcane/widget/AudioEffectsLayoutView;)V
     .locals 0
 
     .prologue
     .line 106
-    invoke-direct {p0}, Lkik/android/widget/AudioEffectsLayoutView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioEffectsLayoutView;->c()V
 
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/widget/AudioEffectsLayoutView;)Landroid/widget/ToggleButton;
+.method static synthetic c(Lkik/arcane/widget/AudioEffectsLayoutView;)Landroid/widget/ToggleButton;
     .locals 1
 
     .prologue
     .line 34
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->g:Landroid/widget/ToggleButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->g:Landroid/widget/ToggleButton;
 
     return-object v0
 .end method
@@ -308,7 +308,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/widget/AudioEffectsLayoutView;->a(Ljava/lang/Long;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/AudioEffectsLayoutView;->a(Ljava/lang/Long;)V
 
     .line 115
     return-void
@@ -319,7 +319,7 @@
 
     .prologue
     .line 185
-    invoke-virtual {p0}, Lkik/android/widget/AudioEffectsLayoutView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioEffectsLayoutView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -337,7 +337,7 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 187
-    invoke-virtual {p0}, Lkik/android/widget/AudioEffectsLayoutView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioEffectsLayoutView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -347,56 +347,56 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->e:F
+    iput v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->e:F
 
     .line 188
-    iget v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->e:F
+    iget v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->e:F
 
-    iget v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->e:F
+    iget v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->e:F
 
     add-float/2addr v0, v1
 
-    iput v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->f:F
+    iput v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->f:F
 
     .line 189
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_effectBaby:Landroid/widget/ToggleButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectBaby:Landroid/widget/ToggleButton;
 
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/ToggleButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 190
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_effectRobot:Landroid/widget/ToggleButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectRobot:Landroid/widget/ToggleButton;
 
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/ToggleButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 191
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
 
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/ToggleButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 192
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_effectAlien:Landroid/widget/ToggleButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectAlien:Landroid/widget/ToggleButton;
 
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/ToggleButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 193
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_effectBunny:Landroid/widget/ToggleButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectBunny:Landroid/widget/ToggleButton;
 
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/ToggleButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     .line 194
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_effectNone:Landroid/widget/ToggleButton;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectNone:Landroid/widget/ToggleButton;
 
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->n:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/ToggleButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
@@ -404,7 +404,7 @@
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/widget/AudioEffectsLayoutView;)V
+.method static synthetic d(Lkik/arcane/widget/AudioEffectsLayoutView;)V
     .locals 1
 
     .prologue
@@ -416,29 +416,29 @@
     return-void
 .end method
 
-.method static synthetic e(Lkik/android/widget/AudioEffectsLayoutView;)V
+.method static synthetic e(Lkik/arcane/widget/AudioEffectsLayoutView;)V
     .locals 4
 
     .prologue
     .line 34
     .line 2090
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
 
     if-nez v0, :cond_0
 
     .line 2091
     const v0, 0x7f10014c
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/AudioEffectsLayoutView;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/AudioEffectsLayoutView;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/view/ViewStub;
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
 
     .line 2092
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->j:Landroid/view/ViewStub;
 
     invoke-virtual {v0}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
 
@@ -446,7 +446,7 @@
 
     check-cast v0, Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->a:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->a:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
     .line 2094
     :cond_0
@@ -465,7 +465,7 @@
     const v1, 0x7f090523
 
     .line 2095
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -476,7 +476,7 @@
     const v1, 0x7f0e0069
 
     .line 2096
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v1
 
@@ -487,7 +487,7 @@
     const/high16 v1, 0x41700000    # 15.0f
 
     .line 2097
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -498,7 +498,7 @@
     const/high16 v1, 0x41100000    # 9.0f
 
     .line 2098
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -509,7 +509,7 @@
     const/high16 v1, 0x41a00000    # 20.0f
 
     .line 2099
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -522,7 +522,7 @@
     const/high16 v1, 0x3f800000    # 1.0f
 
     .line 2100
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -539,7 +539,7 @@
 
     const v1, 0x7f0e0010
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v1
 
@@ -550,7 +550,7 @@
     const/high16 v1, 0x41b00000    # 22.0f
 
     .line 2102
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -564,29 +564,29 @@
     move-result-object v0
 
     .line 2105
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->a:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->a:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    iget-object v2, p0, Lkik/android/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
+    iget-object v2, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_effectEvil:Landroid/widget/ToggleButton;
 
     invoke-virtual {v1, v0, v2}, Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;->a(Lcom/nhaarman/supertooltips/ToolTip;Landroid/view/View;)Lcom/nhaarman/supertooltips/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
+    iput-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
 
     .line 2106
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->d:Lcom/nhaarman/supertooltips/a;
 
-    invoke-static {p0}, Lkik/android/widget/b;->a(Lkik/android/widget/AudioEffectsLayoutView;)Lcom/nhaarman/supertooltips/a$c;
+    invoke-static {p0}, Lkik/arcane/widget/b;->a(Lkik/arcane/widget/AudioEffectsLayoutView;)Lcom/nhaarman/supertooltips/a$c;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/nhaarman/supertooltips/a;->a(Lcom/nhaarman/supertooltips/a$c;)V
 
     .line 2107
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->k:Lkik/android/chat/vm/messaging/ei;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->k:Lkik/arcane/chat/vm/messaging/ei;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/messaging/ei;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/messaging/ei;->b()V
 
     .line 2109
     const-wide/16 v0, 0xbb8
@@ -595,38 +595,38 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/widget/AudioEffectsLayoutView;->a(Ljava/lang/Long;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/AudioEffectsLayoutView;->a(Ljava/lang/Long;)V
 
     .line 34
     return-void
 .end method
 
-.method static synthetic f(Lkik/android/widget/AudioEffectsLayoutView;)V
+.method static synthetic f(Lkik/arcane/widget/AudioEffectsLayoutView;)V
     .locals 0
 
     .prologue
     .line 34
-    invoke-direct {p0}, Lkik/android/widget/AudioEffectsLayoutView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/AudioEffectsLayoutView;->c()V
 
     return-void
 .end method
 
-.method static synthetic g(Lkik/android/widget/AudioEffectsLayoutView;)Lrx/functions/b;
+.method static synthetic g(Lkik/arcane/widget/AudioEffectsLayoutView;)Lrx/functions/b;
     .locals 1
 
     .prologue
     .line 34
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->i:Lrx/functions/b;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->i:Lrx/functions/b;
 
     return-object v0
 .end method
 
-.method static synthetic h(Lkik/android/widget/AudioEffectsLayoutView;)Ljava/lang/Runnable;
+.method static synthetic h(Lkik/arcane/widget/AudioEffectsLayoutView;)Ljava/lang/Runnable;
     .locals 1
 
     .prologue
     .line 34
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->h:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->h:Ljava/lang/Runnable;
 
     return-object v0
 .end method
@@ -638,18 +638,18 @@
 
     .prologue
     .line 129
-    iput-object p1, p0, Lkik/android/widget/AudioEffectsLayoutView;->h:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->h:Ljava/lang/Runnable;
 
     .line 130
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/ei;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/ei;)V
     .locals 0
 
     .prologue
     .line 64
-    iput-object p1, p0, Lkik/android/widget/AudioEffectsLayoutView;->k:Lkik/android/chat/vm/messaging/ei;
+    iput-object p1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->k:Lkik/arcane/chat/vm/messaging/ei;
 
     .line 65
     return-void
@@ -660,7 +660,7 @@
 
     .prologue
     .line 134
-    iput-object p1, p0, Lkik/android/widget/AudioEffectsLayoutView;->i:Lrx/functions/b;
+    iput-object p1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->i:Lrx/functions/b;
 
     .line 135
     return-void
@@ -671,7 +671,7 @@
 
     .prologue
     .line 221
-    invoke-virtual {p0}, Lkik/android/widget/AudioEffectsLayoutView;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioEffectsLayoutView;->getVisibility()I
 
     move-result v0
 
@@ -684,32 +684,32 @@
     invoke-super {p0, p1}, Landroid/widget/RelativeLayout;->setVisibility(I)V
 
     .line 1199
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->clearAnimation()V
 
     .line 1200
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
-    iget v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->f:F
+    iget v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->f:F
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setY(F)V
 
     .line 1201
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->k:Lkik/android/chat/vm/messaging/ei;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->k:Lkik/arcane/chat/vm/messaging/ei;
 
     .line 1202
-    invoke-interface {v0}, Lkik/android/chat/vm/messaging/ei;->a()Z
+    invoke-interface {v0}, Lkik/arcane/chat/vm/messaging/ei;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->m:Landroid/animation/Animator$AnimatorListener;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->m:Landroid/animation/Animator$AnimatorListener;
 
     .line 1204
     :goto_0
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -721,7 +721,7 @@
 
     move-result-object v1
 
-    iget v2, p0, Lkik/android/widget/AudioEffectsLayoutView;->e:F
+    iget v2, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->e:F
 
     invoke-virtual {v1, v2}, Landroid/view/ViewPropertyAnimator;->y(F)Landroid/view/ViewPropertyAnimator;
 
@@ -764,25 +764,25 @@
     if-ne p1, v0, :cond_0
 
     .line 1212
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->clearAnimation()V
 
     .line 1213
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
-    iget v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->e:F
+    iget v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->e:F
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setY(F)V
 
     .line 1214
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->_view:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
-    iget v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->f:F
+    iget v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->f:F
 
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->y(F)Landroid/view/ViewPropertyAnimator;
 
@@ -809,7 +809,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/AudioEffectsLayoutView;->l:Landroid/animation/Animator$AnimatorListener;
+    iget-object v1, p0, Lkik/arcane/widget/AudioEffectsLayoutView;->l:Landroid/animation/Animator$AnimatorListener;
 
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 

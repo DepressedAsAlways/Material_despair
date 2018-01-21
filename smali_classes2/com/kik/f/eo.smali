@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/voice/g;",
+        "Lkik/arcane/voice/g;",
         ">;"
     }
 .end annotation
@@ -131,7 +131,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/voice/g;",
+            "Lkik/arcane/voice/g;",
             ">;"
         }
     .end annotation
@@ -163,9 +163,9 @@
     check-cast v0, Lcom/kik/storage/s;
 
     .line 2023
-    new-instance v1, Lkik/android/voice/s;
+    new-instance v1, Lkik/arcane/voice/s;
 
-    invoke-direct {v1, v0}, Lkik/android/voice/s;-><init>(Lcom/kik/storage/s;)V
+    invoke-direct {v1, v0}, Lkik/arcane/voice/s;-><init>(Lcom/kik/storage/s;)V
 
     .line 1031
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/voice/g;
+    check-cast v0, Lkik/arcane/voice/g;
 
     .line 10
     return-object v0

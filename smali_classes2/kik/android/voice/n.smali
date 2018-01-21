@@ -1,15 +1,15 @@
-.class public Lkik/android/voice/n;
+.class public Lkik/arcane/voice/n;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/voice/f;
+.implements Lkik/arcane/voice/f;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/voice/n$a;
+        Lkik/arcane/voice/n$a;
     }
 .end annotation
 
@@ -48,7 +48,7 @@
     .end annotation
 .end field
 
-.field private l:Lkik/android/voice/n$a;
+.field private l:Lkik/arcane/voice/n$a;
 
 .field private m:Ljava/io/FileOutputStream;
 
@@ -61,7 +61,7 @@
 
     .prologue
     .line 31
-    const-class v0, Lkik/android/voice/n;
+    const-class v0, Lkik/arcane/voice/n;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -71,7 +71,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/voice/n;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/voice/n;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -88,38 +88,38 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 33
-    iput v0, p0, Lkik/android/voice/n;->c:I
+    iput v0, p0, Lkik/arcane/voice/n;->c:I
 
     .line 34
-    iput-boolean v0, p0, Lkik/android/voice/n;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/n;->d:Z
 
     .line 35
-    iput-boolean v0, p0, Lkik/android/voice/n;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/n;->e:Z
 
     .line 42
     new-array v0, v1, [Ljava/lang/String;
 
-    iput-object v0, p0, Lkik/android/voice/n;->i:[Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/voice/n;->i:[Ljava/lang/String;
 
     .line 43
     new-array v0, v1, [Ljava/io/FileOutputStream;
 
-    iput-object v0, p0, Lkik/android/voice/n;->j:[Ljava/io/FileOutputStream;
+    iput-object v0, p0, Lkik/arcane/voice/n;->j:[Ljava/io/FileOutputStream;
 
     .line 45
     invoke-static {}, Lrx/subjects/a;->l()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/voice/n;->k:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/voice/n;->k:Lrx/subjects/a;
 
     .line 47
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/voice/n;->m:Ljava/io/FileOutputStream;
+    iput-object v0, p0, Lkik/arcane/voice/n;->m:Ljava/io/FileOutputStream;
 
     .line 52
-    iput-object p1, p0, Lkik/android/voice/n;->h:Lcom/kik/storage/s;
+    iput-object p1, p0, Lkik/arcane/voice/n;->h:Lcom/kik/storage/s;
 
     .line 53
     const v0, 0xac44
@@ -134,25 +134,25 @@
 
     mul-int/lit8 v0, v0, 0x2
 
-    iput v0, p0, Lkik/android/voice/n;->c:I
+    iput v0, p0, Lkik/arcane/voice/n;->c:I
 
     .line 54
-    new-instance v0, Lkik/android/voice/n$a;
+    new-instance v0, Lkik/arcane/voice/n$a;
 
-    invoke-direct {v0, p0}, Lkik/android/voice/n$a;-><init>(Lkik/android/voice/n;)V
+    invoke-direct {v0, p0}, Lkik/arcane/voice/n$a;-><init>(Lkik/arcane/voice/n;)V
 
-    iput-object v0, p0, Lkik/android/voice/n;->l:Lkik/android/voice/n$a;
+    iput-object v0, p0, Lkik/arcane/voice/n;->l:Lkik/arcane/voice/n$a;
 
     .line 55
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/voice/n;I)I
+.method static synthetic a(Lkik/arcane/voice/n;I)I
     .locals 0
 
     .prologue
     .line 28
-    iput p1, p0, Lkik/android/voice/n;->n:I
+    iput p1, p0, Lkik/arcane/voice/n;->n:I
 
     return p1
 .end method
@@ -173,20 +173,20 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/voice/n;)V
+.method static synthetic a(Lkik/arcane/voice/n;)V
     .locals 1
 
     .prologue
     .line 90
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkik/android/voice/n;->a(Z)V
+    invoke-direct {p0, v0}, Lkik/arcane/voice/n;->a(Z)V
 
     .line 92
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/voice/n;Ljava/lang/Throwable;)V
+.method static synthetic a(Lkik/arcane/voice/n;Ljava/lang/Throwable;)V
     .locals 2
 
     .prologue
@@ -206,13 +206,13 @@
     .line 88
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/voice/n;->a(Z)V
+    invoke-direct {p0, v0}, Lkik/arcane/voice/n;->a(Z)V
 
     .line 89
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/voice/n;Ljava/nio/ByteBuffer;)V
+.method static synthetic a(Lkik/arcane/voice/n;Ljava/nio/ByteBuffer;)V
     .locals 5
 
     .prologue
@@ -248,14 +248,14 @@
 
     .line 1153
     :try_start_0
-    iget-object v0, p0, Lkik/android/voice/n;->j:[Ljava/io/FileOutputStream;
+    iget-object v0, p0, Lkik/arcane/voice/n;->j:[Ljava/io/FileOutputStream;
 
     aget-object v0, v0, v1
 
     if-eqz v0, :cond_0
 
     .line 1154
-    iget-object v0, p0, Lkik/android/voice/n;->j:[Ljava/io/FileOutputStream;
+    iget-object v0, p0, Lkik/arcane/voice/n;->j:[Ljava/io/FileOutputStream;
 
     aget-object v0, v0, v1
 
@@ -299,14 +299,14 @@
 
     .line 100
     :try_start_0
-    iget-object v1, p0, Lkik/android/voice/n;->j:[Ljava/io/FileOutputStream;
+    iget-object v1, p0, Lkik/arcane/voice/n;->j:[Ljava/io/FileOutputStream;
 
     aget-object v1, v1, v0
 
     if-eqz v1, :cond_0
 
     .line 101
-    iget-object v1, p0, Lkik/android/voice/n;->j:[Ljava/io/FileOutputStream;
+    iget-object v1, p0, Lkik/arcane/voice/n;->j:[Ljava/io/FileOutputStream;
 
     aget-object v1, v1, v0
 
@@ -320,18 +320,18 @@
 
     .line 104
     :cond_1
-    iget-boolean v0, p0, Lkik/android/voice/n;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/voice/n;->e:Z
 
     if-eqz v0, :cond_2
 
     .line 105
-    invoke-direct {p0}, Lkik/android/voice/n;->i()J
+    invoke-direct {p0}, Lkik/arcane/voice/n;->i()J
 
     .line 110
     :goto_1
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/voice/n;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/n;->d:Z
 
     .line 116
     :goto_2
@@ -339,7 +339,7 @@
 
     .line 108
     :cond_2
-    iget-object v0, p0, Lkik/android/voice/n;->k:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/voice/n;->k:Lrx/subjects/a;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -371,64 +371,64 @@
     goto :goto_2
 .end method
 
-.method static synthetic b(Lkik/android/voice/n;)I
+.method static synthetic b(Lkik/arcane/voice/n;)I
     .locals 1
 
     .prologue
     .line 28
-    iget v0, p0, Lkik/android/voice/n;->c:I
+    iget v0, p0, Lkik/arcane/voice/n;->c:I
 
     return v0
 .end method
 
-.method static synthetic c(Lkik/android/voice/n;)Z
+.method static synthetic c(Lkik/arcane/voice/n;)Z
     .locals 1
 
     .prologue
     .line 28
-    iget-boolean v0, p0, Lkik/android/voice/n;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/voice/n;->d:Z
 
     return v0
 .end method
 
-.method static synthetic d(Lkik/android/voice/n;)Landroid/media/AudioRecord;
+.method static synthetic d(Lkik/arcane/voice/n;)Landroid/media/AudioRecord;
     .locals 1
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/voice/n;->b:Landroid/media/AudioRecord;
+    iget-object v0, p0, Lkik/arcane/voice/n;->b:Landroid/media/AudioRecord;
 
     return-object v0
 .end method
 
-.method static synthetic e(Lkik/android/voice/n;)Ljava/io/FileOutputStream;
+.method static synthetic e(Lkik/arcane/voice/n;)Ljava/io/FileOutputStream;
     .locals 1
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/voice/n;->m:Ljava/io/FileOutputStream;
+    iget-object v0, p0, Lkik/arcane/voice/n;->m:Ljava/io/FileOutputStream;
 
     return-object v0
 .end method
 
-.method static synthetic f(Lkik/android/voice/n;)Ljava/lang/String;
+.method static synthetic f(Lkik/arcane/voice/n;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/voice/n;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/voice/n;->f:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic g(Lkik/android/voice/n;)Landroid/media/AudioRecord;
+.method static synthetic g(Lkik/arcane/voice/n;)Landroid/media/AudioRecord;
     .locals 1
 
     .prologue
     .line 28
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/voice/n;->b:Landroid/media/AudioRecord;
+    iput-object v0, p0, Lkik/arcane/voice/n;->b:Landroid/media/AudioRecord;
 
     return-object v0
 .end method
@@ -443,15 +443,15 @@
 
     .line 121
     .line 122
-    iget-object v1, p0, Lkik/android/voice/n;->h:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/voice/n;->h:Lcom/kik/storage/s;
 
-    iget-object v2, p0, Lkik/android/voice/n;->g:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/voice/n;->g:Ljava/lang/String;
 
     invoke-interface {v1, v2}, Lcom/kik/storage/s;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/voice/n;->f:Ljava/lang/String;
+    iput-object v1, p0, Lkik/arcane/voice/n;->f:Ljava/lang/String;
 
     move v1, v0
 
@@ -460,13 +460,13 @@
     if-ge v1, v5, :cond_0
 
     .line 124
-    iget-object v2, p0, Lkik/android/voice/n;->i:[Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/voice/n;->i:[Ljava/lang/String;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v4, p0, Lkik/android/voice/n;->f:Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/voice/n;->f:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -502,11 +502,11 @@
     :try_start_0
     new-instance v1, Ljava/io/FileOutputStream;
 
-    iget-object v2, p0, Lkik/android/voice/n;->f:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/voice/n;->f:Ljava/lang/String;
 
     invoke-direct {v1, v2}, Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
 
-    iput-object v1, p0, Lkik/android/voice/n;->m:Ljava/io/FileOutputStream;
+    iput-object v1, p0, Lkik/arcane/voice/n;->m:Ljava/io/FileOutputStream;
 
     move v1, v0
 
@@ -515,11 +515,11 @@
     if-ge v1, v5, :cond_1
 
     .line 132
-    iget-object v2, p0, Lkik/android/voice/n;->j:[Ljava/io/FileOutputStream;
+    iget-object v2, p0, Lkik/arcane/voice/n;->j:[Ljava/io/FileOutputStream;
 
     new-instance v3, Ljava/io/FileOutputStream;
 
-    iget-object v4, p0, Lkik/android/voice/n;->i:[Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/voice/n;->i:[Ljava/lang/String;
 
     aget-object v4, v4, v1
 
@@ -534,7 +534,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v3, p0, Lkik/android/voice/n;->i:[Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/voice/n;->i:[Ljava/lang/String;
 
     aget-object v3, v3, v1
 
@@ -569,14 +569,14 @@
     const-wide/16 v0, 0x0
 
     .line 205
-    iget-object v2, p0, Lkik/android/voice/n;->f:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/voice/n;->f:Ljava/lang/String;
 
     if-eqz v2, :cond_2
 
     .line 206
     new-instance v2, Ljava/io/File;
 
-    iget-object v3, p0, Lkik/android/voice/n;->f:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/voice/n;->f:Ljava/lang/String;
 
     invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -607,7 +607,7 @@
     .line 212
     new-instance v3, Ljava/io/File;
 
-    iget-object v4, p0, Lkik/android/voice/n;->i:[Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/voice/n;->i:[Ljava/lang/String;
 
     aget-object v4, v4, v2
 
@@ -653,15 +653,15 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/voice/n;->g:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/voice/n;->g:Ljava/lang/String;
 
     .line 66
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/voice/n;->n:I
+    iput v0, p0, Lkik/arcane/voice/n;->n:I
 
     .line 67
-    invoke-direct {p0}, Lkik/android/voice/n;->h()Z
+    invoke-direct {p0}, Lkik/arcane/voice/n;->h()Z
 
     move-result v0
 
@@ -669,7 +669,7 @@
     if-nez v0, :cond_0
 
     .line 69
-    invoke-direct {p0, v6}, Lkik/android/voice/n;->a(Z)V
+    invoke-direct {p0, v6}, Lkik/arcane/voice/n;->a(Z)V
 
     .line 94
     :goto_0
@@ -685,25 +685,25 @@
 
     const/4 v4, 0x2
 
-    iget v5, p0, Lkik/android/voice/n;->c:I
+    iget v5, p0, Lkik/arcane/voice/n;->c:I
 
     invoke-direct/range {v0 .. v5}, Landroid/media/AudioRecord;-><init>(IIIII)V
 
-    iput-object v0, p0, Lkik/android/voice/n;->b:Landroid/media/AudioRecord;
+    iput-object v0, p0, Lkik/arcane/voice/n;->b:Landroid/media/AudioRecord;
 
     .line 74
-    iget-object v0, p0, Lkik/android/voice/n;->b:Landroid/media/AudioRecord;
+    iget-object v0, p0, Lkik/arcane/voice/n;->b:Landroid/media/AudioRecord;
 
     invoke-virtual {v0}, Landroid/media/AudioRecord;->startRecording()V
 
     .line 75
-    iput-boolean v1, p0, Lkik/android/voice/n;->d:Z
+    iput-boolean v1, p0, Lkik/arcane/voice/n;->d:Z
 
     .line 76
-    iput-boolean v6, p0, Lkik/android/voice/n;->e:Z
+    iput-boolean v6, p0, Lkik/arcane/voice/n;->e:Z
 
     .line 78
-    iget-object v0, p0, Lkik/android/voice/n;->l:Lkik/android/voice/n$a;
+    iget-object v0, p0, Lkik/arcane/voice/n;->l:Lkik/arcane/voice/n$a;
 
     invoke-static {v0}, Lrx/d;->a(Lrx/d$a;)Lrx/d;
 
@@ -727,7 +727,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/voice/o;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/voice/o;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -736,15 +736,15 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/voice/p;->a(Lkik/android/voice/n;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/voice/p;->a(Lkik/arcane/voice/n;)Lrx/functions/b;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/voice/q;->a(Lkik/android/voice/n;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/voice/q;->a(Lkik/arcane/voice/n;)Lrx/functions/b;
 
     move-result-object v2
 
-    invoke-static {p0}, Lkik/android/voice/r;->a(Lkik/android/voice/n;)Lrx/functions/a;
+    invoke-static {p0}, Lkik/arcane/voice/r;->a(Lkik/arcane/voice/n;)Lrx/functions/a;
 
     move-result-object v3
 
@@ -759,14 +759,14 @@
 
     .prologue
     .line 166
-    iget-boolean v0, p0, Lkik/android/voice/n;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/voice/n;->d:Z
 
     if-eqz v0, :cond_0
 
     .line 167
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/voice/n;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/n;->d:Z
 
     .line 169
     :cond_0
@@ -780,10 +780,10 @@
     .line 182
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/voice/n;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/n;->d:Z
 
     .line 183
-    invoke-direct {p0}, Lkik/android/voice/n;->i()J
+    invoke-direct {p0}, Lkik/arcane/voice/n;->i()J
 
     move-result-wide v0
 
@@ -804,10 +804,10 @@
     .line 174
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/voice/n;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/voice/n;->e:Z
 
     .line 175
-    invoke-virtual {p0}, Lkik/android/voice/n;->b()V
+    invoke-virtual {p0}, Lkik/arcane/voice/n;->b()V
 
     .line 177
     return-void
@@ -818,7 +818,7 @@
 
     .prologue
     .line 190
-    iget-object v0, p0, Lkik/android/voice/n;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/voice/n;->g:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -837,7 +837,7 @@
 
     .prologue
     .line 59
-    iget-object v0, p0, Lkik/android/voice/n;->k:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/voice/n;->k:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -847,7 +847,7 @@
 
     .prologue
     .line 197
-    iget v0, p0, Lkik/android/voice/n;->n:I
+    iget v0, p0, Lkik/arcane/voice/n;->n:I
 
     return v0
 .end method

@@ -15,11 +15,11 @@
     .end annotation
 .end field
 
-.field private final b:Lkik/android/f/f;
+.field private final b:Lkik/arcane/f/f;
 
 
 # direct methods
-.method public constructor <init>(Landroid/support/v4/app/FragmentManager;Ljava/util/List;Lkik/android/f/f;)V
+.method public constructor <init>(Landroid/support/v4/app/FragmentManager;Ljava/util/List;Lkik/arcane/f/f;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -29,7 +29,7 @@
             "<",
             "Lkik/core/datatypes/Message;",
             ">;",
-            "Lkik/android/f/f;",
+            "Lkik/arcane/f/f;",
             ")V"
         }
     .end annotation
@@ -42,7 +42,7 @@
     iput-object p2, p0, Lcom/kik/view/adapters/MediaViewerAdapter;->a:Ljava/util/List;
 
     .line 38
-    iput-object p3, p0, Lcom/kik/view/adapters/MediaViewerAdapter;->b:Lkik/android/f/f;
+    iput-object p3, p0, Lcom/kik/view/adapters/MediaViewerAdapter;->b:Lkik/arcane/f/f;
 
     .line 39
     return-void
@@ -146,21 +146,21 @@
     if-eqz v0, :cond_1
 
     .line 59
-    invoke-static {v3, v4, v1}, Lkik/android/chat/fragment/AutoplayVideoMediaItemFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;Ljava/lang/String;Ljava/lang/String;)Lkik/android/chat/fragment/MediaItemFragment;
+    invoke-static {v3, v4, v1}, Lkik/arcane/chat/fragment/AutoplayVideoMediaItemFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/chat/fragment/MediaItemFragment;
 
     move-result-object v0
 
     .line 68
     :goto_2
-    iget-object v1, p0, Lcom/kik/view/adapters/MediaViewerAdapter;->b:Lkik/android/f/f;
+    iget-object v1, p0, Lcom/kik/view/adapters/MediaViewerAdapter;->b:Lkik/arcane/f/f;
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/MediaItemFragment;->a(Lkik/android/f/f;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/MediaItemFragment;->a(Lkik/arcane/f/f;)V
 
     goto :goto_0
 
     .line 62
     :cond_1
-    invoke-static {v3, v4, v1}, Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;Ljava/lang/String;Ljava/lang/String;)Lkik/android/chat/fragment/MediaItemFragment;
+    invoke-static {v3, v4, v1}, Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/chat/fragment/MediaItemFragment;
 
     move-result-object v0
 
@@ -168,7 +168,7 @@
 
     .line 66
     :cond_2
-    invoke-static {v3, v4, v1}, Lkik/android/chat/fragment/PhotoMediaItemFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;Ljava/lang/String;Ljava/lang/String;)Lkik/android/chat/fragment/MediaItemFragment;
+    invoke-static {v3, v4, v1}, Lkik/arcane/chat/fragment/PhotoMediaItemFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/chat/fragment/MediaItemFragment;
 
     move-result-object v0
 

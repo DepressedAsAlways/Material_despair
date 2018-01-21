@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/preferences/KikListPreference$1;
+.class final Lkik/arcane/widget/preferences/KikListPreference$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/KikListPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    value = Lkik/arcane/widget/preferences/KikListPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Landroid/preference/Preference$OnPreferenceClickListener;
 
-.field final synthetic b:Lkik/android/widget/preferences/KikListPreference;
+.field final synthetic b:Lkik/arcane/widget/preferences/KikListPreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/KikListPreference;Landroid/preference/Preference$OnPreferenceClickListener;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/KikListPreference;Landroid/preference/Preference$OnPreferenceClickListener;)V
     .locals 0
 
     .prologue
     .line 39
-    iput-object p1, p0, Lkik/android/widget/preferences/KikListPreference$1;->b:Lkik/android/widget/preferences/KikListPreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikListPreference$1;->b:Lkik/arcane/widget/preferences/KikListPreference;
 
-    iput-object p2, p0, Lkik/android/widget/preferences/KikListPreference$1;->a:Landroid/preference/Preference$OnPreferenceClickListener;
+    iput-object p2, p0, Lkik/arcane/widget/preferences/KikListPreference$1;->a:Landroid/preference/Preference$OnPreferenceClickListener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,12 +45,12 @@
 
     .prologue
     .line 43
-    iget-object v0, p0, Lkik/android/widget/preferences/KikListPreference$1;->a:Landroid/preference/Preference$OnPreferenceClickListener;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikListPreference$1;->a:Landroid/preference/Preference$OnPreferenceClickListener;
 
     if-eqz v0, :cond_0
 
     .line 44
-    iget-object v0, p0, Lkik/android/widget/preferences/KikListPreference$1;->a:Landroid/preference/Preference$OnPreferenceClickListener;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikListPreference$1;->a:Landroid/preference/Preference$OnPreferenceClickListener;
 
     invoke-interface {v0, p1}, Landroid/preference/Preference$OnPreferenceClickListener;->onPreferenceClick(Landroid/preference/Preference;)Z
 

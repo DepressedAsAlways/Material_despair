@@ -71,7 +71,7 @@
     move-result-object v0
 
     .line 42
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 
@@ -131,7 +131,7 @@
     const-string v2, ""
 
     .line 38
-    invoke-static {v2}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

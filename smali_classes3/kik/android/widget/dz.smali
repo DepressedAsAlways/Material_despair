@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/dz;
+.class final synthetic Lkik/arcane/widget/dz;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/VoiceThumbView;
+.field private final a:Lkik/arcane/widget/VoiceThumbView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/VoiceThumbView;)V
+.method private constructor <init>(Lkik/arcane/widget/VoiceThumbView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/dz;->a:Lkik/android/widget/VoiceThumbView;
+    iput-object p1, p0, Lkik/arcane/widget/dz;->a:Lkik/arcane/widget/VoiceThumbView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/VoiceThumbView;)Lrx/functions/b;
+.method public static a(Lkik/arcane/widget/VoiceThumbView;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/dz;
+    new-instance v0, Lkik/arcane/widget/dz;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/dz;-><init>(Lkik/android/widget/VoiceThumbView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/dz;-><init>(Lkik/arcane/widget/VoiceThumbView;)V
 
     return-object v0
 .end method
@@ -35,7 +35,7 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/widget/dz;->a:Lkik/android/widget/VoiceThumbView;
+    iget-object v0, p0, Lkik/arcane/widget/dz;->a:Lkik/arcane/widget/VoiceThumbView;
 
     check-cast p1, Ljava/lang/Integer;
 
@@ -43,7 +43,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/VoiceThumbView;->a(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/VoiceThumbView;->a(I)V
 
     return-void
 .end method

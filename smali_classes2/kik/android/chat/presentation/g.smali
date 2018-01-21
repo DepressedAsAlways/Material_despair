@@ -1,18 +1,18 @@
-.class public interface abstract Lkik/android/chat/presentation/g;
+.class public interface abstract Lkik/arcane/chat/presentation/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/presentation/bv;
+.implements Lkik/arcane/chat/presentation/bv;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkik/android/chat/presentation/bv",
+        "Lkik/arcane/chat/presentation/bv",
         "<",
-        "Lkik/android/chat/view/l;",
+        "Lkik/arcane/chat/view/l;",
         ">;"
     }
 .end annotation

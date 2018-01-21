@@ -1,14 +1,14 @@
-.class final Lkik/android/util/l$2;
+.class final Lkik/arcane/util/l$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/util/l$a;
+.implements Lkik/arcane/util/l$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/l;
+    value = Lkik/arcane/util/l;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

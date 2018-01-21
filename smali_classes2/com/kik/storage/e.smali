@@ -774,7 +774,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkik/android/util/aw;->c(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->c(Ljava/lang/Throwable;)V
 
     .line 282
     :cond_1

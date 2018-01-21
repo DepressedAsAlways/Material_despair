@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/widget/vm/IVoicePlayerViewModel;
+.class public interface abstract Lkik/arcane/widget/vm/IVoicePlayerViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+        Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
     }
 .end annotation
 
@@ -18,7 +18,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;",
+            "Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;",
             ">;"
         }
     .end annotation
@@ -54,5 +54,5 @@
 .method public abstract f()V
 .end method
 
-.method public abstract g()Lkik/android/widget/VoiceThumbView$a;
+.method public abstract g()Lkik/arcane/widget/VoiceThumbView$a;
 .end method

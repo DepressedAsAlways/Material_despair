@@ -89,7 +89,7 @@
 
 .field private aj:Lcom/kik/f/g;
 
-.field private ak:Lkik/android/voice/i;
+.field private ak:Lkik/arcane/voice/i;
 
 .field private al:Lcom/kik/f/dw;
 
@@ -535,12 +535,12 @@
     return-object v0
 .end method
 
-.method static synthetic ak(Lcom/kik/components/c$a;)Lkik/android/voice/i;
+.method static synthetic ak(Lcom/kik/components/c$a;)Lkik/arcane/voice/i;
     .locals 1
 
     .prologue
     .line 4889
-    iget-object v0, p0, Lcom/kik/components/c$a;->ak:Lkik/android/voice/i;
+    iget-object v0, p0, Lcom/kik/components/c$a;->ak:Lkik/arcane/voice/i;
 
     return-object v0
 .end method
@@ -2459,7 +2459,7 @@
 
     .line 5233
     :cond_3d
-    iget-object v0, p0, Lcom/kik/components/c$a;->ak:Lkik/android/voice/i;
+    iget-object v0, p0, Lcom/kik/components/c$a;->ak:Lkik/arcane/voice/i;
 
     if-nez v0, :cond_3e
 
@@ -2470,7 +2470,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-class v2, Lkik/android/voice/i;
+    const-class v2, Lkik/arcane/voice/i;
 
     .line 5235
     invoke-virtual {v2}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
@@ -3392,7 +3392,7 @@
     return-object p0
 .end method
 
-.method public final a(Lkik/android/voice/i;)Lcom/kik/components/c$a;
+.method public final a(Lkik/arcane/voice/i;)Lcom/kik/components/c$a;
     .locals 1
 
     .prologue
@@ -3401,9 +3401,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/voice/i;
+    check-cast v0, Lkik/arcane/voice/i;
 
-    iput-object v0, p0, Lcom/kik/components/c$a;->ak:Lkik/android/voice/i;
+    iput-object v0, p0, Lcom/kik/components/c$a;->ak:Lkik/arcane/voice/i;
 
     .line 5583
     return-object p0

@@ -507,7 +507,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lkik/android/util/al;->a(Landroid/content/Intent;Landroid/content/Context;)Z
+    invoke-static {v0, v3}, Lkik/arcane/util/al;->a(Landroid/content/Intent;Landroid/content/Context;)Z
 
     move-result v0
 

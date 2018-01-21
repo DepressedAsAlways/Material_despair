@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/presentation/bm;
+.class final synthetic Lkik/arcane/chat/presentation/bm;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/presentation/bm;
+.field private static final a:Lkik/arcane/chat/presentation/bm;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/presentation/bm;
+    new-instance v0, Lkik/arcane/chat/presentation/bm;
 
-    invoke-direct {v0}, Lkik/android/chat/presentation/bm;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/presentation/bm;-><init>()V
 
-    sput-object v0, Lkik/android/chat/presentation/bm;->a:Lkik/android/chat/presentation/bm;
+    sput-object v0, Lkik/arcane/chat/presentation/bm;->a:Lkik/arcane/chat/presentation/bm;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Ljava/lang/Runnable;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/presentation/bm;->a:Lkik/android/chat/presentation/bm;
+    sget-object v0, Lkik/arcane/chat/presentation/bm;->a:Lkik/arcane/chat/presentation/bm;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final run()V
     .locals 0
 
-    invoke-static {}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->F()V
+    invoke-static {}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->F()V
 
     return-void
 .end method

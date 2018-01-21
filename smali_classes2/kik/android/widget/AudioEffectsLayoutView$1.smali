@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioEffectsLayoutView$1;
+.class final Lkik/arcane/widget/AudioEffectsLayoutView$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AudioEffectsLayoutView;
+    value = Lkik/arcane/widget/AudioEffectsLayoutView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioEffectsLayoutView;
+.field final synthetic a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+.method constructor <init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
     .locals 0
 
     .prologue
     .line 68
-    iput-object p1, p0, Lkik/android/widget/AudioEffectsLayoutView$1;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioEffectsLayoutView$1;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,18 +38,18 @@
 
     .prologue
     .line 72
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView$1;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView$1;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioEffectsLayoutView;->c(Lkik/android/widget/AudioEffectsLayoutView;)Landroid/widget/ToggleButton;
+    invoke-static {v0}, Lkik/arcane/widget/AudioEffectsLayoutView;->c(Lkik/arcane/widget/AudioEffectsLayoutView;)Landroid/widget/ToggleButton;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 73
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView$1;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView$1;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioEffectsLayoutView;->c(Lkik/android/widget/AudioEffectsLayoutView;)Landroid/widget/ToggleButton;
+    invoke-static {v0}, Lkik/arcane/widget/AudioEffectsLayoutView;->c(Lkik/arcane/widget/AudioEffectsLayoutView;)Landroid/widget/ToggleButton;
 
     move-result-object v0
 
@@ -57,9 +57,9 @@
 
     .line 75
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView$1;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView$1;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioEffectsLayoutView;->d(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-static {v0}, Lkik/arcane/widget/AudioEffectsLayoutView;->d(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
     .line 76
     return-void

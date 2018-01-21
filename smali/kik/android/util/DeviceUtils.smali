@@ -1,4 +1,4 @@
-.class public Lkik/android/util/DeviceUtils;
+.class public Lkik/arcane/util/DeviceUtils;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,7 +10,7 @@
 
 .field private static c:Landroid/content/Context;
 
-.field private static d:Lkik/android/util/ar;
+.field private static d:Lkik/arcane/util/ar;
 
 .field private static final e:[I
 
@@ -27,7 +27,7 @@
     .line 42
     const/16 v0, 0x1000
 
-    sput v0, Lkik/android/util/DeviceUtils;->a:I
+    sput v0, Lkik/arcane/util/DeviceUtils;->a:I
 
     .line 43
     const-string v0, "DeviceUtils"
@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/DeviceUtils;->b:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/util/DeviceUtils;->b:Lorg/slf4j/b;
 
     .line 48
     const/4 v0, 0x5
@@ -45,7 +45,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lkik/android/util/DeviceUtils;->e:[I
+    sput-object v0, Lkik/arcane/util/DeviceUtils;->e:[I
 
     return-void
 
@@ -209,14 +209,14 @@
     move v1, p1
 
     .line 340
-    invoke-static/range {v0 .. v7}, Lkik/android/util/DeviceUtils;->collectDrainInterpolation(Ljava/lang/String;IFIIIZZ)[B
+    invoke-static/range {v0 .. v7}, Lkik/arcane/util/DeviceUtils;->collectDrainInterpolation(Ljava/lang/String;IFIIIZZ)[B
 
     move-result-object v0
 
     .line 343
     array-length v1, v0
 
-    sget v2, Lkik/android/util/DeviceUtils;->a:I
+    sget v2, Lkik/arcane/util/DeviceUtils;->a:I
 
     if-gt v1, v2, :cond_5
 
@@ -261,7 +261,7 @@
     :catch_1
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     :cond_5
     move-object v0, v8
@@ -294,9 +294,9 @@
 
     const/4 v2, 0x0
 
-    sget-object v3, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v3, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
-    invoke-static {v3}, Lkik/android/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -319,13 +319,13 @@
     return-object v0
 .end method
 
-.method public static a(Landroid/content/Context;Lkik/android/util/ai;)Ljava/util/Hashtable;
+.method public static a(Landroid/content/Context;Lkik/arcane/util/ai;)Ljava/util/Hashtable;
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lkik/android/util/ai;",
+            "Lkik/arcane/util/ai;",
             ")",
             "Ljava/util/Hashtable",
             "<",
@@ -354,7 +354,7 @@
     :try_start_0
     sget-object v0, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -371,7 +371,7 @@
     :cond_0
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -388,7 +388,7 @@
     :cond_1
     sget-object v0, Landroid/os/Build$VERSION;->SDK:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -435,7 +435,7 @@
     move-result-object v0
 
     .line 169
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -469,7 +469,7 @@
     move-result-object v0
 
     .line 180
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -489,7 +489,7 @@
     invoke-virtual {v1, v0, v2}, Ljava/util/Hashtable;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 189
-    invoke-static {p0}, Lkik/android/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Lkik/arcane/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -503,7 +503,7 @@
 
     .line 195
     :cond_6
-    invoke-interface {p1}, Lkik/android/util/ai;->c()Landroid/content/SharedPreferences;
+    invoke-interface {p1}, Lkik/arcane/util/ai;->c()Landroid/content/SharedPreferences;
 
     move-result-object v2
 
@@ -610,16 +610,16 @@
 
     .prologue
     .line 62
-    sput-object p0, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sput-object p0, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     .line 63
-    new-instance v0, Lkik/android/util/ar;
+    new-instance v0, Lkik/arcane/util/ar;
 
-    sget-object v1, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v1, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
-    invoke-direct {v0, v1}, Lkik/android/util/ar;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lkik/arcane/util/ar;-><init>(Landroid/content/Context;)V
 
-    sput-object v0, Lkik/android/util/DeviceUtils;->d:Lkik/android/util/ar;
+    sput-object v0, Lkik/arcane/util/DeviceUtils;->d:Lkik/arcane/util/ar;
 
     .line 1057
     const/16 v0, 0x9
@@ -634,31 +634,31 @@
     .line 65
     const-string v0, "helloneon"
 
-    invoke-static {v0, p0}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
+    invoke-static {v0, p0}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
 
     .line 67
     :cond_0
     const-string v0, "gnustl_shared"
 
-    invoke-static {v0, p0}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
+    invoke-static {v0, p0}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
 
     .line 68
     const-string v0, "kikcode_encode"
 
-    invoke-static {v0, p0}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
+    invoke-static {v0, p0}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
 
     .line 69
     const-string v0, "kikcode_scan"
 
-    invoke-static {v0, p0}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
+    invoke-static {v0, p0}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
 
     .line 70
     const-string v0, "kikhash"
 
-    invoke-static {v0, p0}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
+    invoke-static {v0, p0}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;Landroid/content/Context;)Z
 
     .line 71
-    sget-object v0, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v0, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     const-string v1, "audio"
 
@@ -668,7 +668,7 @@
 
     check-cast v0, Landroid/media/AudioManager;
 
-    sput-object v0, Lkik/android/util/DeviceUtils;->g:Landroid/media/AudioManager;
+    sput-object v0, Lkik/arcane/util/DeviceUtils;->g:Landroid/media/AudioManager;
 
     .line 72
     return-void
@@ -758,7 +758,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 82
     :try_start_1
@@ -859,7 +859,7 @@
     invoke-direct {v0, v1}, Ljava/lang/LinkageError;-><init>(Ljava/lang/String;)V
 
     .line 92
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 93
     const/4 v0, 0x0
@@ -875,13 +875,13 @@
 
     .line 137
     :try_start_0
-    sget-object v1, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v1, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v1
 
-    sget-object v2, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v2, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -973,12 +973,12 @@
 
     .prologue
     .line 213
-    sget v0, Lkik/android/util/DeviceUtils;->f:I
+    sget v0, Lkik/arcane/util/DeviceUtils;->f:I
 
     if-gtz v0, :cond_1
 
     .line 214
-    sget-object v0, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v0, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -994,21 +994,21 @@
     const/4 v0, 0x0
 
     :goto_0
-    sget-object v2, Lkik/android/util/DeviceUtils;->e:[I
+    sget-object v2, Lkik/arcane/util/DeviceUtils;->e:[I
 
     array-length v2, v2
 
     if-ge v0, v2, :cond_1
 
     .line 216
-    sget-object v2, Lkik/android/util/DeviceUtils;->e:[I
+    sget-object v2, Lkik/arcane/util/DeviceUtils;->e:[I
 
     aget v2, v2, v0
 
     if-ne v1, v2, :cond_0
 
     .line 218
-    sput v1, Lkik/android/util/DeviceUtils;->f:I
+    sput v1, Lkik/arcane/util/DeviceUtils;->f:I
 
     move v0, v1
 
@@ -1020,7 +1020,7 @@
     :cond_0
     const/16 v2, 0xf0
 
-    sput v2, Lkik/android/util/DeviceUtils;->f:I
+    sput v2, Lkik/arcane/util/DeviceUtils;->f:I
 
     .line 215
     add-int/lit8 v0, v0, 0x1
@@ -1029,7 +1029,7 @@
 
     .line 224
     :cond_1
-    sget v0, Lkik/android/util/DeviceUtils;->f:I
+    sget v0, Lkik/arcane/util/DeviceUtils;->f:I
 
     goto :goto_1
 .end method
@@ -1082,7 +1082,7 @@
 
     .prologue
     .line 240
-    sget-object v0, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v0, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     const-string v1, "connectivity"
 
@@ -1150,7 +1150,7 @@
 
     .prologue
     .line 247
-    sget-object v0, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v0, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     const-string v1, "connectivity"
 
@@ -1249,7 +1249,7 @@
     const/4 v0, 0x0
 
     .line 280
-    sget-object v1, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v1, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     if-nez v1, :cond_1
 
@@ -1259,7 +1259,7 @@
     return v0
 
     :cond_1
-    sget-object v1, Lkik/android/util/DeviceUtils;->c:Landroid/content/Context;
+    sget-object v1, Lkik/arcane/util/DeviceUtils;->c:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
@@ -1301,7 +1301,7 @@
 
     .prologue
     .line 397
-    sget-object v0, Lkik/android/util/DeviceUtils;->g:Landroid/media/AudioManager;
+    sget-object v0, Lkik/arcane/util/DeviceUtils;->g:Landroid/media/AudioManager;
 
     const/4 v1, 0x3
 
@@ -1318,7 +1318,7 @@
 
     .prologue
     .line 402
-    sget-object v0, Lkik/android/util/DeviceUtils;->g:Landroid/media/AudioManager;
+    sget-object v0, Lkik/arcane/util/DeviceUtils;->g:Landroid/media/AudioManager;
 
     const/4 v1, 0x3
 

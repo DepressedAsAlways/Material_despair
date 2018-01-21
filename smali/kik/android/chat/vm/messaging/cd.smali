@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/messaging/cd;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/chat/vm/messaging/cd;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+.implements Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
 
 # static fields
@@ -11,17 +11,17 @@
 
 
 # instance fields
-.field a:Lkik/android/voice/f;
+.field a:Lkik/arcane/voice/f;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field b:Lkik/android/voice/e;
+.field b:Lkik/arcane/voice/e;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field c:Lkik/android/voice/g;
+.field c:Lkik/arcane/voice/g;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -36,7 +36,7 @@
         value = {
             "Lrx/subjects/a",
             "<",
-            "Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
+            "Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
             ">;"
         }
     .end annotation
@@ -47,7 +47,7 @@
         value = {
             "Lrx/subjects/a",
             "<",
-            "Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;",
+            "Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;",
             ">;"
         }
     .end annotation
@@ -120,9 +120,9 @@
     .end annotation
 .end field
 
-.field private s:Lkik/android/chat/vm/messaging/cc;
+.field private s:Lkik/arcane/chat/vm/messaging/cc;
 
-.field private t:Lkik/android/internal/platform/PlatformHelper;
+.field private t:Lkik/arcane/internal/platform/PlatformHelper;
 
 .field private u:Lrx/g;
 
@@ -141,12 +141,12 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/vm/messaging/cd;->e:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/cd;->e:Lorg/slf4j/b;
 
     return-void
 .end method
 
-.method public constructor <init>(Lrx/d;Ljava/util/concurrent/Executor;Lkik/android/internal/platform/PlatformHelper;)V
+.method public constructor <init>(Lrx/d;Ljava/util/concurrent/Executor;Lkik/arcane/internal/platform/PlatformHelper;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -156,117 +156,117 @@
             "Ljava/lang/Boolean;",
             ">;",
             "Ljava/util/concurrent/Executor;",
-            "Lkik/android/internal/platform/PlatformHelper;",
+            "Lkik/arcane/internal/platform/PlatformHelper;",
             ")V"
         }
     .end annotation
 
     .prologue
     .line 77
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 45
-    sget-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-static {v0}, Lrx/subjects/a;->d(Ljava/lang/Object;)Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     .line 46
-    sget-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;->Stop:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;->Stop:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;
 
     invoke-static {v0}, Lrx/subjects/a;->d(Ljava/lang/Object;)Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->g:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->g:Lrx/subjects/a;
 
     .line 47
     invoke-static {}, Lrx/subjects/a;->l()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->h:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->h:Lrx/subjects/a;
 
     .line 48
     invoke-static {}, Lrx/subjects/a;->l()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->i:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->i:Lrx/subjects/a;
 
     .line 50
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/vm/messaging/cd;->k:I
+    iput v0, p0, Lkik/arcane/chat/vm/messaging/cd;->k:I
 
     .line 54
     invoke-static {}, Lrx/subjects/PublishSubject;->l()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->n:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->n:Lrx/subjects/PublishSubject;
 
     .line 57
     invoke-static {}, Lrx/e/a;->d()Lrx/g;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->q:Lrx/g;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->q:Lrx/g;
 
     .line 60
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/ce;->a(Lkik/android/chat/vm/messaging/cd;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/ce;->a(Lkik/arcane/chat/vm/messaging/cd;)Lrx/functions/b;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->r:Lrx/functions/b;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->r:Lrx/functions/b;
 
     .line 69
     invoke-static {}, Lrx/e/a;->e()Lrx/g;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->u:Lrx/g;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->u:Lrx/g;
 
     .line 70
     invoke-static {}, Lrx/a/b/a;->a()Lrx/g;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->v:Lrx/g;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->v:Lrx/g;
 
     .line 78
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/cd;->j:Lrx/d;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/cd;->j:Lrx/d;
 
     .line 79
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/cd;->l:Ljava/util/concurrent/Executor;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/cd;->l:Ljava/util/concurrent/Executor;
 
     .line 80
-    iput-object p3, p0, Lkik/android/chat/vm/messaging/cd;->t:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p3, p0, Lkik/arcane/chat/vm/messaging/cd;->t:Lkik/arcane/internal/platform/PlatformHelper;
 
     .line 81
-    new-instance v0, Lkik/android/chat/vm/messaging/cc;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/cc;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/messaging/cc;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/messaging/cc;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->s:Lkik/android/chat/vm/messaging/cc;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->s:Lkik/arcane/chat/vm/messaging/cc;
 
     .line 82
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;)Ljava/lang/Boolean;
     .locals 1
 
     .prologue
     .line 288
-    sget-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-eq p0, v0, :cond_0
 
-    sget-object v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-ne p0, v0, :cond_1
 
@@ -286,7 +286,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/cd;Ljava/lang/String;Ljava/lang/Boolean;)Lrx/d;
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/cd;Ljava/lang/String;Ljava/lang/Boolean;)Lrx/d;
     .locals 2
 
     .prologue
@@ -298,16 +298,16 @@
     if-eqz v0, :cond_0
 
     .line 227
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->c:Lkik/android/voice/g;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->c:Lkik/arcane/voice/g;
 
-    invoke-interface {v0}, Lkik/android/voice/g;->a()V
+    invoke-interface {v0}, Lkik/arcane/voice/g;->a()V
 
     .line 228
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->b:Lkik/android/voice/e;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->b:Lkik/arcane/voice/e;
 
-    iget v1, p0, Lkik/android/chat/vm/messaging/cd;->k:I
+    iget v1, p0, Lkik/arcane/chat/vm/messaging/cd;->k:I
 
-    invoke-interface {v0, p1, v1}, Lkik/android/voice/e;->a(Ljava/lang/String;I)Lrx/d;
+    invoke-interface {v0, p1, v1}, Lkik/arcane/voice/e;->a(Ljava/lang/String;I)Lrx/d;
 
     move-result-object v0
 
@@ -317,9 +317,9 @@
 
     .line 231
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->b:Lkik/android/voice/e;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->b:Lkik/arcane/voice/e;
 
-    invoke-interface {v0, p1}, Lkik/android/voice/e;->b(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lkik/arcane/voice/e;->b(Ljava/lang/String;)V
 
     .line 232
     new-instance v0, Ljava/lang/Float;
@@ -340,7 +340,7 @@
 
     .prologue
     .line 135
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/cd;->w()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/cd;->w()V
 
     .line 136
     const-wide/16 v0, 0x0
@@ -349,13 +349,13 @@
 
     sget-object v4, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    iget-object v5, p0, Lkik/android/chat/vm/messaging/cd;->q:Lrx/g;
+    iget-object v5, p0, Lkik/arcane/chat/vm/messaging/cd;->q:Lrx/g;
 
     invoke-static/range {v0 .. v5}, Lrx/d;->a(JJLjava/util/concurrent/TimeUnit;Lrx/g;)Lrx/d;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/cd;->v:Lrx/g;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/cd;->v:Lrx/g;
 
     .line 137
     invoke-virtual {v0, v1}, Lrx/d;->a(Lrx/g;)Lrx/d;
@@ -370,7 +370,7 @@
     move-result-object v0
 
     .line 137
-    invoke-static {}, Lkik/android/chat/vm/messaging/cj;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/cj;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -383,7 +383,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/ck;->a(Lkik/android/chat/vm/messaging/cd;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/ck;->a(Lkik/arcane/chat/vm/messaging/cd;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -391,46 +391,46 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->p:Lrx/k;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->p:Lrx/k;
 
     .line 142
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/cd;)V
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/cd;)V
     .locals 0
 
     .prologue
     .line 118
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/cd;->e()V
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/cd;->e()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/cd;I)V
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/cd;I)V
     .locals 5
 
     .prologue
     .line 148
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->c:Lkik/android/voice/g;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->c:Lkik/arcane/voice/g;
 
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v1}, Lkik/android/voice/f;->e()Ljava/lang/String;
+    invoke-interface {v1}, Lkik/arcane/voice/f;->e()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1, p1}, Lkik/android/voice/g;->a(Ljava/lang/String;I)Lkik/android/voice/g$a;
+    invoke-interface {v0, v1, p1}, Lkik/arcane/voice/g;->a(Ljava/lang/String;I)Lkik/arcane/voice/g$a;
 
     move-result-object v0
 
     .line 11155
-    invoke-static {p1}, Lkik/android/voice/l;->a(I)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/voice/l;->a(I)Ljava/lang/String;
 
     move-result-object v1
 
     .line 11157
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v3, Lcom/rounds/kik/analytics/group/VoiceMessageEffectEvents;->VOICEMESSAGE_PREVIEW_PLAY:Lcom/rounds/kik/analytics/group/VoiceMessageEffectEvents;
 
@@ -443,7 +443,7 @@
 
     move-result-object v3
 
-    invoke-interface {v0}, Lkik/android/voice/g$a;->b()F
+    invoke-interface {v0}, Lkik/arcane/voice/g$a;->b()F
 
     move-result v4
 
@@ -459,11 +459,11 @@
     invoke-interface {v2, v3}, Lcom/rounds/kik/analytics/IReporter;->report(Lcom/rounds/kik/analytics/AnalyticsEvent$Builder;)V
 
     .line 11159
-    invoke-interface {v0}, Lkik/android/voice/g$a;->b()F
+    invoke-interface {v0}, Lkik/arcane/voice/g$a;->b()F
 
     move-result v2
 
-    invoke-interface {v0}, Lkik/android/voice/g$a;->a()F
+    invoke-interface {v0}, Lkik/arcane/voice/g$a;->a()F
 
     move-result v3
 
@@ -472,7 +472,7 @@
     if-eqz v2, :cond_0
 
     .line 11160
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v3, Lcom/rounds/kik/analytics/group/VoiceMessageEffectTimeEvents;->VOICEMESSAGE_PREVIEW_PAUSE:Lcom/rounds/kik/analytics/group/VoiceMessageEffectTimeEvents;
 
@@ -481,7 +481,7 @@
     move-result-object v3
 
     .line 11161
-    invoke-interface {v0}, Lkik/android/voice/g$a;->a()F
+    invoke-interface {v0}, Lkik/arcane/voice/g$a;->a()F
 
     move-result v4
 
@@ -498,7 +498,7 @@
     move-result-object v1
 
     .line 11162
-    invoke-interface {v0}, Lkik/android/voice/g$a;->b()F
+    invoke-interface {v0}, Lkik/arcane/voice/g$a;->b()F
 
     move-result v0
 
@@ -518,7 +518,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/cd;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/cd;Ljava/lang/Boolean;)V
     .locals 1
 
     .prologue
@@ -530,19 +530,19 @@
     if-nez v0, :cond_0
 
     .line 98
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/cd;->b()V
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/cd;->b()V
 
     .line 100
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/cd;Ljava/lang/Integer;)V
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/cd;Ljava/lang/Integer;)V
     .locals 1
 
     .prologue
     .line 139
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->n:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->n:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0, p1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
@@ -551,13 +551,13 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/chat/vm/messaging/cd;->o:I
+    iput v0, p0, Lkik/arcane/chat/vm/messaging/cd;->o:I
 
     .line 141
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/cd;Ljava/lang/Throwable;)V
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/cd;Ljava/lang/Throwable;)V
     .locals 2
 
     .prologue
@@ -575,7 +575,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 248
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->h:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->h:Lrx/subjects/a;
 
     const/4 v1, 0x0
 
@@ -585,20 +585,20 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/cd;Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/Float;)V
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/cd;Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/Float;)V
     .locals 3
 
     .prologue
     .line 237
     .line 10254
-    iget v0, p0, Lkik/android/chat/vm/messaging/cd;->k:I
+    iget v0, p0, Lkik/arcane/chat/vm/messaging/cd;->k:I
 
-    invoke-static {v0}, Lkik/android/voice/l;->a(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/voice/l;->a(I)Ljava/lang/String;
 
     move-result-object v0
 
     .line 10255
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v2, Lcom/rounds/kik/analytics/group/VoiceMessageEffectEvents;->VOICEMESSAGE_SEND:Lcom/rounds/kik/analytics/group/VoiceMessageEffectEvents;
 
@@ -630,7 +630,7 @@
     if-lez v0, :cond_0
 
     .line 239
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->h:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->h:Lrx/subjects/a;
 
     invoke-virtual {v0, p1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -640,7 +640,7 @@
 
     .line 243
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->h:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->h:Lrx/subjects/a;
 
     const/4 v1, 0x0
 
@@ -649,14 +649,14 @@
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/chat/vm/messaging/cd;Ljava/lang/Integer;)V
+.method static synthetic b(Lkik/arcane/chat/vm/messaging/cd;Ljava/lang/Integer;)V
     .locals 2
 
     .prologue
     .line 61
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->g:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->g:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;->Play:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;->Play:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -666,25 +666,25 @@
     move-result v0
 
     .line 12146
-    iput v0, p0, Lkik/android/chat/vm/messaging/cd;->k:I
+    iput v0, p0, Lkik/arcane/chat/vm/messaging/cd;->k:I
 
     .line 12147
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/cd;->l:Ljava/util/concurrent/Executor;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/cd;->l:Ljava/util/concurrent/Executor;
 
-    invoke-static {p0, v0}, Lkik/android/chat/vm/messaging/cl;->a(Lkik/android/chat/vm/messaging/cd;I)Ljava/lang/Runnable;
+    invoke-static {p0, v0}, Lkik/arcane/chat/vm/messaging/cl;->a(Lkik/arcane/chat/vm/messaging/cd;I)Ljava/lang/Runnable;
 
     move-result-object v0
 
     invoke-interface {v1, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     .line 63
-    iget v0, p0, Lkik/android/chat/vm/messaging/cd;->m:I
+    iget v0, p0, Lkik/arcane/chat/vm/messaging/cd;->m:I
 
-    invoke-static {}, Lkik/android/chat/vm/messaging/cg;->b()Lrx/functions/a;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/cg;->b()Lrx/functions/a;
 
     move-result-object v1
 
-    invoke-direct {p0, v0, v1}, Lkik/android/chat/vm/messaging/cd;->a(ILrx/functions/a;)V
+    invoke-direct {p0, v0, v1}, Lkik/arcane/chat/vm/messaging/cd;->a(ILrx/functions/a;)V
 
     .line 65
     return-void
@@ -695,19 +695,19 @@
 
     .prologue
     .line 126
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->p:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->p:Lrx/k;
 
     if-eqz v0, :cond_0
 
     .line 127
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->p:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->p:Lrx/k;
 
     invoke-interface {v0}, Lrx/k;->unsubscribe()V
 
     .line 128
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/cd;->p:Lrx/k;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->p:Lrx/k;
 
     .line 130
     :cond_0
@@ -719,20 +719,20 @@
 
     .prologue
     .line 293
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->o()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    check-cast v0, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     .line 294
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-eq v0, v1, :cond_0
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-ne v0, v1, :cond_1
 
@@ -764,34 +764,34 @@
 
     .prologue
     .line 87
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->n:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->n:Lrx/subjects/PublishSubject;
 
     return-object v0
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
     .locals 3
 
     .prologue
     .line 93
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/messaging/cd;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/messaging/cd;)V
 
     .line 94
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
 
     .line 95
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->s:Lkik/android/chat/vm/messaging/cc;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->s:Lkik/arcane/chat/vm/messaging/cc;
 
-    invoke-virtual {v0, p1, p2}, Lkik/android/chat/vm/messaging/cc;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+    invoke-virtual {v0, p1, p2}, Lkik/arcane/chat/vm/messaging/cc;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
 
     .line 96
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/cd;->ad_()Lrx/f/b;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/cd;->ad_()Lrx/f/b;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/cd;->j:Lrx/d;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/cd;->j:Lrx/d;
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/ch;->a(Lkik/android/chat/vm/messaging/cd;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/ch;->a(Lkik/arcane/chat/vm/messaging/cd;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -810,12 +810,12 @@
 
     .prologue
     .line 334
-    invoke-super {p0}, Lkik/android/chat/vm/e;->al_()V
+    invoke-super {p0}, Lkik/arcane/chat/vm/e;->al_()V
 
     .line 335
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->s:Lkik/android/chat/vm/messaging/cc;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->s:Lkik/arcane/chat/vm/messaging/cc;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/messaging/cc;->al_()V
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/messaging/cc;->al_()V
 
     .line 336
     return-void
@@ -826,19 +826,19 @@
 
     .prologue
     .line 106
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->c:Lkik/android/voice/g;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->c:Lkik/arcane/voice/g;
 
-    invoke-interface {v0}, Lkik/android/voice/g;->a()V
+    invoke-interface {v0}, Lkik/arcane/voice/g;->a()V
 
     .line 107
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v0}, Lkik/android/voice/f;->c()F
+    invoke-interface {v0}, Lkik/arcane/voice/f;->c()F
 
     .line 108
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -851,40 +851,40 @@
 
     .prologue
     .line 114
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->o()Ljava/lang/Object;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-eq v0, v1, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->o()Ljava/lang/Object;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-ne v0, v1, :cond_2
 
     .line 115
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->o()Ljava/lang/Object;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-ne v0, v1, :cond_1
 
     .line 116
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v1, Lcom/rounds/kik/analytics/group/VoiceMessageBaseEvents;->VOICEMESSAGE_RECORD_LONGPRESS:Lcom/rounds/kik/analytics/group/VoiceMessageBaseEvents;
 
@@ -895,24 +895,24 @@
     invoke-interface {v0, v1}, Lcom/rounds/kik/analytics/IReporter;->report(Lcom/rounds/kik/analytics/AnalyticsEvent$Builder;)V
 
     .line 117
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v0}, Lkik/android/voice/f;->a()V
+    invoke-interface {v0}, Lkik/arcane/voice/f;->a()V
 
     .line 118
     const/16 v0, 0xf
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/ci;->a(Lkik/android/chat/vm/messaging/cd;)Lrx/functions/a;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/ci;->a(Lkik/arcane/chat/vm/messaging/cd;)Lrx/functions/a;
 
     move-result-object v1
 
-    invoke-direct {p0, v0, v1}, Lkik/android/chat/vm/messaging/cd;->a(ILrx/functions/a;)V
+    invoke-direct {p0, v0, v1}, Lkik/arcane/chat/vm/messaging/cd;->a(ILrx/functions/a;)V
 
     .line 120
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -926,32 +926,32 @@
 
     .prologue
     .line 169
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/cd;->x()Z
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/cd;->x()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 170
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 171
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v0}, Lkik/android/voice/f;->b()V
+    invoke-interface {v0}, Lkik/arcane/voice/f;->b()V
 
     .line 173
     :cond_0
-    iget v0, p0, Lkik/android/chat/vm/messaging/cd;->o:I
+    iget v0, p0, Lkik/arcane/chat/vm/messaging/cd;->o:I
 
-    iput v0, p0, Lkik/android/chat/vm/messaging/cd;->m:I
+    iput v0, p0, Lkik/arcane/chat/vm/messaging/cd;->m:I
 
     .line 174
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/cd;->w()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/cd;->w()V
 
     .line 175
     return-void
@@ -962,20 +962,20 @@
 
     .prologue
     .line 180
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->o()Ljava/lang/Object;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     if-ne v0, v1, :cond_0
 
     .line 181
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -989,24 +989,24 @@
 
     .prologue
     .line 188
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/cd;->x()Z
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/cd;->x()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 189
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v0}, Lkik/android/voice/f;->d()V
+    invoke-interface {v0}, Lkik/arcane/voice/f;->d()V
 
     .line 190
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/cd;->w()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/cd;->w()V
 
     .line 191
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -1020,9 +1020,9 @@
 
     .prologue
     .line 198
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -1035,33 +1035,33 @@
 
     .prologue
     .line 204
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->c:Lkik/android/voice/g;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->c:Lkik/arcane/voice/g;
 
-    invoke-interface {v0}, Lkik/android/voice/g;->a()V
+    invoke-interface {v0}, Lkik/arcane/voice/g;->a()V
 
     .line 205
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v0}, Lkik/android/voice/f;->c()F
+    invoke-interface {v0}, Lkik/arcane/voice/f;->c()F
 
     move-result v0
 
     .line 206
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v2, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v2, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v1, v2}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 207
-    iget v1, p0, Lkik/android/chat/vm/messaging/cd;->k:I
+    iget v1, p0, Lkik/arcane/chat/vm/messaging/cd;->k:I
 
-    invoke-static {v1}, Lkik/android/voice/l;->a(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/voice/l;->a(I)Ljava/lang/String;
 
     move-result-object v1
 
     .line 208
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->d:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v3, Lcom/rounds/kik/analytics/group/VoiceMessageEffectEvents;->VOICEMESSAGE_PREVIEW_TRASHED:Lcom/rounds/kik/analytics/group/VoiceMessageEffectEvents;
 
@@ -1092,57 +1092,57 @@
 
     .prologue
     .line 214
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v0}, Lkik/android/voice/f;->e()Ljava/lang/String;
+    invoke-interface {v0}, Lkik/arcane/voice/f;->e()Ljava/lang/String;
 
     move-result-object v0
 
     .line 215
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v1}, Lkik/android/voice/f;->g()I
+    invoke-interface {v1}, Lkik/arcane/voice/f;->g()I
 
     move-result v1
 
     .line 216
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    sget-object v3, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v3, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-virtual {v2, v3}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 218
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->b:Lkik/android/voice/e;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->b:Lkik/arcane/voice/e;
 
     new-instance v3, Ljava/lang/ref/WeakReference;
 
-    new-instance v4, Lkik/android/voice/c;
+    new-instance v4, Lkik/arcane/voice/c;
 
-    invoke-direct {v4}, Lkik/android/voice/c;-><init>()V
+    invoke-direct {v4}, Lkik/arcane/voice/c;-><init>()V
 
     invoke-direct {v3, v4}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-interface {v2, v0, v3}, Lkik/android/voice/e;->a(Ljava/lang/String;Ljava/lang/ref/WeakReference;)V
+    invoke-interface {v2, v0, v3}, Lkik/arcane/voice/e;->a(Ljava/lang/String;Ljava/lang/ref/WeakReference;)V
 
     .line 220
-    invoke-static {v0, v1}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;I)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-static {v0, v1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;I)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v1
 
     .line 221
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->i:Lrx/subjects/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->i:Lrx/subjects/a;
 
     invoke-virtual {v2, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 223
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/cd;->ad_()Lrx/f/b;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/cd;->ad_()Lrx/f/b;
 
     move-result-object v2
 
-    iget-object v3, p0, Lkik/android/chat/vm/messaging/cd;->a:Lkik/android/voice/f;
+    iget-object v3, p0, Lkik/arcane/chat/vm/messaging/cd;->a:Lkik/arcane/voice/f;
 
-    invoke-interface {v3}, Lkik/android/voice/f;->f()Lrx/d;
+    invoke-interface {v3}, Lkik/arcane/voice/f;->f()Lrx/d;
 
     move-result-object v3
 
@@ -1153,7 +1153,7 @@
 
     move-result-object v3
 
-    invoke-static {p0, v0}, Lkik/android/chat/vm/messaging/cm;->a(Lkik/android/chat/vm/messaging/cd;Ljava/lang/String;)Lrx/functions/g;
+    invoke-static {p0, v0}, Lkik/arcane/chat/vm/messaging/cm;->a(Lkik/arcane/chat/vm/messaging/cd;Ljava/lang/String;)Lrx/functions/g;
 
     move-result-object v0
 
@@ -1162,25 +1162,25 @@
 
     move-result-object v0
 
-    iget-object v3, p0, Lkik/android/chat/vm/messaging/cd;->u:Lrx/g;
+    iget-object v3, p0, Lkik/arcane/chat/vm/messaging/cd;->u:Lrx/g;
 
     .line 234
     invoke-virtual {v0, v3}, Lrx/d;->b(Lrx/g;)Lrx/d;
 
     move-result-object v0
 
-    iget-object v3, p0, Lkik/android/chat/vm/messaging/cd;->v:Lrx/g;
+    iget-object v3, p0, Lkik/arcane/chat/vm/messaging/cd;->v:Lrx/g;
 
     .line 235
     invoke-virtual {v0, v3}, Lrx/d;->a(Lrx/g;)Lrx/d;
 
     move-result-object v0
 
-    invoke-static {p0, v1}, Lkik/android/chat/vm/messaging/cn;->a(Lkik/android/chat/vm/messaging/cd;Lkik/core/datatypes/messageExtensions/ContentMessage;)Lrx/functions/b;
+    invoke-static {p0, v1}, Lkik/arcane/chat/vm/messaging/cn;->a(Lkik/arcane/chat/vm/messaging/cd;Lkik/core/datatypes/messageExtensions/ContentMessage;)Lrx/functions/b;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/co;->a(Lkik/android/chat/vm/messaging/cd;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/co;->a(Lkik/arcane/chat/vm/messaging/cd;)Lrx/functions/b;
 
     move-result-object v3
 
@@ -1203,14 +1203,14 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
+            "Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 263
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -1229,7 +1229,7 @@
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->j:Lrx/d;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->j:Lrx/d;
 
     return-object v0
 .end method
@@ -1255,10 +1255,10 @@
     const/4 v1, 0x0
 
     .line 9263
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
     .line 282
-    sget-object v3, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v3, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     invoke-static {v2, v3}, Lcom/kik/util/bq;->b(Lrx/d;Ljava/lang/Object;)Lrx/d;
 
@@ -1269,7 +1269,7 @@
     const/4 v1, 0x1
 
     .line 9275
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/cd;->j:Lrx/d;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/cd;->j:Lrx/d;
 
     .line 282
     aput-object v2, v0, v1
@@ -1295,9 +1295,9 @@
 
     .prologue
     .line 288
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->f:Lrx/subjects/a;
 
-    invoke-static {}, Lkik/android/chat/vm/messaging/cf;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/cf;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -1322,7 +1322,7 @@
 
     .prologue
     .line 299
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->h:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->h:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -1341,7 +1341,7 @@
 
     .prologue
     .line 305
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->i:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->i:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -1353,27 +1353,27 @@
     .line 311
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/vm/messaging/cd;->k:I
+    iput v0, p0, Lkik/arcane/chat/vm/messaging/cd;->k:I
 
     .line 312
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->c:Lkik/android/voice/g;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->c:Lkik/arcane/voice/g;
 
-    invoke-interface {v0}, Lkik/android/voice/g;->a()V
+    invoke-interface {v0}, Lkik/arcane/voice/g;->a()V
 
     .line 313
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->g:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->g:Lrx/subjects/a;
 
-    sget-object v1, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;->Stop:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;
+    sget-object v1, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;->Stop:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioEffectPlayingState;
 
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 314
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->p:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->p:Lrx/k;
 
     if-eqz v0, :cond_0
 
     .line 315
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->p:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->p:Lrx/k;
 
     invoke-interface {v0}, Lrx/k;->unsubscribe()V
 
@@ -1396,17 +1396,17 @@
 
     .prologue
     .line 322
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->r:Lrx/functions/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->r:Lrx/functions/b;
 
     return-object v0
 .end method
 
-.method public final v()Lkik/android/chat/vm/messaging/ei;
+.method public final v()Lkik/arcane/chat/vm/messaging/ei;
     .locals 1
 
     .prologue
     .line 328
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cd;->s:Lkik/android/chat/vm/messaging/cc;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cd;->s:Lkik/arcane/chat/vm/messaging/cc;
 
     return-object v0
 .end method

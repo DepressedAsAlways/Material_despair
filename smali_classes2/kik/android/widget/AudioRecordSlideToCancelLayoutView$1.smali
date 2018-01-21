@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioRecordSlideToCancelLayoutView$1;
+.class final Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+    value = Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+.field final synthetic a:Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioRecordSlideToCancelLayoutView;)V
+.method constructor <init>(Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;)V
     .locals 0
 
     .prologue
     .line 27
-    iput-object p1, p0, Lkik/android/widget/AudioRecordSlideToCancelLayoutView$1;->a:Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView$1;->a:Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,9 +38,9 @@
 
     .prologue
     .line 31
-    iget-object v0, p0, Lkik/android/widget/AudioRecordSlideToCancelLayoutView$1;->a:Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView$1;->a:Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioRecordSlideToCancelLayoutView;->a(Lkik/android/widget/AudioRecordSlideToCancelLayoutView;)V
+    invoke-static {v0}, Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;->a(Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;)V
 
     .line 32
     return-void

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/voice/g;
+.class public interface abstract Lkik/arcane/voice/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,13 +6,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/voice/g$a;
+        Lkik/arcane/voice/g$a;
     }
 .end annotation
 
 
 # virtual methods
-.method public abstract a(Ljava/lang/String;I)Lkik/android/voice/g$a;
+.method public abstract a(Ljava/lang/String;I)Lkik/arcane/voice/g$a;
 .end method
 
 .method public abstract a()V

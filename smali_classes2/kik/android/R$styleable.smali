@@ -1,11 +1,11 @@
-.class public final Lkik/android/R$styleable;
+.class public final Lkik/arcane/R$styleable;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/R;
+    value = Lkik/arcane/R;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -1698,7 +1698,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lkik/android/R$styleable;->ActionBar:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ActionBar:[I
 
     .line 10523
     new-array v0, v3, [I
@@ -1707,14 +1707,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ActionBarLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ActionBarLayout:[I
 
     .line 10544
     new-array v0, v4, [I
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Lkik/android/R$styleable;->ActionItemFrameLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ActionItemFrameLayout:[I
 
     .line 10579
     new-array v0, v3, [I
@@ -1723,12 +1723,12 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ActionMenuItemView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ActionMenuItemView:[I
 
     .line 10590
     new-array v0, v2, [I
 
-    sput-object v0, Lkik/android/R$styleable;->ActionMenuView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ActionMenuView:[I
 
     .line 10613
     const/4 v0, 0x6
@@ -1737,21 +1737,21 @@
 
     fill-array-data v0, :array_2
 
-    sput-object v0, Lkik/android/R$styleable;->ActionMode:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ActionMode:[I
 
     .line 10695
     new-array v0, v4, [I
 
     fill-array-data v0, :array_3
 
-    sput-object v0, Lkik/android/R$styleable;->ActivityChooserView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ActivityChooserView:[I
 
     .line 10736
     new-array v0, v5, [I
 
     fill-array-data v0, :array_4
 
-    sput-object v0, Lkik/android/R$styleable;->AdsAttrs:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AdsAttrs:[I
 
     .line 10803
     const/4 v0, 0x7
@@ -1760,56 +1760,56 @@
 
     fill-array-data v0, :array_5
 
-    sput-object v0, Lkik/android/R$styleable;->AlertDialog:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AlertDialog:[I
 
     .line 10889
     new-array v0, v4, [I
 
     fill-array-data v0, :array_6
 
-    sput-object v0, Lkik/android/R$styleable;->AnimatedImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AnimatedImageView:[I
 
     .line 10926
     new-array v0, v5, [I
 
     fill-array-data v0, :array_7
 
-    sput-object v0, Lkik/android/R$styleable;->AnimatingSearchBarLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AnimatingSearchBarLayout:[I
 
     .line 10973
     new-array v0, v5, [I
 
     fill-array-data v0, :array_8
 
-    sput-object v0, Lkik/android/R$styleable;->AppBarLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppBarLayout:[I
 
     .line 11024
     new-array v0, v4, [I
 
     fill-array-data v0, :array_9
 
-    sput-object v0, Lkik/android/R$styleable;->AppBarLayoutStates:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppBarLayoutStates:[I
 
     .line 11067
     new-array v0, v4, [I
 
     fill-array-data v0, :array_a
 
-    sput-object v0, Lkik/android/R$styleable;->AppBarLayout_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppBarLayout_Layout:[I
 
     .line 11116
     new-array v0, v6, [I
 
     fill-array-data v0, :array_b
 
-    sput-object v0, Lkik/android/R$styleable;->AppCompatImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppCompatImageView:[I
 
     .line 11186
     new-array v0, v6, [I
 
     fill-array-data v0, :array_c
 
-    sput-object v0, Lkik/android/R$styleable;->AppCompatSeekBar:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppCompatSeekBar:[I
 
     .line 11263
     const/4 v0, 0x7
@@ -1818,14 +1818,14 @@
 
     fill-array-data v0, :array_d
 
-    sput-object v0, Lkik/android/R$styleable;->AppCompatTextHelper:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppCompatTextHelper:[I
 
     .line 11321
     new-array v0, v4, [I
 
     fill-array-data v0, :array_e
 
-    sput-object v0, Lkik/android/R$styleable;->AppCompatTextView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppCompatTextView:[I
 
     .line 11581
     const/16 v0, 0x74
@@ -1834,7 +1834,7 @@
 
     fill-array-data v0, :array_f
 
-    sput-object v0, Lkik/android/R$styleable;->AppCompatTheme:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AppCompatTheme:[I
 
     .line 12963
     new-array v0, v3, [I
@@ -1843,28 +1843,28 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->AudioEffectsLayoutView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AudioEffectsLayoutView:[I
 
     .line 12990
     new-array v0, v5, [I
 
     fill-array-data v0, :array_10
 
-    sput-object v0, Lkik/android/R$styleable;->AudioGarbageLayoutView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AudioGarbageLayoutView:[I
 
     .line 13039
     new-array v0, v4, [I
 
     fill-array-data v0, :array_11
 
-    sput-object v0, Lkik/android/R$styleable;->AudioLedCakeView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AudioLedCakeView:[I
 
     .line 13094
     new-array v0, v6, [I
 
     fill-array-data v0, :array_12
 
-    sput-object v0, Lkik/android/R$styleable;->AudioMicLayoutView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AudioMicLayoutView:[I
 
     .line 13147
     new-array v0, v3, [I
@@ -1873,7 +1873,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->AudioRecordingLedLayoutView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AudioRecordingLedLayoutView:[I
 
     .line 13174
     new-array v0, v3, [I
@@ -1882,28 +1882,28 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->AudioTimerLayoutView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AudioTimerLayoutView:[I
 
     .line 13203
     new-array v0, v4, [I
 
     fill-array-data v0, :array_13
 
-    sput-object v0, Lkik/android/R$styleable;->AutoResizeRecyclerGridView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AutoResizeRecyclerGridView:[I
 
     .line 13250
     new-array v0, v6, [I
 
     fill-array-data v0, :array_14
 
-    sput-object v0, Lkik/android/R$styleable;->AutoScrollableList:[I
+    sput-object v0, Lkik/arcane/R$styleable;->AutoScrollableList:[I
 
     .line 13325
     new-array v0, v6, [I
 
     fill-array-data v0, :array_15
 
-    sput-object v0, Lkik/android/R$styleable;->BadgeCover:[I
+    sput-object v0, Lkik/arcane/R$styleable;->BadgeCover:[I
 
     .line 13403
     const/4 v0, 0x5
@@ -1912,14 +1912,14 @@
 
     fill-array-data v0, :array_16
 
-    sput-object v0, Lkik/android/R$styleable;->BottomNavigationView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->BottomNavigationView:[I
 
     .line 13487
     new-array v0, v5, [I
 
     fill-array-data v0, :array_17
 
-    sput-object v0, Lkik/android/R$styleable;->BottomSheetBehavior_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->BottomSheetBehavior_Layout:[I
 
     .line 13566
     const/16 v0, 0x8
@@ -1928,7 +1928,7 @@
 
     fill-array-data v0, :array_18
 
-    sput-object v0, Lkik/android/R$styleable;->BubbleFramelayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->BubbleFramelayout:[I
 
     .line 13688
     new-array v0, v3, [I
@@ -1937,7 +1937,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ButtonBarLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ButtonBarLayout:[I
 
     .line 13715
     new-array v0, v3, [I
@@ -1946,14 +1946,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->CircleCroppedImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CircleCroppedImageView:[I
 
     .line 13748
     new-array v0, v6, [I
 
     fill-array-data v0, :array_19
 
-    sput-object v0, Lkik/android/R$styleable;->CircleImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CircleImageView:[I
 
     .line 13841
     const/16 v0, 0xb
@@ -1962,7 +1962,7 @@
 
     fill-array-data v0, :array_1a
 
-    sput-object v0, Lkik/android/R$styleable;->CircularProgressView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CircularProgressView:[I
 
     .line 14043
     const/16 v0, 0x10
@@ -1971,14 +1971,14 @@
 
     fill-array-data v0, :array_1b
 
-    sput-object v0, Lkik/android/R$styleable;->CollapsingToolbarLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CollapsingToolbarLayout:[I
 
     .line 14309
     new-array v0, v4, [I
 
     fill-array-data v0, :array_1c
 
-    sput-object v0, Lkik/android/R$styleable;->CollapsingToolbarLayout_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CollapsingToolbarLayout_Layout:[I
 
     .line 14354
     new-array v0, v3, [I
@@ -1987,35 +1987,35 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ColorPickerPopUpView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ColorPickerPopUpView:[I
 
     .line 14388
     new-array v0, v5, [I
 
     fill-array-data v0, :array_1d
 
-    sput-object v0, Lkik/android/R$styleable;->ColorStateListItem:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ColorStateListItem:[I
 
     .line 14431
     new-array v0, v5, [I
 
     fill-array-data v0, :array_1e
 
-    sput-object v0, Lkik/android/R$styleable;->CompoundButton:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CompoundButton:[I
 
     .line 14489
     new-array v0, v5, [I
 
     fill-array-data v0, :array_1f
 
-    sput-object v0, Lkik/android/R$styleable;->ContentPreviewImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ContentPreviewImageView:[I
 
     .line 14547
     new-array v0, v4, [I
 
     fill-array-data v0, :array_20
 
-    sput-object v0, Lkik/android/R$styleable;->CoordinatorLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CoordinatorLayout:[I
 
     .line 14592
     const/4 v0, 0x7
@@ -2024,7 +2024,7 @@
 
     fill-array-data v0, :array_21
 
-    sput-object v0, Lkik/android/R$styleable;->CoordinatorLayout_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->CoordinatorLayout_Layout:[I
 
     .line 14724
     new-array v0, v3, [I
@@ -2033,28 +2033,28 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->DarkState:[I
+    sput-object v0, Lkik/arcane/R$styleable;->DarkState:[I
 
     .line 14755
     new-array v0, v5, [I
 
     fill-array-data v0, :array_22
 
-    sput-object v0, Lkik/android/R$styleable;->DesignTheme:[I
+    sput-object v0, Lkik/arcane/R$styleable;->DesignTheme:[I
 
     .line 14805
     new-array v0, v4, [I
 
     fill-array-data v0, :array_23
 
-    sput-object v0, Lkik/android/R$styleable;->DisappearOnScrollLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->DisappearOnScrollLayout:[I
 
     .line 14844
     new-array v0, v4, [I
 
     fill-array-data v0, :array_24
 
-    sput-object v0, Lkik/android/R$styleable;->DownloadImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->DownloadImageView:[I
 
     .line 14895
     const/16 v0, 0x8
@@ -2063,14 +2063,14 @@
 
     fill-array-data v0, :array_25
 
-    sput-object v0, Lkik/android/R$styleable;->DrawerArrowToggle:[I
+    sput-object v0, Lkik/arcane/R$styleable;->DrawerArrowToggle:[I
 
     .line 15047
     new-array v0, v6, [I
 
     fill-array-data v0, :array_26
 
-    sput-object v0, Lkik/android/R$styleable;->EmojiStatusCircleView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->EmojiStatusCircleView:[I
 
     .line 15180
     const/16 v0, 0x23
@@ -2079,7 +2079,7 @@
 
     fill-array-data v0, :array_27
 
-    sput-object v0, Lkik/android/R$styleable;->FloatingActionButton:[I
+    sput-object v0, Lkik/arcane/R$styleable;->FloatingActionButton:[I
 
     .line 15721
     new-array v0, v3, [I
@@ -2088,7 +2088,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->FloatingActionButton_Behavior_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->FloatingActionButton_Behavior_Layout:[I
 
     .line 15832
     const/16 v0, 0x2b
@@ -2097,7 +2097,7 @@
 
     fill-array-data v0, :array_28
 
-    sput-object v0, Lkik/android/R$styleable;->FloatingActionMenu:[I
+    sput-object v0, Lkik/arcane/R$styleable;->FloatingActionMenu:[I
 
     .line 16478
     const/4 v0, 0x5
@@ -2106,21 +2106,21 @@
 
     fill-array-data v0, :array_29
 
-    sput-object v0, Lkik/android/R$styleable;->FlowLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->FlowLayout:[I
 
     .line 16553
     new-array v0, v5, [I
 
     fill-array-data v0, :array_2a
 
-    sput-object v0, Lkik/android/R$styleable;->FlowLayout_LayoutParams:[I
+    sput-object v0, Lkik/arcane/R$styleable;->FlowLayout_LayoutParams:[I
 
     .line 16604
     new-array v0, v5, [I
 
     fill-array-data v0, :array_2b
 
-    sput-object v0, Lkik/android/R$styleable;->ForegroundLinearLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ForegroundLinearLayout:[I
 
     .line 16643
     new-array v0, v3, [I
@@ -2129,7 +2129,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->GifFavouriteToggle:[I
+    sput-object v0, Lkik/arcane/R$styleable;->GifFavouriteToggle:[I
 
     .line 16670
     new-array v0, v3, [I
@@ -2138,14 +2138,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->GifView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->GifView:[I
 
     .line 16695
     new-array v0, v4, [I
 
     fill-array-data v0, :array_2c
 
-    sput-object v0, Lkik/android/R$styleable;->HeightClampedIconImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->HeightClampedIconImageView:[I
 
     .line 16738
     new-array v0, v3, [I
@@ -2154,7 +2154,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->HeightConstantClampImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->HeightConstantClampImageView:[I
 
     .line 16767
     new-array v0, v3, [I
@@ -2163,14 +2163,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->IconImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->IconImageView:[I
 
     .line 16796
     new-array v0, v6, [I
 
     fill-array-data v0, :array_2d
 
-    sput-object v0, Lkik/android/R$styleable;->IconView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->IconView:[I
 
     .line 16869
     new-array v0, v3, [I
@@ -2179,17 +2179,17 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->IndicatorBadge:[I
+    sput-object v0, Lkik/arcane/R$styleable;->IndicatorBadge:[I
 
     .line 16890
     new-array v0, v2, [I
 
-    sput-object v0, Lkik/android/R$styleable;->KikEmptyPreference:[I
+    sput-object v0, Lkik/arcane/R$styleable;->KikEmptyPreference:[I
 
     .line 16895
     new-array v0, v2, [I
 
-    sput-object v0, Lkik/android/R$styleable;->KikListPreference:[I
+    sput-object v0, Lkik/arcane/R$styleable;->KikListPreference:[I
 
     .line 16908
     new-array v0, v3, [I
@@ -2198,38 +2198,38 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->KikLoadingWheel:[I
+    sput-object v0, Lkik/arcane/R$styleable;->KikLoadingWheel:[I
 
     .line 16927
     new-array v0, v2, [I
 
-    sput-object v0, Lkik/android/R$styleable;->KikModalPreference:[I
+    sput-object v0, Lkik/arcane/R$styleable;->KikModalPreference:[I
 
     .line 16942
     new-array v0, v4, [I
 
     fill-array-data v0, :array_2e
 
-    sput-object v0, Lkik/android/R$styleable;->KikPreference:[I
+    sput-object v0, Lkik/arcane/R$styleable;->KikPreference:[I
 
     .line 16989
     new-array v0, v5, [I
 
     fill-array-data v0, :array_2f
 
-    sput-object v0, Lkik/android/R$styleable;->KikPreferenceScreen:[I
+    sput-object v0, Lkik/arcane/R$styleable;->KikPreferenceScreen:[I
 
     .line 17024
     new-array v0, v2, [I
 
-    sput-object v0, Lkik/android/R$styleable;->KikSwitchPreference:[I
+    sput-object v0, Lkik/arcane/R$styleable;->KikSwitchPreference:[I
 
     .line 17039
     new-array v0, v4, [I
 
     fill-array-data v0, :array_30
 
-    sput-object v0, Lkik/android/R$styleable;->LazyLoadingImage:[I
+    sput-object v0, Lkik/arcane/R$styleable;->LazyLoadingImage:[I
 
     .line 17092
     const/16 v0, 0x9
@@ -2238,28 +2238,28 @@
 
     fill-array-data v0, :array_31
 
-    sput-object v0, Lkik/android/R$styleable;->LinearLayoutCompat:[I
+    sput-object v0, Lkik/arcane/R$styleable;->LinearLayoutCompat:[I
 
     .line 17202
     new-array v0, v6, [I
 
     fill-array-data v0, :array_32
 
-    sput-object v0, Lkik/android/R$styleable;->LinearLayoutCompat_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->LinearLayoutCompat_Layout:[I
 
     .line 17241
     new-array v0, v4, [I
 
     fill-array-data v0, :array_33
 
-    sput-object v0, Lkik/android/R$styleable;->ListPopupWindow:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ListPopupWindow:[I
 
     .line 17270
     new-array v0, v5, [I
 
     fill-array-data v0, :array_34
 
-    sput-object v0, Lkik/android/R$styleable;->LoadingImageView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->LoadingImageView:[I
 
     .line 17329
     new-array v0, v3, [I
@@ -2268,7 +2268,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->MaskedFramelayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MaskedFramelayout:[I
 
     .line 17408
     const/16 v0, 0x1d
@@ -2277,14 +2277,14 @@
 
     fill-array-data v0, :array_35
 
-    sput-object v0, Lkik/android/R$styleable;->MaterialEditText:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MaterialEditText:[I
 
     .line 17848
     new-array v0, v4, [I
 
     fill-array-data v0, :array_36
 
-    sput-object v0, Lkik/android/R$styleable;->MaxSizeFrameLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MaxSizeFrameLayout:[I
 
     .line 17873
     new-array v0, v3, [I
@@ -2293,7 +2293,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->MediaTrayTabs:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MediaTrayTabs:[I
 
     .line 17910
     const/4 v0, 0x6
@@ -2302,7 +2302,7 @@
 
     fill-array-data v0, :array_37
 
-    sput-object v0, Lkik/android/R$styleable;->MenuGroup:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MenuGroup:[I
 
     .line 17992
     const/16 v0, 0x11
@@ -2311,7 +2311,7 @@
 
     fill-array-data v0, :array_38
 
-    sput-object v0, Lkik/android/R$styleable;->MenuItem:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MenuItem:[I
 
     .line 18161
     const/16 v0, 0x9
@@ -2320,7 +2320,7 @@
 
     fill-array-data v0, :array_39
 
-    sput-object v0, Lkik/android/R$styleable;->MenuView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MenuView:[I
 
     .line 18242
     new-array v0, v3, [I
@@ -2329,7 +2329,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->MessageTextView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->MessageTextView:[I
 
     .line 18287
     const/16 v0, 0xa
@@ -2338,7 +2338,7 @@
 
     fill-array-data v0, :array_3a
 
-    sput-object v0, Lkik/android/R$styleable;->NavigationView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->NavigationView:[I
 
     .line 18424
     const/16 v0, 0xa
@@ -2347,14 +2347,14 @@
 
     fill-array-data v0, :array_3b
 
-    sput-object v0, Lkik/android/R$styleable;->PercentLayout_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->PercentLayout_Layout:[I
 
     .line 18603
     new-array v0, v5, [I
 
     fill-array-data v0, :array_3c
 
-    sput-object v0, Lkik/android/R$styleable;->PopupWindow:[I
+    sput-object v0, Lkik/arcane/R$styleable;->PopupWindow:[I
 
     .line 18642
     new-array v0, v3, [I
@@ -2363,7 +2363,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->PopupWindowBackgroundState:[I
+    sput-object v0, Lkik/arcane/R$styleable;->PopupWindowBackgroundState:[I
 
     .line 18687
     const/16 v0, 0xa
@@ -2372,14 +2372,14 @@
 
     fill-array-data v0, :array_3d
 
-    sput-object v0, Lkik/android/R$styleable;->ProgressWheel:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ProgressWheel:[I
 
     .line 18852
     new-array v0, v4, [I
 
     fill-array-data v0, :array_3e
 
-    sput-object v0, Lkik/android/R$styleable;->RecycleListView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->RecycleListView:[I
 
     .line 18907
     const/4 v0, 0x6
@@ -2388,14 +2388,14 @@
 
     fill-array-data v0, :array_3f
 
-    sput-object v0, Lkik/android/R$styleable;->RecyclerView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->RecyclerView:[I
 
     .line 18991
     new-array v0, v4, [I
 
     fill-array-data v0, :array_40
 
-    sput-object v0, Lkik/android/R$styleable;->RobotoEditText:[I
+    sput-object v0, Lkik/arcane/R$styleable;->RobotoEditText:[I
 
     .line 19032
     new-array v0, v3, [I
@@ -2404,7 +2404,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->RobotoTextView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->RobotoTextView:[I
 
     .line 19066
     new-array v0, v3, [I
@@ -2413,7 +2413,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ScreenWidthContainer:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ScreenWidthContainer:[I
 
     .line 19095
     new-array v0, v3, [I
@@ -2422,7 +2422,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ScrimInsetsFrameLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ScrimInsetsFrameLayout:[I
 
     .line 19120
     new-array v0, v3, [I
@@ -2431,14 +2431,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ScrollingViewBehavior_Layout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ScrollingViewBehavior_Layout:[I
 
     .line 19153
     new-array v0, v5, [I
 
     fill-array-data v0, :array_41
 
-    sput-object v0, Lkik/android/R$styleable;->SearchBarViewImpl:[I
+    sput-object v0, Lkik/arcane/R$styleable;->SearchBarViewImpl:[I
 
     .line 19224
     const/16 v0, 0x11
@@ -2447,7 +2447,7 @@
 
     fill-array-data v0, :array_42
 
-    sput-object v0, Lkik/android/R$styleable;->SearchView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->SearchView:[I
 
     .line 19407
     new-array v0, v3, [I
@@ -2456,21 +2456,21 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->SelfMaskingImageLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->SelfMaskingImageLayout:[I
 
     .line 19430
     new-array v0, v5, [I
 
     fill-array-data v0, :array_43
 
-    sput-object v0, Lkik/android/R$styleable;->SignInButton:[I
+    sput-object v0, Lkik/arcane/R$styleable;->SignInButton:[I
 
     .line 19498
     new-array v0, v5, [I
 
     fill-array-data v0, :array_44
 
-    sput-object v0, Lkik/android/R$styleable;->SnackbarLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->SnackbarLayout:[I
 
     .line 19557
     const/4 v0, 0x5
@@ -2479,7 +2479,7 @@
 
     fill-array-data v0, :array_45
 
-    sput-object v0, Lkik/android/R$styleable;->Spinner:[I
+    sput-object v0, Lkik/arcane/R$styleable;->Spinner:[I
 
     .line 19621
     const/16 v0, 0x9
@@ -2488,7 +2488,7 @@
 
     fill-array-data v0, :array_46
 
-    sput-object v0, Lkik/android/R$styleable;->StaggeredGridView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->StaggeredGridView:[I
 
     .line 19774
     new-array v0, v3, [I
@@ -2497,7 +2497,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->Switch:[I
+    sput-object v0, Lkik/arcane/R$styleable;->Switch:[I
 
     .line 19823
     const/16 v0, 0xe
@@ -2506,14 +2506,14 @@
 
     fill-array-data v0, :array_47
 
-    sput-object v0, Lkik/android/R$styleable;->SwitchCompat:[I
+    sput-object v0, Lkik/arcane/R$styleable;->SwitchCompat:[I
 
     .line 20029
     new-array v0, v5, [I
 
     fill-array-data v0, :array_48
 
-    sput-object v0, Lkik/android/R$styleable;->TabItem:[I
+    sput-object v0, Lkik/arcane/R$styleable;->TabItem:[I
 
     .line 20090
     const/16 v0, 0x10
@@ -2522,7 +2522,7 @@
 
     fill-array-data v0, :array_49
 
-    sput-object v0, Lkik/android/R$styleable;->TabLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->TabLayout:[I
 
     .line 20367
     const/16 v0, 0xa
@@ -2531,7 +2531,7 @@
 
     fill-array-data v0, :array_4a
 
-    sput-object v0, Lkik/android/R$styleable;->TextAppearance:[I
+    sput-object v0, Lkik/arcane/R$styleable;->TextAppearance:[I
 
     .line 20477
     const/16 v0, 0x10
@@ -2540,7 +2540,7 @@
 
     fill-array-data v0, :array_4b
 
-    sput-object v0, Lkik/android/R$styleable;->TextInputLayout:[I
+    sput-object v0, Lkik/arcane/R$styleable;->TextInputLayout:[I
 
     .line 20688
     new-array v0, v3, [I
@@ -2549,14 +2549,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->ThumbNailListView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ThumbNailListView:[I
 
     .line 20713
     new-array v0, v4, [I
 
     fill-array-data v0, :array_4c
 
-    sput-object v0, Lkik/android/R$styleable;->TimestampRobotoTextView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->TimestampRobotoTextView:[I
 
     .line 20810
     const/16 v0, 0x1d
@@ -2565,7 +2565,7 @@
 
     fill-array-data v0, :array_4d
 
-    sput-object v0, Lkik/android/R$styleable;->Toolbar:[I
+    sput-object v0, Lkik/arcane/R$styleable;->Toolbar:[I
 
     .line 21257
     const/16 v0, 0x10
@@ -2574,7 +2574,7 @@
 
     fill-array-data v0, :array_4e
 
-    sput-object v0, Lkik/android/R$styleable;->ValidateableInputView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ValidateableInputView:[I
 
     .line 21425
     new-array v0, v3, [I
@@ -2583,7 +2583,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->VideoSurface:[I
+    sput-object v0, Lkik/arcane/R$styleable;->VideoSurface:[I
 
     .line 21460
     const/4 v0, 0x5
@@ -2592,21 +2592,21 @@
 
     fill-array-data v0, :array_4f
 
-    sput-object v0, Lkik/android/R$styleable;->View:[I
+    sput-object v0, Lkik/arcane/R$styleable;->View:[I
 
     .line 21532
     new-array v0, v5, [I
 
     fill-array-data v0, :array_50
 
-    sput-object v0, Lkik/android/R$styleable;->ViewBackgroundHelper:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ViewBackgroundHelper:[I
 
     .line 21590
     new-array v0, v5, [I
 
     fill-array-data v0, :array_51
 
-    sput-object v0, Lkik/android/R$styleable;->ViewStubCompat:[I
+    sput-object v0, Lkik/arcane/R$styleable;->ViewStubCompat:[I
 
     .line 21621
     new-array v0, v3, [I
@@ -2615,14 +2615,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lkik/android/R$styleable;->VoicePlayerView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->VoicePlayerView:[I
 
     .line 21650
     new-array v0, v4, [I
 
     fill-array-data v0, :array_52
 
-    sput-object v0, Lkik/android/R$styleable;->WebTrayRecyclerView:[I
+    sput-object v0, Lkik/arcane/R$styleable;->WebTrayRecyclerView:[I
 
     return-void
 

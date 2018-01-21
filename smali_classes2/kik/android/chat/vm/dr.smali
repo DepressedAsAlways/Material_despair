@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/dr;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/chat/vm/dr;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/ap;
+.implements Lkik/arcane/chat/vm/ap;
 
 
 # instance fields
@@ -18,13 +18,13 @@
 
     .prologue
     .line 19
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 20
-    iput-object p1, p0, Lkik/android/chat/vm/dr;->a:Lkik/core/chat/profile/af;
+    iput-object p1, p0, Lkik/arcane/chat/vm/dr;->a:Lkik/core/chat/profile/af;
 
     .line 21
-    iput-object p2, p0, Lkik/android/chat/vm/dr;->b:Lkik/core/interfaces/p;
+    iput-object p2, p0, Lkik/arcane/chat/vm/dr;->b:Lkik/core/interfaces/p;
 
     .line 22
     return-void
@@ -51,7 +51,7 @@
 
     .prologue
     .line 33
-    iget-object v0, p0, Lkik/android/chat/vm/dr;->a:Lkik/core/chat/profile/af;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dr;->a:Lkik/core/chat/profile/af;
 
     invoke-virtual {v0}, Lkik/core/chat/profile/af;->b()Ljava/lang/String;
 
@@ -65,9 +65,9 @@
 
     .prologue
     .line 39
-    iget-object v0, p0, Lkik/android/chat/vm/dr;->b:Lkik/core/interfaces/p;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dr;->b:Lkik/core/interfaces/p;
 
-    iget-object v1, p0, Lkik/android/chat/vm/dr;->a:Lkik/core/chat/profile/af;
+    iget-object v1, p0, Lkik/arcane/chat/vm/dr;->a:Lkik/core/chat/profile/af;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/p;->a(Lkik/core/chat/profile/af;)Z
 

@@ -244,7 +244,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->d(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->d(Ljava/lang/Throwable;)V
 
     move v0, v1
 
@@ -419,7 +419,7 @@
 
     .line 67
     :try_start_1
-    invoke-static {v0}, Lkik/android/util/aw;->d(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->d(Ljava/lang/Throwable;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 

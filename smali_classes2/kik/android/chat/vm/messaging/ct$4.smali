@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/messaging/ct$4;
+.class final Lkik/arcane/chat/vm/messaging/ct$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/h;
+.implements Lkik/arcane/f/h;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/messaging/ct;->q()Lrx/d;
+    value = Lkik/arcane/chat/vm/messaging/ct;->q()Lrx/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/messaging/ct;
+.field final synthetic a:Lkik/arcane/chat/vm/messaging/ct;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/ct;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/ct;)V
     .locals 0
 
     .prologue
     .line 450
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/ct$4;->a:Lkik/android/chat/vm/messaging/ct;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/ct$4;->a:Lkik/arcane/chat/vm/messaging/ct;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

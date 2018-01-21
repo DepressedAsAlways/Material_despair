@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/AudioMessageSendButton;
-.super Lkik/android/widget/RobotoTextView;
+.class public Lkik/arcane/widget/AudioMessageSendButton;
+.super Lkik/arcane/widget/RobotoTextView;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
     .line 15
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 16
     return-void
@@ -24,7 +24,7 @@
     .line 20
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 21
     return-void
@@ -35,7 +35,7 @@
 
     .prologue
     .line 25
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 26
     return-void
@@ -50,7 +50,7 @@
     const/4 v1, 0x0
 
     .line 46
-    invoke-virtual {p0}, Lkik/android/widget/AudioMessageSendButton;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMessageSendButton;->getVisibility()I
 
     move-result v0
 
@@ -60,18 +60,18 @@
     if-nez p1, :cond_1
 
     .line 1030
-    invoke-virtual {p0, v1}, Lkik/android/widget/AudioMessageSendButton;->setClickable(Z)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/AudioMessageSendButton;->setClickable(Z)V
 
     .line 1031
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/AudioMessageSendButton;->setAlpha(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/AudioMessageSendButton;->setAlpha(F)V
 
     .line 1032
-    invoke-super {p0, v1}, Lkik/android/widget/RobotoTextView;->setVisibility(I)V
+    invoke-super {p0, v1}, Lkik/arcane/widget/RobotoTextView;->setVisibility(I)V
 
     .line 1033
-    invoke-virtual {p0}, Lkik/android/widget/AudioMessageSendButton;->animate()Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p0}, Lkik/arcane/widget/AudioMessageSendButton;->animate()Landroid/view/ViewPropertyAnimator;
 
     move-result-object v0
 
@@ -93,9 +93,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/widget/AudioMessageSendButton$1;
+    new-instance v1, Lkik/arcane/widget/AudioMessageSendButton$1;
 
-    invoke-direct {v1, p0}, Lkik/android/widget/AudioMessageSendButton$1;-><init>(Lkik/android/widget/AudioMessageSendButton;)V
+    invoke-direct {v1, p0}, Lkik/arcane/widget/AudioMessageSendButton$1;-><init>(Lkik/arcane/widget/AudioMessageSendButton;)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
@@ -106,7 +106,7 @@
 
     .line 51
     :cond_1
-    invoke-super {p0, p1}, Lkik/android/widget/RobotoTextView;->setVisibility(I)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/RobotoTextView;->setVisibility(I)V
 
     goto :goto_0
 .end method

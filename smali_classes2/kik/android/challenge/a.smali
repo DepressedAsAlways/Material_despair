@@ -1,4 +1,4 @@
-.class public final Lkik/android/challenge/a;
+.class public final Lkik/arcane/challenge/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -18,7 +18,7 @@
     .end annotation
 .end field
 
-.field private b:Lkik/android/chat/KikApplication;
+.field private b:Lkik/arcane/chat/KikApplication;
 
 .field private c:Lkik/core/interfaces/ICommunication;
 
@@ -39,7 +39,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/core/interfaces/ICommunication;Lkik/android/chat/KikApplication;Lkik/core/interfaces/ad;Lkik/core/interfaces/k;)V
+.method public constructor <init>(Lkik/core/interfaces/ICommunication;Lkik/arcane/chat/KikApplication;Lkik/core/interfaces/ad;Lkik/core/interfaces/k;)V
     .locals 3
 
     .prologue
@@ -51,39 +51,39 @@
 
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
-    iput-object v0, p0, Lkik/android/challenge/a;->e:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/challenge/a;->e:Lcom/kik/events/Promise;
 
     .line 37
     new-instance v0, Lcom/kik/events/d;
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/challenge/a;->f:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/challenge/a;->f:Lcom/kik/events/d;
 
     .line 49
-    new-instance v0, Lkik/android/challenge/a$1;
+    new-instance v0, Lkik/arcane/challenge/a$1;
 
-    invoke-direct {v0, p0}, Lkik/android/challenge/a$1;-><init>(Lkik/android/challenge/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/challenge/a$1;-><init>(Lkik/arcane/challenge/a;)V
 
-    iput-object v0, p0, Lkik/android/challenge/a;->a:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/challenge/a;->a:Lcom/kik/events/e;
 
     .line 41
-    iput-object p2, p0, Lkik/android/challenge/a;->b:Lkik/android/chat/KikApplication;
+    iput-object p2, p0, Lkik/arcane/challenge/a;->b:Lkik/arcane/chat/KikApplication;
 
     .line 42
-    iput-object p1, p0, Lkik/android/challenge/a;->c:Lkik/core/interfaces/ICommunication;
+    iput-object p1, p0, Lkik/arcane/challenge/a;->c:Lkik/core/interfaces/ICommunication;
 
     .line 43
-    iput-object p3, p0, Lkik/android/challenge/a;->d:Lkik/core/interfaces/ad;
+    iput-object p3, p0, Lkik/arcane/challenge/a;->d:Lkik/core/interfaces/ad;
 
     .line 44
-    iget-object v0, p0, Lkik/android/challenge/a;->f:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->f:Lcom/kik/events/d;
 
     invoke-interface {p4}, Lkik/core/interfaces/k;->a()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/challenge/a;->a:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/challenge/a;->a:Lcom/kik/events/e;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
@@ -91,24 +91,24 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/challenge/a;Ljava/lang/String;)Lcom/kik/events/Promise;
+.method static synthetic a(Lkik/arcane/challenge/a;Ljava/lang/String;)Lcom/kik/events/Promise;
     .locals 1
 
     .prologue
     .line 26
-    invoke-direct {p0, p1}, Lkik/android/challenge/a;->b(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-direct {p0, p1}, Lkik/arcane/challenge/a;->b(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/challenge/a;)Lkik/core/interfaces/ad;
+.method static synthetic a(Lkik/arcane/challenge/a;)Lkik/core/interfaces/ad;
     .locals 1
 
     .prologue
     .line 26
-    iget-object v0, p0, Lkik/android/challenge/a;->d:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->d:Lkik/core/interfaces/ad;
 
     return-object v0
 .end method
@@ -118,7 +118,7 @@
 
     .prologue
     .line 112
-    iget-object v0, p0, Lkik/android/challenge/a;->c:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->c:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v0}, Lkik/core/interfaces/ICommunication;->l()Z
 
@@ -126,21 +126,21 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/challenge/a;->b:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->b:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->t()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->t()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/challenge/a;->b:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->b:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->r()Landroid/app/Activity;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->r()Landroid/app/Activity;
 
     move-result-object v0
 
-    instance-of v0, v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    instance-of v0, v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     if-eqz v0, :cond_0
 
@@ -176,16 +176,16 @@
     invoke-direct {v1}, Lcom/kik/events/Promise;-><init>()V
 
     .line 63
-    iget-object v0, p0, Lkik/android/challenge/a;->b:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->b:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->r()Landroid/app/Activity;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->r()Landroid/app/Activity;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     .line 64
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v2
 
@@ -222,7 +222,7 @@
     invoke-virtual {v3, v2}, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->setArguments(Landroid/os/Bundle;)V
 
     .line 67
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
     move-result-object v0
 
@@ -243,9 +243,9 @@
 
     move-result-object v0
 
-    new-instance v2, Lkik/android/challenge/a$2;
+    new-instance v2, Lkik/arcane/challenge/a$2;
 
-    invoke-direct {v2, p0, v1}, Lkik/android/challenge/a$2;-><init>(Lkik/android/challenge/a;Lcom/kik/events/Promise;)V
+    invoke-direct {v2, p0, v1}, Lkik/arcane/challenge/a$2;-><init>(Lkik/arcane/challenge/a;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -253,24 +253,24 @@
     return-object v1
 .end method
 
-.method static synthetic b(Lkik/android/challenge/a;)Z
+.method static synthetic b(Lkik/arcane/challenge/a;)Z
     .locals 1
 
     .prologue
     .line 26
-    invoke-direct {p0}, Lkik/android/challenge/a;->a()Z
+    invoke-direct {p0}, Lkik/arcane/challenge/a;->a()Z
 
     move-result v0
 
     return v0
 .end method
 
-.method static synthetic c(Lkik/android/challenge/a;)Lcom/kik/events/Promise;
+.method static synthetic c(Lkik/arcane/challenge/a;)Lcom/kik/events/Promise;
     .locals 1
 
     .prologue
     .line 26
-    iget-object v0, p0, Lkik/android/challenge/a;->e:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->e:Lcom/kik/events/Promise;
 
     return-object v0
 .end method
@@ -293,7 +293,7 @@
 
     .prologue
     .line 97
-    iget-object v0, p0, Lkik/android/challenge/a;->c:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->c:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v0}, Lkik/core/interfaces/ICommunication;->l()Z
 
@@ -301,34 +301,34 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/challenge/a;->b:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->b:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->t()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->t()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/challenge/a;->b:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->b:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->r()Landroid/app/Activity;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->r()Landroid/app/Activity;
 
     move-result-object v0
 
-    instance-of v0, v0, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    instance-of v0, v0, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
     if-eqz v0, :cond_1
 
     .line 98
     :cond_0
-    iget-object v0, p0, Lkik/android/challenge/a;->d:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->d:Lkik/core/interfaces/ad;
 
     const-string v1, "challenge.on.demand.manager.url"
 
     invoke-interface {v0, v1, p1}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 99
-    iget-object v0, p0, Lkik/android/challenge/a;->e:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->e:Lcom/kik/events/Promise;
 
     .line 107
     :goto_0
@@ -336,14 +336,14 @@
 
     .line 103
     :cond_1
-    invoke-direct {p0}, Lkik/android/challenge/a;->a()Z
+    invoke-direct {p0}, Lkik/arcane/challenge/a;->a()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 104
-    iget-object v0, p0, Lkik/android/challenge/a;->d:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/challenge/a;->d:Lkik/core/interfaces/ad;
 
     const-string v1, "challenge.OnDemandCaptchaManager.shown"
 
@@ -356,7 +356,7 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
 
     .line 105
-    invoke-direct {p0, p1}, Lkik/android/challenge/a;->b(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-direct {p0, p1}, Lkik/arcane/challenge/a;->b(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 

@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/messaging/ct$1;
+.class final Lkik/arcane/chat/vm/messaging/ct$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/av;
+.implements Lkik/arcane/chat/vm/av;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/messaging/ct;
+    value = Lkik/arcane/chat/vm/messaging/ct;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-.field final synthetic b:Lkik/android/chat/vm/messaging/ct;
+.field final synthetic b:Lkik/arcane/chat/vm/messaging/ct;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/ct;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/ct;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 0
 
     .prologue
     .line 293
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/ct$1;->b:Lkik/android/chat/vm/messaging/ct;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/ct$1;->b:Lkik/arcane/chat/vm/messaging/ct;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/ct$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/ct$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,9 +45,9 @@
 
     .prologue
     .line 297
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/ct$1;->b:Lkik/android/chat/vm/messaging/ct;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/ct$1;->b:Lkik/arcane/chat/vm/messaging/ct;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/messaging/ct;->u()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/messaging/ct;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -59,7 +59,7 @@
 
     .prologue
     .line 303
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/ct$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/ct$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 

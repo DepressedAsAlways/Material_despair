@@ -1,4 +1,4 @@
-.class public final Lkik/android/internal/platform/PlatformHelper;
+.class public final Lkik/arcane/internal/platform/PlatformHelper;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/internal/platform/PlatformHelper$StickerSource;
+        Lkik/arcane/internal/platform/PlatformHelper$StickerSource;
     }
 .end annotation
 
@@ -26,7 +26,7 @@
             "Ljava/util/Map",
             "<",
             "Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;",
-            "Lkik/android/gifs/api/GifResponseData$MediaType;",
+            "Lkik/arcane/gifs/api/GifResponseData$MediaType;",
             ">;"
         }
     .end annotation
@@ -34,7 +34,7 @@
 
 .field private static final f:Lorg/slf4j/b;
 
-.field private static p:Lkik/android/internal/platform/PlatformHelper;
+.field private static p:Lkik/arcane/internal/platform/PlatformHelper;
 
 
 # instance fields
@@ -63,7 +63,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;"
         }
     .end annotation
@@ -87,7 +87,7 @@
 
 .field private v:Lkik/core/interfaces/s;
 
-.field private w:Lkik/android/util/ai;
+.field private w:Lkik/arcane/util/ai;
 
 
 # direct methods
@@ -98,17 +98,17 @@
     .line 128
     const v0, 0x2dc6c0
 
-    sput v0, Lkik/android/internal/platform/PlatformHelper;->a:I
+    sput v0, Lkik/arcane/internal/platform/PlatformHelper;->a:I
 
     .line 129
     const v0, 0x493e0
 
-    sput v0, Lkik/android/internal/platform/PlatformHelper;->b:I
+    sput v0, Lkik/arcane/internal/platform/PlatformHelper;->b:I
 
     .line 130
     const/16 v0, 0x2710
 
-    sput v0, Lkik/android/internal/platform/PlatformHelper;->c:I
+    sput v0, Lkik/arcane/internal/platform/PlatformHelper;->c:I
 
     .line 140
     const/4 v0, 0x5
@@ -145,7 +145,7 @@
 
     aput-object v2, v0, v1
 
-    sput-object v0, Lkik/android/internal/platform/PlatformHelper;->d:[Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sput-object v0, Lkik/arcane/internal/platform/PlatformHelper;->d:[Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     .line 148
     new-instance v0, Ljava/util/HashMap;
@@ -153,47 +153,47 @@
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 151
-    sput-object v0, Lkik/android/internal/platform/PlatformHelper;->e:Ljava/util/Map;
+    sput-object v0, Lkik/arcane/internal/platform/PlatformHelper;->e:Ljava/util/Map;
 
     sget-object v1, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->MP4:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->MP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->MP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 152
-    sget-object v0, Lkik/android/internal/platform/PlatformHelper;->e:Ljava/util/Map;
+    sget-object v0, Lkik/arcane/internal/platform/PlatformHelper;->e:Ljava/util/Map;
 
     sget-object v1, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->WebM:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->WebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->WebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 153
-    sget-object v0, Lkik/android/internal/platform/PlatformHelper;->e:Ljava/util/Map;
+    sget-object v0, Lkik/arcane/internal/platform/PlatformHelper;->e:Ljava/util/Map;
 
     sget-object v1, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->TinyWebM:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 154
-    sget-object v0, Lkik/android/internal/platform/PlatformHelper;->e:Ljava/util/Map;
+    sget-object v0, Lkik/arcane/internal/platform/PlatformHelper;->e:Ljava/util/Map;
 
     sget-object v1, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->TinyMP4:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 155
-    sget-object v0, Lkik/android/internal/platform/PlatformHelper;->e:Ljava/util/Map;
+    sget-object v0, Lkik/arcane/internal/platform/PlatformHelper;->e:Ljava/util/Map;
 
     sget-object v1, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->NanoWebM:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -204,7 +204,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/internal/platform/PlatformHelper;->f:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/internal/platform/PlatformHelper;->f:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -221,14 +221,14 @@
 
     invoke-direct {v0}, Ljava/util/Hashtable;-><init>()V
 
-    iput-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
+    iput-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
 
     .line 192
     invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->o:Ljava/util/concurrent/ExecutorService;
+    iput-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->o:Ljava/util/concurrent/ExecutorService;
 
     .line 207
     return-void
@@ -284,12 +284,12 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/internal/platform/PlatformHelper;)Lcom/kik/cache/KikVolleyImageLoader;
+.method static synthetic a(Lkik/arcane/internal/platform/PlatformHelper;)Lcom/kik/cache/KikVolleyImageLoader;
     .locals 1
 
     .prologue
     .line 125
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->u:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->u:Lcom/kik/cache/KikVolleyImageLoader;
 
     return-object v0
 .end method
@@ -306,25 +306,25 @@
     return-object v0
 .end method
 
-.method public static a()Lkik/android/internal/platform/PlatformHelper;
+.method public static a()Lkik/arcane/internal/platform/PlatformHelper;
     .locals 1
 
     .prologue
     .line 211
-    sget-object v0, Lkik/android/internal/platform/PlatformHelper;->p:Lkik/android/internal/platform/PlatformHelper;
+    sget-object v0, Lkik/arcane/internal/platform/PlatformHelper;->p:Lkik/arcane/internal/platform/PlatformHelper;
 
     if-nez v0, :cond_0
 
     .line 212
-    new-instance v0, Lkik/android/internal/platform/PlatformHelper;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformHelper;
 
-    invoke-direct {v0}, Lkik/android/internal/platform/PlatformHelper;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/internal/platform/PlatformHelper;-><init>()V
 
-    sput-object v0, Lkik/android/internal/platform/PlatformHelper;->p:Lkik/android/internal/platform/PlatformHelper;
+    sput-object v0, Lkik/arcane/internal/platform/PlatformHelper;->p:Lkik/arcane/internal/platform/PlatformHelper;
 
     .line 214
     :cond_0
-    sget-object v0, Lkik/android/internal/platform/PlatformHelper;->p:Lkik/android/internal/platform/PlatformHelper;
+    sget-object v0, Lkik/arcane/internal/platform/PlatformHelper;->p:Lkik/arcane/internal/platform/PlatformHelper;
 
     return-object v0
 .end method
@@ -538,7 +538,7 @@
     if-eqz v0, :cond_9
 
     .line 1824
-    invoke-virtual {p0, v1}, Lkik/android/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -553,7 +553,7 @@
     .line 1830
     :cond_7
     :try_start_0
-    invoke-static {p1}, Lkik/android/internal/platform/PlatformHelper;->b(Landroid/content/Intent;)Ljava/io/File;
+    invoke-static {p1}, Lkik/arcane/internal/platform/PlatformHelper;->b(Landroid/content/Intent;)Ljava/io/File;
 
     move-result-object v3
 
@@ -611,23 +611,23 @@
 
     .line 1853
     :cond_9
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->n:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->n:Ljava/lang/String;
 
     if-eqz v0, :cond_a
 
     .line 1854
     const-string v0, "sha1-original"
 
-    iget-object v3, p0, Lkik/android/internal/platform/PlatformHelper;->n:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/internal/platform/PlatformHelper;->n:Ljava/lang/String;
 
     invoke-virtual {v9, v0, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 1855
-    iput-object v4, p0, Lkik/android/internal/platform/PlatformHelper;->n:Ljava/lang/String;
+    iput-object v4, p0, Lkik/arcane/internal/platform/PlatformHelper;->n:Ljava/lang/String;
 
     .line 1858
     :cond_a
-    invoke-static {p1}, Lkik/android/internal/platform/PlatformHelper;->b(Landroid/content/Intent;)Ljava/io/File;
+    invoke-static {p1}, Lkik/arcane/internal/platform/PlatformHelper;->b(Landroid/content/Intent;)Ljava/io/File;
 
     move-result-object v3
 
@@ -765,7 +765,7 @@
     :catch_1
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v0, v4
 
@@ -776,7 +776,7 @@
     :catch_2
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v0, v4
 
@@ -894,7 +894,7 @@
     .line 552
     const v1, 0x7f0203b6
 
-    invoke-static {v1, v0}, Lkik/android/internal/platform/PlatformHelper;->a(ILkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-static {v1, v0}, Lkik/arcane/internal/platform/PlatformHelper;->a(ILkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 553
     int-to-long v2, p1
@@ -920,7 +920,7 @@
     invoke-direct {v2, p3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     .line 3634
-    invoke-static {p2, p3}, Lkik/android/util/bx;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {p2, p3}, Lkik/arcane/util/bx;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -930,7 +930,7 @@
     .line 3636
     const-string v3, "PlatformHelper.getVideoContentMessage() - VideoUtils.getVideoThumbnail returned null."
 
-    invoke-static {v3}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v3}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 3639
     :cond_0
@@ -962,7 +962,7 @@
     .line 3642
     const-string v0, "PlatformHelper.getVideoContentMessage() - ImageUtil.bitmapToBytes returned null."
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 598
     :cond_1
@@ -1063,7 +1063,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1089,12 +1089,12 @@
     :catch_0
     move-exception v2
 
-    invoke-static {v2}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 .end method
 
-.method public static a(Lkik/android/gifs/api/GifResponseData;Landroid/graphics/Bitmap;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+.method public static a(Lkik/arcane/gifs/api/GifResponseData;Landroid/graphics/Bitmap;)Lkik/core/datatypes/messageExtensions/ContentMessage;
     .locals 7
 
     .prologue
@@ -1107,7 +1107,7 @@
     invoke-direct {v1, v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;-><init>(Ljava/lang/String;)V
 
     .line 925
-    invoke-static {p1}, Lkik/android/util/h;->d(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lkik/arcane/util/h;->d(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1147,15 +1147,15 @@
 
     const v3, 0x7f0200d2
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v3}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v3}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v3
 
@@ -1193,7 +1193,7 @@
     .line 937
     const-string v0, "sponsored-action"
 
-    invoke-virtual {p0}, Lkik/android/gifs/api/GifResponseData;->d()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/gifs/api/GifResponseData;->d()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1202,7 +1202,7 @@
     .line 938
     const-string v0, "sponsored-title"
 
-    invoke-virtual {p0}, Lkik/android/gifs/api/GifResponseData;->c()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/gifs/api/GifResponseData;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1211,14 +1211,14 @@
     .line 939
     const-string v0, "sponsored-url"
 
-    invoke-virtual {p0}, Lkik/android/gifs/api/GifResponseData;->e()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/gifs/api/GifResponseData;->e()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v0, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 941
-    sget-object v3, Lkik/android/internal/platform/PlatformHelper;->d:[Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sget-object v3, Lkik/arcane/internal/platform/PlatformHelper;->d:[Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     array-length v4, v3
 
@@ -1232,29 +1232,29 @@
     aget-object v5, v3, v2
 
     .line 942
-    sget-object v0, Lkik/android/internal/platform/PlatformHelper;->e:Ljava/util/Map;
+    sget-object v0, Lkik/arcane/internal/platform/PlatformHelper;->e:Ljava/util/Map;
 
     invoke-interface {v0, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    check-cast v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {p0, v0}, Lkik/android/gifs/api/GifResponseData;->a(Lkik/android/gifs/api/GifResponseData$MediaType;)Lkik/android/gifs/api/e;
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/api/GifResponseData;->a(Lkik/arcane/gifs/api/GifResponseData$MediaType;)Lkik/arcane/gifs/api/e;
 
     move-result-object v0
 
     .line 943
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lkik/android/gifs/api/e;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/e;->a()Ljava/lang/String;
 
     move-result-object v6
 
     if-eqz v6, :cond_0
 
     .line 944
-    invoke-virtual {v0}, Lkik/android/gifs/api/e;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/e;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1283,7 +1283,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 951
     const/4 v0, 0x0
@@ -1291,7 +1291,7 @@
     goto :goto_1
 .end method
 
-.method public static a(Lkik/core/datatypes/y;[BLkik/android/internal/platform/PlatformHelper$StickerSource;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+.method public static a(Lkik/core/datatypes/y;[BLkik/arcane/internal/platform/PlatformHelper$StickerSource;)Lkik/core/datatypes/messageExtensions/ContentMessage;
     .locals 3
 
     .prologue
@@ -1389,7 +1389,7 @@
     invoke-virtual {v0, v1, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Lkik/core/datatypes/q;)V
 
     .line 987
-    invoke-static {v0, p0, p2}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/datatypes/y;Lkik/android/internal/platform/PlatformHelper$StickerSource;)V
+    invoke-static {v0, p0, p2}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/datatypes/y;Lkik/arcane/internal/platform/PlatformHelper$StickerSource;)V
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1401,7 +1401,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 993
     const/4 v0, 0x0
@@ -1418,15 +1418,15 @@
 
     new-instance v1, Lkik/core/datatypes/b;
 
-    invoke-static {p0}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {p0}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v2}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v2
 
@@ -1451,19 +1451,19 @@
 
     .line 1765
     :cond_0
-    new-instance v0, Lkik/android/chat/fragment/KikConversationsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;-><init>()V
 
-    invoke-static {v0, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ad;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ad;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     goto :goto_0
 .end method
@@ -1483,9 +1483,9 @@
 
     .line 1718
     :cond_0
-    new-instance v2, Lkik/android/chat/vm/bz;
+    new-instance v2, Lkik/arcane/chat/vm/bz;
 
-    invoke-direct {v2, p1}, Lkik/android/chat/vm/bz;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p1}, Lkik/arcane/chat/vm/bz;-><init>(Landroid/content/Context;)V
 
     .line 1722
     if-eqz p0, :cond_6
@@ -1537,7 +1537,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/chat/vm/profile/do;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/do;
+    invoke-static {v3}, Lkik/arcane/chat/vm/profile/do;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/do;
 
     move-result-object v3
 
@@ -1546,12 +1546,12 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lkik/android/chat/vm/profile/do;->b(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/do;
+    invoke-virtual {v3, v4}, Lkik/arcane/chat/vm/profile/do;->b(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/do;
 
     move-result-object v3
 
     .line 1735
-    invoke-virtual {v3, v0}, Lkik/android/chat/vm/profile/do;->a(Lkik/core/datatypes/MemberPermissions;)Lkik/android/chat/vm/profile/do;
+    invoke-virtual {v3, v0}, Lkik/arcane/chat/vm/profile/do;->a(Lkik/core/datatypes/MemberPermissions;)Lkik/arcane/chat/vm/profile/do;
 
     move-result-object v0
 
@@ -1560,33 +1560,33 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/vm/profile/do;->a(Z)Lkik/android/chat/vm/profile/do;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/vm/profile/do;->a(Z)Lkik/arcane/chat/vm/profile/do;
 
     move-result-object v0
 
     .line 1737
-    invoke-virtual {v0}, Lkik/android/chat/vm/profile/do;->b()Lkik/android/chat/vm/profile/di;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/profile/do;->b()Lkik/arcane/chat/vm/profile/di;
 
     move-result-object v0
 
     .line 1733
-    invoke-interface {v2, v0}, Lkik/android/chat/vm/ay;->a(Lkik/android/chat/vm/profile/di;)Lrx/d;
+    invoke-interface {v2, v0}, Lkik/arcane/chat/vm/ay;->a(Lkik/arcane/chat/vm/profile/di;)Lrx/d;
 
     goto :goto_0
 
     .line 1740
     :cond_3
-    new-instance v0, Lkik/android/chat/fragment/KikChatFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikChatFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikChatFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikChatFragment$a;-><init>()V
 
     .line 1741
-    invoke-virtual {v0, p3}, Lkik/android/chat/fragment/KikChatFragment$a;->c(Z)Lkik/android/chat/fragment/KikChatFragment$a;
+    invoke-virtual {v0, p3}, Lkik/arcane/chat/fragment/KikChatFragment$a;->c(Z)Lkik/arcane/chat/fragment/KikChatFragment$a;
 
     move-result-object v2
 
     .line 1742
-    invoke-virtual {v2, v1}, Lkik/android/chat/fragment/KikChatFragment$a;->a(Lkik/core/datatypes/l;)Lkik/android/chat/fragment/KikChatFragment$a;
+    invoke-virtual {v2, v1}, Lkik/arcane/chat/fragment/KikChatFragment$a;->a(Lkik/core/datatypes/l;)Lkik/arcane/chat/fragment/KikChatFragment$a;
 
     .line 1743
     invoke-static {p5}, Lkik/core/util/u;->a(Ljava/lang/CharSequence;)Z
@@ -1604,46 +1604,46 @@
     .line 1744
     const-string v1, "card-sendKikToUser"
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikChatFragment$a;->b(Ljava/lang/String;)Lkik/android/chat/fragment/KikChatFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikChatFragment$a;->b(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikChatFragment$a;
 
     move-result-object v1
 
     .line 1745
-    invoke-virtual {v1, p5}, Lkik/android/chat/fragment/KikChatFragment$a;->d(Ljava/lang/String;)Lkik/android/chat/fragment/KikChatFragment$a;
+    invoke-virtual {v1, p5}, Lkik/arcane/chat/fragment/KikChatFragment$a;->d(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikChatFragment$a;
 
     move-result-object v1
 
     .line 1746
-    invoke-virtual {v1, p6}, Lkik/android/chat/fragment/KikChatFragment$a;->e(Ljava/lang/String;)Lkik/android/chat/fragment/KikChatFragment$a;
+    invoke-virtual {v1, p6}, Lkik/arcane/chat/fragment/KikChatFragment$a;->e(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikChatFragment$a;
 
     .line 1748
     :cond_4
-    invoke-virtual {v0, p2}, Lkik/android/chat/fragment/KikChatFragment$a;->a(Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
+    invoke-virtual {v0, p2}, Lkik/arcane/chat/fragment/KikChatFragment$a;->a(Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 
     .line 1749
-    invoke-static {v0, p1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ad;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ad;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     goto :goto_0
 
     .line 1753
     :cond_5
-    new-instance v0, Lkik/android/chat/fragment/KikConversationsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;-><init>()V
 
     .line 1754
-    invoke-virtual {v0, p2}, Lkik/android/chat/fragment/KikConversationsFragment$a;->a(Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
+    invoke-virtual {v0, p2}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;->a(Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 
     .line 1755
-    invoke-static {v0, p1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ad;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ad;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     goto/16 :goto_0
 
@@ -1692,7 +1692,7 @@
     if-eqz v0, :cond_2
 
     .line 716
-    invoke-static {p1}, Lkik/android/internal/platform/PlatformHelper;->h(Ljava/lang/String;)J
+    invoke-static {p1}, Lkik/arcane/internal/platform/PlatformHelper;->h(Ljava/lang/String;)J
 
     move-result-wide v0
 
@@ -1748,21 +1748,21 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 3765
-    new-instance v1, Lkik/android/internal/platform/PlatformHelper$6;
+    new-instance v1, Lkik/arcane/internal/platform/PlatformHelper$6;
 
-    invoke-direct {v1, p0, p1, v0}, Lkik/android/internal/platform/PlatformHelper$6;-><init>(Lkik/android/internal/platform/PlatformHelper;Ljava/lang/String;Lcom/kik/events/Promise;)V
+    invoke-direct {v1, p0, p1, v0}, Lkik/arcane/internal/platform/PlatformHelper$6;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Ljava/lang/String;Lcom/kik/events/Promise;)V
 
     const/4 v2, 0x0
 
     new-array v2, v2, [Ljava/lang/Void;
 
     .line 3796
-    invoke-virtual {v1, v2}, Lkik/android/internal/platform/PlatformHelper$6;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v1, v2}, Lkik/arcane/internal/platform/PlatformHelper$6;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 730
-    new-instance v1, Lkik/android/internal/platform/PlatformHelper$1;
+    new-instance v1, Lkik/arcane/internal/platform/PlatformHelper$1;
 
-    invoke-direct {v1, p0, p3, p2}, Lkik/android/internal/platform/PlatformHelper$1;-><init>(Lkik/android/internal/platform/PlatformHelper;ILcom/kik/events/Promise;)V
+    invoke-direct {v1, p0, p3, p2}, Lkik/arcane/internal/platform/PlatformHelper$1;-><init>(Lkik/arcane/internal/platform/PlatformHelper;ILcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -1814,7 +1814,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 
@@ -1822,17 +1822,17 @@
     :catch_1
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
 
-.method public static a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/datatypes/y;Lkik/android/internal/platform/PlatformHelper$StickerSource;)V
+.method public static a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/datatypes/y;Lkik/arcane/internal/platform/PlatformHelper$StickerSource;)V
     .locals 2
 
     .prologue
     .line 1007
-    invoke-static {p0}, Lkik/android/util/o;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
+    invoke-static {p0}, Lkik/arcane/util/o;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
 
     move-result v0
 
@@ -1878,7 +1878,7 @@
     .line 1014
     const-string v0, "sticker_source"
 
-    invoke-virtual {p2}, Lkik/android/internal/platform/PlatformHelper$StickerSource;->name()Ljava/lang/String;
+    invoke-virtual {p2}, Lkik/arcane/internal/platform/PlatformHelper$StickerSource;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1897,7 +1897,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0, p3, p4}, Lkik/android/util/f;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lkik/core/interfaces/ad;)Ljava/io/File;
+    invoke-static {p1, v0, p3, p4}, Lkik/arcane/util/f;->a(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lkik/core/interfaces/ad;)Ljava/io/File;
 
     move-result-object v1
 
@@ -1931,7 +1931,7 @@
 
     .line 1361
     :cond_1
-    invoke-virtual {p0, v0}, Lkik/android/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2075,7 +2075,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/internal/platform/PlatformHelper;->i(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/internal/platform/PlatformHelper;->i(Ljava/lang/String;)V
 
     .line 1417
     const/4 v0, 0x1
@@ -2110,7 +2110,7 @@
     :catch_1
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 
@@ -2118,29 +2118,29 @@
     :catch_2
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/internal/platform/PlatformHelper;Ljava/lang/String;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Lkik/core/interfaces/ad;)Z
+.method static synthetic a(Lkik/arcane/internal/platform/PlatformHelper;Ljava/lang/String;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Lkik/core/interfaces/ad;)Z
     .locals 1
 
     .prologue
     .line 125
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Lkik/core/interfaces/ad;)Z
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Lkik/core/interfaces/ad;)Z
 
     move-result v0
 
     return v0
 .end method
 
-.method static synthetic a(Lkik/android/internal/platform/PlatformHelper;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;)Z
+.method static synthetic a(Lkik/arcane/internal/platform/PlatformHelper;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;)Z
     .locals 1
 
     .prologue
     .line 125
-    invoke-direct {p0, p1, p2}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;)Z
+    invoke-direct {p0, p1, p2}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;)Z
 
     move-result v0
 
@@ -2179,7 +2179,7 @@
 
     move-result-object v3
 
-    invoke-static {p2, v3}, Lkik/android/util/bx;->a(Landroid/content/Context;Landroid/net/Uri;)J
+    invoke-static {p2, v3}, Lkik/arcane/util/bx;->a(Landroid/content/Context;Landroid/net/Uri;)J
 
     move-result-wide v4
 
@@ -2202,7 +2202,7 @@
     move-result-object v0
 
     .line 1437
-    iget-object v3, p0, Lkik/android/internal/platform/PlatformHelper;->v:Lkik/core/interfaces/s;
+    iget-object v3, p0, Lkik/arcane/internal/platform/PlatformHelper;->v:Lkik/core/interfaces/s;
 
     invoke-virtual {p1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -2320,7 +2320,7 @@
 
     move-result-object v1
 
-    invoke-static {p2, v1}, Lkik/android/util/bx;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {p2, v1}, Lkik/arcane/util/bx;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -2368,7 +2368,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/z;->c(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/z;->c(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -2418,7 +2418,7 @@
 
     .line 1490
     :try_start_5
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
 
     invoke-virtual {p1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -2437,7 +2437,7 @@
     if-eqz v1, :cond_9
 
     .line 1493
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
 
     invoke-virtual {v4}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -2454,7 +2454,7 @@
 
     .line 1496
     :cond_7
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
 
     invoke-virtual {p1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -2491,7 +2491,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/internal/platform/PlatformHelper;->i(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/internal/platform/PlatformHelper;->i(Ljava/lang/String;)V
 
     .line 1515
     const/4 v0, 0x1
@@ -2870,7 +2870,7 @@
     move-result-object v0
 
     .line 246
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
 
     invoke-virtual {v1, v0, p1}, Ljava/util/Hashtable;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -2880,7 +2880,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 .end method
@@ -2928,11 +2928,11 @@
 
     .prologue
     .line 2003
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->w:Lkik/arcane/util/ai;
 
     const-string v1, "kik.arcane.internal.platform.settings.upload"
 
-    invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2989,9 +2989,9 @@
     invoke-direct {v2}, Lcom/kik/events/Promise;-><init>()V
 
     .line 1522
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->u:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->u:Lcom/kik/cache/KikVolleyImageLoader;
 
-    invoke-static {p1, v0}, Lkik/android/internal/platform/PlatformUtils;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;Lcom/kik/cache/KikVolleyImageLoader;)Lcom/kik/events/Promise;
+    invoke-static {p1, v0}, Lkik/arcane/internal/platform/PlatformUtils;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;Lcom/kik/cache/KikVolleyImageLoader;)Lcom/kik/events/Promise;
 
     move-result-object v9
 
@@ -3018,22 +3018,22 @@
     if-eqz p3, :cond_0
 
     .line 1590
-    new-instance v0, Lkik/android/internal/platform/PlatformHelper$2;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformHelper$2;
 
-    invoke-direct {v0, p0, v9, p3, p2}, Lkik/android/internal/platform/PlatformHelper$2;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lcom/kik/cards/web/f;Landroid/app/Activity;)V
+    invoke-direct {v0, p0, v9, p3, p2}, Lkik/arcane/internal/platform/PlatformHelper$2;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lcom/kik/cards/web/f;Landroid/app/Activity;)V
 
     invoke-virtual {v2, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1611
     :cond_0
-    new-instance v0, Lkik/android/internal/platform/PlatformHelper$3;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformHelper$3;
 
-    invoke-direct {v0, p0, v8}, Lkik/android/internal/platform/PlatformHelper$3;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
+    invoke-direct {v0, p0, v8}, Lkik/arcane/internal/platform/PlatformHelper$3;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v2, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1633
-    new-instance v0, Lkik/android/internal/platform/PlatformHelper$4;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformHelper$4;
 
     move-object v1, p0
 
@@ -3045,7 +3045,7 @@
 
     move-object v7, p1
 
-    invoke-direct/range {v0 .. v8}, Lkik/android/internal/platform/PlatformHelper$4;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/interfaces/v;Landroid/app/Activity;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;ZLcom/kik/cards/web/kik/KikMessageParcelable;Lcom/kik/events/Promise;)V
+    invoke-direct/range {v0 .. v8}, Lkik/arcane/internal/platform/PlatformHelper$4;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/interfaces/v;Landroid/app/Activity;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;ZLcom/kik/cards/web/kik/KikMessageParcelable;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v9, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -3094,9 +3094,9 @@
     move-result-object v0
 
     .line 1536
-    new-instance v1, Lkik/android/internal/platform/PlatformHelper$12;
+    new-instance v1, Lkik/arcane/internal/platform/PlatformHelper$12;
 
-    invoke-direct {v1, p0, v2}, Lkik/android/internal/platform/PlatformHelper$12;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
+    invoke-direct {v1, p0, v2}, Lkik/arcane/internal/platform/PlatformHelper$12;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -3108,9 +3108,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->s()Lcom/kik/events/GlobalPromiseCache;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->s()Lcom/kik/events/GlobalPromiseCache;
 
     move-result-object v0
 
@@ -3119,36 +3119,36 @@
     move-result-wide v4
 
     .line 1559
-    new-instance v0, Lkik/android/chat/fragment/SendToFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/SendToFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/SendToFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/SendToFragment$a;-><init>()V
 
     .line 1560
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/SendToFragment$a;->a(Z)Lkik/android/chat/fragment/SendToFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/SendToFragment$a;->a(Z)Lkik/arcane/chat/fragment/SendToFragment$a;
 
     move-result-object v3
 
     .line 1561
-    invoke-virtual {v3, v4, v5}, Lkik/android/chat/fragment/SendToFragment$a;->a(J)Lkik/android/chat/fragment/SendToFragment$a;
+    invoke-virtual {v3, v4, v5}, Lkik/arcane/chat/fragment/SendToFragment$a;->a(J)Lkik/arcane/chat/fragment/SendToFragment$a;
 
     move-result-object v3
 
     .line 1562
-    invoke-virtual {v3, p4}, Lkik/android/chat/fragment/SendToFragment$a;->a(Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
+    invoke-virtual {v3, p4}, Lkik/arcane/chat/fragment/SendToFragment$a;->a(Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 
     .line 1564
-    invoke-static {v0, p2}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ad;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p2}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ad;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     move-result-object v0
 
     .line 1565
-    new-instance v3, Lkik/android/internal/platform/PlatformHelper$13;
+    new-instance v3, Lkik/arcane/internal/platform/PlatformHelper$13;
 
-    invoke-direct {v3, p0, v2}, Lkik/android/internal/platform/PlatformHelper$13;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
+    invoke-direct {v3, p0, v2}, Lkik/arcane/internal/platform/PlatformHelper$13;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v3}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -3191,28 +3191,28 @@
     invoke-direct {v7}, Lcom/kik/events/Promise;-><init>()V
 
     .line 1138
-    new-instance v0, Lkik/android/chat/fragment/SendToFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/SendToFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/SendToFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/SendToFragment$a;-><init>()V
 
     .line 1139
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/SendToFragment$a;->a(Z)Lkik/android/chat/fragment/SendToFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/SendToFragment$a;->a(Z)Lkik/arcane/chat/fragment/SendToFragment$a;
 
     .line 1140
-    invoke-static {v0, p2}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ad;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p2}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ad;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     move-result-object v0
 
     .line 1141
-    new-instance v1, Lkik/android/internal/platform/PlatformHelper$8;
+    new-instance v1, Lkik/arcane/internal/platform/PlatformHelper$8;
 
-    invoke-direct {v1, p0, v2}, Lkik/android/internal/platform/PlatformHelper$8;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
+    invoke-direct {v1, p0, v2}, Lkik/arcane/internal/platform/PlatformHelper$8;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -3271,7 +3271,7 @@
 
     invoke-direct {v9}, Lcom/kik/events/Promise;-><init>()V
 
-    sget v10, Lkik/android/internal/platform/PlatformHelper;->c:I
+    sget v10, Lkik/arcane/internal/platform/PlatformHelper;->c:I
 
     int-to-long v10, v10
 
@@ -3296,9 +3296,9 @@
 
     check-cast v0, Lcom/kik/events/Promise;
 
-    sget v9, Lkik/android/internal/platform/PlatformHelper;->b:I
+    sget v9, Lkik/arcane/internal/platform/PlatformHelper;->b:I
 
-    invoke-direct {p0, v4, v0, v9}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
+    invoke-direct {p0, v4, v0, v9}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
 
     .line 4102
     const/4 v0, 0x1
@@ -3309,9 +3309,9 @@
 
     check-cast v0, Lcom/kik/events/Promise;
 
-    sget v4, Lkik/android/internal/platform/PlatformHelper;->b:I
+    sget v4, Lkik/arcane/internal/platform/PlatformHelper;->b:I
 
-    invoke-direct {p0, v6, v0, v4}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
+    invoke-direct {p0, v6, v0, v4}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
 
     .line 4103
     const/4 v0, 0x2
@@ -3322,9 +3322,9 @@
 
     check-cast v0, Lcom/kik/events/Promise;
 
-    sget v4, Lkik/android/internal/platform/PlatformHelper;->a:I
+    sget v4, Lkik/arcane/internal/platform/PlatformHelper;->a:I
 
-    invoke-direct {p0, v1, v0, v4}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
+    invoke-direct {p0, v1, v0, v4}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
 
     .line 4105
     const/4 v0, 0x0
@@ -3359,28 +3359,28 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/internal/platform/PlatformHelper$7;
+    new-instance v1, Lkik/arcane/internal/platform/PlatformHelper$7;
 
-    invoke-direct {v1, p0, v3}, Lkik/android/internal/platform/PlatformHelper$7;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
+    invoke-direct {v1, p0, v3}, Lkik/arcane/internal/platform/PlatformHelper$7;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/n;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1165
-    new-instance v0, Lkik/android/internal/platform/PlatformHelper$9;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformHelper$9;
 
-    invoke-direct {v0, p0, v7, p1, p2}, Lkik/android/internal/platform/PlatformHelper$9;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/app/Activity;)V
+    invoke-direct {v0, p0, v7, p1, p2}, Lkik/arcane/internal/platform/PlatformHelper$9;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/app/Activity;)V
 
     invoke-virtual {v3, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1210
-    new-instance v0, Lkik/android/internal/platform/PlatformHelper$10;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformHelper$10;
 
-    invoke-direct {v0, p0, v7, p2, v5}, Lkik/android/internal/platform/PlatformHelper$10;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Landroid/app/Activity;Lcom/kik/events/Promise;)V
+    invoke-direct {v0, p0, v7, p2, v5}, Lkik/arcane/internal/platform/PlatformHelper$10;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Landroid/app/Activity;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v2, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1261
-    new-instance v0, Lkik/android/internal/platform/PlatformHelper$11;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformHelper$11;
 
     move-object v1, p0
 
@@ -3390,7 +3390,7 @@
 
     move-object v6, p3
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/internal/platform/PlatformHelper$11;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Landroid/app/Activity;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/v;)V
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/internal/platform/PlatformHelper$11;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Landroid/app/Activity;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/v;)V
 
     invoke-virtual {v7, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -3403,14 +3403,14 @@
     goto/16 :goto_0
 .end method
 
-.method public final a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;Lkik/core/net/e;)Lcom/kik/events/Promise;
+.method public final a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;)Lcom/kik/events/Promise;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkik/core/datatypes/messageExtensions/ContentMessage;",
             "Lcom/kik/cache/KikVolleyImageLoader;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             "Lkik/core/net/e;",
             ")",
             "Lcom/kik/events/Promise",
@@ -3440,20 +3440,20 @@
     if-eqz v1, :cond_0
 
     .line 2158
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->r:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->r:Lkik/core/interfaces/ad;
 
     invoke-static {v1}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
     move-result-object v1
 
-    invoke-static {p1, p3, p4, v1}, Lcom/kik/cache/ContentImageRequest;->getContentMessageRequest(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/z;)Lcom/kik/cache/KikImageRequest;
+    invoke-static {p1, p3, p4, v1}, Lcom/kik/cache/ContentImageRequest;->getContentMessageRequest(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/z;)Lcom/kik/cache/KikImageRequest;
 
     move-result-object v1
 
     .line 2160
-    new-instance v2, Lkik/android/internal/platform/PlatformHelper$5;
+    new-instance v2, Lkik/arcane/internal/platform/PlatformHelper$5;
 
-    invoke-direct {v2, p0, v0, p1}, Lkik/android/internal/platform/PlatformHelper$5;-><init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-direct {v2, p0, v0, p1}, Lkik/arcane/internal/platform/PlatformHelper$5;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     invoke-virtual {p2, v1, v2}, Lcom/kik/cache/KikVolleyImageLoader;->a(Lcom/kik/cache/KikImageRequest;Lcom/kik/cache/KikVolleyImageLoader$d;)Lcom/kik/cache/KikVolleyImageLoader$c;
 
@@ -3478,7 +3478,7 @@
 
     .line 256
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
 
     invoke-virtual {v0, p1}, Ljava/util/Hashtable;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -3512,7 +3512,7 @@
     move-result-object v4
 
     .line 317
-    invoke-direct {p0, p2}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/content/Intent;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-direct {p0, p2}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/content/Intent;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v5
 
@@ -3600,7 +3600,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -3609,7 +3609,7 @@
 
     new-instance v4, Lkik/core/datatypes/b;
 
-    invoke-static {v1}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v1}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v6
 
@@ -3807,7 +3807,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v0, v1
 
@@ -3860,14 +3860,14 @@
 
     move-object v6, p5
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;Landroid/app/Activity;Ljava/lang/String;JLjava/lang/String;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;Landroid/app/Activity;Ljava/lang/String;JLjava/lang/String;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v0
 
     .line 537
     const v1, 0x7f0200d0
 
-    invoke-static {v1, v0}, Lkik/android/internal/platform/PlatformHelper;->a(ILkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-static {v1, v0}, Lkik/arcane/internal/platform/PlatformHelper;->a(ILkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 538
     return-object v0
@@ -3891,7 +3891,7 @@
 
     move-result-object v0
 
-    invoke-static {p2, v0, p3}, Lkik/android/util/f;->a([BLjava/lang/String;Lkik/core/interfaces/ad;)Ljava/io/File;
+    invoke-static {p2, v0, p3}, Lkik/arcane/util/f;->a([BLjava/lang/String;Lkik/core/interfaces/ad;)Ljava/io/File;
 
     move-result-object v3
 
@@ -3919,7 +3919,7 @@
     :cond_0
     const/16 v0, 0x190
 
-    invoke-static {p2, v0}, Lkik/android/util/j;->b([BI)Landroid/graphics/Bitmap;
+    invoke-static {p2, v0}, Lkik/arcane/util/j;->b([BI)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -3962,15 +3962,15 @@
 
     const v5, 0x7f0200d0
 
-    invoke-static {v5}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v5}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v5}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v5}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v5
 
@@ -4101,7 +4101,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -4129,7 +4129,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_2
 
@@ -4137,7 +4137,7 @@
     :catch_1
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_3
 
@@ -4145,7 +4145,7 @@
     :catch_2
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_3
 
@@ -4153,7 +4153,7 @@
     :catch_3
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_4
 .end method
@@ -4180,7 +4180,7 @@
 
     .line 808
     :goto_0
-    sget-object v5, Lkik/android/util/f;->a:[I
+    sget-object v5, Lkik/arcane/util/f;->a:[I
 
     array-length v5, v5
 
@@ -4193,7 +4193,7 @@
 
     invoke-direct {v4, v5}, Ljava/lang/Throwable;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v4}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v4}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v4, v3
 
@@ -4213,11 +4213,11 @@
 
     const/4 v5, 0x0
 
-    sget-object v6, Lkik/android/util/f;->a:[I
+    sget-object v6, Lkik/arcane/util/f;->a:[I
 
     aget v6, v6, v4
 
-    invoke-static {p1, v3, v5, v6, p2}, Lkik/android/util/f;->a(Ljava/io/File;Ljava/lang/String;ZILkik/core/interfaces/ad;)Ljava/io/File;
+    invoke-static {p1, v3, v5, v6, p2}, Lkik/arcane/util/f;->a(Ljava/io/File;Ljava/lang/String;ZILkik/core/interfaces/ad;)Ljava/io/File;
 
     move-result-object v3
 
@@ -4235,7 +4235,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/j;->a(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v3}, Lkik/arcane/util/j;->a(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
@@ -4245,7 +4245,7 @@
     .line 3887
     const-string v5, "PlatformHelper.getGalleryImageContentMessage() - CameraUtils.makeBitmapWithMaxSide returned null."
 
-    invoke-static {v5}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v5}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 3889
     :cond_2
@@ -4253,7 +4253,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/util/h;->a(Ljava/lang/String;)I
+    invoke-static {v5}, Lkik/arcane/util/h;->a(Ljava/lang/String;)I
 
     move-result v5
 
@@ -4261,7 +4261,7 @@
     if-ltz v5, :cond_3
 
     .line 3891
-    invoke-static {v3, v5}, Lkik/android/util/h;->b(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
+    invoke-static {v3, v5}, Lkik/arcane/util/h;->b(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
@@ -4272,7 +4272,7 @@
     .line 3894
     const-string v5, "PlatformHelper.getGalleryImageContentMessage() - BitmapUtils.rotateBitmap returned null."
 
-    invoke-static {v5}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v5}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 3896
     :cond_4
@@ -4302,7 +4302,7 @@
     .line 3900
     const-string v2, "PlatformHelper.getGalleryImageContentMessage() - ImageUtil.bitmapToBytes returned null."
 
-    invoke-static {v2}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 825
     :cond_5
@@ -4321,15 +4321,15 @@
 
     const v5, 0x7f0200d1
 
-    invoke-static {v5}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v5}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v5}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v5}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v5
 
@@ -4406,7 +4406,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lkik/android/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v2}, Lkik/arcane/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -4477,7 +4477,7 @@
     :catch_0
     move-exception v2
 
-    invoke-static {v2}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v2, v0
 
@@ -4487,7 +4487,7 @@
     :catch_1
     move-exception v2
 
-    invoke-static {v2}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
     :try_end_4
     .catch Ljava/lang/OutOfMemoryError; {:try_start_4 .. :try_end_4} :catch_2
 
@@ -4497,7 +4497,7 @@
     :catch_2
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto/16 :goto_2
 
@@ -4506,7 +4506,7 @@
     move-exception v2
 
     :try_start_5
-    invoke-static {v2}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
     :try_end_5
     .catch Ljava/lang/OutOfMemoryError; {:try_start_5 .. :try_end_5} :catch_2
 
@@ -4537,12 +4537,12 @@
     invoke-direct {v3, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     .line 1032
-    invoke-static {p1}, Lkik/android/util/bx;->b(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lkik/arcane/util/bx;->b(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     .line 4020
-    invoke-static {v1}, Lkik/android/util/h;->c(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/util/h;->c(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -4590,15 +4590,15 @@
 
     const v5, 0x7f0200d1
 
-    invoke-static {v5}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v5}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v5}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v5}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v5
 
@@ -4688,7 +4688,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/internal/platform/PlatformHelper;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -4721,7 +4721,7 @@
     move-result v0
 
     .line 1070
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
 
     invoke-virtual {v3}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -4769,7 +4769,7 @@
     :catch_0
     move-exception v1
 
-    invoke-static {v1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_1
 .end method
@@ -4785,9 +4785,9 @@
     const/4 v5, 0x1
 
     .line 649
-    new-instance v3, Lkik/android/internal/platform/a;
+    new-instance v3, Lkik/arcane/internal/platform/a;
 
-    invoke-direct {v3, p3}, Lkik/android/internal/platform/a;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, p3}, Lkik/arcane/internal/platform/a;-><init>(Ljava/lang/String;)V
 
     .line 653
     :try_start_0
@@ -4795,7 +4795,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->n:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->n:Ljava/lang/String;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_1
@@ -4808,7 +4808,7 @@
 
     .line 666
     :goto_1
-    sget-object v4, Lkik/android/util/f;->a:[I
+    sget-object v4, Lkik/arcane/util/f;->a:[I
 
     array-length v4, v4
 
@@ -4821,7 +4821,7 @@
 
     invoke-direct {v0, v4}, Ljava/lang/Throwable;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 678
     :cond_0
@@ -4829,13 +4829,13 @@
 
     .line 680
     :try_start_1
-    invoke-virtual {v3, p2}, Lkik/android/internal/platform/a;->a(Ljava/io/File;)V
+    invoke-virtual {v3, p2}, Lkik/arcane/internal/platform/a;->a(Ljava/io/File;)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_2
 
     .line 688
     :try_start_2
-    invoke-virtual {v3, v1}, Lkik/android/internal/platform/a;->b(Ljava/io/File;)V
+    invoke-virtual {v3, v1}, Lkik/arcane/internal/platform/a;->b(Ljava/io/File;)V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_3
 
@@ -4843,13 +4843,13 @@
     if-eqz p4, :cond_1
 
     .line 697
-    invoke-direct {p0, p4}, Lkik/android/internal/platform/PlatformHelper;->g(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p4}, Lkik/arcane/internal/platform/PlatformHelper;->g(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 699
     :cond_1
-    invoke-static {p1, v3, v2}, Lkik/android/internal/platform/KikClient;->a(Landroid/app/Activity;Lkik/android/internal/platform/a;Ljava/lang/String;)V
+    invoke-static {p1, v3, v2}, Lkik/arcane/internal/platform/KikClient;->a(Landroid/app/Activity;Lkik/arcane/internal/platform/a;Ljava/lang/String;)V
 
     .line 705
     :goto_2
@@ -4859,7 +4859,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 
@@ -4867,21 +4867,21 @@
     :catch_1
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 
     .line 672
     :cond_2
-    invoke-virtual {v3}, Lkik/android/internal/platform/a;->a()Ljava/lang/String;
+    invoke-virtual {v3}, Lkik/arcane/internal/platform/a;->a()Ljava/lang/String;
 
     move-result-object v1
 
-    sget-object v4, Lkik/android/util/f;->a:[I
+    sget-object v4, Lkik/arcane/util/f;->a:[I
 
     aget v4, v4, v0
 
-    invoke-static {p2, v1, p5, v4, p6}, Lkik/android/util/f;->a(Ljava/io/File;Ljava/lang/String;ZILkik/core/interfaces/ad;)Ljava/io/File;
+    invoke-static {p2, v1, p5, v4, p6}, Lkik/arcane/util/f;->a(Ljava/io/File;Ljava/lang/String;ZILkik/core/interfaces/ad;)Ljava/io/File;
 
     move-result-object v1
 
@@ -4935,23 +4935,23 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;)V"
         }
     .end annotation
 
     .prologue
     .line 289
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->l:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->l:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->l:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->l:Ljava/util/List;
 
     if-ne v0, p1, :cond_0
 
     .line 290
-    invoke-virtual {p0}, Lkik/android/internal/platform/PlatformHelper;->b()V
+    invoke-virtual {p0}, Lkik/arcane/internal/platform/PlatformHelper;->b()V
 
     .line 292
     :cond_0
@@ -4963,11 +4963,11 @@
 
     .prologue
     .line 273
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -4975,14 +4975,14 @@
 
     if-eqz v0, :cond_0
 
-    iget-wide v0, p0, Lkik/android/internal/platform/PlatformHelper;->i:J
+    iget-wide v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->i:J
 
     cmp-long v0, p2, v0
 
     if-nez v0, :cond_0
 
     .line 274
-    invoke-virtual {p0}, Lkik/android/internal/platform/PlatformHelper;->b()V
+    invoke-virtual {p0}, Lkik/arcane/internal/platform/PlatformHelper;->b()V
 
     .line 276
     :cond_0
@@ -5002,45 +5002,45 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/internal/platform/PlatformHelper;->i:J
+    iput-wide v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->i:J
 
     .line 1924
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 1925
-    iput-boolean p2, p0, Lkik/android/internal/platform/PlatformHelper;->j:Z
+    iput-boolean p2, p0, Lkik/arcane/internal/platform/PlatformHelper;->j:Z
 
     .line 1926
     return-void
 .end method
 
-.method public final a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/net/e;Lkik/core/interfaces/z;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/s;Lkik/android/util/ai;)V
+.method public final a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/net/e;Lkik/core/interfaces/z;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/s;Lkik/arcane/util/ai;)V
     .locals 0
 
     .prologue
     .line 220
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper;->r:Lkik/core/interfaces/ad;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper;->r:Lkik/core/interfaces/ad;
 
     .line 221
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
 
     .line 222
-    iput-object p3, p0, Lkik/android/internal/platform/PlatformHelper;->t:Lkik/core/net/e;
+    iput-object p3, p0, Lkik/arcane/internal/platform/PlatformHelper;->t:Lkik/core/net/e;
 
     .line 223
-    iput-object p4, p0, Lkik/android/internal/platform/PlatformHelper;->q:Lkik/core/interfaces/z;
+    iput-object p4, p0, Lkik/arcane/internal/platform/PlatformHelper;->q:Lkik/core/interfaces/z;
 
     .line 224
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper;->s:Lcom/kik/storage/s;
 
     .line 225
-    iput-object p5, p0, Lkik/android/internal/platform/PlatformHelper;->u:Lcom/kik/cache/KikVolleyImageLoader;
+    iput-object p5, p0, Lkik/arcane/internal/platform/PlatformHelper;->u:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 226
-    iput-object p6, p0, Lkik/android/internal/platform/PlatformHelper;->v:Lkik/core/interfaces/s;
+    iput-object p6, p0, Lkik/arcane/internal/platform/PlatformHelper;->v:Lkik/core/interfaces/s;
 
     .line 227
-    iput-object p7, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
+    iput-object p7, p0, Lkik/arcane/internal/platform/PlatformHelper;->w:Lkik/arcane/util/ai;
 
     .line 228
     return-void
@@ -5051,7 +5051,7 @@
 
     .prologue
     .line 309
-    iput-boolean p1, p0, Lkik/android/internal/platform/PlatformHelper;->m:Z
+    iput-boolean p1, p0, Lkik/arcane/internal/platform/PlatformHelper;->m:Z
 
     .line 310
     return-void
@@ -5077,11 +5077,11 @@
 
     .line 1974
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->w:Lkik/arcane/util/ai;
 
     const-string v1, "kik.arcane.internal.platform.settings.upload"
 
-    invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -5103,15 +5103,15 @@
 
     .line 262
     .line 2955
-    iput-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->k:Ljava/lang/String;
+    iput-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->k:Ljava/lang/String;
 
     .line 263
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v1, v0}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
 
     .line 2960
-    iput-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->l:Ljava/util/List;
+    iput-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->l:Ljava/util/List;
 
     .line 265
     return-void
@@ -5122,11 +5122,11 @@
 
     .prologue
     .line 280
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->k:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->k:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->k:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->k:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -5135,7 +5135,7 @@
     if-eqz v0, :cond_0
 
     .line 281
-    invoke-virtual {p0}, Lkik/android/internal/platform/PlatformHelper;->b()V
+    invoke-virtual {p0}, Lkik/arcane/internal/platform/PlatformHelper;->b()V
 
     .line 283
     :cond_0
@@ -5149,14 +5149,14 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;)V"
         }
     .end annotation
 
     .prologue
     .line 1960
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper;->l:Ljava/util/List;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper;->l:Ljava/util/List;
 
     .line 1961
     return-void
@@ -5167,7 +5167,7 @@
 
     .prologue
     .line 297
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->g:Ljava/util/Hashtable;
 
     invoke-virtual {v0, p1}, Ljava/util/Hashtable;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -5180,7 +5180,7 @@
 
     .prologue
     .line 302
-    iget-boolean v0, p0, Lkik/android/internal/platform/PlatformHelper;->m:Z
+    iget-boolean v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->m:Z
 
     return v0
 .end method
@@ -5235,9 +5235,9 @@
     if-eqz v1, :cond_0
 
     .line 2121
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper;->o:Ljava/util/concurrent/ExecutorService;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper;->o:Ljava/util/concurrent/ExecutorService;
 
-    invoke-static {p1, v0}, Lkik/android/internal/platform/c;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/events/Promise;)Ljava/lang/Runnable;
+    invoke-static {p1, v0}, Lkik/arcane/internal/platform/c;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/events/Promise;)Ljava/lang/Runnable;
 
     move-result-object v2
 
@@ -5259,7 +5259,7 @@
 
     .prologue
     .line 1955
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper;->k:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper;->k:Ljava/lang/String;
 
     .line 1956
     return-void
@@ -5270,7 +5270,7 @@
 
     .prologue
     .line 1930
-    iget-boolean v0, p0, Lkik/android/internal/platform/PlatformHelper;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->j:Z
 
     return v0
 .end method
@@ -5280,7 +5280,7 @@
 
     .prologue
     .line 1935
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     return-object v0
 .end method
@@ -5290,11 +5290,11 @@
 
     .prologue
     .line 2009
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->w:Lkik/arcane/util/ai;
 
     const-string v1, "kik.arcane.internal.platform.settings.launch"
 
-    invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -5313,7 +5313,7 @@
 
     .prologue
     .line 1940
-    iget-wide v0, p0, Lkik/android/internal/platform/PlatformHelper;->i:J
+    iget-wide v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->i:J
 
     return-wide v0
 .end method
@@ -5323,7 +5323,7 @@
 
     .prologue
     .line 2021
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->r:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->r:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
@@ -5354,7 +5354,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v2, p0, Lkik/android/internal/platform/PlatformHelper;->t:Lkik/core/net/e;
+    iget-object v2, p0, Lkik/arcane/internal/platform/PlatformHelper;->t:Lkik/core/net/e;
 
     invoke-interface {v2}, Lkik/core/net/e;->h()Ljava/lang/String;
 
@@ -5374,7 +5374,7 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/internal/platform/PlatformHelper;->q:Lkik/core/interfaces/z;
+    iget-object v2, p0, Lkik/arcane/internal/platform/PlatformHelper;->q:Lkik/core/interfaces/z;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -5422,7 +5422,7 @@
 
     .prologue
     .line 1950
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->k:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->k:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -5434,14 +5434,14 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 1965
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->l:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->l:Ljava/util/List;
 
     return-object v0
 .end method
@@ -5451,11 +5451,11 @@
 
     .prologue
     .line 2085
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->w:Lkik/arcane/util/ai;
 
     const-string v1, "kik.arcane.internal.platform.settings.upload"
 
-    invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -5470,11 +5470,11 @@
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 2086
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper;->w:Lkik/android/util/ai;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper;->w:Lkik/arcane/util/ai;
 
     const-string v1, "kik.arcane.internal.platform.settings.launch"
 
-    invoke-interface {v0, v1}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 

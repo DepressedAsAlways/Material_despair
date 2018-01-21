@@ -1,9 +1,9 @@
-.class public interface abstract Lkik/android/gifs/vm/bn;
+.class public interface abstract Lkik/arcane/gifs/vm/bn;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/at;
+.implements Lkik/arcane/chat/vm/at;
 
 
 # virtual methods
@@ -16,7 +16,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/view/c;",
+            "Lkik/arcane/gifs/view/c;",
             ">;"
         }
     .end annotation

@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/KikNotificationHandler$9;
+.class final synthetic Lkik/arcane/KikNotificationHandler$9;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/KikNotificationHandler;
+    value = Lkik/arcane/KikNotificationHandler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,10 +32,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/KikNotificationHandler$9;->a:[I
+    sput-object v0, Lkik/arcane/KikNotificationHandler$9;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/KikNotificationHandler$9;->a:[I
+    sget-object v0, Lkik/arcane/KikNotificationHandler$9;->a:[I
 
     sget-object v1, Lkik/core/manager/trophy/TrophyType;->GIF:Lkik/core/manager/trophy/TrophyType;
 
@@ -51,7 +51,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/KikNotificationHandler$9;->a:[I
+    sget-object v0, Lkik/arcane/KikNotificationHandler$9;->a:[I
 
     sget-object v1, Lkik/core/manager/trophy/TrophyType;->MESSAGES:Lkik/core/manager/trophy/TrophyType;
 
@@ -67,7 +67,7 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/KikNotificationHandler$9;->a:[I
+    sget-object v0, Lkik/arcane/KikNotificationHandler$9;->a:[I
 
     sget-object v1, Lkik/core/manager/trophy/TrophyType;->ROSTER:Lkik/core/manager/trophy/TrophyType;
 
@@ -83,7 +83,7 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/KikNotificationHandler$9;->a:[I
+    sget-object v0, Lkik/arcane/KikNotificationHandler$9;->a:[I
 
     sget-object v1, Lkik/core/manager/trophy/TrophyType;->BOT:Lkik/core/manager/trophy/TrophyType;
 
@@ -99,7 +99,7 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/KikNotificationHandler$9;->a:[I
+    sget-object v0, Lkik/arcane/KikNotificationHandler$9;->a:[I
 
     sget-object v1, Lkik/core/manager/trophy/TrophyType;->EMAIL:Lkik/core/manager/trophy/TrophyType;
 

@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/chats/publicgroups/p;
-.super Lkik/android/chat/vm/chats/publicgroups/a;
+.class public final Lkik/arcane/chat/vm/chats/publicgroups/p;
+.super Lkik/arcane/chat/vm/chats/publicgroups/a;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/publicgroups/g;
+.implements Lkik/arcane/chat/vm/chats/publicgroups/g;
 
 
 # instance fields
@@ -31,7 +31,7 @@
     .end annotation
 .end field
 
-.field e:Lcom/kik/android/Mixpanel;
+.field e:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -69,13 +69,13 @@
 
     int-to-long v0, v0
 
-    invoke-direct {p0, v0, v1, p3, p4}, Lkik/android/chat/vm/chats/publicgroups/a;-><init>(JZZ)V
+    invoke-direct {p0, v0, v1, p3, p4}, Lkik/arcane/chat/vm/chats/publicgroups/a;-><init>(JZZ)V
 
     .line 52
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     .line 53
-    iput-object p2, p0, Lkik/android/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
 
     .line 54
     return-void
@@ -83,12 +83,12 @@
 
 
 # virtual methods
-.method public final N_()Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
+.method public final N_()Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
     .locals 1
 
     .prologue
     .line 66
-    sget-object v0, Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;->Related:Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;->Related:Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
 
     return-object v0
 .end method
@@ -98,20 +98,20 @@
 
     .prologue
     .line 72
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v0}, Lcom/kik/core/domain/a/a/a;->b()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 73
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v0}, Lcom/kik/core/domain/a/a/a;->c()Ljava/lang/String;
 
@@ -122,7 +122,7 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v0}, Lcom/kik/core/domain/a/a/a;->b()Ljava/lang/String;
 
@@ -138,13 +138,13 @@
     const/4 v2, 0x0
 
     .line 81
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v0}, Lcom/kik/core/domain/a/a/a;->c()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/bs;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/bs;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -153,7 +153,7 @@
     move-result-object v3
 
     .line 83
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
@@ -178,7 +178,7 @@
     .line 94
     new-instance v5, Landroid/text/style/ForegroundColorSpan;
 
-    iget-object v6, p0, Lkik/android/chat/vm/chats/publicgroups/p;->b:Landroid/content/res/Resources;
+    iget-object v6, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->b:Landroid/content/res/Resources;
 
     const v7, 0x7f0e00de
 
@@ -193,7 +193,7 @@
     .line 95
     new-instance v1, Landroid/text/style/ForegroundColorSpan;
 
-    iget-object v5, p0, Lkik/android/chat/vm/chats/publicgroups/p;->b:Landroid/content/res/Resources;
+    iget-object v5, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->b:Landroid/content/res/Resources;
 
     const v6, 0x7f0e0066
 
@@ -214,7 +214,7 @@
 
     .line 90
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -225,15 +225,15 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
     .locals 0
 
     .prologue
     .line 59
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/chats/publicgroups/a;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/chats/publicgroups/a;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
 
     .line 60
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/chats/publicgroups/p;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/chats/publicgroups/p;)V
 
     .line 61
     return-void
@@ -244,53 +244,53 @@
 
     .prologue
     .line 131
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->e:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->e:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Public Group Similar Group Tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Search Term"
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->g:Ljava/lang/String;
 
     .line 132
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Tag"
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     .line 133
     invoke-interface {v2}, Lcom/kik/core/domain/a/a/a;->c()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Total Results"
 
     .line 134
-    invoke-virtual {p0}, Lkik/android/chat/vm/chats/publicgroups/p;->g()I
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/chats/publicgroups/p;->g()I
 
     move-result v2
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Tapped Position"
 
     .line 135
-    invoke-virtual {p0}, Lkik/android/chat/vm/chats/publicgroups/p;->e()I
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/chats/publicgroups/p;->e()I
 
     move-result v2
 
@@ -298,22 +298,22 @@
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 136
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 137
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 139
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/vm/chats/publicgroups/p;->a(Lcom/kik/core/domain/a/a/a;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/vm/chats/publicgroups/p;->a(Lcom/kik/core/domain/a/a/a;)V
 
     .line 140
     return-void
@@ -328,7 +328,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v1}, Lcom/kik/core/domain/a/a/a;->g()I
 
@@ -344,7 +344,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v1}, Lcom/kik/core/domain/a/a/a;->k()I
 
@@ -377,7 +377,7 @@
 
     .prologue
     .line 108
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v0}, Lcom/kik/core/domain/a/a/a;->d()Ljava/lang/String;
 
@@ -386,9 +386,9 @@
     if-nez v0, :cond_0
 
     .line 109
-    new-instance v0, Lkik/android/chat/vm/chats/publicgroups/p$1;
+    new-instance v0, Lkik/arcane/chat/vm/chats/publicgroups/p$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/chats/publicgroups/p$1;-><init>(Lkik/android/chat/vm/chats/publicgroups/p;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/chats/publicgroups/p$1;-><init>(Lkik/arcane/chat/vm/chats/publicgroups/p;)V
 
     invoke-static {v0}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
 
@@ -399,9 +399,9 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/p;->c:Lkik/core/interfaces/af;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->c:Lkik/core/interfaces/af;
 
-    iget-object v1, p0, Lkik/android/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/publicgroups/p;->f:Lcom/kik/core/domain/a/a/a;
 
     invoke-interface {v1}, Lcom/kik/core/domain/a/a/a;->d()Ljava/lang/String;
 

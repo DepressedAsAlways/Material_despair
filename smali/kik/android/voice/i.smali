@@ -1,4 +1,4 @@
-.class public Lkik/android/voice/i;
+.class public Lkik/arcane/voice/i;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 19
-    iput-object p1, p0, Lkik/android/voice/i;->a:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/voice/i;->a:Landroid/content/Context;
 
     .line 20
     return-void
@@ -24,16 +24,16 @@
 
 
 # virtual methods
-.method final a()Lkik/android/voice/d;
+.method final a()Lkik/arcane/voice/d;
     .locals 2
 
     .prologue
     .line 25
-    new-instance v0, Lkik/android/voice/h;
+    new-instance v0, Lkik/arcane/voice/h;
 
-    iget-object v1, p0, Lkik/android/voice/i;->a:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/voice/i;->a:Landroid/content/Context;
 
-    invoke-direct {v0, v1}, Lkik/android/voice/h;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lkik/arcane/voice/h;-><init>(Landroid/content/Context;)V
 
     return-object v0
 .end method

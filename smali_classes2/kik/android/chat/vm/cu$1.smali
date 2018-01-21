@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/cu$1;
+.class final Lkik/arcane/chat/vm/cu$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/cu;->b()V
+    value = Lkik/arcane/chat/vm/cu;->b()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/cu;
+.field final synthetic a:Lkik/arcane/chat/vm/cu;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/cu;)V
+.method constructor <init>(Lkik/arcane/chat/vm/cu;)V
     .locals 0
 
     .prologue
     .line 136
-    iput-object p1, p0, Lkik/android/chat/vm/cu$1;->a:Lkik/android/chat/vm/cu;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cu$1;->a:Lkik/arcane/chat/vm/cu;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,19 +47,19 @@
 
     .prologue
     .line 140
-    iget-object v0, p0, Lkik/android/chat/vm/cu$1;->a:Lkik/android/chat/vm/cu;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cu$1;->a:Lkik/arcane/chat/vm/cu;
 
-    invoke-static {v0}, Lkik/android/chat/vm/cu;->b(Lkik/android/chat/vm/cu;)Lkik/android/chat/presentation/MediaTrayPresenter;
+    invoke-static {v0}, Lkik/arcane/chat/vm/cu;->b(Lkik/arcane/chat/vm/cu;)Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/chat/fragment/PopUpResultCallback$Source;->FROM_MEDIA_TRAY:Lkik/android/chat/fragment/PopUpResultCallback$Source;
+    sget-object v1, Lkik/arcane/chat/fragment/PopUpResultCallback$Source;->FROM_MEDIA_TRAY:Lkik/arcane/chat/fragment/PopUpResultCallback$Source;
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/PopUpResultCallback$Source;->getVal()Z
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/PopUpResultCallback$Source;->getVal()Z
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->d(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->d(Z)V
 
     .line 141
     return-void

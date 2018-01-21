@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/widget/ba;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/chat/vm/widget/ba;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/widget/y;
+.implements Lkik/arcane/chat/vm/widget/y;
 
 
 # instance fields
@@ -18,53 +18,53 @@
 
 .field private b:Lkik/core/datatypes/y;
 
-.field private c:Lkik/android/chat/vm/widget/t;
+.field private c:Lkik/arcane/chat/vm/widget/t;
 
 .field private final d:I
 
 
 # direct methods
-.method public constructor <init>(Lkik/core/datatypes/y;Lkik/android/chat/vm/widget/t;I)V
+.method public constructor <init>(Lkik/core/datatypes/y;Lkik/arcane/chat/vm/widget/t;I)V
     .locals 0
 
     .prologue
     .line 37
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 38
-    iput-object p1, p0, Lkik/android/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
+    iput-object p1, p0, Lkik/arcane/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
 
     .line 39
-    iput-object p2, p0, Lkik/android/chat/vm/widget/ba;->c:Lkik/android/chat/vm/widget/t;
+    iput-object p2, p0, Lkik/arcane/chat/vm/widget/ba;->c:Lkik/arcane/chat/vm/widget/t;
 
     .line 40
-    iput p3, p0, Lkik/android/chat/vm/widget/ba;->d:I
+    iput p3, p0, Lkik/arcane/chat/vm/widget/ba;->d:I
 
     .line 41
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/widget/ba;)Lkik/core/datatypes/y;
+.method static synthetic a(Lkik/arcane/chat/vm/widget/ba;)Lkik/core/datatypes/y;
     .locals 1
 
     .prologue
     .line 26
-    iget-object v0, p0, Lkik/android/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
     .locals 0
 
     .prologue
     .line 46
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
 
     .line 47
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/widget/ba;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/widget/ba;)V
 
     .line 48
     return-void
@@ -79,7 +79,7 @@
 
     .line 62
     :try_start_0
-    iget-object v2, p0, Lkik/android/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
+    iget-object v2, p0, Lkik/arcane/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
 
     invoke-virtual {v2}, Lkik/core/datatypes/y;->b()Ljava/lang/String;
 
@@ -101,7 +101,7 @@
     :catch_0
     move-exception v2
 
-    invoke-static {v2}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -113,10 +113,10 @@
     .line 53
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/vm/widget/ba;->c:Lkik/android/chat/vm/widget/t;
+    iput-object v0, p0, Lkik/arcane/chat/vm/widget/ba;->c:Lkik/arcane/chat/vm/widget/t;
 
     .line 54
-    invoke-super {p0}, Lkik/android/chat/vm/e;->al_()V
+    invoke-super {p0}, Lkik/arcane/chat/vm/e;->al_()V
 
     .line 55
     return-void
@@ -136,7 +136,7 @@
 
     .prologue
     .line 127
-    iget v0, p0, Lkik/android/chat/vm/widget/ba;->d:I
+    iget v0, p0, Lkik/arcane/chat/vm/widget/ba;->d:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -163,17 +163,17 @@
 
     .prologue
     .line 73
-    iget-object v0, p0, Lkik/android/chat/vm/widget/ba;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/ba;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
 
     invoke-virtual {v0}, Lkik/core/datatypes/y;->c()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -192,9 +192,9 @@
     return-object v0
 
     :cond_1
-    new-instance v0, Lkik/android/chat/vm/widget/ba$1;
+    new-instance v0, Lkik/arcane/chat/vm/widget/ba$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/widget/ba$1;-><init>(Lkik/android/chat/vm/widget/ba;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/widget/ba$1;-><init>(Lkik/arcane/chat/vm/widget/ba;)V
 
     invoke-static {v0}, Lrx/d;->a(Lrx/d$a;)Lrx/d;
 
@@ -208,16 +208,16 @@
 
     .prologue
     .line 114
-    iget-object v0, p0, Lkik/android/chat/vm/widget/ba;->c:Lkik/android/chat/vm/widget/t;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/ba;->c:Lkik/arcane/chat/vm/widget/t;
 
     if-eqz v0, :cond_0
 
     .line 115
-    iget-object v0, p0, Lkik/android/chat/vm/widget/ba;->c:Lkik/android/chat/vm/widget/t;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/ba;->c:Lkik/arcane/chat/vm/widget/t;
 
-    iget-object v1, p0, Lkik/android/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
+    iget-object v1, p0, Lkik/arcane/chat/vm/widget/ba;->b:Lkik/core/datatypes/y;
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/widget/t;->a(Lkik/core/datatypes/y;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/widget/t;->a(Lkik/core/datatypes/y;)V
 
     .line 117
     :cond_0

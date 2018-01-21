@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioMicLayoutView$2;
+.class final Lkik/arcane/widget/AudioMicLayoutView$2;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AudioMicLayoutView;
+    value = Lkik/arcane/widget/AudioMicLayoutView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioMicLayoutView;
+.field final synthetic a:Lkik/arcane/widget/AudioMicLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioMicLayoutView;)V
+.method constructor <init>(Lkik/arcane/widget/AudioMicLayoutView;)V
     .locals 0
 
     .prologue
     .line 261
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView$2;->a:Lkik/android/widget/AudioMicLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView$2;->a:Lkik/arcane/widget/AudioMicLayoutView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,9 +38,9 @@
 
     .prologue
     .line 265
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView$2;->a:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView$2;->a:Lkik/arcane/widget/AudioMicLayoutView;
 
-    iget-object v0, v0, Lkik/android/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
+    iget-object v0, v0, Lkik/arcane/widget/AudioMicLayoutView;->_mic:Landroid/widget/ImageView;
 
     const/4 v1, 0x1
 

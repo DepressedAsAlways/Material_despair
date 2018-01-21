@@ -6,11 +6,11 @@
 # instance fields
 .field private a:Lcom/kik/storage/t;
 
-.field private b:Lkik/android/f/e;
+.field private b:Lkik/arcane/f/e;
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/storage/t;Lkik/android/f/e;)V
+.method public constructor <init>(Lcom/kik/storage/t;Lkik/arcane/f/e;)V
     .locals 0
 
     .prologue
@@ -21,13 +21,13 @@
     iput-object p1, p0, Lcom/kik/f/ds;->a:Lcom/kik/storage/t;
 
     .line 32
-    iput-object p2, p0, Lcom/kik/f/ds;->b:Lkik/android/f/e;
+    iput-object p2, p0, Lcom/kik/f/ds;->b:Lkik/arcane/f/e;
 
     .line 33
     return-void
 .end method
 
-.method static a(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/ad;Lkik/android/f/e;)Lkik/core/manager/y;
+.method static a(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/ad;Lkik/arcane/f/e;)Lkik/core/manager/y;
     .locals 9
     .annotation runtime Ljavax/inject/Singleton;
     .end annotation
@@ -52,7 +52,7 @@
 
     move-object/from16 v8, p7
 
-    invoke-direct/range {v0 .. v8}, Lkik/core/manager/trophy/a;-><init>(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/ad;Lkik/android/f/e;)V
+    invoke-direct/range {v0 .. v8}, Lkik/core/manager/trophy/a;-><init>(Lcom/kik/storage/t;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;Lkik/core/interfaces/ag;Lkik/core/interfaces/b;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/ad;Lkik/arcane/f/e;)V
 
     return-object v0
 .end method
@@ -71,14 +71,14 @@
     return-object v0
 .end method
 
-.method final b()Lkik/android/f/e;
+.method final b()Lkik/arcane/f/e;
     .locals 1
     .annotation runtime Ljavax/inject/Singleton;
     .end annotation
 
     .prologue
     .line 46
-    iget-object v0, p0, Lcom/kik/f/ds;->b:Lkik/android/f/e;
+    iget-object v0, p0, Lcom/kik/f/ds;->b:Lkik/arcane/f/e;
 
     return-object v0
 .end method

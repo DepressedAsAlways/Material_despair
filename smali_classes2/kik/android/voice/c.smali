@@ -1,9 +1,9 @@
-.class public final Lkik/android/voice/c;
+.class public final Lkik/arcane/voice/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/h;
+.implements Lkik/arcane/f/h;
 
 
 # instance fields
@@ -21,7 +21,7 @@
     .line 11
     const/4 v0, 0x2
 
-    iput v0, p0, Lkik/android/voice/c;->a:I
+    iput v0, p0, Lkik/arcane/voice/c;->a:I
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     .prologue
     .line 33
-    iput p1, p0, Lkik/android/voice/c;->a:I
+    iput p1, p0, Lkik/arcane/voice/c;->a:I
 
     .line 34
     return-void
@@ -54,7 +54,7 @@
 
     .prologue
     .line 22
-    iget v0, p0, Lkik/android/voice/c;->a:I
+    iget v0, p0, Lkik/arcane/voice/c;->a:I
 
     return v0
 .end method

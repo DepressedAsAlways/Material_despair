@@ -1,5 +1,5 @@
-.class public final Lkik/android/chat/fragment/fs;
-.super Lkik/android/chat/fragment/ft;
+.class public final Lkik/arcane/chat/fragment/fs;
+.super Lkik/arcane/chat/fragment/ft;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 24
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/ft;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/ft;-><init>(Landroid/view/View;)V
 
     .line 25
     return-void

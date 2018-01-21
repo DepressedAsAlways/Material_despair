@@ -1,4 +1,4 @@
-.class final Lkik/android/net/communicator/CommunicatorService$1;
+.class final Lkik/arcane/net/communicator/CommunicatorService$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/communicator/CommunicatorService;
+    value = Lkik/arcane/net/communicator/CommunicatorService;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/net/communicator/CommunicatorService;
+.field final synthetic a:Lkik/arcane/net/communicator/CommunicatorService;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/net/communicator/CommunicatorService;)V
+.method constructor <init>(Lkik/arcane/net/communicator/CommunicatorService;)V
     .locals 0
 
     .prologue
     .line 156
-    iput-object p1, p0, Lkik/android/net/communicator/CommunicatorService$1;->a:Lkik/android/net/communicator/CommunicatorService;
+    iput-object p1, p0, Lkik/arcane/net/communicator/CommunicatorService$1;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,13 +54,13 @@
     check-cast p2, Ljava/lang/Long;
 
     .line 1161
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$1;->a:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$1;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
     invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v2
 
-    invoke-static {v0, v2, v3}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;J)J
+    invoke-static {v0, v2, v3}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;J)J
 
     .line 1163
     invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
@@ -74,24 +74,24 @@
     if-lez v0, :cond_0
 
     .line 1164
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$1;->a:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$1;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
     const-string v1, "disconnection after long connection"
 
-    invoke-static {v0, v1}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;Ljava/lang/String;)V
 
     :goto_0
     return-void
 
     .line 1167
     :cond_0
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$1;->a:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$1;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
     const/4 v1, 0x0
 
     const-string v2, "disconnection after short connection"
 
-    invoke-static {v0, v1, v2}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;ZLjava/lang/String;)V
 
     goto :goto_0
 .end method

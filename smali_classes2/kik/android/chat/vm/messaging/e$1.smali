@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/messaging/e$1;
+.class final Lkik/arcane/chat/vm/messaging/e$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/messaging/e;->a(Lkik/android/chat/vm/messaging/e;Lkik/core/datatypes/messageExtensions/ContentMessage;Lrx/j;)V
+    value = Lkik/arcane/chat/vm/messaging/e;->a(Lkik/arcane/chat/vm/messaging/e;Lkik/core/datatypes/messageExtensions/ContentMessage;Lrx/j;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lrx/j;
 
-.field final synthetic b:Lkik/android/chat/vm/messaging/e;
+.field final synthetic b:Lkik/arcane/chat/vm/messaging/e;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/e;Lrx/j;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/e;Lrx/j;)V
     .locals 0
 
     .prologue
     .line 111
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/e$1;->b:Lkik/android/chat/vm/messaging/e;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/e$1;->b:Lkik/arcane/chat/vm/messaging/e;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/e$1;->a:Lrx/j;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/e$1;->a:Lrx/j;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -54,7 +54,7 @@
     check-cast p1, Ljava/io/File;
 
     .line 1115
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/e$1;->a:Lrx/j;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/e$1;->a:Lrx/j;
 
     invoke-virtual {v0, p1}, Lrx/j;->a(Ljava/lang/Object;)V
 
@@ -67,21 +67,21 @@
 
     .prologue
     .line 121
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/e$1;->b:Lkik/android/chat/vm/messaging/e;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/e$1;->b:Lkik/arcane/chat/vm/messaging/e;
 
-    invoke-virtual {v0, p1}, Lkik/android/chat/vm/messaging/e;->a(Ljava/lang/Throwable;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/chat/vm/messaging/e;->a(Ljava/lang/Throwable;)V
 
     .line 123
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/e$1;->b:Lkik/android/chat/vm/messaging/e;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/e$1;->b:Lkik/arcane/chat/vm/messaging/e;
 
-    iget-object v0, v0, Lkik/android/chat/vm/messaging/e;->q:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/vm/messaging/e;->q:Lcom/kik/arcane/Mixpanel;
 
     if-eqz v0, :cond_1
 
     .line 124
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/e$1;->b:Lkik/android/chat/vm/messaging/e;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/e$1;->b:Lkik/arcane/chat/vm/messaging/e;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/messaging/e;->k()Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/messaging/e;->k()Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v0
 
@@ -97,13 +97,13 @@
 
     .line 128
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/e$1;->b:Lkik/android/chat/vm/messaging/e;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/e$1;->b:Lkik/arcane/chat/vm/messaging/e;
 
-    iget-object v1, v1, Lkik/android/chat/vm/messaging/e;->q:Lcom/kik/android/Mixpanel;
+    iget-object v1, v1, Lkik/arcane/chat/vm/messaging/e;->q:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "Video Download Failed Alert"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -112,28 +112,28 @@
     const/4 v3, 0x1
 
     .line 129
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "ID"
 
     .line 130
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 131
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 132
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 135
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/e$1;->a:Lrx/j;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/e$1;->a:Lrx/j;
 
     const/4 v1, 0x0
 

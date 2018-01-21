@@ -125,7 +125,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/bs;->a([B)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/bs;->a([B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -138,7 +138,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/util/bs;->a([B)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/util/bs;->a([B)Ljava/lang/String;
 
     move-result-object v2
 

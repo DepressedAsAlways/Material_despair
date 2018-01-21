@@ -18,12 +18,12 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
     .locals 6
 
     .prologue
     .line 24
-    invoke-static {}, Lkik/android/chat/vm/a/b;->j()Lkik/android/chat/vm/a/b;
+    invoke-static {}, Lkik/arcane/chat/vm/a/b;->j()Lkik/arcane/chat/vm/a/b;
 
     move-result-object v2
 
@@ -39,21 +39,21 @@
 
     move-object v4, p3
 
-    invoke-direct/range {v0 .. v5}, Lcom/kik/view/adapters/z;-><init>(Landroid/content/Context;Lkik/android/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;Ljava/util/Map;)V
+    invoke-direct/range {v0 .. v5}, Lcom/kik/view/adapters/z;-><init>(Landroid/content/Context;Lkik/arcane/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;Ljava/util/Map;)V
 
     .line 25
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lkik/android/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;Ljava/util/Map;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/arcane/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;Ljava/util/Map;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lkik/android/chat/vm/a/b;",
+            "Lkik/arcane/chat/vm/a/b;",
             "Lcom/kik/components/CoreComponent;",
-            "Lkik/android/chat/vm/ay;",
+            "Lkik/arcane/chat/vm/ay;",
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
@@ -64,7 +64,7 @@
 
     .prologue
     .line 30
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/kik/view/adapters/h;-><init>(Landroid/content/Context;Lkik/android/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/kik/view/adapters/h;-><init>(Landroid/content/Context;Lkik/arcane/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
 
     .line 31
     iput-object p5, p0, Lcom/kik/view/adapters/z;->a:Ljava/util/Map;

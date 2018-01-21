@@ -1,13 +1,13 @@
-.class public final Lkik/android/chat/vm/chats/profile/ai;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/chat/vm/chats/profile/ai;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/profile/bf;
+.implements Lkik/arcane/chat/vm/chats/profile/bf;
 
 
 # instance fields
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -49,33 +49,33 @@
 
     .prologue
     .line 39
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 36
     invoke-static {}, Lrx/subjects/a;->l()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->g:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->g:Lrx/subjects/a;
 
     .line 40
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/ai;->e:Lcom/kik/core/network/xmpp/jid/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/ai;->e:Lcom/kik/core/network/xmpp/jid/a;
 
     .line 41
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/chats/profile/ai;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/vm/chats/profile/ai;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 92
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/chats/profile/ai;Lkik/core/chat/profile/a;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/vm/chats/profile/ai;Lkik/core/chat/profile/a;)Ljava/lang/String;
     .locals 1
 
     .prologue
@@ -85,11 +85,11 @@
     .line 52
     const-string v0, ""
 
-    iput-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
 
     .line 57
     :goto_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
 
     return-object v0
 
@@ -97,17 +97,17 @@
     :cond_0
     iget-object v0, p1, Lkik/core/chat/profile/a;->a:Ljava/lang/String;
 
-    iput-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
 
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/chats/profile/ai;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/chat/vm/chats/profile/ai;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 63
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->g:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->g:Lrx/subjects/a;
 
     invoke-virtual {v0, p1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -115,17 +115,17 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/vm/chats/profile/ai;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/chat/vm/chats/profile/ai;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 60
     const-string v0, ""
 
-    iput-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
 
     .line 61
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -146,35 +146,35 @@
 
     .prologue
     .line 70
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->g:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->g:Lrx/subjects/a;
 
     return-object v0
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
     .locals 3
 
     .prologue
     .line 46
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
 
     .line 47
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/chats/profile/ai;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/chats/profile/ai;)V
 
     .line 48
-    invoke-virtual {p0}, Lkik/android/chat/vm/chats/profile/ai;->ad_()Lrx/f/b;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/chats/profile/ai;->ad_()Lrx/f/b;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/vm/chats/profile/ai;->b:Lkik/core/chat/profile/IContactProfileRepository;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/profile/ai;->b:Lkik/core/chat/profile/IContactProfileRepository;
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/profile/ai;->e:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/profile/ai;->e:Lcom/kik/core/network/xmpp/jid/a;
 
     invoke-interface {v1, v2}, Lkik/core/chat/profile/IContactProfileRepository;->a(Lcom/kik/core/network/xmpp/jid/a;)Lrx/d;
 
     move-result-object v1
 
-    invoke-static {}, Lkik/android/chat/vm/chats/profile/aj;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/vm/chats/profile/aj;->a()Lrx/functions/g;
 
     move-result-object v2
 
@@ -183,7 +183,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/vm/chats/profile/ak;->a(Lkik/android/chat/vm/chats/profile/ai;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/chats/profile/ak;->a(Lkik/arcane/chat/vm/chats/profile/ai;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -192,7 +192,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/vm/chats/profile/al;->a(Lkik/android/chat/vm/chats/profile/ai;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/chats/profile/al;->a(Lkik/arcane/chat/vm/chats/profile/ai;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -201,7 +201,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/vm/chats/profile/am;->a(Lkik/android/chat/vm/chats/profile/ai;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/chats/profile/am;->a(Lkik/arcane/chat/vm/chats/profile/ai;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -257,20 +257,20 @@
 
     .prologue
     .line 88
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "settings_biobutton_tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "bio_already_set"
 
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->f:Ljava/lang/String;
 
     .line 89
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -279,28 +279,28 @@
     const/4 v0, 0x1
 
     :goto_0
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 90
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 91
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 92
-    invoke-virtual {p0}, Lkik/android/chat/vm/chats/profile/ai;->F_()Lkik/android/chat/vm/ay;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/chats/profile/ai;->F_()Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/chats/profile/an;->a(Lkik/android/chat/vm/chats/profile/ai;)Lkik/android/chat/vm/ak;
+    invoke-static {p0}, Lkik/arcane/chat/vm/chats/profile/an;->a(Lkik/arcane/chat/vm/chats/profile/ai;)Lkik/arcane/chat/vm/ak;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/ay;->a(Lkik/android/chat/vm/ak;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/ay;->a(Lkik/arcane/chat/vm/ak;)V
 
     .line 93
     return-void
@@ -326,7 +326,7 @@
 
     .prologue
     .line 98
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ai;->c:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ai;->c:Lkik/core/interfaces/b;
 
     const-string v1, "profile-bios"
 

@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/KikCropView;
-.super Lkik/android/widget/ClampImageView;
+.class public Lkik/arcane/widget/KikCropView;
+.super Lkik/arcane/widget/ClampImageView;
 .source "SourceFile"
 
 
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/widget/KikCropView;->f:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/widget/KikCropView;->f:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -61,25 +61,25 @@
     const/4 v2, 0x0
 
     .line 28
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ClampImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ClampImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 41
     const-wide v0, 0x408ab00000000000L    # 854.0
 
-    iput-wide v0, p0, Lkik/android/widget/KikCropView;->g:D
+    iput-wide v0, p0, Lkik/arcane/widget/KikCropView;->g:D
 
     .line 104
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iput-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     .line 131
-    iput-boolean v2, p0, Lkik/android/widget/KikCropView;->j:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/KikCropView;->j:Z
 
     .line 132
-    iput-boolean v2, p0, Lkik/android/widget/KikCropView;->k:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/KikCropView;->k:Z
 
     .line 29
     return-void
@@ -90,7 +90,7 @@
 
     .prologue
     .line 221
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     sub-int v1, p1, p3
 
@@ -113,25 +113,25 @@
     const/4 v3, 0x0
 
     .line 231
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v1
 
     if-gt v0, v1, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->height()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v1
 
@@ -139,13 +139,13 @@
 
     .line 232
     :cond_0
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v0
 
     div-int/lit8 v0, v0, 0x2
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v1
 
@@ -156,7 +156,7 @@
     move-result v0
 
     .line 233
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     .line 2226
     invoke-virtual {v1}, Landroid/graphics/Rect;->centerX()I
@@ -167,20 +167,20 @@
 
     move-result v1
 
-    invoke-direct {p0, v2, v1, v0}, Lkik/android/widget/KikCropView;->a(III)V
+    invoke-direct {p0, v2, v1, v0}, Lkik/arcane/widget/KikCropView;->a(III)V
 
     .line 236
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->left:I
 
     if-gez v0, :cond_2
 
     .line 237
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->top:I
 
@@ -188,16 +188,16 @@
 
     .line 239
     :cond_2
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->top:I
 
     if-gez v0, :cond_3
 
     .line 240
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
 
@@ -205,24 +205,24 @@
 
     .line 242
     :cond_3
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->right:I
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v1
 
     if-le v0, v1, :cond_4
 
     .line 243
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v1
 
-    iget-object v2, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v2}, Landroid/graphics/Rect;->width()I
 
@@ -230,7 +230,7 @@
 
     sub-int/2addr v1, v2
 
-    iget-object v2, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->top:I
 
@@ -238,28 +238,28 @@
 
     .line 245
     :cond_4
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->bottom:I
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v1
 
     if-le v0, v1, :cond_5
 
     .line 246
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v2
 
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v3}, Landroid/graphics/Rect;->height()I
 
@@ -290,7 +290,7 @@
 
     .line 45
     .line 1396
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -324,7 +324,7 @@
 
     int-to-double v2, v0
 
-    iput-wide v2, p0, Lkik/android/widget/KikCropView;->g:D
+    iput-wide v2, p0, Lkik/arcane/widget/KikCropView;->g:D
 
     .line 47
     new-instance v0, Landroid/graphics/BitmapFactory$Options;
@@ -340,25 +340,25 @@
     .line 50
     iget v2, v0, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
-    iput v2, p0, Lkik/android/widget/KikCropView;->e:I
+    iput v2, p0, Lkik/arcane/widget/KikCropView;->e:I
 
     .line 51
     iget v0, v0, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
-    iput v0, p0, Lkik/android/widget/KikCropView;->d:I
+    iput v0, p0, Lkik/arcane/widget/KikCropView;->d:I
 
     .line 53
-    iget-wide v2, p0, Lkik/android/widget/KikCropView;->g:D
+    iget-wide v2, p0, Lkik/arcane/widget/KikCropView;->g:D
 
-    iget v0, p0, Lkik/android/widget/KikCropView;->e:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->e:I
 
     int-to-double v4, v0
 
     div-double/2addr v2, v4
 
-    iget-wide v4, p0, Lkik/android/widget/KikCropView;->g:D
+    iget-wide v4, p0, Lkik/arcane/widget/KikCropView;->g:D
 
-    iget v0, p0, Lkik/android/widget/KikCropView;->d:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->d:I
 
     int-to-double v8, v0
 
@@ -398,7 +398,7 @@
 
     .line 61
     :goto_0
-    iput-object p1, p0, Lkik/android/widget/KikCropView;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/widget/KikCropView;->a:Ljava/lang/String;
 
     .line 62
     new-instance v2, Landroid/graphics/BitmapFactory$Options;
@@ -425,10 +425,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 68
-    invoke-static {p1}, Lkik/android/util/h;->b(Ljava/lang/String;)F
+    invoke-static {p1}, Lkik/arcane/util/h;->b(Ljava/lang/String;)F
 
     move-result v7
 
@@ -448,7 +448,7 @@
     invoke-virtual {v5, v7}, Landroid/graphics/Matrix;->postRotate(F)Z
 
     .line 72
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 73
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
@@ -465,10 +465,10 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iput-object v1, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 74
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     if-eq v0, v1, :cond_1
 
@@ -479,37 +479,37 @@
     :cond_1
     float-to-int v0, v7
 
-    iput v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iput v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     .line 80
     :cond_2
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 82
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     .line 83
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     const/4 v1, -0x1
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 84
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     const/high16 v1, 0x40400000    # 3.0f
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 85
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
@@ -529,7 +529,7 @@
 
     .prologue
     .line 90
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_0
 
@@ -551,7 +551,7 @@
     const/4 v1, 0x0
 
     .line 252
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_0
 
@@ -563,7 +563,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 256
     new-instance v5, Landroid/graphics/Matrix;
@@ -576,25 +576,25 @@
     invoke-virtual {v5, v0}, Landroid/graphics/Matrix;->postRotate(F)Z
 
     .line 258
-    iget v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     add-int/lit8 v0, v0, 0x5a
 
-    iput v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iput v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     .line 259
-    iget v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     const/16 v2, 0x168
 
     if-lt v0, v2, :cond_1
 
     .line 260
-    iget v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     add-int/lit16 v0, v0, -0x168
 
-    iput v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iput v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     .line 262
     :cond_1
@@ -604,12 +604,12 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v2, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v2, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 263
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 264
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
@@ -628,10 +628,10 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iput-object v1, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 265
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     if-eq v0, v1, :cond_2
 
@@ -640,9 +640,9 @@
 
     .line 268
     :cond_2
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     goto :goto_0
 .end method
@@ -654,7 +654,7 @@
     const/4 v1, 0x0
 
     .line 273
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_0
 
@@ -666,7 +666,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 277
     new-instance v5, Landroid/graphics/Matrix;
@@ -679,23 +679,23 @@
     invoke-virtual {v5, v0}, Landroid/graphics/Matrix;->postRotate(F)Z
 
     .line 279
-    iget v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     add-int/lit8 v0, v0, -0x5a
 
-    iput v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iput v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     .line 280
-    iget v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     if-gez v0, :cond_1
 
     .line 281
-    iget v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     add-int/lit16 v0, v0, 0x168
 
-    iput v0, p0, Lkik/android/widget/KikCropView;->c:I
+    iput v0, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     .line 283
     :cond_1
@@ -705,12 +705,12 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v2, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v2, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 284
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 285
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
@@ -729,10 +729,10 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iput-object v1, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 286
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     if-eq v0, v1, :cond_2
 
@@ -741,9 +741,9 @@
 
     .line 289
     :cond_2
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     goto :goto_0
 .end method
@@ -753,17 +753,17 @@
 
     .prologue
     .line 296
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v6
 
     .line 297
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v7
 
     .line 312
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     if-nez v0, :cond_0
 
@@ -776,7 +776,7 @@
 
     .line 315
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
 
@@ -784,9 +784,9 @@
     const/4 v0, 0x1
 
     .line 319
-    iget v1, p0, Lkik/android/widget/KikCropView;->d:I
+    iget v1, p0, Lkik/arcane/widget/KikCropView;->d:I
 
-    iget v2, p0, Lkik/android/widget/KikCropView;->e:I
+    iget v2, p0, Lkik/arcane/widget/KikCropView;->e:I
 
     invoke-static {v1, v2}, Ljava/lang/Math;->max(II)I
 
@@ -801,9 +801,9 @@
     if-lez v1, :cond_1
 
     .line 320
-    iget v0, p0, Lkik/android/widget/KikCropView;->d:I
+    iget v0, p0, Lkik/arcane/widget/KikCropView;->d:I
 
-    iget v1, p0, Lkik/android/widget/KikCropView;->e:I
+    iget v1, p0, Lkik/arcane/widget/KikCropView;->e:I
 
     invoke-static {v0, v1}, Ljava/lang/Math;->max(II)I
 
@@ -849,7 +849,7 @@
     .line 331
     :cond_2
     :try_start_0
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->a:Ljava/lang/String;
 
     invoke-static {v0, v1}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
     :try_end_0
@@ -869,7 +869,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 338
     const/4 v0, 0x0
@@ -883,12 +883,12 @@
     invoke-direct {v5}, Landroid/graphics/Matrix;-><init>()V
 
     .line 341
-    iget v1, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v1, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     if-eqz v1, :cond_4
 
     .line 342
-    iget v1, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v1, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     int-to-float v1, v1
 
@@ -896,19 +896,19 @@
 
     .line 351
     :cond_4
-    iget v1, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v1, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     const/16 v2, 0x5a
 
     if-ne v1, v2, :cond_6
 
     .line 352
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v4, v1, Landroid/graphics/Rect;->top:I
 
     .line 353
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->right:I
 
@@ -960,7 +960,7 @@
     double-to-int v3, v8
 
     .line 378
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v1}, Landroid/graphics/Rect;->width()I
 
@@ -1069,21 +1069,21 @@
 
     .line 357
     :cond_6
-    iget v1, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v1, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     const/16 v2, 0xb4
 
     if-ne v1, v2, :cond_7
 
     .line 358
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->right:I
 
     sub-int v4, v6, v1
 
     .line 359
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->bottom:I
 
@@ -1103,21 +1103,21 @@
 
     .line 363
     :cond_7
-    iget v1, p0, Lkik/android/widget/KikCropView;->c:I
+    iget v1, p0, Lkik/arcane/widget/KikCropView;->c:I
 
     const/16 v2, 0x10e
 
     if-ne v1, v2, :cond_8
 
     .line 364
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->bottom:I
 
     sub-int v4, v7, v1
 
     .line 365
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v3, v1, Landroid/graphics/Rect;->left:I
 
@@ -1135,12 +1135,12 @@
 
     .line 370
     :cond_8
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v4, v1, Landroid/graphics/Rect;->left:I
 
     .line 371
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v3, v1, Landroid/graphics/Rect;->top:I
 
@@ -1164,15 +1164,15 @@
     const/4 v1, 0x0
 
     .line 405
-    invoke-virtual {p0, v1}, Lkik/android/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/KikCropView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 406
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_1
 
     .line 407
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
@@ -1181,13 +1181,13 @@
     if-nez v0, :cond_0
 
     .line 408
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->recycle()V
 
     .line 410
     :cond_0
-    iput-object v1, p0, Lkik/android/widget/KikCropView;->b:Landroid/graphics/Bitmap;
+    iput-object v1, p0, Lkik/arcane/widget/KikCropView;->b:Landroid/graphics/Bitmap;
 
     .line 412
     :cond_1
@@ -1203,10 +1203,10 @@
     const/4 v5, 0x0
 
     .line 112
-    invoke-super {p0, p1}, Lkik/android/widget/ClampImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/ClampImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 113
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->isInEditMode()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->isInEditMode()Z
 
     move-result v0
 
@@ -1218,23 +1218,23 @@
 
     .line 116
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     if-eqz v0, :cond_1
 
     .line 117
-    invoke-direct {p0}, Lkik/android/widget/KikCropView;->f()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikCropView;->f()V
 
     .line 119
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     .line 120
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     invoke-static {v2, v2, v2, v2}, Landroid/graphics/Color;->argb(IIII)I
 
@@ -1243,7 +1243,7 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 121
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
@@ -1252,7 +1252,7 @@
     .line 122
     new-instance v0, Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
 
@@ -1262,43 +1262,43 @@
 
     invoke-direct {v0, v5, v5, v1, v2}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     .line 123
     new-instance v0, Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
 
-    iget-object v2, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->right:I
 
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v3, v3, Landroid/graphics/Rect;->top:I
 
     invoke-direct {v0, v1, v5, v2, v3}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     .line 124
     new-instance v0, Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
 
-    iget-object v2, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->bottom:I
 
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v3, v3, Landroid/graphics/Rect;->right:I
 
@@ -1308,14 +1308,14 @@
 
     invoke-direct {v0, v1, v2, v3, v4}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     .line 125
     new-instance v0, Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->right:I
 
@@ -1329,26 +1329,26 @@
 
     invoke-direct {v0, v1, v5, v2, v3}, Landroid/graphics/Rect;-><init>(IIII)V
 
-    iget-object v1, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawRect(Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 
     .line 126
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     const/4 v1, -0x1
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 127
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     const/high16 v1, 0x40400000    # 3.0f
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 128
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->i:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->i:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
@@ -1362,14 +1362,14 @@
 
     .prologue
     .line 96
-    invoke-super/range {p0 .. p5}, Lkik/android/widget/ClampImageView;->onLayout(ZIIII)V
+    invoke-super/range {p0 .. p5}, Lkik/arcane/widget/ClampImageView;->onLayout(ZIIII)V
 
     .line 98
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v1
 
@@ -1380,28 +1380,28 @@
     div-int/lit8 v0, v0, 0x3
 
     .line 99
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v1
 
     div-int/lit8 v1, v1, 0x2
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v2
 
     div-int/lit8 v2, v2, 0x2
 
-    invoke-direct {p0, v1, v2, v0}, Lkik/android/widget/KikCropView;->a(III)V
+    invoke-direct {p0, v1, v2, v0}, Lkik/arcane/widget/KikCropView;->a(III)V
 
     .line 101
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getWidth()I
 
     move-result v0
 
     div-int/lit8 v0, v0, 0x3
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->getHeight()I
 
     move-result v1
 
@@ -1411,7 +1411,7 @@
 
     move-result v0
 
-    sput v0, Lkik/android/widget/KikCropView;->o:I
+    sput v0, Lkik/arcane/widget/KikCropView;->o:I
 
     .line 102
     return-void
@@ -1443,33 +1443,33 @@
     :pswitch_0
     new-instance v2, Landroid/graphics/Rect;
 
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-direct {v2, v3}, Landroid/graphics/Rect;-><init>(Landroid/graphics/Rect;)V
 
-    iput-object v2, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iput-object v2, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     .line 147
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
     move-result v2
 
-    iput v2, p0, Lkik/android/widget/KikCropView;->m:F
+    iput v2, p0, Lkik/arcane/widget/KikCropView;->m:F
 
     .line 148
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
 
     move-result v2
 
-    iput v2, p0, Lkik/android/widget/KikCropView;->n:F
+    iput v2, p0, Lkik/arcane/widget/KikCropView;->n:F
 
     .line 150
-    iget v2, p0, Lkik/android/widget/KikCropView;->m:F
+    iget v2, p0, Lkik/arcane/widget/KikCropView;->m:F
 
-    iget v3, p0, Lkik/android/widget/KikCropView;->n:F
+    iget v3, p0, Lkik/arcane/widget/KikCropView;->n:F
 
     .line 2183
-    iget-object v4, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v4, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v4}, Landroid/graphics/Rect;->centerX()I
 
@@ -1483,7 +1483,7 @@
 
     move-result v4
 
-    iget-object v5, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v5, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v5}, Landroid/graphics/Rect;->width()I
 
@@ -1503,7 +1503,7 @@
 
     if-gez v4, :cond_2
 
-    iget-object v4, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v4, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v4, v4, Landroid/graphics/Rect;->bottom:I
 
@@ -1515,7 +1515,7 @@
 
     if-gez v4, :cond_2
 
-    iget-object v4, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v4, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v4, v4, Landroid/graphics/Rect;->top:I
 
@@ -1535,13 +1535,13 @@
     if-eqz v0, :cond_3
 
     .line 151
-    iput-boolean v1, p0, Lkik/android/widget/KikCropView;->k:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/KikCropView;->k:Z
 
     goto :goto_0
 
     .line 2188
     :cond_2
-    iget-object v4, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v4, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v4}, Landroid/graphics/Rect;->centerY()I
 
@@ -1555,7 +1555,7 @@
 
     move-result v3
 
-    iget-object v4, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v4, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     invoke-virtual {v4}, Landroid/graphics/Rect;->height()I
 
@@ -1575,7 +1575,7 @@
 
     if-gez v3, :cond_1
 
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v3, v3, Landroid/graphics/Rect;->right:I
 
@@ -1587,7 +1587,7 @@
 
     if-gez v3, :cond_1
 
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     iget v3, v3, Landroid/graphics/Rect;->left:I
 
@@ -1606,13 +1606,13 @@
 
     .line 153
     :cond_3
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
-    iget v2, p0, Lkik/android/widget/KikCropView;->m:F
+    iget v2, p0, Lkik/arcane/widget/KikCropView;->m:F
 
     float-to-int v2, v2
 
-    iget v3, p0, Lkik/android/widget/KikCropView;->n:F
+    iget v3, p0, Lkik/arcane/widget/KikCropView;->n:F
 
     float-to-int v3, v3
 
@@ -1623,7 +1623,7 @@
     if-eqz v0, :cond_0
 
     .line 154
-    iput-boolean v1, p0, Lkik/android/widget/KikCropView;->j:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/KikCropView;->j:Z
 
     goto/16 :goto_0
 
@@ -1631,22 +1631,22 @@
     :pswitch_1
     const/4 v2, 0x0
 
-    iput-object v2, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iput-object v2, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     .line 159
-    iput-boolean v0, p0, Lkik/android/widget/KikCropView;->j:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/KikCropView;->j:Z
 
     .line 160
-    iput-boolean v0, p0, Lkik/android/widget/KikCropView;->k:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/KikCropView;->k:Z
 
     .line 161
-    invoke-direct {p0}, Lkik/android/widget/KikCropView;->f()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikCropView;->f()V
 
     goto/16 :goto_0
 
     .line 164
     :pswitch_2
-    iget-boolean v0, p0, Lkik/android/widget/KikCropView;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/KikCropView;->j:Z
 
     if-eqz v0, :cond_4
 
@@ -1655,7 +1655,7 @@
 
     move-result v0
 
-    iget v2, p0, Lkik/android/widget/KikCropView;->m:F
+    iget v2, p0, Lkik/arcane/widget/KikCropView;->m:F
 
     sub-float/2addr v0, v2
 
@@ -1663,19 +1663,19 @@
 
     move-result v2
 
-    iget v3, p0, Lkik/android/widget/KikCropView;->n:F
+    iget v3, p0, Lkik/arcane/widget/KikCropView;->n:F
 
     sub-float/2addr v2, v3
 
     .line 2197
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
-    iget-object v4, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iget-object v4, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     invoke-virtual {v3, v4}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
     .line 2198
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->h:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->h:Landroid/graphics/Rect;
 
     float-to-int v0, v0
 
@@ -1684,16 +1684,16 @@
     invoke-virtual {v3, v0, v2}, Landroid/graphics/Rect;->offset(II)V
 
     .line 166
-    invoke-direct {p0}, Lkik/android/widget/KikCropView;->f()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikCropView;->f()V
 
     .line 167
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->invalidate()V
 
     goto/16 :goto_0
 
     .line 169
     :cond_4
-    iget-boolean v0, p0, Lkik/android/widget/KikCropView;->k:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/KikCropView;->k:Z
 
     if-eqz v0, :cond_0
 
@@ -1707,7 +1707,7 @@
     move-result v2
 
     .line 2203
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     invoke-virtual {v3}, Landroid/graphics/Rect;->centerX()I
 
@@ -1718,7 +1718,7 @@
     sub-float v3, v0, v3
 
     .line 2204
-    iget-object v4, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iget-object v4, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     invoke-virtual {v4}, Landroid/graphics/Rect;->centerY()I
 
@@ -1742,7 +1742,7 @@
     if-lez v3, :cond_5
 
     .line 2209
-    iget-object v2, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     invoke-virtual {v2}, Landroid/graphics/Rect;->centerX()I
 
@@ -1758,7 +1758,7 @@
 
     .line 2215
     :goto_2
-    sget v2, Lkik/android/widget/KikCropView;->o:I
+    sget v2, Lkik/arcane/widget/KikCropView;->o:I
 
     div-int/lit8 v2, v2, 0x2
 
@@ -1769,13 +1769,13 @@
     move-result v0
 
     .line 2216
-    iget-object v2, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     invoke-virtual {v2}, Landroid/graphics/Rect;->centerX()I
 
     move-result v2
 
-    iget-object v3, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iget-object v3, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     invoke-virtual {v3}, Landroid/graphics/Rect;->centerY()I
 
@@ -1783,19 +1783,19 @@
 
     float-to-int v0, v0
 
-    invoke-direct {p0, v2, v3, v0}, Lkik/android/widget/KikCropView;->a(III)V
+    invoke-direct {p0, v2, v3, v0}, Lkik/arcane/widget/KikCropView;->a(III)V
 
     .line 171
-    invoke-direct {p0}, Lkik/android/widget/KikCropView;->f()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikCropView;->f()V
 
     .line 172
-    invoke-virtual {p0}, Lkik/android/widget/KikCropView;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCropView;->invalidate()V
 
     goto/16 :goto_0
 
     .line 2213
     :cond_5
-    iget-object v0, p0, Lkik/android/widget/KikCropView;->l:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/KikCropView;->l:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->centerY()I
 

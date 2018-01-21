@@ -1,9 +1,9 @@
-.class public final Lkik/android/util/u;
+.class public final Lkik/arcane/util/u;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/util/ah;
+.implements Lkik/arcane/util/ah;
 
 
 # instance fields
@@ -30,7 +30,7 @@
             "<",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;>;"
         }
     .end annotation
@@ -41,7 +41,7 @@
         value = {
             "Lrx/subjects/PublishSubject",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
@@ -52,7 +52,7 @@
         value = {
             "Lrx/subjects/PublishSubject",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
@@ -78,7 +78,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lcom/kik/storage/s;Lkik/android/util/ai;)V
+.method public constructor <init>(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lcom/kik/storage/s;Lkik/arcane/util/ai;)V
     .locals 2
 
     .prologue
@@ -90,110 +90,110 @@
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/u;->a:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/util/u;->a:Ljava/lang/Object;
 
     .line 53
     const/16 v0, 0x100
 
-    iput v0, p0, Lkik/android/util/u;->b:I
+    iput v0, p0, Lkik/arcane/util/u;->b:I
 
     .line 54
     const/high16 v0, 0x41f00000    # 30.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/util/u;->c:I
+    iput v0, p0, Lkik/arcane/util/u;->c:I
 
     .line 55
     const/high16 v0, 0x41700000    # 15.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/util/u;->d:I
+    iput v0, p0, Lkik/arcane/util/u;->d:I
 
     .line 56
     const-string v0, "EMOJI_CACHE"
 
-    iput-object v0, p0, Lkik/android/util/u;->e:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/util/u;->e:Ljava/lang/String;
 
     .line 57
     const-string v0, "TIMER_CACHE"
 
-    iput-object v0, p0, Lkik/android/util/u;->f:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/util/u;->f:Ljava/lang/String;
 
     .line 59
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/util/u;->g:I
+    iput v0, p0, Lkik/arcane/util/u;->g:I
 
     .line 62
     invoke-static {}, Lrx/subjects/PublishSubject;->l()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/u;->i:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/util/u;->i:Lrx/subjects/PublishSubject;
 
     .line 63
     invoke-static {}, Lrx/subjects/PublishSubject;->l()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/u;->j:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/util/u;->j:Lrx/subjects/PublishSubject;
 
     .line 64
     invoke-static {}, Lrx/subjects/PublishSubject;->l()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/u;->k:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/util/u;->k:Lrx/subjects/PublishSubject;
 
     .line 65
     new-instance v0, Lrx/f/b;
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/u;->l:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/util/u;->l:Lrx/f/b;
 
     .line 77
-    iput-object p1, p0, Lkik/android/util/u;->m:Lcom/kik/cache/KikVolleyImageLoader;
+    iput-object p1, p0, Lkik/arcane/util/u;->m:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 78
-    iput-object p2, p0, Lkik/android/util/u;->n:Landroid/content/res/Resources;
+    iput-object p2, p0, Lkik/arcane/util/u;->n:Landroid/content/res/Resources;
 
     .line 79
-    iput-object p3, p0, Lkik/android/util/u;->o:Lcom/kik/storage/s;
+    iput-object p3, p0, Lkik/arcane/util/u;->o:Lcom/kik/storage/s;
 
     .line 81
     const-string v0, "kik.gifs"
 
-    invoke-interface {p4, v0}, Lkik/android/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {p4, v0}, Lkik/arcane/util/ai;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/u;->p:Landroid/content/SharedPreferences;
+    iput-object v0, p0, Lkik/arcane/util/u;->p:Landroid/content/SharedPreferences;
 
     .line 83
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     .line 84
-    iget-object v0, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
-    iget v1, p0, Lkik/android/util/u;->c:I
+    iget v1, p0, Lkik/arcane/util/u;->c:I
 
     int-to-float v1, v1
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
     .line 85
-    iget-object v0, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Align;->CENTER:Landroid/graphics/Paint$Align;
 
@@ -204,10 +204,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iput-object v0, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     .line 89
-    iget-object v0, p0, Lkik/android/util/u;->n:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/util/u;->n:Landroid/content/res/Resources;
 
     const v1, 0x7f0a00b1
 
@@ -215,21 +215,21 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/util/u;->h:I
+    iput v0, p0, Lkik/arcane/util/u;->h:I
 
     .line 90
-    invoke-direct {p0}, Lkik/android/util/u;->f()V
+    invoke-direct {p0}, Lkik/arcane/util/u;->f()V
 
     .line 91
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/util/u;)Lcom/kik/storage/s;
+.method static synthetic a(Lkik/arcane/util/u;)Lcom/kik/storage/s;
     .locals 1
 
     .prologue
     .line 47
-    iget-object v0, p0, Lkik/android/util/u;->o:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/util/u;->o:Lcom/kik/storage/s;
 
     return-object v0
 .end method
@@ -243,7 +243,7 @@
             ")",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
@@ -308,7 +308,7 @@
     if-eqz v0, :cond_0
 
     .line 240
-    new-instance v0, Lkik/android/gifs/api/a;
+    new-instance v0, Lkik/arcane/gifs/api/a;
 
     const-string v4, "image-url"
 
@@ -322,7 +322,7 @@
 
     move-result v5
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/gifs/api/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/gifs/api/a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
     .line 245
     :goto_1
@@ -337,9 +337,9 @@
 
     .line 243
     :cond_0
-    new-instance v0, Lkik/android/gifs/api/b;
+    new-instance v0, Lkik/arcane/gifs/api/b;
 
-    invoke-direct {v0, v1, v2, v3}, Lkik/android/gifs/api/b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3}, Lkik/arcane/gifs/api/b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -349,7 +349,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->b(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->b(Ljava/lang/Throwable;)V
 
     .line 251
     const/4 v0, 0x0
@@ -364,16 +364,16 @@
     goto :goto_2
 .end method
 
-.method static synthetic a(Lkik/android/util/u;Lcom/kik/cache/SimpleUrlRequest;Ljava/lang/String;Lkik/android/gifs/api/a;Lrx/Emitter;)V
+.method static synthetic a(Lkik/arcane/util/u;Lcom/kik/cache/SimpleUrlRequest;Ljava/lang/String;Lkik/arcane/gifs/api/a;Lrx/Emitter;)V
     .locals 2
 
     .prologue
     .line 270
-    iget-object v0, p0, Lkik/android/util/u;->m:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, p0, Lkik/arcane/util/u;->m:Lcom/kik/cache/KikVolleyImageLoader;
 
-    new-instance v1, Lkik/android/util/u$1;
+    new-instance v1, Lkik/arcane/util/u$1;
 
-    invoke-direct {v1, p0, p2, p4, p3}, Lkik/android/util/u$1;-><init>(Lkik/android/util/u;Ljava/lang/String;Lrx/Emitter;Lkik/android/gifs/api/a;)V
+    invoke-direct {v1, p0, p2, p4, p3}, Lkik/arcane/util/u$1;-><init>(Lkik/arcane/util/u;Ljava/lang/String;Lrx/Emitter;Lkik/arcane/gifs/api/a;)V
 
     invoke-virtual {v0, p1, v1}, Lcom/kik/cache/KikVolleyImageLoader;->a(Lcom/kik/cache/KikImageRequest;Lcom/kik/cache/KikVolleyImageLoader$d;)Lcom/kik/cache/KikVolleyImageLoader$c;
 
@@ -382,7 +382,7 @@
     .line 297
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0}, Lkik/android/util/y;->a(Lcom/kik/cache/KikVolleyImageLoader$c;)Lrx/functions/e;
+    invoke-static {v0}, Lkik/arcane/util/y;->a(Lcom/kik/cache/KikVolleyImageLoader$c;)Lrx/functions/e;
 
     move-result-object v0
 
@@ -392,12 +392,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/util/u;Lkik/android/gifs/api/a;)V
+.method static synthetic a(Lkik/arcane/util/u;Lkik/arcane/gifs/api/a;)V
     .locals 1
 
     .prologue
     .line 149
-    iget-object v0, p0, Lkik/android/util/u;->k:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/util/u;->k:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0, p1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
@@ -476,7 +476,7 @@
 
     .line 429
     :cond_1
-    iget-object v1, p0, Lkik/android/util/u;->n:Landroid/content/res/Resources;
+    iget-object v1, p0, Lkik/arcane/util/u;->n:Landroid/content/res/Resources;
 
     const-string v2, "drawable"
 
@@ -532,7 +532,7 @@
     aget-object v3, v2, v0
 
     .line 312
-    iget-object v4, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v4, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v4, v3}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
@@ -560,7 +560,7 @@
 
     double-to-int v0, v0
 
-    iput v0, p0, Lkik/android/util/u;->g:I
+    iput v0, p0, Lkik/arcane/util/u;->g:I
 
     .line 316
     return-void
@@ -568,7 +568,7 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/gifs/api/b;)Landroid/graphics/Bitmap;
+.method public final a(Lkik/arcane/gifs/api/b;)Landroid/graphics/Bitmap;
     .locals 9
 
     .prologue
@@ -586,26 +586,26 @@
 
     .line 100
     :cond_0
-    iget-object v2, p0, Lkik/android/util/u;->a:Ljava/lang/Object;
+    iget-object v2, p0, Lkik/arcane/util/u;->a:Ljava/lang/Object;
 
     monitor-enter v2
 
     .line 101
     :try_start_0
-    instance-of v0, p1, Lkik/android/gifs/api/a;
+    instance-of v0, p1, Lkik/arcane/gifs/api/a;
 
     if-eqz v0, :cond_1
 
     .line 102
-    check-cast p1, Lkik/android/gifs/api/a;
+    check-cast p1, Lkik/arcane/gifs/api/a;
 
     .line 103
-    invoke-virtual {p1}, Lkik/android/gifs/api/a;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/gifs/api/a;->a()Ljava/lang/String;
 
     move-result-object v3
 
     .line 1402
-    iget-object v0, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v0, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v0, v3}, Lcom/kik/cache/SimpleLruBitmapCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -615,7 +615,7 @@
     if-nez v1, :cond_6
 
     .line 1404
-    iget-object v0, p0, Lkik/android/util/u;->o:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/util/u;->o:Lcom/kik/storage/s;
 
     invoke-interface {v0, v3}, Lcom/kik/storage/s;->j(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -625,7 +625,7 @@
     if-eqz v0, :cond_6
 
     .line 1407
-    iget-object v1, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v1, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v1, v3, v0}, Lcom/kik/cache/SimpleLruBitmapCache;->putBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
@@ -655,12 +655,12 @@
     if-lt v0, v1, :cond_4
 
     .line 106
-    invoke-virtual {p1}, Lkik/android/gifs/api/b;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/gifs/api/b;->e()Ljava/lang/String;
 
     move-result-object v1
 
     .line 2353
-    iget-object v0, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v0, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v0, v1}, Lcom/kik/cache/SimpleLruBitmapCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -670,9 +670,9 @@
     if-nez v0, :cond_2
 
     .line 2355
-    iget v0, p0, Lkik/android/util/u;->h:I
+    iget v0, p0, Lkik/arcane/util/u;->h:I
 
-    iget v3, p0, Lkik/android/util/u;->h:I
+    iget v3, p0, Lkik/arcane/util/u;->h:I
 
     sget-object v4, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
@@ -698,13 +698,13 @@
     invoke-virtual {v3, v5}, Landroid/graphics/Canvas;->drawColor(I)V
 
     .line 2365
-    iget-object v5, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v5, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v5, v1}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v5
 
-    iget v6, p0, Lkik/android/util/u;->h:I
+    iget v6, p0, Lkik/arcane/util/u;->h:I
 
     int-to-float v6, v6
 
@@ -717,9 +717,9 @@
     if-lez v5, :cond_3
 
     .line 2366
-    iget-object v5, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v5, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
-    iget v6, p0, Lkik/android/util/u;->d:I
+    iget v6, p0, Lkik/arcane/util/u;->d:I
 
     int-to-float v6, v6
 
@@ -734,13 +734,13 @@
 
     int-to-float v5, v5
 
-    iget-object v6, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v6, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v6}, Landroid/graphics/Paint;->descent()F
 
     move-result v6
 
-    iget-object v7, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v7, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v7}, Landroid/graphics/Paint;->ascent()F
 
@@ -759,14 +759,14 @@
 
     int-to-float v5, v5
 
-    iget-object v6, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v6, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v3, v1, v4, v5, v6}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     .line 2369
-    iget-object v3, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v3, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
-    iget v4, p0, Lkik/android/util/u;->c:I
+    iget v4, p0, Lkik/arcane/util/u;->c:I
 
     int-to-float v4, v4
 
@@ -774,7 +774,7 @@
 
     .line 2375
     :goto_2
-    iget-object v3, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v3, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v3, v1, v0}, Lcom/kik/cache/SimpleLruBitmapCache;->putBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
@@ -794,13 +794,13 @@
 
     int-to-float v5, v5
 
-    iget-object v6, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v6, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v6}, Landroid/graphics/Paint;->descent()F
 
     move-result v6
 
-    iget-object v7, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v7, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v7}, Landroid/graphics/Paint;->ascent()F
 
@@ -819,7 +819,7 @@
 
     int-to-float v5, v5
 
-    iget-object v6, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v6, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
     invoke-virtual {v3, v1, v4, v5, v6}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
@@ -827,12 +827,12 @@
 
     .line 109
     :cond_4
-    invoke-virtual {p1}, Lkik/android/gifs/api/b;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/gifs/api/b;->e()Ljava/lang/String;
 
     move-result-object v1
 
     .line 2383
-    iget-object v0, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v0, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v0, v1}, Lcom/kik/cache/SimpleLruBitmapCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -842,9 +842,9 @@
     if-nez v0, :cond_5
 
     .line 2385
-    iget v0, p0, Lkik/android/util/u;->h:I
+    iget v0, p0, Lkik/arcane/util/u;->h:I
 
-    iget v3, p0, Lkik/android/util/u;->h:I
+    iget v3, p0, Lkik/arcane/util/u;->h:I
 
     sget-object v4, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
@@ -853,9 +853,9 @@
     move-result-object v0
 
     .line 2387
-    iget-object v3, p0, Lkik/android/util/u;->n:Landroid/content/res/Resources;
+    iget-object v3, p0, Lkik/arcane/util/u;->n:Landroid/content/res/Resources;
 
-    invoke-direct {p0, v1}, Lkik/android/util/u;->b(Ljava/lang/String;)I
+    invoke-direct {p0, v1}, Lkik/arcane/util/u;->b(Ljava/lang/String;)I
 
     move-result v4
 
@@ -878,11 +878,11 @@
 
     const/4 v6, 0x5
 
-    iget v7, p0, Lkik/android/util/u;->h:I
+    iget v7, p0, Lkik/arcane/util/u;->h:I
 
     add-int/lit8 v7, v7, -0x5
 
-    iget v8, p0, Lkik/android/util/u;->h:I
+    iget v8, p0, Lkik/arcane/util/u;->h:I
 
     add-int/lit8 v8, v8, -0x5
 
@@ -892,7 +892,7 @@
     invoke-virtual {v3, v4}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
     .line 2394
-    iget-object v3, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v3, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v3, v1, v0}, Lcom/kik/cache/SimpleLruBitmapCache;->putBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
@@ -917,14 +917,14 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 122
-    iget-object v0, p0, Lkik/android/util/u;->p:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lkik/arcane/util/u;->p:Landroid/content/SharedPreferences;
 
     const-string v1, "EMOJI_CACHE"
 
@@ -935,14 +935,14 @@
     move-result-object v0
 
     .line 123
-    invoke-static {v0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 124
-    invoke-static {v0}, Lkik/android/util/u;->a(Ljava/lang/String;)Ljava/util/List;
+    invoke-static {v0}, Lkik/arcane/util/u;->a(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -963,7 +963,7 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;)V"
         }
     .end annotation
@@ -976,7 +976,7 @@
     const/4 v3, 0x1
 
     .line 133
-    iget-object v0, p0, Lkik/android/util/u;->l:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/util/u;->l:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->a()V
 
@@ -1002,10 +1002,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/gifs/api/b;
+    check-cast v0, Lkik/arcane/gifs/api/b;
 
     .line 3328
-    instance-of v1, v0, Lkik/android/gifs/api/a;
+    instance-of v1, v0, Lkik/arcane/gifs/api/a;
 
     if-eqz v1, :cond_2
 
@@ -1019,26 +1019,26 @@
     invoke-virtual {v4, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 142
-    invoke-virtual {v0}, Lkik/android/gifs/api/b;->c()Z
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/b;->c()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 143
-    check-cast v0, Lkik/android/gifs/api/a;
+    check-cast v0, Lkik/arcane/gifs/api/a;
 
     .line 144
-    invoke-virtual {p0}, Lkik/android/util/u;->e()Z
+    invoke-virtual {p0}, Lkik/arcane/util/u;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lkik/android/util/u;->o:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/util/u;->o:Lcom/kik/storage/s;
 
     .line 145
-    invoke-virtual {v0}, Lkik/android/gifs/api/a;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/a;->a()Ljava/lang/String;
 
     move-result-object v6
 
@@ -1056,10 +1056,10 @@
     if-eqz v1, :cond_0
 
     .line 147
-    iget-object v1, p0, Lkik/android/util/u;->l:Lrx/f/b;
+    iget-object v1, p0, Lkik/arcane/util/u;->l:Lrx/f/b;
 
     .line 4266
-    invoke-virtual {v0}, Lkik/android/gifs/api/a;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/a;->a()Ljava/lang/String;
 
     move-result-object v6
 
@@ -1069,7 +1069,7 @@
     move-result-object v7
 
     .line 4268
-    invoke-static {p0, v7, v6, v0}, Lkik/android/util/x;->a(Lkik/android/util/u;Lcom/kik/cache/SimpleUrlRequest;Ljava/lang/String;Lkik/android/gifs/api/a;)Lrx/functions/b;
+    invoke-static {p0, v7, v6, v0}, Lkik/arcane/util/x;->a(Lkik/arcane/util/u;Lcom/kik/cache/SimpleUrlRequest;Ljava/lang/String;Lkik/arcane/gifs/api/a;)Lrx/functions/b;
 
     move-result-object v6
 
@@ -1080,15 +1080,15 @@
     move-result-object v6
 
     .line 147
-    iget-object v7, p0, Lkik/android/util/u;->j:Lrx/subjects/PublishSubject;
+    iget-object v7, p0, Lkik/arcane/util/u;->j:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v7}, Lkik/android/util/v;->a(Lrx/subjects/PublishSubject;)Lrx/functions/b;
+    invoke-static {v7}, Lkik/arcane/util/v;->a(Lrx/subjects/PublishSubject;)Lrx/functions/b;
 
     move-result-object v7
 
-    invoke-static {p0, v0}, Lkik/android/util/w;->a(Lkik/android/util/u;Lkik/android/gifs/api/a;)Lrx/functions/b;
+    invoke-static {p0, v0}, Lkik/arcane/util/w;->a(Lkik/arcane/util/u;Lkik/arcane/gifs/api/a;)Lrx/functions/b;
 
     move-result-object v0
 
@@ -1109,11 +1109,11 @@
     if-ge v1, v6, :cond_4
 
     .line 3333
-    invoke-virtual {v0}, Lkik/android/gifs/api/b;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/b;->e()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {p0, v1}, Lkik/android/util/u;->b(Ljava/lang/String;)I
+    invoke-direct {p0, v1}, Lkik/arcane/util/u;->b(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1130,7 +1130,7 @@
 
     .line 3336
     :cond_4
-    iget v1, p0, Lkik/android/util/u;->g:I
+    iget v1, p0, Lkik/arcane/util/u;->g:I
 
     if-gez v1, :cond_6
 
@@ -1141,7 +1141,7 @@
 
     invoke-direct {v1, v6}, Ljava/lang/Throwable;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lkik/android/util/aw;->d(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lkik/arcane/util/aw;->d(Ljava/lang/Throwable;)V
 
     :cond_5
     move v1, v2
@@ -1151,9 +1151,9 @@
 
     .line 3340
     :cond_6
-    iget-object v1, p0, Lkik/android/util/u;->r:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/util/u;->r:Landroid/graphics/Paint;
 
-    invoke-virtual {v0}, Lkik/android/gifs/api/b;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/b;->e()Ljava/lang/String;
 
     move-result-object v6
 
@@ -1162,7 +1162,7 @@
     move-result v1
 
     .line 3341
-    iget v6, p0, Lkik/android/util/u;->g:I
+    iget v6, p0, Lkik/arcane/util/u;->g:I
 
     int-to-float v6, v6
 
@@ -1182,7 +1182,7 @@
 
     .line 153
     :cond_8
-    iget-object v0, p0, Lkik/android/util/u;->i:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/util/u;->i:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0, v4}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
@@ -1197,14 +1197,14 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 159
-    iget-object v0, p0, Lkik/android/util/u;->k:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/util/u;->k:Lrx/subjects/PublishSubject;
 
     return-object v0
 .end method
@@ -1216,14 +1216,14 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;)V"
         }
     .end annotation
 
     .prologue
     .line 207
-    iget-object v0, p0, Lkik/android/util/u;->p:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lkik/arcane/util/u;->p:Landroid/content/SharedPreferences;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
@@ -1281,10 +1281,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/gifs/api/b;
+    check-cast v0, Lkik/arcane/gifs/api/b;
 
     .line 5218
-    invoke-virtual {v0}, Lkik/android/gifs/api/b;->d()Lorg/json/JSONObject;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/b;->d()Lorg/json/JSONObject;
 
     move-result-object v0
 
@@ -1305,7 +1305,7 @@
     goto :goto_0
 .end method
 
-.method public final b(Lkik/android/gifs/api/b;)Z
+.method public final b(Lkik/arcane/gifs/api/b;)Z
     .locals 3
 
     .prologue
@@ -1322,23 +1322,23 @@
 
     .line 181
     :cond_0
-    instance-of v0, p1, Lkik/android/gifs/api/a;
+    instance-of v0, p1, Lkik/arcane/gifs/api/a;
 
     if-eqz v0, :cond_1
 
-    check-cast p1, Lkik/android/gifs/api/a;
+    check-cast p1, Lkik/arcane/gifs/api/a;
 
-    invoke-virtual {p1}, Lkik/android/gifs/api/a;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/gifs/api/a;->a()Ljava/lang/String;
 
     move-result-object v0
 
     .line 182
     :goto_1
-    iget-object v2, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v2, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     if-eqz v2, :cond_2
 
-    iget-object v2, p0, Lkik/android/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v2, p0, Lkik/arcane/util/u;->q:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v2, v0}, Lcom/kik/cache/SimpleLruBitmapCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -1352,7 +1352,7 @@
 
     .line 181
     :cond_1
-    invoke-virtual {p1}, Lkik/android/gifs/api/b;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/gifs/api/b;->e()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1372,14 +1372,14 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 165
-    iget-object v0, p0, Lkik/android/util/u;->j:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/util/u;->j:Lrx/subjects/PublishSubject;
 
     return-object v0
 .end method
@@ -1393,14 +1393,14 @@
             "<",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;>;"
         }
     .end annotation
 
     .prologue
     .line 171
-    iget-object v0, p0, Lkik/android/util/u;->i:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/util/u;->i:Lrx/subjects/PublishSubject;
 
     return-object v0
 .end method
@@ -1410,7 +1410,7 @@
 
     .prologue
     .line 192
-    iget-object v0, p0, Lkik/android/util/u;->p:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lkik/arcane/util/u;->p:Landroid/content/SharedPreferences;
 
     const-string v1, "TIMER_CACHE"
 

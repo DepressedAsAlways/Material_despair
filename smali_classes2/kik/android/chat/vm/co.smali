@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/co;
+.class final synthetic Lkik/arcane/chat/vm/co;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,30 +6,30 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/bz;
+.field private final a:Lkik/arcane/chat/vm/bz;
 
-.field private final b:Lkik/android/chat/vm/DialogViewModel;
+.field private final b:Lkik/arcane/chat/vm/DialogViewModel;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/bz;Lkik/android/chat/vm/DialogViewModel;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/bz;Lkik/arcane/chat/vm/DialogViewModel;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/co;->a:Lkik/android/chat/vm/bz;
+    iput-object p1, p0, Lkik/arcane/chat/vm/co;->a:Lkik/arcane/chat/vm/bz;
 
-    iput-object p2, p0, Lkik/android/chat/vm/co;->b:Lkik/android/chat/vm/DialogViewModel;
+    iput-object p2, p0, Lkik/arcane/chat/vm/co;->b:Lkik/arcane/chat/vm/DialogViewModel;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/bz;Lkik/android/chat/vm/DialogViewModel;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/chat/vm/bz;Lkik/arcane/chat/vm/DialogViewModel;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/co;
+    new-instance v0, Lkik/arcane/chat/vm/co;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/chat/vm/co;-><init>(Lkik/android/chat/vm/bz;Lkik/android/chat/vm/DialogViewModel;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/chat/vm/co;-><init>(Lkik/arcane/chat/vm/bz;Lkik/arcane/chat/vm/DialogViewModel;)V
 
     return-object v0
 .end method
@@ -39,11 +39,11 @@
 .method public final run()V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/chat/vm/co;->a:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/co;->a:Lkik/arcane/chat/vm/bz;
 
-    iget-object v1, p0, Lkik/android/chat/vm/co;->b:Lkik/android/chat/vm/DialogViewModel;
+    iget-object v1, p0, Lkik/arcane/chat/vm/co;->b:Lkik/arcane/chat/vm/DialogViewModel;
 
-    invoke-static {v0, v1}, Lkik/android/chat/vm/bz;->b(Lkik/android/chat/vm/bz;Lkik/android/chat/vm/DialogViewModel;)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/vm/bz;->b(Lkik/arcane/chat/vm/bz;Lkik/arcane/chat/vm/DialogViewModel;)V
 
     return-void
 .end method

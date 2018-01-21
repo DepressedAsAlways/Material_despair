@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/voice/e;",
+        "Lkik/arcane/voice/e;",
         ">;"
     }
 .end annotation
@@ -131,7 +131,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/voice/e;",
+            "Lkik/arcane/voice/e;",
             ">;"
         }
     .end annotation
@@ -164,7 +164,7 @@
 
     check-cast v0, Lcom/kik/storage/s;
 
-    invoke-virtual {v1, v0}, Lcom/kik/f/ej;->a(Lcom/kik/storage/s;)Lkik/android/voice/e;
+    invoke-virtual {v1, v0}, Lcom/kik/f/ej;->a(Lcom/kik/storage/s;)Lkik/arcane/voice/e;
 
     move-result-object v0
 
@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/voice/e;
+    check-cast v0, Lkik/arcane/voice/e;
 
     .line 10
     return-object v0

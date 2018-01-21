@@ -1,9 +1,9 @@
-.class public Lkik/android/gallery/GalleryCursorLoader;
+.class public Lkik/arcane/gallery/GalleryCursorLoader;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gallery/IGalleryCursorLoader;
+.implements Lkik/arcane/gallery/IGalleryCursorLoader;
 
 
 # instance fields
@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->a:Landroid/net/Uri;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->a:Landroid/net/Uri;
 
     .line 42
     const/4 v0, 0x5
@@ -95,64 +95,64 @@
 
     aput-object v2, v0, v1
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->b:[Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->b:[Ljava/lang/String;
 
     .line 50
     const-string v0, "media_type = 1 OR (media_type = 3 AND duration <> 0 AND _data LIKE \'%.mp4\')"
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->c:Ljava/lang/String;
 
     .line 58
-    iput-object v5, p0, Lkik/android/gallery/GalleryCursorLoader;->d:[Ljava/lang/String;
+    iput-object v5, p0, Lkik/arcane/gallery/GalleryCursorLoader;->d:[Ljava/lang/String;
 
     .line 59
     const-string v0, "date_added DESC"
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->e:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->e:Ljava/lang/String;
 
     .line 61
     invoke-static {}, Lrx/subjects/a;->l()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     .line 67
     const-string v0, "com.google.android.apps.docs.storage"
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->j:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->j:Ljava/lang/String;
 
     .line 68
     const-string v0, "com.google.android.apps.photos.content"
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->k:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->k:Ljava/lang/String;
 
     .line 70
-    new-instance v0, Lkik/android/gallery/GalleryCursorLoader$1;
+    new-instance v0, Lkik/arcane/gallery/GalleryCursorLoader$1;
 
     new-instance v1, Landroid/os/Handler;
 
     invoke-direct {v1}, Landroid/os/Handler;-><init>()V
 
-    invoke-direct {v0, p0, v1}, Lkik/android/gallery/GalleryCursorLoader$1;-><init>(Lkik/android/gallery/GalleryCursorLoader;Landroid/os/Handler;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/gallery/GalleryCursorLoader$1;-><init>(Lkik/arcane/gallery/GalleryCursorLoader;Landroid/os/Handler;)V
 
-    iput-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->l:Landroid/database/ContentObserver;
+    iput-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->l:Landroid/database/ContentObserver;
 
     .line 82
-    iput v3, p0, Lkik/android/gallery/GalleryCursorLoader;->g:I
+    iput v3, p0, Lkik/arcane/gallery/GalleryCursorLoader;->g:I
 
     .line 83
-    iput-object p1, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     .line 84
-    iput-object p2, p0, Lkik/android/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
+    iput-object p2, p0, Lkik/arcane/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
 
     .line 86
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -161,7 +161,7 @@
     if-eqz v0, :cond_0
 
     .line 87
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -169,15 +169,15 @@
 
     sget-object v1, Landroid/provider/MediaStore$Images$Media;->EXTERNAL_CONTENT_URI:Landroid/net/Uri;
 
-    iget-object v2, p0, Lkik/android/gallery/GalleryCursorLoader;->l:Landroid/database/ContentObserver;
+    iget-object v2, p0, Lkik/arcane/gallery/GalleryCursorLoader;->l:Landroid/database/ContentObserver;
 
     invoke-virtual {v0, v1, v4, v2}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
 
     .line 90
     :cond_0
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
 
-    iget v1, p0, Lkik/android/gallery/GalleryCursorLoader;->g:I
+    iget v1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->g:I
 
     invoke-virtual {v0, v1, v5, p0}, Landroid/support/v4/app/LoaderManager;->initLoader(ILandroid/os/Bundle;Landroid/support/v4/app/LoaderManager$LoaderCallbacks;)Landroid/support/v4/content/Loader;
 
@@ -321,7 +321,7 @@
     :goto_0
     if-eqz v0, :cond_4
 
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-static {v0, p1}, Landroid/provider/DocumentsContract;->isDocumentUri(Landroid/content/Context;Landroid/net/Uri;)Z
 
@@ -330,7 +330,7 @@
     if-eqz v0, :cond_4
 
     .line 160
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -460,7 +460,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_3
 
@@ -530,9 +530,9 @@
 
     .line 221
     :cond_5
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
-    invoke-static {v0, p1}, Lkik/android/gallery/GalleryCursorLoader;->a(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {v0, p1}, Lkik/arcane/gallery/GalleryCursorLoader;->a(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -567,7 +567,7 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/gallery/a;Landroid/graphics/BitmapFactory$Options;)Lcom/kik/cache/GalleryImageRequest;
+.method public final a(Lkik/arcane/gallery/a;Landroid/graphics/BitmapFactory$Options;)Lcom/kik/cache/GalleryImageRequest;
     .locals 6
 
     .prologue
@@ -576,7 +576,7 @@
     .line 146
     const/4 v1, 0x0
 
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -588,14 +588,14 @@
 
     move-object v5, v4
 
-    invoke-static/range {v0 .. v5}, Lcom/kik/cache/GalleryImageRequest;->getGalleryImageRequest(Lkik/android/gallery/a;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)Lcom/kik/cache/GalleryImageRequest;
+    invoke-static/range {v0 .. v5}, Lcom/kik/cache/GalleryImageRequest;->getGalleryImageRequest(Lkik/arcane/gallery/a;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)Lcom/kik/cache/GalleryImageRequest;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final a(Landroid/content/Intent;ILkik/android/chat/vm/ay;)Lkik/android/gallery/a;
+.method public final a(Landroid/content/Intent;ILkik/arcane/chat/vm/ay;)Lkik/arcane/gallery/a;
     .locals 10
 
     .prologue
@@ -609,7 +609,7 @@
     move-result-object v1
 
     .line 289
-    invoke-direct {p0, v1}, Lkik/android/gallery/GalleryCursorLoader;->a(Landroid/net/Uri;)Ljava/lang/String;
+    invoke-direct {p0, v1}, Lkik/arcane/gallery/GalleryCursorLoader;->a(Landroid/net/Uri;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -621,7 +621,7 @@
 
     move-result v2
 
-    iget-object v3, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v3, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v3}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -640,7 +640,7 @@
 
     .line 293
     :cond_0
-    iget-object v2, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v2, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -685,13 +685,13 @@
     invoke-virtual {v9}, Ljava/io/File;->deleteOnExit()V
 
     .line 300
-    iget-object v2, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v2, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v2
 
-    invoke-static {v1, v2, v9}, Lkik/android/util/NativeGalleryPickerPlatformUtils;->a(Landroid/net/Uri;Landroid/content/ContentResolver;Ljava/io/File;)Z
+    invoke-static {v1, v2, v9}, Lkik/arcane/util/NativeGalleryPickerPlatformUtils;->a(Landroid/net/Uri;Landroid/content/ContentResolver;Ljava/io/File;)Z
 
     move-result v1
 
@@ -705,17 +705,17 @@
     .line 302
     if-eqz v6, :cond_2
 
-    invoke-static {v4}, Lkik/android/util/bx;->c(Ljava/lang/String;)I
+    invoke-static {v4}, Lkik/arcane/util/bx;->c(Ljava/lang/String;)I
 
     move-result v7
 
     .line 304
     :goto_1
-    new-instance v1, Lkik/android/gallery/a;
+    new-instance v1, Lkik/arcane/gallery/a;
 
     const-wide/16 v2, 0x0
 
-    invoke-direct/range {v1 .. v7}, Lkik/android/gallery/a;-><init>(JLjava/lang/String;Ljava/lang/String;ZI)V
+    invoke-direct/range {v1 .. v7}, Lkik/arcane/gallery/a;-><init>(JLjava/lang/String;Ljava/lang/String;ZI)V
     :try_end_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -752,7 +752,7 @@
 
     .line 316
     :cond_4
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     const v1, 0x7f0901b5
 
@@ -760,7 +760,7 @@
 
     move-result-object v0
 
-    invoke-interface {p3, v0}, Lkik/android/chat/vm/ay;->b(Ljava/lang/String;)V
+    invoke-interface {p3, v0}, Lkik/arcane/chat/vm/ay;->b(Ljava/lang/String;)V
 
     move-object v1, v8
 
@@ -780,9 +780,9 @@
 
     .prologue
     .line 114
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
 
-    iget v1, p0, Lkik/android/gallery/GalleryCursorLoader;->g:I
+    iget v1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->g:I
 
     const/4 v2, 0x0
 
@@ -797,11 +797,11 @@
 
     .prologue
     .line 120
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->n()Z
 
@@ -809,7 +809,7 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->m()Z
 
@@ -818,9 +818,9 @@
     if-eqz v0, :cond_0
 
     .line 121
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
-    iget-object v1, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     invoke-virtual {v1}, Lrx/subjects/a;->o()Ljava/lang/Object;
 
@@ -834,7 +834,7 @@
 
     .line 124
     :cond_0
-    invoke-virtual {p0}, Lkik/android/gallery/GalleryCursorLoader;->a()V
+    invoke-virtual {p0}, Lkik/arcane/gallery/GalleryCursorLoader;->a()V
 
     goto :goto_0
 .end method
@@ -844,11 +844,11 @@
 
     .prologue
     .line 131
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -857,21 +857,21 @@
     if-eqz v0, :cond_0
 
     .line 132
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/gallery/GalleryCursorLoader;->l:Landroid/database/ContentObserver;
+    iget-object v1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->l:Landroid/database/ContentObserver;
 
     invoke-virtual {v0, v1}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
 
     .line 134
     :cond_0
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->i:Landroid/support/v4/app/LoaderManager;
 
-    iget v1, p0, Lkik/android/gallery/GalleryCursorLoader;->g:I
+    iget v1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->g:I
 
     invoke-virtual {v0, v1}, Landroid/support/v4/app/LoaderManager;->destroyLoader(I)V
 
@@ -893,7 +893,7 @@
 
     .prologue
     .line 140
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -903,13 +903,13 @@
 
     .prologue
     .line 323
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/gallery/GalleryCursorLoader;->a:Landroid/net/Uri;
+    iget-object v1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->a:Landroid/net/Uri;
 
     const/4 v2, 0x0
 
@@ -937,15 +937,15 @@
     .line 96
     new-instance v0, Landroid/support/v4/content/CursorLoader;
 
-    iget-object v1, p0, Lkik/android/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/gallery/GalleryCursorLoader;->h:Landroid/content/Context;
 
-    iget-object v2, p0, Lkik/android/gallery/GalleryCursorLoader;->a:Landroid/net/Uri;
+    iget-object v2, p0, Lkik/arcane/gallery/GalleryCursorLoader;->a:Landroid/net/Uri;
 
-    iget-object v3, p0, Lkik/android/gallery/GalleryCursorLoader;->b:[Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/gallery/GalleryCursorLoader;->b:[Ljava/lang/String;
 
     const-string v4, "media_type = 1 OR (media_type = 3 AND duration <> 0 AND _data LIKE \'%.mp4\')"
 
-    iget-object v5, p0, Lkik/android/gallery/GalleryCursorLoader;->d:[Ljava/lang/String;
+    iget-object v5, p0, Lkik/arcane/gallery/GalleryCursorLoader;->d:[Ljava/lang/String;
 
     const-string v6, "date_added DESC"
 
@@ -962,7 +962,7 @@
     check-cast p2, Landroid/database/Cursor;
 
     .line 2102
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     invoke-virtual {v0, p2}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -984,7 +984,7 @@
 
     .prologue
     .line 108
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader;->f:Lrx/subjects/a;
 
     const/4 v1, 0x0
 

@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/TrophyCaseFragment$a;
+.class public final Lkik/arcane/chat/fragment/TrophyCaseFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/TrophyCaseFragment;
+    value = Lkik/arcane/chat/fragment/TrophyCaseFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

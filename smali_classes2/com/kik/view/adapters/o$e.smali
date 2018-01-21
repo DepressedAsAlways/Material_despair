@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/util/q;
+.implements Lkik/arcane/util/q;
 
 
 # annotations

@@ -1,15 +1,15 @@
-.class public interface abstract Lkik/android/chat/vm/chats/publicgroups/h;
+.class public interface abstract Lkik/arcane/chat/vm/chats/publicgroups/h;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/br;
+.implements Lkik/arcane/chat/vm/br;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/chats/publicgroups/h$a;
+        Lkik/arcane/chat/vm/chats/publicgroups/h$a;
     }
 .end annotation
 

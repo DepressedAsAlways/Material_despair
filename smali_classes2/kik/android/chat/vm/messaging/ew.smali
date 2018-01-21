@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/ew;
+.class final synthetic Lkik/arcane/chat/vm/messaging/ew;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/messaging/ev;
+.field private final a:Lkik/arcane/chat/vm/messaging/ev;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/messaging/ev;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/messaging/ev;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/ew;->a:Lkik/android/chat/vm/messaging/ev;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/ew;->a:Lkik/arcane/chat/vm/messaging/ev;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/messaging/ev;)Lrx/functions/h;
+.method public static a(Lkik/arcane/chat/vm/messaging/ev;)Lrx/functions/h;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/ew;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/ew;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/messaging/ew;-><init>(Lkik/android/chat/vm/messaging/ev;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/messaging/ew;-><init>(Lkik/arcane/chat/vm/messaging/ev;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/ew;->a:Lkik/android/chat/vm/messaging/ev;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/ew;->a:Lkik/arcane/chat/vm/messaging/ev;
 
     check-cast p1, Lcom/kik/util/cw;
 
@@ -58,13 +58,13 @@
     check-cast v0, Lkik/core/datatypes/Message;
 
     .line 1149
-    new-instance v3, Lkik/android/chat/vm/messaging/ev$a;
+    new-instance v3, Lkik/arcane/chat/vm/messaging/ev$a;
 
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v4
 
-    invoke-direct {v3, v1, v2, v0, v4}, Lkik/android/chat/vm/messaging/ev$a;-><init>(Lkik/android/chat/vm/messaging/ev;ILkik/core/datatypes/Message;Z)V
+    invoke-direct {v3, v1, v2, v0, v4}, Lkik/arcane/chat/vm/messaging/ev$a;-><init>(Lkik/arcane/chat/vm/messaging/ev;ILkik/core/datatypes/Message;Z)V
 
     .line 0
     return-object v3

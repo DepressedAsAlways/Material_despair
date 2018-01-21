@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/cl;
+.class final synthetic Lkik/arcane/chat/vm/messaging/cl;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,30 +6,30 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/messaging/cd;
+.field private final a:Lkik/arcane/chat/vm/messaging/cd;
 
 .field private final b:I
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/messaging/cd;I)V
+.method private constructor <init>(Lkik/arcane/chat/vm/messaging/cd;I)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/cl;->a:Lkik/android/chat/vm/messaging/cd;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/cl;->a:Lkik/arcane/chat/vm/messaging/cd;
 
-    iput p2, p0, Lkik/android/chat/vm/messaging/cl;->b:I
+    iput p2, p0, Lkik/arcane/chat/vm/messaging/cl;->b:I
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/messaging/cd;I)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/chat/vm/messaging/cd;I)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/cl;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/cl;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/chat/vm/messaging/cl;-><init>(Lkik/android/chat/vm/messaging/cd;I)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/chat/vm/messaging/cl;-><init>(Lkik/arcane/chat/vm/messaging/cd;I)V
 
     return-object v0
 .end method
@@ -39,11 +39,11 @@
 .method public final run()V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/cl;->a:Lkik/android/chat/vm/messaging/cd;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/cl;->a:Lkik/arcane/chat/vm/messaging/cd;
 
-    iget v1, p0, Lkik/android/chat/vm/messaging/cl;->b:I
+    iget v1, p0, Lkik/arcane/chat/vm/messaging/cl;->b:I
 
-    invoke-static {v0, v1}, Lkik/android/chat/vm/messaging/cd;->a(Lkik/android/chat/vm/messaging/cd;I)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/vm/messaging/cd;->a(Lkik/arcane/chat/vm/messaging/cd;I)V
 
     return-void
 .end method

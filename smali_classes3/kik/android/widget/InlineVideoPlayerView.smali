@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/InlineVideoPlayerView;
+.class public Lkik/arcane/widget/InlineVideoPlayerView;
 .super Landroid/view/TextureView;
 .source "SourceFile"
 
@@ -68,7 +68,7 @@
 
     invoke-direct {v0}, Landroid/media/MediaMetadataRetriever;-><init>()V
 
-    sput-object v0, Lkik/android/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
+    sput-object v0, Lkik/arcane/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
 
     return-void
 .end method
@@ -80,7 +80,7 @@
     .line 79
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/InlineVideoPlayerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/InlineVideoPlayerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 80
     return-void
@@ -93,7 +93,7 @@
     .line 84
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/InlineVideoPlayerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/InlineVideoPlayerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 85
     return-void
@@ -106,7 +106,7 @@
     .line 89
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/InlineVideoPlayerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/InlineVideoPlayerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 90
     return-void
@@ -130,24 +130,24 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
     .line 51
     new-instance v0, Lrx/f/b;
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->m:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->m:Lrx/f/b;
 
     .line 96
-    invoke-virtual {p0}, Lkik/android/widget/InlineVideoPlayerView;->isInEditMode()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->isInEditMode()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 97
-    invoke-virtual {p0, p0}, Lkik/android/widget/InlineVideoPlayerView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
+    invoke-virtual {p0, p0}, Lkik/arcane/widget/InlineVideoPlayerView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
     .line 99
     :cond_0
@@ -163,12 +163,12 @@
 
     .line 140
     :try_start_0
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v1, :cond_0
 
     .line 141
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->getCurrentPosition()I
     :try_end_0
@@ -187,12 +187,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/widget/InlineVideoPlayerView;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/widget/InlineVideoPlayerView;)Ljava/lang/Boolean;
     .locals 1
 
     .prologue
     .line 121
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->o()Ljava/lang/Object;
 
@@ -221,7 +221,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/widget/InlineVideoPlayerView;Ljava/lang/Boolean;)Lrx/d;
+.method static synthetic a(Lkik/arcane/widget/InlineVideoPlayerView;Ljava/lang/Boolean;)Lrx/d;
     .locals 3
 
     .prologue
@@ -233,7 +233,7 @@
     if-nez v0, :cond_0
 
     .line 115
-    invoke-direct {p0}, Lkik/android/widget/InlineVideoPlayerView;->a()I
+    invoke-direct {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->a()I
 
     move-result v0
 
@@ -259,7 +259,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/widget/ca;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/widget/ca;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -268,7 +268,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/widget/cb;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/widget/cb;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -285,18 +285,18 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/widget/InlineVideoPlayerView;II)V
+.method static synthetic a(Lkik/arcane/widget/InlineVideoPlayerView;II)V
     .locals 9
 
     .prologue
     .line 347
     .line 3289
-    invoke-virtual {p0}, Lkik/android/widget/InlineVideoPlayerView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->getWidth()I
 
     move-result v1
 
     .line 3290
-    invoke-virtual {p0}, Lkik/android/widget/InlineVideoPlayerView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->getHeight()I
 
     move-result v3
 
@@ -354,7 +354,7 @@
     invoke-direct {v6}, Landroid/graphics/Matrix;-><init>()V
 
     .line 3324
-    invoke-virtual {p0, v6}, Lkik/android/widget/InlineVideoPlayerView;->getTransform(Landroid/graphics/Matrix;)Landroid/graphics/Matrix;
+    invoke-virtual {p0, v6}, Lkik/arcane/widget/InlineVideoPlayerView;->getTransform(Landroid/graphics/Matrix;)Landroid/graphics/Matrix;
 
     .line 3325
     int-to-float v0, v0
@@ -379,7 +379,7 @@
     invoke-virtual {v6, v0, v1}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
     .line 3327
-    invoke-virtual {p0, v6}, Lkik/android/widget/InlineVideoPlayerView;->setTransform(Landroid/graphics/Matrix;)V
+    invoke-virtual {p0, v6}, Lkik/arcane/widget/InlineVideoPlayerView;->setTransform(Landroid/graphics/Matrix;)V
 
     .line 348
     return-void
@@ -407,17 +407,17 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/widget/InlineVideoPlayerView;Ljava/lang/Integer;)V
+.method static synthetic a(Lkik/arcane/widget/InlineVideoPlayerView;Ljava/lang/Integer;)V
     .locals 1
 
     .prologue
     .line 128
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->l:Lrx/functions/b;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->l:Lrx/functions/b;
 
     if-eqz v0, :cond_0
 
     .line 129
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->l:Lrx/functions/b;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->l:Lrx/functions/b;
 
     invoke-interface {v0, p1}, Lrx/functions/b;->call(Ljava/lang/Object;)V
 
@@ -426,7 +426,7 @@
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/InlineVideoPlayerView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/InlineVideoPlayerView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -437,7 +437,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/InlineVideoPlayerView;",
+            "Lkik/arcane/widget/InlineVideoPlayerView;",
             "Lrx/d",
             "<",
             "Ljava/io/File;",
@@ -451,7 +451,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/bt;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/bt;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -463,12 +463,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/widget/InlineVideoPlayerView;)Ljava/lang/Integer;
+.method static synthetic b(Lkik/arcane/widget/InlineVideoPlayerView;)Ljava/lang/Integer;
     .locals 1
 
     .prologue
     .line 120
-    invoke-direct {p0}, Lkik/android/widget/InlineVideoPlayerView;->a()I
+    invoke-direct {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->a()I
 
     move-result v0
 
@@ -479,7 +479,7 @@
     return-object v0
 .end method
 
-.method public static b(Lkik/android/widget/InlineVideoPlayerView;Lrx/d;)V
+.method public static b(Lkik/arcane/widget/InlineVideoPlayerView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -490,7 +490,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/InlineVideoPlayerView;",
+            "Lkik/arcane/widget/InlineVideoPlayerView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Integer;",
@@ -504,7 +504,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/bu;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/bu;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -522,11 +522,11 @@
 
     .line 231
     :try_start_0
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v1}, Landroid/media/MediaPlayer;->isPlaying()Z
     :try_end_0
@@ -554,9 +554,9 @@
 
     .prologue
     .line 332
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->f:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->f:Ljava/io/File;
 
-    invoke-static {v0}, Lkik/android/VideoContentProvider;->a(Ljava/io/File;)Landroid/net/Uri;
+    invoke-static {v0}, Lkik/arcane/VideoContentProvider;->a(Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object v0
 
@@ -571,16 +571,16 @@
     .line 339
     :cond_1
     :try_start_0
-    sget-object v1, Lkik/android/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
+    sget-object v1, Lkik/arcane/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
 
-    invoke-virtual {p0}, Lkik/android/widget/InlineVideoPlayerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-virtual {v1, v2, v0}, Landroid/media/MediaMetadataRetriever;->setDataSource(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 340
-    sget-object v1, Lkik/android/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
+    sget-object v1, Lkik/arcane/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
 
     const/16 v2, 0x13
 
@@ -589,7 +589,7 @@
     move-result-object v1
 
     .line 341
-    sget-object v2, Lkik/android/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
+    sget-object v2, Lkik/arcane/widget/InlineVideoPlayerView;->h:Landroid/media/MediaMetadataRetriever;
 
     const/16 v3, 0x12
 
@@ -608,38 +608,38 @@
     move-result v2
 
     .line 346
-    invoke-static {p0, v2, v1}, Lkik/android/widget/bz;->a(Lkik/android/widget/InlineVideoPlayerView;II)Ljava/lang/Runnable;
+    invoke-static {p0, v2, v1}, Lkik/arcane/widget/bz;->a(Lkik/arcane/widget/InlineVideoPlayerView;II)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/InlineVideoPlayerView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/InlineVideoPlayerView;->post(Ljava/lang/Runnable;)Z
 
     .line 350
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v1, :cond_3
 
     .line 351
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
-    invoke-virtual {p0}, Lkik/android/widget/InlineVideoPlayerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-virtual {v1, v2, v0}, Landroid/media/MediaPlayer;->setDataSource(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 353
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->prepare()V
 
     .line 355
-    iget-boolean v0, p0, Lkik/android/widget/InlineVideoPlayerView;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->b:Z
 
     if-eqz v0, :cond_2
 
     .line 356
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     const/4 v1, 0x0
 
@@ -655,14 +655,14 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 
     .line 359
     :cond_2
     :try_start_1
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -676,10 +676,10 @@
     :cond_3
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/InlineVideoPlayerView;->setAlpha(F)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/InlineVideoPlayerView;->setAlpha(F)V
 
     .line 366
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     if-eqz v1, :cond_0
 
@@ -688,56 +688,56 @@
 
     invoke-direct {v1}, Landroid/media/MediaPlayer;-><init>()V
 
-    iput-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iput-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     .line 368
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
-    invoke-virtual {p0}, Lkik/android/widget/InlineVideoPlayerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-virtual {v1, v2, v0}, Landroid/media/MediaPlayer;->setDataSource(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 369
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;->setSurface(Landroid/view/Surface;)V
 
     .line 371
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p0}, Landroid/media/MediaPlayer;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
 
     .line 372
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p0}, Landroid/media/MediaPlayer;->setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
 
     .line 373
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p0}, Landroid/media/MediaPlayer;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
 
     .line 374
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p0}, Landroid/media/MediaPlayer;->setOnInfoListener(Landroid/media/MediaPlayer$OnInfoListener;)V
 
     .line 376
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->prepare()V
 
     .line 378
-    iget-boolean v0, p0, Lkik/android/widget/InlineVideoPlayerView;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->b:Z
 
     if-eqz v0, :cond_0
 
     .line 379
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     const/4 v1, 0x0
 
@@ -750,7 +750,7 @@
     goto/16 :goto_0
 .end method
 
-.method public static c(Lkik/android/widget/InlineVideoPlayerView;Lrx/d;)V
+.method public static c(Lkik/arcane/widget/InlineVideoPlayerView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -761,7 +761,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/InlineVideoPlayerView;",
+            "Lkik/arcane/widget/InlineVideoPlayerView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -775,7 +775,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/bv;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/bv;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -791,7 +791,7 @@
     return-void
 .end method
 
-.method public static d(Lkik/android/widget/InlineVideoPlayerView;Lrx/d;)V
+.method public static d(Lkik/arcane/widget/InlineVideoPlayerView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -802,7 +802,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/InlineVideoPlayerView;",
+            "Lkik/arcane/widget/InlineVideoPlayerView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -816,7 +816,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/bw;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/bw;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -839,12 +839,12 @@
 
     .prologue
     .line 223
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 224
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p1}, Landroid/media/MediaPlayer;->seekTo(I)V
 
@@ -858,7 +858,7 @@
 
     .prologue
     .line 160
-    iput-object p1, p0, Lkik/android/widget/InlineVideoPlayerView;->l:Lrx/functions/b;
+    iput-object p1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->l:Lrx/functions/b;
 
     .line 162
     return-void
@@ -869,31 +869,31 @@
 
     .prologue
     .line 268
-    iput-object p1, p0, Lkik/android/widget/InlineVideoPlayerView;->f:Ljava/io/File;
+    iput-object p1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->f:Ljava/io/File;
 
     .line 270
     if-nez p1, :cond_1
 
     .line 271
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 272
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->release()V
 
     .line 273
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iput-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     .line 275
     :cond_0
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/InlineVideoPlayerView;->setAlpha(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/InlineVideoPlayerView;->setAlpha(F)V
 
     .line 282
     :goto_0
@@ -901,7 +901,7 @@
 
     .line 280
     :cond_1
-    invoke-direct {p0}, Lkik/android/widget/InlineVideoPlayerView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->c()V
 
     goto :goto_0
 .end method
@@ -911,7 +911,7 @@
 
     .prologue
     .line 166
-    iput-object p1, p0, Lkik/android/widget/InlineVideoPlayerView;->i:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->i:Ljava/lang/Runnable;
 
     .line 167
     return-void
@@ -926,10 +926,10 @@
     const/4 v1, 0x0
 
     .line 181
-    iput-boolean p1, p0, Lkik/android/widget/InlineVideoPlayerView;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->b:Z
 
     .line 183
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-nez v0, :cond_0
 
@@ -942,7 +942,7 @@
     if-eqz p1, :cond_1
 
     .line 188
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, v1, v1}, Landroid/media/MediaPlayer;->setVolume(FF)V
 
@@ -950,7 +950,7 @@
 
     .line 191
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, v2, v2}, Landroid/media/MediaPlayer;->setVolume(FF)V
 
@@ -962,7 +962,7 @@
 
     .prologue
     .line 171
-    iput-object p1, p0, Lkik/android/widget/InlineVideoPlayerView;->j:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->j:Ljava/lang/Runnable;
 
     .line 172
     return-void
@@ -980,28 +980,28 @@
     if-eqz p1, :cond_2
 
     .line 251
-    iput-boolean v2, p0, Lkik/android/widget/InlineVideoPlayerView;->c:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/InlineVideoPlayerView;->c:Z
 
     .line 253
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_1
 
     .line 1213
-    iput-boolean v1, p0, Lkik/android/widget/InlineVideoPlayerView;->d:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->d:Z
 
     .line 1215
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 1216
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->start()V
 
     .line 1217
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1016,33 +1016,33 @@
 
     .line 257
     :cond_1
-    invoke-direct {p0}, Lkik/android/widget/InlineVideoPlayerView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->c()V
 
     goto :goto_0
 
     .line 261
     :cond_2
-    iput-boolean v1, p0, Lkik/android/widget/InlineVideoPlayerView;->c:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->c:Z
 
     .line 2202
-    invoke-direct {p0}, Lkik/android/widget/InlineVideoPlayerView;->b()Z
+    invoke-direct {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->b()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2203
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_3
 
     .line 2204
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->pause()V
 
     .line 2205
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1052,7 +1052,7 @@
 
     .line 2207
     :cond_3
-    iput-boolean v2, p0, Lkik/android/widget/InlineVideoPlayerView;->d:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/InlineVideoPlayerView;->d:Z
 
     goto :goto_0
 .end method
@@ -1062,7 +1062,7 @@
 
     .prologue
     .line 176
-    iput-object p1, p0, Lkik/android/widget/InlineVideoPlayerView;->k:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->k:Ljava/lang/Runnable;
 
     .line 177
     return-void
@@ -1076,11 +1076,11 @@
     invoke-super {p0}, Landroid/view/TextureView;->onAttachedToWindow()V
 
     .line 111
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->m:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->m:Lrx/f/b;
 
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
-    invoke-static {p0}, Lkik/android/widget/bx;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/widget/bx;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -1103,7 +1103,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/widget/by;->a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/by;->a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -1124,7 +1124,7 @@
 
     .prologue
     .line 431
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
     const/4 v1, 0x0
 
@@ -1135,12 +1135,12 @@
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 432
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->k:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->k:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
     .line 433
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->k:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->k:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -1157,7 +1157,7 @@
     invoke-super {p0}, Landroid/view/TextureView;->onDetachedFromWindow()V
 
     .line 155
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->m:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->m:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->a()V
 
@@ -1187,15 +1187,15 @@
     .line 441
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/InlineVideoPlayerView;->setAlpha(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/InlineVideoPlayerView;->setAlpha(F)V
 
     .line 442
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->i:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->i:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_0
 
     .line 443
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->i:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->i:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -1227,32 +1227,32 @@
     .line 392
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/InlineVideoPlayerView;->setAlpha(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/InlineVideoPlayerView;->setAlpha(F)V
 
     .line 395
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->j:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->j:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_1
 
     .line 396
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->j:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->j:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     .line 399
     :cond_1
-    iget-boolean v0, p0, Lkik/android/widget/InlineVideoPlayerView;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->c:Z
 
     if-eqz v0, :cond_2
 
     .line 400
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->start()V
 
     .line 401
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
     const/4 v1, 0x1
 
@@ -1272,12 +1272,12 @@
 
     .prologue
     .line 470
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     if-eqz v0, :cond_0
 
     .line 471
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     invoke-virtual {v0}, Landroid/view/Surface;->release()V
 
@@ -1287,15 +1287,15 @@
 
     invoke-direct {v0, p1}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
 
-    iput-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iput-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     .line 476
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->f:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->f:Ljava/io/File;
 
     if-eqz v0, :cond_1
 
     .line 477
-    invoke-direct {p0}, Lkik/android/widget/InlineVideoPlayerView;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/InlineVideoPlayerView;->c()V
 
     .line 479
     :cond_1
@@ -1314,12 +1314,12 @@
 
     .line 498
     .line 2407
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_1
 
     .line 2408
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->isPlaying()Z
 
@@ -1328,12 +1328,12 @@
     if-eqz v0, :cond_0
 
     .line 2409
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->stop()V
 
     .line 2410
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->a:Lrx/subjects/a;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1343,43 +1343,43 @@
 
     .line 2412
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->reset()V
 
     .line 2413
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->release()V
 
     .line 2414
-    iput-object v4, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iput-object v4, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     .line 2417
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     if-eqz v0, :cond_2
 
     .line 2418
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     invoke-virtual {v0}, Landroid/view/Surface;->release()V
 
     .line 2419
-    iput-object v4, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iput-object v4, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     .line 2422
     :cond_2
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/InlineVideoPlayerView;->setAlpha(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/InlineVideoPlayerView;->setAlpha(F)V
 
     .line 2424
-    iput-boolean v2, p0, Lkik/android/widget/InlineVideoPlayerView;->d:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/InlineVideoPlayerView;->d:Z
 
     .line 2425
-    iput-boolean v3, p0, Lkik/android/widget/InlineVideoPlayerView;->b:Z
+    iput-boolean v3, p0, Lkik/arcane/widget/InlineVideoPlayerView;->b:Z
 
     .line 500
     return v3
@@ -1390,12 +1390,12 @@
 
     .prologue
     .line 484
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     if-eqz v0, :cond_0
 
     .line 485
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     invoke-virtual {v0}, Landroid/view/Surface;->release()V
 
@@ -1405,17 +1405,17 @@
 
     invoke-direct {v0, p1}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
 
-    iput-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iput-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     .line 490
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_1
 
     .line 491
-    iget-object v0, p0, Lkik/android/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/InlineVideoPlayerView;->e:Landroid/media/MediaPlayer;
 
-    iget-object v1, p0, Lkik/android/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
+    iget-object v1, p0, Lkik/arcane/widget/InlineVideoPlayerView;->g:Landroid/view/Surface;
 
     invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;->setSurface(Landroid/view/Surface;)V
 

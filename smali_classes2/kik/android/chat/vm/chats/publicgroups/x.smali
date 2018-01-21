@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/chats/publicgroups/x;
+.class final synthetic Lkik/arcane/chat/vm/chats/publicgroups/x;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/chats/publicgroups/t;
+.field private final a:Lkik/arcane/chat/vm/chats/publicgroups/t;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/chats/publicgroups/t;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/chats/publicgroups/t;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/x;->a:Lkik/android/chat/vm/chats/publicgroups/t;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/x;->a:Lkik/arcane/chat/vm/chats/publicgroups/t;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/chats/publicgroups/t;)Lrx/functions/g;
+.method public static a(Lkik/arcane/chat/vm/chats/publicgroups/t;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/chats/publicgroups/x;
+    new-instance v0, Lkik/arcane/chat/vm/chats/publicgroups/x;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/chats/publicgroups/x;-><init>(Lkik/android/chat/vm/chats/publicgroups/t;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/chats/publicgroups/x;-><init>(Lkik/arcane/chat/vm/chats/publicgroups/t;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/x;->a:Lkik/android/chat/vm/chats/publicgroups/t;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/x;->a:Lkik/arcane/chat/vm/chats/publicgroups/t;
 
     check-cast p1, Lcom/kik/core/domain/a/a/a;
 
@@ -49,9 +49,9 @@
     if-nez v1, :cond_0
 
     .line 1152
-    new-instance v1, Lkik/android/chat/vm/chats/publicgroups/t$2;
+    new-instance v1, Lkik/arcane/chat/vm/chats/publicgroups/t$2;
 
-    invoke-direct {v1, v0}, Lkik/android/chat/vm/chats/publicgroups/t$2;-><init>(Lkik/android/chat/vm/chats/publicgroups/t;)V
+    invoke-direct {v1, v0}, Lkik/arcane/chat/vm/chats/publicgroups/t$2;-><init>(Lkik/arcane/chat/vm/chats/publicgroups/t;)V
 
     invoke-static {v1}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
 
@@ -62,7 +62,7 @@
 
     .line 1168
     :cond_0
-    iget-object v0, v0, Lkik/android/chat/vm/chats/publicgroups/t;->c:Lkik/core/interfaces/af;
+    iget-object v0, v0, Lkik/arcane/chat/vm/chats/publicgroups/t;->c:Lkik/core/interfaces/af;
 
     invoke-interface {p1}, Lcom/kik/core/domain/a/a/a;->d()Ljava/lang/String;
 

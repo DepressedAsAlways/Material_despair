@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/widget/bm$1;
+.class final Lkik/arcane/chat/vm/widget/bm$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/bq;
+.implements Lkik/arcane/widget/bq;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/widget/bm;
+    value = Lkik/arcane/chat/vm/widget/bm;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,7 +32,7 @@
     .line 47
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/chat/vm/widget/bm$1;->a:J
+    iput-wide v0, p0, Lkik/arcane/chat/vm/widget/bm$1;->a:J
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 
     .prologue
     .line 52
-    iget-wide v0, p0, Lkik/android/chat/vm/widget/bm$1;->a:J
+    iget-wide v0, p0, Lkik/arcane/chat/vm/widget/bm$1;->a:J
 
     return-wide v0
 .end method
@@ -54,7 +54,7 @@
 
     .prologue
     .line 58
-    iput-wide p1, p0, Lkik/android/chat/vm/widget/bm$1;->a:J
+    iput-wide p1, p0, Lkik/arcane/chat/vm/widget/bm$1;->a:J
 
     .line 59
     return-void

@@ -1,4 +1,4 @@
-.class final Lkik/android/net/communicator/CommunicatorService$4;
+.class final Lkik/arcane/net/communicator/CommunicatorService$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/communicator/CommunicatorService;
+    value = Lkik/arcane/net/communicator/CommunicatorService;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Z
 
-.field final synthetic b:Lkik/android/net/communicator/CommunicatorService;
+.field final synthetic b:Lkik/arcane/net/communicator/CommunicatorService;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/net/communicator/CommunicatorService;Z)V
+.method constructor <init>(Lkik/arcane/net/communicator/CommunicatorService;Z)V
     .locals 0
 
     .prologue
     .line 313
-    iput-object p1, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iput-object p1, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
-    iput-boolean p2, p0, Lkik/android/net/communicator/CommunicatorService$4;->a:Z
+    iput-boolean p2, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->a:Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,16 +45,16 @@
 
     .prologue
     .line 318
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;Z)Z
 
     .line 321
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
-    invoke-static {v0}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;)J
+    invoke-static {v0}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;)J
 
     move-result-wide v0
 
@@ -65,41 +65,41 @@
     if-lez v0, :cond_0
 
     .line 322
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
     const-string v1, "Successfull connection"
 
-    invoke-static {v0, v1}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;Ljava/lang/String;)V
 
     .line 331
     :goto_0
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v2
 
-    invoke-static {v0, v2, v3}, Lkik/android/net/communicator/CommunicatorService;->c(Lkik/android/net/communicator/CommunicatorService;J)J
+    invoke-static {v0, v2, v3}, Lkik/arcane/net/communicator/CommunicatorService;->c(Lkik/arcane/net/communicator/CommunicatorService;J)J
 
     .line 332
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lkik/android/net/communicator/CommunicatorService;->b(Lkik/android/net/communicator/CommunicatorService;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/net/communicator/CommunicatorService;->b(Lkik/arcane/net/communicator/CommunicatorService;Z)Z
 
     .line 334
     return-void
 
     .line 325
     :cond_0
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
-    iget-boolean v1, p0, Lkik/android/net/communicator/CommunicatorService$4;->a:Z
+    iget-boolean v1, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->a:Z
 
     const-string v2, "Sucessfull connection, but last connection was short"
 
-    invoke-static {v0, v1, v2}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;ZLjava/lang/String;)V
 
     goto :goto_0
 .end method
@@ -124,7 +124,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 347
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
     int-to-long v2, p1
 
@@ -132,7 +132,7 @@
 
     mul-long/2addr v2, v4
 
-    invoke-static {v0, v2, v3}, Lkik/android/net/communicator/CommunicatorService;->d(Lkik/android/net/communicator/CommunicatorService;J)V
+    invoke-static {v0, v2, v3}, Lkik/arcane/net/communicator/CommunicatorService;->d(Lkik/arcane/net/communicator/CommunicatorService;J)V
 
     .line 348
     return-void
@@ -143,13 +143,13 @@
 
     .prologue
     .line 339
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$4;->b:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->b:Lkik/arcane/net/communicator/CommunicatorService;
 
-    iget-boolean v1, p0, Lkik/android/net/communicator/CommunicatorService$4;->a:Z
+    iget-boolean v1, p0, Lkik/arcane/net/communicator/CommunicatorService$4;->a:Z
 
     const-string v2, "Failed connection"
 
-    invoke-static {v0, v1, v2}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;ZLjava/lang/String;)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;ZLjava/lang/String;)V
 
     .line 341
     return-void

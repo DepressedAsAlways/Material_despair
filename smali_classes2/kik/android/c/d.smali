@@ -1,9 +1,9 @@
-.class public final Lkik/android/c/d;
+.class public final Lkik/arcane/c/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/c/c;
+.implements Lkik/arcane/c/c;
 
 
 # static fields
@@ -49,7 +49,7 @@
 
 .field private c:Landroid/hardware/Camera;
 
-.field private d:Lkik/android/c/a;
+.field private d:Lkik/arcane/c/a;
 
 .field private g:Landroid/os/CountDownTimer;
 
@@ -59,7 +59,7 @@
 
 .field private final j:Landroid/view/View;
 
-.field private final k:Lkik/android/widget/a;
+.field private final k:Lkik/arcane/widget/a;
 
 .field private l:Z
 
@@ -73,7 +73,7 @@
 
 .field private q:I
 
-.field private r:Lkik/android/chat/presentation/n;
+.field private r:Lkik/arcane/chat/presentation/n;
 
 .field private s:Landroid/hardware/Camera$Size;
 
@@ -104,7 +104,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/c/d;->e:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/c/d;->e:Lorg/slf4j/b;
 
     .line 74
     const/4 v0, 0x3
@@ -133,12 +133,12 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/c/d;->f:Ljava/util/List;
+    sput-object v0, Lkik/arcane/c/d;->f:Ljava/util/List;
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/view/View;Landroid/app/Activity;Lkik/android/widget/a;Landroid/widget/FrameLayout;Landroid/hardware/Camera$ShutterCallback;Landroid/hardware/Camera$AutoFocusCallback;)V
+.method public constructor <init>(Landroid/view/View;Landroid/app/Activity;Lkik/arcane/widget/a;Landroid/widget/FrameLayout;Landroid/hardware/Camera$ShutterCallback;Landroid/hardware/Camera$AutoFocusCallback;)V
     .locals 4
 
     .prologue
@@ -150,50 +150,50 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 78
-    iput v0, p0, Lkik/android/c/d;->h:I
+    iput v0, p0, Lkik/arcane/c/d;->h:I
 
     .line 84
-    iput-boolean v1, p0, Lkik/android/c/d;->l:Z
+    iput-boolean v1, p0, Lkik/arcane/c/d;->l:Z
 
     .line 85
-    iput-boolean v1, p0, Lkik/android/c/d;->m:Z
+    iput-boolean v1, p0, Lkik/arcane/c/d;->m:Z
 
     .line 86
-    iput v0, p0, Lkik/android/c/d;->n:I
+    iput v0, p0, Lkik/arcane/c/d;->n:I
 
     .line 87
-    iput v0, p0, Lkik/android/c/d;->o:I
+    iput v0, p0, Lkik/arcane/c/d;->o:I
 
     .line 88
-    iput v0, p0, Lkik/android/c/d;->p:I
+    iput v0, p0, Lkik/arcane/c/d;->p:I
 
     .line 89
-    iput v0, p0, Lkik/android/c/d;->q:I
+    iput v0, p0, Lkik/arcane/c/d;->q:I
 
     .line 91
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/c/d;->s:Landroid/hardware/Camera$Size;
+    iput-object v0, p0, Lkik/arcane/c/d;->s:Landroid/hardware/Camera$Size;
 
     .line 102
-    iput v1, p0, Lkik/android/c/d;->y:I
+    iput v1, p0, Lkik/arcane/c/d;->y:I
 
     .line 106
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     .line 110
-    invoke-static {p0}, Lkik/android/c/e;->a(Lkik/android/c/d;)Landroid/hardware/Camera$AutoFocusCallback;
+    invoke-static {p0}, Lkik/arcane/c/e;->a(Lkik/arcane/c/d;)Landroid/hardware/Camera$AutoFocusCallback;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/c/d;->E:Landroid/hardware/Camera$AutoFocusCallback;
+    iput-object v0, p0, Lkik/arcane/c/d;->E:Landroid/hardware/Camera$AutoFocusCallback;
 
     .line 124
-    iput-object p2, p0, Lkik/android/c/d;->a:Landroid/app/Activity;
+    iput-object p2, p0, Lkik/arcane/c/d;->a:Landroid/app/Activity;
 
     .line 125
     instance-of v0, p1, Landroid/view/TextureView;
@@ -201,39 +201,39 @@
     if-eqz v0, :cond_1
 
     .line 126
-    new-instance v1, Lkik/android/c/d$2;
+    new-instance v1, Lkik/arcane/c/d$2;
 
     move-object v0, p1
 
     check-cast v0, Landroid/view/TextureView;
 
-    new-instance v2, Lkik/android/c/d$1;
+    new-instance v2, Lkik/arcane/c/d$1;
 
-    invoke-direct {v2, p0}, Lkik/android/c/d$1;-><init>(Lkik/android/c/d;)V
+    invoke-direct {v2, p0}, Lkik/arcane/c/d$1;-><init>(Lkik/arcane/c/d;)V
 
-    invoke-direct {v1, p0, v0, v2}, Lkik/android/c/d$2;-><init>(Lkik/android/c/d;Landroid/view/TextureView;Lkik/android/c/b$c;)V
+    invoke-direct {v1, p0, v0, v2}, Lkik/arcane/c/d$2;-><init>(Lkik/arcane/c/d;Landroid/view/TextureView;Lkik/arcane/c/b$c;)V
 
-    iput-object v1, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iput-object v1, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
     .line 170
     :cond_0
     :goto_0
-    invoke-direct {p0}, Lkik/android/c/d;->H()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->H()V
 
     .line 172
-    iput-object p1, p0, Lkik/android/c/d;->j:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     .line 173
-    iput-object p3, p0, Lkik/android/c/d;->k:Lkik/android/widget/a;
+    iput-object p3, p0, Lkik/arcane/c/d;->k:Lkik/arcane/widget/a;
 
     .line 174
-    iput-object p4, p0, Lkik/android/c/d;->b:Landroid/widget/FrameLayout;
+    iput-object p4, p0, Lkik/arcane/c/d;->b:Landroid/widget/FrameLayout;
 
     .line 175
-    iput-object p5, p0, Lkik/android/c/d;->F:Landroid/hardware/Camera$ShutterCallback;
+    iput-object p5, p0, Lkik/arcane/c/d;->F:Landroid/hardware/Camera$ShutterCallback;
 
     .line 177
-    iput-object p6, p0, Lkik/android/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
+    iput-object p6, p0, Lkik/arcane/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
 
     .line 178
     return-void
@@ -245,7 +245,7 @@
     if-eqz v0, :cond_0
 
     .line 152
-    new-instance v1, Lkik/android/c/d$4;
+    new-instance v1, Lkik/arcane/c/d$4;
 
     move-object v0, p1
 
@@ -255,13 +255,13 @@
 
     invoke-direct {v2}, Landroid/os/Handler;-><init>()V
 
-    new-instance v3, Lkik/android/c/d$3;
+    new-instance v3, Lkik/arcane/c/d$3;
 
-    invoke-direct {v3, p0}, Lkik/android/c/d$3;-><init>(Lkik/android/c/d;)V
+    invoke-direct {v3, p0}, Lkik/arcane/c/d$3;-><init>(Lkik/arcane/c/d;)V
 
-    invoke-direct {v1, p0, v0, v2, v3}, Lkik/android/c/d$4;-><init>(Lkik/android/c/d;Landroid/view/SurfaceView;Landroid/os/Handler;Lkik/android/c/b$c;)V
+    invoke-direct {v1, p0, v0, v2, v3}, Lkik/arcane/c/d$4;-><init>(Lkik/arcane/c/d;Landroid/view/SurfaceView;Landroid/os/Handler;Lkik/arcane/c/b$c;)V
 
-    iput-object v1, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iput-object v1, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
     goto :goto_0
 .end method
@@ -271,39 +271,39 @@
 
     .prologue
     .line 272
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
     .line 273
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->i()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->i()V
 
     .line 276
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->stopPreview()V
 
     .line 277
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
-    invoke-interface {v0}, Lkik/android/c/a;->b()V
+    invoke-interface {v0}, Lkik/arcane/c/a;->b()V
 
     .line 282
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->release()V
 
     .line 283
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iput-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     .line 284
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/c/d;->n:I
+    iput v0, p0, Lkik/arcane/c/d;->n:I
 
     .line 286
     :cond_0
@@ -315,17 +315,17 @@
 
     .prologue
     .line 290
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
-    invoke-interface {v0}, Lkik/android/c/a;->a()Z
+    invoke-interface {v0}, Lkik/arcane/c/a;->a()Z
 
     move-result v0
 
@@ -333,7 +333,7 @@
 
     .line 292
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->cancelAutoFocus()V
     :try_end_0
@@ -369,7 +369,7 @@
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 314
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-nez v0, :cond_0
 
@@ -385,7 +385,7 @@
 
     .line 320
     :try_start_0
-    iget-object v2, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v2, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v2}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -417,7 +417,7 @@
 
     .line 330
     :cond_1
-    sget-object v0, Lkik/android/c/d;->f:Ljava/util/List;
+    sget-object v0, Lkik/arcane/c/d;->f:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -468,30 +468,30 @@
     const/4 v2, 0x0
 
     .line 410
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     if-eqz v0, :cond_0
 
     .line 412
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->stop()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 417
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->reset()V
 
     .line 418
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->release()V
 
     .line 419
-    iput-object v2, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iput-object v2, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     .line 422
     :cond_0
@@ -501,17 +501,17 @@
     :catchall_0
     move-exception v0
 
-    iget-object v1, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v1, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v1}, Landroid/media/MediaRecorder;->reset()V
 
     .line 418
-    iget-object v1, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v1, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v1}, Landroid/media/MediaRecorder;->release()V
 
     .line 419
-    iput-object v2, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iput-object v2, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     throw v0
 .end method
@@ -522,11 +522,11 @@
     .prologue
     .line 453
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
     :try_end_0
@@ -547,7 +547,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 460
     :cond_0
@@ -561,13 +561,13 @@
 
     .prologue
     .line 465
-    invoke-direct {p0}, Lkik/android/c/d;->E()Z
+    invoke-direct {p0}, Lkik/arcane/c/d;->E()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -595,7 +595,7 @@
 
     .prologue
     .line 591
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-nez v0, :cond_0
 
@@ -605,19 +605,19 @@
 
     .line 596
     :cond_0
-    invoke-static {}, Lkik/android/util/j;->a()I
+    invoke-static {}, Lkik/arcane/util/j;->a()I
 
     move-result v0
 
     .line 598
-    iget v1, p0, Lkik/android/c/d;->q:I
+    iget v1, p0, Lkik/arcane/c/d;->q:I
 
-    invoke-static {v0, v1}, Lkik/android/util/j;->a(II)I
+    invoke-static {v0, v1}, Lkik/arcane/util/j;->a(II)I
 
     move-result v0
 
     .line 600
-    iput v0, p0, Lkik/android/c/d;->n:I
+    iput v0, p0, Lkik/arcane/c/d;->n:I
 
     .line 601
     const/16 v0, 0x10
@@ -629,20 +629,20 @@
     if-eqz v0, :cond_1
 
     .line 602
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->stopPreview()V
 
     .line 605
     :cond_1
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
-    iget v1, p0, Lkik/android/c/d;->n:I
+    iget v1, p0, Lkik/arcane/c/d;->n:I
 
     invoke-virtual {v0, v1}, Landroid/hardware/Camera;->setDisplayOrientation(I)V
 
     .line 606
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -669,7 +669,7 @@
     if-eqz v2, :cond_3
 
     .line 619
-    invoke-static {v2}, Lkik/android/util/j;->a(Ljava/util/List;)Landroid/hardware/Camera$Size;
+    invoke-static {v2}, Lkik/arcane/util/j;->a(Ljava/util/List;)Landroid/hardware/Camera$Size;
 
     move-result-object v2
 
@@ -688,18 +688,18 @@
     div-double/2addr v0, v4
 
     .line 623
-    iput-object v2, p0, Lkik/android/c/d;->s:Landroid/hardware/Camera$Size;
+    iput-object v2, p0, Lkik/arcane/c/d;->s:Landroid/hardware/Camera$Size;
 
     .line 631
     :cond_3
     :goto_1
-    iget-object v2, p0, Lkik/android/c/d;->a:Landroid/app/Activity;
+    iget-object v2, p0, Lkik/arcane/c/d;->a:Landroid/app/Activity;
 
     invoke-virtual {v3}, Landroid/hardware/Camera$Parameters;->getSupportedPreviewSizes()Ljava/util/List;
 
     move-result-object v4
 
-    invoke-static {v2, v4, v0, v1}, Lkik/android/util/j;->b(Landroid/app/Activity;Ljava/util/List;D)Landroid/hardware/Camera$Size;
+    invoke-static {v2, v4, v0, v1}, Lkik/arcane/util/j;->b(Landroid/app/Activity;Ljava/util/List;D)Landroid/hardware/Camera$Size;
 
     move-result-object v2
 
@@ -716,7 +716,7 @@
     move-result-object v0
 
     .line 636
-    iget-object v1, p0, Lkik/android/c/d;->a:Landroid/app/Activity;
+    iget-object v1, p0, Lkik/arcane/c/d;->a:Landroid/app/Activity;
 
     iget v4, v2, Landroid/hardware/Camera$Size;->width:I
 
@@ -728,7 +728,7 @@
 
     div-double/2addr v4, v6
 
-    invoke-static {v1, v0, v4, v5}, Lkik/android/util/j;->a(Landroid/app/Activity;Ljava/util/List;D)Landroid/hardware/Camera$Size;
+    invoke-static {v1, v0, v4, v5}, Lkik/arcane/util/j;->a(Landroid/app/Activity;Ljava/util/List;D)Landroid/hardware/Camera$Size;
 
     move-result-object v0
 
@@ -750,7 +750,7 @@
     iget v0, v2, Landroid/hardware/Camera$Size;->height:I
 
     .line 650
-    iget v4, p0, Lkik/android/c/d;->n:I
+    iget v4, p0, Lkik/arcane/c/d;->n:I
 
     rem-int/lit16 v4, v4, 0xb4
 
@@ -764,7 +764,7 @@
 
     .line 655
     :cond_5
-    iget-object v2, p0, Lkik/android/c/d;->j:Landroid/view/View;
+    iget-object v2, p0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     invoke-virtual {v2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
@@ -794,16 +794,16 @@
     iget v1, v2, Landroid/util/DisplayMetrics;->widthPixels:I
 
     .line 659
-    iget-object v2, p0, Lkik/android/c/d;->k:Lkik/android/widget/a;
+    iget-object v2, p0, Lkik/arcane/c/d;->k:Lkik/arcane/widget/a;
 
-    invoke-interface {v2, v1, v0}, Lkik/android/widget/a;->a(II)V
+    invoke-interface {v2, v1, v0}, Lkik/arcane/widget/a;->a(II)V
 
     .line 661
     invoke-virtual {v3}, Landroid/hardware/Camera$Parameters;->getSupportedPreviewFpsRange()Ljava/util/List;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/j;->b(Ljava/util/List;)[I
+    invoke-static {v0}, Lkik/arcane/util/j;->b(Ljava/util/List;)[I
 
     move-result-object v0
 
@@ -823,7 +823,7 @@
 
     .line 666
     :cond_6
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0, v3}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
@@ -831,9 +831,9 @@
 
     .line 626
     :cond_7
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    invoke-static {v0}, Lkik/android/c/d;->d(I)Landroid/media/CamcorderProfile;
+    invoke-static {v0}, Lkik/arcane/c/d;->d(I)Landroid/media/CamcorderProfile;
 
     move-result-object v0
 
@@ -885,12 +885,12 @@
     if-ne v3, v4, :cond_1
 
     .line 7176
-    iget v2, p0, Lkik/android/c/d;->o:I
+    iget v2, p0, Lkik/arcane/c/d;->o:I
 
     if-ne v2, v5, :cond_0
 
     .line 7177
-    iput v0, p0, Lkik/android/c/d;->o:I
+    iput v0, p0, Lkik/arcane/c/d;->o:I
 
     .line 1261
     :cond_0
@@ -906,12 +906,12 @@
     if-nez v2, :cond_0
 
     .line 7183
-    iget v2, p0, Lkik/android/c/d;->p:I
+    iget v2, p0, Lkik/arcane/c/d;->p:I
 
     if-ne v2, v5, :cond_0
 
     .line 7184
-    iput v0, p0, Lkik/android/c/d;->p:I
+    iput v0, p0, Lkik/arcane/c/d;->p:I
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -940,19 +940,19 @@
     invoke-static {p0, v0}, Landroid/hardware/Camera;->getCameraInfo(ILandroid/hardware/Camera$CameraInfo;)V
 
     .line 1080
-    invoke-static {v0, p1}, Lkik/android/util/j;->a(Landroid/hardware/Camera$CameraInfo;I)I
+    invoke-static {v0, p1}, Lkik/arcane/util/j;->a(Landroid/hardware/Camera$CameraInfo;I)I
 
     move-result v0
 
     return v0
 .end method
 
-.method static synthetic a(Lkik/android/c/d;)Lrx/d;
+.method static synthetic a(Lkik/arcane/c/d;)Lrx/d;
     .locals 2
 
     .prologue
     .line 727
-    invoke-static {p0}, Lkik/android/c/j;->a(Lkik/android/c/d;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/c/j;->a(Lkik/arcane/c/d;)Lrx/functions/b;
 
     move-result-object v0
 
@@ -965,7 +965,7 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/c/d;I)V
+.method static synthetic a(Lkik/arcane/c/d;I)V
     .locals 2
 
     .prologue
@@ -994,41 +994,41 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 884
-    invoke-virtual {p0}, Lkik/android/c/d;->b()V
+    invoke-virtual {p0}, Lkik/arcane/c/d;->b()V
 
     .line 886
     :cond_1
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/c/d;Lrx/Emitter;)V
+.method static synthetic a(Lkik/arcane/c/d;Lrx/Emitter;)V
     .locals 4
 
     .prologue
     .line 730
-    invoke-static {p0, p1}, Lkik/android/c/k;->a(Lkik/android/c/d;Lrx/Emitter;)Landroid/hardware/Camera$PictureCallback;
+    invoke-static {p0, p1}, Lkik/arcane/c/k;->a(Lkik/arcane/c/d;Lrx/Emitter;)Landroid/hardware/Camera$PictureCallback;
 
     move-result-object v0
 
     .line 778
-    invoke-static {}, Lkik/android/c/l;->b()Lrx/functions/e;
+    invoke-static {}, Lkik/arcane/c/l;->b()Lrx/functions/e;
 
     move-result-object v1
 
     invoke-interface {p1, v1}, Lrx/Emitter;->a(Lrx/functions/e;)V
 
     .line 7973
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-nez v1, :cond_1
 
     .line 7975
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->d()V
 
     .line 7978
     :cond_0
@@ -1037,50 +1037,50 @@
 
     .line 7981
     :cond_1
-    iget-object v1, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v1, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v1}, Lkik/android/chat/presentation/n;->e()Z
+    invoke-interface {v1}, Lkik/arcane/chat/presentation/n;->e()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 8056
-    iget v1, p0, Lkik/android/c/d;->x:I
+    iget v1, p0, Lkik/arcane/c/d;->x:I
 
     add-int/lit8 v1, v1, 0x1
 
-    iput v1, p0, Lkik/android/c/d;->x:I
+    iput v1, p0, Lkik/arcane/c/d;->x:I
 
     .line 8061
-    iget v1, p0, Lkik/android/c/d;->q:I
+    iget v1, p0, Lkik/arcane/c/d;->q:I
 
-    invoke-static {v1}, Lkik/android/c/d;->e(I)I
+    invoke-static {v1}, Lkik/arcane/c/d;->e(I)I
 
     move-result v1
 
-    iput v1, p0, Lkik/android/c/d;->t:I
+    iput v1, p0, Lkik/arcane/c/d;->t:I
 
     .line 8062
-    iget v1, p0, Lkik/android/c/d;->q:I
+    iget v1, p0, Lkik/arcane/c/d;->q:I
 
-    iget v2, p0, Lkik/android/c/d;->v:I
+    iget v2, p0, Lkik/arcane/c/d;->v:I
 
-    invoke-static {v1, v2}, Lkik/android/c/d;->a(II)I
+    invoke-static {v1, v2}, Lkik/arcane/c/d;->a(II)I
 
     move-result v1
 
-    iput v1, p0, Lkik/android/c/d;->u:I
+    iput v1, p0, Lkik/arcane/c/d;->u:I
 
     .line 8064
-    iget-object v1, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v1, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v1}, Lkik/android/chat/presentation/n;->f()V
+    invoke-interface {v1}, Lkik/arcane/chat/presentation/n;->f()V
 
     .line 7983
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
-    iget-object v2, p0, Lkik/android/c/d;->F:Landroid/hardware/Camera$ShutterCallback;
+    iget-object v2, p0, Lkik/arcane/c/d;->F:Landroid/hardware/Camera$ShutterCallback;
 
     const/4 v3, 0x0
 
@@ -1089,19 +1089,19 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/c/d;Lrx/Emitter;ZLandroid/hardware/Camera;)V
+.method static synthetic a(Lkik/arcane/c/d;Lrx/Emitter;ZLandroid/hardware/Camera;)V
     .locals 1
 
     .prologue
     .line 686
-    iget-object v0, p0, Lkik/android/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
+    iget-object v0, p0, Lkik/arcane/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
 
     invoke-interface {v0, p2, p3}, Landroid/hardware/Camera$AutoFocusCallback;->onAutoFocus(ZLandroid/hardware/Camera;)V
 
     .line 687
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/c/d;->m:Z
+    iput-boolean v0, p0, Lkik/arcane/c/d;->m:Z
 
     .line 688
     const/4 v0, 0x0
@@ -1112,19 +1112,19 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/c/d;Lrx/Emitter;[B)V
+.method static synthetic a(Lkik/arcane/c/d;Lrx/Emitter;[B)V
     .locals 21
 
     .prologue
     .line 731
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v2, v0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v2, :cond_0
 
     .line 733
-    invoke-direct/range {p0 .. p0}, Lkik/android/c/d;->B()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/c/d;->B()V
 
     .line 736
     :cond_0
@@ -1142,20 +1142,20 @@
     move v10, v2
 
     :goto_0
-    sget-object v2, Lkik/android/util/j;->a:[I
+    sget-object v2, Lkik/arcane/util/j;->a:[I
 
     array-length v2, v2
 
     if-ge v10, v2, :cond_7
 
     .line 741
-    sget-object v2, Lkik/android/util/j;->a:[I
+    sget-object v2, Lkik/arcane/util/j;->a:[I
 
     aget v2, v2, v10
 
     move-object/from16 v0, p2
 
-    invoke-static {v0, v2}, Lkik/android/util/j;->a([BI)Landroid/graphics/Bitmap;
+    invoke-static {v0, v2}, Lkik/arcane/util/j;->a([BI)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -1171,14 +1171,14 @@
 
     move-result v8
 
-    invoke-static {}, Lkik/android/chat/KikApplication;->m()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->m()Z
 
     move-result v5
 
     .line 8351
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/c/d;->j:Landroid/view/View;
+    iget-object v3, v0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     invoke-virtual {v3}, Landroid/view/View;->getHeight()I
 
@@ -1187,7 +1187,7 @@
     .line 8352
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/c/d;->j:Landroid/view/View;
+    iget-object v3, v0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     invoke-virtual {v3}, Landroid/view/View;->getWidth()I
 
@@ -1196,7 +1196,7 @@
     .line 8354
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/c/d;->b:Landroid/widget/FrameLayout;
+    iget-object v3, v0, Lkik/arcane/c/d;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v3}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -1205,7 +1205,7 @@
     .line 8355
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/c/d;->b:Landroid/widget/FrameLayout;
+    iget-object v4, v0, Lkik/arcane/c/d;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v4}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -1286,7 +1286,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v14, v0, Lkik/android/c/d;->j:Landroid/view/View;
+    iget-object v14, v0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     invoke-virtual {v14}, Landroid/view/View;->getLeft()I
 
@@ -1305,7 +1305,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v15, v0, Lkik/android/c/d;->j:Landroid/view/View;
+    iget-object v15, v0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     invoke-virtual {v15}, Landroid/view/View;->getTop()I
 
@@ -1370,7 +1370,7 @@
 
     .line 8404
     :goto_2
-    new-instance v12, Lkik/android/video/a;
+    new-instance v12, Lkik/arcane/video/a;
 
     new-instance v13, Landroid/graphics/Point;
 
@@ -1384,10 +1384,10 @@
 
     invoke-direct {v3, v6, v5}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-direct {v12, v13, v7, v3}, Lkik/android/video/a;-><init>(Landroid/graphics/Point;Landroid/graphics/Point;Landroid/graphics/Point;)V
+    invoke-direct {v12, v13, v7, v3}, Lkik/arcane/video/a;-><init>(Landroid/graphics/Point;Landroid/graphics/Point;Landroid/graphics/Point;)V
 
     .line 748
-    invoke-virtual {v12}, Lkik/android/video/a;->a()Landroid/graphics/Point;
+    invoke-virtual {v12}, Lkik/arcane/video/a;->a()Landroid/graphics/Point;
 
     move-result-object v6
 
@@ -1397,7 +1397,7 @@
     .line 9006
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/c/d;->t:I
+    iget v4, v0, Lkik/arcane/c/d;->t:I
 
     .line 9008
     new-instance v7, Landroid/graphics/Matrix;
@@ -1410,7 +1410,7 @@
     invoke-virtual {v7, v4}, Landroid/graphics/Matrix;->postRotate(F)Z
 
     .line 9012
-    invoke-virtual/range {p0 .. p0}, Lkik/android/c/d;->f()Z
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/c/d;->f()Z
 
     move-result v4
 
@@ -1433,7 +1433,7 @@
     .line 753
     :cond_3
     :try_start_0
-    invoke-virtual {v12}, Lkik/android/video/a;->b()Landroid/graphics/Point;
+    invoke-virtual {v12}, Lkik/arcane/video/a;->b()Landroid/graphics/Point;
 
     move-result-object v4
 
@@ -1462,18 +1462,18 @@
     if-eqz v9, :cond_4
 
     .line 768
-    invoke-static {v9}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v9}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 9021
     :cond_4
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v2, v0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v2}, Lkik/android/chat/presentation/n;->g()V
+    invoke-interface {v2}, Lkik/arcane/chat/presentation/n;->g()V
 
     .line 771
-    invoke-direct/range {p0 .. p0}, Lkik/android/c/d;->z()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/c/d;->z()V
 
     .line 776
     :goto_4
@@ -1560,7 +1560,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v2}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     move-object v2, v11
 
@@ -1580,7 +1580,7 @@
     goto :goto_5
 .end method
 
-.method static synthetic a(Lkik/android/c/d;ZLandroid/hardware/Camera;)V
+.method static synthetic a(Lkik/arcane/c/d;ZLandroid/hardware/Camera;)V
     .locals 1
 
     .prologue
@@ -1588,21 +1588,21 @@
     if-eqz p1, :cond_0
 
     .line 112
-    invoke-direct {p0}, Lkik/android/c/d;->B()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->B()V
 
     .line 114
     :cond_0
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/c/d;->m:Z
+    iput-boolean v0, p0, Lkik/arcane/c/d;->m:Z
 
     .line 115
-    iget-object v0, p0, Lkik/android/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
+    iget-object v0, p0, Lkik/arcane/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
 
     if-eqz v0, :cond_1
 
     .line 116
-    iget-object v0, p0, Lkik/android/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
+    iget-object v0, p0, Lkik/arcane/c/d;->D:Landroid/hardware/Camera$AutoFocusCallback;
 
     invoke-interface {v0, p1, p2}, Landroid/hardware/Camera$AutoFocusCallback;->onAutoFocus(ZLandroid/hardware/Camera;)V
 
@@ -1611,39 +1611,39 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/c/d;I)I
+.method static synthetic b(Lkik/arcane/c/d;I)I
     .locals 0
 
     .prologue
     .line 59
-    iput p1, p0, Lkik/android/c/d;->h:I
+    iput p1, p0, Lkik/arcane/c/d;->h:I
 
     return p1
 .end method
 
-.method static synthetic b(Lkik/android/c/d;)V
+.method static synthetic b(Lkik/arcane/c/d;)V
     .locals 0
 
     .prologue
     .line 586
-    invoke-direct {p0}, Lkik/android/c/d;->A()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->A()V
 
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/c/d;Lrx/Emitter;)V
+.method static synthetic b(Lkik/arcane/c/d;Lrx/Emitter;)V
     .locals 4
 
     .prologue
     const/4 v1, 0x0
 
     .line 685
-    invoke-static {p0, p1}, Lkik/android/c/m;->a(Lkik/android/c/d;Lrx/Emitter;)Landroid/hardware/Camera$AutoFocusCallback;
+    invoke-static {p0, p1}, Lkik/arcane/c/m;->a(Lkik/arcane/c/d;Lrx/Emitter;)Landroid/hardware/Camera$AutoFocusCallback;
 
     move-result-object v2
 
     .line 691
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -1655,7 +1655,7 @@
 
     .line 694
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -1688,7 +1688,7 @@
     if-eqz v0, :cond_1
 
     .line 705
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0, v2}, Landroid/hardware/Camera;->autoFocus(Landroid/hardware/Camera$AutoFocusCallback;)V
 
@@ -1714,7 +1714,7 @@
     if-eqz v0, :cond_4
 
     .line 9239
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -1744,13 +1744,13 @@
 
     .line 9248
     :cond_2
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
     .line 722
     :cond_3
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0, v2}, Landroid/hardware/Camera;->autoFocus(Landroid/hardware/Camera$AutoFocusCallback;)V
 
@@ -1768,12 +1768,12 @@
 
     .prologue
     .line 302
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
     .line 303
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -1802,7 +1802,7 @@
     invoke-virtual {v0, p1}, Landroid/hardware/Camera$Parameters;->setFlashMode(Ljava/lang/String;)V
 
     .line 306
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
@@ -1811,12 +1811,12 @@
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/c/d;)Z
+.method static synthetic c(Lkik/arcane/c/d;)Z
     .locals 1
 
     .prologue
     .line 59
-    iget-boolean v0, p0, Lkik/android/c/d;->l:Z
+    iget-boolean v0, p0, Lkik/arcane/c/d;->l:Z
 
     return v0
 .end method
@@ -1853,7 +1853,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic d(Lkik/android/c/d;)V
+.method static synthetic d(Lkik/arcane/c/d;)V
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1863,7 +1863,7 @@
 
     .prologue
     .line 59
-    invoke-direct {p0}, Lkik/android/c/d;->D()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->D()V
 
     return-void
 .end method
@@ -1883,39 +1883,39 @@
     .line 1072
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/util/j;->a(Landroid/hardware/Camera$CameraInfo;I)I
+    invoke-static {v0, v1}, Lkik/arcane/util/j;->a(Landroid/hardware/Camera$CameraInfo;I)I
 
     move-result v0
 
     return v0
 .end method
 
-.method static synthetic e(Lkik/android/c/d;)V
+.method static synthetic e(Lkik/arcane/c/d;)V
     .locals 0
 
     .prologue
     .line 59
-    invoke-direct {p0}, Lkik/android/c/d;->A()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->A()V
 
     return-void
 .end method
 
-.method static synthetic f(Lkik/android/c/d;)I
+.method static synthetic f(Lkik/arcane/c/d;)I
     .locals 1
 
     .prologue
     .line 59
-    iget v0, p0, Lkik/android/c/d;->h:I
+    iget v0, p0, Lkik/arcane/c/d;->h:I
 
     return v0
 .end method
 
-.method static synthetic g(Lkik/android/c/d;)Lkik/android/chat/presentation/n;
+.method static synthetic g(Lkik/arcane/c/d;)Lkik/arcane/chat/presentation/n;
     .locals 1
 
     .prologue
     .line 59
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
     return-object v0
 .end method
@@ -1938,9 +1938,9 @@
 
     .prologue
     .line 183
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    invoke-static {v0}, Lkik/android/util/j;->a(I)Landroid/hardware/Camera;
+    invoke-static {v0}, Lkik/arcane/util/j;->a(I)Landroid/hardware/Camera;
 
     move-result-object v0
 
@@ -1948,19 +1948,19 @@
     if-nez v0, :cond_1
 
     .line 2201
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
     .line 2202
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->release()V
 
     .line 2204
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iput-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     .line 2230
     :goto_0
@@ -1968,9 +1968,9 @@
 
     .line 2208
     :cond_0
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->j()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->j()V
 
     goto :goto_0
 
@@ -1981,7 +1981,7 @@
     invoke-direct {v1}, Landroid/hardware/Camera$CameraInfo;-><init>()V
 
     .line 2214
-    iget v2, p0, Lkik/android/c/d;->q:I
+    iget v2, p0, Lkik/arcane/c/d;->q:I
 
     invoke-static {v2, v1}, Landroid/hardware/Camera;->getCameraInfo(ILandroid/hardware/Camera$CameraInfo;)V
 
@@ -2005,27 +2005,27 @@
 
     .line 2217
     :cond_2
-    iput-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iput-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     .line 2219
-    invoke-direct {p0}, Lkik/android/c/d;->G()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->G()V
 
     .line 2220
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->h()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->h()V
 
     .line 3426
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_4
 
     .line 3430
-    invoke-direct {p0}, Lkik/android/c/d;->B()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->B()V
 
     .line 3432
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -2056,17 +2056,17 @@
     .line 3445
     :cond_3
     :goto_1
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
     .line 2226
     :cond_4
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
-    invoke-interface {v0, v1}, Lkik/android/c/a;->a(Landroid/hardware/Camera;)V
+    invoke-interface {v0, v1}, Lkik/arcane/c/a;->a(Landroid/hardware/Camera;)V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2076,9 +2076,9 @@
     :catch_0
     move-exception v0
 
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->j()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->j()V
 
     goto :goto_0
 
@@ -2108,7 +2108,7 @@
 
     .prologue
     .line 259
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-nez v0, :cond_0
 
@@ -2118,17 +2118,17 @@
 
     .line 264
     :cond_0
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->startPreview()V
 
     .line 265
-    invoke-direct {p0}, Lkik/android/c/d;->G()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->G()V
 
     .line 267
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->h()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->h()V
 
     goto :goto_0
 .end method
@@ -2149,7 +2149,7 @@
 
     .prologue
     .line 680
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-nez v0, :cond_0
 
@@ -2169,7 +2169,7 @@
     return-object v0
 
     :cond_0
-    invoke-static {p0}, Lkik/android/c/g;->a(Lkik/android/c/d;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/c/g;->a(Lkik/arcane/c/d;)Lrx/functions/b;
 
     move-result-object v0
 
@@ -2179,7 +2179,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/c/h;->a(Lkik/android/c/d;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/c/h;->a(Lkik/arcane/c/d;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -2198,9 +2198,9 @@
     const/high16 v4, 0x42c80000    # 100.0f
 
     .line 500
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
-    invoke-interface {v0}, Lkik/android/c/a;->a()Z
+    invoke-interface {v0}, Lkik/arcane/c/a;->a()Z
 
     move-result v0
 
@@ -2208,12 +2208,12 @@
 
     .line 502
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_3
 
     .line 503
-    invoke-direct {p0}, Lkik/android/c/d;->B()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->B()V
 
     .line 4344
     new-instance v0, Landroid/graphics/Rect;
@@ -2241,7 +2241,7 @@
 
     mul-int/lit16 v1, v1, 0x7d0
 
-    iget-object v2, p0, Lkik/android/c/d;->b:Landroid/widget/FrameLayout;
+    iget-object v2, p0, Lkik/arcane/c/d;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v2}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -2256,7 +2256,7 @@
 
     mul-int/lit16 v2, v2, 0x7d0
 
-    iget-object v3, p0, Lkik/android/c/d;->b:Landroid/widget/FrameLayout;
+    iget-object v3, p0, Lkik/arcane/c/d;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v3}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -2271,7 +2271,7 @@
 
     mul-int/lit16 v3, v3, 0x7d0
 
-    iget-object v4, p0, Lkik/android/c/d;->b:Landroid/widget/FrameLayout;
+    iget-object v4, p0, Lkik/arcane/c/d;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v4}, Landroid/widget/FrameLayout;->getWidth()I
 
@@ -2286,7 +2286,7 @@
 
     mul-int/lit16 v0, v0, 0x7d0
 
-    iget-object v4, p0, Lkik/android/c/d;->b:Landroid/widget/FrameLayout;
+    iget-object v4, p0, Lkik/arcane/c/d;->b:Landroid/widget/FrameLayout;
 
     invoke-virtual {v4}, Landroid/widget/FrameLayout;->getHeight()I
 
@@ -2304,7 +2304,7 @@
     const/16 v6, 0x3e7
 
     .line 4360
-    invoke-static {v1, v5, v6}, Lkik/android/util/ca;->a(III)I
+    invoke-static {v1, v5, v6}, Lkik/arcane/util/ca;->a(III)I
 
     move-result v1
 
@@ -2313,7 +2313,7 @@
     const/16 v6, 0x3e7
 
     .line 4361
-    invoke-static {v2, v5, v6}, Lkik/android/util/ca;->a(III)I
+    invoke-static {v2, v5, v6}, Lkik/arcane/util/ca;->a(III)I
 
     move-result v2
 
@@ -2322,7 +2322,7 @@
     const/16 v6, 0x3e7
 
     .line 4362
-    invoke-static {v3, v5, v6}, Lkik/android/util/ca;->a(III)I
+    invoke-static {v3, v5, v6}, Lkik/arcane/util/ca;->a(III)I
 
     move-result v3
 
@@ -2331,14 +2331,14 @@
     const/16 v6, 0x3e7
 
     .line 4363
-    invoke-static {v0, v5, v6}, Lkik/android/util/ca;->a(III)I
+    invoke-static {v0, v5, v6}, Lkik/arcane/util/ca;->a(III)I
 
     move-result v0
 
     invoke-direct {v4, v1, v2, v3, v0}, Landroid/graphics/Rect;-><init>(IIII)V
 
     .line 506
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -2425,19 +2425,19 @@
 
     .line 519
     :cond_2
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
     .line 520
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/c/d;->m:Z
+    iput-boolean v0, p0, Lkik/arcane/c/d;->m:Z
 
     .line 521
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
-    iget-object v1, p0, Lkik/android/c/d;->E:Landroid/hardware/Camera$AutoFocusCallback;
+    iget-object v1, p0, Lkik/arcane/c/d;->E:Landroid/hardware/Camera$AutoFocusCallback;
 
     invoke-virtual {v0, v1}, Landroid/hardware/Camera;->autoFocus(Landroid/hardware/Camera$AutoFocusCallback;)V
     :try_end_0
@@ -2452,7 +2452,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -2462,12 +2462,12 @@
 
     .prologue
     .line 1086
-    iget v0, p0, Lkik/android/c/d;->v:I
+    iget v0, p0, Lkik/arcane/c/d;->v:I
 
     .line 1088
-    iget v1, p0, Lkik/android/c/d;->v:I
+    iget v1, p0, Lkik/arcane/c/d;->v:I
 
-    invoke-static {p1, v1}, Lkik/android/util/j;->b(II)I
+    invoke-static {p1, v1}, Lkik/arcane/util/j;->b(II)I
 
     move-result v1
 
@@ -2483,23 +2483,23 @@
 
     .line 1093
     :cond_1
-    iput v1, p0, Lkik/android/c/d;->v:I
+    iput v1, p0, Lkik/arcane/c/d;->v:I
 
     .line 1094
-    iget v1, p0, Lkik/android/c/d;->v:I
+    iget v1, p0, Lkik/arcane/c/d;->v:I
 
     sub-int/2addr v0, v1
 
     .line 1096
     if-eqz v0, :cond_0
 
-    iget v0, p0, Lkik/android/c/d;->v:I
+    iget v0, p0, Lkik/arcane/c/d;->v:I
 
     const/16 v1, 0x5a
 
     if-eq v0, v1, :cond_2
 
-    iget v0, p0, Lkik/android/c/d;->v:I
+    iget v0, p0, Lkik/arcane/c/d;->v:I
 
     const/16 v1, 0x10e
 
@@ -2507,26 +2507,26 @@
 
     .line 1097
     :cond_2
-    invoke-static {}, Lkik/android/chat/KikApplication;->m()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->m()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 1098
-    invoke-direct {p0}, Lkik/android/c/d;->G()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->G()V
 
     .line 4672
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
     if-eqz v0, :cond_0
 
     .line 4673
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
-    invoke-interface {v0, v1}, Lkik/android/c/a;->a(Landroid/hardware/Camera;)V
+    invoke-interface {v0, v1}, Lkik/arcane/c/a;->a(Landroid/hardware/Camera;)V
 
     goto :goto_0
 .end method
@@ -2540,7 +2540,7 @@
     const/4 v0, 0x1
 
     .line 800
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-nez v1, :cond_0
 
@@ -2550,22 +2550,22 @@
 
     .line 804
     :cond_0
-    iget v1, p0, Lkik/android/c/d;->x:I
+    iget v1, p0, Lkik/arcane/c/d;->x:I
 
     add-int/lit8 v1, v1, 0x1
 
-    iput v1, p0, Lkik/android/c/d;->x:I
+    iput v1, p0, Lkik/arcane/c/d;->x:I
 
     .line 807
     :try_start_0
-    iget v1, p0, Lkik/android/c/d;->q:I
+    iget v1, p0, Lkik/arcane/c/d;->q:I
 
-    invoke-static {v1}, Lkik/android/c/d;->d(I)Landroid/media/CamcorderProfile;
+    invoke-static {v1}, Lkik/arcane/c/d;->d(I)Landroid/media/CamcorderProfile;
 
     move-result-object v2
 
     .line 808
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v1}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -2612,7 +2612,7 @@
 
     .line 819
     :cond_1
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0, v3}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
@@ -2621,73 +2621,73 @@
 
     invoke-direct {v0}, Landroid/media/MediaRecorder;-><init>()V
 
-    iput-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iput-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     .line 822
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->stopPreview()V
 
     .line 823
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->unlock()V
 
     .line 824
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
-    iget-object v3, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v3, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0, v3}, Landroid/media/MediaRecorder;->setCamera(Landroid/hardware/Camera;)V
 
     .line 825
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     const/4 v3, 0x5
 
     invoke-virtual {v0, v3}, Landroid/media/MediaRecorder;->setAudioSource(I)V
 
     .line 826
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     const/4 v3, 0x1
 
     invoke-virtual {v0, v3}, Landroid/media/MediaRecorder;->setVideoSource(I)V
 
     .line 831
-    iget v0, p0, Lkik/android/c/d;->v:I
+    iget v0, p0, Lkik/arcane/c/d;->v:I
 
-    iput v0, p0, Lkik/android/c/d;->w:I
+    iput v0, p0, Lkik/arcane/c/d;->w:I
 
     .line 832
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    invoke-static {v0}, Lkik/android/c/d;->e(I)I
+    invoke-static {v0}, Lkik/arcane/c/d;->e(I)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/c/d;->t:I
+    iput v0, p0, Lkik/arcane/c/d;->t:I
 
     .line 835
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    iget v3, p0, Lkik/android/c/d;->v:I
+    iget v3, p0, Lkik/arcane/c/d;->v:I
 
-    invoke-static {v0, v3}, Lkik/android/c/d;->a(II)I
+    invoke-static {v0, v3}, Lkik/arcane/c/d;->a(II)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/c/d;->u:I
+    iput v0, p0, Lkik/arcane/c/d;->u:I
 
     .line 837
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
-    iget v3, p0, Lkik/android/c/d;->u:I
+    iget v3, p0, Lkik/arcane/c/d;->u:I
 
     invoke-virtual {v0, v3}, Landroid/media/MediaRecorder;->setOrientationHint(I)V
 
     .line 839
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0, v2}, Landroid/media/MediaRecorder;->setProfile(Landroid/media/CamcorderProfile;)V
 
@@ -2697,7 +2697,7 @@
     if-ge v6, v0, :cond_2
 
     .line 842
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     const v2, 0xea600
 
@@ -2705,20 +2705,20 @@
 
     .line 846
     :cond_2
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
-    instance-of v0, v0, Lkik/android/c/n;
+    instance-of v0, v0, Lkik/arcane/c/n;
 
     if-eqz v0, :cond_3
 
     .line 847
-    iget-object v2, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v2, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
-    iget-object v0, p0, Lkik/android/c/d;->d:Lkik/android/c/a;
+    iget-object v0, p0, Lkik/arcane/c/d;->d:Lkik/arcane/c/a;
 
-    check-cast v0, Lkik/android/c/n;
+    check-cast v0, Lkik/arcane/c/n;
 
-    invoke-virtual {v0}, Lkik/android/c/n;->d()Landroid/view/Surface;
+    invoke-virtual {v0}, Lkik/arcane/c/n;->d()Landroid/view/Surface;
 
     move-result-object v0
 
@@ -2726,18 +2726,18 @@
 
     .line 850
     :cond_3
-    iget-object v0, p0, Lkik/android/c/d;->s:Landroid/hardware/Camera$Size;
+    iget-object v0, p0, Lkik/arcane/c/d;->s:Landroid/hardware/Camera$Size;
 
     if-eqz v0, :cond_6
 
     .line 851
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
-    iget-object v1, p0, Lkik/android/c/d;->s:Landroid/hardware/Camera$Size;
+    iget-object v1, p0, Lkik/arcane/c/d;->s:Landroid/hardware/Camera$Size;
 
     iget v1, v1, Landroid/hardware/Camera$Size;->width:I
 
-    iget-object v2, p0, Lkik/android/c/d;->s:Landroid/hardware/Camera$Size;
+    iget-object v2, p0, Lkik/arcane/c/d;->s:Landroid/hardware/Camera$Size;
 
     iget v2, v2, Landroid/hardware/Camera$Size;->height:I
 
@@ -2746,64 +2746,64 @@
     .line 860
     :cond_4
     :goto_2
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0, p1}, Landroid/media/MediaRecorder;->setOutputFile(Ljava/lang/String;)V
 
     .line 862
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     const/16 v1, 0x3a98
 
     invoke-virtual {v0, v1}, Landroid/media/MediaRecorder;->setMaxDuration(I)V
 
     .line 863
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     const-wide/32 v2, 0x4c4b40
 
     invoke-virtual {v0, v2, v3}, Landroid/media/MediaRecorder;->setMaxFileSize(J)V
 
     .line 865
-    new-instance v0, Lkik/android/c/d$5;
+    new-instance v0, Lkik/arcane/c/d$5;
 
-    invoke-direct {v0, p0}, Lkik/android/c/d$5;-><init>(Lkik/android/c/d;)V
+    invoke-direct {v0, p0}, Lkik/arcane/c/d$5;-><init>(Lkik/arcane/c/d;)V
 
-    iput-object v0, p0, Lkik/android/c/d;->g:Landroid/os/CountDownTimer;
+    iput-object v0, p0, Lkik/arcane/c/d;->g:Landroid/os/CountDownTimer;
 
     .line 881
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
-    invoke-static {p0}, Lkik/android/c/i;->a(Lkik/android/c/d;)Landroid/media/MediaRecorder$OnInfoListener;
+    invoke-static {p0}, Lkik/arcane/c/i;->a(Lkik/arcane/c/d;)Landroid/media/MediaRecorder$OnInfoListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/media/MediaRecorder;->setOnInfoListener(Landroid/media/MediaRecorder$OnInfoListener;)V
 
     .line 888
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->prepare()V
 
     .line 890
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     invoke-virtual {v0}, Landroid/media/MediaRecorder;->start()V
 
     .line 891
-    iget-object v0, p0, Lkik/android/c/d;->g:Landroid/os/CountDownTimer;
+    iget-object v0, p0, Lkik/arcane/c/d;->g:Landroid/os/CountDownTimer;
 
     invoke-virtual {v0}, Landroid/os/CountDownTimer;->start()Landroid/os/CountDownTimer;
 
     .line 892
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/c/d;->l:Z
+    iput-boolean v0, p0, Lkik/arcane/c/d;->l:Z
 
     .line 894
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->n()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->n()V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
@@ -2814,9 +2814,9 @@
     :catch_0
     move-exception v0
 
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->g()V
 
     goto/16 :goto_0
 
@@ -2842,7 +2842,7 @@
     if-eqz v0, :cond_4
 
     .line 858
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     iget v1, v4, Landroid/hardware/Camera$Size;->width:I
 
@@ -2881,7 +2881,7 @@
     .prologue
     .line 1133
     .line 6140
-    invoke-static {p1}, Lkik/android/VideoContentProvider;->a(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p1}, Lkik/arcane/VideoContentProvider;->a(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
@@ -2898,14 +2898,14 @@
     invoke-interface {p3, v1}, Lkik/core/interfaces/ad;->b(Ljava/io/File;)V
 
     .line 1134
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/c/d;->a:Landroid/app/Activity;
+    iget-object v2, p0, Lkik/arcane/c/d;->a:Landroid/app/Activity;
 
     .line 1135
-    invoke-static {p1}, Lkik/android/util/bx;->c(Ljava/lang/String;)I
+    invoke-static {p1}, Lkik/arcane/util/bx;->c(Ljava/lang/String;)I
 
     move-result v0
 
@@ -2916,36 +2916,36 @@
     move-object v6, p2
 
     .line 1134
-    invoke-virtual/range {v1 .. v6}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/app/Activity;Ljava/lang/String;JLjava/lang/String;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-virtual/range {v1 .. v6}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/app/Activity;Ljava/lang/String;JLjava/lang/String;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v0
 
     .line 6147
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v0, v2}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
+    invoke-virtual {v1, v0, v2}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
 
     .line 6148
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/n;->a(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/n;->a(Z)V
 
     .line 1136
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/presentation/n;)V
+.method public final a(Lkik/arcane/chat/presentation/n;)V
     .locals 0
 
     .prologue
     .line 1368
-    iput-object p1, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iput-object p1, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
     .line 1369
     return-void
@@ -2964,9 +2964,9 @@
     const/4 v5, 0x0
 
     .line 5155
-    iget v0, p0, Lkik/android/c/d;->u:I
+    iget v0, p0, Lkik/arcane/c/d;->u:I
 
-    iget v1, p0, Lkik/android/c/d;->t:I
+    iget v1, p0, Lkik/arcane/c/d;->t:I
 
     if-eq v0, v1, :cond_1
 
@@ -2976,14 +2976,14 @@
     invoke-direct {v5}, Landroid/graphics/Matrix;-><init>()V
 
     .line 5157
-    iget v0, p0, Lkik/android/c/d;->u:I
+    iget v0, p0, Lkik/arcane/c/d;->u:I
 
-    iget v1, p0, Lkik/android/c/d;->t:I
+    iget v1, p0, Lkik/arcane/c/d;->t:I
 
     sub-int/2addr v0, v1
 
     .line 5160
-    invoke-virtual {p0}, Lkik/android/c/d;->f()Z
+    invoke-virtual {p0}, Lkik/arcane/c/d;->f()Z
 
     move-result v1
 
@@ -3031,11 +3031,11 @@
     .line 1123
     :cond_2
     :goto_0
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/c/d;->a:Landroid/app/Activity;
+    iget-object v1, p0, Lkik/arcane/c/d;->a:Landroid/app/Activity;
 
     sget-object v2, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
@@ -3045,21 +3045,21 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2, p1}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/app/Activity;[BLkik/core/interfaces/ad;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-virtual {v0, v1, v2, p1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/app/Activity;[BLkik/core/interfaces/ad;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v0
 
     .line 1124
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0, v7}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
+    invoke-virtual {v1, v0, v7}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
 
     .line 1126
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0, v7}, Lkik/android/chat/presentation/n;->a(Z)V
+    invoke-interface {v0, v7}, Lkik/arcane/chat/presentation/n;->a(Z)V
 
     .line 1128
     :cond_3
@@ -3069,7 +3069,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -3081,11 +3081,11 @@
     const/4 v0, -0x1
 
     .line 1323
-    iget v1, p0, Lkik/android/c/d;->o:I
+    iget v1, p0, Lkik/arcane/c/d;->o:I
 
     if-ne v1, v0, :cond_0
 
-    iget v1, p0, Lkik/android/c/d;->p:I
+    iget v1, p0, Lkik/arcane/c/d;->p:I
 
     if-ne v1, v0, :cond_0
 
@@ -3098,32 +3098,32 @@
     if-ltz p1, :cond_1
 
     .line 1327
-    iput p1, p0, Lkik/android/c/d;->q:I
+    iput p1, p0, Lkik/arcane/c/d;->q:I
 
     .line 1338
     :goto_1
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
     goto :goto_0
 
     .line 1330
     :cond_1
-    iget v1, p0, Lkik/android/c/d;->p:I
+    iget v1, p0, Lkik/arcane/c/d;->p:I
 
     if-eq v1, v0, :cond_2
 
     .line 1331
-    iget v0, p0, Lkik/android/c/d;->p:I
+    iget v0, p0, Lkik/arcane/c/d;->p:I
 
-    iput v0, p0, Lkik/android/c/d;->q:I
+    iput v0, p0, Lkik/arcane/c/d;->q:I
 
     goto :goto_1
 
     .line 1334
     :cond_2
-    iget v0, p0, Lkik/android/c/d;->o:I
+    iget v0, p0, Lkik/arcane/c/d;->o:I
 
-    iput v0, p0, Lkik/android/c/d;->q:I
+    iput v0, p0, Lkik/arcane/c/d;->q:I
 
     goto :goto_1
 .end method
@@ -3137,33 +3137,33 @@
     const/4 v1, 0x0
 
     .line 1191
-    invoke-direct {p0}, Lkik/android/c/d;->C()Ljava/util/List;
+    invoke-direct {p0}, Lkik/arcane/c/d;->C()Ljava/util/List;
 
     move-result-object v2
 
-    iput-object v2, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iput-object v2, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     .line 1192
-    iget-object v2, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v2, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
 
     move-result v2
 
-    iput v2, p0, Lkik/android/c/d;->A:I
+    iput v2, p0, Lkik/arcane/c/d;->A:I
 
     .line 1194
-    iget v2, p0, Lkik/android/c/d;->A:I
+    iget v2, p0, Lkik/arcane/c/d;->A:I
 
     if-lez v2, :cond_1
 
-    iget v2, p0, Lkik/android/c/d;->A:I
+    iget v2, p0, Lkik/arcane/c/d;->A:I
 
     if-ne v2, v0, :cond_0
 
     const-string v2, "off"
 
-    iget-object v3, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v3, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     .line 1195
     invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -3178,17 +3178,17 @@
 
     :cond_0
     :goto_0
-    iput-boolean v0, p0, Lkik/android/c/d;->B:Z
+    iput-boolean v0, p0, Lkik/arcane/c/d;->B:Z
 
     .line 1196
-    iget-boolean v0, p0, Lkik/android/c/d;->B:Z
+    iget-boolean v0, p0, Lkik/arcane/c/d;->B:Z
 
     if-eqz v0, :cond_3
 
     .line 1197
     if-eqz p1, :cond_2
 
-    iget-object v0, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -3197,25 +3197,25 @@
     if-eqz v0, :cond_2
 
     .line 1198
-    iget-object v0, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/c/d;->y:I
+    iput v0, p0, Lkik/arcane/c/d;->y:I
 
     .line 1199
-    iput-object p1, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     .line 1206
     :goto_1
-    iget-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
-    invoke-direct {p0, v0}, Lkik/android/c/d;->c(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/c/d;->c(Ljava/lang/String;)V
 
     .line 1208
-    iget-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     .line 1212
     :goto_2
@@ -3229,10 +3229,10 @@
 
     .line 1202
     :cond_2
-    iput v1, p0, Lkik/android/c/d;->y:I
+    iput v1, p0, Lkik/arcane/c/d;->y:I
 
     .line 1203
-    iget-object v0, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -3240,7 +3240,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    iput-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     goto :goto_1
 
@@ -3258,64 +3258,64 @@
     const/4 v2, 0x0
 
     .line 909
-    iput-boolean v2, p0, Lkik/android/c/d;->l:Z
+    iput-boolean v2, p0, Lkik/arcane/c/d;->l:Z
 
     .line 914
-    iget-object v0, p0, Lkik/android/c/d;->g:Landroid/os/CountDownTimer;
+    iget-object v0, p0, Lkik/arcane/c/d;->g:Landroid/os/CountDownTimer;
 
     if-eqz v0, :cond_2
 
     .line 915
-    iget-object v0, p0, Lkik/android/c/d;->g:Landroid/os/CountDownTimer;
+    iget-object v0, p0, Lkik/arcane/c/d;->g:Landroid/os/CountDownTimer;
 
     invoke-virtual {v0}, Landroid/os/CountDownTimer;->cancel()V
 
     .line 927
     :goto_0
-    iget-boolean v0, p0, Lkik/android/c/d;->m:Z
+    iget-boolean v0, p0, Lkik/arcane/c/d;->m:Z
 
     if-eqz v0, :cond_0
 
     .line 928
-    invoke-direct {p0}, Lkik/android/c/d;->B()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->B()V
 
     .line 929
-    iput-boolean v2, p0, Lkik/android/c/d;->m:Z
+    iput-boolean v2, p0, Lkik/arcane/c/d;->m:Z
 
     .line 931
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->k()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->k()V
 
     .line 935
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->i:Landroid/media/MediaRecorder;
+    iget-object v0, p0, Lkik/arcane/c/d;->i:Landroid/media/MediaRecorder;
 
     if-eqz v0, :cond_1
 
     .line 936
-    invoke-direct {p0}, Lkik/android/c/d;->D()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->D()V
 
     .line 938
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_1
 
     .line 939
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->lock()V
 
     .line 940
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->reconnect()V
 
     .line 945
     const-string v0, "on"
 
-    iget-object v1, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3326,18 +3326,18 @@
     .line 946
     const-string v0, "off"
 
-    invoke-direct {p0, v0}, Lkik/android/c/d;->c(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/c/d;->c(Ljava/lang/String;)V
 
     .line 951
     :cond_1
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->m()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->m()V
 
     .line 952
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->o()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->o()V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_2
@@ -3363,7 +3363,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 
@@ -3371,9 +3371,9 @@
     :catch_1
     move-exception v0
 
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->l()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->l()V
 
     goto :goto_1
 
@@ -3381,9 +3381,9 @@
     :catch_2
     move-exception v0
 
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->g()V
 
     goto :goto_1
 .end method
@@ -3393,7 +3393,7 @@
 
     .prologue
     .line 1051
-    iget v0, p0, Lkik/android/c/d;->x:I
+    iget v0, p0, Lkik/arcane/c/d;->x:I
 
     return v0
 .end method
@@ -3403,14 +3403,14 @@
 
     .prologue
     .line 471
-    invoke-direct {p0}, Lkik/android/c/d;->F()Z
+    invoke-direct {p0}, Lkik/arcane/c/d;->F()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 472
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -3423,7 +3423,7 @@
 
     move-result v2
 
-    invoke-static {p1, v1, v2}, Lkik/android/util/ca;->a(III)I
+    invoke-static {p1, v1, v2}, Lkik/arcane/util/ca;->a(III)I
 
     move-result v1
 
@@ -3431,7 +3431,7 @@
     invoke-virtual {v0, v1}, Landroid/hardware/Camera$Parameters;->setZoom(I)V
 
     .line 475
-    iget-object v1, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v1, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
 
@@ -3445,7 +3445,7 @@
 
     .prologue
     .line 1045
-    iget v0, p0, Lkik/android/c/d;->A:I
+    iget v0, p0, Lkik/arcane/c/d;->A:I
 
     return v0
 .end method
@@ -3455,7 +3455,7 @@
 
     .prologue
     .line 1027
-    iget v0, p0, Lkik/android/c/d;->o:I
+    iget v0, p0, Lkik/arcane/c/d;->o:I
 
     if-ltz v0, :cond_0
 
@@ -3475,15 +3475,15 @@
 
     .prologue
     .line 1039
-    invoke-virtual {p0}, Lkik/android/c/d;->e()Z
+    invoke-virtual {p0}, Lkik/arcane/c/d;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    iget v1, p0, Lkik/android/c/d;->o:I
+    iget v1, p0, Lkik/arcane/c/d;->o:I
 
     if-ne v0, v1, :cond_0
 
@@ -3503,7 +3503,7 @@
 
     .prologue
     .line 1241
-    iget-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     .line 6246
     if-eqz v0, :cond_1
@@ -3551,7 +3551,7 @@
 
     .prologue
     .line 1235
-    iget-boolean v0, p0, Lkik/android/c/d;->B:Z
+    iget-boolean v0, p0, Lkik/arcane/c/d;->B:Z
 
     return v0
 .end method
@@ -3561,11 +3561,11 @@
 
     .prologue
     .line 1219
-    iget-object v0, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -3583,14 +3583,14 @@
 
     .line 1223
     :cond_1
-    iget v0, p0, Lkik/android/c/d;->y:I
+    iget v0, p0, Lkik/arcane/c/d;->y:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lkik/android/c/d;->y:I
+    iput v0, p0, Lkik/arcane/c/d;->y:I
 
     .line 1225
-    iget v0, p0, Lkik/android/c/d;->A:I
+    iget v0, p0, Lkik/arcane/c/d;->A:I
 
     if-nez v0, :cond_2
 
@@ -3598,7 +3598,7 @@
 
     .line 1226
     :goto_1
-    iget-object v1, p0, Lkik/android/c/d;->C:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/c/d;->C:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -3606,23 +3606,23 @@
 
     check-cast v0, Ljava/lang/String;
 
-    iput-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     .line 1227
-    iget-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
-    invoke-direct {p0, v0}, Lkik/android/c/d;->c(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/c/d;->c(Ljava/lang/String;)V
 
     .line 1229
-    iget-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     goto :goto_0
 
     .line 1225
     :cond_2
-    iget v0, p0, Lkik/android/c/d;->y:I
+    iget v0, p0, Lkik/arcane/c/d;->y:I
 
-    iget v1, p0, Lkik/android/c/d;->A:I
+    iget v1, p0, Lkik/arcane/c/d;->A:I
 
     rem-int/2addr v0, v1
 
@@ -3634,38 +3634,38 @@
 
     .prologue
     .line 990
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    iget v1, p0, Lkik/android/c/d;->o:I
+    iget v1, p0, Lkik/arcane/c/d;->o:I
 
     if-ne v0, v1, :cond_0
 
-    iget v0, p0, Lkik/android/c/d;->p:I
+    iget v0, p0, Lkik/arcane/c/d;->p:I
 
     if-ltz v0, :cond_0
 
     .line 991
-    iget v0, p0, Lkik/android/c/d;->p:I
+    iget v0, p0, Lkik/arcane/c/d;->p:I
 
-    iput v0, p0, Lkik/android/c/d;->q:I
+    iput v0, p0, Lkik/arcane/c/d;->q:I
 
     .line 997
     :goto_0
-    invoke-direct {p0}, Lkik/android/c/d;->A()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->A()V
 
     .line 998
-    invoke-direct {p0}, Lkik/android/c/d;->y()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->y()V
 
     .line 1000
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
     return v0
 
     .line 994
     :cond_0
-    iget v0, p0, Lkik/android/c/d;->o:I
+    iget v0, p0, Lkik/arcane/c/d;->o:I
 
-    iput v0, p0, Lkik/android/c/d;->q:I
+    iput v0, p0, Lkik/arcane/c/d;->q:I
 
     goto :goto_0
 .end method
@@ -3675,22 +3675,22 @@
 
     .prologue
     .line 1288
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
     .line 1289
-    invoke-direct {p0}, Lkik/android/c/d;->A()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->A()V
 
     .line 1292
     :cond_0
-    iget-boolean v0, p0, Lkik/android/c/d;->l:Z
+    iget-boolean v0, p0, Lkik/arcane/c/d;->l:Z
 
     if-eqz v0, :cond_1
 
     .line 1294
     :try_start_0
-    invoke-direct {p0}, Lkik/android/c/d;->D()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->D()V
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3703,7 +3703,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->c(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->c(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
@@ -3713,16 +3713,16 @@
 
     .prologue
     .line 1306
-    invoke-direct {p0}, Lkik/android/c/d;->z()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->z()V
 
     .line 1308
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     if-eqz v0, :cond_0
 
     .line 1310
     :try_start_0
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->startPreview()V
     :try_end_0
@@ -3736,15 +3736,15 @@
     :catch_0
     move-exception v0
 
-    iget-object v0, p0, Lkik/android/c/d;->r:Lkik/android/chat/presentation/n;
+    iget-object v0, p0, Lkik/arcane/c/d;->r:Lkik/arcane/chat/presentation/n;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/n;->j()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/n;->j()V
 
     goto :goto_0
 
     .line 1317
     :cond_0
-    invoke-direct {p0}, Lkik/android/c/d;->y()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->y()V
 
     goto :goto_0
 .end method
@@ -3755,12 +3755,12 @@
     .prologue
     .line 1282
     .line 7253
-    invoke-direct {p0}, Lkik/android/c/d;->y()V
+    invoke-direct {p0}, Lkik/arcane/c/d;->y()V
 
     .line 7254
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    invoke-virtual {p0, v0}, Lkik/android/c/d;->b(I)I
+    invoke-virtual {p0, v0}, Lkik/arcane/c/d;->b(I)I
 
     .line 1283
     return-void
@@ -3771,7 +3771,7 @@
 
     .prologue
     .line 533
-    invoke-direct {p0}, Lkik/android/c/d;->E()Z
+    invoke-direct {p0}, Lkik/arcane/c/d;->E()Z
 
     move-result v0
 
@@ -3786,7 +3786,7 @@
     :cond_1
     const-string v0, "on"
 
-    iget-object v1, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -3794,13 +3794,13 @@
 
     if-eqz v0, :cond_2
 
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    iget v1, p0, Lkik/android/c/d;->p:I
+    iget v1, p0, Lkik/arcane/c/d;->p:I
 
     if-ne v0, v1, :cond_2
 
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     .line 538
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
@@ -3828,7 +3828,7 @@
     .line 541
     const-string v0, "torch"
 
-    invoke-direct {p0, v0}, Lkik/android/c/d;->c(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/c/d;->c(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -3844,14 +3844,14 @@
 
     .prologue
     .line 548
-    iget-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     .line 549
-    iget-object v0, p0, Lkik/android/c/d;->z:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/c/d;->z:Ljava/lang/String;
 
-    invoke-direct {p0, v0}, Lkik/android/c/d;->c(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/c/d;->c(Ljava/lang/String;)V
 
     .line 551
     :cond_0
@@ -3863,7 +3863,7 @@
 
     .prologue
     .line 556
-    iget v0, p0, Lkik/android/c/d;->h:I
+    iget v0, p0, Lkik/arcane/c/d;->h:I
 
     return v0
 .end method
@@ -3873,9 +3873,9 @@
 
     .prologue
     .line 562
-    iget v0, p0, Lkik/android/c/d;->q:I
+    iget v0, p0, Lkik/arcane/c/d;->q:I
 
-    iget v1, p0, Lkik/android/c/d;->p:I
+    iget v1, p0, Lkik/arcane/c/d;->p:I
 
     if-ne v0, v1, :cond_0
 
@@ -3895,7 +3895,7 @@
 
     .prologue
     .line 568
-    iget v0, p0, Lkik/android/c/d;->w:I
+    iget v0, p0, Lkik/arcane/c/d;->w:I
 
     return v0
 .end method
@@ -3905,7 +3905,7 @@
 
     .prologue
     .line 574
-    iget-object v0, p0, Lkik/android/c/d;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getHeight()I
 
@@ -3919,7 +3919,7 @@
 
     .prologue
     .line 580
-    iget-object v0, p0, Lkik/android/c/d;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/c/d;->j:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getWidth()I
 
@@ -3935,7 +3935,7 @@
     .line 586
     new-instance v0, Ljava/lang/Thread;
 
-    invoke-static {p0}, Lkik/android/c/f;->a(Lkik/android/c/d;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/c/f;->a(Lkik/arcane/c/d;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -3952,14 +3952,14 @@
 
     .prologue
     .line 482
-    invoke-direct {p0}, Lkik/android/c/d;->F()Z
+    invoke-direct {p0}, Lkik/arcane/c/d;->F()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 483
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 
@@ -3984,14 +3984,14 @@
 
     .prologue
     .line 491
-    invoke-direct {p0}, Lkik/android/c/d;->F()Z
+    invoke-direct {p0}, Lkik/arcane/c/d;->F()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 492
-    iget-object v0, p0, Lkik/android/c/d;->c:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/d;->c:Landroid/hardware/Camera;
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
 

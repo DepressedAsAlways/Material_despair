@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/bg;
+.class public final Lkik/arcane/e/bg;
 .super Landroid/databinding/ViewDataBinding;
 .source "SourceFile"
 
@@ -10,9 +10,9 @@
 
 
 # instance fields
-.field public final a:Lkik/android/chat/view/ValidateableInputView;
+.field public final a:Lkik/arcane/chat/view/ValidateableInputView;
 
-.field private d:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+.field private d:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
 .field private e:J
 
@@ -25,10 +25,10 @@
     const/4 v0, 0x0
 
     .line 10
-    sput-object v0, Lkik/android/e/bg;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sput-object v0, Lkik/arcane/e/bg;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
     .line 11
-    sput-object v0, Lkik/android/e/bg;->c:Landroid/util/SparseIntArray;
+    sput-object v0, Lkik/arcane/e/bg;->c:Landroid/util/SparseIntArray;
 
     .line 12
     return-void
@@ -46,44 +46,44 @@
     .line 124
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lkik/android/e/bg;->e:J
+    iput-wide v0, p0, Lkik/arcane/e/bg;->e:J
 
     .line 23
     const/4 v0, 0x1
 
-    sget-object v1, Lkik/android/e/bg;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sget-object v1, Lkik/arcane/e/bg;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
-    sget-object v2, Lkik/android/e/bg;->c:Landroid/util/SparseIntArray;
+    sget-object v2, Lkik/arcane/e/bg;->c:Landroid/util/SparseIntArray;
 
-    invoke-static {p1, p2, v0, v1, v2}, Lkik/android/e/bg;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
+    invoke-static {p1, p2, v0, v1, v2}, Lkik/arcane/e/bg;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
     move-result-object v0
 
     .line 24
     aget-object v0, v0, v3
 
-    check-cast v0, Lkik/android/chat/view/ValidateableInputView;
+    check-cast v0, Lkik/arcane/chat/view/ValidateableInputView;
 
-    iput-object v0, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iput-object v0, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     .line 25
-    iget-object v0, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->setTag(Ljava/lang/Object;)V
 
     .line 26
-    invoke-virtual {p0, p2}, Lkik/android/e/bg;->setRootTag(Landroid/view/View;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/bg;->setRootTag(Landroid/view/View;)V
 
     .line 28
-    invoke-virtual {p0}, Lkik/android/e/bg;->invalidateAll()V
+    invoke-virtual {p0}, Lkik/arcane/e/bg;->invalidateAll()V
 
     .line 29
     return-void
 .end method
 
-.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bg;
+.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bg;
     .locals 3
 
     .prologue
@@ -127,34 +127,34 @@
 
     .line 145
     :cond_0
-    new-instance v0, Lkik/android/e/bg;
+    new-instance v0, Lkik/arcane/e/bg;
 
-    invoke-direct {v0, p1, p0}, Lkik/android/e/bg;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lkik/arcane/e/bg;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
     .locals 4
 
     .prologue
     .line 59
-    iput-object p1, p0, Lkik/android/e/bg;->d:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iput-object p1, p0, Lkik/arcane/e/bg;->d:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
     .line 60
     monitor-enter p0
 
     .line 61
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/bg;->e:J
+    iget-wide v0, p0, Lkik/arcane/e/bg;->e:J
 
     const-wide/16 v2, 0x1
 
     or-long/2addr v0, v2
 
-    iput-wide v0, p0, Lkik/android/e/bg;->e:J
+    iput-wide v0, p0, Lkik/arcane/e/bg;->e:J
 
     .line 62
     monitor-exit p0
@@ -164,7 +164,7 @@
     .line 63
     const/16 v0, 0xe
 
-    invoke-virtual {p0, v0}, Lkik/android/e/bg;->notifyPropertyChanged(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/bg;->notifyPropertyChanged(I)V
 
     .line 64
     invoke-super {p0}, Landroid/databinding/ViewDataBinding;->requestRebind()V
@@ -199,12 +199,12 @@
 
     .line 81
     :try_start_0
-    iget-wide v6, p0, Lkik/android/e/bg;->e:J
+    iget-wide v6, p0, Lkik/arcane/e/bg;->e:J
 
     .line 82
     const-wide/16 v2, 0x0
 
-    iput-wide v2, p0, Lkik/android/e/bg;->e:J
+    iput-wide v2, p0, Lkik/arcane/e/bg;->e:J
 
     .line 83
     monitor-exit p0
@@ -212,7 +212,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 85
-    iget-object v5, p0, Lkik/android/e/bg;->d:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v5, p0, Lkik/arcane/e/bg;->d:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
     .line 91
     and-long v2, v6, v10
@@ -225,27 +225,27 @@
     if-eqz v5, :cond_1
 
     .line 97
-    invoke-interface {v5}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->l()Lkik/android/chat/view/ValidateableInputView$b;
+    invoke-interface {v5}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->l()Lkik/arcane/chat/view/ValidateableInputView$b;
 
     move-result-object v4
 
     .line 99
-    invoke-interface {v5}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->g()Lrx/d;
+    invoke-interface {v5}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->g()Lrx/d;
 
     move-result-object v3
 
     .line 101
-    invoke-interface {v5}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->e()Lrx/d;
+    invoke-interface {v5}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->e()Lrx/d;
 
     move-result-object v2
 
     .line 103
-    invoke-interface {v5}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->m()Lkik/android/chat/view/ValidateableInputView$a;
+    invoke-interface {v5}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->m()Lkik/arcane/chat/view/ValidateableInputView$a;
 
     move-result-object v1
 
     .line 105
-    invoke-interface {v5}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->j()Lrx/d;
+    invoke-interface {v5}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->j()Lrx/d;
 
     move-result-object v0
 
@@ -258,39 +258,39 @@
     if-eqz v5, :cond_0
 
     .line 112
-    iget-object v5, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v5, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {v5, v2}, Lkik/android/chat/view/ValidateableInputView;->d(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+    invoke-static {v5, v2}, Lkik/arcane/chat/view/ValidateableInputView;->d(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
 
     .line 113
-    iget-object v2, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {v2, v3}, Lkik/android/chat/view/ValidateableInputView;->c(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+    invoke-static {v2, v3}, Lkik/arcane/chat/view/ValidateableInputView;->c(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
 
     .line 114
-    iget-object v2, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {v2, v3}, Lkik/android/chat/view/ValidateableInputView;->b(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+    invoke-static {v2, v3}, Lkik/arcane/chat/view/ValidateableInputView;->b(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
 
     .line 115
-    iget-object v2, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {v2, v3}, Lkik/android/chat/view/ValidateableInputView;->e(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+    invoke-static {v2, v3}, Lkik/arcane/chat/view/ValidateableInputView;->e(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
 
     .line 116
-    iget-object v2, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {v2, v0}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView;Lrx/d;)V
+    invoke-static {v2, v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView;Lrx/d;)V
 
     .line 117
-    iget-object v0, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0, v4}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$b;)V
+    invoke-virtual {v0, v4}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$b;)V
 
     .line 118
-    iget-object v0, p0, Lkik/android/e/bg;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/e/bg;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$a;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$a;)V
 
     .line 120
     :cond_0
@@ -328,7 +328,7 @@
 
     .line 42
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/bg;->e:J
+    iget-wide v0, p0, Lkik/arcane/e/bg;->e:J
 
     const-wide/16 v2, 0x0
 
@@ -376,7 +376,7 @@
     const-wide/16 v0, 0x2
 
     :try_start_0
-    iput-wide v0, p0, Lkik/android/e/bg;->e:J
+    iput-wide v0, p0, Lkik/arcane/e/bg;->e:J
 
     .line 35
     monitor-exit p0
@@ -384,7 +384,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 36
-    invoke-virtual {p0}, Lkik/android/e/bg;->requestRebind()V
+    invoke-virtual {p0}, Lkik/arcane/e/bg;->requestRebind()V
 
     .line 37
     return-void
@@ -426,9 +426,9 @@
 
     .line 52
     :pswitch_0
-    check-cast p2, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    check-cast p2, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
-    invoke-virtual {p0, p2}, Lkik/android/e/bg;->a(Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/bg;->a(Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
 
     .line 53
     const/4 v0, 0x1

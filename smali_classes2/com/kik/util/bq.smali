@@ -165,7 +165,7 @@
 
     .prologue
     .line 343
-    invoke-static {p0}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {p0}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v0
 

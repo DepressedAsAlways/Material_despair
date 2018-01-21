@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AudioGarbageLayoutView_ViewBinding;
+.class public Lkik/arcane/widget/AudioGarbageLayoutView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/widget/AudioGarbageLayoutView;
+.field private a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/AudioGarbageLayoutView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/widget/AudioGarbageLayoutView;Landroid/view/View;)V
     .locals 2
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 23
-    iput-object p1, p0, Lkik/android/widget/AudioGarbageLayoutView_ViewBinding;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioGarbageLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     .line 25
     const v0, 0x7f10014e
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/AudioGarbageLayoutView;->_garbage:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/AudioGarbageLayoutView;->_garbage:Landroid/view/View;
 
     .line 26
     const v0, 0x7f10014f
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
 
     .line 27
     const v0, 0x7f100150
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
 
     .line 28
     return-void
@@ -67,7 +67,7 @@
     const/4 v1, 0x0
 
     .line 33
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView_ViewBinding;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     .line 34
     if-nez v0, :cond_0
@@ -82,16 +82,16 @@
 
     .line 35
     :cond_0
-    iput-object v1, p0, Lkik/android/widget/AudioGarbageLayoutView_ViewBinding;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iput-object v1, p0, Lkik/arcane/widget/AudioGarbageLayoutView_ViewBinding;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     .line 37
-    iput-object v1, v0, Lkik/android/widget/AudioGarbageLayoutView;->_garbage:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/AudioGarbageLayoutView;->_garbage:Landroid/view/View;
 
     .line 38
-    iput-object v1, v0, Lkik/android/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
 
     .line 39
-    iput-object v1, v0, Lkik/android/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
 
     .line 40
     return-void

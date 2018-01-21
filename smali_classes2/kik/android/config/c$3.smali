@@ -1,11 +1,11 @@
-.class final Lkik/android/config/c$3;
-.super Lkik/android/config/Configuration;
+.class final Lkik/arcane/config/c$3;
+.super Lkik/arcane/config/Configuration;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/config/c;
+    value = Lkik/arcane/config/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/config/Configuration",
+        "Lkik/arcane/config/Configuration",
         "<",
         "Ljava/lang/Boolean;",
         ">;"
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/config/c;
+.field final synthetic a:Lkik/arcane/config/c;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/config/c;Ljava/lang/String;Ljava/lang/Boolean;[Ljava/lang/Boolean;Lkik/android/util/ai;)V
+.method constructor <init>(Lkik/arcane/config/c;Ljava/lang/String;Ljava/lang/Boolean;[Ljava/lang/Boolean;Lkik/arcane/util/ai;)V
     .locals 6
 
     .prologue
     .line 146
-    iput-object p1, p0, Lkik/android/config/c$3;->a:Lkik/android/config/c;
+    iput-object p1, p0, Lkik/arcane/config/c$3;->a:Lkik/arcane/config/c;
 
     const/4 v4, 0x0
 
@@ -47,24 +47,24 @@
 
     move-object v5, p5
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/config/Configuration;-><init>(Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Runnable;Lkik/android/util/ai;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/config/Configuration;-><init>(Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Runnable;Lkik/arcane/util/ai;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lkik/android/config/Configuration$Type;
+.method public final a()Lkik/arcane/config/Configuration$Type;
     .locals 1
 
     .prologue
     .line 151
-    sget-object v0, Lkik/android/config/Configuration$Type;->Boolean:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Boolean:Lkik/arcane/config/Configuration$Type;
 
     return-object v0
 .end method
 
-.method protected final a(Lkik/android/util/ai;)V
+.method protected final a(Lkik/arcane/util/ai;)V
     .locals 0
 
     .prologue
@@ -87,13 +87,13 @@
     if-eqz v0, :cond_0
 
     .line 1166
-    iget-object v0, p0, Lkik/android/config/c$3;->a:Lkik/android/config/c;
+    iget-object v0, p0, Lkik/arcane/config/c$3;->a:Lkik/arcane/config/c;
 
-    invoke-static {v0}, Lkik/android/config/c;->a(Lkik/android/config/c;)Lkik/android/util/ai;
+    invoke-static {v0}, Lkik/arcane/config/c;->a(Lkik/arcane/config/c;)Lkik/arcane/util/ai;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/util/ai;->c()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ai;->c()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -104,7 +104,7 @@
     .line 1167
     const-string v1, "kik.version.number.eula"
 
-    invoke-static {}, Lkik/android/util/DeviceUtils;->b()I
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->b()I
 
     move-result v2
 
@@ -122,13 +122,13 @@
 
     .line 1171
     :cond_0
-    iget-object v0, p0, Lkik/android/config/c$3;->a:Lkik/android/config/c;
+    iget-object v0, p0, Lkik/arcane/config/c$3;->a:Lkik/arcane/config/c;
 
-    invoke-static {v0}, Lkik/android/config/c;->a(Lkik/android/config/c;)Lkik/android/util/ai;
+    invoke-static {v0}, Lkik/arcane/config/c;->a(Lkik/arcane/config/c;)Lkik/arcane/util/ai;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/util/ai;->c()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ai;->c()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -157,13 +157,13 @@
 
     .line 146
     .line 2158
-    iget-object v1, p0, Lkik/android/config/c$3;->a:Lkik/android/config/c;
+    iget-object v1, p0, Lkik/arcane/config/c$3;->a:Lkik/arcane/config/c;
 
-    invoke-static {v1}, Lkik/android/config/c;->a(Lkik/android/config/c;)Lkik/android/util/ai;
+    invoke-static {v1}, Lkik/arcane/config/c;->a(Lkik/arcane/config/c;)Lkik/arcane/util/ai;
 
     move-result-object v1
 
-    invoke-interface {v1}, Lkik/android/util/ai;->c()Landroid/content/SharedPreferences;
+    invoke-interface {v1}, Lkik/arcane/util/ai;->c()Landroid/content/SharedPreferences;
 
     move-result-object v1
 
@@ -189,7 +189,7 @@
     return-object v0
 .end method
 
-.method protected final bridge synthetic b(Lkik/android/util/ai;)Ljava/lang/Object;
+.method protected final bridge synthetic b(Lkik/arcane/util/ai;)Ljava/lang/Object;
     .locals 1
 
     .prologue

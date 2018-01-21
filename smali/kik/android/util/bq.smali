@@ -1,9 +1,9 @@
-.class public final Lkik/android/util/bq;
+.class public final Lkik/arcane/util/bq;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/util/ag;
+.implements Lkik/arcane/util/ag;
 
 
 # instance fields
@@ -23,12 +23,12 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 26
-    iput-object p2, p0, Lkik/android/util/bq;->c:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/util/bq;->c:Ljava/lang/String;
 
     .line 27
     const-string v0, "KikPreferences"
 
-    invoke-direct {p0, v0}, Lkik/android/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v0}, Lkik/arcane/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -38,21 +38,21 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/bq;->a:Landroid/content/SharedPreferences;
+    iput-object v0, p0, Lkik/arcane/util/bq;->a:Landroid/content/SharedPreferences;
 
     .line 28
-    iput-object p1, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
     .line 29
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/util/bq;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/util/bq;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 15
-    iget-object v0, p0, Lkik/android/util/bq;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/bq;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -203,7 +203,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p0, Lkik/android/util/bq;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/util/bq;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -233,9 +233,9 @@
 
     .prologue
     .line 51
-    iget-object v0, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
-    invoke-direct {p0, p1}, Lkik/android/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lkik/arcane/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -253,14 +253,14 @@
 
     .prologue
     .line 67
-    new-instance v0, Lkik/android/util/bq$1;
+    new-instance v0, Lkik/arcane/util/bq$1;
 
-    invoke-direct {v0, p0}, Lkik/android/util/bq$1;-><init>(Lkik/android/util/bq;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/bq$1;-><init>(Lkik/arcane/util/bq;)V
 
     .line 75
     new-instance v1, Ljava/io/File;
 
-    iget-object v2, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iget-object v2, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
@@ -317,7 +317,7 @@
 
     .prologue
     .line 45
-    iget-object v0, p0, Lkik/android/util/bq;->a:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lkik/arcane/util/bq;->a:Landroid/content/SharedPreferences;
 
     return-object v0
 .end method
@@ -327,7 +327,7 @@
 
     .prologue
     .line 39
-    iget-object v0, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
     const-string v1, "KikUltraPersistence"
 
@@ -347,7 +347,7 @@
     .line 57
     const-string v0, "KikPreferences"
 
-    invoke-direct {p0, v0}, Lkik/android/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v0}, Lkik/arcane/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -361,14 +361,14 @@
     const/4 v1, 0x0
 
     .line 91
-    new-instance v0, Lkik/android/util/bq$2;
+    new-instance v0, Lkik/arcane/util/bq$2;
 
-    invoke-direct {v0, p0}, Lkik/android/util/bq$2;-><init>(Lkik/android/util/bq;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/bq$2;-><init>(Lkik/arcane/util/bq;)V
 
     .line 121
     new-instance v2, Ljava/io/File;
 
-    iget-object v3, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iget-object v3, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
     invoke-virtual {v3}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
@@ -408,7 +408,7 @@
     aget-object v4, v2, v0
 
     .line 126
-    iget-object v5, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iget-object v5, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
     invoke-virtual {v4}, Ljava/io/File;->getName()Ljava/lang/String;
 
@@ -423,7 +423,7 @@
     move-result-object v5
 
     .line 127
-    iget-object v6, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iget-object v6, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
     invoke-virtual {v4}, Ljava/io/File;->getName()Ljava/lang/String;
 
@@ -433,7 +433,7 @@
 
     move-result-object v7
 
-    invoke-direct {p0, v7}, Lkik/android/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v7}, Lkik/arcane/util/bq;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -447,7 +447,7 @@
     if-eqz v6, :cond_0
 
     .line 131
-    invoke-static {v5, v6}, Lkik/android/util/bq;->a(Landroid/content/SharedPreferences;Landroid/content/SharedPreferences;)V
+    invoke-static {v5, v6}, Lkik/arcane/util/bq;->a(Landroid/content/SharedPreferences;Landroid/content/SharedPreferences;)V
 
     .line 132
     invoke-virtual {v4}, Ljava/io/File;->delete()Z
@@ -468,14 +468,14 @@
 
     .prologue
     .line 139
-    new-instance v0, Lkik/android/util/bq$3;
+    new-instance v0, Lkik/arcane/util/bq$3;
 
-    invoke-direct {v0, p0}, Lkik/android/util/bq$3;-><init>(Lkik/android/util/bq;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/bq$3;-><init>(Lkik/arcane/util/bq;)V
 
     .line 152
     new-instance v1, Ljava/io/File;
 
-    iget-object v2, p0, Lkik/android/util/bq;->b:Landroid/content/Context;
+    iget-object v2, p0, Lkik/arcane/util/bq;->b:Landroid/content/Context;
 
     invoke-virtual {v2}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 

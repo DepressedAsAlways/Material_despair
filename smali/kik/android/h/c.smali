@@ -1,4 +1,4 @@
-.class public final Lkik/android/h/c;
+.class public final Lkik/arcane/h/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -89,7 +89,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -224,7 +224,7 @@
 
     new-array v2, v4, [Ljava/lang/Object;
 
-    invoke-static {v0}, Lkik/android/util/o;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/o;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -411,7 +411,7 @@
 
     move-object v1, p1
 
-    invoke-static/range {v0 .. v5}, Lkik/android/h/c;->a(Landroid/content/Context;Lkik/core/interfaces/v;Lkik/core/datatypes/l;ZILkik/core/interfaces/b;)Ljava/lang/String;
+    invoke-static/range {v0 .. v5}, Lkik/arcane/h/c;->a(Landroid/content/Context;Lkik/core/interfaces/v;Lkik/core/datatypes/l;ZILkik/core/interfaces/b;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -524,7 +524,7 @@
 
     if-eqz p5, :cond_1
 
-    invoke-static {p5}, Lkik/android/util/a;->a(Lkik/core/interfaces/b;)Z
+    invoke-static {p5}, Lkik/arcane/util/a;->a(Lkik/core/interfaces/b;)Z
 
     move-result v0
 
@@ -554,7 +554,7 @@
 
     .line 209
     :cond_1
-    invoke-static {v1, p1, p4}, Lkik/android/util/bs;->a(Ljava/util/List;Lkik/core/interfaces/v;I)Ljava/lang/String;
+    invoke-static {v1, p1, p4}, Lkik/arcane/util/bs;->a(Ljava/util/List;Lkik/core/interfaces/v;I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -585,7 +585,7 @@
     if-eqz p3, :cond_0
 
     .line 216
-    invoke-static {v0}, Lkik/android/util/bs;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/bs;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

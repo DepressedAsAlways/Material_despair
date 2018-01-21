@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/vm/messaging/ej;
+.class public interface abstract Lkik/arcane/chat/vm/messaging/ej;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/ah;
-.implements Lkik/android/chat/vm/chats/profile/bf;
-.implements Lkik/android/chat/vm/messaging/IMessageViewModel;
+.implements Lkik/arcane/chat/vm/ah;
+.implements Lkik/arcane/chat/vm/chats/profile/bf;
+.implements Lkik/arcane/chat/vm/messaging/IMessageViewModel;
 
 
 # virtual methods

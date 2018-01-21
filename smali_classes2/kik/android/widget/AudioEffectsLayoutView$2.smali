@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioEffectsLayoutView$2;
+.class final Lkik/arcane/widget/AudioEffectsLayoutView$2;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AudioEffectsLayoutView;
+    value = Lkik/arcane/widget/AudioEffectsLayoutView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioEffectsLayoutView;
+.field final synthetic a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioEffectsLayoutView;)V
+.method constructor <init>(Lkik/arcane/widget/AudioEffectsLayoutView;)V
     .locals 0
 
     .prologue
     .line 80
-    iput-object p1, p0, Lkik/android/widget/AudioEffectsLayoutView$2;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioEffectsLayoutView$2;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,9 +38,9 @@
 
     .prologue
     .line 84
-    iget-object v0, p0, Lkik/android/widget/AudioEffectsLayoutView$2;->a:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioEffectsLayoutView$2;->a:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioEffectsLayoutView;->e(Lkik/android/widget/AudioEffectsLayoutView;)V
+    invoke-static {v0}, Lkik/arcane/widget/AudioEffectsLayoutView;->e(Lkik/arcane/widget/AudioEffectsLayoutView;)V
 
     .line 85
     return-void

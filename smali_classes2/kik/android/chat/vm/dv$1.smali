@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/dv$1;
+.class final Lkik/arcane/chat/vm/dv$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/dv;->a()Lrx/d;
+    value = Lkik/arcane/chat/vm/dv;->a()Lrx/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,16 +30,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/dv;
+.field final synthetic a:Lkik/arcane/chat/vm/dv;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/dv;)V
+.method constructor <init>(Lkik/arcane/chat/vm/dv;)V
     .locals 0
 
     .prologue
     .line 145
-    iput-object p1, p0, Lkik/android/chat/vm/dv$1;->a:Lkik/android/chat/vm/dv;
+    iput-object p1, p0, Lkik/arcane/chat/vm/dv$1;->a:Lkik/arcane/chat/vm/dv;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,39 +57,39 @@
 
     .line 1151
     :try_start_0
-    iget-object v0, p0, Lkik/android/chat/vm/dv$1;->a:Lkik/android/chat/vm/dv;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dv$1;->a:Lkik/arcane/chat/vm/dv;
 
-    invoke-static {v0}, Lkik/android/chat/vm/dv;->a(Lkik/android/chat/vm/dv;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/vm/dv;->a(Lkik/arcane/chat/vm/dv;)Ljava/lang/String;
 
     move-result-object v0
 
-    sget v1, Lkik/android/widget/StickerWidget;->a:I
+    sget v1, Lkik/arcane/widget/StickerWidget;->a:I
 
-    sget v2, Lkik/android/widget/StickerWidget;->a:I
+    sget v2, Lkik/arcane/widget/StickerWidget;->a:I
 
     invoke-static {v0, v1, v2}, Lcom/kik/cache/SimpleUrlRequest;->getSimpleUrlRequest(Ljava/lang/String;II)Lcom/kik/cache/SimpleUrlRequest;
 
     move-result-object v1
 
     .line 1153
-    iget-object v0, p0, Lkik/android/chat/vm/dv$1;->a:Lkik/android/chat/vm/dv;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dv$1;->a:Lkik/arcane/chat/vm/dv;
 
-    iget-object v0, v0, Lkik/android/chat/vm/dv;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, v0, Lkik/arcane/chat/vm/dv;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    new-instance v2, Lkik/android/chat/vm/dv$1$1;
+    new-instance v2, Lkik/arcane/chat/vm/dv$1$1;
 
-    invoke-direct {v2, p0, p1}, Lkik/android/chat/vm/dv$1$1;-><init>(Lkik/android/chat/vm/dv$1;Lrx/Emitter;)V
+    invoke-direct {v2, p0, p1}, Lkik/arcane/chat/vm/dv$1$1;-><init>(Lkik/arcane/chat/vm/dv$1;Lrx/Emitter;)V
 
-    sget v3, Lkik/android/widget/StickerWidget;->a:I
+    sget v3, Lkik/arcane/widget/StickerWidget;->a:I
 
-    sget v4, Lkik/android/widget/StickerWidget;->a:I
+    sget v4, Lkik/arcane/widget/StickerWidget;->a:I
 
     const/4 v5, 0x0
 
     invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/KikVolleyImageLoader;->a(Lcom/kik/cache/KikImageRequest;Lcom/kik/cache/KikVolleyImageLoader$d;IIZ)Lcom/kik/cache/KikVolleyImageLoader$c;
 
     .line 1173
-    invoke-static {v1}, Lkik/android/chat/vm/dw;->a(Lcom/kik/cache/SimpleUrlRequest;)Lrx/functions/e;
+    invoke-static {v1}, Lkik/arcane/chat/vm/dw;->a(Lcom/kik/cache/SimpleUrlRequest;)Lrx/functions/e;
 
     move-result-object v0
 

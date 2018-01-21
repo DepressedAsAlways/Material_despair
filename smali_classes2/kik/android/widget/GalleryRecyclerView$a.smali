@@ -1,11 +1,11 @@
-.class public final Lkik/android/widget/GalleryRecyclerView$a;
-.super Lkik/android/widget/dr;
+.class public final Lkik/arcane/widget/GalleryRecyclerView$a;
+.super Lkik/arcane/widget/dr;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/GalleryRecyclerView;
+    value = Lkik/arcane/widget/GalleryRecyclerView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,22 +15,22 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/dr",
+        "Lkik/arcane/widget/dr",
         "<",
-        "Lkik/android/gallery/vm/p;",
-        "Lkik/android/widget/GalleryRecyclerView$b;",
+        "Lkik/arcane/gallery/vm/p;",
+        "Lkik/arcane/widget/GalleryRecyclerView$b;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/IListViewModel;
+.field private a:Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<",
-            "Lkik/android/gallery/vm/p;",
+            "Lkik/arcane/gallery/vm/p;",
             ">;"
         }
     .end annotation
@@ -38,34 +38,34 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/dr$a;Lkik/android/chat/vm/IListViewModel;)V
+.method public constructor <init>(Lkik/arcane/widget/dr$a;Lkik/arcane/chat/vm/IListViewModel;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/dr$a",
+            "Lkik/arcane/widget/dr$a",
             "<",
-            "Lkik/android/gallery/vm/p;",
-            "Lkik/android/widget/GalleryRecyclerView$b;",
+            "Lkik/arcane/gallery/vm/p;",
+            "Lkik/arcane/widget/GalleryRecyclerView$b;",
             ">;",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<",
-            "Lkik/android/gallery/vm/p;",
+            "Lkik/arcane/gallery/vm/p;",
             ">;)V"
         }
     .end annotation
 
     .prologue
     .line 107
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/dr;-><init>(Lkik/android/widget/dr$a;Lkik/android/chat/vm/IListViewModel;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/dr;-><init>(Lkik/arcane/widget/dr$a;Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 108
-    iput-object p2, p0, Lkik/android/widget/GalleryRecyclerView$a;->a:Lkik/android/chat/vm/IListViewModel;
+    iput-object p2, p0, Lkik/arcane/widget/GalleryRecyclerView$a;->a:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 110
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/GalleryRecyclerView$a;->setHasStableIds(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/GalleryRecyclerView$a;->setHasStableIds(Z)V
 
     .line 111
     return-void
@@ -78,9 +78,9 @@
 
     .prologue
     .line 116
-    iget-object v0, p0, Lkik/android/widget/GalleryRecyclerView$a;->a:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lkik/arcane/widget/GalleryRecyclerView$a;->a:Lkik/arcane/chat/vm/IListViewModel;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/vm/IListViewModel;->d(I)Lkik/android/chat/vm/at;
+    invoke-interface {v0, p1}, Lkik/arcane/chat/vm/IListViewModel;->d(I)Lkik/arcane/chat/vm/at;
 
     move-result-object v0
 
@@ -93,7 +93,7 @@
     return-wide v0
 
     :cond_0
-    invoke-interface {v0}, Lkik/android/chat/vm/at;->ah_()J
+    invoke-interface {v0}, Lkik/arcane/chat/vm/at;->ah_()J
 
     move-result-wide v0
 

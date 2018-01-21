@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/e;
+.class public final Lkik/arcane/e/e;
 .super Landroid/databinding/ViewDataBinding;
 .source "SourceFile"
 
@@ -6,14 +6,14 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/e/e$h;,
-        Lkik/android/e/e$g;,
-        Lkik/android/e/e$f;,
-        Lkik/android/e/e$e;,
-        Lkik/android/e/e$d;,
-        Lkik/android/e/e$c;,
-        Lkik/android/e/e$b;,
-        Lkik/android/e/e$a;
+        Lkik/arcane/e/e$h;,
+        Lkik/arcane/e/e$g;,
+        Lkik/arcane/e/e$f;,
+        Lkik/arcane/e/e$e;,
+        Lkik/arcane/e/e$d;,
+        Lkik/arcane/e/e$c;,
+        Lkik/arcane/e/e$b;,
+        Lkik/arcane/e/e$a;
     }
 .end annotation
 
@@ -27,39 +27,39 @@
 # instance fields
 .field public final a:Landroid/widget/FrameLayout;
 
-.field public final b:Lkik/android/widget/AudioTimerLayoutView;
+.field public final b:Lkik/arcane/widget/AudioTimerLayoutView;
 
-.field public final c:Lkik/android/widget/AudioMessageSendButton;
+.field public final c:Lkik/arcane/widget/AudioMessageSendButton;
 
-.field public final d:Lkik/android/widget/AudioEffectsLayoutView;
+.field public final d:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-.field public final e:Lkik/android/widget/AudioMicLayoutView;
+.field public final e:Lkik/arcane/widget/AudioMicLayoutView;
 
 .field public final f:Landroid/widget/FrameLayout;
 
-.field public final g:Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+.field public final g:Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
-.field public final h:Lkik/android/widget/AudioGarbageLayoutView;
+.field public final h:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-.field private final k:Lkik/android/widget/AudioRecordingLedLayoutView;
+.field private final k:Lkik/arcane/widget/AudioRecordingLedLayoutView;
 
-.field private l:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+.field private l:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
-.field private m:Lkik/android/e/e$a;
+.field private m:Lkik/arcane/e/e$a;
 
-.field private n:Lkik/android/e/e$b;
+.field private n:Lkik/arcane/e/e$b;
 
-.field private o:Lkik/android/e/e$c;
+.field private o:Lkik/arcane/e/e$c;
 
-.field private p:Lkik/android/e/e$d;
+.field private p:Lkik/arcane/e/e$d;
 
-.field private q:Lkik/android/e/e$e;
+.field private q:Lkik/arcane/e/e$e;
 
-.field private r:Lkik/android/e/e$f;
+.field private r:Lkik/arcane/e/e$f;
 
-.field private s:Lkik/android/e/e$g;
+.field private s:Lkik/arcane/e/e$g;
 
-.field private t:Lkik/android/e/e$h;
+.field private t:Lkik/arcane/e/e$h;
 
 .field private u:J
 
@@ -72,10 +72,10 @@
     const/4 v0, 0x0
 
     .line 10
-    sput-object v0, Lkik/android/e/e;->i:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sput-object v0, Lkik/arcane/e/e;->i:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
     .line 11
-    sput-object v0, Lkik/android/e/e;->j:Landroid/util/SparseIntArray;
+    sput-object v0, Lkik/arcane/e/e;->j:Landroid/util/SparseIntArray;
 
     .line 12
     return-void
@@ -95,16 +95,16 @@
     .line 314
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lkik/android/e/e;->u:J
+    iput-wide v0, p0, Lkik/arcane/e/e;->u:J
 
     .line 39
     const/16 v0, 0x9
 
-    sget-object v1, Lkik/android/e/e;->i:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sget-object v1, Lkik/arcane/e/e;->i:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
-    sget-object v2, Lkik/android/e/e;->j:Landroid/util/SparseIntArray;
+    sget-object v2, Lkik/arcane/e/e;->j:Landroid/util/SparseIntArray;
 
-    invoke-static {p1, p2, v0, v1, v2}, Lkik/android/e/e;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
+    invoke-static {p1, p2, v0, v1, v2}, Lkik/arcane/e/e;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -113,10 +113,10 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    iput-object v0, p0, Lkik/android/e/e;->a:Landroid/widget/FrameLayout;
+    iput-object v0, p0, Lkik/arcane/e/e;->a:Landroid/widget/FrameLayout;
 
     .line 41
-    iget-object v0, p0, Lkik/android/e/e;->a:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/e/e;->a:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->setTag(Ljava/lang/Object;)V
 
@@ -125,70 +125,70 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/AudioTimerLayoutView;
+    check-cast v0, Lkik/arcane/widget/AudioTimerLayoutView;
 
-    iput-object v0, p0, Lkik/android/e/e;->b:Lkik/android/widget/AudioTimerLayoutView;
+    iput-object v0, p0, Lkik/arcane/e/e;->b:Lkik/arcane/widget/AudioTimerLayoutView;
 
     .line 43
-    iget-object v0, p0, Lkik/android/e/e;->b:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v0, p0, Lkik/arcane/e/e;->b:Lkik/arcane/widget/AudioTimerLayoutView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/AudioTimerLayoutView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/AudioTimerLayoutView;->setTag(Ljava/lang/Object;)V
 
     .line 44
     const/4 v0, 0x6
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/AudioMessageSendButton;
+    check-cast v0, Lkik/arcane/widget/AudioMessageSendButton;
 
-    iput-object v0, p0, Lkik/android/e/e;->c:Lkik/android/widget/AudioMessageSendButton;
+    iput-object v0, p0, Lkik/arcane/e/e;->c:Lkik/arcane/widget/AudioMessageSendButton;
 
     .line 45
-    iget-object v0, p0, Lkik/android/e/e;->c:Lkik/android/widget/AudioMessageSendButton;
+    iget-object v0, p0, Lkik/arcane/e/e;->c:Lkik/arcane/widget/AudioMessageSendButton;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/AudioMessageSendButton;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/AudioMessageSendButton;->setTag(Ljava/lang/Object;)V
 
     .line 46
     const/4 v0, 0x7
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/AudioEffectsLayoutView;
+    check-cast v0, Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    iput-object v0, p0, Lkik/android/e/e;->d:Lkik/android/widget/AudioEffectsLayoutView;
+    iput-object v0, p0, Lkik/arcane/e/e;->d:Lkik/arcane/widget/AudioEffectsLayoutView;
 
     .line 47
-    iget-object v0, p0, Lkik/android/e/e;->d:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v0, p0, Lkik/arcane/e/e;->d:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/AudioEffectsLayoutView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/AudioEffectsLayoutView;->setTag(Ljava/lang/Object;)V
 
     .line 48
     const/4 v0, 0x2
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/AudioRecordingLedLayoutView;
+    check-cast v0, Lkik/arcane/widget/AudioRecordingLedLayoutView;
 
-    iput-object v0, p0, Lkik/android/e/e;->k:Lkik/android/widget/AudioRecordingLedLayoutView;
+    iput-object v0, p0, Lkik/arcane/e/e;->k:Lkik/arcane/widget/AudioRecordingLedLayoutView;
 
     .line 49
-    iget-object v0, p0, Lkik/android/e/e;->k:Lkik/android/widget/AudioRecordingLedLayoutView;
+    iget-object v0, p0, Lkik/arcane/e/e;->k:Lkik/arcane/widget/AudioRecordingLedLayoutView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/AudioRecordingLedLayoutView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/AudioRecordingLedLayoutView;->setTag(Ljava/lang/Object;)V
 
     .line 50
     const/16 v0, 0x8
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/AudioMicLayoutView;
+    check-cast v0, Lkik/arcane/widget/AudioMicLayoutView;
 
-    iput-object v0, p0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iput-object v0, p0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
     .line 51
-    iget-object v0, p0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v0, p0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/AudioMicLayoutView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/AudioMicLayoutView;->setTag(Ljava/lang/Object;)V
 
     .line 52
     const/4 v0, 0x1
@@ -197,10 +197,10 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    iput-object v0, p0, Lkik/android/e/e;->f:Landroid/widget/FrameLayout;
+    iput-object v0, p0, Lkik/arcane/e/e;->f:Landroid/widget/FrameLayout;
 
     .line 53
-    iget-object v0, p0, Lkik/android/e/e;->f:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/e/e;->f:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->setTag(Ljava/lang/Object;)V
 
@@ -209,40 +209,40 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+    check-cast v0, Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
-    iput-object v0, p0, Lkik/android/e/e;->g:Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+    iput-object v0, p0, Lkik/arcane/e/e;->g:Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
     .line 55
-    iget-object v0, p0, Lkik/android/e/e;->g:Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+    iget-object v0, p0, Lkik/arcane/e/e;->g:Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/AudioRecordSlideToCancelLayoutView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;->setTag(Ljava/lang/Object;)V
 
     .line 56
     const/4 v0, 0x5
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/AudioGarbageLayoutView;
+    check-cast v0, Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    iput-object v0, p0, Lkik/android/e/e;->h:Lkik/android/widget/AudioGarbageLayoutView;
+    iput-object v0, p0, Lkik/arcane/e/e;->h:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     .line 57
-    iget-object v0, p0, Lkik/android/e/e;->h:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/e/e;->h:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/AudioGarbageLayoutView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/AudioGarbageLayoutView;->setTag(Ljava/lang/Object;)V
 
     .line 58
-    invoke-virtual {p0, p2}, Lkik/android/e/e;->setRootTag(Landroid/view/View;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/e;->setRootTag(Landroid/view/View;)V
 
     .line 60
-    invoke-virtual {p0}, Lkik/android/e/e;->invalidateAll()V
+    invoke-virtual {p0}, Lkik/arcane/e/e;->invalidateAll()V
 
     .line 61
     return-void
 .end method
 
-.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/e;
+.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/e;
     .locals 3
 
     .prologue
@@ -286,34 +286,34 @@
 
     .line 335
     :cond_0
-    new-instance v0, Lkik/android/e/e;
+    new-instance v0, Lkik/arcane/e/e;
 
-    invoke-direct {v0, p1, p0}, Lkik/android/e/e;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lkik/arcane/e/e;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)V
     .locals 4
 
     .prologue
     .line 91
-    iput-object p1, p0, Lkik/android/e/e;->l:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+    iput-object p1, p0, Lkik/arcane/e/e;->l:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
     .line 92
     monitor-enter p0
 
     .line 93
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/e;->u:J
+    iget-wide v0, p0, Lkik/arcane/e/e;->u:J
 
     const-wide/16 v2, 0x1
 
     or-long/2addr v0, v2
 
-    iput-wide v0, p0, Lkik/android/e/e;->u:J
+    iput-wide v0, p0, Lkik/arcane/e/e;->u:J
 
     .line 94
     monitor-exit p0
@@ -323,7 +323,7 @@
     .line 95
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/e/e;->notifyPropertyChanged(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/e;->notifyPropertyChanged(I)V
 
     .line 96
     invoke-super {p0}, Landroid/databinding/ViewDataBinding;->requestRebind()V
@@ -354,7 +354,7 @@
     :try_start_0
     move-object/from16 v0, p0
 
-    iget-wide v0, v0, Lkik/android/e/e;->u:J
+    iget-wide v0, v0, Lkik/arcane/e/e;->u:J
 
     move-wide/from16 v24, v0
 
@@ -363,7 +363,7 @@
 
     move-object/from16 v0, p0
 
-    iput-wide v2, v0, Lkik/android/e/e;->u:J
+    iput-wide v2, v0, Lkik/arcane/e/e;->u:J
 
     .line 115
     monitor-exit p0
@@ -436,7 +436,7 @@
     .line 137
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/e/e;->l:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+    iget-object v0, v0, Lkik/arcane/e/e;->l:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
     move-object/from16 v26, v0
 
@@ -458,213 +458,213 @@
     if-eqz v26, :cond_0
 
     .line 146
-    invoke-interface/range {v26 .. v26}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->a()Lrx/d;
+    invoke-interface/range {v26 .. v26}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->a()Lrx/d;
 
     move-result-object v16
 
     .line 148
-    invoke-interface/range {v26 .. v26}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->q()Lrx/d;
+    invoke-interface/range {v26 .. v26}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->q()Lrx/d;
 
     move-result-object v15
 
     .line 150
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->m:Lkik/android/e/e$a;
+    iget-object v2, v0, Lkik/arcane/e/e;->m:Lkik/arcane/e/e$a;
 
     if-nez v2, :cond_2
 
-    new-instance v2, Lkik/android/e/e$a;
+    new-instance v2, Lkik/arcane/e/e$a;
 
-    invoke-direct {v2}, Lkik/android/e/e$a;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$a;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->m:Lkik/android/e/e$a;
+    iput-object v2, v0, Lkik/arcane/e/e;->m:Lkik/arcane/e/e$a;
 
     :goto_0
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$a;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$a;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$a;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$a;
 
     move-result-object v14
 
     .line 152
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->n:Lkik/android/e/e$b;
+    iget-object v2, v0, Lkik/arcane/e/e;->n:Lkik/arcane/e/e$b;
 
     if-nez v2, :cond_3
 
-    new-instance v2, Lkik/android/e/e$b;
+    new-instance v2, Lkik/arcane/e/e$b;
 
-    invoke-direct {v2}, Lkik/android/e/e$b;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$b;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->n:Lkik/android/e/e$b;
+    iput-object v2, v0, Lkik/arcane/e/e;->n:Lkik/arcane/e/e$b;
 
     :goto_1
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$b;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$b;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$b;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$b;
 
     move-result-object v13
 
     .line 154
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->o:Lkik/android/e/e$c;
+    iget-object v2, v0, Lkik/arcane/e/e;->o:Lkik/arcane/e/e$c;
 
     if-nez v2, :cond_4
 
-    new-instance v2, Lkik/android/e/e$c;
+    new-instance v2, Lkik/arcane/e/e$c;
 
-    invoke-direct {v2}, Lkik/android/e/e$c;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$c;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->o:Lkik/android/e/e$c;
+    iput-object v2, v0, Lkik/arcane/e/e;->o:Lkik/arcane/e/e$c;
 
     :goto_2
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$c;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$c;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$c;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$c;
 
     move-result-object v12
 
     .line 156
-    invoke-interface/range {v26 .. v26}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->o()Lrx/d;
+    invoke-interface/range {v26 .. v26}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->o()Lrx/d;
 
     move-result-object v11
 
     .line 158
-    invoke-interface/range {v26 .. v26}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->p()Lrx/d;
+    invoke-interface/range {v26 .. v26}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->p()Lrx/d;
 
     move-result-object v10
 
     .line 160
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->p:Lkik/android/e/e$d;
+    iget-object v2, v0, Lkik/arcane/e/e;->p:Lkik/arcane/e/e$d;
 
     if-nez v2, :cond_5
 
-    new-instance v2, Lkik/android/e/e$d;
+    new-instance v2, Lkik/arcane/e/e$d;
 
-    invoke-direct {v2}, Lkik/android/e/e$d;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$d;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->p:Lkik/android/e/e$d;
+    iput-object v2, v0, Lkik/arcane/e/e;->p:Lkik/arcane/e/e$d;
 
     :goto_3
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$d;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$d;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$d;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$d;
 
     move-result-object v9
 
     .line 162
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->q:Lkik/android/e/e$e;
+    iget-object v2, v0, Lkik/arcane/e/e;->q:Lkik/arcane/e/e$e;
 
     if-nez v2, :cond_6
 
-    new-instance v2, Lkik/android/e/e$e;
+    new-instance v2, Lkik/arcane/e/e$e;
 
-    invoke-direct {v2}, Lkik/android/e/e$e;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$e;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->q:Lkik/android/e/e$e;
+    iput-object v2, v0, Lkik/arcane/e/e;->q:Lkik/arcane/e/e$e;
 
     :goto_4
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$e;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$e;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$e;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$e;
 
     move-result-object v8
 
     .line 164
-    invoke-interface/range {v26 .. v26}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->n()Lrx/d;
+    invoke-interface/range {v26 .. v26}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->n()Lrx/d;
 
     move-result-object v7
 
     .line 166
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->r:Lkik/android/e/e$f;
+    iget-object v2, v0, Lkik/arcane/e/e;->r:Lkik/arcane/e/e$f;
 
     if-nez v2, :cond_7
 
-    new-instance v2, Lkik/android/e/e$f;
+    new-instance v2, Lkik/arcane/e/e$f;
 
-    invoke-direct {v2}, Lkik/android/e/e$f;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$f;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->r:Lkik/android/e/e$f;
+    iput-object v2, v0, Lkik/arcane/e/e;->r:Lkik/arcane/e/e$f;
 
     :goto_5
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$f;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$f;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$f;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$f;
 
     move-result-object v6
 
     .line 168
-    invoke-interface/range {v26 .. v26}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->v()Lkik/android/chat/vm/messaging/ei;
+    invoke-interface/range {v26 .. v26}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->v()Lkik/arcane/chat/vm/messaging/ei;
 
     move-result-object v5
 
     .line 170
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->s:Lkik/android/e/e$g;
+    iget-object v2, v0, Lkik/arcane/e/e;->s:Lkik/arcane/e/e$g;
 
     if-nez v2, :cond_8
 
-    new-instance v2, Lkik/android/e/e$g;
+    new-instance v2, Lkik/arcane/e/e$g;
 
-    invoke-direct {v2}, Lkik/android/e/e$g;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$g;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->s:Lkik/android/e/e$g;
+    iput-object v2, v0, Lkik/arcane/e/e;->s:Lkik/arcane/e/e$g;
 
     :goto_6
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$g;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$g;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$g;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$g;
 
     move-result-object v4
 
     .line 172
-    invoke-interface/range {v26 .. v26}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->u()Lrx/functions/b;
+    invoke-interface/range {v26 .. v26}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->u()Lrx/functions/b;
 
     move-result-object v3
 
     .line 174
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->t:Lkik/android/e/e$h;
+    iget-object v2, v0, Lkik/arcane/e/e;->t:Lkik/arcane/e/e$h;
 
     if-nez v2, :cond_9
 
-    new-instance v2, Lkik/android/e/e$h;
+    new-instance v2, Lkik/arcane/e/e$h;
 
-    invoke-direct {v2}, Lkik/android/e/e$h;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/e/e$h;-><init>()V
 
     move-object/from16 v0, p0
 
-    iput-object v2, v0, Lkik/android/e/e;->t:Lkik/android/e/e$h;
+    iput-object v2, v0, Lkik/arcane/e/e;->t:Lkik/arcane/e/e$h;
 
     :goto_7
     move-object/from16 v0, v26
 
-    invoke-virtual {v2, v0}, Lkik/android/e/e$h;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$h;
+    invoke-virtual {v2, v0}, Lkik/arcane/e/e$h;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$h;
 
     move-result-object v2
 
@@ -674,19 +674,19 @@
 
     move/from16 v0, v17
 
-    new-array v0, v0, [Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-array v0, v0, [Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     move-object/from16 v17, v0
 
     const/16 v18, 0x0
 
-    sget-object v19, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v19, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v19, v17, v18
 
     const/16 v18, 0x1
 
-    sget-object v19, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v19, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v19, v17, v18
 
@@ -697,7 +697,7 @@
     move-result-object v22
 
     .line 181
-    sget-object v17, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v17, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Ready:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     move-object/from16 v0, v17
 
@@ -706,7 +706,7 @@
     move-result-object v21
 
     .line 183
-    sget-object v17, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v17, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     move-object/from16 v0, v17
 
@@ -715,7 +715,7 @@
     move-result-object v20
 
     .line 185
-    sget-object v17, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v17, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Canceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     move-object/from16 v0, v17
 
@@ -724,7 +724,7 @@
     move-result-object v19
 
     .line 187
-    sget-object v17, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v17, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Completed:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     move-object/from16 v0, v17
 
@@ -737,19 +737,19 @@
 
     move/from16 v0, v17
 
-    new-array v0, v0, [Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    new-array v0, v0, [Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     move-object/from16 v17, v0
 
     const/16 v23, 0x0
 
-    sget-object v26, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v26, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Started:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v26, v17, v23
 
     const/16 v23, 0x1
 
-    sget-object v26, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v26, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->PreCanceling:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     aput-object v26, v17, v23
 
@@ -760,7 +760,7 @@
     move-result-object v17
 
     .line 191
-    sget-object v23, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
+    sget-object v23, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;->Deleting:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel$AudioRecordingState;
 
     move-object/from16 v0, v23
 
@@ -821,7 +821,7 @@
     .line 197
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/e/e;->a:Landroid/widget/FrameLayout;
+    iget-object v0, v0, Lkik/arcane/e/e;->a:Landroid/widget/FrameLayout;
 
     move-object/from16 v23, v0
 
@@ -834,7 +834,7 @@
     .line 198
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/e/e;->b:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v0, v0, Lkik/arcane/e/e;->b:Lkik/arcane/widget/AudioTimerLayoutView;
 
     move-object/from16 v16, v0
 
@@ -842,12 +842,12 @@
 
     move-object/from16 v1, v21
 
-    invoke-static {v0, v1}, Lkik/android/widget/AudioTimerLayoutView;->a(Lkik/android/widget/AudioTimerLayoutView;Lrx/d;)V
+    invoke-static {v0, v1}, Lkik/arcane/widget/AudioTimerLayoutView;->a(Lkik/arcane/widget/AudioTimerLayoutView;Lrx/d;)V
 
     .line 199
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/e/e;->b:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v0, v0, Lkik/arcane/e/e;->b:Lkik/arcane/widget/AudioTimerLayoutView;
 
     move-object/from16 v16, v0
 
@@ -858,18 +858,18 @@
     .line 200
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/e/e;->b:Lkik/android/widget/AudioTimerLayoutView;
+    iget-object v0, v0, Lkik/arcane/e/e;->b:Lkik/arcane/widget/AudioTimerLayoutView;
 
     move-object/from16 v16, v0
 
     move-object/from16 v0, v16
 
-    invoke-static {v0, v4}, Lkik/android/widget/AudioTimerLayoutView;->b(Lkik/android/widget/AudioTimerLayoutView;Lrx/d;)V
+    invoke-static {v0, v4}, Lkik/arcane/widget/AudioTimerLayoutView;->b(Lkik/arcane/widget/AudioTimerLayoutView;Lrx/d;)V
 
     .line 201
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/e;->c:Lkik/android/widget/AudioMessageSendButton;
+    iget-object v4, v0, Lkik/arcane/e/e;->c:Lkik/arcane/widget/AudioMessageSendButton;
 
     move-object/from16 v0, v18
 
@@ -878,116 +878,116 @@
     .line 202
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/e;->c:Lkik/android/widget/AudioMessageSendButton;
+    iget-object v4, v0, Lkik/arcane/e/e;->c:Lkik/arcane/widget/AudioMessageSendButton;
 
     invoke-static {v4, v9}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 203
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/e;->d:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v4, v0, Lkik/arcane/e/e;->d:Lkik/arcane/widget/AudioEffectsLayoutView;
 
     invoke-static {v4, v9}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 204
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/e;->d:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v4, v0, Lkik/arcane/e/e;->d:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-virtual {v4, v6}, Lkik/android/widget/AudioEffectsLayoutView;->a(Lkik/android/chat/vm/messaging/ei;)V
+    invoke-virtual {v4, v6}, Lkik/arcane/widget/AudioEffectsLayoutView;->a(Lkik/arcane/chat/vm/messaging/ei;)V
 
     .line 205
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/e;->d:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v4, v0, Lkik/arcane/e/e;->d:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-virtual {v4, v11}, Lkik/android/widget/AudioEffectsLayoutView;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {v4, v11}, Lkik/arcane/widget/AudioEffectsLayoutView;->a(Ljava/lang/Runnable;)V
 
     .line 206
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/e;->d:Lkik/android/widget/AudioEffectsLayoutView;
+    iget-object v4, v0, Lkik/arcane/e/e;->d:Lkik/arcane/widget/AudioEffectsLayoutView;
 
-    invoke-virtual {v4, v3}, Lkik/android/widget/AudioEffectsLayoutView;->a(Lrx/functions/b;)V
+    invoke-virtual {v4, v3}, Lkik/arcane/widget/AudioEffectsLayoutView;->a(Lrx/functions/b;)V
 
     .line 207
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/e/e;->k:Lkik/android/widget/AudioRecordingLedLayoutView;
+    iget-object v3, v0, Lkik/arcane/e/e;->k:Lkik/arcane/widget/AudioRecordingLedLayoutView;
 
     invoke-static {v3, v13}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 208
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/e/e;->k:Lkik/android/widget/AudioRecordingLedLayoutView;
+    iget-object v3, v0, Lkik/arcane/e/e;->k:Lkik/arcane/widget/AudioRecordingLedLayoutView;
 
     move-object/from16 v0, v20
 
-    invoke-static {v3, v0}, Lkik/android/widget/AudioRecordingLedLayoutView;->a(Lkik/android/widget/AudioRecordingLedLayoutView;Lrx/d;)V
+    invoke-static {v3, v0}, Lkik/arcane/widget/AudioRecordingLedLayoutView;->a(Lkik/arcane/widget/AudioRecordingLedLayoutView;Lrx/d;)V
 
     .line 209
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v3, v0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
     invoke-static {v3, v15}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 210
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v3, v0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
-    invoke-static {v3, v12}, Lkik/android/widget/AudioMicLayoutView;->c(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+    invoke-static {v3, v12}, Lkik/arcane/widget/AudioMicLayoutView;->c(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
 
     .line 211
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v3, v0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
     move-object/from16 v0, v17
 
-    invoke-static {v3, v0}, Lkik/android/widget/AudioMicLayoutView;->d(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+    invoke-static {v3, v0}, Lkik/arcane/widget/AudioMicLayoutView;->d(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
 
     .line 212
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v3, v0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
-    invoke-static {v3, v2}, Lkik/android/widget/AudioMicLayoutView;->b(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+    invoke-static {v3, v2}, Lkik/arcane/widget/AudioMicLayoutView;->b(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
 
     .line 213
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v2, v0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
-    invoke-static {v2, v5}, Lkik/android/widget/AudioMicLayoutView;->e(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+    invoke-static {v2, v5}, Lkik/arcane/widget/AudioMicLayoutView;->e(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
 
     .line 214
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->e:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v2, v0, Lkik/arcane/e/e;->e:Lkik/arcane/widget/AudioMicLayoutView;
 
-    invoke-static {v2, v8}, Lkik/android/widget/AudioMicLayoutView;->a(Lkik/android/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
+    invoke-static {v2, v8}, Lkik/arcane/widget/AudioMicLayoutView;->a(Lkik/arcane/widget/AudioMicLayoutView;Ljava/lang/Runnable;)V
 
     .line 215
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->f:Landroid/widget/FrameLayout;
+    iget-object v2, v0, Lkik/arcane/e/e;->f:Landroid/widget/FrameLayout;
 
     invoke-static {v2, v14}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 216
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->g:Lkik/android/widget/AudioRecordSlideToCancelLayoutView;
+    iget-object v2, v0, Lkik/arcane/e/e;->g:Lkik/arcane/widget/AudioRecordSlideToCancelLayoutView;
 
     invoke-static {v2, v7}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 217
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->h:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v2, v0, Lkik/arcane/e/e;->h:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     move-object/from16 v0, v22
 
@@ -996,25 +996,25 @@
     .line 218
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->h:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v2, v0, Lkik/arcane/e/e;->h:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-static {v2, v10}, Lkik/android/widget/AudioGarbageLayoutView;->a(Lkik/android/widget/AudioGarbageLayoutView;Lrx/d;)V
+    invoke-static {v2, v10}, Lkik/arcane/widget/AudioGarbageLayoutView;->a(Lkik/arcane/widget/AudioGarbageLayoutView;Lrx/d;)V
 
     .line 219
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->h:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v2, v0, Lkik/arcane/e/e;->h:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     move-object/from16 v0, v19
 
-    invoke-static {v2, v0}, Lkik/android/widget/AudioGarbageLayoutView;->b(Lkik/android/widget/AudioGarbageLayoutView;Ljava/lang/Runnable;)V
+    invoke-static {v2, v0}, Lkik/arcane/widget/AudioGarbageLayoutView;->b(Lkik/arcane/widget/AudioGarbageLayoutView;Ljava/lang/Runnable;)V
 
     .line 220
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->h:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v2, v0, Lkik/arcane/e/e;->h:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-static {v2, v5}, Lkik/android/widget/AudioGarbageLayoutView;->a(Lkik/android/widget/AudioGarbageLayoutView;Ljava/lang/Runnable;)V
+    invoke-static {v2, v5}, Lkik/arcane/widget/AudioGarbageLayoutView;->a(Lkik/arcane/widget/AudioGarbageLayoutView;Ljava/lang/Runnable;)V
 
     .line 222
     :cond_1
@@ -1035,7 +1035,7 @@
     :cond_2
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->m:Lkik/android/e/e$a;
+    iget-object v2, v0, Lkik/arcane/e/e;->m:Lkik/arcane/e/e$a;
 
     goto/16 :goto_0
 
@@ -1043,7 +1043,7 @@
     :cond_3
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->n:Lkik/android/e/e$b;
+    iget-object v2, v0, Lkik/arcane/e/e;->n:Lkik/arcane/e/e$b;
 
     goto/16 :goto_1
 
@@ -1051,7 +1051,7 @@
     :cond_4
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->o:Lkik/android/e/e$c;
+    iget-object v2, v0, Lkik/arcane/e/e;->o:Lkik/arcane/e/e$c;
 
     goto/16 :goto_2
 
@@ -1059,7 +1059,7 @@
     :cond_5
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->p:Lkik/android/e/e$d;
+    iget-object v2, v0, Lkik/arcane/e/e;->p:Lkik/arcane/e/e$d;
 
     goto/16 :goto_3
 
@@ -1067,7 +1067,7 @@
     :cond_6
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->q:Lkik/android/e/e$e;
+    iget-object v2, v0, Lkik/arcane/e/e;->q:Lkik/arcane/e/e$e;
 
     goto/16 :goto_4
 
@@ -1075,7 +1075,7 @@
     :cond_7
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->r:Lkik/android/e/e$f;
+    iget-object v2, v0, Lkik/arcane/e/e;->r:Lkik/arcane/e/e$f;
 
     goto/16 :goto_5
 
@@ -1083,7 +1083,7 @@
     :cond_8
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->s:Lkik/android/e/e$g;
+    iget-object v2, v0, Lkik/arcane/e/e;->s:Lkik/arcane/e/e$g;
 
     goto/16 :goto_6
 
@@ -1091,7 +1091,7 @@
     :cond_9
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/e;->t:Lkik/android/e/e$h;
+    iget-object v2, v0, Lkik/arcane/e/e;->t:Lkik/arcane/e/e$h;
 
     goto/16 :goto_7
 
@@ -1148,7 +1148,7 @@
 
     .line 74
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/e;->u:J
+    iget-wide v0, p0, Lkik/arcane/e/e;->u:J
 
     const-wide/16 v2, 0x0
 
@@ -1196,7 +1196,7 @@
     const-wide/16 v0, 0x2
 
     :try_start_0
-    iput-wide v0, p0, Lkik/android/e/e;->u:J
+    iput-wide v0, p0, Lkik/arcane/e/e;->u:J
 
     .line 67
     monitor-exit p0
@@ -1204,7 +1204,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 68
-    invoke-virtual {p0}, Lkik/android/e/e;->requestRebind()V
+    invoke-virtual {p0}, Lkik/arcane/e/e;->requestRebind()V
 
     .line 69
     return-void
@@ -1246,9 +1246,9 @@
 
     .line 84
     :pswitch_0
-    check-cast p2, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+    check-cast p2, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
-    invoke-virtual {p0, p2}, Lkik/android/e/e;->a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/e;->a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)V
 
     .line 85
     const/4 v0, 0x1

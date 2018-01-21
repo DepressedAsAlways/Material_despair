@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/r;
+.class public final Lkik/arcane/util/r;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -16,9 +16,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
@@ -34,7 +34,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 25
     const/4 v0, 0x0

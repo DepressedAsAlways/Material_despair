@@ -1,4 +1,4 @@
-.class final Lkik/android/util/t$1;
+.class final Lkik/arcane/util/t$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/t;
+    value = Lkik/arcane/util/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/t;
+.field final synthetic a:Lkik/arcane/util/t;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/t;)V
+.method constructor <init>(Lkik/arcane/util/t;)V
     .locals 0
 
     .prologue
     .line 20
-    iput-object p1, p0, Lkik/android/util/t$1;->a:Lkik/android/util/t;
+    iput-object p1, p0, Lkik/arcane/util/t$1;->a:Lkik/arcane/util/t;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,11 +49,11 @@
 
     .prologue
     .line 25
-    iget-object v0, p0, Lkik/android/util/t$1;->a:Lkik/android/util/t;
+    iget-object v0, p0, Lkik/arcane/util/t$1;->a:Lkik/arcane/util/t;
 
     int-to-float v1, p1
 
-    invoke-static {v0, v1}, Lkik/android/util/t;->a(Lkik/android/util/t;F)V
+    invoke-static {v0, v1}, Lkik/arcane/util/t;->a(Lkik/arcane/util/t;F)V
 
     .line 26
     return-void

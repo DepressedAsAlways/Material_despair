@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/dr;
+.class public Lkik/arcane/widget/dr;
 .super Landroid/support/v7/widget/RecyclerView$Adapter;
 .source "SourceFile"
 
@@ -6,18 +6,18 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/dr$c;,
-        Lkik/android/widget/dr$a;,
-        Lkik/android/widget/dr$b;
+        Lkik/arcane/widget/dr$c;,
+        Lkik/arcane/widget/dr$a;,
+        Lkik/arcane/widget/dr$b;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<ItemViewModel::",
-        "Lkik/android/chat/vm/at;",
+        "Lkik/arcane/chat/vm/at;",
         "TViewHolder:",
-        "Lkik/android/widget/dr$c;",
+        "Lkik/arcane/widget/dr$c;",
         ">",
         "Landroid/support/v7/widget/RecyclerView$Adapter",
         "<TTViewHolder;>;"
@@ -26,19 +26,19 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/dr$a;
+.field private final a:Lkik/arcane/widget/dr$a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkik/android/widget/dr$a",
+            "Lkik/arcane/widget/dr$a",
             "<TItemViewModel;TTViewHolder;>;"
         }
     .end annotation
 .end field
 
-.field private final b:Lkik/android/chat/vm/IListViewModel;
+.field private final b:Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<TItemViewModel;>;"
         }
     .end annotation
@@ -46,7 +46,7 @@
 
 .field private c:Lrx/f/b;
 
-.field private d:Lkik/android/widget/dr$b;
+.field private d:Lkik/arcane/widget/dr$b;
 
 .field private e:Ljava/lang/ref/WeakReference;
     .annotation system Ldalvik/annotation/Signature;
@@ -64,7 +64,7 @@
         value = {
             "Ljava/util/ArrayList",
             "<",
-            "Lkik/android/chat/vm/IListViewModel$a;",
+            "Lkik/arcane/chat/vm/IListViewModel$a;",
             ">;"
         }
     .end annotation
@@ -72,14 +72,14 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/dr$a;Lkik/android/chat/vm/IListViewModel;)V
+.method public constructor <init>(Lkik/arcane/widget/dr$a;Lkik/arcane/chat/vm/IListViewModel;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/dr$a",
+            "Lkik/arcane/widget/dr$a",
             "<TItemViewModel;TTViewHolder;>;",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<TItemViewModel;>;)V"
         }
     .end annotation
@@ -93,31 +93,31 @@
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/dr;->c:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/widget/dr;->c:Lrx/f/b;
 
     .line 99
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/dr;->f:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/widget/dr;->f:Ljava/util/ArrayList;
 
     .line 80
-    iput-object p1, p0, Lkik/android/widget/dr;->a:Lkik/android/widget/dr$a;
+    iput-object p1, p0, Lkik/arcane/widget/dr;->a:Lkik/arcane/widget/dr$a;
 
     .line 81
-    iput-object p2, p0, Lkik/android/widget/dr;->b:Lkik/android/chat/vm/IListViewModel;
+    iput-object p2, p0, Lkik/arcane/widget/dr;->b:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 83
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/dr;->setHasStableIds(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/dr;->setHasStableIds(Z)V
 
     .line 84
     return-void
 .end method
 
-.method private a(I)Lkik/android/chat/vm/at;
+.method private a(I)Lkik/arcane/chat/vm/at;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -128,10 +128,10 @@
     .prologue
     .line 175
     .line 1088
-    iget-object v0, p0, Lkik/android/widget/dr;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->b:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 175
-    invoke-interface {v0, p1}, Lkik/android/chat/vm/IListViewModel;->d(I)Lkik/android/chat/vm/at;
+    invoke-interface {v0, p1}, Lkik/arcane/chat/vm/IListViewModel;->d(I)Lkik/arcane/chat/vm/at;
 
     move-result-object v0
 
@@ -143,7 +143,7 @@
 
     .prologue
     .line 106
-    iget-object v1, p0, Lkik/android/widget/dr;->f:Ljava/util/ArrayList;
+    iget-object v1, p0, Lkik/arcane/widget/dr;->f:Ljava/util/ArrayList;
 
     monitor-enter v1
 
@@ -151,12 +151,12 @@
     :try_start_0
     new-instance v0, Ljava/util/ArrayList;
 
-    iget-object v2, p0, Lkik/android/widget/dr;->f:Ljava/util/ArrayList;
+    iget-object v2, p0, Lkik/arcane/widget/dr;->f:Ljava/util/ArrayList;
 
     invoke-direct {v0, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 109
-    iget-object v2, p0, Lkik/android/widget/dr;->f:Ljava/util/ArrayList;
+    iget-object v2, p0, Lkik/arcane/widget/dr;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v2}, Ljava/util/ArrayList;->clear()V
 
@@ -166,7 +166,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 112
-    iget-object v1, p0, Lkik/android/widget/dr;->d:Lkik/android/widget/dr$b;
+    iget-object v1, p0, Lkik/arcane/widget/dr;->d:Lkik/arcane/widget/dr$b;
 
     if-eqz v1, :cond_0
 
@@ -211,34 +211,34 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/j$a;
+    check-cast v0, Lkik/arcane/chat/vm/j$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/j$a;->c()V
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/j$a;->c()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/dr;)V
+.method static synthetic a(Lkik/arcane/widget/dr;)V
     .locals 0
 
     .prologue
     .line 164
-    invoke-direct {p0}, Lkik/android/widget/dr;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/dr;->a()V
 
     .line 165
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/dr;Lkik/android/chat/vm/IListViewModel$a;)V
+.method static synthetic a(Lkik/arcane/widget/dr;Lkik/arcane/chat/vm/IListViewModel$a;)V
     .locals 2
 
     .prologue
     .line 136
-    sget-object v0, Lkik/android/widget/dr$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/dr$1;->a:[I
 
-    iget-object v1, p1, Lkik/android/chat/vm/IListViewModel$a;->a:Lkik/android/chat/vm/IListViewModel$ChangeType;
+    iget-object v1, p1, Lkik/arcane/chat/vm/IListViewModel$a;->a:Lkik/arcane/chat/vm/IListViewModel$ChangeType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IListViewModel$ChangeType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->ordinal()I
 
     move-result v1
 
@@ -248,13 +248,13 @@
 
     .line 3121
     :goto_0
-    iget-object v1, p0, Lkik/android/widget/dr;->f:Ljava/util/ArrayList;
+    iget-object v1, p0, Lkik/arcane/widget/dr;->f:Ljava/util/ArrayList;
 
     monitor-enter v1
 
     .line 3122
     :try_start_0
-    iget-object v0, p0, Lkik/android/widget/dr;->f:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->f:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -264,7 +264,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 160
-    iget-object v0, p0, Lkik/android/widget/dr;->e:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->e:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -276,7 +276,7 @@
     if-eqz v0, :cond_0
 
     .line 163
-    invoke-static {p0}, Lkik/android/widget/dv;->a(Lkik/android/widget/dr;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/dv;->a(Lkik/arcane/widget/dr;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -288,43 +288,43 @@
 
     .line 138
     :pswitch_0
-    iget v0, p1, Lkik/android/chat/vm/IListViewModel$a;->b:I
+    iget v0, p1, Lkik/arcane/chat/vm/IListViewModel$a;->b:I
 
-    iget v1, p1, Lkik/android/chat/vm/IListViewModel$a;->c:I
+    iget v1, p1, Lkik/arcane/chat/vm/IListViewModel$a;->c:I
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/dr;->notifyItemMoved(II)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/dr;->notifyItemMoved(II)V
 
     goto :goto_0
 
     .line 142
     :pswitch_1
-    iget v0, p1, Lkik/android/chat/vm/IListViewModel$a;->c:I
+    iget v0, p1, Lkik/arcane/chat/vm/IListViewModel$a;->c:I
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/dr;->notifyItemInserted(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/dr;->notifyItemInserted(I)V
 
     goto :goto_0
 
     .line 146
     :pswitch_2
-    iget v0, p1, Lkik/android/chat/vm/IListViewModel$a;->b:I
+    iget v0, p1, Lkik/arcane/chat/vm/IListViewModel$a;->b:I
 
-    iget v1, p1, Lkik/android/chat/vm/IListViewModel$a;->c:I
+    iget v1, p1, Lkik/arcane/chat/vm/IListViewModel$a;->c:I
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/dr;->notifyItemRangeRemoved(II)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/dr;->notifyItemRangeRemoved(II)V
 
     goto :goto_0
 
     .line 150
     :pswitch_3
-    iget v0, p1, Lkik/android/chat/vm/IListViewModel$a;->c:I
+    iget v0, p1, Lkik/arcane/chat/vm/IListViewModel$a;->c:I
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/dr;->notifyItemChanged(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/dr;->notifyItemChanged(I)V
 
     goto :goto_0
 
     .line 154
     :pswitch_4
-    invoke-virtual {p0}, Lkik/android/widget/dr;->notifyDataSetChanged()V
+    invoke-virtual {p0}, Lkik/arcane/widget/dr;->notifyDataSetChanged()V
 
     goto :goto_0
 
@@ -341,7 +341,7 @@
 
     .line 168
     :cond_0
-    invoke-direct {p0}, Lkik/android/widget/dr;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/dr;->a()V
 
     goto :goto_1
 
@@ -358,17 +358,17 @@
     .end packed-switch
 .end method
 
-.method static synthetic a(Lkik/android/widget/dr;Lkik/android/chat/vm/at;)V
+.method static synthetic a(Lkik/arcane/widget/dr;Lkik/arcane/chat/vm/at;)V
     .locals 7
 
     .prologue
     const/4 v1, 0x0
 
     .line 201
-    check-cast p1, Lkik/android/chat/vm/af;
+    check-cast p1, Lkik/arcane/chat/vm/af;
 
     .line 202
-    invoke-interface {p1}, Lkik/android/chat/vm/af;->ai_()Lkik/android/chat/vm/j;
+    invoke-interface {p1}, Lkik/arcane/chat/vm/af;->ai_()Lkik/arcane/chat/vm/j;
 
     move-result-object v2
 
@@ -382,7 +382,7 @@
 
     .line 207
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/dr;->e:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->e:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
@@ -405,15 +405,15 @@
     if-eqz v0, :cond_5
 
     .line 3039
-    instance-of v3, v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    instance-of v3, v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     if-eqz v3, :cond_5
 
     .line 3040
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     .line 3041
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
     move-result-object v0
 
@@ -424,12 +424,12 @@
     move-result-object v0
 
     .line 3042
-    instance-of v3, v0, Lkik/android/chat/presentation/r;
+    instance-of v3, v0, Lkik/arcane/chat/presentation/r;
 
     if-eqz v3, :cond_5
 
     .line 3043
-    check-cast v0, Lkik/android/chat/presentation/r;
+    check-cast v0, Lkik/arcane/chat/presentation/r;
 
     :goto_1
     move-object v1, v0
@@ -439,12 +439,12 @@
     if-eqz v1, :cond_0
 
     .line 218
-    new-instance v3, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v3, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v3}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v3}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     .line 219
-    invoke-virtual {v2}, Lkik/android/chat/vm/j;->a()Ljava/lang/String;
+    invoke-virtual {v2}, Lkik/arcane/chat/vm/j;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -452,7 +452,7 @@
     if-eqz v0, :cond_3
 
     .line 221
-    invoke-virtual {v3, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v3, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 224
     :cond_3
@@ -466,7 +466,7 @@
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
     .line 226
-    invoke-virtual {v2}, Lkik/android/chat/vm/j;->b()Ljava/util/List;
+    invoke-virtual {v2}, Lkik/arcane/chat/vm/j;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -486,17 +486,17 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/j$a;
+    check-cast v0, Lkik/arcane/chat/vm/j$a;
 
     .line 227
-    invoke-virtual {v0}, Lkik/android/chat/vm/j$a;->b()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/j$a;->b()Z
 
     move-result v6
 
     if-eqz v6, :cond_4
 
     .line 228
-    invoke-virtual {v0}, Lkik/android/chat/vm/j$a;->a()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/j$a;->a()Ljava/lang/String;
 
     move-result-object v6
 
@@ -527,18 +527,18 @@
 
     check-cast v0, [Ljava/lang/CharSequence;
 
-    invoke-static {v5}, Lkik/android/widget/du;->a(Ljava/util/List;)Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {v5}, Lkik/arcane/widget/du;->a(Ljava/util/List;)Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v2
 
-    invoke-virtual {v3, v0, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v3, v0, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 233
-    invoke-virtual {v3}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v3}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
-    invoke-interface {v1, v0}, Lkik/android/chat/presentation/r;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-interface {v1, v0}, Lkik/arcane/chat/presentation/r;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     goto/16 :goto_0
 .end method
@@ -550,9 +550,9 @@
 
     .prologue
     .line 252
-    iget-object v0, p0, Lkik/android/widget/dr;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->b:Lkik/arcane/chat/vm/IListViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/IListViewModel;->g()I
+    invoke-interface {v0}, Lkik/arcane/chat/vm/IListViewModel;->g()I
 
     move-result v0
 
@@ -564,11 +564,11 @@
 
     .prologue
     .line 181
-    invoke-direct {p0, p1}, Lkik/android/widget/dr;->a(I)Lkik/android/chat/vm/at;
+    invoke-direct {p0, p1}, Lkik/arcane/widget/dr;->a(I)Lkik/arcane/chat/vm/at;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/at;->ah_()J
+    invoke-interface {v0}, Lkik/arcane/chat/vm/at;->ah_()J
 
     move-result-wide v0
 
@@ -580,14 +580,14 @@
 
     .prologue
     .line 187
-    invoke-direct {p0, p1}, Lkik/android/widget/dr;->a(I)Lkik/android/chat/vm/at;
+    invoke-direct {p0, p1}, Lkik/arcane/widget/dr;->a(I)Lkik/arcane/chat/vm/at;
 
     move-result-object v0
 
     .line 189
-    iget-object v1, p0, Lkik/android/widget/dr;->a:Lkik/android/widget/dr$a;
+    iget-object v1, p0, Lkik/arcane/widget/dr;->a:Lkik/arcane/widget/dr$a;
 
-    invoke-interface {v1, v0}, Lkik/android/widget/dr$a;->a(Ljava/lang/Object;)I
+    invoke-interface {v1, v0}, Lkik/arcane/widget/dr$a;->a(Ljava/lang/Object;)I
 
     move-result v0
 
@@ -606,14 +606,14 @@
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/widget/dr;->e:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lkik/arcane/widget/dr;->e:Ljava/lang/ref/WeakReference;
 
     .line 132
-    iget-object v0, p0, Lkik/android/widget/dr;->c:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->c:Lrx/f/b;
 
-    iget-object v1, p0, Lkik/android/widget/dr;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v1, p0, Lkik/arcane/widget/dr;->b:Lkik/arcane/chat/vm/IListViewModel;
 
-    invoke-interface {v1}, Lkik/android/chat/vm/IListViewModel;->b()Lrx/d;
+    invoke-interface {v1}, Lkik/arcane/chat/vm/IListViewModel;->b()Lrx/d;
 
     move-result-object v1
 
@@ -631,7 +631,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/widget/ds;->a(Lkik/android/widget/dr;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/ds;->a(Lkik/arcane/widget/dr;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -652,28 +652,28 @@
 
     .prologue
     .line 28
-    check-cast p1, Lkik/android/widget/dr$c;
+    check-cast p1, Lkik/arcane/widget/dr$c;
 
     .line 2088
-    iget-object v0, p0, Lkik/android/widget/dr;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->b:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 1195
-    invoke-interface {v0, p2}, Lkik/android/chat/vm/IListViewModel;->d(I)Lkik/android/chat/vm/at;
+    invoke-interface {v0, p2}, Lkik/arcane/chat/vm/IListViewModel;->d(I)Lkik/arcane/chat/vm/at;
 
     move-result-object v0
 
     .line 1197
-    invoke-virtual {p1, v0}, Lkik/android/widget/dr$c;->a(Ljava/lang/Object;)Landroid/view/View;
+    invoke-virtual {p1, v0}, Lkik/arcane/widget/dr$c;->a(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object v1
 
     .line 1199
-    instance-of v2, v0, Lkik/android/chat/vm/af;
+    instance-of v2, v0, Lkik/arcane/chat/vm/af;
 
     if-eqz v2, :cond_0
 
     .line 1200
-    invoke-static {p0, v0}, Lkik/android/widget/dt;->a(Lkik/android/widget/dr;Lkik/android/chat/vm/at;)Landroid/view/View$OnCreateContextMenuListener;
+    invoke-static {p0, v0}, Lkik/arcane/widget/dt;->a(Lkik/arcane/widget/dr;Lkik/arcane/chat/vm/at;)Landroid/view/View$OnCreateContextMenuListener;
 
     move-result-object v0
 
@@ -706,13 +706,13 @@
     move-result-object v0
 
     .line 2246
-    iget-object v1, p0, Lkik/android/widget/dr;->a:Lkik/android/widget/dr$a;
+    iget-object v1, p0, Lkik/arcane/widget/dr;->a:Lkik/arcane/widget/dr$a;
 
-    invoke-interface {v1, v0, p1, p2}, Lkik/android/widget/dr$a;->a(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;I)Ljava/lang/Object;
+    invoke-interface {v1, v0, p1, p2}, Lkik/arcane/widget/dr$a;->a(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/dr$c;
+    check-cast v0, Lkik/arcane/widget/dr$c;
 
     .line 28
     return-object v0
@@ -728,10 +728,10 @@
     .line 95
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/dr;->e:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lkik/arcane/widget/dr;->e:Ljava/lang/ref/WeakReference;
 
     .line 96
-    iget-object v0, p0, Lkik/android/widget/dr;->c:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/widget/dr;->c:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->unsubscribe()V
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/preferences/d;
+.class final synthetic Lkik/arcane/widget/preferences/d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/widget/preferences/d;
+.field private static final a:Lkik/arcane/widget/preferences/d;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/widget/preferences/d;
+    new-instance v0, Lkik/arcane/widget/preferences/d;
 
-    invoke-direct {v0}, Lkik/android/widget/preferences/d;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/widget/preferences/d;-><init>()V
 
-    sput-object v0, Lkik/android/widget/preferences/d;->a:Lkik/android/widget/preferences/d;
+    sput-object v0, Lkik/arcane/widget/preferences/d;->a:Lkik/arcane/widget/preferences/d;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Landroid/preference/Preference$OnPreferenceClickListener;
     .locals 1
 
-    sget-object v0, Lkik/android/widget/preferences/d;->a:Lkik/android/widget/preferences/d;
+    sget-object v0, Lkik/arcane/widget/preferences/d;->a:Lkik/arcane/widget/preferences/d;
 
     return-object v0
 .end method

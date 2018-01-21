@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/n$a;
+.class public final Lkik/arcane/e/n$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/n;
+    value = Lkik/arcane/e/n;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;
+.field private a:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;)Lkik/android/e/n$a;
+.method public final a(Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;)Lkik/arcane/e/n$a;
     .locals 0
 
     .prologue
     .line 145
-    iput-object p1, p0, Lkik/android/e/n$a;->a:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;
+    iput-object p1, p0, Lkik/arcane/e/n$a;->a:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;
 
     .line 146
     if-nez p1, :cond_0
@@ -55,9 +55,9 @@
 
     .prologue
     .line 150
-    iget-object v0, p0, Lkik/android/e/n$a;->a:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;
+    iget-object v0, p0, Lkik/arcane/e/n$a;->a:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;->m()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;->m()V
 
     .line 151
     return-void

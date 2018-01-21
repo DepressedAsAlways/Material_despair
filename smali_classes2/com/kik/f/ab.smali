@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/util/ah;",
+        "Lkik/arcane/util/ah;",
         ">;"
     }
 .end annotation
@@ -63,7 +63,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/ai;",
+            "Lkik/arcane/util/ai;",
             ">;"
         }
     .end annotation
@@ -117,7 +117,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/ai;",
+            "Lkik/arcane/util/ai;",
             ">;)V"
         }
     .end annotation
@@ -235,11 +235,11 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/ai;",
+            "Lkik/arcane/util/ai;",
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/util/ah;",
+            "Lkik/arcane/util/ah;",
             ">;"
         }
     .end annotation
@@ -305,12 +305,12 @@
 
     move-result-object v3
 
-    check-cast v3, Lkik/android/util/ai;
+    check-cast v3, Lkik/arcane/util/ai;
 
     .line 2027
-    new-instance v4, Lkik/android/util/u;
+    new-instance v4, Lkik/arcane/util/u;
 
-    invoke-direct {v4, v0, v1, v2, v3}, Lkik/android/util/u;-><init>(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lcom/kik/storage/s;Lkik/android/util/ai;)V
+    invoke-direct {v4, v0, v1, v2, v3}, Lkik/arcane/util/u;-><init>(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lcom/kik/storage/s;Lkik/arcane/util/ai;)V
 
     .line 1049
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -320,7 +320,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/ah;
+    check-cast v0, Lkik/arcane/util/ah;
 
     .line 13
     return-object v0

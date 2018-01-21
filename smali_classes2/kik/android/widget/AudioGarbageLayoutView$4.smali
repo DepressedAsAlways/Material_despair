@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AudioGarbageLayoutView$4;
+.class final Lkik/arcane/widget/AudioGarbageLayoutView$4;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/AudioGarbageLayoutView;->a(Z)V
+    value = Lkik/arcane/widget/AudioGarbageLayoutView;->a(Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/AudioGarbageLayoutView;
+.field final synthetic a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioGarbageLayoutView;)V
+.method constructor <init>(Lkik/arcane/widget/AudioGarbageLayoutView;)V
     .locals 0
 
     .prologue
     .line 195
-    iput-object p1, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -42,9 +42,9 @@
     const/4 v4, 0x0
 
     .line 199
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    iget-object v0, v0, Lkik/android/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
+    iget-object v0, v0, Lkik/arcane/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -58,9 +58,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v1, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    iget-object v1, v1, Lkik/android/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
+    iget-object v1, v1, Lkik/arcane/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
@@ -93,9 +93,9 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     .line 200
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    iget-object v0, v0, Lkik/android/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
+    iget-object v0, v0, Lkik/arcane/widget/AudioGarbageLayoutView;->_binLid:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -107,9 +107,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v1, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    iget-object v1, v1, Lkik/android/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
+    iget-object v1, v1, Lkik/arcane/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
@@ -123,9 +123,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v1, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    iget-object v1, v1, Lkik/android/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
+    iget-object v1, v1, Lkik/arcane/widget/AudioGarbageLayoutView;->_binBody:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getHeight()I
 
@@ -155,9 +155,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/widget/AudioGarbageLayoutView$4$1;
+    new-instance v1, Lkik/arcane/widget/AudioGarbageLayoutView$4$1;
 
-    invoke-direct {v1, p0}, Lkik/android/widget/AudioGarbageLayoutView$4$1;-><init>(Lkik/android/widget/AudioGarbageLayoutView$4;)V
+    invoke-direct {v1, p0}, Lkik/arcane/widget/AudioGarbageLayoutView$4$1;-><init>(Lkik/arcane/widget/AudioGarbageLayoutView$4;)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
@@ -173,18 +173,18 @@
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationStart(Landroid/animation/Animator;)V
 
     .line 224
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioGarbageLayoutView;->j(Lkik/android/widget/AudioGarbageLayoutView;)Ljava/lang/Runnable;
+    invoke-static {v0}, Lkik/arcane/widget/AudioGarbageLayoutView;->j(Lkik/arcane/widget/AudioGarbageLayoutView;)Ljava/lang/Runnable;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 225
-    iget-object v0, p0, Lkik/android/widget/AudioGarbageLayoutView$4;->a:Lkik/android/widget/AudioGarbageLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioGarbageLayoutView$4;->a:Lkik/arcane/widget/AudioGarbageLayoutView;
 
-    invoke-static {v0}, Lkik/android/widget/AudioGarbageLayoutView;->j(Lkik/android/widget/AudioGarbageLayoutView;)Ljava/lang/Runnable;
+    invoke-static {v0}, Lkik/arcane/widget/AudioGarbageLayoutView;->j(Lkik/arcane/widget/AudioGarbageLayoutView;)Ljava/lang/Runnable;
 
     move-result-object v0
 

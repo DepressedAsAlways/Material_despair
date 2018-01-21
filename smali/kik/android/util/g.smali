@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/g;
+.class public final Lkik/arcane/util/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/g$a;
+        Lkik/arcane/util/g$a;
     }
 .end annotation
 
@@ -22,7 +22,7 @@
 
 .field private static final e:Lorg/slf4j/b;
 
-.field private static g:Lkik/android/util/g;
+.field private static g:Lkik/arcane/util/g;
 
 
 # instance fields
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/g;->e:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/util/g;->e:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -57,25 +57,25 @@
     return-void
 .end method
 
-.method public static a()Lkik/android/util/g;
+.method public static a()Lkik/arcane/util/g;
     .locals 1
 
     .prologue
     .line 72
-    sget-object v0, Lkik/android/util/g;->g:Lkik/android/util/g;
+    sget-object v0, Lkik/arcane/util/g;->g:Lkik/arcane/util/g;
 
     if-nez v0, :cond_0
 
     .line 73
-    new-instance v0, Lkik/android/util/g;
+    new-instance v0, Lkik/arcane/util/g;
 
-    invoke-direct {v0}, Lkik/android/util/g;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/g;-><init>()V
 
-    sput-object v0, Lkik/android/util/g;->g:Lkik/android/util/g;
+    sput-object v0, Lkik/arcane/util/g;->g:Lkik/arcane/util/g;
 
     .line 75
     :cond_0
-    sget-object v0, Lkik/android/util/g;->g:Lkik/android/util/g;
+    sget-object v0, Lkik/arcane/util/g;->g:Lkik/arcane/util/g;
 
     return-object v0
 .end method
@@ -116,7 +116,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 439
     :goto_1
@@ -135,12 +135,12 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/util/g;)V
+.method static synthetic a(Lkik/arcane/util/g;)V
     .locals 0
 
     .prologue
     .line 48
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     return-void
 .end method
@@ -150,7 +150,7 @@
 
     .prologue
     .line 127
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -159,13 +159,13 @@
     if-eqz v0, :cond_0
 
     .line 128
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 130
     :cond_0
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -174,17 +174,17 @@
     if-eqz v0, :cond_1
 
     .line 131
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 133
     :cond_1
-    sget-object v0, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     if-eqz v0, :cond_2
 
-    sget-object v0, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -193,7 +193,7 @@
     if-eqz v0, :cond_2
 
     .line 134
-    sget-object v0, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
@@ -202,32 +202,32 @@
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method static synthetic c(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 0
 
     .prologue
     .line 48
-    invoke-static {p0}, Lkik/android/util/g;->e(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-static {p0}, Lkik/arcane/util/g;->e(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method static synthetic d(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 0
 
     .prologue
     .line 48
-    invoke-static {p0}, Lkik/android/util/g;->f(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-static {p0}, Lkik/arcane/util/g;->f(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     return-void
 .end method
 
-.method private static e(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method private static e(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 4
 
     .prologue
     .line 219
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     .line 1030
     new-instance v1, Landroid/content/Intent;
@@ -250,18 +250,18 @@
     .line 220
     const/16 v0, 0x285e
 
-    invoke-virtual {p0, v1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     .line 221
     return-void
 .end method
 
-.method private static f(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method private static f(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 4
 
     .prologue
     .line 225
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     .line 2019
     new-instance v1, Landroid/content/Intent;
@@ -289,7 +289,7 @@
     .line 226
     const/16 v0, 0x285f
 
-    invoke-virtual {p0, v1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     .line 227
     return-void
@@ -300,7 +300,7 @@
 
     .prologue
     .line 48
-    sget-object v0, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     return-object v0
 .end method
@@ -310,7 +310,7 @@
 
     .prologue
     .line 48
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     return-object v0
 .end method
@@ -320,11 +320,11 @@
 
     .prologue
     .line 89
-    sget-object v0, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -357,12 +357,12 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/g;->a:Ljava/io/File;
+    sput-object v0, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     .line 99
     :cond_1
     :goto_0
-    sget-object v0, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -371,7 +371,7 @@
     if-nez v0, :cond_2
 
     .line 100
-    sget-object v0, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
@@ -379,7 +379,7 @@
     :cond_2
     new-instance v0, Ljava/io/File;
 
-    sget-object v1, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v1, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     const-string v2, ".noMedia"
 
@@ -396,7 +396,7 @@
     const-string v0, ""
 
     .line 113
-    iget-object v1, p0, Lkik/android/util/g;->f:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/util/g;->f:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/ac;
 
@@ -414,18 +414,18 @@
     :cond_3
     new-instance v1, Ljava/io/File;
 
-    sget-object v2, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v2, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     const-string v3, "kiktmp"
 
     invoke-direct {v1, v2, v3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    sput-object v1, Lkik/android/util/g;->b:Ljava/io/File;
+    sput-object v1, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     .line 118
     new-instance v1, Ljava/io/File;
 
-    sget-object v2, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v2, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -444,7 +444,7 @@
     invoke-direct {v1, v2, v0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 120
-    sput-object v1, Lkik/android/util/g;->c:Ljava/io/File;
+    sput-object v1, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
@@ -455,13 +455,13 @@
     .line 121
     new-instance v0, Ljava/io/File;
 
-    sget-object v1, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v1, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     const-string v2, "kikCache"
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sput-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     .line 123
     :cond_4
@@ -479,7 +479,7 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/g;->a:Ljava/io/File;
+    sput-object v0, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     goto :goto_0
 
@@ -491,21 +491,21 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 0
 
     .prologue
     .line 231
-    invoke-virtual {p0}, Lkik/android/util/g;->g()V
+    invoke-virtual {p0}, Lkik/arcane/util/g;->g()V
 
     .line 232
-    invoke-static {p1}, Lkik/android/util/g;->e(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-static {p1}, Lkik/arcane/util/g;->e(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     .line 233
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikScopedDialogFragment;Landroid/content/Context;)V
+.method public final a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Landroid/content/Context;)V
     .locals 6
 
     .prologue
@@ -516,20 +516,20 @@
     const/4 v3, 0x0
 
     .line 185
-    invoke-virtual {p0}, Lkik/android/util/g;->g()V
+    invoke-virtual {p0}, Lkik/arcane/util/g;->g()V
 
     .line 187
-    new-instance v1, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     .line 188
     const v0, 0x7f090440
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(I)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(I)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 191
-    invoke-static {p2}, Lkik/android/util/DeviceUtils;->e(Landroid/content/Context;)Z
+    invoke-static {p2}, Lkik/arcane/util/DeviceUtils;->e(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -556,22 +556,22 @@
 
     .line 200
     :goto_0
-    new-instance v2, Lkik/android/util/g$1;
+    new-instance v2, Lkik/arcane/util/g$1;
 
-    invoke-direct {v2, p0, v0, p1}, Lkik/android/util/g$1;-><init>(Lkik/android/util/g;[Ljava/lang/CharSequence;Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-direct {v2, p0, v0, p1}, Lkik/arcane/util/g$1;-><init>(Lkik/arcane/util/g;[Ljava/lang/CharSequence;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
-    invoke-virtual {v1, v0, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 214
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sget-object v1, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     const-string v2, "tag"
 
-    invoke-virtual {p1, v0, v1, v2}, Lkik/android/chat/fragment/KikScopedDialogFragment;->show(Lkik/android/chat/fragment/KikDialogFragment;Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;Ljava/lang/String;)V
+    invoke-virtual {p1, v0, v1, v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->show(Lkik/arcane/chat/fragment/KikDialogFragment;Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;Ljava/lang/String;)V
 
     .line 215
     return-void
@@ -594,7 +594,7 @@
 
     .prologue
     .line 80
-    iput-object p1, p0, Lkik/android/util/g;->f:Lkik/core/interfaces/ag;
+    iput-object p1, p0, Lkik/arcane/util/g;->f:Lkik/core/interfaces/ag;
 
     .line 81
     return-void
@@ -611,7 +611,7 @@
     const/4 v3, 0x0
 
     .line 443
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     .line 2481
     const/16 v0, 0x285e
@@ -628,7 +628,7 @@
     if-nez v0, :cond_7
 
     :cond_0
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
@@ -716,7 +716,7 @@
     if-nez v0, :cond_8
 
     :cond_4
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
@@ -739,11 +739,11 @@
     move-result-object v0
 
     .line 456
-    sget-object v2, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v2, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     if-eqz v2, :cond_5
 
-    sget-object v2, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v2, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
@@ -752,7 +752,7 @@
     if-eqz v2, :cond_5
 
     .line 457
-    sget-object v2, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v2, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
 
@@ -760,31 +760,31 @@
     :cond_5
     new-instance v2, Ljava/io/File;
 
-    sget-object v3, Lkik/android/util/g;->a:Ljava/io/File;
+    sget-object v3, Lkik/arcane/util/g;->a:Ljava/io/File;
 
     const-string v4, "kikTmpOriginalPicFile"
 
     invoke-direct {v2, v3, v4}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    sput-object v2, Lkik/android/util/g;->d:Ljava/io/File;
+    sput-object v2, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     .line 461
-    sget-object v2, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v2, Lkik/arcane/util/g;->d:Ljava/io/File;
 
-    invoke-static {v0, v2}, Lkik/android/util/g;->a(Ljava/io/InputStream;Ljava/io/File;)V
+    invoke-static {v0, v2}, Lkik/arcane/util/g;->a(Ljava/io/InputStream;Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 468
     :cond_6
     :goto_2
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object v0
 
-    invoke-static {p2, v1, v0}, Lkik/android/util/f;->a(Landroid/content/Context;Landroid/net/Uri;Landroid/net/Uri;)Landroid/content/Intent;
+    invoke-static {p2, v1, v0}, Lkik/arcane/util/f;->a(Landroid/content/Context;Landroid/net/Uri;Landroid/net/Uri;)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -826,7 +826,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     goto :goto_2
 
@@ -834,7 +834,7 @@
     :catch_1
     move-exception v0
 
-    invoke-virtual {p0}, Lkik/android/util/g;->g()V
+    invoke-virtual {p0}, Lkik/arcane/util/g;->g()V
 
     move v0, v8
 
@@ -842,15 +842,15 @@
     goto :goto_3
 .end method
 
-.method public final b(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method public final b(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 0
 
     .prologue
     .line 237
-    invoke-virtual {p0}, Lkik/android/util/g;->g()V
+    invoke-virtual {p0}, Lkik/arcane/util/g;->g()V
 
     .line 238
-    invoke-static {p1}, Lkik/android/util/g;->f(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-static {p1}, Lkik/arcane/util/g;->f(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     .line 239
     return-void
@@ -861,10 +861,10 @@
 
     .prologue
     .line 153
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     .line 154
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -878,14 +878,14 @@
 
     .prologue
     .line 282
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     .line 283
     new-instance v0, Landroid/graphics/drawable/BitmapDrawable;
 
-    sget-object v1, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v1, Lkik/arcane/util/g;->c:Ljava/io/File;
 
-    invoke-static {v1}, Lkik/android/util/f;->a(Ljava/io/File;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/util/f;->a(Ljava/io/File;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -899,12 +899,12 @@
 
     .prologue
     .line 288
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     .line 289
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
-    invoke-static {v0}, Lkik/android/util/f;->a(Ljava/io/File;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/util/f;->a(Ljava/io/File;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -916,12 +916,12 @@
 
     .prologue
     .line 294
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     .line 295
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
-    invoke-static {v0}, Lkik/android/util/f;->a(Ljava/io/File;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/util/f;->a(Ljava/io/File;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -943,10 +943,10 @@
 
     .prologue
     .line 300
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     .line 301
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -955,7 +955,7 @@
     if-eqz v0, :cond_0
 
     .line 302
-    sget-object v0, Lkik/android/util/g;->b:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->b:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
@@ -969,10 +969,10 @@
 
     .prologue
     .line 308
-    invoke-direct {p0}, Lkik/android/util/g;->k()V
+    invoke-direct {p0}, Lkik/arcane/util/g;->k()V
 
     .line 309
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -981,17 +981,17 @@
     if-eqz v0, :cond_0
 
     .line 310
-    sget-object v0, Lkik/android/util/g;->c:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->c:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 313
     :cond_0
-    sget-object v0, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -1000,7 +1000,7 @@
     if-eqz v0, :cond_1
 
     .line 314
-    sget-object v0, Lkik/android/util/g;->d:Ljava/io/File;
+    sget-object v0, Lkik/arcane/util/g;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 

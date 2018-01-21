@@ -1,9 +1,9 @@
-.class public final Lkik/android/util/ap;
+.class public final Lkik/arcane/util/ap;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/util/bj;
+.implements Lkik/arcane/util/bj;
 
 
 # direct methods
@@ -24,7 +24,7 @@
 
     .prologue
     .line 21
-    invoke-static {p1, p2}, Lkik/android/chat/KikApplication;->a(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lkik/arcane/chat/KikApplication;->a(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 

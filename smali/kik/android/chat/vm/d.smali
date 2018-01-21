@@ -1,5 +1,5 @@
-.class public abstract Lkik/android/chat/vm/d;
-.super Lkik/android/chat/vm/e;
+.class public abstract Lkik/arcane/chat/vm/d;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 
@@ -16,7 +16,7 @@
 
     .prologue
     .line 13
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     return-void
 .end method
@@ -26,7 +26,7 @@
 
     .prologue
     .line 47
-    iget-object v0, p0, Lkik/android/chat/vm/d;->a:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/d;->a:Landroid/content/res/Resources;
 
     if-nez v0, :cond_0
 
@@ -68,10 +68,10 @@
 
     .prologue
     .line 19
-    invoke-direct {p0, p1}, Lkik/android/chat/vm/d;->b(I)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/vm/d;->b(I)V
 
     .line 20
-    iget-object v0, p0, Lkik/android/chat/vm/d;->a:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/d;->a:Landroid/content/res/Resources;
 
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -85,10 +85,10 @@
 
     .prologue
     .line 25
-    invoke-direct {p0, p1}, Lkik/android/chat/vm/d;->b(I)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/vm/d;->b(I)V
 
     .line 27
-    iget-object v0, p0, Lkik/android/chat/vm/d;->a:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/d;->a:Landroid/content/res/Resources;
 
     invoke-virtual {v0, p1, p2}, Landroid/content/res/Resources;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -97,15 +97,15 @@
     return-object v0
 .end method
 
-.method public a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+.method public a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
     .locals 0
 
     .prologue
     .line 40
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
 
     .line 42
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/d;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/d;)V
 
     .line 43
     return-void
@@ -118,10 +118,10 @@
     const v1, 0x7f020263
 
     .line 32
-    invoke-direct {p0, v1}, Lkik/android/chat/vm/d;->b(I)V
+    invoke-direct {p0, v1}, Lkik/arcane/chat/vm/d;->b(I)V
 
     .line 34
-    iget-object v0, p0, Lkik/android/chat/vm/d;->a:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/d;->a:Landroid/content/res/Resources;
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

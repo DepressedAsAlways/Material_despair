@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/TrophyDialogFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/TrophyDialogFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/TrophyDialogFragment;
+.field private a:Lkik/arcane/chat/fragment/TrophyDialogFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/TrophyDialogFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/TrophyDialogFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 20
-    iput-object p1, p0, Lkik/android/chat/fragment/TrophyDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/TrophyDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/TrophyDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/TrophyDialogFragment;
 
     .line 22
     const v0, 0x7f10040f
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/TrophyDialogFragment;->_imageView:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/TrophyDialogFragment;->_imageView:Landroid/widget/ImageView;
 
     .line 23
     const v0, 0x7f100410
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/TrophyDialogFragment;->_titleView:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/TrophyDialogFragment;->_titleView:Landroid/widget/TextView;
 
     .line 24
     const v0, 0x7f100411
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/TrophyDialogFragment;->_bodyView:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/TrophyDialogFragment;->_bodyView:Landroid/widget/TextView;
 
     .line 25
     return-void
@@ -79,7 +79,7 @@
     const/4 v1, 0x0
 
     .line 30
-    iget-object v0, p0, Lkik/android/chat/fragment/TrophyDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/TrophyDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/TrophyDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/TrophyDialogFragment;
 
     .line 31
     if-nez v0, :cond_0
@@ -94,16 +94,16 @@
 
     .line 32
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/TrophyDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/TrophyDialogFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/TrophyDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/TrophyDialogFragment;
 
     .line 34
-    iput-object v1, v0, Lkik/android/chat/fragment/TrophyDialogFragment;->_imageView:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/TrophyDialogFragment;->_imageView:Landroid/widget/ImageView;
 
     .line 35
-    iput-object v1, v0, Lkik/android/chat/fragment/TrophyDialogFragment;->_titleView:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/TrophyDialogFragment;->_titleView:Landroid/widget/TextView;
 
     .line 36
-    iput-object v1, v0, Lkik/android/chat/fragment/TrophyDialogFragment;->_bodyView:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/TrophyDialogFragment;->_bodyView:Landroid/widget/TextView;
 
     .line 37
     return-void

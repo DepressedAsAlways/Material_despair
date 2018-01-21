@@ -1,14 +1,14 @@
-.class public final Lkik/android/chat/vm/l;
-.super Lkik/android/chat/vm/c;
+.class public final Lkik/arcane/chat/vm/l;
+.super Lkik/arcane/chat/vm/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/chat/vm/c",
+        "Lkik/arcane/chat/vm/c",
         "<",
-        "Lkik/android/chat/vm/ag;",
+        "Lkik/arcane/chat/vm/ag;",
         ">;"
     }
 .end annotation
@@ -42,10 +42,10 @@
 
     .prologue
     .line 18
-    invoke-direct {p0}, Lkik/android/chat/vm/c;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/c;-><init>()V
 
     .line 19
-    iput-object p1, p0, Lkik/android/chat/vm/l;->a:Ljava/util/List;
+    iput-object p1, p0, Lkik/arcane/chat/vm/l;->a:Ljava/util/List;
 
     .line 20
     return-void
@@ -53,15 +53,15 @@
 
 
 # virtual methods
-.method protected final synthetic a(I)Lkik/android/chat/vm/at;
+.method protected final synthetic a(I)Lkik/arcane/chat/vm/at;
     .locals 2
 
     .prologue
     .line 13
     .line 1031
-    new-instance v1, Lkik/android/chat/vm/k;
+    new-instance v1, Lkik/arcane/chat/vm/k;
 
-    iget-object v0, p0, Lkik/android/chat/vm/l;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/l;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -69,7 +69,7 @@
 
     check-cast v0, Lkik/core/datatypes/f;
 
-    invoke-direct {v1, v0}, Lkik/android/chat/vm/k;-><init>(Lkik/core/datatypes/f;)V
+    invoke-direct {v1, v0}, Lkik/arcane/chat/vm/k;-><init>(Lkik/core/datatypes/f;)V
 
     .line 13
     return-object v1
@@ -80,7 +80,7 @@
 
     .prologue
     .line 37
-    iget-object v0, p0, Lkik/android/chat/vm/l;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/l;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -100,7 +100,7 @@
 
     .prologue
     .line 25
-    iget-object v0, p0, Lkik/android/chat/vm/l;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/l;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 

@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/e$a;
+.class public final Lkik/arcane/e/e$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/e;
+    value = Lkik/arcane/e/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+.field private a:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/android/e/e$a;
+.method public final a(Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;)Lkik/arcane/e/e$a;
     .locals 0
 
     .prologue
     .line 227
-    iput-object p1, p0, Lkik/android/e/e$a;->a:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+    iput-object p1, p0, Lkik/arcane/e/e$a;->a:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
     .line 228
     if-nez p1, :cond_0
@@ -55,9 +55,9 @@
 
     .prologue
     .line 232
-    iget-object v0, p0, Lkik/android/e/e$a;->a:Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;
+    iget-object v0, p0, Lkik/arcane/e/e$a;->a:Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/messaging/IAudioRecordingViewModel;->k()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/messaging/IAudioRecordingViewModel;->k()V
 
     .line 233
     return-void

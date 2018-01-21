@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/chats/profile/av$5;
+.class final Lkik/arcane/chat/vm/chats/profile/av$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bt;
+.implements Lkik/arcane/chat/vm/bt;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/profile/av;
+    value = Lkik/arcane/chat/vm/chats/profile/av;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/chats/profile/av;
+.field final synthetic a:Lkik/arcane/chat/vm/chats/profile/av;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/profile/av;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/profile/av;)V
     .locals 0
 
     .prologue
     .line 281
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/av$5;->a:Lkik/android/chat/vm/chats/profile/av;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/av$5;->a:Lkik/arcane/chat/vm/chats/profile/av;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 285
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/av$5;->a:Lkik/android/chat/vm/chats/profile/av;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/av$5;->a:Lkik/arcane/chat/vm/chats/profile/av;
 
-    invoke-static {v0}, Lkik/android/chat/vm/chats/profile/av;->c(Lkik/android/chat/vm/chats/profile/av;)Lkik/core/datatypes/ac;
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/profile/av;->c(Lkik/arcane/chat/vm/chats/profile/av;)Lkik/core/datatypes/ac;
 
     move-result-object v0
 
@@ -57,9 +57,9 @@
 
     .prologue
     .line 291
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/av$5;->a:Lkik/android/chat/vm/chats/profile/av;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/av$5;->a:Lkik/arcane/chat/vm/chats/profile/av;
 
-    invoke-static {v0}, Lkik/android/chat/vm/chats/profile/av;->d(Lkik/android/chat/vm/chats/profile/av;)Lcom/kik/core/network/xmpp/jid/a;
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/profile/av;->d(Lkik/arcane/chat/vm/chats/profile/av;)Lcom/kik/core/network/xmpp/jid/a;
 
     move-result-object v0
 

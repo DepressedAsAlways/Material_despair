@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/q;
+.class public final Lkik/arcane/chat/vm/q;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bb;
+.implements Lkik/arcane/chat/vm/bb;
 
 
 # instance fields
@@ -44,10 +44,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 22
-    iput p1, p0, Lkik/android/chat/vm/q;->b:I
+    iput p1, p0, Lkik/arcane/chat/vm/q;->b:I
 
     .line 23
-    iput-object p2, p0, Lkik/android/chat/vm/q;->c:Ljava/util/ArrayList;
+    iput-object p2, p0, Lkik/arcane/chat/vm/q;->c:Ljava/util/ArrayList;
 
     .line 24
     return-void
@@ -60,7 +60,7 @@
 
     .prologue
     .line 28
-    iget v0, p0, Lkik/android/chat/vm/q;->b:I
+    iget v0, p0, Lkik/arcane/chat/vm/q;->b:I
 
     return v0
 .end method
@@ -79,7 +79,7 @@
 
     .prologue
     .line 33
-    iget-object v0, p0, Lkik/android/chat/vm/q;->c:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/chat/vm/q;->c:Ljava/util/ArrayList;
 
     return-object v0
 .end method

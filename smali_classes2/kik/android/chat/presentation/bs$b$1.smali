@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/presentation/bs$b$1;
+.class final Lkik/arcane/chat/presentation/bs$b$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/presentation/bs$b;->run()V
+    value = Lkik/arcane/chat/presentation/bs$b;->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/presentation/bs$b;
+.field final synthetic a:Lkik/arcane/chat/presentation/bs$b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/presentation/bs$b;)V
+.method constructor <init>(Lkik/arcane/chat/presentation/bs$b;)V
     .locals 0
 
     .prologue
     .line 64
-    iput-object p1, p0, Lkik/android/chat/presentation/bs$b$1;->a:Lkik/android/chat/presentation/bs$b;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/bs$b$1;->a:Lkik/arcane/chat/presentation/bs$b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,13 +43,13 @@
     const v8, 0x7f0e00a7
 
     .line 68
-    iget-object v0, p0, Lkik/android/chat/presentation/bs$b$1;->a:Lkik/android/chat/presentation/bs$b;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bs$b$1;->a:Lkik/arcane/chat/presentation/bs$b;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bs$b;->a(Lkik/android/chat/presentation/bs$b;)Lkik/android/challenge/PhoneVerificationNetworkProvider;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bs$b;->a(Lkik/arcane/chat/presentation/bs$b;)Lkik/arcane/challenge/PhoneVerificationNetworkProvider;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/challenge/PhoneVerificationNetworkProvider;->a()J
+    invoke-interface {v0}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider;->a()J
 
     move-result-wide v0
 
@@ -61,9 +61,9 @@
     if-lez v2, :cond_0
 
     .line 70
-    iget-object v2, p0, Lkik/android/chat/presentation/bs$b$1;->a:Lkik/android/chat/presentation/bs$b;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/bs$b$1;->a:Lkik/arcane/chat/presentation/bs$b;
 
-    invoke-static {v2}, Lkik/android/chat/presentation/bs$b;->b(Lkik/android/chat/presentation/bs$b;)Lkik/android/chat/view/ad;
+    invoke-static {v2}, Lkik/arcane/chat/presentation/bs$b;->b(Lkik/arcane/chat/presentation/bs$b;)Lkik/arcane/chat/view/ad;
 
     move-result-object v2
 
@@ -85,20 +85,20 @@
 
     aput-object v0, v4, v5
 
-    invoke-static {v3, v4}, Lkik/android/chat/KikApplication;->a(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3, v4}, Lkik/arcane/chat/KikApplication;->a(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-interface {v2, v0}, Lkik/android/chat/view/ad;->c(Ljava/lang/String;)V
+    invoke-interface {v2, v0}, Lkik/arcane/chat/view/ad;->c(Ljava/lang/String;)V
 
     .line 71
-    iget-object v0, p0, Lkik/android/chat/presentation/bs$b$1;->a:Lkik/android/chat/presentation/bs$b;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bs$b$1;->a:Lkik/arcane/chat/presentation/bs$b;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bs$b;->b(Lkik/android/chat/presentation/bs$b;)Lkik/android/chat/view/ad;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bs$b;->b(Lkik/arcane/chat/presentation/bs$b;)Lkik/arcane/chat/view/ad;
 
     move-result-object v0
 
-    invoke-interface {v0, v8}, Lkik/android/chat/view/ad;->b(I)V
+    invoke-interface {v0, v8}, Lkik/arcane/chat/view/ad;->b(I)V
 
     .line 78
     :goto_0
@@ -106,33 +106,33 @@
 
     .line 74
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/bs$b$1;->a:Lkik/android/chat/presentation/bs$b;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bs$b$1;->a:Lkik/arcane/chat/presentation/bs$b;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bs$b;->b(Lkik/android/chat/presentation/bs$b;)Lkik/android/chat/view/ad;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bs$b;->b(Lkik/arcane/chat/presentation/bs$b;)Lkik/arcane/chat/view/ad;
 
     move-result-object v0
 
     const v1, 0x7f090344
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/ad;->c(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/ad;->c(Ljava/lang/String;)V
 
     .line 75
-    iget-object v0, p0, Lkik/android/chat/presentation/bs$b$1;->a:Lkik/android/chat/presentation/bs$b;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bs$b$1;->a:Lkik/arcane/chat/presentation/bs$b;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bs$b;->b(Lkik/android/chat/presentation/bs$b;)Lkik/android/chat/view/ad;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bs$b;->b(Lkik/arcane/chat/presentation/bs$b;)Lkik/arcane/chat/view/ad;
 
     move-result-object v0
 
-    invoke-interface {v0, v8}, Lkik/android/chat/view/ad;->b(I)V
+    invoke-interface {v0, v8}, Lkik/arcane/chat/view/ad;->b(I)V
 
     .line 76
-    iget-object v0, p0, Lkik/android/chat/presentation/bs$b$1;->a:Lkik/android/chat/presentation/bs$b;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bs$b$1;->a:Lkik/arcane/chat/presentation/bs$b;
 
-    invoke-virtual {v0}, Lkik/android/chat/presentation/bs$b;->cancel()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/presentation/bs$b;->cancel()Z
 
     goto :goto_0
 .end method

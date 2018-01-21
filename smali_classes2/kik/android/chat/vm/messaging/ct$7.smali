@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/messaging/ct$7;
+.class final Lkik/arcane/chat/vm/messaging/ct$7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/messaging/ct;->a(Lkik/android/chat/vm/messaging/ct;Lcom/kik/cache/KikImageRequest;[BZLrx/j;)V
+    value = Lkik/arcane/chat/vm/messaging/ct;->a(Lkik/arcane/chat/vm/messaging/ct;Lcom/kik/cache/KikImageRequest;[BZLrx/j;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic b:[B
 
-.field final synthetic c:Lkik/android/chat/vm/messaging/ct;
+.field final synthetic c:Lkik/arcane/chat/vm/messaging/ct;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/ct;Lrx/j;[B)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/ct;Lrx/j;[B)V
     .locals 0
 
     .prologue
     .line 826
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/ct$7;->c:Lkik/android/chat/vm/messaging/ct;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/ct$7;->c:Lkik/arcane/chat/vm/messaging/ct;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/ct$7;->a:Lrx/j;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/ct$7;->a:Lrx/j;
 
-    iput-object p3, p0, Lkik/android/chat/vm/messaging/ct$7;->b:[B
+    iput-object p3, p0, Lkik/arcane/chat/vm/messaging/ct$7;->b:[B
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,11 +49,11 @@
 
     .prologue
     .line 830
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/ct$7;->a:Lrx/j;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/ct$7;->a:Lrx/j;
 
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/ct$7;->b:[B
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/ct$7;->b:[B
 
-    invoke-static {v1}, Lkik/android/util/h;->a([B)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/util/h;->a([B)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -78,7 +78,7 @@
 
     .line 839
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/ct$7;->a:Lrx/j;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/ct$7;->a:Lrx/j;
 
     invoke-virtual {p1}, Lcom/kik/cache/KikVolleyImageLoader$c;->b()Landroid/graphics/Bitmap;
 

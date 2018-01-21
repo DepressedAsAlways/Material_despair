@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.class public final enum Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/vm/IVoicePlayerViewModel;
+    value = Lkik/arcane/widget/vm/IVoicePlayerViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,22 +17,22 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;",
+        "Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.field private static final synthetic $VALUES:[Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-.field public static final enum LOADING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.field public static final enum LOADING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-.field public static final enum PAUSED:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.field public static final enum PAUSED:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-.field public static final enum PLAYING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.field public static final enum PLAYING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-.field public static final enum READY:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.field public static final enum READY:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
 
 # direct methods
@@ -49,63 +49,63 @@
     const/4 v2, 0x0
 
     .line 14
-    new-instance v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    new-instance v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     const-string v1, "READY"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->READY:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sput-object v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->READY:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     .line 15
-    new-instance v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    new-instance v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     const-string v1, "PLAYING"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PLAYING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sput-object v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PLAYING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     .line 16
-    new-instance v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    new-instance v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     const-string v1, "PAUSED"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PAUSED:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sput-object v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PAUSED:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     .line 17
-    new-instance v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    new-instance v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     const-string v1, "LOADING"
 
-    invoke-direct {v0, v1, v5}, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v5}, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->LOADING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sput-object v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->LOADING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     .line 12
     const/4 v0, 0x4
 
-    new-array v0, v0, [Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    new-array v0, v0, [Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->READY:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->READY:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PLAYING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PLAYING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PAUSED:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->PAUSED:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->LOADING:Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v1, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->LOADING:Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     aput-object v1, v0, v5
 
-    sput-object v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->$VALUES:[Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sput-object v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->$VALUES:[Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     return-void
 .end method
@@ -125,34 +125,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
     .locals 1
 
     .prologue
     .line 12
-    const-class v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    const-class v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    check-cast v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+.method public static values()[Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
     .locals 1
 
     .prologue
     .line 12
-    sget-object v0, Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->$VALUES:[Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    sget-object v0, Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->$VALUES:[Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
-    invoke-virtual {v0}, [Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
+    check-cast v0, [Lkik/arcane/widget/vm/IVoicePlayerViewModel$AudioPlayerState;
 
     return-object v0
 .end method

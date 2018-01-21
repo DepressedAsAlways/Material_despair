@@ -1,11 +1,11 @@
-.class final Lkik/android/net/communicator/CommunicatorService$7;
+.class final Lkik/arcane/net/communicator/CommunicatorService$7;
 .super Landroid/content/BroadcastReceiver;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/communicator/CommunicatorService;
+    value = Lkik/arcane/net/communicator/CommunicatorService;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/net/communicator/CommunicatorService;
+.field final synthetic a:Lkik/arcane/net/communicator/CommunicatorService;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/net/communicator/CommunicatorService;)V
+.method constructor <init>(Lkik/arcane/net/communicator/CommunicatorService;)V
     .locals 0
 
     .prologue
     .line 549
-    iput-object p1, p0, Lkik/android/net/communicator/CommunicatorService$7;->a:Lkik/android/net/communicator/CommunicatorService;
+    iput-object p1, p0, Lkik/arcane/net/communicator/CommunicatorService$7;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
@@ -76,11 +76,11 @@
     if-eqz v1, :cond_2
 
     .line 560
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$7;->a:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$7;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
     const-string v1, "Connectivity change"
 
-    invoke-static {v0, v1}, Lkik/android/net/communicator/CommunicatorService;->a(Lkik/android/net/communicator/CommunicatorService;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkik/arcane/net/communicator/CommunicatorService;->a(Lkik/arcane/net/communicator/CommunicatorService;Ljava/lang/String;)V
 
     .line 571
     :goto_2
@@ -103,9 +103,9 @@
     .line 565
     :cond_2
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/communicator/CommunicatorService$7;->a:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/CommunicatorService$7;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
-    invoke-static {v0}, Lkik/android/net/communicator/CommunicatorService;->h(Lkik/android/net/communicator/CommunicatorService;)V
+    invoke-static {v0}, Lkik/arcane/net/communicator/CommunicatorService;->h(Lkik/arcane/net/communicator/CommunicatorService;)V
     :try_end_0
     .catch Lkik/core/interfaces/ICommunication$BadStateException; {:try_start_0 .. :try_end_0} :catch_0
 

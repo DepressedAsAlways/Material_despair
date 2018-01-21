@@ -1,18 +1,18 @@
-.class public interface abstract Lkik/android/chat/vm/messaging/IMessageViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/messaging/IMessageViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/af;
-.implements Lkik/android/chat/vm/at;
-.implements Lkik/android/chat/vm/aw;
+.implements Lkik/arcane/chat/vm/af;
+.implements Lkik/arcane/chat/vm/at;
+.implements Lkik/arcane/chat/vm/aw;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/messaging/IMessageViewModel$Receipt;,
-        Lkik/android/chat/vm/messaging/IMessageViewModel$LayoutType;
+        Lkik/arcane/chat/vm/messaging/IMessageViewModel$Receipt;,
+        Lkik/arcane/chat/vm/messaging/IMessageViewModel$LayoutType;
     }
 .end annotation
 
@@ -24,7 +24,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/messaging/IMessageViewModel$Receipt;",
+            "Lkik/arcane/chat/vm/messaging/IMessageViewModel$Receipt;",
             ">;"
         }
     .end annotation
@@ -158,7 +158,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/messaging/AbstractMessageViewModel$TimeStampTransition;",
+            "Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$TimeStampTransition;",
             ">;"
         }
     .end annotation
@@ -266,7 +266,7 @@
 .method public abstract Z()V
 .end method
 
-.method public abstract a(Lkik/android/chat/presentation/MediaTrayPresenter;)V
+.method public abstract a(Lkik/arcane/chat/presentation/MediaTrayPresenter;)V
 .end method
 
 .method public abstract aa()V
@@ -338,7 +338,7 @@
     .end annotation
 .end method
 
-.method public abstract ah()Lkik/android/widget/RobotoTextView$a;
+.method public abstract ah()Lkik/arcane/widget/RobotoTextView$a;
 .end method
 
 .method public abstract ai()Lrx/d;
@@ -392,10 +392,10 @@
 .method public abstract an()Z
 .end method
 
-.method public abstract ao()Lkik/android/chat/vm/IBadgeViewModel;
+.method public abstract ao()Lkik/arcane/chat/vm/IBadgeViewModel;
 .end method
 
-.method public abstract ap()Lkik/android/chat/vm/messaging/IMessageViewModel$LayoutType;
+.method public abstract ap()Lkik/arcane/chat/vm/messaging/IMessageViewModel$LayoutType;
 .end method
 
 .method public abstract c(Ljava/lang/String;)V

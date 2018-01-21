@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/bm;
+.class public final Lkik/arcane/chat/vm/bm;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

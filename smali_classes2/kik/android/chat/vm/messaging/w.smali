@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/w;
+.class final synthetic Lkik/arcane/chat/vm/messaging/w;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/messaging/w;
+.field private static final a:Lkik/arcane/chat/vm/messaging/w;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/w;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/w;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/messaging/w;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/messaging/w;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/w;->a:Lkik/android/chat/vm/messaging/w;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/w;->a:Lkik/arcane/chat/vm/messaging/w;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/messaging/w;->a:Lkik/android/chat/vm/messaging/w;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/w;->a:Lkik/arcane/chat/vm/messaging/w;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Lkik/core/chat/profile/EmojiStatus;
 
-    invoke-static {p1}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel;->a(Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
+    invoke-static {p1}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;->a(Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
 
     move-result-object v0
 

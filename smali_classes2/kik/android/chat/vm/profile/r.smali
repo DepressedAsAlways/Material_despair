@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/r;
+.class final synthetic Lkik/arcane/chat/vm/profile/r;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/profile/r;
+.field private static final a:Lkik/arcane/chat/vm/profile/r;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/r;
+    new-instance v0, Lkik/arcane/chat/vm/profile/r;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/profile/r;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/profile/r;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/profile/r;->a:Lkik/android/chat/vm/profile/r;
+    sput-object v0, Lkik/arcane/chat/vm/profile/r;->a:Lkik/arcane/chat/vm/profile/r;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/h;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/profile/r;->a:Lkik/android/chat/vm/profile/r;
+    sget-object v0, Lkik/arcane/chat/vm/profile/r;->a:Lkik/arcane/chat/vm/profile/r;
 
     return-object v0
 .end method
@@ -57,7 +57,7 @@
     if-nez v0, :cond_0
 
     .line 1059
-    sget-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_NONE:Lkik/android/chat/vm/IBadgeViewModel$BadgeType;
+    sget-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_NONE:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;
 
     .line 1061
     :goto_0
@@ -70,12 +70,12 @@
 
     if-eqz v0, :cond_1
 
-    sget-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_TRUSTED_BOT:Lkik/android/chat/vm/IBadgeViewModel$BadgeType;
+    sget-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_TRUSTED_BOT:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;
 
     goto :goto_0
 
     :cond_1
-    sget-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_ANY_BOT:Lkik/android/chat/vm/IBadgeViewModel$BadgeType;
+    sget-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_ANY_BOT:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;
 
     goto :goto_0
 .end method

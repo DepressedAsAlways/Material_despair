@@ -1,11 +1,11 @@
-.class final Lkik/android/util/an$3;
+.class final Lkik/arcane/util/an$3;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/an;->b(Landroid/view/View;FJ)V
+    value = Lkik/arcane/util/an;->b(Landroid/view/View;FJ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 235
-    iput-object p1, p0, Lkik/android/util/an$3;->a:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/util/an$3;->a:Landroid/view/View;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,7 +38,7 @@
 
     .prologue
     .line 240
-    iget-object v0, p0, Lkik/android/util/an$3;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/an$3;->a:Landroid/view/View;
 
     const/4 v1, 0x0
 

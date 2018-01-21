@@ -1,14 +1,14 @@
-.class public final Lkik/android/util/af;
+.class public final Lkik/arcane/util/af;
 .super Landroid/text/method/LinkMovementMethod;
 .source "SourceFile"
 
 
 # static fields
-.field private static b:Lkik/android/util/af;
+.field private static b:Lkik/arcane/util/af;
 
 
 # instance fields
-.field private a:Lkik/android/chat/view/text/b;
+.field private a:Lkik/arcane/chat/view/text/b;
 
 
 # direct methods
@@ -22,25 +22,25 @@
     return-void
 .end method
 
-.method public static a()Lkik/android/util/af;
+.method public static a()Lkik/arcane/util/af;
     .locals 1
 
     .prologue
     .line 81
-    sget-object v0, Lkik/android/util/af;->b:Lkik/android/util/af;
+    sget-object v0, Lkik/arcane/util/af;->b:Lkik/arcane/util/af;
 
     if-nez v0, :cond_0
 
     .line 82
-    new-instance v0, Lkik/android/util/af;
+    new-instance v0, Lkik/arcane/util/af;
 
-    invoke-direct {v0}, Lkik/android/util/af;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/af;-><init>()V
 
-    sput-object v0, Lkik/android/util/af;->b:Lkik/android/util/af;
+    sput-object v0, Lkik/arcane/util/af;->b:Lkik/arcane/util/af;
 
     .line 84
     :cond_0
-    sget-object v0, Lkik/android/util/af;->b:Lkik/android/util/af;
+    sget-object v0, Lkik/arcane/util/af;->b:Lkik/arcane/util/af;
 
     return-object v0
 .end method
@@ -69,7 +69,7 @@
 
     .line 1061
     :cond_0
-    new-array v0, v6, [Lkik/android/chat/view/text/b;
+    new-array v0, v6, [Lkik/arcane/chat/view/text/b;
 
     .line 27
     :goto_0
@@ -86,24 +86,24 @@
     if-nez v2, :cond_5
 
     .line 29
-    iget-object v1, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iget-object v1, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
     if-eqz v1, :cond_1
 
     .line 30
-    iget-object v1, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iget-object v1, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
-    invoke-interface {v1, v5}, Lkik/android/chat/view/text/b;->a(Z)V
+    invoke-interface {v1, v5}, Lkik/arcane/chat/view/text/b;->a(Z)V
 
     .line 32
     :cond_1
     if-eqz v0, :cond_2
 
     .line 33
-    invoke-interface {v0, v6}, Lkik/android/chat/view/text/b;->a(Z)V
+    invoke-interface {v0, v6}, Lkik/arcane/chat/view/text/b;->a(Z)V
 
     .line 34
-    iput-object v0, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iput-object v0, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
     .line 54
     :cond_2
@@ -175,13 +175,13 @@
     move-result v0
 
     .line 1076
-    const-class v3, Lkik/android/chat/view/text/b;
+    const-class v3, Lkik/arcane/chat/view/text/b;
 
     invoke-interface {p2, v0, v0, v3}, Landroid/text/Spannable;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/view/text/b;
+    check-cast v0, [Lkik/arcane/chat/view/text/b;
 
     goto :goto_0
 
@@ -198,21 +198,21 @@
     if-ne v2, v3, :cond_6
 
     .line 39
-    iget-object v2, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iget-object v2, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
     if-eqz v2, :cond_2
 
-    iget-object v2, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iget-object v2, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
     if-eq v2, v0, :cond_2
 
     .line 40
-    iget-object v0, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iget-object v0, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
-    invoke-interface {v0, v5}, Lkik/android/chat/view/text/b;->a(Z)V
+    invoke-interface {v0, v5}, Lkik/arcane/chat/view/text/b;->a(Z)V
 
     .line 41
-    iput-object v1, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iput-object v1, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
     .line 42
     invoke-static {p2}, Landroid/text/Selection;->removeSelection(Landroid/text/Spannable;)V
@@ -221,17 +221,17 @@
 
     .line 47
     :cond_6
-    iget-object v0, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iget-object v0, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
     if-eqz v0, :cond_2
 
     .line 48
-    iget-object v0, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iget-object v0, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
-    invoke-interface {v0, v5}, Lkik/android/chat/view/text/b;->a(Z)V
+    invoke-interface {v0, v5}, Lkik/arcane/chat/view/text/b;->a(Z)V
 
     .line 49
-    iput-object v1, p0, Lkik/android/util/af;->a:Lkik/android/chat/view/text/b;
+    iput-object v1, p0, Lkik/arcane/util/af;->a:Lkik/arcane/chat/view/text/b;
 
     .line 50
     invoke-static {p2}, Landroid/text/Selection;->removeSelection(Landroid/text/Spannable;)V

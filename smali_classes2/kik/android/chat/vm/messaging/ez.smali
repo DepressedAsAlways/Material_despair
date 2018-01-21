@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/ez;
+.class final synthetic Lkik/arcane/chat/vm/messaging/ez;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/messaging/ev;
+.field private final a:Lkik/arcane/chat/vm/messaging/ev;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/messaging/ev;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/messaging/ev;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/ez;->a:Lkik/android/chat/vm/messaging/ev;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/ez;->a:Lkik/arcane/chat/vm/messaging/ev;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/messaging/ev;)Lrx/functions/g;
+.method public static a(Lkik/arcane/chat/vm/messaging/ev;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/ez;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/ez;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/messaging/ez;-><init>(Lkik/android/chat/vm/messaging/ev;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/messaging/ez;-><init>(Lkik/arcane/chat/vm/messaging/ev;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/ez;->a:Lkik/android/chat/vm/messaging/ev;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/ez;->a:Lkik/arcane/chat/vm/messaging/ev;
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {v0, p1}, Lkik/android/chat/vm/messaging/ev;->c(Lkik/android/chat/vm/messaging/ev;Ljava/lang/Integer;)Lkik/android/chat/vm/messaging/IMessageViewModel;
+    invoke-static {v0, p1}, Lkik/arcane/chat/vm/messaging/ev;->c(Lkik/arcane/chat/vm/messaging/ev;Ljava/lang/Integer;)Lkik/arcane/chat/vm/messaging/IMessageViewModel;
 
     move-result-object v0
 

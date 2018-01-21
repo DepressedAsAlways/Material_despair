@@ -1,14 +1,14 @@
-.class final Lkik/android/voice/s$1;
+.class final Lkik/arcane/voice/s$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/voice/g$a;
+.implements Lkik/arcane/voice/g$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/voice/s;->a(Ljava/lang/String;I)Lkik/android/voice/g$a;
+    value = Lkik/arcane/voice/s;->a(Ljava/lang/String;I)Lkik/arcane/voice/g$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic b:F
 
-.field final synthetic c:Lkik/android/voice/s;
+.field final synthetic c:Lkik/arcane/voice/s;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/voice/s;FF)V
+.method constructor <init>(Lkik/arcane/voice/s;FF)V
     .locals 0
 
     .prologue
     .line 87
-    iput-object p1, p0, Lkik/android/voice/s$1;->c:Lkik/android/voice/s;
+    iput-object p1, p0, Lkik/arcane/voice/s$1;->c:Lkik/arcane/voice/s;
 
-    iput p2, p0, Lkik/android/voice/s$1;->a:F
+    iput p2, p0, Lkik/arcane/voice/s$1;->a:F
 
-    iput p3, p0, Lkik/android/voice/s$1;->b:F
+    iput p3, p0, Lkik/arcane/voice/s$1;->b:F
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,7 +49,7 @@
 
     .prologue
     .line 91
-    iget v0, p0, Lkik/android/voice/s$1;->a:F
+    iget v0, p0, Lkik/arcane/voice/s$1;->a:F
 
     return v0
 .end method
@@ -59,7 +59,7 @@
 
     .prologue
     .line 97
-    iget v0, p0, Lkik/android/voice/s$1;->b:F
+    iget v0, p0, Lkik/arcane/voice/s$1;->b:F
 
     return v0
 .end method

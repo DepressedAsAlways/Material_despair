@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/AudioMicLayoutView$3;
+.class final Lkik/arcane/widget/AudioMicLayoutView$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/AudioMicLayoutView;->a(J)V
+    value = Lkik/arcane/widget/AudioMicLayoutView;->a(J)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Landroid/widget/FrameLayout$LayoutParams;
 
-.field final synthetic b:Lkik/android/widget/AudioMicLayoutView;
+.field final synthetic b:Lkik/arcane/widget/AudioMicLayoutView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AudioMicLayoutView;Landroid/widget/FrameLayout$LayoutParams;)V
+.method constructor <init>(Lkik/arcane/widget/AudioMicLayoutView;Landroid/widget/FrameLayout$LayoutParams;)V
     .locals 0
 
     .prologue
     .line 287
-    iput-object p1, p0, Lkik/android/widget/AudioMicLayoutView$3;->b:Lkik/android/widget/AudioMicLayoutView;
+    iput-object p1, p0, Lkik/arcane/widget/AudioMicLayoutView$3;->b:Lkik/arcane/widget/AudioMicLayoutView;
 
-    iput-object p2, p0, Lkik/android/widget/AudioMicLayoutView$3;->a:Landroid/widget/FrameLayout$LayoutParams;
+    iput-object p2, p0, Lkik/arcane/widget/AudioMicLayoutView$3;->a:Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 291
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView$3;->a:Landroid/widget/FrameLayout$LayoutParams;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView$3;->a:Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
@@ -60,11 +60,11 @@
     iput v0, v1, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
     .line 292
-    iget-object v0, p0, Lkik/android/widget/AudioMicLayoutView$3;->b:Lkik/android/widget/AudioMicLayoutView;
+    iget-object v0, p0, Lkik/arcane/widget/AudioMicLayoutView$3;->b:Lkik/arcane/widget/AudioMicLayoutView;
 
-    iget-object v0, v0, Lkik/android/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
+    iget-object v0, v0, Lkik/arcane/widget/AudioMicLayoutView;->_micLayout:Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/widget/AudioMicLayoutView$3;->a:Landroid/widget/FrameLayout$LayoutParams;
+    iget-object v1, p0, Lkik/arcane/widget/AudioMicLayoutView$3;->a:Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 

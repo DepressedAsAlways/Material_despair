@@ -1,5 +1,5 @@
-.class public final Lkik/android/chat/vm/messaging/a/c;
-.super Lkik/android/chat/vm/messaging/fs;
+.class public final Lkik/arcane/chat/vm/messaging/a/c;
+.super Lkik/arcane/chat/vm/messaging/fs;
 .source "SourceFile"
 
 
@@ -45,10 +45,10 @@
 
     move-object v2, v1
 
-    invoke-direct/range {v0 .. v7}, Lkik/android/chat/vm/messaging/fs;-><init>(Lkik/core/datatypes/Message;Ljava/lang/String;Lrx/d;Lrx/d;Lrx/d;Lrx/d;Lrx/d;)V
+    invoke-direct/range {v0 .. v7}, Lkik/arcane/chat/vm/messaging/fs;-><init>(Lkik/core/datatypes/Message;Ljava/lang/String;Lrx/d;Lrx/d;Lrx/d;Lrx/d;Lrx/d;)V
 
     .line 27
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/a/c;->g:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/a/c;->g:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 28
     return-void
@@ -56,12 +56,12 @@
 
 
 # virtual methods
-.method public final aM()Lkik/android/widget/ContentPreviewImageView$ContentType;
+.method public final aM()Lkik/arcane/widget/ContentPreviewImageView$ContentType;
     .locals 1
 
     .prologue
     .line 55
-    sget-object v0, Lkik/android/widget/ContentPreviewImageView$ContentType;->STICKER:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    sget-object v0, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->STICKER:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
     return-object v0
 .end method
@@ -81,7 +81,7 @@
     .prologue
     .line 39
     .line 1049
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/a/c;->g:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/a/c;->g:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 40
     const-string v1, "png-preview"
@@ -100,7 +100,7 @@
     move-result-object v0
 
     .line 43
-    invoke-static {v0}, Lkik/android/util/h;->a([B)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/util/h;->a([B)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -124,7 +124,7 @@
 
     .prologue
     .line 49
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/a/c;->g:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/a/c;->g:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     return-object v0
 .end method

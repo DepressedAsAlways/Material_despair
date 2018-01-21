@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/l;
+.class public final Lkik/arcane/util/l;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,18 +6,18 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/l$b;,
-        Lkik/android/util/l$a;
+        Lkik/arcane/util/l$b;,
+        Lkik/arcane/util/l$a;
     }
 .end annotation
 
 
 # static fields
-.field public static final a:Lkik/android/util/l$a;
+.field public static final a:Lkik/arcane/util/l$a;
 
-.field public static final b:Lkik/android/util/l$a;
+.field public static final b:Lkik/arcane/util/l$a;
 
-.field public static final c:Lkik/android/util/l$b;
+.field public static final c:Lkik/arcane/util/l$b;
 
 .field private static final d:Ljava/util/regex/Pattern;
 
@@ -34,33 +34,33 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/l;->d:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/l;->d:Ljava/util/regex/Pattern;
 
     .line 106
-    new-instance v0, Lkik/android/util/l$1;
+    new-instance v0, Lkik/arcane/util/l$1;
 
-    invoke-direct {v0}, Lkik/android/util/l$1;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/l$1;-><init>()V
 
-    sput-object v0, Lkik/android/util/l;->a:Lkik/android/util/l$a;
+    sput-object v0, Lkik/arcane/util/l;->a:Lkik/arcane/util/l$a;
 
     .line 125
-    new-instance v0, Lkik/android/util/l$2;
+    new-instance v0, Lkik/arcane/util/l$2;
 
-    invoke-direct {v0}, Lkik/android/util/l$2;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/l$2;-><init>()V
 
-    sput-object v0, Lkik/android/util/l;->b:Lkik/android/util/l$a;
+    sput-object v0, Lkik/arcane/util/l;->b:Lkik/arcane/util/l$a;
 
     .line 153
-    new-instance v0, Lkik/android/util/l$3;
+    new-instance v0, Lkik/arcane/util/l$3;
 
-    invoke-direct {v0}, Lkik/android/util/l$3;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/l$3;-><init>()V
 
-    sput-object v0, Lkik/android/util/l;->c:Lkik/android/util/l$b;
+    sput-object v0, Lkik/arcane/util/l;->c:Lkik/arcane/util/l$b;
 
     return-void
 .end method
 
-.method private static a(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Lkik/android/util/l$b;)Ljava/lang/String;
+.method private static a(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Lkik/arcane/util/l$b;)Ljava/lang/String;
     .locals 10
 
     .prologue
@@ -72,7 +72,7 @@
     if-eqz p3, :cond_4
 
     .line 448
-    invoke-interface {p3, p2}, Lkik/android/util/l$b;->a(Ljava/util/regex/Matcher;)Ljava/lang/String;
+    invoke-interface {p3, p2}, Lkik/arcane/util/l$b;->a(Ljava/util/regex/Matcher;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -239,7 +239,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {p0, v0}, Lkik/android/util/l;->a(Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+    invoke-static {p0, v0}, Lkik/arcane/util/l;->a(Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v0
 
@@ -273,11 +273,11 @@
 
     move-result-object v1
 
-    sget-object v2, Lkik/android/util/bf;->b:Ljava/util/regex/Pattern;
+    sget-object v2, Lkik/arcane/util/bf;->b:Ljava/util/regex/Pattern;
 
-    sget-object v3, Lkik/android/util/l;->a:Lkik/android/util/l$a;
+    sget-object v3, Lkik/arcane/util/l;->a:Lkik/arcane/util/l$a;
 
-    invoke-static {v0, v1, v2, p1, v3}, Lkik/android/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;)V
+    invoke-static {v0, v1, v2, p1, v3}, Lkik/arcane/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;)V
 
     .line 513
     new-instance v1, Ljava/util/ArrayList;
@@ -304,10 +304,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/au;
+    check-cast v0, Lkik/arcane/util/au;
 
     .line 516
-    iget-object v0, v0, Lkik/android/util/au;->a:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/util/au;->a:Ljava/lang/String;
 
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -325,7 +325,7 @@
             "(",
             "Ljava/util/ArrayList",
             "<",
-            "Lkik/android/util/au;",
+            "Lkik/arcane/util/au;",
             ">;)V"
         }
     .end annotation
@@ -334,9 +334,9 @@
     const/4 v3, -0x1
 
     .line 590
-    new-instance v0, Lkik/android/util/l$4;
+    new-instance v0, Lkik/arcane/util/l$4;
 
-    invoke-direct {v0}, Lkik/android/util/l$4;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/l$4;-><init>()V
 
     .line 618
     invoke-static {p0, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
@@ -362,7 +362,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/au;
+    check-cast v0, Lkik/arcane/util/au;
 
     .line 625
     add-int/lit8 v1, v2, 0x1
@@ -371,25 +371,25 @@
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/util/au;
+    check-cast v1, Lkik/arcane/util/au;
 
     .line 628
-    iget v5, v0, Lkik/android/util/au;->b:I
+    iget v5, v0, Lkik/arcane/util/au;->b:I
 
-    iget v6, v1, Lkik/android/util/au;->b:I
+    iget v6, v1, Lkik/arcane/util/au;->b:I
 
     if-gt v5, v6, :cond_2
 
-    iget v5, v0, Lkik/android/util/au;->c:I
+    iget v5, v0, Lkik/arcane/util/au;->c:I
 
-    iget v6, v1, Lkik/android/util/au;->b:I
+    iget v6, v1, Lkik/arcane/util/au;->b:I
 
     if-le v5, v6, :cond_2
 
     .line 629
-    iget v5, v1, Lkik/android/util/au;->c:I
+    iget v5, v1, Lkik/arcane/util/au;->c:I
 
-    iget v6, v0, Lkik/android/util/au;->c:I
+    iget v6, v0, Lkik/arcane/util/au;->c:I
 
     if-gt v5, v6, :cond_0
 
@@ -413,15 +413,15 @@
 
     .line 632
     :cond_0
-    iget v5, v0, Lkik/android/util/au;->c:I
+    iget v5, v0, Lkik/arcane/util/au;->c:I
 
-    iget v6, v0, Lkik/android/util/au;->b:I
+    iget v6, v0, Lkik/arcane/util/au;->b:I
 
     sub-int/2addr v5, v6
 
-    iget v6, v1, Lkik/android/util/au;->c:I
+    iget v6, v1, Lkik/arcane/util/au;->c:I
 
-    iget v7, v1, Lkik/android/util/au;->b:I
+    iget v7, v1, Lkik/arcane/util/au;->b:I
 
     sub-int/2addr v6, v7
 
@@ -434,15 +434,15 @@
 
     .line 635
     :cond_1
-    iget v5, v0, Lkik/android/util/au;->c:I
+    iget v5, v0, Lkik/arcane/util/au;->c:I
 
-    iget v0, v0, Lkik/android/util/au;->b:I
+    iget v0, v0, Lkik/arcane/util/au;->b:I
 
     sub-int v0, v5, v0
 
-    iget v5, v1, Lkik/android/util/au;->c:I
+    iget v5, v1, Lkik/arcane/util/au;->c:I
 
-    iget v1, v1, Lkik/android/util/au;->b:I
+    iget v1, v1, Lkik/arcane/util/au;->b:I
 
     sub-int v1, v5, v1
 
@@ -477,7 +477,7 @@
             "(",
             "Ljava/util/ArrayList",
             "<",
-            "Lkik/android/util/au;",
+            "Lkik/arcane/util/au;",
             ">;",
             "Landroid/text/Spannable;",
             ")V"
@@ -510,9 +510,9 @@
     if-ltz v3, :cond_0
 
     .line 535
-    new-instance v4, Lkik/android/util/au;
+    new-instance v4, Lkik/arcane/util/au;
 
-    invoke-direct {v4}, Lkik/android/util/au;-><init>()V
+    invoke-direct {v4}, Lkik/arcane/util/au;-><init>()V
 
     .line 536
     invoke-virtual {v2}, Ljava/lang/String;->length()I
@@ -525,12 +525,12 @@
     .line 539
     add-int/2addr v3, v0
 
-    iput v3, v4, Lkik/android/util/au;->b:I
+    iput v3, v4, Lkik/arcane/util/au;->b:I
 
     .line 540
     add-int v3, v0, v5
 
-    iput v3, v4, Lkik/android/util/au;->c:I
+    iput v3, v4, Lkik/arcane/util/au;->c:I
 
     .line 541
     invoke-virtual {v1, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
@@ -565,7 +565,7 @@
 
     move-result-object v2
 
-    iput-object v2, v4, Lkik/android/util/au;->a:Ljava/lang/String;
+    iput-object v2, v4, Lkik/arcane/util/au;->a:Ljava/lang/String;
 
     .line 554
     invoke-virtual {p0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -590,7 +590,7 @@
             "(",
             "Ljava/util/ArrayList",
             "<",
-            "Lkik/android/util/au;",
+            "Lkik/arcane/util/au;",
             ">;",
             "Landroid/text/Spannable;",
             "Ljava/util/regex/Pattern;",
@@ -639,9 +639,9 @@
     if-ltz v2, :cond_1
 
     .line 575
-    new-instance v3, Lkik/android/util/au;
+    new-instance v3, Lkik/arcane/util/au;
 
-    invoke-direct {v3}, Lkik/android/util/au;-><init>()V
+    invoke-direct {v3}, Lkik/arcane/util/au;-><init>()V
 
     .line 576
     invoke-virtual {v1}, Ljava/util/regex/Matcher;->end()I
@@ -649,10 +649,10 @@
     move-result v4
 
     .line 578
-    iput v2, v3, Lkik/android/util/au;->b:I
+    iput v2, v3, Lkik/arcane/util/au;->b:I
 
     .line 579
-    iput v4, v3, Lkik/android/util/au;->c:I
+    iput v4, v3, Lkik/arcane/util/au;->c:I
 
     .line 580
     invoke-virtual {v0, v2, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -660,12 +660,12 @@
     move-result-object v2
 
     .line 581
-    invoke-static {v2, p3, v5, v5}, Lkik/android/util/l;->a(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Lkik/android/util/l$b;)Ljava/lang/String;
+    invoke-static {v2, p3, v5, v5}, Lkik/arcane/util/l;->a(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Lkik/arcane/util/l$b;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 583
-    iput-object v2, v3, Lkik/android/util/au;->a:Ljava/lang/String;
+    iput-object v2, v3, Lkik/arcane/util/au;->a:Ljava/lang/String;
 
     .line 584
     invoke-virtual {p0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -677,27 +677,27 @@
     return-void
 .end method
 
-.method private static a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;)V
+.method private static a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List",
             "<",
-            "Lkik/android/util/au;",
+            "Lkik/arcane/util/au;",
             ">;",
             "Landroid/text/Spannable;",
             "Ljava/util/regex/Pattern;",
             "[",
             "Ljava/lang/String;",
-            "Lkik/android/util/l$a;",
+            "Lkik/arcane/util/l$a;",
             ")V"
         }
     .end annotation
 
     .prologue
     .line 475
-    sget-object v0, Lkik/android/util/l;->d:Ljava/util/regex/Pattern;
+    sget-object v0, Lkik/arcane/util/l;->d:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -727,26 +727,26 @@
 
     move-object v4, p4
 
-    invoke-static/range {v0 .. v5}, Lkik/android/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;Lkik/android/util/l$b;)V
+    invoke-static/range {v0 .. v5}, Lkik/arcane/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;Lkik/arcane/util/l$b;)V
 
     goto :goto_0
 .end method
 
-.method private static a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;Lkik/android/util/l$b;)V
+.method private static a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;Lkik/arcane/util/l$b;)V
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List",
             "<",
-            "Lkik/android/util/au;",
+            "Lkik/arcane/util/au;",
             ">;",
             "Landroid/text/Spannable;",
             "Ljava/util/regex/Pattern;",
             "[",
             "Ljava/lang/String;",
-            "Lkik/android/util/l$a;",
-            "Lkik/android/util/l$b;",
+            "Lkik/arcane/util/l$a;",
+            "Lkik/arcane/util/l$b;",
             ")V"
         }
     .end annotation
@@ -779,7 +779,7 @@
     .line 489
     if-eqz p4, :cond_1
 
-    invoke-interface {p4, p1, v1, v2}, Lkik/android/util/l$a;->a(Ljava/lang/CharSequence;II)Z
+    invoke-interface {p4, p1, v1, v2}, Lkik/arcane/util/l$a;->a(Ljava/lang/CharSequence;II)Z
 
     move-result v3
 
@@ -787,9 +787,9 @@
 
     .line 490
     :cond_1
-    new-instance v3, Lkik/android/util/au;
+    new-instance v3, Lkik/arcane/util/au;
 
-    invoke-direct {v3}, Lkik/android/util/au;-><init>()V
+    invoke-direct {v3}, Lkik/arcane/util/au;-><init>()V
 
     .line 491
     const/4 v4, 0x0
@@ -798,18 +798,18 @@
 
     move-result-object v4
 
-    invoke-static {v4, p3, v0, p5}, Lkik/android/util/l;->a(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Lkik/android/util/l$b;)Ljava/lang/String;
+    invoke-static {v4, p3, v0, p5}, Lkik/arcane/util/l;->a(Ljava/lang/String;[Ljava/lang/String;Ljava/util/regex/Matcher;Lkik/arcane/util/l$b;)Ljava/lang/String;
 
     move-result-object v4
 
     .line 493
-    iput-object v4, v3, Lkik/android/util/au;->a:Ljava/lang/String;
+    iput-object v4, v3, Lkik/arcane/util/au;->a:Ljava/lang/String;
 
     .line 494
-    iput v1, v3, Lkik/android/util/au;->b:I
+    iput v1, v3, Lkik/arcane/util/au;->b:I
 
     .line 495
-    iput v2, v3, Lkik/android/util/au;->c:I
+    iput v2, v3, Lkik/arcane/util/au;->c:I
 
     .line 497
     invoke-interface {p0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -821,7 +821,7 @@
     return-void
 .end method
 
-.method private static a(Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/av$a;)Z
+.method private static a(Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/av$a;)Z
     .locals 6
 
     .prologue
@@ -865,7 +865,7 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 227
-    sget-object v1, Lkik/android/util/bf;->b:Ljava/util/regex/Pattern;
+    sget-object v1, Lkik/arcane/util/bf;->b:Ljava/util/regex/Pattern;
 
     const/4 v2, 0x3
 
@@ -889,12 +889,12 @@
 
     aput-object v4, v2, v3
 
-    sget-object v3, Lkik/android/util/l;->a:Lkik/android/util/l$a;
+    sget-object v3, Lkik/arcane/util/l;->a:Lkik/arcane/util/l$a;
 
-    invoke-static {v0, p0, v1, v2, v3}, Lkik/android/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;)V
+    invoke-static {v0, p0, v1, v2, v3}, Lkik/arcane/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;)V
 
     .line 231
-    sget-object v2, Lkik/android/util/bf;->e:Ljava/util/regex/Pattern;
+    sget-object v2, Lkik/arcane/util/bf;->e:Ljava/util/regex/Pattern;
 
     const/4 v1, 0x1
 
@@ -912,10 +912,10 @@
 
     move-object v1, p0
 
-    invoke-static/range {v0 .. v5}, Lkik/android/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;Lkik/android/util/l$b;)V
+    invoke-static/range {v0 .. v5}, Lkik/arcane/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;Lkik/arcane/util/l$b;)V
 
     .line 235
-    sget-object v2, Lkik/android/util/bf;->g:Ljava/util/regex/Pattern;
+    sget-object v2, Lkik/arcane/util/bf;->g:Ljava/util/regex/Pattern;
 
     const/4 v1, 0x1
 
@@ -927,13 +927,13 @@
 
     aput-object v4, v3, v1
 
-    sget-object v4, Lkik/android/util/l;->b:Lkik/android/util/l$a;
+    sget-object v4, Lkik/arcane/util/l;->b:Lkik/arcane/util/l$a;
 
-    sget-object v5, Lkik/android/util/l;->c:Lkik/android/util/l$b;
+    sget-object v5, Lkik/arcane/util/l;->c:Lkik/arcane/util/l$b;
 
     move-object v1, p0
 
-    invoke-static/range {v0 .. v5}, Lkik/android/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;Lkik/android/util/l$b;)V
+    invoke-static/range {v0 .. v5}, Lkik/arcane/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;Lkik/arcane/util/l$b;)V
 
     .line 239
     sget-object v2, Lkik/core/util/z;->a:Ljava/util/regex/Pattern;
@@ -954,20 +954,20 @@
 
     move-object v1, p0
 
-    invoke-static/range {v0 .. v5}, Lkik/android/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/l$a;Lkik/android/util/l$b;)V
+    invoke-static/range {v0 .. v5}, Lkik/arcane/util/l;->a(Ljava/util/List;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/l$a;Lkik/arcane/util/l$b;)V
 
     .line 243
-    invoke-static {v0, p0}, Lkik/android/util/l;->a(Ljava/util/ArrayList;Landroid/text/Spannable;)V
+    invoke-static {v0, p0}, Lkik/arcane/util/l;->a(Ljava/util/ArrayList;Landroid/text/Spannable;)V
 
     .line 245
     if-eqz p1, :cond_1
 
     .line 246
-    invoke-static {v0, p0, p1, p2}, Lkik/android/util/l;->a(Ljava/util/ArrayList;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;)V
+    invoke-static {v0, p0, p1, p2}, Lkik/arcane/util/l;->a(Ljava/util/ArrayList;Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;)V
 
     .line 249
     :cond_1
-    invoke-static {v0}, Lkik/android/util/l;->a(Ljava/util/ArrayList;)V
+    invoke-static {v0}, Lkik/arcane/util/l;->a(Ljava/util/ArrayList;)V
 
     .line 251
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
@@ -1000,18 +1000,18 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/au;
+    check-cast v0, Lkik/arcane/util/au;
 
     .line 256
-    iget v2, v0, Lkik/android/util/au;->b:I
+    iget v2, v0, Lkik/arcane/util/au;->b:I
 
-    iget v3, v0, Lkik/android/util/au;->c:I
+    iget v3, v0, Lkik/arcane/util/au;->c:I
 
-    new-instance v4, Lkik/android/util/av;
+    new-instance v4, Lkik/arcane/util/av;
 
-    iget-object v0, v0, Lkik/android/util/au;->a:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/util/au;->a:Ljava/lang/String;
 
-    invoke-direct {v4, v0, p3}, Lkik/android/util/av;-><init>(Ljava/lang/String;Lkik/android/util/av$a;)V
+    invoke-direct {v4, v0, p3}, Lkik/arcane/util/av;-><init>(Ljava/lang/String;Lkik/arcane/util/av$a;)V
 
     .line 1442
     const/16 v0, 0x21
@@ -1060,13 +1060,13 @@
 
     move-result v2
 
-    const-class v3, Lcom/kik/android/b/c;
+    const-class v3, Lcom/kik/arcane/b/c;
 
     invoke-interface {v0, v1, v2, v3}, Landroid/text/Spannable;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/kik/android/b/c;
+    check-cast v0, [Lcom/kik/arcane/b/c;
 
     .line 315
     array-length v0, v0
@@ -1081,13 +1081,13 @@
     .line 2337
     if-eqz v0, :cond_1
 
-    instance-of v0, v0, Lkik/android/util/br;
+    instance-of v0, v0, Lkik/arcane/util/br;
 
     if-nez v0, :cond_2
 
     .line 2338
     :cond_1
-    invoke-static {}, Lkik/android/util/br;->a()Landroid/text/method/MovementMethod;
+    invoke-static {}, Lkik/arcane/util/br;->a()Landroid/text/method/MovementMethod;
 
     move-result-object v0
 
@@ -1106,7 +1106,7 @@
     goto :goto_0
 .end method
 
-.method public static final a(Landroid/widget/TextView;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/av$a;)Z
+.method public static final a(Landroid/widget/TextView;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/av$a;)Z
     .locals 4
 
     .prologue
@@ -1127,14 +1127,14 @@
     .line 277
     check-cast v0, Landroid/text/Spannable;
 
-    invoke-static {v0, p1, p2, p3}, Lkik/android/util/l;->a(Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/av$a;)Z
+    invoke-static {v0, p1, p2, p3}, Lkik/arcane/util/l;->a(Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/av$a;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 278
-    invoke-static {p0}, Lkik/android/util/l;->b(Landroid/widget/TextView;)V
+    invoke-static {p0}, Lkik/arcane/util/l;->b(Landroid/widget/TextView;)V
 
     move v0, v1
 
@@ -1155,14 +1155,14 @@
     move-result-object v0
 
     .line 287
-    invoke-static {v0, p1, p2, p3}, Lkik/android/util/l;->a(Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/av$a;)Z
+    invoke-static {v0, p1, p2, p3}, Lkik/arcane/util/l;->a(Landroid/text/Spannable;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/av$a;)Z
 
     move-result v3
 
     if-eqz v3, :cond_2
 
     .line 288
-    invoke-static {p0}, Lkik/android/util/l;->b(Landroid/widget/TextView;)V
+    invoke-static {p0}, Lkik/arcane/util/l;->b(Landroid/widget/TextView;)V
 
     .line 289
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -1191,7 +1191,7 @@
     .line 327
     if-eqz v0, :cond_0
 
-    instance-of v0, v0, Lkik/android/util/cd;
+    instance-of v0, v0, Lkik/arcane/util/cd;
 
     if-nez v0, :cond_1
 
@@ -1204,7 +1204,7 @@
     if-eqz v0, :cond_1
 
     .line 329
-    invoke-static {}, Lkik/android/util/cd;->a()Landroid/text/method/MovementMethod;
+    invoke-static {}, Lkik/arcane/util/cd;->a()Landroid/text/method/MovementMethod;
 
     move-result-object v0
 

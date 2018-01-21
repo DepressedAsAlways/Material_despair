@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/ao;
+.class final synthetic Lkik/arcane/widget/ao;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/ContentPreviewImageView;
+.field private final a:Lkik/arcane/widget/ContentPreviewImageView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/ContentPreviewImageView;)V
+.method private constructor <init>(Lkik/arcane/widget/ContentPreviewImageView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/ao;->a:Lkik/android/widget/ContentPreviewImageView;
+    iput-object p1, p0, Lkik/arcane/widget/ao;->a:Lkik/arcane/widget/ContentPreviewImageView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/ContentPreviewImageView;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/widget/ContentPreviewImageView;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/ao;
+    new-instance v0, Lkik/arcane/widget/ao;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/ao;-><init>(Lkik/android/widget/ContentPreviewImageView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/ao;-><init>(Lkik/arcane/widget/ContentPreviewImageView;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/ao;->a:Lkik/android/widget/ContentPreviewImageView;
+    iget-object v0, p0, Lkik/arcane/widget/ao;->a:Lkik/arcane/widget/ContentPreviewImageView;
 
-    invoke-static {v0}, Lkik/android/widget/ContentPreviewImageView;->a(Lkik/android/widget/ContentPreviewImageView;)V
+    invoke-static {v0}, Lkik/arcane/widget/ContentPreviewImageView;->a(Lkik/arcane/widget/ContentPreviewImageView;)V
 
     return-void
 .end method

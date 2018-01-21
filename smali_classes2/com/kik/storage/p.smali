@@ -356,7 +356,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v3}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -366,7 +366,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/bs;->d(Ljava/lang/String;)Z
+    invoke-static {v3}, Lkik/arcane/util/bs;->d(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -383,7 +383,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->e(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->e(Ljava/lang/Throwable;)V
 
     goto :goto_0
 

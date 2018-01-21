@@ -1,9 +1,9 @@
-.class public abstract Lkik/android/chat/vm/conversations/b;
+.class public abstract Lkik/arcane/chat/vm/conversations/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/conversations/e;
+.implements Lkik/arcane/chat/vm/conversations/e;
 
 
 # static fields
@@ -54,7 +54,7 @@
 
     move-result-wide v0
 
-    sput-wide v0, Lkik/android/chat/vm/conversations/b;->f:J
+    sput-wide v0, Lkik/arcane/chat/vm/conversations/b;->f:J
 
     return-void
 .end method
@@ -77,16 +77,16 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/conversations/b;->d:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/conversations/b;->d:Lrx/subjects/a;
 
     .line 42
-    iput-boolean v1, p0, Lkik/android/chat/vm/conversations/b;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/vm/conversations/b;->e:Z
 
     .line 53
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/conversations/b;Ljava/lang/Boolean;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/chat/vm/conversations/b;Ljava/lang/Boolean;)Ljava/lang/Boolean;
     .locals 14
 
     .prologue
@@ -97,7 +97,7 @@
     const/4 v2, 0x0
 
     .line 70
-    iget-object v0, p0, Lkik/android/chat/vm/conversations/b;->a:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/conversations/b;->a:Lkik/core/interfaces/b;
 
     const-string v3, "hashtags_badging"
 
@@ -109,7 +109,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/chat/vm/conversations/b;->a:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/conversations/b;->a:Lkik/core/interfaces/b;
 
     const-string v3, "hashtags_return"
 
@@ -136,18 +136,18 @@
 
     .line 1081
     :goto_1
-    iget-object v4, p0, Lkik/android/chat/vm/conversations/b;->c:Lkik/core/interfaces/ad;
+    iget-object v4, p0, Lkik/arcane/chat/vm/conversations/b;->c:Lkik/core/interfaces/ad;
 
     invoke-interface {v4}, Lkik/core/interfaces/ad;->n()J
 
     move-result-wide v4
 
-    invoke-static {v4, v5}, Lkik/android/util/b;->a(J)J
+    invoke-static {v4, v5}, Lkik/arcane/util/b;->a(J)J
 
     move-result-wide v4
 
     .line 1082
-    iget-object v6, p0, Lkik/android/chat/vm/conversations/b;->c:Lkik/core/interfaces/ad;
+    iget-object v6, p0, Lkik/arcane/chat/vm/conversations/b;->c:Lkik/core/interfaces/ad;
 
     const-string v7, "kik.upgradetime"
 
@@ -159,7 +159,7 @@
 
     move-result-wide v6
 
-    invoke-static {v6, v7}, Lkik/android/util/b;->a(J)J
+    invoke-static {v6, v7}, Lkik/arcane/util/b;->a(J)J
 
     move-result-wide v6
 
@@ -168,7 +168,7 @@
 
     if-eqz v8, :cond_3
 
-    sget-wide v8, Lkik/android/chat/vm/conversations/b;->f:J
+    sget-wide v8, Lkik/arcane/chat/vm/conversations/b;->f:J
 
     const-wide/16 v10, 0x6
 
@@ -205,7 +205,7 @@
 
     if-eqz v4, :cond_6
 
-    invoke-virtual {p0}, Lkik/android/chat/vm/conversations/b;->a()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/conversations/b;->a()Z
 
     move-result v0
 
@@ -261,13 +261,13 @@
     .prologue
     .line 57
     .line 1069
-    iget-object v0, p0, Lkik/android/chat/vm/conversations/b;->b:Lkik/core/e/c;
+    iget-object v0, p0, Lkik/arcane/chat/vm/conversations/b;->b:Lkik/core/e/c;
 
     invoke-interface {v0}, Lkik/core/e/c;->a()Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/conversations/c;->a(Lkik/android/chat/vm/conversations/b;)Lcom/kik/events/p;
+    invoke-static {p0}, Lkik/arcane/chat/vm/conversations/c;->a(Lkik/arcane/chat/vm/conversations/b;)Lcom/kik/events/p;
 
     move-result-object v1
 
@@ -276,9 +276,9 @@
     move-result-object v0
 
     .line 57
-    new-instance v1, Lkik/android/chat/vm/conversations/b$1;
+    new-instance v1, Lkik/arcane/chat/vm/conversations/b$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/vm/conversations/b$1;-><init>(Lkik/android/chat/vm/conversations/b;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/vm/conversations/b$1;-><init>(Lkik/arcane/chat/vm/conversations/b;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -288,12 +288,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/ay;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/ay;)V
     .locals 0
 
     .prologue
     .line 118
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/conversations/b;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/conversations/b;)V
 
     .line 119
     return-void
@@ -324,7 +324,7 @@
 
     .prologue
     .line 98
-    iget-object v0, p0, Lkik/android/chat/vm/conversations/b;->d:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/conversations/b;->d:Lrx/subjects/a;
 
     invoke-virtual {v0}, Lrx/subjects/a;->e()Lrx/d;
 
@@ -340,10 +340,10 @@
     .line 104
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/vm/conversations/b;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/vm/conversations/b;->e:Z
 
     .line 105
-    invoke-direct {p0}, Lkik/android/chat/vm/conversations/b;->f()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/conversations/b;->f()V
 
     .line 106
     return-void
@@ -356,10 +356,10 @@
     .line 111
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/vm/conversations/b;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/vm/conversations/b;->e:Z
 
     .line 112
-    invoke-direct {p0}, Lkik/android/chat/vm/conversations/b;->f()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/conversations/b;->f()V
 
     .line 113
     return-void

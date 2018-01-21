@@ -72,7 +72,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->d(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->d(Ljava/lang/Throwable;)V
 
     goto :goto_0
 .end method
