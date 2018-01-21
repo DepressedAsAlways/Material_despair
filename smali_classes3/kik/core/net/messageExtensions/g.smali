@@ -103,12 +103,12 @@
 
     move-result v3
 
-    if-eqz v3, :cond_0
+    if-eqz v3, :cond_kinky
 
     const-string v0, "false"
 
     .line 2042
-    :cond_0
+    :cond_kinky
     :goto_0
     invoke-virtual {p1, v1, v0}, Lkik/core/net/h;->d(Ljava/lang/String;Ljava/lang/String;)Lkik/org/xmlpull/v1/b;
 
