@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kik.android.widget.BubbleFramelayout android:id="@id/audio_bubble_frame_container" android:tag="layout/message_bubble_audio_0" android:layout_width="fill_parent" android:layout_height="54.0dip" app:isPreview="true" app:isBottomRounded="true" app:isTopRounded="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <kik.android.widget.VoicePlayerView android:id="@id/audio_player_view" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="54.0dip" />
+</kik.android.widget.BubbleFramelayout>

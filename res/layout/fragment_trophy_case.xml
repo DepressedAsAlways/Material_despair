@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_trophy_case_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:id="@id/trophy_case_navbar" android:tag="binding_1" android:background="@color/appbar_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/kik_back_button" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/navbar_underline_height" layout="@layout/navbar_underline" />
+    <kik.android.widget.TrophyRecyclerView android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

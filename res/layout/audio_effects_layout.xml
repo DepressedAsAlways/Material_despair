@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@color/white" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="left" android:background="@color/expression_bar_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="53.0dip">
+        <FrameLayout android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ToggleButton android:layout_gravity="center" android:id="@id/effect_baby" android:tag="0" android:background="@drawable/voice_effect_baby" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:textOn="" android:textOff="" />
+        </FrameLayout>
+        <FrameLayout android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ToggleButton android:layout_gravity="center" android:id="@id/effect_robot" android:tag="1" android:background="@drawable/voice_effect_robot" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:textOn="" android:textOff="" />
+        </FrameLayout>
+        <FrameLayout android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ToggleButton android:layout_gravity="center" android:id="@id/effect_alien" android:tag="2" android:background="@drawable/voice_effect_alien" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:textOn="" android:textOff="" />
+        </FrameLayout>
+        <FrameLayout android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ToggleButton android:layout_gravity="center" android:id="@id/effect_evil" android:tag="3" android:background="@drawable/voice_effect_evil" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:textOn="" android:textOff="" />
+        </FrameLayout>
+        <FrameLayout android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ToggleButton android:layout_gravity="center" android:id="@id/effect_bunny" android:tag="4" android:background="@drawable/voice_effect_bunny" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:textOn="" android:textOff="" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="right" android:background="@color/expression_bar_background_color" android:layout_width="53.0dip" android:layout_height="fill_parent">
+        <View android:layout_gravity="left" android:background="@color/gray_2" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ToggleButton android:layout_gravity="center" android:id="@id/effect_none" android:tag="-1" android:background="@drawable/voice_effect_none" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:textOn="" android:textOff="" />
+    </FrameLayout>
+    <ViewStub android:id="@id/tooltip_stub" android:layout="@layout/audio_effects_tooltip_layout" android:inflatedId="@id/tooltip_audio_effects" android:layout_width="fill_parent" android:layout_height="@dimen/media_tray_bar_height" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/trophy_list_item_0" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/conversation_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/trophy_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center|left|top" android:tag="binding_2" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@xml/notification_list_selector" />
+    </FrameLayout>
+    <kik.android.widget.RobotoTextView android:textSize="16.0sp" android:textColor="@color/text_primary" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_toRightOf="@id/trophy_icon_layout" android:layout_centerVertical="true" />
+    <View android:tag="binding_4" android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginLeft="68.0dip" android:layout_alignParentBottom="true" />
+    <View android:tag="binding_5" android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

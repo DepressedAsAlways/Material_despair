@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout" android:background="@null" android:clickable="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <kik.android.widget.RobotoTextView android:textSize="15.0sp" android:textColor="@color/audio_timer_text_color" android:gravity="center" android:id="@id/timer_clock" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" app:font_type="light" />
+</FrameLayout>

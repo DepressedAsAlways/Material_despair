@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <kik.android.widget.RobotoTextView android:textSize="18.0sp" android:textColor="@color/gray_3" android:gravity="center" android:layout_gravity="center" android:id="@id/slide_to_cancel" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slide_to_cancel" app:font_type="light" />
+    <View android:id="@id/glow" android:background="@drawable/audio_slide_cancel_glow_background" android:layout_width="15.0dip" android:layout_height="fill_parent" />
+</FrameLayout>
