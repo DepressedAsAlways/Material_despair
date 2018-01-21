@@ -2045,6 +2045,20 @@
     <public type="xml" name="tell_a_friend_white_selector" id="0x7f070020" />
     <public type="xml" name="topbar_button_selector" id="0x7f070021" />
     <public type="xml" name="topbar_button_selector_transparent" id="0x7f070022" />
+	<public type="xml" name="z_kinky_bottom_incoming_bubble_mask" id="0x7f070023" />
+    <public type="xml" name="z_kinky_bottom_outgoing_bubble_mask" id="0x7f070024" />
+    <public type="xml" name="z_kinky_bottom_outgoing_image_bubble_mask" id="0x7f070025" />
+    <public type="xml" name="z_kinky_middle_incoming_bubble_mask" id="0x7f070026" />
+    <public type="xml" name="z_kinky_middle_outgoing_bubble_mask" id="0x7f070027" />
+    <public type="xml" name="z_kinky_middle_outgoing_image_bubble_mask" id="0x7f070028" />
+    <public type="xml" name="z_kinky_outgoing_top_round_bubble_mask" id="0x7f070029" />
+    <public type="xml" name="z_kinky_outgoing_top_square_bubble_mask" id="0x7f07002a" />
+    <public type="xml" name="z_kinky_single_incoming_bubble_mask" id="0x7f07002b" />
+    <public type="xml" name="z_kinky_single_outgoing_bubble_mask" id="0x7f07002c" />
+    <public type="xml" name="z_kinky_single_outgoing_image_bubble_mask" id="0x7f07002d" />
+    <public type="xml" name="z_kinky_top_incoming_bubble_mask" id="0x7f07002e" />
+    <public type="xml" name="z_kinky_top_outgoing_bubble_mask" id="0x7f07002f" />
+    <public type="xml" name="z_kinky_top_outgoing_image_bubble_mask" id="0x7f070030" />
     <public type="raw" name="ca_certificates" id="0x7f080000" />
     <public type="raw" name="kik_icon" id="0x7f080001" />
     <public type="raw" name="lut_deeply" id="0x7f080002" />
