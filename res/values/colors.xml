@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!--Our Colors-->
-<color name="fg2">#ffffffff</color>
-<color name="fg">#ffffffff</color>
-<color name="bg">#ffffffff</color>
+<color name="fg2">#ff4527A0</color>
+<color name="fg">#ff0D47A1</color>
+<color name="bg">#ff212121</color>
 <color name="unf4giv9_downstate">#ffffffff</color>
 <!--Our Colors End-->
     <color name="notification_action_color_filter">#ffffffff</color>
