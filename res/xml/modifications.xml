@@ -9,6 +9,7 @@
 	<arcane.Toggle android:title="Enable admin badges" android:key="kinky.admin" android:summary="Group admins will have badges in chat" />
 	<arcane.Toggle android:title="Enable new chats reporting" android:key="kinky.newreport" android:summary="Allows you to report new pms" />
 	<arcane.Toggle android:title="Enable voice messages" android:key="kinky.voice" android:summary="Allows you to send voice recordings" />
-	<arcane.Toggle android:title="Square Messages" android:key="kinky.squarebubble" android:summary="Alls message bubble will become rectangle" />
+	<arcane.Toggle android:title="Square Incoming Messages" android:key="kinky.squareincom" android:summary="All incoming messages will be rectangular" />
+	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="All outgoing messages will be rectangular" />
 	<arcane.Empty android:title="Disclaimer: Voice messages can be sent in pms and private groups but not public groups" />
 </PreferenceScreen>

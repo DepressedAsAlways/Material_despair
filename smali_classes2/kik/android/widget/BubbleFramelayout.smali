@@ -625,7 +625,7 @@
     .line 1247
     const v0, 0x7f070029
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -647,7 +647,7 @@
     .line 1250
     const v0, 0x7f07002d
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -664,7 +664,7 @@
     :cond_5
     const v0, 0x7f070030
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -686,7 +686,7 @@
     .line 1256
     const v0, 0x7f07002a
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -708,7 +708,7 @@
     .line 1259
     const v0, 0x7f070025
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -725,7 +725,7 @@
     :cond_8
     const v0, 0x7f070028
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -752,7 +752,7 @@
     .line 1267
     const v0, 0x7f07002c
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -769,7 +769,7 @@
     :cond_a
     const v0, 0x7f07002f
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -791,7 +791,7 @@
     .line 1273
     const v0, 0x7f070024
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -808,7 +808,7 @@
     :cond_c
     const v0, 0x7f070027
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareoutgo"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -846,7 +846,7 @@
     .line 1285
     const v0, 0x7f07002b
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareincom"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -863,7 +863,7 @@
     :cond_f
     const v0, 0x7f07002e
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareincom"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -885,7 +885,7 @@
     .line 1291
     const v0, 0x7f070023
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareincom"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
@@ -902,7 +902,7 @@
     :cond_11
     const v0, 0x7f070026
 	
-	const-string v3, "kinky.squarebubble"
+	const-string v3, "kinky.squareincom"
 	
 	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
