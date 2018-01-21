@@ -1,4 +1,4 @@
-.class public Lparadoxical/Tab;
+.class public Larcane/Tab;
 .super Lkik/android/widget/preferences/KikPreferenceScreen;
 .source "SourceFile"
 

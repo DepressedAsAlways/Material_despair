@@ -99,7 +99,7 @@
 	
 	const-string v3, "kinky.typing"
 
-    invoke-static {v3}, Lparadoxical/values;->getBoolean(Ljava/lang/String;)Z
+    invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
     move-result v3
 

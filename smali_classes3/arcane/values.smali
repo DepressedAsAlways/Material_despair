@@ -1,4 +1,4 @@
-.class public Lparadoxical/values;
+.class public Larcane/values;
 .super Ljava/lang/Object;
 .source "values.java"
 
@@ -26,7 +26,7 @@
     .locals 3
 
     .prologue
-    invoke-static {}, Lparadoxical/values;->getSharedPreferences()Landroid/content/SharedPreferences;
+    invoke-static {}, Larcane/values;->getSharedPreferences()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -60,7 +60,7 @@
     .param p0, "key"    # Ljava/lang/String;
 
     .prologue
-    invoke-static {}, Lparadoxical/values;->getSharedPreferences()Landroid/content/SharedPreferences;
+    invoke-static {}, Larcane/values;->getSharedPreferences()Landroid/content/SharedPreferences;
 
     move-result-object v0
 

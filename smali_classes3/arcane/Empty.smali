@@ -1,4 +1,4 @@
-.class public Lparadoxical/Empty;
+.class public Larcane/Empty;
 .super Lkik/android/widget/preferences/KikEmptyPreference;
 .source "Empty.java"
 

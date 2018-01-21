@@ -1,4 +1,4 @@
-.class public Lparadoxical/List;
+.class public Larcane/List;
 .super Lkik/android/widget/preferences/KikListPreference;
 .source "List.java"
 

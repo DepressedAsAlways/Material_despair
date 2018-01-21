@@ -1,4 +1,4 @@
-.class public Lparadoxical/Toggle;
+.class public Larcane/Toggle;
 .super Lkik/android/widget/preferences/KikSwitchPreference;
 .source "SourceFile"
 
@@ -15,7 +15,7 @@
     .line 20
     const v0, 0x101036d
 
-    invoke-direct {p0, p1, p2, v0}, Lparadoxical/Toggle;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Larcane/Toggle;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 21
     return-void
@@ -41,7 +41,7 @@
 
     .prologue
     .line 30
-    iput-object p1, p0, Lparadoxical/Toggle;->c:Lkik/android/chat/b/a;
+    iput-object p1, p0, Larcane/Toggle;->c:Lkik/android/chat/b/a;
 
     .line 31
     return-void
@@ -56,12 +56,12 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lparadoxical/Toggle;->c:Lkik/android/chat/b/a;
+    iget-object v0, p0, Larcane/Toggle;->c:Lkik/android/chat/b/a;
 
     if-eqz v0, :cond_0
 
     .line 37
-    iget-object v0, p0, Lparadoxical/Toggle;->c:Lkik/android/chat/b/a;
+    iget-object v0, p0, Larcane/Toggle;->c:Lkik/android/chat/b/a;
 
     check-cast p2, Ljava/lang/Boolean;
 

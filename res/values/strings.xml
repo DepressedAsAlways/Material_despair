@@ -127,7 +127,7 @@ http://help.kik.com"</string>
     <string name="always_allow">Always Allow</string>
     <string name="always_allow_app_to_launch_external">Always allow this app to launch external content</string>
     <string name="always_allow_this_app_to_send_large_messages">Always allow this app to send large messages</string>
-    <string name="app_name">Kik</string>
+    <string name="app_name">Arcane</string>
     <string name="application_is_trying_to_launch_x">"This application is trying to launch %1$s 
 Do you want to continue?"</string>
     <string name="are_sure_add_user_to_convo">Are you sure you want to add %1$s to the conversation?</string>

@@ -1,4 +1,4 @@
-.class public Lparadoxical/DevPref;
+.class public Larcane/DevPref;
 .super Lkik/android/widget/preferences/HelpPreference;
 .source "DevPref.java"
 

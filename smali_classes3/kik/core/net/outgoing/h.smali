@@ -335,7 +335,7 @@
     .line 6042
 	const-string v8, "kinky.receipt"
 
-    invoke-static {v8}, Lparadoxical/values;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v8}, Larcane/values;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 
@@ -351,7 +351,7 @@
 
     const-string v8, "kinky.receipt"
 
-    invoke-static {v8}, Lparadoxical/values;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v8}, Larcane/values;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 
