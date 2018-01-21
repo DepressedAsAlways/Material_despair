@@ -100,6 +100,7 @@
     .line 1057
     iget-object v0, p0, Lcom/kik/storage/y;->b:Lkik/core/interfaces/b;
 
+	# Blur Media
     const-string v1, "pg-blur-media-toggle"
 
     const-string v2, "blur-so-hard"
