@@ -9,6 +9,4 @@
 	<arcane.DevPref android:title="KinkyGod" android:summary="Developed most the features" android:key="kik.help">
 		<intent android:action="android.intent.action.VIEW" android:data="kik://users/.no_u/profile" />
 	</arcane.DevPref>
-<arcane.Empty android:enabled="true" android:title="Click Here If You Want To Join The ArcaneKik Team(Must have Android programming knowledge)" android:key="kik.help"
-		<intent android:action="android.intent.action.VIEW" android:data="http://kik.me/g/zswfiR6JqTmcLPHIndq1jVcdG6g" />
 </PreferenceScreen>
