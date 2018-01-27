@@ -12,6 +12,5 @@
 	<arcane.Toggle android:title="Square Incoming Messages" android:key="kinky.squareincom" android:summary="All incoming messages will be rectangular" />
 	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="All outgoing messages will be rectangular" />
 	<arcane.Toggle android:title="Disable Video Chat" android:key="unf4giv9.disablevid" android:summary="Video chat icon will be erased from your chats" />
-	<arcane.Toggle android:title="Disable Video Chat" android:key="kinky.admin" android:summary="Video chat icon will be erased from your chats" />
 	<arcane.Empty android:title="Disclaimer: Voice messages can be sent in pms and private groups but not public groups" />
 </PreferenceScreen>
