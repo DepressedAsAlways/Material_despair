@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Contributors" android:key="@string/title_chat_settings"
+<PreferenceScreen android:title="Contributors" android:key="@string/modifications"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
     <arcane.Empty android:title="Designer:" />
 	<arcane.DevPref android:title="Unf4giv9" android:summary="Creator of the aesthetic style of this kik" android:key="kik.help">
