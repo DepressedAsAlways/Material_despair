@@ -8,4 +8,5 @@
     <item type="drawable" name="white">@color/white</item>
   <item type="drawable" name="fg">@color/fg</item>
   <item type="drawable" name="fg2">@color/fg2</item>
+<item type="drawable" name="bgc">@color/bg</item>
 </resources>
