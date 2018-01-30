@@ -1709,7 +1709,20 @@
 
     move-result-object v0
 
-    .line 267
+    .line 69
+    if-eqz v0, :cond_kinky
+
+    const-string v1, "kinky.private"
+
+    invoke-static {v1}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_kinky
+
+    const-string v0, "..."
+
+    :cond_kinky
     iget-object v1, v7, Lcom/kik/view/adapters/j$a;->d:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V

@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:title="Modifications" android:key="@string/title_chat_settings"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<arcane.Empty android:title="Misc" />
     <arcane.Toggle android:title="Lonely Toggle" android:summary="I do nothing" />
-    <arcane.Empty android:title="Chat:" />
-	<arcane.List android:entries="@array/kinky_colors" android:title="Change incoming text color" android:key="kinky.incomingtext" android:summary="How your incoming messages text color appears" android:entryValues="@array/kinky_colors" />
-    <arcane.List android:entries="@array/kinky_receipts" android:title="Read receipts" android:key="kinky.receipt" android:summary="How your messages are perceived" android:entryValues="@array/kinky_receipts" />
-	<arcane.Toggle android:title="Disable Typing" android:key="kinky.typing" android:summary="Other users can't see what you type" />
-	<arcane.Toggle android:title="Enable admin badges" android:key="kinky.admin" android:summary="Group admins will have badges in chat" />
-	<arcane.Toggle android:title="Enable new chats reporting" android:key="kinky.newreport" android:summary="Allows you to report new pms" />
-	<arcane.Toggle android:title="Enable voice messages" android:key="kinky.voice" android:summary="Allows you to send voice recordings" />
-	<arcane.Toggle android:title="Square Incoming Messages" android:key="kinky.squareincom" android:summary="All incoming messages will be rectangular" />
-	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="All outgoing messages will be rectangular" />
-	<arcane.Toggle android:title="Disable Video Chat" android:key="unf4giv9.disablevid" android:summary="Video chat icon will be erased from your chats" />
+	<arcane.Update android:title="Check for Update" />
+	<arcane.Empty android:title="Appearance" />
+	<arcane.Toggle android:title="Square Incoming Messages" android:key="kinky.squareincom" android:summary="all incoming messages will be rectangular" />
+	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="all outgoing messages will be rectangular" />
+    <arcane.List android:entries="@array/kinky_colors" android:title="Change Incoming Text Color" android:key="kinky.incomingtext" android:summary="how your incoming messages text color appears" android:entryValues="@array/kinky_colors" />
+	<arcane.Empty android:title="Chat" />
+	<arcane.Toggle android:title="Disable Typing" android:summary="other users will not be able to see when you are typing" android:key="kinky.typing" />
+	<arcane.List android:entries="@array/kinky_receipts" android:title="Read Receipts" android:key="kinky.receipt" android:summary="how your messages are perceived" android:entryValues="@array/kinky_receipts" />
+	<arcane.Toggle android:title="Voice Messages" android:summary="allows you to send voice messages" android:key="kinky.voice" />
 	<arcane.Empty android:title="Disclaimer: Voice messages can be sent in pms and private groups but not public groups" />
+	<arcane.Toggle android:title="Gif Favorites" android:summary="enables favoriting Gifs" android:key="kinky.gif" />
+	<arcane.Toggle android:title="Disable Vid Chat" android:summary="disables video chatting toggle" android:key="kinky.vid" />
+	<arcane.Toggle android:title="Multi Photos" android:summary="allows you to send groups of photos from gallery" android:key="kinky.photo" />
+	<arcane.Empty android:title="Group Chat" />
+	<arcane.Toggle android:title="Enable Admin Badges" android:summary="puts badges on admin profile pictures in chat" android:key="kinky.admin" />
+	<arcane.Toggle android:title="Blur Media" android:summary="gallery pictures sent in groups will be blurred" android:key="kinky.blur" />
+	<arcane.Empty android:title="Profile" />
+	<arcane.Toggle android:title="Days On Kik" android:summary="allows you to view how many days other users have been on kik" android:key="kinky.day" />
+	<arcane.Toggle android:title="Enable Bios" android:summary="enables editing your bio and viewing other user bios" android:key="kinky.bios" />
+	<arcane.Toggle android:title="Trophy Case" android:summary="Enables trophy case at top of settings" android:key="kinky.trophy" />
+	<arcane.Empty android:title="Other" />
+	<arcane.Toggle android:title="No Pull" android:summary="disables pull to search in conversations list" android:key="kinky.pull" />
+	<arcane.Toggle android:title="Privacy Mode" android:summary="hides conversations screen messages" android:key="kinky.private" />
+	<arcane.Toggle android:title="Do Not Disturb" android:summary="auto leaves groups you get added to" android:key="kinky.disturb" />
+	<arcane.Toggle android:title="Enable New Chat Reporting" android:summary="allows you to report new chats" android:key="kinky.newreport" />
 </PreferenceScreen>

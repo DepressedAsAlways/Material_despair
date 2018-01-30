@@ -72,3 +72,65 @@
 
     return-object v0
 .end method
+
+.method public static HiThereBabyGirl(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+    .param p0, "str"    # Ljava/lang/String;
+
+    .prologue
+    const/4 v1, 0x0
+
+    .line 182
+    const-string v0, "@groups.kik.com"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 183
+    const-string v0, "GROUP"
+
+    .line 188
+    :goto_0
+    return-object v0
+
+    .line 185
+    :cond_0
+    const-string v0, "_"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 186
+    const-string v0, "_"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+
+    move-result v0
+
+    invoke-virtual {p0, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    .line 188
+    :cond_1
+    const-string v0, "@"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+
+    move-result v0
+
+    invoke-virtual {p0, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+.end method
+

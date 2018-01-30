@@ -1367,6 +1367,12 @@
     invoke-interface {v3, v4, v5}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v3
+	
+	const-string v3, "kinky.bios"
+	
+	invoke-static {v3}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v3
 
     if-eqz v3, :cond_3
 

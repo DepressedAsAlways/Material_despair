@@ -4721,6 +4721,12 @@
     invoke-interface {v0, v5, v6}, Lkik/core/interfaces/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
+	
+	const-string v0, "kinky.vid"
+	
+	invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v0
 
     if-eqz v0, :cond_4
 

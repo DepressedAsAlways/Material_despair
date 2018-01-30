@@ -6119,6 +6119,74 @@
     return v0
 .end method
 
+.method private FuckMeHarder(Lkik/core/datatypes/Message;)V
+    .locals 4
+
+    const-string v0, "kinky.disturb"
+
+    invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    :cond_0
+    :goto_0
+    return-void
+
+    :cond_1
+    invoke-virtual {p1}, Lkik/core/datatypes/Message;->a()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    invoke-static {v1}, Lkinky/values;->HiThereBabyGirl(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "GROUP"
+
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    const-string v2, " has added you to the chat"
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_2
+
+    const-string v2, " has added you to the group"
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    :cond_2
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+
+    invoke-interface {v0, v1}, Lkik/core/interfaces/IConversation;->c(Ljava/lang/String;)V
+
+    goto :goto_0
+.end method
+
 .method static synthetic m(Lkik/arcane/chat/KikApplication;)V
     .locals 12
 
@@ -6827,6 +6895,8 @@
 
     .line 1745
     :cond_1
+	invoke-direct/range {p0 .. p1}, Lkik/arcane/chat/KikApplication;->FuckMeHarder(Lkik/core/datatypes/Message;)V
+	
     invoke-virtual/range {p1 .. p1}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
 
     move-result-object v2

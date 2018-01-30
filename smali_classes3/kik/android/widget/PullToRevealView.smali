@@ -579,6 +579,16 @@
     invoke-static {p1}, Landroid/support/v4/view/MotionEventCompat;->getActionMasked(Landroid/view/MotionEvent;)I
 
     move-result v1
+	
+	const/4 v2, 0x0
+
+    const-string v2, "kinky.pull"
+
+    invoke-static {v2}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v2
+	
+	if-nez v2, :cond_0
 
     .line 361
     invoke-direct {p0}, Lkik/arcane/widget/PullToRevealView;->f()Z
