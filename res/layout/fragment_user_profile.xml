@@ -42,7 +42,9 @@ android:layout_height="wrap_content" android:src="@drawable/ic_trophy" />
 android:tint="@color/fg2"
 android:layout_height="14.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:src="@xml/notification_list_selector" />
             </FrameLayout>
-            <ImageView android:id="@id/profile_share" android:tag="binding_12" android:background="?selectableItemBackgroundBorderless" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share" android:contentDescription="@string/find_people_share_profile" />
+            <ImageView android:id="@id/profile_share" android:tag="binding_12" android:background="?selectableItemBackgroundBorderless" android:padding="16.0dip"
+android:tint="@color/fg2"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share" android:contentDescription="@string/find_people_share_profile" />
         </LinearLayout>
         <View android:id="@id/navbar_underline" android:background="@color/fg2" android:layout_width="fill_parent" android:layout_height="@dimen/navbar_underline_height" android:alpha="0.0" />
     </LinearLayout>
