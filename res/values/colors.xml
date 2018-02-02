@@ -13,7 +13,7 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="android_blue">#ff33b5e5</color>
     <color name="android_grey">#ff808080</color>
-    <color name="appbar_background">@color/gray_1</color>
+    <color name="appbar_background">@color/fg</color>
     <color name="appbar_text">@color/text_primary</color>
     <color name="audio_timer_text_color">#ff474b5f</color>
     <color name="audio_tooltip_shadow">#1e0d455c</color>
@@ -23,8 +23,8 @@
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
     <color name="banner_overlay_color">#66000000</color>
-    <color name="black">#ff000000</color>
-    <color name="black_color">#ff000000</color>
+    <color name="black">@color/fg</color>
+    <color name="black_color">@color/fg</color>
     <color name="blue_public_group_helper_secondary_text">#ccffffff</color>
     <color name="blue_text_button">#ff2e92ff</color>
     <color name="blue_text_button_downstate">#ff97c9ff</color>
@@ -103,9 +103,9 @@
     <color name="gray_2">#ffe0e1e9</color>
     <color name="gray_3">#ffbec0ce</color>
     <color name="gray_4">#ffa9adc1</color>
-    <color name="gray_5">#ff7a7d8e</color>
+    <color name="gray_5">@color/fg2</color>
     <color name="gray_5_50pc_opacity">#807a7d8e</color>
-    <color name="gray_6">#ff373a4b</color>
+    <color name="gray_6">@color/fg</color>
     <color name="grey_shadow">#66cccccc</color>
     <color name="group_invite_message_border">#4da9adc1</color>
     <color name="hashtags_divider">#ffbec0ce</color>
@@ -233,7 +233,7 @@
     <color name="video_tooltip_shadow">#1e000000</color>
     <color name="warning_red">#fffa0164</color>
     <color name="web_error_page_text_color">#ff979797</color>
-    <color name="white">#ffffffff</color>
+    <color name="white">@color/bg</color>
     <color name="white_transparent">#00ffffff</color>
     <color name="wubble_overlay">#80888888</color>
 	<color name="fg2">#ffffff</color>
