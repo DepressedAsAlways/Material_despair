@@ -25,7 +25,9 @@
 # virtual methods
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 3
-
+#ToastyB
+const/4 v0, 0x1 const-string v1, "Thanks For Using ArcaneKik <3" invoke-static {p0, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast; move-result-object v0 invoke-virtual {v0}, Landroid/widget/Toast;->show()V 
+#ToastyE
     .prologue
     .line 29
     invoke-virtual {p0}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;->getApplication()Landroid/app/Application;
