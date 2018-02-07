@@ -291,7 +291,7 @@
     packed-switch v0, :pswitch_data_0
 
     .line 123
-    const v0, 0x7f02025f
+    const v0, 0x7f0203c5
 
     :goto_0
     return v0
@@ -304,7 +304,7 @@
 
     .line 120
     :pswitch_1
-    const v0, 0x7f020260
+    const v0, 0x7f0203c5
 
     goto :goto_0
 
@@ -338,14 +338,14 @@
     packed-switch v0, :pswitch_data_0
 
     .line 135
-    const v0, 0x7f0201dd
+    const v0, 0x7f0203c6
 
     :goto_0
     return v0
 
     .line 133
     :pswitch_0
-    const v0, 0x7f0201df
+    const v0, 0x7f0203c7
 
     goto :goto_0
 
@@ -380,7 +380,7 @@
     .line 147
     iget-object v0, p0, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;->f:Landroid/content/res/Resources;
 
-    const v1, 0x7f0e00dd
+    const v1, 0x7f0e0112
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -432,7 +432,7 @@
     .line 159
     iget-object v0, p0, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;->f:Landroid/content/res/Resources;
 
-    const v1, 0x7f0e00de
+    const v1, 0x7f0e0112
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -445,7 +445,7 @@
     :pswitch_0
     iget-object v0, p0, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;->f:Landroid/content/res/Resources;
 
-    const v1, 0x7f0e0019
+    const v1, 0x7f0e0112
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

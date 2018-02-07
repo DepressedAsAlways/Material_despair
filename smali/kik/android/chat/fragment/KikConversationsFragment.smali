@@ -727,7 +727,7 @@
     .locals 2
 
     .prologue
-    const v1, 0x7f0e007f
+    const v1, 0x7f0e0111
 
     .line 515
     if-nez p1, :cond_0
@@ -1255,7 +1255,7 @@
     .locals 4
 
     .prologue
-    const v3, 0x7f0e0066
+    const v3, 0x7f0e0112
 
     const/4 v2, 0x1
 
@@ -1390,7 +1390,7 @@
     .locals 5
 
     .prologue
-    const v4, 0x7f0e007f
+    const v4, 0x7f0e0111
 
     .line 606
     invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikConversationsFragment;->isPaused()Z

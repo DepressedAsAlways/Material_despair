@@ -6,7 +6,7 @@
         <FrameLayout android:background="@drawable/cell_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </LinearLayout>
     <View android:id="@id/padding" android:layout_width="fill_parent" android:layout_height="16.0dip" />
-    <ListView android:id="@id/ab_tests_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/native_topbar_height" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@color/list_divider_color" android:dividerHeight="0.0px" />
+    <ListView android:id="@id/ab_tests_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/native_topbar_height" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@color/kinky_divider" android:dividerHeight="0.0px" />
     <RelativeLayout android:id="@id/topbar" android:background="@drawable/white" android:layout_width="fill_parent" android:layout_height="@dimen/native_topbar_height" android:layout_alignParentTop="true">
         <include layout="@layout/kik_back_button" />
     </RelativeLayout>
