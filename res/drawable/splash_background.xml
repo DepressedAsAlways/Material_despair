@@ -4,6 +4,6 @@
     <item android:drawable="@color/bg" />
     <item>
         <bitmap android:gravity="center" android:src="@mipmap/img_splash" 
-android:tint="@color/fg"/>
+android:tint="@color/kinky_main"/>
     </item>
 </layer-list>
