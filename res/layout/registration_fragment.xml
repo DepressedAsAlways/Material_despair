@@ -35,7 +35,7 @@ android:textColor="@color/fg"
 android:layout_below="@id/register_birthday" android:inputType="phone" />
             <Button android:id="@id/register_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:text="@string/title_sign_up" android:layout_below="@id/register_phone" style="@style/KikButton.Hero" />
             <kik.arcane.widget.RobotoTextView android:gravity="center_horizontal" android:linksClickable="true" android:id="@id/tos_text" android:paddingBottom="12.0dip" android:visibility="visible"
-android:textColor="@color/fg"
+android:textColor="@color/kinky_secondary_white"
 android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/first_run_by_clicking_next_tos_and_privacy" android:layout_below="@id/register_button" style="@style/KikTextView.Terms" />
         </RelativeLayout>
     </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
