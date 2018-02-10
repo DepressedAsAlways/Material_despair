@@ -6,8 +6,7 @@
 		<intent android:action="android.intent.action.VIEW" android:data="kik://users/Unf4giv9/profile" />
 	</arcane.DevPref>
 	<arcane.Empty android:title="Developer:" />
-	<arcane.DevPref android:title="KinkyGod" android:summary="Developed most the features" android:key="kik.help">
+	<arcane.DevPref android:title="KinkyGod" android:summary="Developed most of the features" android:key="kik.help">
 		<intent android:action="android.intent.action.VIEW" android:data="kik://users/.no_u/profile" />
 	</arcane.DevPref>
-	<arcane.Version android:title="Kik Version" android:summary="12.0.0.19400" />
 </PreferenceScreen>

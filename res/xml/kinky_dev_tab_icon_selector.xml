@@ -2,15 +2,15 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="true">
-        <bitmap android:src="@drawable/img_emoji_smile_green" android:tint="@color/unf4giv9_downstate" />
+        <bitmap android:src="@drawable/ic_dev_tab" android:tint="@color/kinky_secondary_black" />
     </item>
     <item android:state_focused="true">
-        <bitmap android:src="@drawable/img_emoji_smile_green" android:tint="@color/unf4giv9_downstate" />
+        <bitmap android:src="@drawable/ic_dev_tab" android:tint="@color/kinky_secondary_black" />
     </item>
     <item android:state_pressed="true">
-        <bitmap android:src="@drawable/img_emoji_smile_green" android:tint="@color/unf4giv9_downstate" />
+        <bitmap android:src="@drawable/ic_dev_tab" android:tint="@color/kinky_secondary_black" />
     </item>
     <item>
-        <bitmap android:src="@drawable/img_emoji_smile_green" android:tint="@color/fg" />
+        <bitmap android:src="@drawable/ic_dev_tab" android:tint="@color/kinky_main" />
     </item>
 </selector>

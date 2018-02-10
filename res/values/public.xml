@@ -1396,6 +1396,8 @@
 	<public type="drawable" name="arcane_hash_tint" id="0x7f0203c5" />
 	<public type="drawable" name="ic_close_small_tint" id="0x7f0203c6" />
 	<public type="drawable" name="ic_close_white_16_tint" id="0x7f0203c7" />
+	<public type="drawable" name="ic_update" id="0x7f0203c8" />
+	<public type="drawable" name="ic_changelog" id="0x7f0203c9" />
     <public type="drawable" name="abc_control_background_material" id="0x7f020010" />
     <public type="drawable" name="cards_misc_navbar" id="0x7f02009f" />
     <public type="drawable" name="instabug_ic_attach" id="0x7f020296" />

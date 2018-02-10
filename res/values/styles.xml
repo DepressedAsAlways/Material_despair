@@ -1747,18 +1747,18 @@
     </style>
     <style name="KikTextView.Settings.Description" parent="@style/KikTextView.Settings">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textColor">@color/kinky_summary</item>
     </style>
     <style name="KikTextView.Settings.Title" parent="@style/KikTextView.Settings">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:textColor">@color/kinky_title</item>
         <item name="android:ellipsize">end</item>
         <item name="android:fadingEdge">horizontal</item>
         <item name="android:maxLines">1</item>
     </style>
 	<style name="KikTextView.Settings.Version" parent="@style/KikTextView.Settings">
         <item name="android:textSize">12.0sp</item>
-        <item name="android:gravity">right</item>
+        <item name="android:gravity">center|right</item>
         <item name="android:textColor">@color/kinky_main_light</item>
     </style>
     <style name="KikTextView.Subtext" parent="@style/KikTextView">
@@ -1817,7 +1817,7 @@
     </style>
     <style name="KikTextView.Toolbar.Title" parent="@style/KikTextView.Toolbar">
         <item name="android:textSize">20.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/kinky_secondary_white</item>
     </style>
     <style name="KikTextView.Toolbar.Title.NoScale" parent="@style/KikTextView.Toolbar.Title">
         <item name="android:textSize">20.0dip</item>
@@ -1858,7 +1858,7 @@
     <style name="PreferencesRow" />
     <style name="PreferencesRow.Container" parent="@style/PreferencesRow">
         <item name="android:orientation">horizontal</item>
-        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:background">@xml/arcane_row_items</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">48.0dip</item>
@@ -1872,7 +1872,7 @@
     </style>
     <style name="PreferencesRow.Title" parent="@style/PreferencesRow">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/kinky_title</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:layout_gravity">center_vertical</item>

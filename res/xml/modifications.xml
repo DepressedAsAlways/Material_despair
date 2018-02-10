@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:title="Modifications" android:key="@string/title_chat_settings"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-	<arcane.Empty android:title="Misc" />
-    <arcane.Toggle android:title="Lonely Toggle" android:summary="I do nothing" />
-	<arcane.Update android:title="Check for Update" />
+	<arcane.Empty android:title="Info" />
+	<arcane.Version android:title="Kik Version" android:summary="12.0.0.19400" />
+    <arcane.Update android:title="Check for Update" />
+	<arcane.Changelog android:title="ChangeLog" />
 	<arcane.Empty android:title="Appearance" />
 	<arcane.Toggle android:title="Square Incoming Messages" android:key="kinky.squareincom" android:summary="all incoming messages will be rectangular" />
 	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="all outgoing messages will be rectangular" />
