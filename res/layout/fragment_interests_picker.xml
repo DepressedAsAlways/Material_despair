@@ -4,7 +4,6 @@
 		<include layout="@layout/kik_back_button" />
 		<kik.arcane.widget.RobotoTextView android:textSize="24.0sp" android:textColor="@color/kinky_secondary_white" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/interests_title" />
 		<FrameLayout 
-android:background="@color/kinky_main"
 android:layout_width="0.0dip" android:layout_height="@dimen/native_topbar_height" android:layout_weight="1.0" />
 		<kik.arcane.widget.RobotoTextView android:layout_gravity="center|right" android:tag="binding_2"
 android:textColor="@color/kinky_secondary_white"
