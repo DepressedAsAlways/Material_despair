@@ -13,6 +13,6 @@ android:layout_width="fill_parent" android:layout_height="fill_parent" />
 		<kik.arcane.widget.BotProfileImageBadgeView android:layout_gravity="bottom|center|right" android:tag="binding_4" android:layout_width="18.0dip" android:layout_height="18.0dip" />
 	</kik.arcane.widget.MaxSizeFrameLayout>
 	<kik.arcane.widget.RobotoTextView android:gravity="center" android:tag="binding_5"
-android:textColor="@color/fg"
+android:textColor="@color/kinky_secondary_white"
 android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/KikTextView.SuggestedChats.ChatName" />
 </LinearLayout>
