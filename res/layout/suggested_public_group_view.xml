@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/suggested_public_group_view_0" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:clickable="true"
-android:background="@color/bg"
-android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/suggested_public_group_view_0" android:background="@color/kinky_row_background" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
 	<kik.arcane.widget.MaxSizeFrameLayout android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxWidth="@dimen/chat_suggestion_image_size" android:maxHeight="@dimen/chat_suggestion_image_size">
-		<FrameLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-android:background="@color/bg" android:foreground="@drawable/circular_prof_pic_selector">
-			<ImageView android:tag="binding_1" android:background="@drawable/circular_button_outline_grey" android:layout_width="fill_parent"
-android:tint="@color/fg2"
-android:layout_height="fill_parent" android:scaleType="center" />
+		<FrameLayout android:background="@color/kinky_row_background" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/circular_prof_pic_selector">
+			<ImageView android:tag="binding_1" android:background="@drawable/circular_button_outline_grey" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:tint="@color/kinky_secondary_white" />
 		</FrameLayout>
 	</kik.arcane.widget.MaxSizeFrameLayout>
 	<kik.arcane.widget.RobotoTextView android:gravity="center" android:tag="binding_2"
+android:textColor="@color/kinky_main"
 android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/KikTextView.PublicGroups.QuickSearch" />
 </LinearLayout>
