@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/public_groups_quick_suggestions_0" android:background="@color/kinky_row_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/public_groups_quick_suggestions_0" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
 	<TextView android:textSize="16.0sp" android:textColor="@color/kinky_secondary_white" android:gravity="center" android:paddingLeft="42.0dip" android:paddingRight="42.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/public_group_search_prompt" />
 </FrameLayout>
