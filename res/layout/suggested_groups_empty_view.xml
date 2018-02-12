@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto" android:tag="layout/suggested_groups_empty_view_0" android:background="@color/kinky_row_background" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto" android:tag="layout/suggested_groups_empty_view_0" android:background="@color/bg" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
 	<include android:id="@id/quick_suggestions_view" android:visibility="gone" layout="@layout/public_groups_quick_suggestions" />
 	<FrameLayout android:id="@id/suggested_groups_retry_layout" android:tag="binding_1" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/search_bar_minimum_height">
 		<com.github.rahatarmanahmed.cpv.CircularProgressView android:layout_gravity="center" android:id="@id/progress_wheel" android:tag="binding_2" android:layout_width="80.0dip" android:layout_height="80.0dip" style="@style/CircularProgressView" />
