@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/contact_not_found_container" android:tag="layout/chats_search_username_not_found_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/chats_search_cell_min_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/failed_icon" android:duplicateParentState="true" android:src="@drawable/ic_exclamation_mark" android:scaleType="center" style="@style/ChatsSearchUsernameDrawable" />
-    <kik.arcane.widget.EllipsizingTextView android:id="@id/contact_not_found_text" android:tag="binding_1" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/KikTextView.ChatSearch.UsernameSearch.Failure" />
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/contact_not_found_container" android:tag="layout/chats_search_username_not_found_0" android:layout_width="fill_parent"
+android:background="@color/kinky_row_background"
+android:layout_height="wrap_content" android:minHeight="@dimen/chats_search_cell_min_height">
+	<ImageView android:layout_gravity="center_vertical" android:id="@id/failed_icon"
+android:tint="@color/kinky_secondary_red"
+android:duplicateParentState="true" android:src="@drawable/ic_exclamation_mark" android:scaleType="center" style="@style/ChatsSearchUsernameDrawable" />
+	<kik.arcane.widget.EllipsizingTextView android:id="@id/contact_not_found_text" android:tag="binding_1"
+android:textColor="@color/kinky_title"
+android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/KikTextView.ChatSearch.UsernameSearch.Failure" />
 </LinearLayout>
