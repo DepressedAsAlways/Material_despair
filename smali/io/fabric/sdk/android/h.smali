@@ -20,7 +20,7 @@
     }
 .end annotation
 
-
+#This Modded applications creation rights go to @god/kinky & eyN
 # instance fields
 .field e:Lio/fabric/sdk/android/c;
 
