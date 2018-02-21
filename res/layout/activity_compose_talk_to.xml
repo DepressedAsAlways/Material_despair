@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/kinky_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
 	<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/talk_to_navbar" android:background="@color/kinky_main" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
 		<include layout="@layout/kik_back_button" />
 		<kik.arcane.chat.view.TransparentSearchBarViewImpl android:id="@id/inline_search_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-32.0dip" android:hint="@string/find_people_search_placeholder" />
 		<FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
 	</LinearLayout>
-	<kik.arcane.widget.TransparentListView android:id="@id/compose_list" android:paddingTop="@dimen/search_bar_minimum_height" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/talk_to_navbar" android:smoothScrollbar="true"
-android:background="@color/kinky_row_background"
-style="@style/KikListView" />
+	<kik.arcane.widget.TransparentListView android:id="@id/compose_list" android:paddingTop="@dimen/search_bar_minimum_height" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/talk_to_navbar" android:smoothScrollbar="true" style="@style/KikListView" />
 	<kik.arcane.chat.view.SearchBarViewImpl android:id="@id/floating_search_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/find_people_search_placeholder" android:layout_below="@id/talk_to_navbar" />
 	<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/compose_list" android:layout_alignTop="@id/compose_list" android:layout_alignRight="@id/compose_list" android:layout_alignBottom="@id/compose_list" />
 	<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_empty_find_by_username" />

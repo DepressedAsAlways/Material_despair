@@ -2,8 +2,16 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:kik="http://schemas.android.com/apk/res/kik.arcane">
-    <item android:state_selected="true" android:drawable="@drawable/ic_web_active" />
-    <item android:state_focused="true" android:drawable="@drawable/ic_web_down" />
-    <item android:state_pressed="true" android:drawable="@drawable/ic_web_down" />
-    <item android:drawable="@drawable/ic_web_inactive" />
+    <item android:state_selected="true">
+        <bitmap android:src="@drawable/ic_web_active" android:tint="@color/kinky_main" />
+    </item>
+    <item android:state_focused="true">
+        <bitmap android:src="@drawable/ic_web_active" android:tint="@color/kinky_main" />
+    </item>
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/ic_web_active" android:tint="@color/kinky_main" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_web_active" android:tint="@color/kinky_secondary_white" />
+    </item>
 </selector>

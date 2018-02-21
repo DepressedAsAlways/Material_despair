@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:background="@color/kinky_row_background" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_trophy_case_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_trophy_case_0" android:background="@color/kinky_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
 	<FrameLayout android:orientation="horizontal" android:id="@id/trophy_case_navbar" android:tag="binding_1" android:background="@color/kinky_main" android:layout_width="fill_parent" android:layout_height="wrap_content">
 		<include layout="@layout/kik_back_button" />
 	</FrameLayout>

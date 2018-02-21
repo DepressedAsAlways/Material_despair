@@ -9,7 +9,7 @@
                         <FrameLayout android:id="@id/profile_pic_container" android:tag="binding_2" android:focusable="true" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_marginTop="32.0dip" android:foreground="@drawable/circular_prof_pic_selector">
                             <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/set_profile_pic" android:tag="binding_3" android:background="@drawable/circular_button_outline" android:paddingTop="32.0dip" android:focusable="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
                                 <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_set_photo_tint" />
-                                <TextView android:textSize="14.0sp" android:textColor="@color/kinky_secondary_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_photo" />
+                                <TextView android:textSize="14.0sp" android:textColor="@color/kinky_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_photo" />
                             </LinearLayout>
                             <kik.arcane.widget.CircleCroppedImageView android:id="@id/profile_pic" android:tag="binding_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
                         </FrameLayout>
@@ -29,7 +29,7 @@
         </LinearLayout>
     </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
     <LinearLayout android:layout_gravity="top" android:layout_above="@id/user_profile_scrollview" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="horizontal" android:background="@color/kinky_main" android:id="@id/navbar" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="#ccff9800" android:id="@id/navbar" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <include layout="@layout/kik_back_button_settings" />
             <FrameLayout android:layout_width="0.0dip" android:layout_height="@dimen/native_topbar_height" android:layout_weight="1.0" />
             <FrameLayout android:id="@id/trophy_case_layout" android:tag="binding_10" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content">

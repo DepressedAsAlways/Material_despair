@@ -1514,9 +1514,9 @@
     </style>
     <style name="KikListView">
         <item name="android:fadingEdgeLength">0.0dip</item>
-        <item name="android:listSelector">?selectableItemBackground</item>
+        <item name="android:listSelector">@xml/arcane_row_items</item>
         <item name="android:overScrollMode">never</item>
-        <item name="android:listChoiceBackgroundIndicator">?selectableItemBackground</item>
+        <item name="android:listChoiceBackgroundIndicator">@xml/arcane_row_items</item>
     </style>
     <style name="KikProgressWheel">
         <item name="android:background">@drawable/circular_inline_progress_background</item>
@@ -1670,7 +1670,7 @@
     <style name="KikTextView.Dialog" parent="@style/KikTextView" />
     <style name="KikTextView.Dialog.Message" parent="@style/KikTextView.Dialog">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textColor">@color/kinky_secondary_white</item>
     </style>
     <style name="KikTextView.Dialog.ReportOption" parent="@style/KikTextView.Dialog">
         <item name="android:textSize">16.0sp</item>
@@ -1678,7 +1678,7 @@
     </style>
     <style name="KikTextView.Dialog.Title" parent="@style/KikTextView.Dialog">
         <item name="android:textSize">24.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/kinky_main</item>
     </style>
     <style name="KikTextView.EmptyState" parent="@style/KikTextView">
         <item name="android:textSize">16.0sp</item>

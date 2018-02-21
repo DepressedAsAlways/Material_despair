@@ -2,7 +2,13 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:kik="http://schemas.android.com/apk/res/kik.arcane">
-    <item android:state_focused="true" android:drawable="@drawable/ic_camera_down" />
-    <item android:state_pressed="true" android:drawable="@drawable/ic_camera_down" />
-    <item android:drawable="@drawable/ic_camera_off" />
+    <item android:state_focused="true">
+        <bitmap android:src="@drawable/ic_camera_off" android:tint="@color/kinky_main" />
+    </item>
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/ic_camera_off" android:tint="@color/kinky_main" />
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_camera_off" android:tint="@color/kinky_secondary_white" />
+    </item>
 </selector>

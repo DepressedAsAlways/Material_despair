@@ -838,105 +838,6 @@
     <public type="drawable" name="emoji_spacecreature" id="0x7f020124" />
     <public type="drawable" name="emoji_status_selector" id="0x7f020125" />
     <public type="drawable" name="emoji_thinking" id="0x7f020126" />
-    <public type="drawable" name="emoji_u1f355" id="0x7f020127" />
-    <public type="drawable" name="emoji_u1f369" id="0x7f020128" />
-    <public type="drawable" name="emoji_u1f370_multipagereg" id="0x7f020129" />
-    <public type="drawable" name="emoji_u1f377" id="0x7f02012a" />
-    <public type="drawable" name="emoji_u1f37b" id="0x7f02012b" />
-    <public type="drawable" name="emoji_u1f381_multipagereg" id="0x7f02012c" />
-    <public type="drawable" name="emoji_u1f382" id="0x7f02012d" />
-    <public type="drawable" name="emoji_u1f385" id="0x7f02012e" />
-    <public type="drawable" name="emoji_u1f388_multipagereg" id="0x7f02012f" />
-    <public type="drawable" name="emoji_u1f389" id="0x7f020130" />
-    <public type="drawable" name="emoji_u1f42a" id="0x7f020131" />
-    <public type="drawable" name="emoji_u1f436" id="0x7f020132" />
-    <public type="drawable" name="emoji_u1f440" id="0x7f020133" />
-    <public type="drawable" name="emoji_u1f447" id="0x7f020134" />
-    <public type="drawable" name="emoji_u1f44a" id="0x7f020135" />
-    <public type="drawable" name="emoji_u1f44b" id="0x7f020136" />
-    <public type="drawable" name="emoji_u1f44c" id="0x7f020137" />
-    <public type="drawable" name="emoji_u1f44d" id="0x7f020138" />
-    <public type="drawable" name="emoji_u1f44e" id="0x7f020139" />
-    <public type="drawable" name="emoji_u1f44f" id="0x7f02013a" />
-    <public type="drawable" name="emoji_u1f450" id="0x7f02013b" />
-    <public type="drawable" name="emoji_u1f459" id="0x7f02013c" />
-    <public type="drawable" name="emoji_u1f46f" id="0x7f02013d" />
-    <public type="drawable" name="emoji_u1f470" id="0x7f02013e" />
-    <public type="drawable" name="emoji_u1f474" id="0x7f02013f" />
-    <public type="drawable" name="emoji_u1f475" id="0x7f020140" />
-    <public type="drawable" name="emoji_u1f476" id="0x7f020141" />
-    <public type="drawable" name="emoji_u1f478" id="0x7f020142" />
-    <public type="drawable" name="emoji_u1f47d" id="0x7f020143" />
-    <public type="drawable" name="emoji_u1f47f" id="0x7f020144" />
-    <public type="drawable" name="emoji_u1f480" id="0x7f020145" />
-    <public type="drawable" name="emoji_u1f481" id="0x7f020146" />
-    <public type="drawable" name="emoji_u1f483" id="0x7f020147" />
-    <public type="drawable" name="emoji_u1f486" id="0x7f020148" />
-    <public type="drawable" name="emoji_u1f494" id="0x7f020149" />
-    <public type="drawable" name="emoji_u1f4a9" id="0x7f02014a" />
-    <public type="drawable" name="emoji_u1f4aa" id="0x7f02014b" />
-    <public type="drawable" name="emoji_u1f4b8" id="0x7f02014c" />
-    <public type="drawable" name="emoji_u1f4da" id="0x7f02014d" />
-    <public type="drawable" name="emoji_u1f52b" id="0x7f02014e" />
-    <public type="drawable" name="emoji_u1f601" id="0x7f02014f" />
-    <public type="drawable" name="emoji_u1f602" id="0x7f020150" />
-    <public type="drawable" name="emoji_u1f603" id="0x7f020151" />
-    <public type="drawable" name="emoji_u1f604" id="0x7f020152" />
-    <public type="drawable" name="emoji_u1f606" id="0x7f020153" />
-    <public type="drawable" name="emoji_u1f607" id="0x7f020154" />
-    <public type="drawable" name="emoji_u1f608" id="0x7f020155" />
-    <public type="drawable" name="emoji_u1f609" id="0x7f020156" />
-    <public type="drawable" name="emoji_u1f60a" id="0x7f020157" />
-    <public type="drawable" name="emoji_u1f60b" id="0x7f020158" />
-    <public type="drawable" name="emoji_u1f60c" id="0x7f020159" />
-    <public type="drawable" name="emoji_u1f60d" id="0x7f02015a" />
-    <public type="drawable" name="emoji_u1f60e" id="0x7f02015b" />
-    <public type="drawable" name="emoji_u1f60f" id="0x7f02015c" />
-    <public type="drawable" name="emoji_u1f610" id="0x7f02015d" />
-    <public type="drawable" name="emoji_u1f612" id="0x7f02015e" />
-    <public type="drawable" name="emoji_u1f613" id="0x7f02015f" />
-    <public type="drawable" name="emoji_u1f614" id="0x7f020160" />
-    <public type="drawable" name="emoji_u1f615" id="0x7f020161" />
-    <public type="drawable" name="emoji_u1f616" id="0x7f020162" />
-    <public type="drawable" name="emoji_u1f617" id="0x7f020163" />
-    <public type="drawable" name="emoji_u1f618" id="0x7f020164" />
-    <public type="drawable" name="emoji_u1f61a" id="0x7f020165" />
-    <public type="drawable" name="emoji_u1f61b" id="0x7f020166" />
-    <public type="drawable" name="emoji_u1f61e" id="0x7f020167" />
-    <public type="drawable" name="emoji_u1f61f" id="0x7f020168" />
-    <public type="drawable" name="emoji_u1f620" id="0x7f020169" />
-    <public type="drawable" name="emoji_u1f621" id="0x7f02016a" />
-    <public type="drawable" name="emoji_u1f622" id="0x7f02016b" />
-    <public type="drawable" name="emoji_u1f624" id="0x7f02016c" />
-    <public type="drawable" name="emoji_u1f626" id="0x7f02016d" />
-    <public type="drawable" name="emoji_u1f627" id="0x7f02016e" />
-    <public type="drawable" name="emoji_u1f628" id="0x7f02016f" />
-    <public type="drawable" name="emoji_u1f629" id="0x7f020170" />
-    <public type="drawable" name="emoji_u1f62a" id="0x7f020171" />
-    <public type="drawable" name="emoji_u1f62b" id="0x7f020172" />
-    <public type="drawable" name="emoji_u1f62c" id="0x7f020173" />
-    <public type="drawable" name="emoji_u1f62d" id="0x7f020174" />
-    <public type="drawable" name="emoji_u1f62e" id="0x7f020175" />
-    <public type="drawable" name="emoji_u1f62f" id="0x7f020176" />
-    <public type="drawable" name="emoji_u1f630" id="0x7f020177" />
-    <public type="drawable" name="emoji_u1f631" id="0x7f020178" />
-    <public type="drawable" name="emoji_u1f632" id="0x7f020179" />
-    <public type="drawable" name="emoji_u1f633" id="0x7f02017a" />
-    <public type="drawable" name="emoji_u1f634" id="0x7f02017b" />
-    <public type="drawable" name="emoji_u1f635" id="0x7f02017c" />
-    <public type="drawable" name="emoji_u1f636" id="0x7f02017d" />
-    <public type="drawable" name="emoji_u1f637" id="0x7f02017e" />
-    <public type="drawable" name="emoji_u1f638" id="0x7f02017f" />
-    <public type="drawable" name="emoji_u1f639" id="0x7f020180" />
-    <public type="drawable" name="emoji_u1f63a" id="0x7f020181" />
-    <public type="drawable" name="emoji_u1f63b" id="0x7f020182" />
-    <public type="drawable" name="emoji_u1f640" id="0x7f020183" />
-    <public type="drawable" name="emoji_u1f645" id="0x7f020184" />
-    <public type="drawable" name="emoji_u1f648" id="0x7f020185" />
-    <public type="drawable" name="emoji_u1f649" id="0x7f020186" />
-    <public type="drawable" name="emoji_u1f64a" id="0x7f020187" />
-    <public type="drawable" name="emoji_u1f64b" id="0x7f020188" />
-    <public type="drawable" name="emoji_u1f64f" id="0x7f020189" />
     <public type="drawable" name="emoji_unamused" id="0x7f02018a" />
     <public type="drawable" name="emoji_wave" id="0x7f02018b" />
     <public type="drawable" name="empty_tall_divider" id="0x7f02018c" />
@@ -991,7 +892,6 @@
     <public type="drawable" name="ic_blue_create_group" id="0x7f0201c8" />
     <public type="drawable" name="ic_blue_group_plus" id="0x7f0201c9" />
     <public type="drawable" name="ic_blurmedia_24" id="0x7f0201ca" />
-    <public type="drawable" name="ic_camera_down" id="0x7f0201cc" />
     <public type="drawable" name="ic_camera_off" id="0x7f0201ce" />
     <public type="drawable" name="ic_camera_rear_black_24_px" id="0x7f0201cf" />
     <public type="drawable" name="ic_chat_info_bell" id="0x7f0201d0" />
@@ -1028,11 +928,7 @@
     <public type="drawable" name="ic_flash_off_white_24_px" id="0x7f0201f0" />
     <public type="drawable" name="ic_flash_on_white_24_px" id="0x7f0201f1" />
     <public type="drawable" name="ic_g_i_f_active" id="0x7f0201f2" />
-    <public type="drawable" name="ic_g_i_f_down" id="0x7f0201f3" />
-    <public type="drawable" name="ic_g_i_f_inactive" id="0x7f0201f4" />
     <public type="drawable" name="ic_gallery_active" id="0x7f0201f5" />
-    <public type="drawable" name="ic_gallery_down" id="0x7f0201f6" />
-    <public type="drawable" name="ic_gallery_inactive" id="0x7f0201f7" />
     <public type="drawable" name="ic_gallery_maximize" id="0x7f0201f8" />
     <public type="drawable" name="ic_gif_emoji_off" id="0x7f0201f9" />
     <public type="drawable" name="ic_gif_emoji_on" id="0x7f0201fa" />
@@ -1092,8 +988,6 @@
     <public type="drawable" name="ic_share" id="0x7f020232" />
     <public type="drawable" name="ic_share_chatscreen" id="0x7f020233" />
     <public type="drawable" name="ic_share_chatscreen_down" id="0x7f020234" />
-    <public type="drawable" name="ic_smiley_down" id="0x7f020235" />
-    <public type="drawable" name="ic_smiley_off" id="0x7f020236" />
     <public type="drawable" name="ic_smiley_on" id="0x7f020237" />
     <public type="drawable" name="ic_sound_off" id="0x7f020238" />
     <public type="drawable" name="ic_sound_on" id="0x7f020239" />
@@ -1101,7 +995,6 @@
     <public type="drawable" name="ic_sr_off" id="0x7f02023b" />
     <public type="drawable" name="ic_sr_unsupported" id="0x7f02023c" />
     <public type="drawable" name="ic_stickers_active" id="0x7f02023d" />
-    <public type="drawable" name="ic_stickers_inactive" id="0x7f02023e" />
     <public type="drawable" name="ic_trash" id="0x7f02023f" />
     <public type="drawable" name="ic_trending_off" id="0x7f020240" />
     <public type="drawable" name="ic_trending_on" id="0x7f020241" />
@@ -1110,8 +1003,6 @@
     <public type="drawable" name="ic_verified_large" id="0x7f020244" />
     <public type="drawable" name="ic_verified_pressed" id="0x7f020245" />
     <public type="drawable" name="ic_web_active" id="0x7f020246" />
-    <public type="drawable" name="ic_web_down" id="0x7f020247" />
-    <public type="drawable" name="ic_web_inactive" id="0x7f020248" />
     <public type="drawable" name="ic_x_white" id="0x7f020249" />
     <public type="drawable" name="ic_x_white_down" id="0x7f02024a" />
     <public type="drawable" name="icon_blurmedia_32" id="0x7f02024b" />
@@ -1398,6 +1289,7 @@
 	<public type="drawable" name="ic_close_white_16_tint" id="0x7f0203c7" />
 	<public type="drawable" name="ic_update" id="0x7f0203c8" />
 	<public type="drawable" name="ic_changelog" id="0x7f0203c9" />
+	<public type="drawable" name="ic_disclaimer" id="0x7f0203ca" />
     <public type="drawable" name="abc_control_background_material" id="0x7f020010" />
     <public type="drawable" name="cards_misc_navbar" id="0x7f02009f" />
     <public type="drawable" name="instabug_ic_attach" id="0x7f020296" />
@@ -4994,6 +4886,7 @@
 	<public type="color" name="kinky_main" id="0x7f0e0111" />
 	<public type="color" name="kinky_secondary_black" id="0x7f0e0112" />
 	<public type="color" name="kinky_secondary_grey" id="0x7f0e0113" />
+	<public type="color" name="kinky_smiley_pop_up" id="0x7f0e0114" />
     <public type="color" name="abc_background_cache_hint_selector_material_dark" id="0x7f0e00ec" />
     <public type="color" name="abc_background_cache_hint_selector_material_light" id="0x7f0e00ed" />
     <public type="color" name="abc_color_highlight_material" id="0x7f0e00f0" />

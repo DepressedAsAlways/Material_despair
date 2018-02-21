@@ -5,7 +5,7 @@
 			<ImageView android:layout_gravity="center_vertical" android:id="@id/chat_search_back_button_image" android:duplicateParentState="true" android:layout_width="@dimen/material_navbar_button_width" android:layout_height="@dimen/material_navbar_button_height" android:src="@drawable/ic_back" android:scaleType="center" android:tint="@color/kinky_secondary_white" android:alpha="0.0" />
 			<ImageView android:layout_gravity="center_vertical" android:id="@id/chat_search_search_icon_image" android:duplicateParentState="true" android:layout_width="@dimen/material_navbar_button_width" android:layout_height="@dimen/material_navbar_button_height" android:src="@drawable/ic_search_dark" android:scaleType="center" android:tint="@color/kinky_secondary_white" />
 		</FrameLayout>
-		<kik.arcane.chat.view.TransparentSearchBarViewImpl android:textColor="@color/kinky_main" android:textColorHint="@color/kinky_secondary_white" android:id="@id/chat_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/chats_search_hint" android:inputType="textShortMessage" />
+		<kik.arcane.chat.view.TransparentSearchBarViewImpl android:background="@color/kinky_main" android:textColor="@color/kinky_secondary_black" android:textColorHint="@color/kinky_secondary_white" android:id="@id/chat_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/chats_search_hint" android:inputType="textShortMessage" />
 	</LinearLayout>
 	<include layout="@layout/navbar_underline" />
 	<FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
