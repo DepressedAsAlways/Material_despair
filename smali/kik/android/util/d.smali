@@ -673,7 +673,7 @@
     if-nez v6, :cond_6
 
     const-string v6, "com.kik.ext.video-gallery"
-
+	
     invoke-static/range {p1 .. p1}, Lkik/arcane/util/d$a;->g(Lkik/arcane/util/d$a;)Ljava/lang/String;
 
     move-result-object v17
