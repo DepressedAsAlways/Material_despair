@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+        <bitmap android:src="@mipmap/app_icon_bg" android:tint="@color/kinky_window_background" />
+    </item>
+	<item>
+        <bitmap android:src="@mipmap/icon" android:tint="@color/kinky_main" />
+    </item>
+</layer-list>
