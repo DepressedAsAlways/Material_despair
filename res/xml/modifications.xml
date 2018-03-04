@@ -11,20 +11,36 @@
 	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="all outgoing messages will be rectangular" />
     <arcane.List android:entries="@array/kinky_colors" android:title="Change Incoming Text Color" android:key="kinky.incomingtext" android:summary="how your incoming messages text color appears" android:entryValues="@array/kinky_colors" />
 	<arcane.Empty android:title="Chat" />
+	<arcane.Toggle android:title="Fake Camera" android:summary="allows you to send gallery pics as live camera pics" android:key="kinky.fakecam" />
 	<arcane.Toggle android:title="Disable Typing" android:summary="other users will not be able to see when you are typing" android:key="kinky.typing" />
 	<arcane.List android:entries="@array/kinky_receipts" android:title="Read Receipts" android:key="kinky.receipt" android:summary="how your messages are perceived" android:entryValues="@array/kinky_receipts" />
 	<arcane.Toggle android:title="Voice Messages" android:summary="allows you to send voice messages" android:key="kinky.voice" />
 	<arcane.Toggle android:title="Gif Favorites" android:summary="enables favoriting Gifs" android:key="kinky.gif" />
 	<arcane.Toggle android:title="Disable Vid Chat" android:summary="disables video chatting toggle" android:key="kinky.vid" />
 	<arcane.Toggle android:title="Multi Photos" android:summary="allows you to send groups of photos from gallery" android:key="kinky.multi" />
+	<arcane.Empty android:title="Media No Save" />
+	<arcane.Toggle android:title="No Save Voice Messages" android:summary="voice messages you send can't be saved by older versions of kik" android:key="kinky.savevoice" />
+	<arcane.Toggle android:title="No Save Gallery Pics" android:summary="pictures from the gallery can't be saved" android:key="kinky.savegalpic" />
+	<arcane.Toggle android:title="No Save Camera Pics" android:summary="pictures taken from camera can't be saved" android:key="kinky.savecampic" />
+	<arcane.Toggle android:title="No Save Gallery Videos" android:summary="videos from the gallery can't be saved" android:key="kinky.savegalvid" />
+	<arcane.Toggle android:title="No Save All" android:summary="all the above are enabled" android:key="kinky.save" />
+	<arcane.Empty android:title="Media No Forward" />
+	<arcane.Toggle android:title="No Forward Voice Messages" android:summary="voice messages you send can't be forwarded by older versions of kik" android:key="kinky.forwardvoice" />
+	<arcane.Toggle android:title="No Forward Gifs" android:summary="gifs you send can't be forwarded" android:key="kinky.forwardgif" />
+	<arcane.Toggle android:title="No Forward Stickers" android:summary="stickers you send can't be forwarded" android:key="kinky.forwardsticker" />
+	<arcane.Toggle android:title="No Forward Gallery Pics" android:summary="pictures from the gallery can't be forwarded" android:key="kinky.forwardgalpic" />
+	<arcane.Toggle android:title="No Forward Camera Pics" android:summary="pictures taken from camera can't be forwarded" android:key="kinky.forwardcampic" />
+	<arcane.Toggle android:title="No Forward Gallery Videos" android:summary="videos from the gallery can't be forwarded" android:key="kinky.forwardvidgal" />
+	<arcane.Toggle android:title="No Forward All" android:summary="all the above are enabled" android:key="kinky.forward" />
 	<arcane.Empty android:title="Group Chat" />
 	<arcane.Toggle android:title="Enable Admin Badges" android:summary="puts badges on admin profile pictures in chat" android:key="kinky.admin" />
 	<arcane.Toggle android:title="Blur Media" android:summary="gallery pictures sent in groups will be blurred" android:key="kinky.blur" />
 	<arcane.Empty android:title="Profile" />
 	<arcane.Toggle android:title="Days On Kik" android:summary="allows you to view how many days other users have been on kik" android:key="kinky.days" />
 	<arcane.Toggle android:title="Enable Bios" android:summary="enables editing your bio and viewing other user bios" android:key="kinky.bios" />
-	<arcane.Toggle android:title="Trophy Case" android:summary="Enables trophy case at top of settings" android:key="kinky.trophy" />
+	<arcane.Toggle android:title="Trophy Case" android:summary="enables trophy case at top of settings" android:key="kinky.trophy" />
 	<arcane.Empty android:title="Other" />
+	<arcane.Toggle android:title="Thank You Toast" android:summary="enables the thanks for using arcane toast" android:key="kinky.toasty" />
 	<arcane.Toggle android:title="No Pull" android:summary="disables pull to search in conversations list" android:key="kinky.pull" />
 	<arcane.Toggle android:title="Privacy Mode" android:summary="hides conversations screen messages" android:key="kinky.private" />
 	<arcane.Toggle android:title="Do Not Disturb" android:summary="auto leaves groups you get added to" android:key="kinky.disturb" />

@@ -4915,6 +4915,366 @@
     const-string v6, "ff00ff00"
 
     invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
+	
+	.line 1
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.toasty"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 2
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.admin"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 3
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.gif"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 4
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.voice"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 5
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.multi"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 6
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.days"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 7
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.trophy"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 8
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.newreport"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 9
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.pull"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 10
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.forwardvoice"
+
+    const/4 v6, 0x1
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 11
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.private"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 12
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.forwardgif"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 13
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.forwardsticker"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 14
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.forwardgalpic"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 15
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.forwardcampic"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 16
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.forwardvidgal"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 17
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.forward"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 18
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.blur"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 19
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.bios"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 20
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.disturb"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 21
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.squareincom"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 22
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.squareoutgo"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 23
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.fakecam"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
+	
+	.line 24
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.vid"
+
+    const/4 v6, 0x0
+
+    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v6
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
 
     .line 16372
     move-object/from16 v0, p0

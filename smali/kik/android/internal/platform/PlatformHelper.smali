@@ -862,7 +862,7 @@
 .end method
 
 .method public static a(Ljava/lang/String;I)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 4
+    .locals 9
 
     .prologue
     .line 548
@@ -882,15 +882,46 @@
     .line 550
     const-string v1, "allow-forward"
 
+    const-string v2, "true"
+	
+	const-string v8, "kinky.forwardvoice"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky
+
     const-string v2, "false"
 
+    :cond_kinky
+	const-string v8, "kinky.forward"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky2
+
+    const-string v2, "false"
+
+    :cond_kinky2
     invoke-virtual {v0, v1, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 551
+	const-string v8, "kinky.savevoice"
+	
+	invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky4
+	
     const-string v1, "true"
 
     invoke-virtual {v0, v1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->j(Ljava/lang/String;)V
-
+	
+	:cond_kinky4
     .line 552
     const v1, 0x7f0203b6
 
@@ -1095,7 +1126,7 @@
 .end method
 
 .method public static a(Lkik/arcane/gifs/api/GifResponseData;Landroid/graphics/Bitmap;)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 7
+    .locals 9
 
     .prologue
     .line 924
@@ -1167,7 +1198,29 @@
     const-string v0, "allow-forward"
 
     const-string v2, "true"
+	
+	const-string v8, "kinky.forwardgif"
 
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky
+
+    const-string v2, "false"
+
+    :cond_kinky
+	const-string v8, "kinky.forward"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky2
+
+    const-string v2, "false"
+
+    :cond_kinky2
     invoke-virtual {v1, v0, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 932
@@ -1292,7 +1345,7 @@
 .end method
 
 .method public static a(Lkik/core/datatypes/y;[BLkik/arcane/internal/platform/PlatformHelper$StickerSource;)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 3
+    .locals 9
 
     .prologue
     .line 968
@@ -1375,8 +1428,30 @@
     .line 984
     const-string v1, "allow-forward"
 
+    const-string v2, "true"
+	
+	const-string v8, "kinky.forwardsticker"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky
+
     const-string v2, "false"
 
+    :cond_kinky
+	const-string v8, "kinky.forward"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky2
+
+    const-string v2, "false"
+
+    :cond_kinky2
     invoke-virtual {v0, v1, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 985
@@ -3841,7 +3916,7 @@
 .end method
 
 .method public final a(Landroid/app/Activity;Ljava/lang/String;JLjava/lang/String;)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 7
+    .locals 9
     .annotation build Landroid/annotation/TargetApi;
         value = 0xe
     .end annotation
@@ -3874,7 +3949,7 @@
 .end method
 
 .method public final a(Landroid/app/Activity;[BLkik/core/interfaces/ad;)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 6
+    .locals 9
 
     .prologue
     const/4 v1, 0x0
@@ -3982,9 +4057,45 @@
     const-string v0, "allow-forward"
 
     const-string v4, "true"
+	
+	const-string v8, "kinky.forwardcampic"
 
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky
+
+    const-string v4, "false"
+
+    :cond_kinky
+	const-string v8, "kinky.forward"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky2
+
+    const-string v4, "false"
+
+    :cond_kinky2
     invoke-virtual {v2, v0, v4}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
+	
+	.line 980
+	const-string v8, "kinky.savecampic"
+	
+	invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v8
+
+    if-eqz v8, :cond_kinky4
+	
+    const-string v3, "true"
+
+    invoke-virtual {v2, v3}, Lkik/core/datatypes/messageExtensions/ContentMessage;->j(Ljava/lang/String;)V
+	
+	:cond_kinky4
     .line 477
     const-string v0, "file-content-type"
 
@@ -4159,7 +4270,7 @@
 .end method
 
 .method public final a(Ljava/io/File;Lkik/core/interfaces/ad;)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 8
+    .locals 9
 
     .prologue
     const/4 v2, 0x0
@@ -4171,7 +4282,18 @@
     new-instance v1, Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v3, "com.kik.ext.gallery"
+	
+	const-string v8, "kinky.fakecam"
 
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky
+
+    const-string v3, "com.kik.ext.camera"
+
+    :cond_kinky
     invoke-direct {v1, v3}, Lkik/core/datatypes/messageExtensions/ContentMessage;-><init>(Ljava/lang/String;)V
 
     move v4, v2
@@ -4341,9 +4463,45 @@
     const-string v2, "allow-forward"
 
     const-string v3, "true"
+	
+	const-string v8, "kinky.forwardgalpic"
 
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky2
+
+    const-string v3, "false"
+
+    :cond_kinky2
+	const-string v8, "kinky.forward"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky3
+
+    const-string v3, "false"
+
+    :cond_kinky3
     invoke-virtual {v1, v2, v3}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
+	
+	.line 980
+	const-string v8, "kinky.savegalpic"
+	
+	invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v8
+
+    if-eqz v8, :cond_kinky4
+	
+    const-string v2, "true"
+
+    invoke-virtual {v1, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->j(Ljava/lang/String;)V
+	
+	:cond_kinky4
     .line 829
     const-string v2, "file-name"
 
@@ -4519,7 +4677,7 @@
 .end method
 
 .method public final a(Ljava/lang/String;JZLcom/kik/storage/s;)Lkik/core/datatypes/messageExtensions/ContentMessage;
-    .locals 6
+    .locals 9
 
     .prologue
     const/4 v0, 0x0
@@ -4528,7 +4686,7 @@
     new-instance v2, Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v1, "com.kik.ext.video-gallery"
-
+	
     invoke-direct {v2, v1}, Lkik/core/datatypes/messageExtensions/ContentMessage;-><init>(Ljava/lang/String;)V
 
     .line 1030
@@ -4610,9 +4768,45 @@
     const-string v1, "allow-forward"
 
     const-string v4, "true"
+	
+	const-string v8, "kinky.forwardvidgal"
 
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky
+
+    const-string v4, "false"
+
+    :cond_kinky
+	const-string v8, "kinky.forward"
+
+    invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+
+    move-result v8
+
+    if-eqz v8, :cond_kinky2
+
+    const-string v4, "false"
+
+    :cond_kinky2
     invoke-virtual {v2, v1, v4}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Ljava/lang/String;Ljava/lang/String;)V
+	
+	.line 980
+	const-string v8, "kinky.savegalvid"
+	
+	invoke-static {v8}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
 
+    move-result v8
+
+    if-eqz v8, :cond_kinky4
+	
+    const-string v3, "true"
+
+    invoke-virtual {v2, v3}, Lkik/core/datatypes/messageExtensions/ContentMessage;->j(Ljava/lang/String;)V
+	
+	:cond_kinky4
     .line 1041
     const-string v1, "layout"
 
