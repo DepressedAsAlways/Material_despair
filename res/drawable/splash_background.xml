@@ -3,9 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/kinky_window_background" />
 	<item>
-        <bitmap android:gravity="center" android:src="@mipmap/kinky_splash" />
-    </item>
-	<item>
         <bitmap android:gravity="center" android:src="@mipmap/img_splash" android:tint="@color/kinky_main" />
     </item>
 </layer-list>

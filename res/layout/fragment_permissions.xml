@@ -37,7 +37,7 @@ android:layout_width="fill_parent" android:layout_height="wrap_content" android:
 				</LinearLayout>
 			</LinearLayout>
 			<include layout="@layout/list_divider" />
-			<Button android:gravity="center" android:id="@id/ok_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="12.0dip" android:text="@string/allow_and_continue" style="@style/KikButton.Hero" />
+			<Button android:gravity="center" android:id="@id/ok_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="12.0dip" android:text="@string/allow_and_continue" style="@style/ArcaneButtonBordered" />
 			<kik.arcane.widget.RobotoTextView android:gravity="center_horizontal" android:id="@id/tos_text" android:visibility="visible" android:layout_width="fill_parent"
 android:textColor="@color/kinky_secondary_white"
 android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" style="@style/KikTextView.Terms" />

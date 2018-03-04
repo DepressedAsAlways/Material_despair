@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<kik.arcane.widget.MaskedFramelayout android:tag="layout/gif_set_list_item_0" android:layout_width="fill_parent" android:layout_height="@dimen/gif_featured_height" android:maxHeight="@dimen/gif_featured_height"
+<kik.arcane.widget.MaskedFramelayout android:tag="layout/gif_set_list_item_0" android:background="@color/kinky_window_background" android:layout_width="fill_parent" android:layout_height="@dimen/gif_featured_height" android:maxHeight="@dimen/gif_featured_height"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <kik.arcane.gifs.view.AbsoluteSizeGifView android:gravity="center" android:id="@id/gif_set_background" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="@dimen/gif_featured_height" android:scaleType="centerCrop" android:tint="@color/overlay_full_bleed_retry" />
     <kik.arcane.widget.RobotoTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/gif_set_textview" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="@dimen/gif_featured_height" />
