@@ -978,4 +978,6 @@
     <item type="id" name="floating_search_background_shadow">false</item>
 	<item type="id" name="mod_tab">false</item>
 	<item type="id" name="dev_tab">false</item>
+	<item type="id" name="toasty">false</item>
+	<item type="id" name="toasty_text">false</item>
 </resources>

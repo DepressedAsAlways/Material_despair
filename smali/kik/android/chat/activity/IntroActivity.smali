@@ -314,6 +314,8 @@
 
     .prologue
     const/4 v1, 0x0
+	
+	invoke-virtual {p0}, Lkik/arcane/chat/activity/IntroActivity;->kinkyToast()V
 
     .line 58
     invoke-super {p0, p1}, Landroid/support/v7/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
@@ -407,4 +409,70 @@
     invoke-direct {p0}, Lkik/arcane/chat/activity/IntroActivity;->a()V
 
     goto :goto_1
+.end method
+
+.method public kinkyToast()V
+	.locals 6
+ 
+    .prologue
+	const-string v0, "kinky.toasty"
+ 
+    invoke-static {v0}, Larcane/values;->getBoolean(Ljava/lang/String;)Z
+ 
+    move-result v0
+ 
+    if-eqz v0, :cond_1
+	
+	invoke-virtual {p0}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
+
+    move-result-object v0
+
+    const v5, 0x7f04018a
+
+    const v4, 0x7f100436
+
+    .line 17
+    invoke-virtual {p0, v4}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v4
+
+    check-cast v4, Landroid/view/ViewGroup;
+
+    .line 16
+    invoke-virtual {v0, v5, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
+
+    move-result-object v1
+
+    .line 19
+    const v4, 0x7f100437
+
+    invoke-virtual {v1, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/widget/TextView;
+	
+	.line 20
+    const-string/jumbo v4, "Thanks For Using ArcaneKik <3"
+
+    invoke-virtual {v2, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 22
+    new-instance v3, Landroid/widget/Toast;
+
+    invoke-direct {v3, p0}, Landroid/widget/Toast;-><init>(Landroid/content/Context;)V
+
+    .line 23
+    const/4 v4, 0x1
+
+    invoke-virtual {v3, v4}, Landroid/widget/Toast;->setDuration(I)V
+
+    .line 24
+    invoke-virtual {v3, v1}, Landroid/widget/Toast;->setView(Landroid/view/View;)V
+
+    .line 25
+    invoke-virtual {v3}, Landroid/widget/Toast;->show()V
+	
+	:cond_1
+	return-void
 .end method
