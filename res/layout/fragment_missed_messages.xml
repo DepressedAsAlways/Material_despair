@@ -8,7 +8,7 @@
 				<ImageView android:id="@id/button_mute" android:background="?selectableItemBackgroundBorderless" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_bell" android:scaleType="centerInside" android:tint="@color/kinky_main" />
 				<ImageView android:id="@id/button_unmute" android:background="?selectableItemBackgroundBorderless" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_bell_muted" android:scaleType="centerInside" android:tint="@color/kinky_main" />
 			</FrameLayout>
-			<ImageView android:id="@id/button_clear" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/native_topbar_height" android:layout_height="fill_parent" android:src="@drawable/ic_trash" android:scaleType="centerInside" android:tint="@color/kinky_main" />
+			<ImageView android:id="@id/button_clear" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/native_topbar_height" android:layout_height="fill_parent" android:src="@drawable/ic_trash" android:scaleType="centerInside" android:tint="@color/kinky_title" />
 		</LinearLayout>
 		<include layout="@layout/navbar_underline" />
 		<kik.arcane.widget.TransparentListView android:id="@id/conversation_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
