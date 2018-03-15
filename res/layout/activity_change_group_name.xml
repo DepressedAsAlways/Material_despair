@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
 	<LinearLayout android:orientation="horizontal" android:id="@id/topbar" android:background="@color/kinky_main" android:layout_width="fill_parent" android:layout_height="@dimen/native_topbar_height">
 		<include android:id="@id/back_button_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/kik_back_button" />
-		<kik.arcane.widget.RobotoTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/confirm_name_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save" style="@style/KikTextView.Toolbar.Action" />
+		<kik.arcane.widget.RobotoTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/confirm_name_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save"
+android:textColor="@color/kinky_title"
+style="@style/KikTextView.Toolbar.Action" />
 	</LinearLayout>
 	<include layout="@layout/navbar_underline" />
 	<kik.arcane.chat.view.ValidateableInputView android:textColor="@color/kinky_main" android:id="@id/new_groupname_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/group_name_hint" android:maxLength="100000" android:inputType="textCapSentences" android:imeOptions="actionGo" />
