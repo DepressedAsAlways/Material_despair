@@ -23,8 +23,8 @@
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
     <color name="banner_overlay_color">#66000000</color>
-    <color name="black">@color/fg</color>
-    <color name="black_color">@color/fg</color>
+    <color name="black">#ff000000</color>
+    <color name="black_color">#ff000000</color>
     <color name="blue_public_group_helper_secondary_text">#ccffffff</color>
     <color name="blue_text_button">#ff2e92ff</color>
     <color name="blue_text_button_downstate">#ff97c9ff</color>
@@ -82,7 +82,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <color name="downstate_emoji_status_overlay">#42bec0ce</color>
+    <color name="downstate_emoji_status_overlay">#ccffab40</color>
     <color name="downstate_overlay">#42e0e1e9</color>
     <color name="edit_text_underline_error">@color/warning_red</color>
     <color name="edit_text_underline_focused">@color/gray_6</color>
@@ -245,9 +245,11 @@
 	<color name="kinky_main_light">#ffffab40</color>
 	<color name="kinky_secondary_white">#ffffffff</color>
 	<color name="kinky_secondary_black">#ff000000</color>
+	<color name="kinky_secondary_light_grey">#ffcccccc</color>
 	<color name="kinky_secondary_grey">#ffb2b2b2</color>
 	<color name="kinky_secondary_red">#fff44336</color>
 	<color name="kinky_window_background">#ff212121</color>
+	<color name="kinky_dark_background">#ff111111</color>
 	<color name="kinky_row_background">#ff353535</color>
 	<color name="kinky_divider">#ff1e1e1e</color>
 	<color name="kinky_smiley_pop_up">#cc000000</color>
