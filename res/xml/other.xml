@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Other" android:key="@string/title_chat_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<arcane.Toggle android:title="Disable New" android:summary="disables the new text on empty preferences" android:key="kinky.newempty" />
+	<arcane.List android:entries="@array/kinky_modz_organizer" android:title="Modifications Organizer" android:key="kinky.modz" android:summary="allows you to choose how mods list looks" android:entryValues="@array/kinky_modz_organizer" />
+	<arcane.Toggle android:title="Thank You Toast" android:summary="enables the thanks for using arcane toast" android:key="kinky.toasty" />
+	<arcane.Toggle android:title="No Pull" android:summary="disables pull to search in conversations list" android:key="kinky.pull" />
+	<arcane.Toggle android:title="Privacy Mode" android:summary="hides conversations screen messages" android:key="kinky.private" />
+	<arcane.Toggle android:title="Do Not Disturb" android:summary="auto leaves groups you get added to" android:key="kinky.disturb" />
+	<arcane.Toggle android:title="Enable New Chat Reporting" android:summary="allows you to report new chats" android:key="kinky.newreport" />
+</PreferenceScreen>

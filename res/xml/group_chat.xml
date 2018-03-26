@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Group Chat" android:key="@string/title_chat_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<arcane.Toggle android:title="Enable Admin Badges" android:summary="puts badges on admin profile pictures in chat" android:key="kinky.admin" />
+	<arcane.Toggle android:title="Blur Media" android:summary="gallery pictures sent in groups will be blurred" android:key="kinky.blur" />
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Media" android:key="@string/title_chat_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<arcane.CustomToggle android:title="Kinky Test" kik:pref_icon="@xml/kinky_mod_tab_icon_selector" android:summary="hopefully all is working" android:key="kinky.typing" />
+	<arcane.Empty android:title="Media Videos" />
+	<arcane.Toggle android:title="Auto Loop" android:summary="videos you send will play on a loop" android:key="kinky.autoloop" />
+	<arcane.Toggle android:title="Auto Mute" android:summary="videos you send will be muted" android:key="kinky.automute" />
+	<arcane.Toggle android:title="Auto Play" android:summary="videos you send will auto play" android:key="kinky.autoplay" />
+	<arcane.Empty android:title="Media No Save" />
+	<arcane.Toggle android:title="No Save Gallery Pics" android:summary="pictures from the gallery can't be saved" android:key="kinky.savegalpic" />
+	<arcane.Toggle android:title="No Save Camera Pics" android:summary="pictures taken from camera can't be saved" android:key="kinky.savecampic" />
+	<arcane.Toggle android:title="No Save Gallery Videos" android:summary="videos from the gallery can't be saved" android:key="kinky.savegalvid" />
+	<arcane.Toggle android:title="No Save All" android:summary="all the above are enabled" android:key="kinky.save" />
+	<arcane.Empty android:title="Media No Forward" />
+	<arcane.Toggle android:title="No Forward Voice Messages" android:summary="voice messages you send can't be forwarded by older versions of kik" android:key="kinky.forwardvoice" />
+	<arcane.Toggle android:title="No Forward Gifs" android:summary="gifs you send can't be forwarded" android:key="kinky.forwardgif" />
+	<arcane.Toggle android:title="No Forward Stickers" android:summary="stickers you send can't be forwarded" android:key="kinky.forwardsticker" />
+	<arcane.Toggle android:title="No Forward Gallery Pics" android:summary="pictures from the gallery can't be forwarded" android:key="kinky.forwardgalpic" />
+	<arcane.Toggle android:title="No Forward Camera Pics" android:summary="pictures taken from camera can't be forwarded" android:key="kinky.forwardcampic" />
+	<arcane.Toggle android:title="No Forward Gallery Videos" android:summary="videos from the gallery can't be forwarded" android:key="kinky.forwardvidgal" />
+	<arcane.Toggle android:title="No Forward All" android:summary="all the above are enabled" android:key="kinky.forward" />
+</PreferenceScreen>

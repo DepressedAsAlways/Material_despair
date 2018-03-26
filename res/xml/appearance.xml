@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Appearance" android:key="@string/title_chat_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<arcane.Toggle android:title="Square Incoming Messages" android:key="kinky.squareincom" android:summary="incoming messages will be rectangular" />
+	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="outgoing messages will be rectangular" />
+    <arcane.List android:entries="@array/kinky_colors" android:title="Change Incoming Text Color" android:key="kinky.incomingtext" android:summary="how your incoming messages text color appears" android:entryValues="@array/kinky_colors" />
+</PreferenceScreen>
