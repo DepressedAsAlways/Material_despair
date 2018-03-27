@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true" android:drawable="@drawable/evil_effect_on" />
-    <item android:state_checked="false" android:drawable="@drawable/evil_effect_off" />
+    <item android:state_checked="true">
+        <bitmap android:src="@drawable/evil_effect_on" android:tint="@color/kinky_main" />
+    </item>
+    <item android:state_checked="false">
+        <bitmap android:src="@drawable/evil_effect_on" android:tint="@color/kinky_secondary_light_grey" />
+    </item>
 </selector>
