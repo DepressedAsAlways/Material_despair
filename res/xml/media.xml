@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen android:title="Media" android:key="@string/title_chat_settings"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-	<arcane.CustomToggle android:title="Kinky Test" kik:pref_icon="@xml/kinky_mod_tab_icon_selector" android:summary="hopefully all is working" android:key="kinky.typing" />
 	<arcane.Empty android:title="Media Videos" />
 	<arcane.Toggle android:title="Auto Loop" android:summary="videos you send will play on a loop" android:key="kinky.autoloop" />
 	<arcane.Toggle android:title="Auto Mute" android:summary="videos you send will be muted" android:key="kinky.automute" />

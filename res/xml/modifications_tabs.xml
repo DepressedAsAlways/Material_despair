@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Modifications" android:key="@string/title_chat_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<arcane.Tab android:title="Info" kik:pref_icon="@xml/arcane_info_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/info" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Tab android:title="Appearance" kik:pref_icon="@xml/arcane_appearance_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/appearance" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Tab android:title="Chat" kik:pref_icon="@xml/arcane_chat_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/chat" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Tab android:title="Group Chat" kik:pref_icon="@xml/arcane_group_chat_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/group_chat" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Tab android:title="Media" kik:pref_icon="@xml/arcane_media_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/media" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Tab android:title="Profile" kik:pref_icon="@xml/arcane_profile_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/profile" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Tab android:title="Other" kik:pref_icon="@xml/arcane_other_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/other" kik:topbar_alt_layout="@layout/kik_back_button" />
+</PreferenceScreen>

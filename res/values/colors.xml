@@ -130,8 +130,8 @@
     <color name="kik_blue">@color/kinky_main</color>
     <color name="kik_blue_50pc_opacity">#8026beff</color>
     <color name="kik_code_username">#ccffffff</color>
-    <color name="kik_green">#ff5dcd11</color>
-    <color name="kik_shrek_green">#ff91d013</color>
+    <color name="kik_green">@color/kinky_main</color>
+    <color name="kik_shrek_green">@color/kinky_main</color>
     <color name="kik_star_rating_yellow">#ffffb922</color>
     <color name="light_gray">#ffeeeeee</color>
     <color name="light_theme_status_bar_color">#ffc5c6c7</color>
@@ -157,7 +157,7 @@
     <color name="message_down_state">#66373a4b</color>
     <color name="message_link_color">#ff26beff</color>
     <color name="message_link_color_pressed">#8026beff</color>
-    <color name="message_text_color">#ff373a4b</color>
+    <color name="message_text_color">#ffffffff</color>
     <color name="multi_page_reg_highlight_color">#332e92ff</color>
     <color name="multi_page_reg_hint_color">#b3b0afb7</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>

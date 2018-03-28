@@ -1056,7 +1056,7 @@
 .end method
 
 .method public onModificationsTapped()V
-    .locals 1
+    .locals 3
     .annotation build Lbutterknife/OnClick;
         value = {
             0x7f100434
@@ -1065,8 +1065,25 @@
 
     .prologue
     .line 385
-    const v0, 0x7f070031
+    const v0, 0x7f07003b
+	
+	const-string v1, "kinky.modz"
 
+    invoke-static {v1}, Larcane/values;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v1, "List"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+	
+    const v0, 0x7f070031
+	
+	:cond_0
     invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/UserProfileFragment;->a(I)V
 
     .line 386

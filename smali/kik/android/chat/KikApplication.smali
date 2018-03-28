@@ -4870,7 +4870,7 @@
 
     if-nez v4, :cond_10
 
-    .line 16368
+    .line 16367
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
@@ -4882,6 +4882,17 @@
     move-result-object v4
 
     if-nez v4, :cond_c
+	
+	.line 16368
+    move-object/from16 v0, p0
+
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+
+    const-string v5, "kinky.modz"
+
+    const-string v6, "Tabs"
+
+    invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 	
 	.line 16369
     move-object/from16 v0, p0
