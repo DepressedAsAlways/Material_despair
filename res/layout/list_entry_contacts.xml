@@ -8,6 +8,6 @@
 		<kik.arcane.widget.RobotoTextView android:textColor="@color/kinky_title" android:id="@id/contact_name" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/KikTextView.ContactListEntry.Name" />
 		<kik.arcane.widget.RobotoTextView android:textColor="@color/kinky_main_to_black" android:id="@id/contact_username" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/KikTextView.ContactListEntry.Username" />
 	</LinearLayout>
-	<include android:id="@id/contact_divider_short" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_alignLeft="@id/contact_item_container" android:layout_alignParentBottom="true" layout="@layout/list_divider" />
-	<include android:id="@id/contact_divider_long" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_alignParentBottom="true" layout="@layout/list_divider" />
+	<include android:id="@id/contact_divider_short" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_alignParentBottom="true" layout="@layout/list_divider" />
+	<include android:id="@id/contact_divider_long" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_alignParentBottom="true" layout="@layout/list_divider" />
 </RelativeLayout>

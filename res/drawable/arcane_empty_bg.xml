@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/kinky_window_background" />
+	<item android:height="1dp" android:gravity="center">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/kinky_main_dark" />
+        </shape>
+    </item>
+</layer-list>

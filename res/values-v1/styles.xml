@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KinkyGod">
+        <item name="kinky_main">@color/kinky_main</item>
+        <item name="kinky_main_light">@color/kinky_main_light</item>
+		<item name="kinky_main_dark">@color/kinky_main_dark</item>
+    </style>
+</resources>

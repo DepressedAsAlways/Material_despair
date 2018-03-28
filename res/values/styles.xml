@@ -1105,18 +1105,18 @@
         <item name="tabPaddingStart">12.0dip</item>
         <item name="tabPaddingEnd">12.0dip</item>
     </style>
-    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowBackground">@color/white</item>
-        <item name="android:windowNoTitle">false</item>
+    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/kinky_window_background</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowTitleSize">@dimen/native_topbar_height</item>
         <item name="android:windowTitleStyle">@style/invisible</item>
         <item name="android:windowTitleBackgroundStyle">@style/KikTitleBarStyle</item>
         <item name="android:checkboxStyle">@style/KikCheckboxStyle</item>
         <item name="android:windowActionBar">false</item>
-        <item name="colorPrimary">@color/gray_1</item>
-        <item name="colorPrimaryDark">@color/gray_5</item>
-        <item name="colorAccent">@color/kik_blue</item>
+        <item name="colorPrimary">@color/kinky_main</item>
+        <item name="colorPrimaryDark">@color/kinky_main_dark</item>
+        <item name="colorAccent">@color/kinky_main</item>
     </style>
     <style name="ChatsSearchUsernameDrawable">
         <item name="android:layout_width">16.0dip</item>
@@ -1420,21 +1420,28 @@
         <item name="android:gravity">center_horizontal</item>
     </style>
     <style name="KikAlertDialog.List" parent="@style/KikAlertDialog">
-        <item name="android:textColorSecondary">@color/gray_2</item>
+        <item name="android:textColorSecondary">@color/kinky_secondary_light_grey</item>
+		<item name="android:textColor">@color/kinky_main</item>
+        <item name="android:textColorLink">@color/kinky_secondary_red</item>
+		<item name="android:textColorPrimary">@color/kinky_main</item>
+        <item name="android:autoLink">web</item>
+        <item name="android:background">@color/kinky_window_background</item>
     </style>
-    <style name="KikAlertDialogBase" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
-        <item name="android:textColorPrimary">@color/gray_5</item>
+    <style name="KikAlertDialogBase" parent="@style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/kinky_main</item>
         <item name="android:windowTitleStyle">@style/KikAlertDialogTitle</item>
         <item name="android:checkboxStyle">@style/KikCheckboxStyle</item>
         <item name="android:listViewStyle">@style/KikListView</item>
+		<item name="android:autoLink">web</item>
         <item name="android:radioButtonStyle">@style/KikRadioButtonStyle</item>
         <item name="android:textColorLink">@color/kik_blue</item>
-        <item name="android:background">@color/white</item>
-        <item name="colorAccent">@color/kik_blue</item>
+        <item name="colorAccent">@color/kinky_main</item>
+		<item name="android:backgroundTint">@color/kinky_row_background</item>
+        <item name="colorControlHighlight">@color/kinky_main</item>
     </style>
     <style name="KikAlertDialogTitle">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
-        <item name="android:textColor">@color/gray_6</item>
+        <item name="android:textColor">@color/kinky_secondary_white</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
     <style name="KikAutoCompleteEditText" parent="@android:style/Widget.AutoCompleteTextView">
@@ -1448,11 +1455,19 @@
     </style>
     <style name="KikButton.Classic" parent="@style/Widget.AppCompat.Button.Borderless">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/kik_blue</item>
+        <item name="android:textColor">@color/kinky_main_to_white</item>
         <item name="android:padding">18.0dip</item>
     </style>
     <style name="KikButton.Classic.Bordered" parent="@style/KikButton.Classic">
-        <item name="android:background">@drawable/bordered_button_selector</item>
+        <item name="android:background">@drawable/bordered_button_outline</item>
+    </style>
+	<style name="ArcaneButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/kinky_title</item>
+        <item name="android:padding">18.0dip</item>
+    </style>
+    <style name="ArcaneButtonBordered" parent="@style/ArcaneButton">
+        <item name="android:background">@drawable/arcane_button</item>
     </style>
     <style name="KikButton.Classic.Bordered.Dialog" parent="@style/KikButton.Classic.Bordered">
         <item name="android:textSize">14.0sp</item>
@@ -1463,11 +1478,12 @@
     </style>
     <style name="KikButton.Classic.Dialog" parent="@style/KikButton.Classic">
         <item name="android:textSize">14.0sp</item>
+		<item name="android:background">?selectableItemBackground</item>
     </style>
-    <style name="KikButton.Hero.Dialog" parent="@style/KikButton.Hero">
+    <style name="KikButton.Hero.Dialog" parent="@style/ArcaneButtonBordered">
         <item name="android:textSize">14.0sp</item>
     </style>
-    <style name="KikButton.Hero.Explore" parent="@style/KikButton.Hero">
+    <style name="KikButton.Hero.Explore" parent="@style/ArcaneButtonBordered">
         <item name="android:textSize">13.0sp</item>
         <item name="android:minWidth">140.0dip</item>
         <item name="android:minHeight">36.0dip</item>
@@ -1486,8 +1502,8 @@
     <style name="KikEditTextV2" parent="@style/Widget.AppCompat.EditText">
         <item name="android:theme">@style/EditTextTheme</item>
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
-        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textColor">@color/kinky_main</item>
+        <item name="android:textColorHint">@color/kinky_secondary_white</item>
         <item name="android:background">@null</item>
     </style>
     <style name="KikEditTextV2.Validateable" parent="@style/KikEditTextV2">
@@ -1514,13 +1530,12 @@
     </style>
     <style name="KikListView">
         <item name="android:fadingEdgeLength">0.0dip</item>
-        <item name="android:listSelector">@xml/arcane_row_items</item>
-        <item name="android:overScrollMode">never</item>
-        <item name="android:listChoiceBackgroundIndicator">@xml/arcane_row_items</item>
+        <item name="android:listSelector">?selectableItemBackground</item>
+        <item name="android:listChoiceBackgroundIndicator">?selectableItemBackground</item>
     </style>
     <style name="KikProgressWheel">
         <item name="android:background">@drawable/circular_inline_progress_background</item>
-        <item name="barColor">@color/white</item>
+        <item name="barColor">@color/kinky_main</item>
         <item name="spinSpeed">0.333</item>
         <item name="circleRadius">50.0dip</item>
         <item name="barWidth">1.0dip</item>
@@ -1578,23 +1593,23 @@
     <style name="KikTextView.ChatInfo.IconButton" parent="@style/KikTextView.ChatInfo" />
     <style name="KikTextView.ChatInfo.IconButton.Destructive" parent="@style/KikTextView.ChatInfo.IconButton">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/warning_red</item>
+        <item name="android:textColor">@color/kinky_secondary_red</item>
     </style>
     <style name="KikTextView.ChatInfo.IconButton.Primary" parent="@style/KikTextView.ChatInfo.IconButton">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/kinky_title</item>
     </style>
     <style name="KikTextView.ChatInfo.IconButton.Secondary" parent="@style/KikTextView.ChatInfo.IconButton">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/gray_4</item>
+        <item name="android:textColor">@color/kinky_title</item>
     </style>
     <style name="KikTextView.ChatInfo.TextButton" parent="@style/KikTextView.ChatInfo">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/kik_blue</item>
+        <item name="android:textColor">@color/kinky_title</item>
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="KikTextView.ChatInfo.TextButton.Disabled" parent="@style/KikTextView.ChatInfo.TextButton">
-        <item name="android:textColor">@color/gray_4</item>
+        <item name="android:textColor">@color/kinky_title</item>
         <item name="android:textAllCaps">false</item>
     </style>
     <style name="KikTextView.ChatList" parent="@style/KikTextView">
@@ -1670,11 +1685,11 @@
     <style name="KikTextView.Dialog" parent="@style/KikTextView" />
     <style name="KikTextView.Dialog.Message" parent="@style/KikTextView.Dialog">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/kinky_secondary_white</item>
+        <item name="android:textColor">@color/kinky_secondary_grey</item>
     </style>
     <style name="KikTextView.Dialog.ReportOption" parent="@style/KikTextView.Dialog">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/kinky_secondary_grey</item>
     </style>
     <style name="KikTextView.Dialog.Title" parent="@style/KikTextView.Dialog">
         <item name="android:textSize">24.0sp</item>
@@ -1699,15 +1714,15 @@
     </style>
     <style name="KikTextView.FloatingHintText" parent="@style/KikTextView">
         <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">@color/kik_blue</item>
+        <item name="android:textColor">@color/kinky_secondary_grey</item>
     </style>
     <style name="KikTextView.HintText" parent="@style/KikTextView">
         <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textColor">@color/kinky_secondary_light_grey</item>
     </style>
     <style name="KikTextView.ListHeader" parent="@style/KikTextView">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/text_list_header</item>
+        <item name="android:textColor">@color/kinky_secondary_light_grey</item>
         <item name="android:paddingLeft">12.0dip</item>
         <item name="android:paddingTop">14.0dip</item>
         <item name="android:paddingBottom">8.0dip</item>
@@ -1728,7 +1743,7 @@
     <style name="KikTextView.PublicGroups" parent="@style/KikTextView" />
     <style name="KikTextView.PublicGroups.QuickSearch" parent="@style/KikTextView.PublicGroups">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">#ff0000ff</item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
     </style>
@@ -1910,7 +1925,7 @@
         <item name="android:layout_height">25.0dip</item>
         <item name="android:layout_marginLeft">25.0dip</item>
     </style>
-    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_background</item>
         <item name="colorPrimaryDark">@color/status_bar_grey_v2</item>
     </style>

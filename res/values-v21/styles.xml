@@ -31,7 +31,7 @@
     <style name="TextAppearance.AppCompat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
     <style name="TextAppearance.AppCompat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
     <style name="AppTheme" parent="@style/BaseAppTheme">
-        <item name="android:colorControlHighlight">@color/gray_2</item>
+        <item name="android:colorControlHighlight">@color/kinky_secondary_light_grey</item>
         <item name="android:statusBarColor">@color/status_bar_grey_v2</item>
         <item name="android:datePickerDialogTheme">@style/KikDatePickerDialogTheme.Spinner</item>
     </style>
@@ -268,8 +268,10 @@
     </style>
     <style name="KikDatePickerDialogTheme" parent="@android:style/Theme.Material.Light.Dialog.Alert">
         <item name="android:windowTitleStyle">@style/KikAlertDialogTitle</item>
-        <item name="android:colorControlNormal">@color/kik_blue</item>
-        <item name="android:colorAccent">@color/kik_blue</item>
+		<item name="android:background">@color/kinky_window_background</item>
+		<item name="android:textColorPrimary">@color/kinky_main</item>
+        <item name="android:colorControlNormal">@color/kinky_main</item>
+        <item name="android:colorAccent">@color/kinky_main</item>
     </style>
     <style name="KikDatePickerDialogTheme.Spinner" parent="@style/KikDatePickerDialogTheme">
         <item name="android:datePickerStyle">@style/SpinnerDatePickerStyle</item>

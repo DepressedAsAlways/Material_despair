@@ -11,10 +11,11 @@
 	<color name="kinky_secondary_black">#ff000000</color>
 	<color name="kinky_secondary_light_grey">#ffcccccc</color>
 	<color name="kinky_secondary_grey">#ffb2b2b2</color>
-	<color name="kinky_secondary_red">#ffaa1400</color>
+	<color name="kinky_secondary_red">#ffd81900</color>
 	<color name="kinky_window_background">#ff212121</color>
 	<color name="kinky_dark_background">#ff111111</color>
 	<color name="kinky_row_background">#ff353535</color>
 	<color name="kinky_divider">#ff1e1e1e</color>
 	<color name="kinky_smiley_pop_up">#cc000000</color>
+	<color name="trans">@android:color/transparent</color>
 </resources>

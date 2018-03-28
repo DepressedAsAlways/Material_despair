@@ -64,4 +64,8 @@
         <item>Delivered</item>
         <item>Stealth</item>
     </string-array>
+	<string-array name="kinky_modz_organizer">
+        <item>Tabs</item>
+        <item>List</item>
+    </string-array>
 </resources>
