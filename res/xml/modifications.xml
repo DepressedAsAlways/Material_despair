@@ -35,4 +35,5 @@
 	<arcane.Toggle android:title="Privacy Mode" android:summary="hides conversations screen messages" android:key="kinky.private" />
 	<arcane.Toggle android:title="Do Not Disturb" android:summary="auto leaves groups you get added to" android:key="kinky.disturb" />
 	<arcane.Toggle android:title="Enable New Chat Reporting" android:summary="allows you to report new chats" android:key="kinky.newreport" />
+<arcane.Tab android:title="Other Themes" kik:pref_icon="@xml/arcane_info_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/themes" kik:topbar_alt_layout="@layout/kik_back_button" />
 </PreferenceScreen>
