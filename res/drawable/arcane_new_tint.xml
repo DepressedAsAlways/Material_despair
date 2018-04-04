@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bitmap android:src="@drawable/arcane_new" android:tint="@color/kinky_main"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+        <bitmap android:src="@drawable/arcane_new_text" android:tint="@color/kinky_secondary_black" />
+    </item>
+	<item>
+        <bitmap android:src="@drawable/arcane_new" android:tint="@color/kinky_main" />
+    </item>
+</layer-list>
