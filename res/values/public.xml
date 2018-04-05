@@ -4889,6 +4889,7 @@
 	<public type="color" name="kinky_secondary_white" id="0x7f0e0115" />
 	<public type="color" name="kinky_window_background" id="0x7f0e0116" />
 	<public type="color" name="kinky_title" id="0x7f0e0117" />
+	<public type="color" name="fab_buttons" id="0x7f0e0118" />
     <public type="color" name="abc_background_cache_hint_selector_material_dark" id="0x7f0e00ec" />
     <public type="color" name="abc_background_cache_hint_selector_material_light" id="0x7f0e00ed" />
     <public type="color" name="abc_color_highlight_material" id="0x7f0e00f0" />

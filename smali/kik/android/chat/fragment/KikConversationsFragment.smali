@@ -1255,7 +1255,7 @@
     .locals 4
 
     .prologue
-    const v3, 0x7f0e0112
+    const v3, 0x7f0e0118
 
     const/4 v2, 0x1
 

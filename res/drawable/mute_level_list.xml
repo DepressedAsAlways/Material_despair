@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <level-list
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/ic_chat_info_bell" android:maxLevel="0" />
-    <item android:drawable="@drawable/ic_chat_info_bell_muted" android:maxLevel="1" />
+	<item>
+        <bitmap android:src="@drawable/ic_chat_info_bell" android:maxLevel="0" android:tint="@color/kinky_main" />
+    </item>
+	<item>
+        <bitmap android:src="@drawable/ic_chat_info_bell_muted" android:maxLevel="1" android:tint="@color/kinky_main" />
+    </item>
 </level-list>
