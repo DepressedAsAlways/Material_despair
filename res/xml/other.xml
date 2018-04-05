@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Other" android:key="@string/title_chat_settings"
+<PreferenceScreen android:title="@string/arcane_other"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-	<arcane.Toggle android:title="Disable New" android:summary="disables the new text on empty preferences" android:key="kinky.newmodz" />
-	<arcane.List android:entries="@array/kinky_modz_organizer" android:title="Modifications Organizer" android:key="kinky.modz" android:summary="allows you to choose how mods list looks" android:entryValues="@array/kinky_modz_organizer" />
-	<arcane.Toggle android:title="Thank You Toast" android:summary="enables the thanks for using arcane toast" android:key="kinky.toasty" />
-	<arcane.Toggle android:title="No Pull" android:summary="disables pull to search in conversations list" android:key="kinky.pull" />
-	<arcane.Toggle android:title="Privacy Mode" android:summary="hides conversations screen messages" android:key="kinky.private" />
-	<arcane.Toggle android:title="Do Not Disturb" android:summary="auto leaves groups you get added to" android:key="kinky.disturb" />
-	<arcane.Toggle android:title="Enable New Chat Reporting" android:summary="allows you to report new chats" android:key="kinky.newreport" />
-	<arcane.Tab android:title="Other Themes" kik:pref_icon="@xml/arcane_info_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/themes" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Toggle android:title="@string/arcane_ds_t" android:summary="@string/arcane_ds_s" android:key="@string/arcane_ds_k" />
+	<arcane.List android:entries="@array/kinky_modz_organizer" android:title="@string/arcane_mo_t" android:key="@string/arcane_mo_k" android:summary="@string/arcane_mo_s" android:entryValues="@array/kinky_modz_organizer" />
+	<arcane.Toggle android:title="@string/arcane_ty_t" android:summary="@string/arcane_ty_s" android:key="@string/arcane_ty_k" />
+	<arcane.Toggle android:title="@string/arcane_np_t" android:summary="@string/arcane_np_s" android:key="@string/arcane_np_k" />
+	<arcane.Toggle android:title="@string/arcane_pm_t" android:summary="@string/arcane_pm_s" android:key="@string/arcane_pm_k" />
+	<arcane.Tab android:title="@string/arcane_other_themes" kik:pref_icon="@xml/arcane_info_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/themes" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Toggle android:title="@string/arcane_dnd_t" android:summary="@string/arcane_dnd_s" android:key="@string/arcane_dnd_k" />
+	<arcane.Toggle android:title="@string/arcane_ncr_t" android:summary="@string/arcane_ncr_s" android:key="@string/arcane_ncr_k" />
 </PreferenceScreen>

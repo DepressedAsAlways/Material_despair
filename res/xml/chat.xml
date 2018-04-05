@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Chat" android:key="@string/title_chat_settings"
+<PreferenceScreen android:title="@string/arcane_chat"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-	<arcane.Toggle android:title="Fake Camera" android:summary="allows you to send gallery pics as live camera pics" android:key="kinky.fakecam" />
-	<arcane.Toggle android:title="Disable Typing" android:summary="other users will not be able to see when you are typing" android:key="kinky.typing" />
-	<arcane.List android:entries="@array/kinky_receipts" android:title="Read Receipts" android:key="kinky.receipt" android:summary="how your messages are perceived" android:entryValues="@array/kinky_receipts" />
-	<arcane.Toggle android:title="Voice Messages" android:summary="allows you to send voice messages" android:key="kinky.voice" />
-	<arcane.Toggle android:title="Gif Favorites" android:summary="enables favoriting Gifs" android:key="kinky.gif" />
-	<arcane.Toggle android:title="Disable Vid Chat" android:summary="disables video chatting toggle" android:key="kinky.vid" />
-	<arcane.Toggle android:title="Multi Photos" android:summary="allows you to send groups of photos from gallery" android:key="kinky.multi" />
+	<arcane.Toggle android:title="@string/arcane_fakecam_t" android:summary="@string/arcane_fakecam_s" android:key="@string/arcane_fakecam_k" />
+	<arcane.Toggle android:title="@string/arcane_typing_t" android:summary="@string/arcane_typing_s" android:key="@string/arcane_typing_k" />
+	<arcane.List android:entries="@array/kinky_receipts" android:title="@string/arcane_receipts_t" android:key="@string/arcane_receipts_k" android:summary="@string/arcane_receipts_s" android:entryValues="@array/kinky_receipts" />
+	<arcane.Toggle android:title="@string/arcane_voice_t" android:summary="@string/arcane_voice_s" android:key="@string/arcane_voice_k" />
+	<arcane.Toggle android:title="@string/arcane_gif_t" android:summary="@string/arcane_gif_s" android:key="@string/arcane_gif_k" />
+	<arcane.Toggle android:title="@string/arcane_vid_t" android:summary="@string/arcane_vid_s" android:key="@string/arcane_vid_k" />
+	<arcane.Toggle android:title="@string/arcane_multi_t" android:summary="@string/arcane_multi_s" android:key="@string/arcane_multi_k" />
 </PreferenceScreen>

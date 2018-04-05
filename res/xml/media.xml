@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Media" android:key="@string/title_chat_settings"
+<PreferenceScreen android:title="@string/arcane_media"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-	<arcane.Empty android:title="Media Videos" />
-	<arcane.Toggle android:title="Auto Loop" android:summary="videos you send will play on a loop" android:key="kinky.autoloop" />
-	<arcane.Toggle android:title="Auto Mute" android:summary="videos you send will be muted" android:key="kinky.automute" />
-	<arcane.Toggle android:title="Auto Play" android:summary="videos you send will auto play" android:key="kinky.autoplay" />
-	<arcane.Empty android:title="Media No Save" />
-	<arcane.Toggle android:title="No Save Gallery Pics" android:summary="pictures from the gallery can't be saved" android:key="kinky.savegalpic" />
-	<arcane.Toggle android:title="No Save Camera Pics" android:summary="pictures taken from camera can't be saved" android:key="kinky.savecampic" />
-	<arcane.Toggle android:title="No Save Gallery Videos" android:summary="videos from the gallery can't be saved" android:key="kinky.savegalvid" />
-	<arcane.Toggle android:title="No Save All" android:summary="all the above are enabled" android:key="kinky.save" />
-	<arcane.Empty android:title="Media No Forward" />
-	<arcane.Toggle android:title="No Forward Voice Messages" android:summary="voice messages you send can't be forwarded by older versions of kik" android:key="kinky.forwardvoice" />
-	<arcane.Toggle android:title="No Forward Gifs" android:summary="gifs you send can't be forwarded" android:key="kinky.forwardgif" />
-	<arcane.Toggle android:title="No Forward Stickers" android:summary="stickers you send can't be forwarded" android:key="kinky.forwardsticker" />
-	<arcane.Toggle android:title="No Forward Gallery Pics" android:summary="pictures from the gallery can't be forwarded" android:key="kinky.forwardgalpic" />
-	<arcane.Toggle android:title="No Forward Camera Pics" android:summary="pictures taken from camera can't be forwarded" android:key="kinky.forwardcampic" />
-	<arcane.Toggle android:title="No Forward Gallery Videos" android:summary="videos from the gallery can't be forwarded" android:key="kinky.forwardvidgal" />
-	<arcane.Toggle android:title="No Forward All" android:summary="all the above are enabled" android:key="kinky.forward" />
+	<arcane.Empty android:title="@string/arcane_media_video" />
+	<arcane.Toggle android:title="@string/arcane_al_t" android:summary="@string/arcane_al_s" android:key="@string/arcane_al_k" />
+	<arcane.Toggle android:title="@string/arcane_am_t" android:summary="@string/arcane_am_s" android:key="@string/arcane_am_k" />
+	<arcane.Toggle android:title="@string/arcane_ap_t" android:summary="@string/arcane_ap_s" android:key="@string/arcane_ap_k" />
+	<arcane.Empty android:title="@string/arcane_media_no_save" />
+	<arcane.Toggle android:title="@string/arcane_ns_a_t" android:summary="@string/arcane_ns_a_s" android:key="@string/arcane_ns_a_k" />
+	<arcane.Toggle android:title="@string/arcane_ns_gp_t" android:summary="@string/arcane_ns_gp_s" android:key="@string/arcane_ns_gp_k" />
+	<arcane.Toggle android:title="@string/arcane_ns_cp_t" android:summary="@string/arcane_ns_cp_s" android:key="@string/arcane_ns_cp_k" />
+	<arcane.Toggle android:title="@string/arcane_ns_gv_t" android:summary="@string/arcane_ns_gv_s" android:key="@string/arcane_ns_gv_k" />
+	<arcane.Empty android:title="@string/arcane_media_no_forward" />
+	<arcane.Toggle android:title="@string/arcane_nf_a_t" android:summary="@string/arcane_nf_a_s" android:key="@string/arcane_nf_a_k" />
+	<arcane.Toggle android:title="@string/arcane_nf_vm_t" android:summary="@string/arcane_nf_vm_s" android:key="@string/arcane_nf_vm_k" />
+	<arcane.Toggle android:title="@string/arcane_nf_g_t" android:summary="@string/arcane_nf_g_s" android:key="@string/arcane_nf_g_k" />
+	<arcane.Toggle android:title="@string/arcane_nf_s_t" android:summary="@string/arcane_nf_s_s" android:key="@string/arcane_nf_s_k" />
+	<arcane.Toggle android:title="@string/arcane_nf_gp_t" android:summary="@string/arcane_nf_gp_s" android:key="@string/arcane_nf_gp_k" />
+	<arcane.Toggle android:title="@string/arcane_nf_cp_t" android:summary="@string/arcane_nf_cp_s" android:key="@string/arcane_nf_cp_k" />
+	<arcane.Toggle android:title="@string/arcane_nf_gv_t" android:summary="@string/arcane_nf_gv_s" android:key="@string/arcane_nf_gv_k" />
 </PreferenceScreen>

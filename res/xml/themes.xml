@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res/kik.arcane" android:title="@string/arcane_select_download">
+	<arcane.Empty android:title="@string/arcane_dark_themes" />
+	<arcane.DevPref android:title="@string/arcane_og_dark_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_og_dark_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_og_dark_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_red_dark_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_red_dark_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_red_dark_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_blue_dark_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_blue_dark_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_blue_dark_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_white_dark_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_white_dark_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_white_dark_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_green_dark_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top|full_bottom" android:summary="@string/arcane_green_dark_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_green_dark_d" />
+	</arcane.DevPref>
+	<arcane.Empty android:title="@string/arcane_light_themes" />
+	<arcane.DevPref android:title="@string/arcane_og_light_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_og_light_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_og_light_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_red_light_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_red_light_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_red_light_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_black_light_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_black_light_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_black_light_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_blue_light_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_blue_light_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_blue_light_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_green_light_t" android:key="@string/arcane_help_key" kik:pref_divider="full_top" android:summary="@string/arcane_green_light_s">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_green_light_d" />
+	</arcane.DevPref>
+	<arcane.DevPref android:title="@string/arcane_ot_t" kik:pref_divider="full_top|full_bottom" android:key="@string/arcane_help_key">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_ot_d" />
+	</arcane.DevPref>
+	</PreferenceScreen>

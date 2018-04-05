@@ -670,7 +670,7 @@
 
     iget-object v2, v0, Lkik/arcane/e/db;->b:Lkik/arcane/widget/RobotoTextView;
 
-    const v12, 0x7f0e00dd
+    const v12, 0x7f0e0117
 
     invoke-static {v2, v12}, Lkik/arcane/e/db;->getColorFromResource(Landroid/view/View;I)I
 

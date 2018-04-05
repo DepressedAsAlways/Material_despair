@@ -105,7 +105,7 @@
     <color name="gray_4">#ffa9adc1</color>
     <color name="gray_5">#ff7a7d8e</color>
     <color name="gray_5_50pc_opacity">#807a7d8e</color>
-    <color name="gray_6">@color/kinky_title</color>
+    <color name="gray_6">#ff7a7d8e</color>
     <color name="grey_shadow">#66cccccc</color>
     <color name="group_invite_message_border">#4da9adc1</color>
     <color name="hashtags_divider">#ffbec0ce</color>
@@ -231,7 +231,7 @@
     <color name="trans">#00000000</color>
     <color name="underline_color">#26000000</color>
     <color name="video_tooltip_shadow">#1e000000</color>
-    <color name="warning_red">#fffa0164</color>
+    <color name="warning_red">@color/kinky_secondary_red</color>
     <color name="web_error_page_text_color">#ff979797</color>
     <color name="white">#ffffffff</color>
     <color name="white_transparent">#00ffffff</color>

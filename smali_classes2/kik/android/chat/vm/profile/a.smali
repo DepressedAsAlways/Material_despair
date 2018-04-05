@@ -173,7 +173,7 @@
     :cond_1
     iget-object v0, p0, Lkik/arcane/chat/vm/profile/a;->a:Landroid/content/res/Resources;
 
-    const v1, 0x7f0e00dd
+    const v1, 0x7f0e0117
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

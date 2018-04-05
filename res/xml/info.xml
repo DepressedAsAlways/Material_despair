@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Info" android:key="@string/title_chat_settings"
+<PreferenceScreen android:title="@string/arcane_info"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-    <arcane.Version android:title="Arcane Version" android:summary="1.0" />
-    <arcane.Update android:title="Check for Update" kik:pref_divider="full_top|full_bottom" />
-	<arcane.Disclaimer android:title="Please Read This" kik:pref_divider="full_top|full_bottom" />
-	<arcane.Changelog android:title="ChangeLog" kik:pref_divider="full_top|full_bottom" />
-	<arcane.Version android:title="Kik Version" android:summary="12.0.0.19400" />
+    <arcane.Version android:title="@string/arcane_t_version" android:summary="@string/arcane_s_version" />
+    <arcane.Update android:title="@string/arcane_update" kik:pref_divider="full_top" />
+	<arcane.Disclaimer android:title="@string/arcane_disclaimer" kik:pref_divider="full_top" />
+	<arcane.Changelog android:title="@string/arcane_changelog" kik:pref_divider="full_top|full_bottom" />
+	<arcane.Version android:title="@string/arcane_version_t" android:summary="@string/arcane_version_s" />
 </PreferenceScreen>

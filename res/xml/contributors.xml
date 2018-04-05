@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Contributors" android:key="@string/modifications"
+<PreferenceScreen android:title="@string/arcane_contributors"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-    <arcane.Empty android:title="Designer" />
-	<arcane.DevPref android:title="Unf4giv9" android:summary="Creator of the aesthetic style of this kik, and some minor features" android:key="kik.help">
-		<intent android:action="android.intent.action.VIEW" android:data="kik://users/Unf4giv9/profile" />
+    <arcane.Empty android:title="@string/arcane_designer" />
+	<arcane.DevPref android:title="@string/arcane_queer_t" android:summary="@string/arcane_queer_s" android:key="@string/arcane_help_key">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_queer_d" />
 	</arcane.DevPref>
-	<arcane.Empty android:title="Developer" />
-	<arcane.DevPref android:title="KinkyGod" android:summary="Developed most of the features" android:key="kik.help">
-		<intent android:action="android.intent.action.VIEW" android:data="kik://users/.no_u/profile" />
+	<arcane.Empty android:title="@string/arcane_developer" />
+	<arcane.DevPref android:title="@string/arcane_daddy_t" android:summary="@string/arcane_daddy_s" android:key="@string/arcane_help_key">
+		<intent android:action="@string/arcane_iav" android:data="@string/arcane_daddy_d" />
 	</arcane.DevPref>
 </PreferenceScreen>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Profile" android:key="@string/title_chat_settings"
+<PreferenceScreen android:title="@string/arcane_profile"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-	<arcane.Toggle android:title="Days On Kik" android:summary="allows you to view how many days other users have been on kik" android:key="kinky.days" />
-	<arcane.Toggle android:title="Enable Bios" android:summary="enables editing your bio and viewing other user bios" android:key="kinky.bios" />
-	<arcane.Toggle android:title="Trophy Case" android:summary="enables trophy case at top of settings" android:key="kinky.trophy" />
+	<arcane.Toggle android:title="@string/arcane_dok_t" android:summary="@string/arcane_dok_s" android:key="@string/arcane_dok_k" />
+	<arcane.Toggle android:title="@string/arcane_eb_t" android:summary="@string/arcane_eb_s" android:key="@string/arcane_eb_k" />
+	<arcane.Toggle android:title="@string/arcane_tc_t" android:summary="@string/arcane_tc_s" android:key="@string/arcane_tc_k" />
 </PreferenceScreen>

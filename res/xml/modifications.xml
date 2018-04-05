@@ -1,46 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="Modifications" android:key="@string/title_chat_settings"
+<PreferenceScreen android:title="@string/arcane_modifications"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
-	<arcane.Empty android:title="Info" />
-	<arcane.Version android:title="Kik Version" android:summary="12.0.0.19400" />
-    <arcane.Update android:title="Check for Update" kik:pref_divider="full_top|full_bottom" />
-	<arcane.Disclaimer android:title="Please Read This" kik:pref_divider="full_top|full_bottom" />
-	<arcane.Changelog android:title="ChangeLog" kik:pref_divider="full_top|full_bottom" />
-	<arcane.Version android:title="Arcane Version" android:summary="1.0" />
-	<arcane.Empty android:title="Appearance" />
-	<arcane.Toggle android:title="Square Incoming Messages" android:key="kinky.squareincom" android:summary="all incoming messages will be rectangular" />
-	<arcane.Toggle android:title="Square Outgoing Messages" android:key="kinky.squareoutgo" android:summary="all outgoing messages will be rectangular" />
-    <arcane.List android:entries="@array/kinky_colors" android:title="Change Incoming Text Color" android:key="kinky.incomingtext" android:summary="how your incoming messages text color appears" android:entryValues="@array/kinky_colors" />
-	<arcane.Empty android:title="Chat" />
-	<arcane.Toggle android:title="Fake Camera" android:summary="allows you to send gallery pics as live camera pics" android:key="kinky.fakecam" />
-	<arcane.Toggle android:title="Disable Typing" android:summary="other users will not be able to see when you are typing" android:key="kinky.typing" />
-	<arcane.List android:entries="@array/kinky_receipts" android:title="Read Receipts" android:key="kinky.receipt" android:summary="how your messages are perceived" android:entryValues="@array/kinky_receipts" />
-	<arcane.Toggle android:title="Voice Messages" android:summary="allows you to send voice messages" android:key="kinky.voice" />
-	<arcane.Toggle android:title="Gif Favorites" android:summary="enables favoriting Gifs" android:key="kinky.gif" />
-	<arcane.Toggle android:title="Disable Vid Chat" android:summary="disables video chatting toggle" android:key="kinky.vid" />
-	<arcane.Toggle android:title="Multi Photos" android:summary="allows you to send groups of photos from gallery" android:key="kinky.multi" />
-	<arcane.Empty android:title="Group Chat" />
-	<arcane.Toggle android:title="Enable Admin Badges" android:summary="puts badges on admin profile pictures in chat" android:key="kinky.admin" />
-	<arcane.Toggle android:title="Blur Media" android:summary="gallery pictures sent in groups will be blurred" android:key="kinky.blur" />
-	<arcane.Empty android:title="Media No Forward" />
-	<arcane.Toggle android:title="No Forward Voice Messages" android:summary="voice messages you send can't be forwarded by older versions of kik" android:key="kinky.forwardvoice" />
-	<arcane.Toggle android:title="No Forward Gifs" android:summary="gifs you send can't be forwarded" android:key="kinky.forwardgif" />
-	<arcane.Toggle android:title="No Forward Stickers" android:summary="stickers you send can't be forwarded" android:key="kinky.forwardsticker" />
-	<arcane.Toggle android:title="No Forward Gallery Pics" android:summary="pictures from the gallery can't be forwarded" android:key="kinky.forwardgalpic" />
-	<arcane.Toggle android:title="No Forward Camera Pics" android:summary="pictures taken from camera can't be forwarded" android:key="kinky.forwardcampic" />
-	<arcane.Toggle android:title="No Forward Gallery Videos" android:summary="videos from the gallery can't be forwarded" android:key="kinky.forwardvidgal" />
-	<arcane.Toggle android:title="No Forward All" android:summary="all the above are enabled" android:key="kinky.forward" />
-	<arcane.Empty android:title="Profile" />
-	<arcane.Toggle android:title="Days On Kik" android:summary="allows you to view how many days other users have been on kik" android:key="kinky.days" />
-	<arcane.Toggle android:title="Enable Bios" android:summary="enables editing your bio and viewing other user bios" android:key="kinky.bios" />
-	<arcane.Toggle android:title="Trophy Case" android:summary="enables trophy case at top of settings" android:key="kinky.trophy" />
-	<arcane.NewEmpty android:title="Other" />
-	<arcane.Toggle android:title="Disable New" android:summary="disables the new text on empty preferences" android:key="kinky.newmodz" />
-	<arcane.List android:entries="@array/kinky_modz_organizer" android:title="Modifications Organizer" android:key="kinky.modz" android:summary="allows you to choose how mods list looks" android:entryValues="@array/kinky_modz_organizer" />
-	<arcane.Toggle android:title="Thank You Toast" android:summary="enables the thanks for using arcane toast" android:key="kinky.toasty" />
-	<arcane.Toggle android:title="No Pull" android:summary="disables pull to search in conversations list" android:key="kinky.pull" />
-	<arcane.Toggle android:title="Privacy Mode" android:summary="hides conversations screen messages" android:key="kinky.private" />
-	<arcane.Toggle android:title="Do Not Disturb" android:summary="auto leaves groups you get added to" android:key="kinky.disturb" />
-	<arcane.Toggle android:title="Enable New Chat Reporting" android:summary="allows you to report new chats" android:key="kinky.newreport" />
-	<arcane.Tab android:title="Other Themes" kik:pref_icon="@xml/arcane_info_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/themes" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.NewEmpty android:title="@string/arcane_info" />
+	<arcane.Version android:title="@string/arcane_t_version" android:summary="@string/arcane_s_version" />
+    <arcane.Update android:title="@string/arcane_update" kik:pref_divider="full_top" />
+	<arcane.Disclaimer android:title="@string/arcane_disclaimer" kik:pref_divider="full_top" />
+	<arcane.Changelog android:title="@string/arcane_changelog" kik:pref_divider="full_top|full_bottom" />
+	<arcane.Version android:title="@string/arcane_version_t" android:summary="@string/arcane_version_s" />
+	<arcane.NewEmpty android:title="@string/arcane_appearance" />
+	<arcane.Toggle android:title="@string/arcane_insquare_t" android:key="@string/arcane_insquare_k" android:summary="@string/arcane_insquare_s" />
+	<arcane.Toggle android:title="@string/arcane_outsquare_t" android:key="@string/arcane_outsquare_k" android:summary="@string/arcane_outsquare_s" />
+    <arcane.List android:entries="@array/kinky_colors" android:title="@string/arcane_intext_t" android:key="@string/arcane_intext_k" android:summary="@string/arcane_intext_s" android:entryValues="@array/kinky_colors" />
+	<arcane.NewEmpty android:title="@string/arcane_chat" />
+	<arcane.Toggle android:title="@string/arcane_fakecam_t" android:summary="@string/arcane_fakecam_s" android:key="@string/arcane_fakecam_k" />
+	<arcane.Toggle android:title="@string/arcane_typing_t" android:summary="@string/arcane_typing_s" android:key="@string/arcane_typing_k" />
+	<arcane.List android:entries="@array/kinky_receipts" android:title="@string/arcane_receipts_t" android:key="@string/arcane_receipts_k" android:summary="@string/arcane_receipts_s" android:entryValues="@array/kinky_receipts" />
+	<arcane.Toggle android:title="@string/arcane_voice_t" android:summary="@string/arcane_voice_s" android:key="@string/arcane_voice_k" />
+	<arcane.Toggle android:title="@string/arcane_gif_t" android:summary="@string/arcane_gif_s" android:key="@string/arcane_gif_k" />
+	<arcane.Toggle android:title="@string/arcane_vid_t" android:summary="@string/arcane_vid_s" android:key="@string/arcane_vid_k" />
+	<arcane.Toggle android:title="@string/arcane_multi_t" android:summary="@string/arcane_multi_s" android:key="@string/arcane_multi_k" />
+	<arcane.NewEmpty android:title="@string/arcane_group_chat" />
+	<arcane.Toggle android:title="@string/arcane_ab_t" android:summary="@string/arcane_ab_s" android:key="@string/arcane_ab_k" />
+	<arcane.Toggle android:title="@string/arcane_bm_t" android:summary="@string/arcane_bm_s" android:key="@string/arcane_bm_k" />
+	<arcane.NewEmpty android:title="@string/arcane_profile" />
+	<arcane.Toggle android:title="@string/arcane_dok_t" android:summary="@string/arcane_dok_s" android:key="@string/arcane_dok_k" />
+	<arcane.Toggle android:title="@string/arcane_eb_t" android:summary="@string/arcane_eb_s" android:key="@string/arcane_eb_k" />
+	<arcane.Toggle android:title="@string/arcane_tc_t" android:summary="@string/arcane_tc_s" android:key="@string/arcane_tc_k" />
+	<arcane.NewEmpty android:title="@string/arcane_other" />
+	<arcane.Toggle android:title="@string/arcane_ds_t" android:summary="@string/arcane_ds_s" android:key="@string/arcane_ds_k" />
+	<arcane.List android:entries="@array/kinky_modz_organizer" android:title="@string/arcane_mo_t" android:key="@string/arcane_mo_k" android:summary="@string/arcane_mo_s" android:entryValues="@array/kinky_modz_organizer" />
+	<arcane.Toggle android:title="@string/arcane_ty_t" android:summary="@string/arcane_ty_s" android:key="@string/arcane_ty_k" />
+	<arcane.Toggle android:title="@string/arcane_np_t" android:summary="@string/arcane_np_s" android:key="@string/arcane_np_k" />
+	<arcane.Toggle android:title="@string/arcane_pm_t" android:summary="@string/arcane_pm_s" android:key="@string/arcane_pm_k" />
+	<arcane.Tab android:title="@string/arcane_other_themes" kik:pref_icon="@xml/arcane_info_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/themes" kik:topbar_alt_layout="@layout/kik_back_button" />
+	<arcane.Toggle android:title="@string/arcane_dnd_t" android:summary="@string/arcane_dnd_s" android:key="@string/arcane_dnd_k" />
+	<arcane.Toggle android:title="@string/arcane_ncr_t" android:summary="@string/arcane_ncr_s" android:key="@string/arcane_ncr_k" />
 </PreferenceScreen>
