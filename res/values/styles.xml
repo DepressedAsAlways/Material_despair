@@ -1156,9 +1156,9 @@
     <style name="FloatingActionButtonMenuItem">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="fab_colorNormal">@color/kinky_secondary_black</item>
+        <item name="fab_colorNormal">@color/fab_buttons</item>
         <item name="fab_colorPressed">@color/kinky_main</item>
-        <item name="fab_shadowColor">@color/trans</item>
+        <item name="fab_shadowColor">@color/fab_shadows</item>
         <item name="fab_size">mini</item>
         <item name="fab_showAnimation">@anim/slide_in_from_right_and_rotate</item>
         <item name="fab_hideAnimation">@anim/slide_out_to_right_and_rotate</item>
@@ -1426,6 +1426,7 @@
 		<item name="android:textColorPrimary">@color/kinky_main</item>
         <item name="android:autoLink">web</item>
         <item name="android:background">@color/kinky_window_background</item>
+		<item name="colorPrimary">@color/kinky_main</item>
     </style>
     <style name="KikAlertDialogBase" parent="@style/Theme.AppCompat.Dialog.Alert">
         <item name="android:textColorPrimary">@color/kinky_main</item>
@@ -1438,6 +1439,7 @@
         <item name="colorAccent">@color/kinky_main</item>
 		<item name="android:backgroundTint">@color/kinky_row_background</item>
         <item name="colorControlHighlight">@color/kinky_main</item>
+		<item name="colorPrimary">@color/kinky_main</item>
     </style>
     <style name="KikAlertDialogTitle">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
@@ -1525,7 +1527,7 @@
         <item name="android:layout_height">@dimen/emoji_status_circle_size_small</item>
         <item name="emojiSize">small</item>
     </style>
-    <style name="KikIndeterminateProgressDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+    <style name="KikIndeterminateProgressDialog" parent="@style/Theme.AppCompat.Dialog">
         <item name="android:background">@color/trans</item>
     </style>
     <style name="KikListView">
@@ -1577,7 +1579,7 @@
     <style name="KikTextView.CallToAction" parent="@style/KikTextView" />
     <style name="KikTextView.CallToAction.Description" parent="@style/KikTextView.CallToAction">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/kinky_grey_to_main</item>
+        <item name="android:textColor">@color/kinky_white_to_main</item>
         <item name="android:ellipsize">none</item>
     </style>
     <style name="KikTextView.CallToAction.Title" parent="@style/KikTextView.CallToAction">

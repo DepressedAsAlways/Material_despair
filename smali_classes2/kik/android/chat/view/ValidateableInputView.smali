@@ -603,7 +603,7 @@
     .line 255
     iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
-    const v1, 0x7f0e00d8
+    const v1, 0x7f0e0115
 
     invoke-static {p1, v1}, Landroid/support/v4/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -621,7 +621,7 @@
     .line 257
     iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
-    const v1, 0x7f0e00d8
+    const v1, 0x7f0e0115
 
     invoke-static {p1, v1}, Landroid/support/v4/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -2843,7 +2843,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e00df
+    const v2, 0x7f0e0111
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -2938,7 +2938,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e00df
+    const v2, 0x7f0e0111
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -3033,7 +3033,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0e00df
+    const v2, 0x7f0e0111
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

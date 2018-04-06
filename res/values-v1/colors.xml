@@ -4,9 +4,9 @@
 	<color name="fg">#ff0D47A1</color>
 	<color name="bg">#ff212121</color>
 	<color name="unf4giv9_downstate">#fff7f7f7</color>
-	<color name="kinky_main_dark">#fff57c00</color>
-	<color name="kinky_main">#ffff9800</color>
-	<color name="kinky_main_light">#ffffab40</color>
+	<color name="kinky_main_dark">#ff303f9f</color>
+	<color name="kinky_main">#ff3f51b5</color>
+	<color name="kinky_main_light">#ff3d5afe</color>
 	<color name="kinky_secondary_white">#ffffffff</color>
 	<color name="kinky_secondary_black">#ff000000</color>
 	<color name="kinky_secondary_light_grey">#ffcccccc</color>
@@ -18,4 +18,7 @@
 	<color name="kinky_divider">#ff1e1e1e</color>
 	<color name="kinky_smiley_pop_up">#cc000000</color>
 	<color name="trans">@android:color/transparent</color>
+	<color name="fab_buttons">#ff1d1d1d</color>
+	<color name="fab_shadows">#66212121</color>
+	<color name="chat_widgets_bar">#ff303030</color>
 </resources>

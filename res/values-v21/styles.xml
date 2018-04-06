@@ -266,7 +266,7 @@
     <style name="Base.V21.ThemeOverlay.AppCompat.Dialog" parent="@style/Base.V11.ThemeOverlay.AppCompat.Dialog">
         <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
-    <style name="KikDatePickerDialogTheme" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+    <style name="KikDatePickerDialogTheme" parent="@android:style/Theme.Material.Dialog.Alert">
         <item name="android:windowTitleStyle">@style/KikAlertDialogTitle</item>
 		<item name="android:background">@color/kinky_window_background</item>
 		<item name="android:textColorPrimary">@color/kinky_main</item>

@@ -2483,8 +2483,8 @@ full screen"</string>
 	<string name="arcane_ns_gv_s">"videos from the gallery can't be saved"</string>
 	<string name="arcane_ns_gv_k">"kinky.savegalvid"</string>
 	<string name="arcane_media_no_forward">"Media No Forward"</string>
-	<string name="arcane_nf_a_t">"No Forward All"</string>
-	<string name="arcane_nf_a_s">"all media content can't be forwarded"</string>
+	<string name="arcane_nf_a_t">"No Forward"</string>
+	<string name="arcane_nf_a_s">"others can't forward media you send"</string>
 	<string name="arcane_nf_a_k">"kinky.forward"</string>
 	<string name="arcane_nf_vm_t">"No Forward Voice Messages"</string>
 	<string name="arcane_nf_vm_s">"voice messages you send can't be forwarded by older versions of kik"</string>

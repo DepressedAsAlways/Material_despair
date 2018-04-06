@@ -24,12 +24,12 @@
 	<View android:background="@color/kinky_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/mod_tab" style="@style/PreferencesRow.Container">
         <ImageView android:src="@xml/kinky_mod_tab_icon_selector" style="@style/PreferencesRow.Icon" />
-        <kik.arcane.widget.RobotoTextView android:text="Modifications" style="@style/PreferencesRow.Title" />
+        <kik.arcane.widget.RobotoTextView android:text="@string/arcane_modifications" style="@style/PreferencesRow.Title" />
     </LinearLayout>
 	<View android:background="@color/kinky_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/dev_tab" style="@style/PreferencesRow.Container">
         <ImageView android:src="@xml/kinky_dev_tab_icon_selector" style="@style/PreferencesRow.Icon" />
-        <kik.arcane.widget.RobotoTextView android:text="Contributors" style="@style/PreferencesRow.Title" />
+        <kik.arcane.widget.RobotoTextView android:text="@string/arcane_contributors" style="@style/PreferencesRow.Title" />
     </LinearLayout>
     <View android:background="@color/kinky_divider" android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" />
     <LinearLayout android:id="@id/prefs_root_chat" style="@style/PreferencesRow.Container">

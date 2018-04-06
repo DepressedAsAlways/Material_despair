@@ -118,7 +118,7 @@
 
     move-result-object v0
 
-    const v3, 0x7f0e0069
+    const v3, 0x7f0e0117
 
     .line 1392
     invoke-static {v3}, Lkik/arcane/chat/KikApplication;->d(I)I

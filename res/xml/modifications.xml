@@ -16,6 +16,7 @@
 	<arcane.Toggle android:title="@string/arcane_typing_t" android:summary="@string/arcane_typing_s" android:key="@string/arcane_typing_k" />
 	<arcane.List android:entries="@array/kinky_receipts" android:title="@string/arcane_receipts_t" android:key="@string/arcane_receipts_k" android:summary="@string/arcane_receipts_s" android:entryValues="@array/kinky_receipts" />
 	<arcane.Toggle android:title="@string/arcane_voice_t" android:summary="@string/arcane_voice_s" android:key="@string/arcane_voice_k" />
+	<arcane.Toggle android:title="@string/arcane_nf_a_t" android:summary="@string/arcane_nf_a_s" android:key="@string/arcane_nf_a_k" />
 	<arcane.Toggle android:title="@string/arcane_gif_t" android:summary="@string/arcane_gif_s" android:key="@string/arcane_gif_k" />
 	<arcane.Toggle android:title="@string/arcane_vid_t" android:summary="@string/arcane_vid_s" android:key="@string/arcane_vid_k" />
 	<arcane.Toggle android:title="@string/arcane_multi_t" android:summary="@string/arcane_multi_s" android:key="@string/arcane_multi_k" />
