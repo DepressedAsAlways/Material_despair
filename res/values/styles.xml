@@ -1599,7 +1599,7 @@
     </style>
     <style name="KikTextView.ChatInfo.IconButton.Primary" parent="@style/KikTextView.ChatInfo.IconButton">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/kinky_title</item>
+        <item name="android:textColor">@color/kinky_main_to_black</item>
     </style>
     <style name="KikTextView.ChatInfo.IconButton.Secondary" parent="@style/KikTextView.ChatInfo.IconButton">
         <item name="android:textSize">14.0sp</item>
