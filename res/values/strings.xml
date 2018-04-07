@@ -2537,6 +2537,9 @@ full screen"</string>
 	<string name="arcane_ncr_t">"Enable New Chat Reporting"</string>
 	<string name="arcane_ncr_s">"allows you to report new chats"</string>
 	<string name="arcane_ncr_k">"kinky.newreport"</string>
+	<string name="arcane_pgn_t">"Change Public Group Notifications"</string>
+	<string name="arcane_pgn_s">"changes the mute chat button in public groups chat info"</string>
+	<string name="arcane_pgn_k">"kinky.pgnoti"</string>
 	<string name="arcane_contributors">"Contributors"</string>
 	<string name="arcane_designer">"Designer"</string>
 	<string name="arcane_queer_t">"Unf4giv9"</string>

@@ -36,4 +36,5 @@
 	<arcane.Tab android:title="@string/arcane_other_themes" kik:pref_icon="@xml/arcane_info_icon" kik:pref_divider="full_bottom|full_top" kik:preference_screen="@xml/themes" kik:topbar_alt_layout="@layout/kik_back_button" />
 	<arcane.Toggle android:title="@string/arcane_dnd_t" android:summary="@string/arcane_dnd_s" android:key="@string/arcane_dnd_k" />
 	<arcane.Toggle android:title="@string/arcane_ncr_t" android:summary="@string/arcane_ncr_s" android:key="@string/arcane_ncr_k" />
+	<arcane.Toggle android:title="@string/arcane_pgn_t" android:summary="@string/arcane_pgn_s" android:key="@string/arcane_pgn_k" />
 </PreferenceScreen>
